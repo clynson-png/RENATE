@@ -1,0 +1,1587 @@
+{
+  "schema": "RENATE_ADANA_CARD_IMPORT_AUDIT_V1",
+  "generatedAt": "2026-11-06T20:04:10.785Z",
+  "sourceSnapshot": "data/imports/adana_cards_2026-11-06/adana_competition_cards_v1.snapshot.json",
+  "sourceSchema": "ADANA_COMPETITION_CARDS_V1",
+  "standaloneInRenate": true,
+  "noRuntimeAdanaPathDependency": true,
+  "counts": {
+    "configuredEvents": 67,
+    "phaseCards": 31,
+    "equipmentCards": 3,
+    "uniqueAssets": 84,
+    "verifiedAssets": 84,
+    "verifiedBytes": 69871680,
+    "explicitlyHumanReviewedPhaseCards": 2,
+    "phaseCardsWithReviewStatusNotRecorded": 29,
+    "incompleteDefinitions": 1
+  },
+  "selectedSkinReference": {
+    "eventId": "wsps.event.p6",
+    "approvalState": "HUMAN_APPROVED",
+    "qualificationSlots": 17,
+    "finalSlots": 15,
+    "approvalEvidence": "governance/p6_cards_human_review_20261105.json"
+  },
+  "assets": [
+    {
+      "file": "ISSF_10m_Air_Rifle_Operation.svg",
+      "expectedSha256": "fafd2dd1729c6da8f00bfa38d05f68f070f60c1cc1d934df31ffece4d7864262",
+      "usedBy": [
+        "issf.event.01"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "fafd2dd1729c6da8f00bfa38d05f68f070f60c1cc1d934df31ffece4d7864262",
+      "bytes": 2387585,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ISSF_10m_Air_Rifle_Final.svg",
+      "expectedSha256": "32f12d6bec459fcc3f35986b13fa36a58983b6d232aedf1d05817d2a8bf246f0",
+      "usedBy": [
+        "issf.event.01"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "32f12d6bec459fcc3f35986b13fa36a58983b6d232aedf1d05817d2a8bf246f0",
+      "bytes": 5277,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 06_03_22-1.png",
+      "expectedSha256": "718c1eb15b96fb86d09b8029cc85a04ec73dddf7463eca434e9e534bffdb7d1e",
+      "usedBy": [
+        "issf.event.02",
+        "cbte.issf.carabina"
+      ],
+      "kinds": [
+        "event-image",
+        "event-image"
+      ],
+      "actualSha256": "718c1eb15b96fb86d09b8029cc85a04ec73dddf7463eca434e9e534bffdb7d1e",
+      "bytes": 2288190,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 06_03_26-2.png",
+      "expectedSha256": "b9e51ccf9a85c207e84196820824743fd7c2f3c0410b0765b7aeac8d6ab267e4",
+      "usedBy": [
+        "issf.event.03",
+        "issf.event.04",
+        "issf.event.05"
+      ],
+      "kinds": [
+        "event-image",
+        "event-image",
+        "event-image"
+      ],
+      "actualSha256": "b9e51ccf9a85c207e84196820824743fd7c2f3c0410b0765b7aeac8d6ab267e4",
+      "bytes": 2111815,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 06_03_29-3.png",
+      "expectedSha256": "93cdf1ae33c0c205799f74b5e64159fddccc08de6af3e820c4e26d416fee24da",
+      "usedBy": [
+        "issf.event.06",
+        "issf.event.10"
+      ],
+      "kinds": [
+        "event-image",
+        "event-image"
+      ],
+      "actualSha256": "93cdf1ae33c0c205799f74b5e64159fddccc08de6af3e820c4e26d416fee24da",
+      "bytes": 2301060,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 05_09_36.png",
+      "expectedSha256": "fdb7fb96dd3f4f5ee34cc8c72a67c4343d89799e51d021cfc4b3175e05e97e52",
+      "usedBy": [
+        "issf.event.07"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "fdb7fb96dd3f4f5ee34cc8c72a67c4343d89799e51d021cfc4b3175e05e97e52",
+      "bytes": 1609882,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 05_19_46.png",
+      "expectedSha256": "1089bcd7878b540861f3282f8a8a6185086522006488c58208215dd350be6b9a",
+      "usedBy": [
+        "issf.event.08"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "1089bcd7878b540861f3282f8a8a6185086522006488c58208215dd350be6b9a",
+      "bytes": 1524755,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 05_45_25.png",
+      "expectedSha256": "dcfdb9712110800497bd4a0422db9bedbdb029299488edc425e4ac6c189886ee",
+      "usedBy": [
+        "issf.event.09"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "dcfdb9712110800497bd4a0422db9bedbdb029299488edc425e4ac6c189886ee",
+      "bytes": 1793560,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 05_37_19.png",
+      "expectedSha256": "0295014a7fe065f84da6af912f8828de93e560a0207f80549855551426a1e9ee",
+      "usedBy": [
+        "issf.event.11"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "0295014a7fe065f84da6af912f8828de93e560a0207f80549855551426a1e9ee",
+      "bytes": 1807788,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 05_34_02.png",
+      "expectedSha256": "b082c76af8887f1a1518d6f91f14a40dedb9e9b4072104460c0ad2ba99858363",
+      "usedBy": [
+        "issf.event.12"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "b082c76af8887f1a1518d6f91f14a40dedb9e9b4072104460c0ad2ba99858363",
+      "bytes": 1764945,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 06_16_02-1.png",
+      "expectedSha256": "7a25b1429c67d0691dff62c18845a4b0f03aeb8ef12fcbf63a86facaf633024b",
+      "usedBy": [
+        "issf.event.13"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "7a25b1429c67d0691dff62c18845a4b0f03aeb8ef12fcbf63a86facaf633024b",
+      "bytes": 1743164,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 06_16_05-2.png",
+      "expectedSha256": "2e176f4659e4173de8fe1bb2545e4eecbb314329aa6764f4859dec7ddc887bca",
+      "usedBy": [
+        "issf.event.14"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "2e176f4659e4173de8fe1bb2545e4eecbb314329aa6764f4859dec7ddc887bca",
+      "bytes": 1818554,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 06_11_27.png",
+      "expectedSha256": "06ccb677ccd238c47d03c2e8e9481746e04e86b1cd0f08e51a9ec173f16e3f6e",
+      "usedBy": [
+        "issf.event.15",
+        "issf.event.16",
+        "issf.event.17",
+        "issf.event.18"
+      ],
+      "kinds": [
+        "event-image",
+        "event-image",
+        "event-image",
+        "event-image"
+      ],
+      "actualSha256": "06ccb677ccd238c47d03c2e8e9481746e04e86b1cd0f08e51a9ec173f16e3f6e",
+      "bytes": 2218008,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R1_10m_Air_Rifle_Qualification.svg",
+      "expectedSha256": "0fa90c962aa92847d0c05c57c564f73518d737bcb887f2fd1c9be11862fbc905",
+      "usedBy": [
+        "wsps.event.r1"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "0fa90c962aa92847d0c05c57c564f73518d737bcb887f2fd1c9be11862fbc905",
+      "bytes": 3607,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R2_10m_Air_Rifle_Qualification.svg",
+      "expectedSha256": "fe6afa839da67ba42e16b5ac3311064305eec66dcb2d2734ec7eb7f19fcdf007",
+      "usedBy": [
+        "wsps.event.r2"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "fe6afa839da67ba42e16b5ac3311064305eec66dcb2d2734ec7eb7f19fcdf007",
+      "bytes": 3583,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R3_Prone_Equipment.svg",
+      "expectedSha256": "bb2282e35111016cdd2a561787350222f7a11ddc5a741df73e6dd2843d0dc812",
+      "usedBy": [
+        "wsps.event.r3",
+        "WSPS_R3_PRONE_EQUIPMENT_V1"
+      ],
+      "kinds": [
+        "event-image",
+        "equipment-card"
+      ],
+      "actualSha256": "bb2282e35111016cdd2a561787350222f7a11ddc5a741df73e6dd2843d0dc812",
+      "bytes": 5050,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_R3_QUALIFICATION_PHASE_CARD.svg",
+      "expectedSha256": "b66103b75b2e5914ad7f22c92742ecc66f2bb175df5015220bbaa0d359f6adc6",
+      "usedBy": [
+        "wsps.event.r3:qualification"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "b66103b75b2e5914ad7f22c92742ecc66f2bb175df5015220bbaa0d359f6adc6",
+      "bytes": 2100,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_R3_FINAL_PHASE_CARD.svg",
+      "expectedSha256": "ab41f6c37c387976fd32f450dd5369d5eead0358b95253a3e1d002b07dd2e5b4",
+      "usedBy": [
+        "wsps.event.r3:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "ab41f6c37c387976fd32f450dd5369d5eead0358b95253a3e1d002b07dd2e5b4",
+      "bytes": 2082,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R4_10m_Air_Rifle_Seated_Fork.svg",
+      "expectedSha256": "8b4d6f56e15edef00953c4a3a16c3019edea98dbeb6649a55db23cf40601da99",
+      "usedBy": [
+        "wsps.event.r4",
+        "wsps.event.r4:qualification"
+      ],
+      "kinds": [
+        "event-image",
+        "phase-card"
+      ],
+      "actualSha256": "8b4d6f56e15edef00953c4a3a16c3019edea98dbeb6649a55db23cf40601da99",
+      "bytes": 2808136,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R4_10m_Air_Rifle_Final.svg",
+      "expectedSha256": "008ba35dbc57cf8d3653494688b766de0a04beea8c94bf0319c3161296d63efd",
+      "usedBy": [
+        "wsps.event.r4:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "008ba35dbc57cf8d3653494688b766de0a04beea8c94bf0319c3161296d63efd",
+      "bytes": 4286,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 08_33_47-7.png",
+      "expectedSha256": "fc556522e7fd1e9073c651f60489b2681f18ce1580262d4af025a902f9dc26e0",
+      "usedBy": [
+        "wsps.event.r5"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "fc556522e7fd1e9073c651f60489b2681f18ce1580262d4af025a902f9dc26e0",
+      "bytes": 1818865,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+      "expectedSha256": "4d771c16a3120025d5c9a332dccfbcfdd108935e7a99169c2fb967a2bcee3900",
+      "usedBy": [
+        "wsps.event.r5:qualification",
+        "wsps.event.r5:final"
+      ],
+      "kinds": [
+        "phase-card",
+        "phase-card"
+      ],
+      "actualSha256": "4d771c16a3120025d5c9a332dccfbcfdd108935e7a99169c2fb967a2bcee3900",
+      "bytes": 2038498,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R6_50m_Rifle_Prone_Qualification.svg",
+      "expectedSha256": "f1c84f1777fb09597227cd9377677c3c2633135b3944d75ae5271422bcfdf7c6",
+      "usedBy": [
+        "wsps.event.r6",
+        "wsps.event.r6:qualification"
+      ],
+      "kinds": [
+        "event-image",
+        "phase-card"
+      ],
+      "actualSha256": "f1c84f1777fb09597227cd9377677c3c2633135b3944d75ae5271422bcfdf7c6",
+      "bytes": 4083,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R6_50m_Rifle_Prone_Final.svg",
+      "expectedSha256": "67320b6faf51bd7d745c9f2ca8a6857698a4d555a4dcd60f1c73f39c646fd258",
+      "usedBy": [
+        "wsps.event.r6:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "67320b6faf51bd7d745c9f2ca8a6857698a4d555a4dcd60f1c73f39c646fd258",
+      "bytes": 4967,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R7_50m_Rifle_3Positions_Qualification.svg",
+      "expectedSha256": "de100fdaf6ae5a101d1671834d5ec15b2f01bd9704ed5eb84ed5de694dbb8bfc",
+      "usedBy": [
+        "wsps.event.r7",
+        "wsps.event.r7:qualification"
+      ],
+      "kinds": [
+        "event-image",
+        "phase-card"
+      ],
+      "actualSha256": "de100fdaf6ae5a101d1671834d5ec15b2f01bd9704ed5eb84ed5de694dbb8bfc",
+      "bytes": 4647,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R7_50m_Rifle_3Positions_Final.svg",
+      "expectedSha256": "864bd111f3dfe1d4712307c306d5e47f352dd638ff7172c6ca6b1b2f047ed89e",
+      "usedBy": [
+        "wsps.event.r7:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "864bd111f3dfe1d4712307c306d5e47f352dd638ff7172c6ca6b1b2f047ed89e",
+      "bytes": 5120,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R8_50m_Rifle_3Positions_Qualification.svg",
+      "expectedSha256": "e64e506bd45a3a5580f4f14f67984b373919fcc124f61cf9d17966b3f68fc1aa",
+      "usedBy": [
+        "wsps.event.r8",
+        "wsps.event.r8:qualification"
+      ],
+      "kinds": [
+        "event-image",
+        "phase-card"
+      ],
+      "actualSha256": "e64e506bd45a3a5580f4f14f67984b373919fcc124f61cf9d17966b3f68fc1aa",
+      "bytes": 4646,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R8_50m_Rifle_3Positions_Final.svg",
+      "expectedSha256": "41f3e6d5e589bd1674476425719ce0c386b10f3f86b4d8f8d1671db526232361",
+      "usedBy": [
+        "wsps.event.r8:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "41f3e6d5e589bd1674476425719ce0c386b10f3f86b4d8f8d1671db526232361",
+      "bytes": 5119,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 08_33_44-6.png",
+      "expectedSha256": "1849fa79c2d4c8dd3f2453b2c1cab12ce16064055163c1ea13304c8a0851928e",
+      "usedBy": [
+        "wsps.event.r9"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "1849fa79c2d4c8dd3f2453b2c1cab12ce16064055163c1ea13304c8a0851928e",
+      "bytes": 1768793,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R9_50m_Rifle_Prone_Qualification.svg",
+      "expectedSha256": "95998e08d23093c0d241a4397e4b2faccf2d1dfd86d02a425cad1bc48df606b4",
+      "usedBy": [
+        "wsps.event.r9:qualification"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "95998e08d23093c0d241a4397e4b2faccf2d1dfd86d02a425cad1bc48df606b4",
+      "bytes": 2975,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R9_50m_Rifle_Prone_Final.svg",
+      "expectedSha256": "cb7a9c559e292cd7115f7cadaedfc27fe26e51a31430e133787fc7203225e829",
+      "usedBy": [
+        "wsps.event.r9:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "cb7a9c559e292cd7115f7cadaedfc27fe26e51a31430e133787fc7203225e829",
+      "bytes": 4037,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R10_10m_Air_Rifle_Mixed_Qualification.svg",
+      "expectedSha256": "c26ac1a3865948bf0171c08c6055dd13604e547184ec029cfb8575b0516c9087",
+      "usedBy": [
+        "wsps.event.r10",
+        "wsps.event.r10:qualification"
+      ],
+      "kinds": [
+        "event-image",
+        "phase-card"
+      ],
+      "actualSha256": "c26ac1a3865948bf0171c08c6055dd13604e547184ec029cfb8575b0516c9087",
+      "bytes": 3802,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R10_10m_Air_Rifle_Mixed_Final.svg",
+      "expectedSha256": "26c01c825419df23fc93b72ff56014fddebd7dc92f0ae90c8745cd1ca7b18dcd",
+      "usedBy": [
+        "wsps.event.r10:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "26c01c825419df23fc93b72ff56014fddebd7dc92f0ae90c8745cd1ca7b18dcd",
+      "bytes": 4297,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 08_44_57-1.png",
+      "expectedSha256": "42140b056813747818a265079bfbdbd1915a457634b21e63981f341af2813239",
+      "usedBy": [
+        "wsps.event.r11"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "42140b056813747818a265079bfbdbd1915a457634b21e63981f341af2813239",
+      "bytes": 2182901,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_R11_QUALIFICATION_PHASE_CARD.svg",
+      "expectedSha256": "5066f804ea107dfefb4de6e6f21ac7cd14a2d5e3702208eaa4465950661fc9f2",
+      "usedBy": [
+        "wsps.event.r11:qualification"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "5066f804ea107dfefb4de6e6f21ac7cd14a2d5e3702208eaa4465950661fc9f2",
+      "bytes": 3649,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_R11_FINAL_PHASE_CARD.svg",
+      "expectedSha256": "29f1f8742eda18748e5b379c2a2a3c6ab572b6a1dc64cb811c08ab46db9f2ca3",
+      "usedBy": [
+        "wsps.event.r11:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "29f1f8742eda18748e5b379c2a2a3c6ab572b6a1dc64cb811c08ab46db9f2ca3",
+      "bytes": 3655,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 06_36_07-1.png",
+      "expectedSha256": "71a7a21c99c4f17635eef0797fc949ead6b5f86e13b4e6b0620f54d735c2e5c8",
+      "usedBy": [
+        "wsps.event.p1",
+        "wsps.event.p2"
+      ],
+      "kinds": [
+        "event-image",
+        "event-image"
+      ],
+      "actualSha256": "71a7a21c99c4f17635eef0797fc949ead6b5f86e13b4e6b0620f54d735c2e5c8",
+      "bytes": 2332067,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P1_QUALIFICATION_PHASE_CARD_V2.svg",
+      "expectedSha256": "fb029681b12e1fa0d55e9a91a2a9842ad56d3a6fb5e0f97ec42c5f53c28c7e93",
+      "usedBy": [
+        "wsps.event.p1:qualification"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "fb029681b12e1fa0d55e9a91a2a9842ad56d3a6fb5e0f97ec42c5f53c28c7e93",
+      "bytes": 2690,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+      "expectedSha256": "4249d13ce11855dad8b2673dc7a7e7e01aa219d29b3a05f01b7df802f0be3edf",
+      "usedBy": [
+        "wsps.event.p1:qualification",
+        "wsps.event.p1:final",
+        "wsps.event.p5:qualification"
+      ],
+      "kinds": [
+        "card-background",
+        "card-background",
+        "card-background"
+      ],
+      "actualSha256": "4249d13ce11855dad8b2673dc7a7e7e01aa219d29b3a05f01b7df802f0be3edf",
+      "bytes": 2046378,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P1_FINAL_PHASE_CARD_V2.svg",
+      "expectedSha256": "b933353205295fa887ef9977d7913ce55695a4f13805d0af0ea64382058fc40f",
+      "usedBy": [
+        "wsps.event.p1:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "b933353205295fa887ef9977d7913ce55695a4f13805d0af0ea64382058fc40f",
+      "bytes": 2951,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P2_QUALIFICATION_PHASE_CARD_V2.svg",
+      "expectedSha256": "c79f492b865d0fb2b349a69aca91e8eeb2994eafbbc114ba4ebd6f3f58094cf8",
+      "usedBy": [
+        "wsps.event.p2:qualification"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "c79f492b865d0fb2b349a69aca91e8eeb2994eafbbc114ba4ebd6f3f58094cf8",
+      "bytes": 2688,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_P2_AIR_PISTOL_ILLUSTRATION.png",
+      "expectedSha256": "e6cd9f9b9d0100dd81a53efd49ce973c0053fe15a70afad9c449755516c9cf44",
+      "usedBy": [
+        "wsps.event.p2:qualification",
+        "wsps.event.p2:final"
+      ],
+      "kinds": [
+        "card-background",
+        "card-background"
+      ],
+      "actualSha256": "e6cd9f9b9d0100dd81a53efd49ce973c0053fe15a70afad9c449755516c9cf44",
+      "bytes": 2097790,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P2_FINAL_PHASE_CARD_V2.svg",
+      "expectedSha256": "f4081e787329ea81bed5700d8e63b0dc86f9776eb11141c1704be68731f53dcb",
+      "usedBy": [
+        "wsps.event.p2:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "f4081e787329ea81bed5700d8e63b0dc86f9776eb11141c1704be68731f53dcb",
+      "bytes": 2949,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 06_41_24-1.png",
+      "expectedSha256": "00ddfe8e7b9bd954db799b43a15d3cacc860ef00c7fdae83c1a77d7af81c85be",
+      "usedBy": [
+        "wsps.event.p3",
+        "wsps.event.p3:qualification",
+        "wsps.event.p3:final"
+      ],
+      "kinds": [
+        "event-image",
+        "card-background",
+        "card-background"
+      ],
+      "actualSha256": "00ddfe8e7b9bd954db799b43a15d3cacc860ef00c7fdae83c1a77d7af81c85be",
+      "bytes": 1745871,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P3_QUALIFICATION_PHASE_CARD_V1.svg",
+      "expectedSha256": "66364c58d94bb2a4b637063774209b4959ffd59d1fbb3be620676a54313373fa",
+      "usedBy": [
+        "wsps.event.p3:qualification"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "66364c58d94bb2a4b637063774209b4959ffd59d1fbb3be620676a54313373fa",
+      "bytes": 1882,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P3_FINAL_PHASE_CARD_V1.svg",
+      "expectedSha256": "4b26f382b099a75960cdbea64d18d94d433541e786e75997cd7d3c4df033ba2c",
+      "usedBy": [
+        "wsps.event.p3:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "4b26f382b099a75960cdbea64d18d94d433541e786e75997cd7d3c4df033ba2c",
+      "bytes": 1886,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_P4_PARALYMPIC_RANGE_ILLUSTRATION.png",
+      "expectedSha256": "0c4ab6b6bb5de5a3849c6389e52267dee9c8a48c206fc69fc8fc8a5aec3abde2",
+      "usedBy": [
+        "wsps.event.p4",
+        "wsps.event.p4:qualification",
+        "wsps.event.p4:final"
+      ],
+      "kinds": [
+        "event-image",
+        "card-background",
+        "card-background"
+      ],
+      "actualSha256": "0c4ab6b6bb5de5a3849c6389e52267dee9c8a48c206fc69fc8fc8a5aec3abde2",
+      "bytes": 2305901,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+      "expectedSha256": "4dc84b1efd5aba356c9bc99eebd0fa27a9b163e6c353cd76a23c229dc0c2d5a8",
+      "usedBy": [
+        "wsps.event.p4:qualification"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "4dc84b1efd5aba356c9bc99eebd0fa27a9b163e6c353cd76a23c229dc0c2d5a8",
+      "bytes": 2285,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P4_FINAL_PHASE_CARD_V1.svg",
+      "expectedSha256": "f8b3afe68e656614d6eff32ccf3e392ba08914b6935f4bdbad00f6e70850b3aa",
+      "usedBy": [
+        "wsps.event.p4:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "f8b3afe68e656614d6eff32ccf3e392ba08914b6935f4bdbad00f6e70850b3aa",
+      "bytes": 2175,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_P5_Qualification.svg",
+      "expectedSha256": "9d80a2d0271b0b24ce02cccac7267a2adae9557a0f7469d3ce5140b11451b811",
+      "usedBy": [
+        "wsps.event.p5",
+        "wsps.event.p5:qualification"
+      ],
+      "kinds": [
+        "event-image",
+        "phase-card"
+      ],
+      "actualSha256": "9d80a2d0271b0b24ce02cccac7267a2adae9557a0f7469d3ce5140b11451b811",
+      "bytes": 3070,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_P5_No_Final.svg",
+      "expectedSha256": "6141a1eb73083b0dad384998a8d019f87e8d7bafdfd08666c398d4706a871944",
+      "usedBy": [
+        "wsps.event.p5:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "6141a1eb73083b0dad384998a8d019f87e8d7bafdfd08666c398d4706a871944",
+      "bytes": 1427,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 05_49_36.png",
+      "expectedSha256": "b3e35b58cacaff7dbd52ee70bae26ec3f33ea54fceea81980874512f87fea5dc",
+      "usedBy": [
+        "wsps.event.p6"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "b3e35b58cacaff7dbd52ee70bae26ec3f33ea54fceea81980874512f87fea5dc",
+      "bytes": 2019726,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P6_QUALIFICATION_PHASE_CARD_V2.svg",
+      "expectedSha256": "3512925e336af0392489317004cb1a1bf1c282febb70f46eb386399517fa2593",
+      "usedBy": [
+        "wsps.event.p6:qualification"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "3512925e336af0392489317004cb1a1bf1c282febb70f46eb386399517fa2593",
+      "bytes": 4787,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_P6_MIXED_AIR_PISTOL_ILLUSTRATION.png",
+      "expectedSha256": "3b7b8019b3ee4c407f8b25c7f9220cf895005c030a5a10d5330ce85027e56822",
+      "usedBy": [
+        "wsps.event.p6:qualification",
+        "wsps.event.p6:final"
+      ],
+      "kinds": [
+        "card-background",
+        "card-background"
+      ],
+      "actualSha256": "3b7b8019b3ee4c407f8b25c7f9220cf895005c030a5a10d5330ce85027e56822",
+      "bytes": 2225508,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_WSPS_EVENT_P6_FINAL_PHASE_CARD_V2.svg",
+      "expectedSha256": "0089f7d8602763ce11c6811e362b3d4cc64dca6ab16379b2496922905b202729",
+      "usedBy": [
+        "wsps.event.p6:final"
+      ],
+      "kinds": [
+        "phase-card"
+      ],
+      "actualSha256": "0089f7d8602763ce11c6811e362b3d4cc64dca6ab16379b2496922905b202729",
+      "bytes": 4770,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 08_50_09.png",
+      "expectedSha256": "5e2d47d41f3efce4a773f2bebb09aa8a9e595eeeb9ea4833d328a613250fa6fb",
+      "usedBy": [
+        "wsps.event.pt1",
+        "wsps.event.pt2",
+        "wsps.event.pt3"
+      ],
+      "kinds": [
+        "event-image",
+        "event-image",
+        "event-image"
+      ],
+      "actualSha256": "5e2d47d41f3efce4a773f2bebb09aa8a9e595eeeb9ea4833d328a613250fa6fb",
+      "bytes": 2086828,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 08_56_45.png",
+      "expectedSha256": "1e2a72a79a7ea403aba7e0576089d9b9383d65681e018cf38fc408e42975a1d5",
+      "usedBy": [
+        "wsps.event.vis",
+        "wsps.event.vip"
+      ],
+      "kinds": [
+        "event-image",
+        "event-image"
+      ],
+      "actualSha256": "1e2a72a79a7ea403aba7e0576089d9b9383d65681e018cf38fc408e42975a1d5",
+      "bytes": 2137535,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "a_detailed_infographic_poster_with_a_clean_bold_d.png",
+      "expectedSha256": "5dfb460b75a1499be2e9b34c88994b5a979473d8cc27c7b30e048571aa17da23",
+      "usedBy": [
+        "cbte.cma.10m"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "5dfb460b75a1499be2e9b34c88994b5a979473d8cc27c7b30e048571aa17da23",
+      "bytes": 1849500,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 10_57_11-4.png",
+      "expectedSha256": "11ad75bfee0200018bf24704e3de6e4ca4a9e49cf2c41b108649b6d142e4b544",
+      "usedBy": [
+        "cbte.cma.25m"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "11ad75bfee0200018bf24704e3de6e4ca4a9e49cf2c41b108649b6d142e4b544",
+      "bytes": 1956627,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 10_57_05-2.png",
+      "expectedSha256": "d158ce4844148b2806699c00a972aeccf5dc91e9cc6646622b7b2abb64cb342c",
+      "usedBy": [
+        "cbte.cma.50m"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "d158ce4844148b2806699c00a972aeccf5dc91e9cc6646622b7b2abb64cb342c",
+      "bytes": 1985732,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 11_12_39-6.png",
+      "expectedSha256": "8bc137fb3b152dec017883db010825334c73bbce62ab21949c1cbca2033a3540",
+      "usedBy": [
+        "cbte.duelo.25m"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "8bc137fb3b152dec017883db010825334c73bbce62ab21949c1cbca2033a3540",
+      "bytes": 1841377,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png",
+      "expectedSha256": "b608c1360b0b11a83f740dd9ddb00ab34d744ea647873ccfdf298ba5e647eb4d",
+      "usedBy": [
+        "cbte.duelo.10m"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "b608c1360b0b11a83f740dd9ddb00ab34d744ea647873ccfdf298ba5e647eb4d",
+      "bytes": 1874735,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "DISCIPLINE_CARD_CMP_SPORTER_OVERVIEW.svg",
+      "expectedSha256": "acac443f2f1c44d8577e9d138743b0e6566ec23e7d66c77c2bb8cc0ecd5b1bd1",
+      "usedBy": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "acac443f2f1c44d8577e9d138743b0e6566ec23e7d66c77c2bb8cc0ecd5b1bd1",
+      "bytes": 4949,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 10_19_18.png",
+      "expectedSha256": "38d84d11fcdc66d238fcdc0f0587f57cf12e69b06809581fda3f1882bf349177",
+      "usedBy": [
+        "cbte.fclass.centerfire"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "38d84d11fcdc66d238fcdc0f0587f57cf12e69b06809581fda3f1882bf349177",
+      "bytes": 2316908,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_F-Class_Rimfire_2026-01.svg",
+      "expectedSha256": "9b7f9fb53494e05de661c6b771a8c53faa5059bbece1671943ce62ed8ef3d7b9",
+      "usedBy": [
+        "cbte.fclass.rimfire"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "9b7f9fb53494e05de661c6b771a8c53faa5059bbece1671943ce62ed8ef3d7b9",
+      "bytes": 5569,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Carabina_Field_Target_2025.svg",
+      "expectedSha256": "cf2566258ac2eb0e0c847925bf3b45220125b088b22d6dda2cd60d9c17e550fc",
+      "usedBy": [
+        "cbte.field_target"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "cf2566258ac2eb0e0c847925bf3b45220125b088b22d6dda2cd60d9c17e550fc",
+      "bytes": 4960,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WRABF_International_Target_and_Bench_Card.svg",
+      "expectedSha256": "556d0bc21c18cc59ab760a748e44f83a3594aee35d79387996ff2e189c95f2f2",
+      "usedBy": [
+        "cbte.wrabf.rifle_international"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "556d0bc21c18cc59ab760a748e44f83a3594aee35d79387996ff2e189c95f2f2",
+      "bytes": 5549,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 05_54_24-4.png",
+      "expectedSha256": "1cba15e619f2160aa3c260e30f97b126b54efdad7080cce3cd030074ca5cbdb5",
+      "usedBy": [
+        "cbte.issf.pistola"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "1cba15e619f2160aa3c260e30f97b126b54efdad7080cce3cd030074ca5cbdb5",
+      "bytes": 2131741,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "Imagem do ChatGPT 29 de set. de 2026, 09_00_43-2.png",
+      "expectedSha256": "b450b1872b8aee2b2b579cd79d0a29a0f3012bdf0a62ec6c69e0bc878ef2ef7a",
+      "usedBy": [
+        "cbte.wsps.program"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "b450b1872b8aee2b2b579cd79d0a29a0f3012bdf0a62ec6c69e0bc878ef2ef7a",
+      "bytes": 2044832,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Fossa_Olimpica_Trap_2026.svg",
+      "expectedSha256": "ea28fdc79dd937f08d15af89d4c33cc4ab4fe1a44faead10c15f3dfa3e45756f",
+      "usedBy": [
+        "cbte.shotgun.issf"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "ea28fdc79dd937f08d15af89d4c33cc4ab4fe1a44faead10c15f3dfa3e45756f",
+      "bytes": 3161,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Provas_Nacionais_Light.svg",
+      "expectedSha256": "d78fb2b01136dec68b23cbf1f0ab5b100bdbc334d91bebce8aa0c3374a0b1293",
+      "usedBy": [
+        "cbte.national_light"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "d78fb2b01136dec68b23cbf1f0ab5b100bdbc334d91bebce8aa0c3374a0b1293",
+      "bytes": 2261,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Carabina_NRA_Rifle_Esporte_2025.svg",
+      "expectedSha256": "8a5e6f51bcb3519006b87902dfc226ab7e4696449e51ad573533ed006306fef2",
+      "usedBy": [
+        "cbte.nra"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "8a5e6f51bcb3519006b87902dfc226ab7e4696449e51ad573533ed006306fef2",
+      "bytes": 4471,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Fossa_Automatica_layout_2020.png",
+      "expectedSha256": "84e0d71e1ed7ba136905277cf35932dbcb2fcc3f1afb53a56ec28a3e98f35d5c",
+      "usedBy": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "84e0d71e1ed7ba136905277cf35932dbcb2fcc3f1afb53a56ec28a3e98f35d5c",
+      "bytes": 320426,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Skeet_Light_2026.svg",
+      "expectedSha256": "9d55c318ea321aeb807ae3aed03a2cb65a21b99eb7877d2fb42fc3f297d13175",
+      "usedBy": [
+        "cbte.shotgun.trap_light"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "9d55c318ea321aeb807ae3aed03a2cb65a21b99eb7877d2fb42fc3f297d13175",
+      "bytes": 5199,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Tiro_ao_Prato_Olimpico_Light.svg",
+      "expectedSha256": "472fb5bbee7496da2a83088dce707a2581532eaa2ccf32011d5c680fc6b7f110",
+      "usedBy": [
+        "cbte.shotgun.trap_light"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "472fb5bbee7496da2a83088dce707a2581532eaa2ccf32011d5c680fc6b7f110",
+      "bytes": 2881,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Trap_Nacional_2026.svg",
+      "expectedSha256": "e608541479a483375d815f6eb5cbef8318331249bbc540f03816e4cb66306984",
+      "usedBy": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "e608541479a483375d815f6eb5cbef8318331249bbc540f03816e4cb66306984",
+      "bytes": 4303,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Trap_Nacional_25_2024.svg",
+      "expectedSha256": "555c327c014ca5dceabc71903e83e952e24c962909a4490097f0f85c7484c400",
+      "usedBy": [
+        "cbte.shotgun.trap_nacional_25_2024"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "555c327c014ca5dceabc71903e83e952e24c962909a4490097f0f85c7484c400",
+      "bytes": 3453,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "CBTE_Trap_Nacional_50_2024.svg",
+      "expectedSha256": "1c4a3e2f9ac50a710ad7f88cc9e8c392ac509ef67c55de838abb1b998a5943fc",
+      "usedBy": [
+        "cbte.shotgun.trap_nacional_50_2024"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "1c4a3e2f9ac50a710ad7f88cc9e8c392ac509ef67c55de838abb1b998a5943fc",
+      "bytes": 3532,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R1_10m_Air_Rifle_Final.svg",
+      "expectedSha256": "fe7ff4360ec0c42e58029371d7e0ac8b76392b4d95a6f2fd7e5b71eb9cb84c68",
+      "usedBy": [
+        "wsps.event.r1"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "fe7ff4360ec0c42e58029371d7e0ac8b76392b4d95a6f2fd7e5b71eb9cb84c68",
+      "bytes": 4813,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R1_Shooting_Supports.svg",
+      "expectedSha256": "cde41f07a71cc389840651e3ef11f4856b0e87425756ee5e08aa451b10c5e1b9",
+      "usedBy": [
+        "wsps.event.r1"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "cde41f07a71cc389840651e3ef11f4856b0e87425756ee5e08aa451b10c5e1b9",
+      "bytes": 4070,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R2_10m_Air_Rifle_Final.svg",
+      "expectedSha256": "3d8c581d213596fbfb5eb869d641ce69db3f4dd964f5b2b156e3b98914fe01cf",
+      "usedBy": [
+        "wsps.event.r2"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "3d8c581d213596fbfb5eb869d641ce69db3f4dd964f5b2b156e3b98914fe01cf",
+      "bytes": 4780,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R2_Shooting_Supports.svg",
+      "expectedSha256": "5b319be5ff68cb02a364910aa516f9d883ee2f22f7e94e84263e9a2625856a36",
+      "usedBy": [
+        "wsps.event.r2"
+      ],
+      "kinds": [
+        "event-image"
+      ],
+      "actualSha256": "5b319be5ff68cb02a364910aa516f9d883ee2f22f7e94e84263e9a2625856a36",
+      "bytes": 4019,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "WSPS_R3_Air_Rifle_Equipment.svg",
+      "expectedSha256": "63a2aa509dba74d0e168dba56994cc8bc931a0cf077d72e0a64026892422d049",
+      "usedBy": [
+        "WSPS_R3_AIR_RIFLE_EQUIPMENT_V1"
+      ],
+      "kinds": [
+        "equipment-card"
+      ],
+      "actualSha256": "63a2aa509dba74d0e168dba56994cc8bc931a0cf077d72e0a64026892422d049",
+      "bytes": 379214,
+      "state": "HASH_VERIFIED"
+    },
+    {
+      "file": "ADANA_Shotgun_Trap_Skeet_Dimensoes.svg",
+      "expectedSha256": "733c94ef0cbf853ad8ca27e610189f950b2c36a4d3984c5828b25fc66fe8f715",
+      "usedBy": [
+        "SHOTGUN_TRAP_SKEET_DIMENSIONS_V1"
+      ],
+      "kinds": [
+        "equipment-card"
+      ],
+      "actualSha256": "733c94ef0cbf853ad8ca27e610189f950b2c36a4d3984c5828b25fc66fe8f715",
+      "bytes": 7973,
+      "state": "HASH_VERIFIED"
+    }
+  ],
+  "phaseCards": [
+    {
+      "cardId": "wsps.event.r3:qualification",
+      "eventId": "wsps.event.r3",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Prone",
+      "phase": "qualification",
+      "asset": "ADANA_WSPS_EVENT_R3_QUALIFICATION_PHASE_CARD.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 1,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r3:final",
+      "eventId": "wsps.event.r3",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Prone",
+      "phase": "final",
+      "asset": "ADANA_WSPS_EVENT_R3_FINAL_PHASE_CARD.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 1,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r4:qualification",
+      "eventId": "wsps.event.r4",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Standing R4",
+      "phase": "qualification",
+      "asset": "WSPS_R4_10m_Air_Rifle_Seated_Fork.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 0,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r4:final",
+      "eventId": "wsps.event.r4",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Standing R4",
+      "phase": "final",
+      "asset": "WSPS_R4_10m_Air_Rifle_Final.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 1,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r5:qualification",
+      "eventId": "wsps.event.r5",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Prone R5",
+      "phase": "qualification",
+      "asset": "WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 0,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r5:final",
+      "eventId": "wsps.event.r5",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Prone R5",
+      "phase": "final",
+      "asset": "WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 0,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r6:qualification",
+      "eventId": "wsps.event.r6",
+      "authority": "WSPS",
+      "event": "50m Rifle Prone R6 · Open SH1",
+      "phase": "qualification",
+      "asset": "WSPS_R6_50m_Rifle_Prone_Qualification.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r6:final",
+      "eventId": "wsps.event.r6",
+      "authority": "WSPS",
+      "event": "50m Rifle Prone R6 · Open SH1",
+      "phase": "final",
+      "asset": "WSPS_R6_50m_Rifle_Prone_Final.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r6:both",
+      "eventId": "wsps.event.r6",
+      "authority": "WSPS",
+      "event": "50m Rifle Prone R6 · Open SH1",
+      "phase": "both",
+      "asset": null,
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 0,
+      "structuredSlots": 0,
+      "assetState": "MISSING_ASSET_DEFINITION",
+      "runtimeStatus": "NOT_READY_ASSET_INTEGRITY"
+    },
+    {
+      "cardId": "wsps.event.r7:qualification",
+      "eventId": "wsps.event.r7",
+      "authority": "WSPS",
+      "event": "50m Rifle 3 Positions R7 · Masculino · SH1",
+      "phase": "qualification",
+      "asset": "WSPS_R7_50m_Rifle_3Positions_Qualification.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r7:final",
+      "eventId": "wsps.event.r7",
+      "authority": "WSPS",
+      "event": "50m Rifle 3 Positions R7 · Masculino · SH1",
+      "phase": "final",
+      "asset": "WSPS_R7_50m_Rifle_3Positions_Final.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 3,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r8:qualification",
+      "eventId": "wsps.event.r8",
+      "authority": "WSPS",
+      "event": "50m Rifle 3 Positions R8 · Feminino · SH1",
+      "phase": "qualification",
+      "asset": "WSPS_R8_50m_Rifle_3Positions_Qualification.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r8:final",
+      "eventId": "wsps.event.r8",
+      "authority": "WSPS",
+      "event": "50m Rifle 3 Positions R8 · Feminino · SH1",
+      "phase": "final",
+      "asset": "WSPS_R8_50m_Rifle_3Positions_Final.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 3,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r9:qualification",
+      "eventId": "wsps.event.r9",
+      "authority": "WSPS",
+      "event": "50m Rifle Prone R9",
+      "phase": "qualification",
+      "asset": "WSPS_R9_50m_Rifle_Prone_Qualification.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 1,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r9:final",
+      "eventId": "wsps.event.r9",
+      "authority": "WSPS",
+      "event": "50m Rifle Prone R9",
+      "phase": "final",
+      "asset": "WSPS_R9_50m_Rifle_Prone_Final.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r10:qualification",
+      "eventId": "wsps.event.r10",
+      "authority": "WSPS",
+      "event": "Mixed Team 10m Air Rifle Prone R10",
+      "phase": "qualification",
+      "asset": "WSPS_R10_10m_Air_Rifle_Mixed_Qualification.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 1,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r10:final",
+      "eventId": "wsps.event.r10",
+      "authority": "WSPS",
+      "event": "Mixed Team 10m Air Rifle Prone R10",
+      "phase": "final",
+      "asset": "WSPS_R10_10m_Air_Rifle_Mixed_Final.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r11:qualification",
+      "eventId": "wsps.event.r11",
+      "authority": "WSPS",
+      "event": "Mixed Team 10m Air Rifle Prone SH2",
+      "phase": "qualification",
+      "asset": "ADANA_WSPS_EVENT_R11_QUALIFICATION_PHASE_CARD.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.r11:final",
+      "eventId": "wsps.event.r11",
+      "authority": "WSPS",
+      "event": "Mixed Team 10m Air Rifle Prone SH2",
+      "phase": "final",
+      "asset": "ADANA_WSPS_EVENT_R11_FINAL_PHASE_CARD.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 3,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p1:qualification",
+      "eventId": "wsps.event.p1",
+      "authority": "WSPS",
+      "event": "Pistola de ar 10 m — masculina SH1",
+      "phase": "qualification",
+      "asset": "ADANA_WSPS_EVENT_P1_QUALIFICATION_PHASE_CARD_V2.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 1,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p1:final",
+      "eventId": "wsps.event.p1",
+      "authority": "WSPS",
+      "event": "Pistola de ar 10 m — masculina SH1",
+      "phase": "final",
+      "asset": "ADANA_WSPS_EVENT_P1_FINAL_PHASE_CARD_V2.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p2:qualification",
+      "eventId": "wsps.event.p2",
+      "authority": "WSPS",
+      "event": "10m Air Pistol",
+      "phase": "qualification",
+      "asset": "ADANA_WSPS_EVENT_P2_QUALIFICATION_PHASE_CARD_V2.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 1,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p2:final",
+      "eventId": "wsps.event.p2",
+      "authority": "WSPS",
+      "event": "10m Air Pistol",
+      "phase": "final",
+      "asset": "ADANA_WSPS_EVENT_P2_FINAL_PHASE_CARD_V2.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p3:qualification",
+      "eventId": "wsps.event.p3",
+      "authority": "WSPS",
+      "event": "25m Pistol",
+      "phase": "qualification",
+      "asset": "ADANA_WSPS_EVENT_P3_QUALIFICATION_PHASE_CARD_V1.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 3,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p3:final",
+      "eventId": "wsps.event.p3",
+      "authority": "WSPS",
+      "event": "25m Pistol",
+      "phase": "final",
+      "asset": "ADANA_WSPS_EVENT_P3_FINAL_PHASE_CARD_V1.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 3,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p4:qualification",
+      "eventId": "wsps.event.p4",
+      "authority": "WSPS",
+      "event": "50m Pistol",
+      "phase": "qualification",
+      "asset": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 2,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p4:final",
+      "eventId": "wsps.event.p4",
+      "authority": "WSPS",
+      "event": "50m Pistol",
+      "phase": "final",
+      "asset": "ADANA_WSPS_EVENT_P4_FINAL_PHASE_CARD_V1.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 4,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p5:qualification",
+      "eventId": "wsps.event.p5",
+      "authority": "WSPS",
+      "event": "10m Air Pistol Standard",
+      "phase": "qualification",
+      "asset": "WSPS_P5_Qualification.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 3,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p5:final",
+      "eventId": "wsps.event.p5",
+      "authority": "WSPS",
+      "event": "10m Air Pistol Standard",
+      "phase": "final",
+      "asset": "WSPS_P5_No_Final.svg",
+      "sourceReviewState": "NOT_RECORDED_IN_SOURCE_CATALOG",
+      "sourceReferences": 1,
+      "structuredSlots": 0,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "IMPORTED_REVIEW_STATUS_NOT_RECORDED"
+    },
+    {
+      "cardId": "wsps.event.p6:qualification",
+      "eventId": "wsps.event.p6",
+      "authority": "WSPS",
+      "event": "Equipe mista de pistola de ar 10 m — SH1",
+      "phase": "qualification",
+      "asset": "ADANA_WSPS_EVENT_P6_QUALIFICATION_PHASE_CARD_V2.svg",
+      "sourceReviewState": "APPROVED_BY_HUMAN",
+      "sourceReferences": 2,
+      "structuredSlots": 17,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "READY_HUMAN_APPROVED"
+    },
+    {
+      "cardId": "wsps.event.p6:final",
+      "eventId": "wsps.event.p6",
+      "authority": "WSPS",
+      "event": "Equipe mista de pistola de ar 10 m — SH1",
+      "phase": "final",
+      "asset": "ADANA_WSPS_EVENT_P6_FINAL_PHASE_CARD_V2.svg",
+      "sourceReviewState": "APPROVED_BY_HUMAN",
+      "sourceReferences": 2,
+      "structuredSlots": 15,
+      "assetState": "HASH_VERIFIED",
+      "runtimeStatus": "READY_HUMAN_APPROVED"
+    }
+  ],
+  "missingDefinitions": [
+    {
+      "cardId": "wsps.event.r6:both",
+      "eventId": "wsps.event.r6",
+      "phase": "both",
+      "status": "MISSING_ASSET_DEFINITION"
+    }
+  ]
+}

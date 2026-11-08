@@ -1,0 +1,51 @@
+{
+  "scope": "Source-grounded corrections for nine historical non-pertinent Q&A cases. Existing IDs, questions, route IDs, and ordering are preserved.",
+  "event_question_alias_targets": {
+    "RENATE:TIE:CBTE-ISSF-CARABINA:14F6678A8F:A01": "RENATE:TIE:ISSF-EVENT-01:B69BDC0696:A01",
+    "RENATE:TIE:CBTE-ISSF-CARABINA:D987292EFD:A01": "RENATE:TIE:ISSF-EVENT-02:EEC7D61885:A01",
+    "RENATE:TIE:CBTE-ISSF-CARABINA:8317338E36:A01": "RENATE:TIE:ISSF-EVENT-03:7390C41A2F:A01",
+    "RENATE:TIE:CBTE-ISSF-CARABINA:EEB5BD5D08:A01": "RENATE:TIE:ISSF-EVENT-04:A451574162:A01",
+    "RENATE:TIE:CBTE-ISSF-CARABINA:D1ED19AF6A:A01": "RENATE:TIE:ISSF-EVENT-05:B729FBF13B:A01",
+    "RENATE:TIE:CBTE-ISSF-CARABINA:92CA2A6A6C:A01": "RENATE:TIE:ISSF-EVENT-06:B7E7F03087:A01",
+    "RENATE:TIE:CBTE-ISSF-PISTOLA:B766CB5C4E:A01": "RENATE:TIE:ISSF-EVENT-07:99E9805321:A01",
+    "RENATE:TIE:CBTE-ISSF-PISTOLA:B2B9A79D3C:A01": "RENATE:TIE:ISSF-EVENT-08:AE1F94DCE7:A01",
+    "RENATE:TIE:CBTE-ISSF-PISTOLA:908D45374C:A01": "RENATE:TIE:ISSF-EVENT-09:C2E4622522:A01",
+    "RENATE:TIE:CBTE-ISSF-PISTOLA:CA9B37654A:A01": "RENATE:TIE:ISSF-EVENT-11:59360998E3:A01",
+    "RENATE:TIE:CBTE-ISSF-PISTOLA:16E9015DF7:A01": "RENATE:TIE:ISSF-EVENT-12:A2525DD595:A01",
+    "RENATE:TIE:CBTE-ISSF-PISTOLA:A403E6CC51:A01": "ISSF:ISSF-194:A01"
+  },
+  "issf_source": {
+    "source_id": "ADANA-SRC-2A79B10E08375DE1",
+    "document_source_id": "ADANA-SRC-2A79B10E08375DE1",
+    "edition": "Edition 2025; Third Print 10/2026; effective 19 October 2026",
+    "locators_by_id": {
+      "ISSF:ISSF-084:A02": ["9.14.1.1"],
+      "ISSF:ISSF-204:A02": ["9.9.2.4(a)", "9.9.2.4(b)"],
+      "ISSF:ISSF-211:A01": ["6.4.19.1"],
+      "ISSF:ISSF-212:A01": ["6.4.19.1", "9.9.1", "9.9.2.3"],
+      "ISSF:ISSF-234:A02": ["9.7.4", "9.7.5"],
+      "ISSF:ISSF-242:A01": ["9.17.4.2"],
+      "ISSF:ISSF-243:A01": ["9.17.4.2"],
+      "ISSF:ISSF-247:A01": ["9.14.1.1", "9.17.4.3"]
+    }
+  },
+  "answer_updates": {
+    "ISSF:ISSF-084:A02": "Para a qualificação que define as vagas da final, os empates entre 1º e 8º lugares são decididos por shoot-off; empates a partir do 9º lugar seguem o countback previsto na regra. (9.14.1.1)",
+    "ISSF:ISSF-204:A02": "Depende da estação: na estação 8, carrega-se apenas um cartucho por alvo simples; na estação 4, quando há dois alvos simples, carregam-se dois cartuchos antes do primeiro. (9.9.2.4 a-b)",
+    "ISSF:ISSF-211:A01": "O campo de Skeet tem duas casas de lançamento — alta e baixa — e oito estações de tiro. (6.4.19.1)",
+    "ISSF:ISSF-212:A01": "O percurso usa as estações 1 a 7 no arco e a estação 8 junto ao centro da corda; na estação 8, o atleta atira primeiro no alvo da casa alta e depois no da casa baixa. (6.4.19.1; 9.9.2.3)",
+    "ISSF:ISSF-234:A02": "O alvo é HIT quando é regular e pelo menos um fragmento visível se desprende após o tiro; se não for atingido ou houver apenas poeira sem fragmento visível, é LOST. A decisão final cabe ao árbitro. (9.7.4–9.7.5)",
+    "ISSF:ISSF-242:A01": "Sim. A final individual de Skeet começa com oito finalistas. (9.17.4.2)",
+    "ISSF:ISSF-243:A01": "A regra define a classificação da qualificação como base para o Finals Start Number (1 a 8); a final é disputada em uma sequência própria de alvos e eliminações. Não há previsão de somar o resultado da qualificação à pontuação da final. (9.17.4.2)",
+    "ISSF:ISSF-247:A01": "Para as vagas da final, empates entre 1º e 8º lugares na qualificação são decididos por shoot-off (9.14.1.1). Já na final de Skeet, empates do 3º ao 8º lugar são resolvidos pelo Start Number; empate pelo ouro ou prata leva a shoot-off imediato (9.17.4.3).",
+    "CBTE:CBTE-ARB-012:A03": "A prova consiste em 20 disparos e tem duração de 25 minutos. (Regulamento CBTE — Carabina Mira Aberta 50 m, 02/01/2025, II.f.2–II.f.3, p. 3)",
+    "CBTE:CBTE-ARB-083:A03": "A prova consiste em 20 disparos e tem duração de 25 minutos. (Regulamento CBTE — Carabina Mira Aberta 50 m, 02/01/2025, II.f.2–II.f.3, p. 3)"
+  },
+  "cbte_source": {
+    "source_id": "ADANA-SRC-FC0B85254F843237",
+    "document_source_id": "ADANA-SRC-FC0B85254F843237",
+    "edition": "02/01/2025",
+    "locators": ["II.f.2", "II.f.3", "p. 3"],
+    "atlas_ids": ["CBTE:CBTE-ARB-012:A03", "CBTE:CBTE-ARB-083:A03"]
+  }
+}

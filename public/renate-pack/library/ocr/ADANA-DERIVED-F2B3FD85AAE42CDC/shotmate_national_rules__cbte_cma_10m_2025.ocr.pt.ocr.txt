@@ -1,0 +1,213 @@
+TRANSLATION_STATUS: PASSTHROUGH_INTERNAL_ONLY
+TRANSLATION_LANGUAGE: pt-BR
+TRANSLATION_MODEL: NONE
+SOURCE_RELATIVE_PATH: regras/nacional/shotmate_national_rules__cbte_cma_10m_2025.ocr.txt
+SOURCE_SHA256: f2b3fd85aae42cdcff439ef80cc48fed2d7b8b50d5961baa2ab10bd0596c484f
+SOURCE_REMAINS_AUTHORITATIVE: true
+
+DOCUMENT TITLE: Carabina Mira Aberta 10 m
+
+SOURCE PDF: docs/Library/Regulamentos_2026/Regulamento-CMA-10m-03012025.pdf
+
+DOCUMENT EDITION: Atualizado em 03/01/2025
+
+SOURCE YEAR: 2025
+
+RULE AUTHORITY: CBTE
+--- PAGE 1 ---
+
+CARABINA MIRA ABERTA 10m
+
+      REGULAMENTO
+
+      Atualizado em 03/01/2025
+[IMAGE/DIAGRAM PAGE: embedded text is partial; visual contents require image reading.]
+
+--- PAGE 2 ---
+
+Confederação Brasileira de Tiro Esportivo
+                                                            Carabina Mira Aberta 10m
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 03/01/2025
+
+I- Finalidade
+   Regulamentar a prova de Carabina Mira Aberta 10m no âmbito da Confederação Brasileira de Tiro Esportivo.
+
+II- Descrição da Prova
+   a) Distância
+      10 (dez) metros.
+
+   b) Alvo
+     De pistola de ar da ISSF.
+
+    Em locais com disponibilidade de alvo eletrônico, desde que devidamente homologado, será permitido seu uso.
+
+    c) Posição
+     De pé, sem nenhum tipo de apoio ou suporte. A sustentação da arma se dará com ambas as mãos e o ombro. Um dos
+      cotovelos poderá estar apoiado no quadril.
+
+       Obs.: 1 -  Para a categoria infanto-juvenil (até o ano em que completa 11 anos de idade) será permitido o apoio conforme
+                   especificações abaixo:
+
+            2 - O atleta infanto-juvenil poderá ter auxílio de terceiro (LOADER), exclusivamente para armar a carabina e zelar
+                  pela segurança, não podendo tocar no equipamento durante o disparo ou oferecer orientação durante a prova.
+
+                                                                                    2
+
+--- PAGE 3 ---
+
+Confederação Brasileira de Tiro Esportivo
+                                                          Carabina Mira Aberta 10m
+                                                                             REGULAMENTO
+                                                                                             Atualizado em 03/01/2025
+
+d) Arma
+    1. Serão permitidas todas as armas longas que contenham as seguintes especificações:
+
+       1.1.   Calibre 4,5mm e Cano basculante;
+
+       1.2.   Miras abertas sem nenhum tipo de aparelho ótico;
+
+       1.3.  A alça de mira deve ficar obrigatoriamente à frente da posição do gatilho. Considera-se para este efeito o ponto de
+             inserção do gatilho no mecanismo;
+
+       1.4.   Poderão ter filamento de fibra ótica na Maça e na Alça de Mira;
+
+       1.5.  O acionamento pode ser por mola metálica em espiral ou pelo sistema de mola pneumática, como o Gás RAM.
+
+       1.6.  Armas com peso com de até 5,4 (cinco vírgula quatro) Kg, incluindo as miras. (o peso poderá ser original da arma
+           ou complementado, desde que tal complemento se restrinja à parte interna da coronha).
+
+    2. Não será permitido:
+       2.1.  Armas olímpicas, mesmo que tenham sido adaptadas.
+
+       2.2.   Acessórios de armas olímpicas.
+
+       2.3.   Modificações ou adaptações que alterem as características originais da arma: uso de contrapesos de cano,
+            contrapesos externos na coronha, freio de boca, compensador, garfo, apoio do rosto   ajustável,   elevador   do
+            apoio do rosto, qualquer tipo de apoio para mão sob a coronha, tubo prolongador do cano/maça de mira, coronha
+              olímpica.
+
+             Obs.:  ponteira de cano ou “cocking lever” não se confunde com compensador, “air stripper” ou prolongador de
+                   cano. Ver Regulamento Dimensional de Carabinas.
+
+                  Compensador ou “Air Stripper”                    Compensador                       Ponteira ou "cocking lever"
+                         Uso vedado                            Uso vedado                        Uso Permitido
+
+       2.5.   Soleira com regulagem horizontal e angular.  Caso este equipamento conste na arma (original ou adaptada), a
+         mesma deverá ser alinhada e fixada, permitido ajuste exclusivamente de altura.
+
+       2.6.   Fitas adesivas, fita grip ou emborrachada, esparadrapos, silicone, lixas, pintura "bate-pedra" ou qualquer material
+           que venha a aumentar a aderência da mão ou corpo do atleta em qualquer parte da arma.
+
+       2.7.   Para fins de manutenção, será aceita a utilização de componentes similares aos originais em forma e função.
+
+    3. Serão permitidos:
+       3.1. Alça de mira com ajuste micrométrico, mesmo que adaptada de qualquer outra arma.
+
+                                                                                 3
+
+--- PAGE 4 ---
+
+Confederação Brasileira de Tiro Esportivo
+                                                          Carabina Mira Aberta 10m
+                                                                             REGULAMENTO
+                                                                                             Atualizado em 03/01/2025
+       3.2. Túnel de massa de mira com insertes do tipo torre ou pino. Ajustes na altura da alça serão permitidos para efeito de
+           alinhamento à massa com túnel, respeitado os limites constantes do Regulamento Dimensional de Carabinas  -
+           Provas Nacionais ou em gabarito disponibilizado no site da CBTE.
+
+       3.3. Zigrinado em qualquer parte da coronha ou telha.
+
+       3.4. Coronha de madeira ou polímero com perfil de caça ou sporter, conforme Regulamento Dimensional de Carabinas -
+           Provas Nacionais. Ajustes de comprimento de coronha ou soleira, para maior ou menor serão permitidos, respeitados
+           os limites constantes no mesmo regulamento ou em gabarito disponibilizado no site da CBTE.
+
+e) Equipamento
+    1. Não será permitido o uso de bancada móvel para descanso da arma no intervalo do tiro.
+
+    2. Não será permitido o uso de calça de tiro, botas de tiro ou que cubram o tornozelo (maléolo), casaco de tiro, bandoleira,
+      qualquer tipo de luva ou munhequeira, bem como qualquer outro tipo de vestimenta utilizada em provas olímpicas ou
+     que facilite o tiro, como jaqueta jeans, de couro ou similares. Agasalhos esportivos são permitidos desde que estejam
+        visíveis os punhos do atleta.
+
+    3. O uso de luneta de observação ou câmera para gravação de imagem sobre a bancada é permitido, desde que sem
+      comunicação externa e que não atrapalhe outro atleta.
+
+    4. Óculos de tiro são permitidos, porém deverão seguir as regras da ISSF.
+
+f)  Competição
+    1. Ensaio
+    Um alvo de ensaio com número de tiros livre, dentro do tempo de prova.
+
+    2. Prova
+      10 (dez) séries de 3 (três) tiros em 10 (dez) alvos de prova, perfazendo 30 (trinta) disparos no total. Opcionalmente, a
+        critério do organizador local, poderá ser reduzido para 6 (seis) séries de 5 (cinco) tiros em 6 (seis) alvos de prova,
+      mantendo-se os 30 (trinta) disparos no total. Nas etapas do Provas On-line o organizador local poderá adotar o mesmo
+        critério para todos os atletas ou critérios diferentes para classes diferentes. Para as Provas Presenciais, a CBTE poderá
+      adotar número menor de disparos por alvo para todas ou apenas uma classe.
+
+      Disparos involuntários ou que não atinjam o alvo serão contados como zero.
+
+      Após o primeiro disparo de prova, o alvo de ensaio não poderá mais retornar ao transportador, exceto em caso de pane
+     que envolva troca de posto ou equipamento.
+
+                                                                                 4
+
+--- PAGE 5 ---
+
+Confederação Brasileira de Tiro Esportivo
+                                                            Carabina Mira Aberta 10m
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 03/01/2025
+       3. Tempo
+        35 (trinta e cinco) minutos para o ensaio e prova.
+
+          Obs.: 1 - Todos os alvos, inclusive Ensaio, deverão ser numerados e rubricados pela direção ou árbitro da prova. A
+                    rubrica poderá ser substituída por carimbo específico da direção ou árbitro.
+
+              2 - Os alvos serão entregues ao atleta imediatamente antes do tempo de preparação, que deverá conferir
+                 numeração e quantidade.
+
+              3 - Não é permitido qualquer objeto alheio à prova sobre a bancada. Uma flanela ou toalha é permitida, desde que
+                   inspecionada previamente pelo árbitro.
+
+       4. Pontuação especial
+        Os tiros que atingirem o centro olímpico (X) terão o valor de 12 (doze) pontos.
+
+    g) Comandos
+     ■  "Seu tempo de 3 minutos de preparação começará a partir de agora"
+     ■  "Começar"
+     ■  "Prova encerrada – armas em segurança"
+
+       Obs.: 1 - Armas em segurança significa: abertas e descarregadas sobre a bancada (com a utilização de safety flag ou fio de
+                cor viva em sua câmara) ou em seus invólucros.
+
+           2 - Não é permitido o municiamento durante o tempo de preparação.
+
+           3 - Durante o Tempo de Preparação o atleta poderá fazer visada no alvo de ensaio e fazer disparo em seco (sem
+                munição).
+
+           4 - Encerrada a prova, o atleta deverá conferir novamente a numeração e quantidade de seus alvos antes de serem
+                 recolhidos pela arbitragem.
+
+   h) Falhas de munição ou de arma
+      Serão consideradas como zero, se não solucionadas no tempo destinado à prova.
+
+     i)  Tiro cruzado
+      Serão considerados como zero. O atleta que atingir o alvo de outro concorrente, quando identificado, será penalizado em 2
+       (dois) pontos, não podendo repetir o próprio disparo. Na impossibilidade de se identificar qual é o tiro cruzado, será
+     computado o valor mais alto, cabendo ao atleta que desejar que não lhe seja atribuído um impacto em seu alvo informar
+      imediatamente ao árbitro.
+
+     j)  Apuração
+     Os alvos serão apurados no estande de tiro, sempre que possível, ao final da prova.
+
+    k) Penalização para tiros dados a mais.
+      Serão computados os impactos mais baixos de cada alvo e aplicada uma penalização de menos 2 (dois) pontos no total.
+
+Observação
+Casos omissos serão resolvidos segundo princípios do Regulamento do Campeonato Brasileiro de Carabina, Pistola e Rifle CBTE e
+Regulamento Geral de Carabina e Pistola da ISSF, nesta ordem.
+
+                                                                                    5

@@ -1,0 +1,11 @@
+test_cards_contain_requested_facts_and_source_bindings (__main__.P4CardPassTests.test_cards_contain_requested_facts_and_source_bindings) ... ok
+test_compound_overview_delivers_both_cards_at_once (__main__.P4CardPassTests.test_compound_overview_delivers_both_cards_at_once) ... ok
+test_explicit_qualification_only_stays_single_phase (__main__.P4CardPassTests.test_explicit_qualification_only_stays_single_phase) ... ok
+test_final_tiebreak_case_accepts_the_final_card (__main__.P4CardPassTests.test_final_tiebreak_case_accepts_the_final_card) ... ok
+test_focused_case_accepts_both_cards_as_the_delivery (__main__.P4CardPassTests.test_focused_case_accepts_both_cards_as_the_delivery) ... ok
+test_gate_preserves_a_pending_qwen_handoff (__main__.P4CardPassTests.test_gate_preserves_a_pending_qwen_handoff) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.012s
+
+OK

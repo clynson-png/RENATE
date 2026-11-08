@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">WSPS R1 — qualificação, atleta adaptado em cadeira de rodas</title>
+<desc id="desc">Card da qualificação WSPS R1: homens SH1, 60 tiros, 10 metros e tempos WSPS. Ilustração de para-atleta em cadeira de rodas.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071d2d"/><stop offset="1" stop-color="#0b1520"/></linearGradient>
+ <linearGradient id="lime"><stop stop-color="#c8ff4d"/><stop offset="1" stop-color="#82df4d"/></linearGradient>
+ <style>text{font-family:Arial,sans-serif}.label{fill:#42d7e5;font-size:18px;font-weight:700;letter-spacing:2px}.body{fill:#e8f1f4;font-size:22px}.muted{fill:#a9c2cc;font-size:17px}.value{fill:#c8ff4d;font-size:34px;font-weight:800}.small{fill:#d9e8ed;font-size:15px}</style>
+ <clipPath id="photo"><rect x="48" y="238" width="458" height="337" rx="18"/></clipPath>
+</defs>
+<rect width="1200" height="900" rx="30" fill="url(#bg)"/><rect x="14" y="14" width="1172" height="872" rx="25" fill="none" stroke="#19c9db" stroke-width="3"/>
+<text x="52" y="62" fill="#4adbe8" font-size="20" font-weight="700" letter-spacing="4">WSPS • R1 • RULEBOOK 2026 • QUALIFICAÇÃO</text>
+<text x="52" y="124" fill="url(#lime)" font-size="48" font-weight="800">CARABINA DE AR 10 m</text>
+<text x="54" y="164" fill="#d4e4ea" font-size="23">R1 • Homens • Classe esportiva SH1 • atleta adaptado</text>
+<rect x="40" y="194" width="474" height="402" rx="22" fill="#102b3a" stroke="#315a6e" stroke-width="2"/><text x="62" y="226" class="label">ATLETA ADAPTADO • CADEIRA DE RODAS</text>
+<image x="48" y="238" width="458" height="337" preserveAspectRatio="xMidYMid meet" href="WSPS_R1_Adaptive_Wheelchair_Shooter.png" xlink:href="WSPS_R1_Adaptive_Wheelchair_Shooter.png"/>
+<text x="58" y="586" class="small">Ilustração visual de para-atleta em cadeira de rodas; não representa atleta identificado.</text>
+<rect x="538" y="194" width="622" height="402" rx="22" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="570" y="238" class="label">FORMATO DA QUALIFICAÇÃO</text><text x="570" y="298" class="value">60 tiros de competição</text>
+<text x="570" y="340" class="body">Prova individual • distância de 10 m</text><path d="M570 366h548" stroke="#315a6e" stroke-width="2"/>
+<text x="570" y="405" class="label">TEMPO DE PROVA</text><text x="570" y="450" class="body">1h15 • alvos eletrônicos</text>
+<text x="570" y="484" class="body">1h30 • porta-alvos / poço operado</text><text x="570" y="536" class="muted">R1: masculino • SH1 • 60 disparos</text>
+<rect x="40" y="620" width="1120" height="192" rx="22" fill="#0e2735" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="659" class="label">PONTUAÇÃO DA QUALIFICAÇÃO</text><text x="66" y="703" class="body">A escala depende do sistema e do formato aplicável:</text>
+<text x="66" y="748" class="value" font-size="28">60 × 10 = 600</text><text x="388" y="748" class="muted">pontuação integral</text>
+<text x="650" y="748" class="value" font-size="28">60 × 10,9 = 654</text><text x="930" y="748" class="muted">pontuação decimal</text>
+<text x="66" y="784" class="small">R1 fixa tiros e tempos; a regra ISSF aplicável define a escala. Máximos são cálculos condicionais.</text>
+<text x="52" y="850" fill="#c4d9e1" font-size="16">Fonte: WSPS Technical Rules 2026, 4.1.3, p. 39; ISSF Third Print 10/2026, 6.3.3.1–6.3.3.2.</text>
+</svg>

@@ -1,0 +1,2432 @@
+
+> renate@1.0.0 pretest:browser
+> npm run build
+
+
+> renate@1.0.0 prebuild
+> npm run pack:local
+
+
+> renate@1.0.0 pack:local
+> node scripts/build_local_pack.mjs
+
+{
+  "state": "PASS",
+  "atlasQna": 960,
+  "pretestPassResponses": 13,
+  "documents": 21,
+  "pdfs": 21,
+  "ocrFiles": 40,
+  "ruleChunks": 14674,
+  "standardizedCards": 30,
+  "importedPhaseCards": 31,
+  "importedEquipmentCards": 3,
+  "importedCardAssets": 84,
+  "existingRenateEligibleCards": 4,
+  "explicitlyApprovedImportedCards": 2,
+  "importedCardsWithoutRecordedReviewPresentedAsVisuals": 24,
+  "archivedLegacyCards": 32,
+  "figureCrops": 33,
+  "bytes": {
+    "pdfs": 125397131,
+    "ocrs": 5056735,
+    "cardPhotos": 20093202,
+    "importedCardAssets": 69871680,
+    "figureCrops": 9971303
+  },
+  "packageSha256": "60171673782cfec825eeb52c773fb6112792c0b8b11b9a2b47b4b34962cddd67",
+  "output": "public/renate-pack/"
+}
+
+> renate@1.0.0 build
+> vite build && node scripts/generate_sw.mjs
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 55 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                             0.69 kB │ gzip:     0.39 kB
+dist/assets/atlasSearch.worker-CNcGBg8k.js                 64.02 kB
+dist/assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm  21,596.02 kB │ gzip: 5,087.10 kB
+dist/assets/index-CiQbZegB.css                             21.94 kB │ gzip:     5.32 kB
+dist/assets/index-CyOIJ4qy.js                             253.44 kB │ gzip:    79.62 kB │ map: 1,121.02 kB
+dist/assets/transformers.web-BCBo6odQ.js                  866.97 kB │ gzip:   227.65 kB │ map: 3,306.18 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.81s
+{
+  "service_worker": "dist/sw.js",
+  "cache_version": "cf06c81530c0047e",
+  "precache_entries": 267,
+  "precache_bytes": 339196564
+}
+
+> renate@1.0.0 test:browser
+> node scripts/run_browser_acceptance.mjs
+
+{
+  "search": {
+    "state": "PASS",
+    "passed": 960,
+    "failed": 0
+  },
+  "presentation": {
+    "state": "PASS",
+    "cases": 960,
+    "answerMatches": 960,
+    "sourceSetMatches": 960,
+    "expectedRuleLocatorSetsMatch": 960,
+    "localRulePassagesWithCorrectPDFOCRHashesAndHeaders": 960,
+    "casesWithApplicableConfiguredCard": 45,
+    "casesWithExpectedConfiguredCardAndLocalPhoto": 45,
+    "casesActuallyPresentingConfiguredCard": 45,
+    "casesWithApplicableFigure": 812,
+    "casesWithApplicableFigureCropAndValidSourceHash": 812,
+    "requiredFigureCases": 9,
+    "requiredFigureFailures": [],
+    "configuredRulePageCrops": 33,
+    "cropFigureIds": [
+      "wsps-p4-events-table-p11",
+      "wsps-p5-specifications-table-p34",
+      "wsps-appendix5-sh2-support-spring-overview-p24",
+      "wsps-appendix5-spring-flexibility-p26",
+      "wsps-appendix5-spring-test-bar-p27",
+      "issf-rifle-measurements-p327",
+      "issf-shooting-shoes-p333",
+      "issf-shooting-jacket-p335",
+      "issf-shooting-trousers-p337",
+      "issf-pistol-grips-p355",
+      "issf-pistol-specifications-table-p375",
+      "cbte-cma-10m-attachments-p3",
+      "cbte-cma-10m-sights-p4",
+      "cbte-cma-25m-three-target-layout-p2",
+      "cbte-duelo-25m-pistol-grip-examples-p4",
+      "cbte-duelo-10m-pistol-grip-examples-p6",
+      "cbte-duelo-25m-rapid-target-p2",
+      "cbte-duelo-10m-precision-target-p2",
+      "issf-target-300m-rifle-p195",
+      "issf-target-50m-rifle-p196",
+      "issf-target-10m-air-rifle-p197",
+      "issf-target-25m-rapid-pistol-p198",
+      "issf-target-25m-precision-pistol-p199",
+      "issf-target-10m-air-pistol-p200",
+      "issf-target-50m-moving-target-p201",
+      "issf-target-10m-moving-target-p203",
+      "issf-clay-target-p206",
+      "issf-clothing-stiffness-measurement-device-p228",
+      "issf-shoe-sole-flexibility-device-p229",
+      "wsps-appendix4-trigger-extension-examples-p22",
+      "wsps-appendix4-trigger-adaptation-examples-p23",
+      "wsps-appendix5-sh2-upper-support-dimensions-p25",
+      "wsps-appendix5-sh2-rifle-yoke-configuration-p28"
+    ],
+    "caseResultsPath": "/docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-06.json",
+    "figurePages": "Locally rendered crops cover CBTE CMA target layout and pistol-grip examples; ISSF rifle/pistol/moving-target/clay targets, rifle measurements, clothing and shoe inspection devices, shoes, jacket, trousers, pistol grips/specifications; WSPS Appendix 4 trigger adaptations and Appendix 5 SH2 support/spring drawings. Topic and source filters bind each crop to applicable questions.",
+    "interpretation": "Checks deterministic Q&A answer hashes, source-ID sets, expected locator visibility, and card/photo bindings. The Q&A expected answer hashes are selection/content integrity checks, not a human semantic review of rule correctness.",
+    "cardAudit": [
+      {
+        "cardId": "wsps.event.p4:qualification",
+        "eventId": "wsps.event.p4",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/ADANA_WSPS_P4_PARALYMPIC_RANGE_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [
+          {
+            "figureId": "wsps-p4-events-table-p11",
+            "page": 11,
+            "locator": "2.1.1",
+            "assetPath": "./figures/wsps-p4-events-table-p11.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-grips-p355",
+            "page": 355,
+            "locator": "8.4.3",
+            "assetPath": "./figures/issf-pistol-grips-p355.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-specifications-table-p375",
+            "page": 375,
+            "locator": "8.12",
+            "assetPath": "./figures/issf-pistol-specifications-table-p375.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-rapid-pistol-p198",
+            "page": 198,
+            "locator": "6.3.4.4",
+            "assetPath": "./figures/issf-target-25m-rapid-pistol-p198.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-precision-pistol-p199",
+            "page": 199,
+            "locator": "6.3.4.5",
+            "assetPath": "./figures/issf-target-25m-precision-pistol-p199.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-10m-air-pistol-p200",
+            "page": 200,
+            "locator": "6.3.4.6",
+            "assetPath": "./figures/issf-target-10m-air-pistol-p200.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-extension-examples-p22",
+            "page": 22,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-extension-examples-p22.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-adaptation-examples-p23",
+            "page": 23,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-adaptation-examples-p23.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          }
+        ],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p4:final",
+        "eventId": "wsps.event.p4",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/ADANA_WSPS_P4_PARALYMPIC_RANGE_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [
+          {
+            "figureId": "wsps-p4-events-table-p11",
+            "page": 11,
+            "locator": "2.1.1",
+            "assetPath": "./figures/wsps-p4-events-table-p11.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-grips-p355",
+            "page": 355,
+            "locator": "8.4.3",
+            "assetPath": "./figures/issf-pistol-grips-p355.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-specifications-table-p375",
+            "page": 375,
+            "locator": "8.12",
+            "assetPath": "./figures/issf-pistol-specifications-table-p375.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-rapid-pistol-p198",
+            "page": 198,
+            "locator": "6.3.4.4",
+            "assetPath": "./figures/issf-target-25m-rapid-pistol-p198.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-precision-pistol-p199",
+            "page": 199,
+            "locator": "6.3.4.5",
+            "assetPath": "./figures/issf-target-25m-precision-pistol-p199.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-10m-air-pistol-p200",
+            "page": 200,
+            "locator": "6.3.4.6",
+            "assetPath": "./figures/issf-target-10m-air-pistol-p200.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-extension-examples-p22",
+            "page": 22,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-extension-examples-p22.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-adaptation-examples-p23",
+            "page": 23,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-adaptation-examples-p23.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          }
+        ],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p5:qualification",
+        "eventId": "wsps.event.p5",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 3,
+        "casesInRoute": 22,
+        "casesPresentingCard": 21,
+        "figureCrops": [
+          {
+            "figureId": "wsps-p5-specifications-table-p34",
+            "page": 34,
+            "locator": "Appendix 6 §3",
+            "assetPath": "./figures/wsps-p5-specifications-table-p34.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-grips-p355",
+            "page": 355,
+            "locator": "8.4.3",
+            "assetPath": "./figures/issf-pistol-grips-p355.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-specifications-table-p375",
+            "page": 375,
+            "locator": "8.12",
+            "assetPath": "./figures/issf-pistol-specifications-table-p375.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-rapid-pistol-p198",
+            "page": 198,
+            "locator": "6.3.4.4",
+            "assetPath": "./figures/issf-target-25m-rapid-pistol-p198.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-precision-pistol-p199",
+            "page": 199,
+            "locator": "6.3.4.5",
+            "assetPath": "./figures/issf-target-25m-precision-pistol-p199.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-10m-air-pistol-p200",
+            "page": 200,
+            "locator": "6.3.4.6",
+            "assetPath": "./figures/issf-target-10m-air-pistol-p200.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-extension-examples-p22",
+            "page": 22,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-extension-examples-p22.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-adaptation-examples-p23",
+            "page": 23,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-adaptation-examples-p23.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          }
+        ],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p5:final",
+        "eventId": "wsps.event.p5",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 22,
+        "casesPresentingCard": 22,
+        "figureCrops": [
+          {
+            "figureId": "wsps-p5-specifications-table-p34",
+            "page": 34,
+            "locator": "Appendix 6 §3",
+            "assetPath": "./figures/wsps-p5-specifications-table-p34.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-grips-p355",
+            "page": 355,
+            "locator": "8.4.3",
+            "assetPath": "./figures/issf-pistol-grips-p355.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-specifications-table-p375",
+            "page": 375,
+            "locator": "8.12",
+            "assetPath": "./figures/issf-pistol-specifications-table-p375.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-rapid-pistol-p198",
+            "page": 198,
+            "locator": "6.3.4.4",
+            "assetPath": "./figures/issf-target-25m-rapid-pistol-p198.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-precision-pistol-p199",
+            "page": 199,
+            "locator": "6.3.4.5",
+            "assetPath": "./figures/issf-target-25m-precision-pistol-p199.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-10m-air-pistol-p200",
+            "page": 200,
+            "locator": "6.3.4.6",
+            "assetPath": "./figures/issf-target-10m-air-pistol-p200.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-extension-examples-p22",
+            "page": 22,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-extension-examples-p22.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-adaptation-examples-p23",
+            "page": 23,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-adaptation-examples-p23.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          }
+        ],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p6:qualification",
+        "eventId": "wsps.event.p6",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/adana-assets/ADANA_WSPS_P6_MIXED_AIR_PISTOL_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 2,
+        "casesPresentingCard": 2,
+        "figureCrops": [
+          {
+            "figureId": "issf-pistol-grips-p355",
+            "page": 355,
+            "locator": "8.4.3",
+            "assetPath": "./figures/issf-pistol-grips-p355.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-specifications-table-p375",
+            "page": 375,
+            "locator": "8.12",
+            "assetPath": "./figures/issf-pistol-specifications-table-p375.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-rapid-pistol-p198",
+            "page": 198,
+            "locator": "6.3.4.4",
+            "assetPath": "./figures/issf-target-25m-rapid-pistol-p198.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-precision-pistol-p199",
+            "page": 199,
+            "locator": "6.3.4.5",
+            "assetPath": "./figures/issf-target-25m-precision-pistol-p199.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-10m-air-pistol-p200",
+            "page": 200,
+            "locator": "6.3.4.6",
+            "assetPath": "./figures/issf-target-10m-air-pistol-p200.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-extension-examples-p22",
+            "page": 22,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-extension-examples-p22.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-adaptation-examples-p23",
+            "page": 23,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-adaptation-examples-p23.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          }
+        ],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p6:final",
+        "eventId": "wsps.event.p6",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/adana-assets/ADANA_WSPS_P6_MIXED_AIR_PISTOL_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 2,
+        "casesPresentingCard": 2,
+        "figureCrops": [
+          {
+            "figureId": "issf-pistol-grips-p355",
+            "page": 355,
+            "locator": "8.4.3",
+            "assetPath": "./figures/issf-pistol-grips-p355.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-pistol-specifications-table-p375",
+            "page": 375,
+            "locator": "8.12",
+            "assetPath": "./figures/issf-pistol-specifications-table-p375.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-rapid-pistol-p198",
+            "page": 198,
+            "locator": "6.3.4.4",
+            "assetPath": "./figures/issf-target-25m-rapid-pistol-p198.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-25m-precision-pistol-p199",
+            "page": 199,
+            "locator": "6.3.4.5",
+            "assetPath": "./figures/issf-target-25m-precision-pistol-p199.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "issf-target-10m-air-pistol-p200",
+            "page": 200,
+            "locator": "6.3.4.6",
+            "assetPath": "./figures/issf-target-10m-air-pistol-p200.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-extension-examples-p22",
+            "page": 22,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-extension-examples-p22.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          },
+          {
+            "figureId": "wsps-appendix4-trigger-adaptation-examples-p23",
+            "page": 23,
+            "locator": "Appendix 4",
+            "assetPath": "./figures/wsps-appendix4-trigger-adaptation-examples-p23.png",
+            "assetHashMatches": true,
+            "sourcePDFHashPresent": true,
+            "visuallyReviewed": true
+          }
+        ],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r3:qualification",
+        "eventId": "wsps.event.r3",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/RENATE_R3_R10_SH1_PRONE_10M.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 2,
+        "casesPresentingCard": 2,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r3:final",
+        "eventId": "wsps.event.r3",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/RENATE_R3_R10_SH1_PRONE_10M.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 2,
+        "casesPresentingCard": 2,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r4:qualification",
+        "eventId": "wsps.event.r4",
+        "phase": "qualification",
+        "photoPath": "./cards/photos/R4_WSPS_USER_PROVIDED_1.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 2,
+        "casesPresentingCard": 2,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r4:final",
+        "eventId": "wsps.event.r4",
+        "phase": "final",
+        "photoPath": "./cards/photos/R4_WSPS_USER_PROVIDED_2.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 2,
+        "casesPresentingCard": 2,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r5:qualification",
+        "eventId": "wsps.event.r5",
+        "phase": "qualification",
+        "photoPath": "./cards/adana-assets/WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r5:final",
+        "eventId": "wsps.event.r5",
+        "phase": "final",
+        "photoPath": "./cards/adana-assets/WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r6:qualification",
+        "eventId": "wsps.event.r6",
+        "phase": "qualification",
+        "photoPath": "./cards/photos/R6_RIO2016_QUALIFICATION_THOMAS_LOVELOCK_OIS_IOC.jpg",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r6:final",
+        "eventId": "wsps.event.r6",
+        "phase": "final",
+        "photoPath": "./cards/photos/R6_RIO2016_QUALIFICATION_THOMAS_LOVELOCK_OIS_IOC.jpg",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r7:qualification",
+        "eventId": "wsps.event.r7",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/R7_SH1_STANDING_USER_PROVIDED.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 9,
+        "casesPresentingCard": 9,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r7:final",
+        "eventId": "wsps.event.r7",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/R7_SH1_STANDING_USER_PROVIDED.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 9,
+        "casesPresentingCard": 9,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r8:qualification",
+        "eventId": "wsps.event.r8",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/R8_SH1_STANDING_USER_PROVIDED_1.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 9,
+        "casesPresentingCard": 9,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r8:final",
+        "eventId": "wsps.event.r8",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/R8_SH1_STANDING_USER_PROVIDED_2.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 0,
+        "casesInRoute": 9,
+        "casesPresentingCard": 9,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r9:qualification",
+        "eventId": "wsps.event.r9",
+        "phase": "qualification",
+        "photoPath": "./cards/adana-assets/WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r9:final",
+        "eventId": "wsps.event.r9",
+        "phase": "final",
+        "photoPath": "./cards/adana-assets/WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r10:qualification",
+        "eventId": "wsps.event.r10",
+        "phase": "qualification",
+        "photoPath": "./cards/photos/RENATE_R3_R10_SH1_PRONE_10M.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r10:final",
+        "eventId": "wsps.event.r10",
+        "phase": "final",
+        "photoPath": "./cards/photos/RENATE_R3_R10_SH1_PRONE_10M.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r11:qualification",
+        "eventId": "wsps.event.r11",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/adana-assets/WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.r11:final",
+        "eventId": "wsps.event.r11",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/adana-assets/WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p1:qualification",
+        "eventId": "wsps.event.p1",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p1:final",
+        "eventId": "wsps.event.p1",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p2:qualification",
+        "eventId": "wsps.event.p2",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/adana-assets/ADANA_WSPS_P2_AIR_PISTOL_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 1,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p2:final",
+        "eventId": "wsps.event.p2",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/adana-assets/ADANA_WSPS_P2_AIR_PISTOL_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 1,
+        "casesPresentingCard": 1,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p3:qualification",
+        "eventId": "wsps.event.p3",
+        "phase": "qualification",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/ADANA_WSPS_P4_PARALYMPIC_RANGE_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 4,
+        "casesPresentingCard": 4,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      },
+      {
+        "cardId": "wsps.event.p3:final",
+        "eventId": "wsps.event.p3",
+        "phase": "final",
+        "role": "visual_supplement_only",
+        "photoPath": "./cards/photos/ADANA_WSPS_P4_PARALYMPIC_RANGE_ILLUSTRATION.png",
+        "photoHashMatches": true,
+        "localSourceRefs": 2,
+        "casesInRoute": 4,
+        "casesPresentingCard": 4,
+        "figureCrops": [],
+        "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+      }
+    ],
+    "routeCoverage": [
+      {
+        "routeId": "cbte.cma.10m",
+        "routeName": "Carabina Mira Aberta 10 m",
+        "authority": "CBTE",
+        "atlasQACount": 61,
+        "goldenCases": 61,
+        "answerHashPass": 61,
+        "sourceSetPass": 61,
+        "expectedLocatorPass": 61,
+        "localRuleProvenancePass": 61,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.cma.25m",
+        "routeName": "Carabina Mira Aberta 25 m",
+        "authority": "CBTE",
+        "atlasQACount": 51,
+        "goldenCases": 51,
+        "answerHashPass": 51,
+        "sourceSetPass": 51,
+        "expectedLocatorPass": 51,
+        "localRuleProvenancePass": 51,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.cma.50m",
+        "routeName": "Carabina Mira Aberta 50 m",
+        "authority": "CBTE",
+        "atlasQACount": 44,
+        "goldenCases": 44,
+        "answerHashPass": 44,
+        "sourceSetPass": 44,
+        "expectedLocatorPass": 44,
+        "localRuleProvenancePass": 44,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.cmp.rimfire_sporter",
+        "routeName": "Carabina CMP Fogo Circular Sporter",
+        "authority": "CBTE",
+        "atlasQACount": 0,
+        "goldenCases": 0,
+        "answerHashPass": 0,
+        "sourceSetPass": 0,
+        "expectedLocatorPass": 0,
+        "localRuleProvenancePass": 0,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "NO_GOLDEN_CASE"
+      },
+      {
+        "routeId": "cbte.duelo.10m",
+        "routeName": "Duelo 20 segundos — 10 m",
+        "authority": "CBTE",
+        "atlasQACount": 28,
+        "goldenCases": 28,
+        "answerHashPass": 28,
+        "sourceSetPass": 28,
+        "expectedLocatorPass": 28,
+        "localRuleProvenancePass": 28,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.duelo.25m",
+        "routeName": "Duelo 20 segundos — 25 m",
+        "authority": "CBTE",
+        "atlasQACount": 334,
+        "goldenCases": 334,
+        "answerHashPass": 334,
+        "sourceSetPass": 334,
+        "expectedLocatorPass": 334,
+        "localRuleProvenancePass": 334,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.fclass.centerfire",
+        "routeName": "Carabina F-Class",
+        "authority": "CBTE",
+        "atlasQACount": 47,
+        "goldenCases": 47,
+        "answerHashPass": 47,
+        "sourceSetPass": 47,
+        "expectedLocatorPass": 47,
+        "localRuleProvenancePass": 47,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.fclass.rimfire",
+        "routeName": "Carabina F-Class Rimfire",
+        "authority": "CBTE",
+        "atlasQACount": 2,
+        "goldenCases": 2,
+        "answerHashPass": 2,
+        "sourceSetPass": 2,
+        "expectedLocatorPass": 2,
+        "localRuleProvenancePass": 2,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.field_target",
+        "routeName": "Carabina Field Target",
+        "authority": "CBTE",
+        "atlasQACount": 5,
+        "goldenCases": 5,
+        "answerHashPass": 5,
+        "sourceSetPass": 5,
+        "expectedLocatorPass": 5,
+        "localRuleProvenancePass": 5,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.issf.carabina",
+        "routeName": "Provas ISSF de Carabina no programa CBTE",
+        "authority": "CBTE",
+        "atlasQACount": 290,
+        "goldenCases": 290,
+        "answerHashPass": 290,
+        "sourceSetPass": 290,
+        "expectedLocatorPass": 290,
+        "localRuleProvenancePass": 290,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.issf.pistola",
+        "routeName": "Provas ISSF de Pistola no programa CBTE",
+        "authority": "CBTE",
+        "atlasQACount": 290,
+        "goldenCases": 290,
+        "answerHashPass": 290,
+        "sourceSetPass": 290,
+        "expectedLocatorPass": 290,
+        "localRuleProvenancePass": 290,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.national_light",
+        "routeName": "Provas Nacionais Light",
+        "authority": "CBTE",
+        "atlasQACount": 57,
+        "goldenCases": 57,
+        "answerHashPass": 57,
+        "sourceSetPass": 57,
+        "expectedLocatorPass": 57,
+        "localRuleProvenancePass": 57,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.nra",
+        "routeName": "Carabina NRA / Rifle Esporte",
+        "authority": "CBTE",
+        "atlasQACount": 8,
+        "goldenCases": 8,
+        "answerHashPass": 8,
+        "sourceSetPass": 8,
+        "expectedLocatorPass": 8,
+        "localRuleProvenancePass": 8,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.shotgun.automatic_trap",
+        "routeName": "Fossa Automática CBTE",
+        "authority": "CBTE",
+        "atlasQACount": 0,
+        "goldenCases": 0,
+        "answerHashPass": 0,
+        "sourceSetPass": 0,
+        "expectedLocatorPass": 0,
+        "localRuleProvenancePass": 0,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "NO_GOLDEN_CASE"
+      },
+      {
+        "routeId": "cbte.shotgun.issf",
+        "routeName": "Tiro ao Prato Olímpico CBTE — Fossa Olímpica (Trap) e Skeet",
+        "authority": "CBTE",
+        "atlasQACount": 0,
+        "goldenCases": 0,
+        "answerHashPass": 0,
+        "sourceSetPass": 0,
+        "expectedLocatorPass": 0,
+        "localRuleProvenancePass": 0,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "NO_GOLDEN_CASE"
+      },
+      {
+        "routeId": "cbte.shotgun.trap_light",
+        "routeName": "Tiro ao Prato Olímpico Light — Fossa Olímpica e Skeet",
+        "authority": "CBTE",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.shotgun.trap_nacional",
+        "routeName": "Trap Nacional 2026",
+        "authority": "CBTE",
+        "atlasQACount": 0,
+        "goldenCases": 0,
+        "answerHashPass": 0,
+        "sourceSetPass": 0,
+        "expectedLocatorPass": 0,
+        "localRuleProvenancePass": 0,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "NO_GOLDEN_CASE"
+      },
+      {
+        "routeId": "cbte.shotgun.trap_nacional_25_2024",
+        "routeName": "Trap Nacional 25 CBTE 2024",
+        "authority": "CBTE",
+        "atlasQACount": 281,
+        "goldenCases": 281,
+        "answerHashPass": 281,
+        "sourceSetPass": 281,
+        "expectedLocatorPass": 281,
+        "localRuleProvenancePass": 281,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.shotgun.trap_nacional_50_2024",
+        "routeName": "Trap Nacional 50 CBTE 2024",
+        "authority": "CBTE",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.wrabf.rifle_international",
+        "routeName": "Carabina WRABF (eventos listados pela CBTE)",
+        "authority": "CBTE",
+        "atlasQACount": 5,
+        "goldenCases": 5,
+        "answerHashPass": 5,
+        "sourceSetPass": 5,
+        "expectedLocatorPass": 5,
+        "localRuleProvenancePass": 5,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "cbte.wsps.program",
+        "routeName": "Provas paralímpicas WSPS no programa CBTE (R1–R9 e P1–P5)",
+        "authority": "CBTE",
+        "atlasQACount": 297,
+        "goldenCases": 297,
+        "answerHashPass": 297,
+        "sourceSetPass": 297,
+        "expectedLocatorPass": 297,
+        "localRuleProvenancePass": 297,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.01",
+        "routeName": "10m Air Rifle",
+        "authority": "ISSF",
+        "atlasQACount": 336,
+        "goldenCases": 336,
+        "answerHashPass": 336,
+        "sourceSetPass": 336,
+        "expectedLocatorPass": 336,
+        "localRuleProvenancePass": 336,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.02",
+        "routeName": "50m Rifle 3 Positions",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.03",
+        "routeName": "50m Rifle Prone",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.04",
+        "routeName": "300m Rifle 3 Positions",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.05",
+        "routeName": "300m Rifle Prone",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.06",
+        "routeName": "300m Standard Rifle",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.07",
+        "routeName": "10m Air Pistol",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.08",
+        "routeName": "25m Pistol",
+        "authority": "ISSF",
+        "atlasQACount": 336,
+        "goldenCases": 336,
+        "answerHashPass": 336,
+        "sourceSetPass": 336,
+        "expectedLocatorPass": 336,
+        "localRuleProvenancePass": 336,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.09",
+        "routeName": "25m Rapid-Fire Pistol",
+        "authority": "ISSF",
+        "atlasQACount": 336,
+        "goldenCases": 336,
+        "answerHashPass": 336,
+        "sourceSetPass": 336,
+        "expectedLocatorPass": 336,
+        "localRuleProvenancePass": 336,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.10",
+        "routeName": "25m Centre Fire Pistol",
+        "authority": "ISSF",
+        "atlasQACount": 336,
+        "goldenCases": 336,
+        "answerHashPass": 336,
+        "sourceSetPass": 336,
+        "expectedLocatorPass": 336,
+        "localRuleProvenancePass": 336,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.11",
+        "routeName": "25m Standard Pistol",
+        "authority": "ISSF",
+        "atlasQACount": 336,
+        "goldenCases": 336,
+        "answerHashPass": 336,
+        "sourceSetPass": 336,
+        "expectedLocatorPass": 336,
+        "localRuleProvenancePass": 336,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.12",
+        "routeName": "50m Pistol",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.13",
+        "routeName": "Trap",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.14",
+        "routeName": "Skeet",
+        "authority": "ISSF",
+        "atlasQACount": 0,
+        "goldenCases": 0,
+        "answerHashPass": 0,
+        "sourceSetPass": 0,
+        "expectedLocatorPass": 0,
+        "localRuleProvenancePass": 0,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "NO_GOLDEN_CASE"
+      },
+      {
+        "routeId": "issf.event.15",
+        "routeName": "10m Moving Target",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.16",
+        "routeName": "10m Moving Target Mixed",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.17",
+        "routeName": "50m Moving Target",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.18",
+        "routeName": "50m Moving Target Mixed",
+        "authority": "ISSF",
+        "atlasQACount": 325,
+        "goldenCases": 325,
+        "answerHashPass": 325,
+        "sourceSetPass": 325,
+        "expectedLocatorPass": 325,
+        "localRuleProvenancePass": 325,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "issf.event.19",
+        "routeName": "Target Sprint",
+        "authority": "ISSF",
+        "atlasQACount": 290,
+        "goldenCases": 290,
+        "answerHashPass": 290,
+        "sourceSetPass": 290,
+        "expectedLocatorPass": 290,
+        "localRuleProvenancePass": 290,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.p1",
+        "routeName": "10m Air Pistol",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.p1:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.p1:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.p2",
+        "routeName": "10m Air Pistol",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.p2:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.p2:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.p3",
+        "routeName": "25m Pistol",
+        "authority": "WSPS",
+        "atlasQACount": 575,
+        "goldenCases": 575,
+        "answerHashPass": 575,
+        "sourceSetPass": 575,
+        "expectedLocatorPass": 575,
+        "localRuleProvenancePass": 575,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.p3:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 4,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.p3:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 4,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.p4",
+        "routeName": "50m Pistol",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.p4:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 8,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.p4:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 8,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.p5",
+        "routeName": "10m Air Pistol Standard",
+        "authority": "WSPS",
+        "atlasQACount": 621,
+        "goldenCases": 621,
+        "answerHashPass": 621,
+        "sourceSetPass": 621,
+        "expectedLocatorPass": 621,
+        "localRuleProvenancePass": 621,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.p5:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 21,
+            "figureCropCount": 8,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.p5:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 22,
+            "figureCropCount": 8,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.p6",
+        "routeName": "Mixed Team 10m Air Pistol",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.p6:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 2,
+            "figureCropCount": 7,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.p6:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 2,
+            "figureCropCount": 7,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.pt1",
+        "routeName": "Trap Seated",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.pt2",
+        "routeName": "Trap Standing (Lower Limb)",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.pt3",
+        "routeName": "Trap Standing (Upper Limb)",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r1",
+        "routeName": "10m Air Rifle Standing",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r10",
+        "routeName": "Mixed Team 10m Air Rifle Prone SH1",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r10:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r10:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r11",
+        "routeName": "Mixed Team 10m Air Rifle Prone SH2",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r11:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r11:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r2",
+        "routeName": "10m Air Rifle Standing",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r3",
+        "routeName": "10m Air Rifle Prone",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r3:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 2,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r3:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 2,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r4",
+        "routeName": "10m Air Rifle Standing",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r4:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 2,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r4:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 2,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r5",
+        "routeName": "10m Air Rifle Prone",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r5:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r5:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r6",
+        "routeName": "50m Rifle Prone",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r6:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r6:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r7",
+        "routeName": "50m Rifle 3 Positions",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r7:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 9,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r7:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 9,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r8",
+        "routeName": "50m Rifle 3 Positions",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r8:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 9,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r8:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 9,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.r9",
+        "routeName": "50m Rifle Prone",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [
+          {
+            "cardId": "wsps.event.r9:qualification",
+            "phase": "qualification",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          },
+          {
+            "cardId": "wsps.event.r9:final",
+            "phase": "final",
+            "cardAssetValid": true,
+            "casesPresentingCard": 1,
+            "figureCropCount": 0,
+            "state": "UNIFIED_LAYOUT_AND_LOCAL_ASSETS_PASS"
+          }
+        ],
+        "cardStatus": "CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.vip",
+        "routeName": "10m Air Rifle VI Prone",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      },
+      {
+        "routeId": "wsps.event.vis",
+        "routeName": "10m Air Rifle VI Standing",
+        "authority": "WSPS",
+        "atlasQACount": 610,
+        "goldenCases": 610,
+        "answerHashPass": 610,
+        "sourceSetPass": 610,
+        "expectedLocatorPass": 610,
+        "localRuleProvenancePass": 610,
+        "configuredCards": [],
+        "cardStatus": "NO_CARD_CONFIGURED",
+        "routeAcceptance": "PASS"
+      }
+    ],
+    "routeCoverageSummary": {
+      "inventoryRoutes": 62,
+      "routesWithGoldenCases": 57,
+      "routesWithoutGoldenCases": [
+        "cbte.cmp.rimfire_sporter",
+        "cbte.shotgun.automatic_trap",
+        "cbte.shotgun.issf",
+        "cbte.shotgun.trap_nacional",
+        "issf.event.14"
+      ],
+      "routesPassingEveryCase": 57,
+      "routesWithConfiguredCards": 15,
+      "routesWithoutConfiguredCards": 47,
+      "cardRecords": 30
+    }
+  },
+  "browser": {
+    "state": "PASS",
+    "browser": "158.0.8127.18",
+    "appOrigin": "http://127.0.0.1:4173",
+    "initialMessageCount": 8,
+    "historyRestoredAfterReload": true,
+    "offlineSearchAnswered": true,
+    "persistedConversationCount": 4,
+    "persistedMessageCount": 2,
+    "responsiveChecks": [
+      {
+        "width": 320,
+        "viewport": 320,
+        "document": 320,
+        "body": 320,
+        "mobileMenuVisible": true,
+        "sidebarVisible": false,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "viewport": 390,
+        "document": 390,
+        "body": 390,
+        "mobileMenuVisible": true,
+        "sidebarVisible": false,
+        "passed": true
+      },
+      {
+        "width": 768,
+        "viewport": 768,
+        "document": 768,
+        "body": 768,
+        "mobileMenuVisible": false,
+        "sidebarVisible": true,
+        "passed": true
+      },
+      {
+        "width": 1280,
+        "viewport": 1280,
+        "document": 1280,
+        "body": 1280,
+        "mobileMenuVisible": false,
+        "sidebarVisible": true,
+        "passed": true
+      }
+    ],
+    "mobileMenuOpened": true,
+    "mobileMenuClosed": true,
+    "externalRequests": [],
+    "offlineViaServiceWorker": true,
+    "pinSetupAndUnlock": true,
+    "rulePassageVisible": true,
+    "cardVisible": true,
+    "figureCropVisible": true,
+    "p5CardVisible": true,
+    "p5FigureCropVisible": true,
+    "cardUiChecks": [
+      {
+        "cardId": "wsps.event.p4:qualification",
+        "eventId": "wsps.event.p4",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 9,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p4:final",
+        "eventId": "wsps.event.p4",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 8,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p5:qualification",
+        "eventId": "wsps.event.p5",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 8,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p5:final",
+        "eventId": "wsps.event.p5",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 6,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p6:qualification",
+        "eventId": "wsps.event.p6",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 0,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p6:final",
+        "eventId": "wsps.event.p6",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 0,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r3:qualification",
+        "eventId": "wsps.event.r3",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 7,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r3:final",
+        "eventId": "wsps.event.r3",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 7,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r4:qualification",
+        "eventId": "wsps.event.r4",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 11,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r4:final",
+        "eventId": "wsps.event.r4",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 10,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r5:qualification",
+        "eventId": "wsps.event.r5",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 5,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r5:final",
+        "eventId": "wsps.event.r5",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 1,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r6:qualification",
+        "eventId": "wsps.event.r6",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 9,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r6:final",
+        "eventId": "wsps.event.r6",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 14,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r7:qualification",
+        "eventId": "wsps.event.r7",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 9,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r7:final",
+        "eventId": "wsps.event.r7",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 10,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r8:qualification",
+        "eventId": "wsps.event.r8",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 9,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r8:final",
+        "eventId": "wsps.event.r8",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 10,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r9:qualification",
+        "eventId": "wsps.event.r9",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 10,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r9:final",
+        "eventId": "wsps.event.r9",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 16,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r10:qualification",
+        "eventId": "wsps.event.r10",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 8,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r10:final",
+        "eventId": "wsps.event.r10",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 9,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r11:qualification",
+        "eventId": "wsps.event.r11",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 10,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.r11:final",
+        "eventId": "wsps.event.r11",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 10,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p1:qualification",
+        "eventId": "wsps.event.p1",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 6,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p1:final",
+        "eventId": "wsps.event.p1",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 8,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p2:qualification",
+        "eventId": "wsps.event.p2",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 6,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p2:final",
+        "eventId": "wsps.event.p2",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 8,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p3:qualification",
+        "eventId": "wsps.event.p3",
+        "phase": "qualification",
+        "orderedBlocksMatch": true,
+        "renderedSections": 3,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      },
+      {
+        "cardId": "wsps.event.p3:final",
+        "eventId": "wsps.event.p3",
+        "phase": "final",
+        "orderedBlocksMatch": true,
+        "renderedSections": 3,
+        "localVisualLoaded": true,
+        "localPhotoPresent": true
+      }
+    ],
+    "firstAmbiguityHasRule": true,
+    "secondAmbiguityHasRule": true,
+    "finalAmbiguityHasRule": true,
+    "ambiguityAskedAtMostTwice": true,
+    "noMatchRuleFallback": true,
+    "criteria": {
+      "messageAutosave": true,
+      "reloadRestore": true,
+      "responsiveLayout": true,
+      "mobileNavigation": true,
+      "localSearchOffline": true,
+      "pinSetupAndUnlock": true,
+      "standaloneLibraryAccessible": true,
+      "libraryFilterWorks": true,
+      "libraryDocumentCount": 21,
+      "rulePassageVisible": true,
+      "cardVisible": true,
+      "figureCropVisible": true,
+      "fullRegulationAccessibleWithoutQuestion": true,
+      "p5CardVisible": true,
+      "p5FigureCropVisible": true,
+      "firstAmbiguityHasRule": true,
+      "secondAmbiguityHasRule": true,
+      "finalAmbiguityHasRule": true,
+      "ambiguityAskedAtMostTwice": true,
+      "noMatchRuleFallback": true,
+      "noExternalRequests": true
+    },
+    "finalContentAcceptance": "PASS"
+  }
+}

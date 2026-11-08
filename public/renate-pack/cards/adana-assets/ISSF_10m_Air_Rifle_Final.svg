@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Final ISSF de Carabina de Ar 10 m</title>
+<desc id="desc">Card visual da final ISSF 10m Air Rifle: 8 classificados, duas séries de cinco tiros, quatorze tiros individuais, tempos, eliminações progressivas, pontuação decimal e desempate.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071d2d"/><stop offset="1" stop-color="#0b1520"/></linearGradient>
+ <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c8ff4d"/><stop offset="1" stop-color="#82df4d"/></linearGradient>
+ <style>
+  text{font-family:Arial,sans-serif}.label{fill:#42d7e5;font-size:17px;font-weight:700;letter-spacing:2px}
+  .body{fill:#e8f1f4;font-size:22px}.muted{fill:#a9c2cc;font-size:17px}
+  .value{fill:#c8ff4d;font-size:31px;font-weight:800}.small{fill:#d9e8ed;font-size:16px}
+ </style>
+</defs>
+<rect width="1200" height="900" rx="30" fill="url(#bg)"/><rect x="14" y="14" width="1172" height="872" rx="25" fill="none" stroke="#19c9db" stroke-width="3"/>
+<text x="52" y="58" fill="#4adbe8" font-size="19" font-weight="700" letter-spacing="3">ISSF • CARABINA DE AR 10 m • THIRD PRINT 10/2026</text>
+<text x="52" y="116" fill="url(#lime)" font-size="43" font-weight="800">FINAL — DISPUTA PROGRESSIVA</text>
+<text x="54" y="151" fill="#d4e4ea" font-size="20">Regra 6.17.2 • a qualificação define quem avança; seus pontos não seguem para a final (6.11.9.1)</text>
+
+<rect x="42" y="176" width="540" height="204" rx="20" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="210" class="label">1ª ETAPA DE COMPETIÇÃO</text>
+<text x="66" y="254" class="value">2 × 5 tiros</text>
+<text x="66" y="291" class="body">250 s por série</text>
+<text x="66" y="326" class="muted">Os 8 finalistas fazem as duas séries.</text>
+<text x="66" y="351" class="muted">A primeira eliminação vem depois do 12º tiro.</text>
+
+<rect x="600" y="176" width="558" height="204" rx="20" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="624" y="210" class="label">2ª ETAPA • SOB COMANDO</text>
+<text x="624" y="254" class="value">14 tiros individuais</text>
+<text x="624" y="291" class="body">50 s por tiro</text>
+<text x="624" y="326" class="muted">LOAD → 5 s → START → disparo → STOP</text>
+<text x="624" y="351" class="muted">Continua até o 24º tiro e a decisão das medalhas.</text>
+
+<rect x="42" y="400" width="1116" height="265" rx="20" fill="#0e2735" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="435" class="label">ELIMINAÇÕES • PLACAR ACUMULADO DA FINAL</text>
+<path d="M119 494 H1080" stroke="#2e8793" stroke-width="4"/>
+<g text-anchor="middle">
+ <circle cx="122" cy="494" r="12" fill="#c8ff4d"/><text x="122" y="474" class="value" font-size="25">12º</text><text x="122" y="531" class="body">8º sai</text>
+ <circle cx="278" cy="494" r="12" fill="#c8ff4d"/><text x="278" y="474" class="value" font-size="25">14º</text><text x="278" y="531" class="body">7º sai</text>
+ <circle cx="434" cy="494" r="12" fill="#c8ff4d"/><text x="434" y="474" class="value" font-size="25">16º</text><text x="434" y="531" class="body">6º sai</text>
+ <circle cx="590" cy="494" r="12" fill="#c8ff4d"/><text x="590" y="474" class="value" font-size="25">18º</text><text x="590" y="531" class="body">5º sai</text>
+ <circle cx="746" cy="494" r="12" fill="#c8ff4d"/><text x="746" y="474" class="value" font-size="25">20º</text><text x="746" y="531" class="body">4º sai</text>
+ <circle cx="902" cy="494" r="12" fill="#c8ff4d"/><text x="902" y="474" class="value" font-size="25">22º</text><text x="902" y="531" class="body">Bronze</text>
+ <circle cx="1058" cy="494" r="12" fill="#42d7e5"/><text x="1058" y="474" fill="#42d7e5" font-size="25" font-weight="800">24º</text><text x="1058" y="531" class="body">Ouro / prata</text>
+</g>
+<text x="66" y="592" class="muted">Após o 12º tiro, sai o menor placar; depois, eliminações a cada dois tiros. Empate na eliminação: shoot-off até desempatar (6.17.2(g)-(h)).</text>
+<text x="66" y="624" class="muted">No 22º tiro fica decidido o bronze; os dois restantes concluem até o 24º para definir ouro e prata.</text>
+
+<rect x="42" y="687" width="1116" height="128" rx="20" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<path d="M598 707v88" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="724" class="label">PONTUAÇÃO</text>
+<text x="66" y="763" class="body">Decimal • 10,0 a 10,9 por tiro</text>
+<text x="66" y="793" class="muted">Máximo teórico: 24 × 10,9 = 261,6 pontos</text>
+<text x="624" y="724" class="label">RESULTADO</text>
+<text x="624" y="763" class="body">Soma acumulada dos tiros da final</text>
+<text x="624" y="793" class="muted">Empates resolvidos por shoot-off; pontos da qualificação não entram.</text>
+
+<text x="52" y="854" fill="#c4d9e1" font-size="15">Fonte: ISSF Rule Book 2026, Third Print 10/2026 • regras 6.11.9.1 (p. 249), 6.17.2(a)-(i) (pp. 271–272), 6.3.3.1–6.3.3.2 (p. 194).</text>
+<text x="52" y="876" fill="#91aab4" font-size="14">Card visual complementar. Confira os trechos normativos citados; os números são específicos da final ISSF 10m Air Rifle.</text>
+</svg>

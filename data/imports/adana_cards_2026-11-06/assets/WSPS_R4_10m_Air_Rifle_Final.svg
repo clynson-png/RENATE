@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="900" viewBox="0 0 1100 900" role="img" aria-labelledby="title desc">
+<title id="title">Final R4 WSPS — carabina de ar 10 m, Open SH2</title>
+<desc id="desc">Resumo visual da sequência da final R4: oito finalistas, preparação e visada, duas séries de cinco tiros e tiros individuais com eliminações progressivas até o tiro 24, com desempate quando necessário.</desc>
+<defs>
+  <linearGradient id="head" x1="0" x2="1"><stop stop-color="#064b83"/><stop offset="1" stop-color="#0878b8"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8f7ff"/><stop offset="1" stop-color="#cbeaff"/></linearGradient>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#124268" flood-opacity=".16"/></filter>
+  <style>
+   .title{font:800 44px Arial,sans-serif;fill:#fff}.sub{font:700 23px Arial,sans-serif;fill:#c9f6ff}.over{font:700 17px Arial,sans-serif;letter-spacing:2px;fill:#a6e8ff}
+   .phase{font:800 25px Arial,sans-serif;fill:#07528d}.num{font:800 36px Arial,sans-serif;fill:#102f4c}.body{font:500 19px Arial,sans-serif;fill:#294b67}.small{font:500 16px Arial,sans-serif;fill:#42627b}.badge{font:800 15px Arial,sans-serif;fill:#fff;letter-spacing:1px}.step{font:800 20px Arial,sans-serif;fill:#07528d}.foot{font:500 14px Arial,sans-serif;fill:#4b6b82}
+  </style>
+</defs>
+<rect width="1100" height="900" rx="26" fill="url(#bg)"/>
+<path d="M0 26Q0 0 26 0h1048q26 0 26 26v210H0z" fill="url(#head)"/>
+<text x="42" y="48" class="over">WORLD SHOOTING PARA SPORT · DISCIPLINE CARD</text>
+<text x="42" y="112" class="title">R4 · CARABINA DE AR 10 m</text>
+<text x="42" y="154" class="sub">Open SH2 · prova individual · FINAL</text>
+<rect x="845" y="42" width="210" height="112" rx="18" fill="#dff6ff"/>
+<text x="950" y="77" text-anchor="middle" class="small">FASE</text><text x="950" y="122" text-anchor="middle" class="phase">FINAL</text>
+<text x="42" y="278" class="phase">SEQUÊNCIA DA FINAL</text>
+<path d="M101 337v385" stroke="#36a6ce" stroke-width="8" stroke-linecap="round"/>
+<g filter="url(#shadow)">
+ <rect x="145" y="305" width="900" height="110" rx="20" fill="#fff"/><rect x="145" y="435" width="900" height="110" rx="20" fill="#fff"/><rect x="145" y="565" width="900" height="110" rx="20" fill="#fff"/><rect x="145" y="695" width="900" height="110" rx="20" fill="#fff"/>
+</g>
+<g>
+ <circle cx="101" cy="360" r="30" fill="#0794c5"/><text x="101" y="367" text-anchor="middle" class="badge">1</text>
+ <circle cx="101" cy="490" r="30" fill="#0794c5"/><text x="101" y="497" text-anchor="middle" class="badge">2</text>
+ <circle cx="101" cy="620" r="30" fill="#0794c5"/><text x="101" y="627" text-anchor="middle" class="badge">3</text>
+ <circle cx="101" cy="750" r="30" fill="#0794c5"/><text x="101" y="757" text-anchor="middle" class="badge">4</text>
+</g>
+<text x="180" y="350" class="step">PREPARAÇÃO E VISADA</text><text x="180" y="385" class="body">8 finalistas · 5 minutos</text><rect x="820" y="334" width="190" height="48" rx="24" fill="#0878b8"/><text x="915" y="364" text-anchor="middle" class="badge">INÍCIO</text>
+<text x="180" y="480" class="step">DUAS SÉRIES DE 5 TIROS</text><text x="180" y="515" class="body">Até 250 segundos por série · total de 10 tiros</text><rect x="820" y="464" width="190" height="48" rx="24" fill="#0878b8"/><text x="915" y="494" text-anchor="middle" class="badge">TIROS 1–10</text>
+<text x="180" y="610" class="step">TIROS INDIVIDUAIS</text><text x="180" y="645" class="body">Até 50 segundos por tiro · primeira eliminação no tiro 12</text><rect x="820" y="594" width="190" height="48" rx="24" fill="#0878b8"/><text x="915" y="624" text-anchor="middle" class="badge">A CADA 2 TIROS</text>
+<text x="180" y="740" class="step">ENCERRAMENTO</text><text x="180" y="775" class="body">Eliminações até o tiro 24 · desempate se necessário</text><rect x="820" y="724" width="190" height="48" rx="24" fill="#0878b8"/><text x="915" y="754" text-anchor="middle" class="badge">ATÉ 24 TIROS</text>
+<text x="42" y="858" class="foot">Resumo visual complementar. Regras, desempates e comandos devem ser conferidos nas citações oficiais da resposta.</text>
+</svg>
+

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1540" viewBox="0 0 1200 1540" role="img" aria-labelledby="title desc">
+  <title id="title">CBTE Carabina F-Class Rimfire</title>
+  <desc id="desc">Resumo do regulamento CBTE atualizado em 5 de janeiro de 2026: alvo, divisões, pontuação e formato da prova.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#102b45"/><stop offset="1" stop-color="#071827"/></linearGradient>
+    <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#eaf5ff"/><stop offset="1" stop-color="#cfe7ff"/></linearGradient>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#102b45}.white{fill:#fff}.muted{fill:#536b80}.title{font-size:46px;font-weight:800}.sub{font-size:23px;font-weight:600}.head{font-size:25px;font-weight:800}.body{font-size:21px}.small{font-size:17px}.num{font-size:23px;font-weight:800}.label{font-size:17px;font-weight:700;letter-spacing:1px}
+    </style>
+  </defs>
+  <rect width="1200" height="1540" rx="32" fill="#dceaf5"/>
+  <rect x="12" y="12" width="1176" height="1516" rx="25" fill="#f7fbff"/>
+  <path d="M12 37Q12 12 37 12H1163Q1188 12 1188 37V254H12Z" fill="url(#bg)"/>
+  <rect x="52" y="48" width="116" height="116" rx="22" fill="#fff"/>
+  <text x="110" y="119" text-anchor="middle" font-size="42" font-weight="900" fill="#0b568d">CBTE</text>
+  <text x="198" y="66" class="white label">REGULAMENTO CBTE · ATUALIZADO EM 05/01/2026</text>
+  <text x="198" y="124" class="white title">CARABINA F-CLASS</text>
+  <text x="198" y="177" class="white title" fill="#a9d7ff">RIMFIRE</text>
+  <text x="198" y="218" class="white sub">Prova a 100 m · rifle de fogo circular · posição deitado</text>
+
+  <rect x="42" y="284" width="1116" height="520" rx="24" fill="url(#blue)" stroke="#75b6eb" stroke-width="3"/>
+  <text x="76" y="333" class="head">ALVO OFICIAL · LCL CÓD. 09H</text>
+  <text x="76" y="369" class="body">Folha: 700 × 700 mm · 6 alvos de prova à direita · 2 alvos de ensaio à esquerda</text>
+  <text x="76" y="400" class="body">Um alvo de ensaio tem formato CROSSHAIR. Anéis azuis; zonas de escore brancas.</text>
+  <rect x="76" y="428" width="660" height="330" rx="16" fill="#fff" stroke="#aacde8" stroke-width="2"/>
+  <text x="105" y="469" class="label">DIÂMETRO DOS ANÉIS — ALVO DE PROVA A 100 m</text>
+  <g class="body">
+    <text x="112" y="516" font-weight="700">X</text><text x="295" y="516">13 mm</text>
+    <text x="112" y="555" font-weight="700">10</text><text x="295" y="555">26 mm</text>
+    <text x="112" y="594" font-weight="700">9</text><text x="295" y="594">54 mm</text>
+    <text x="112" y="633" font-weight="700">8</text><text x="295" y="633">82 mm</text>
+    <text x="422" y="516" font-weight="700">7</text><text x="510" y="516">109 mm</text>
+    <text x="422" y="555" font-weight="700">6</text><text x="510" y="555">165 mm</text>
+    <text x="422" y="594" font-weight="700">5</text><text x="510" y="594">220 mm</text>
+  </g>
+  <g transform="translate(925 598)" fill="none" stroke="#1684cf">
+    <circle r="137" stroke-width="3"/><circle r="103" stroke-width="3"/><circle r="68" stroke-width="3"/><circle r="51" stroke-width="3"/><circle r="34" stroke-width="3"/><circle r="17" stroke-width="3"/>
+    <circle r="8" fill="#1684cf" stroke="none"/>
+    <path d="M-151 0H151M0-151V151" stroke="#8dbde2" stroke-width="1.5"/>
+  </g>
+  <text x="925" y="767" text-anchor="middle" class="small muted">Diagrama ilustrativo</text>
+
+  <rect x="42" y="830" width="546" height="298" rx="24" fill="#eef7ff" stroke="#75b6eb" stroke-width="3"/>
+  <text x="76" y="881" class="head">DIVISÃO OPEN</text>
+  <text x="76" y="924" class="body">• Fogo circular: calibre 4,5 ou 5,5 mm</text>
+  <text x="76" y="961" class="body">• Mira ótica permitida; conta no peso</text>
+  <text x="76" y="998" class="body">• Peso total máximo: 9,0 kg</text>
+  <text x="76" y="1035" class="body">• Fuste: largura máxima de 76 mm</text>
+  <text x="76" y="1083" class="small muted">Apoios e demais condições seguem os itens III.a–b.</text>
+
+  <rect x="612" y="830" width="546" height="298" rx="24" fill="#eef7ff" stroke="#75b6eb" stroke-width="3"/>
+  <text x="646" y="881" class="head">DIVISÃO F-T/R</text>
+  <text x="646" y="924" class="body">• Restrita ao calibre .22 LR</text>
+  <text x="646" y="961" class="body">• Cano Bull: até 16 mm na boca</text>
+  <text x="646" y="998" class="body">• Peso total máximo: 4,400 kg</text>
+  <text x="646" y="1035" class="body">• Apoio frontal: bipé e/ou bandoleira</text>
+  <text x="646" y="1083" class="small muted">Restrições e apoios seguem os itens III.c–d.</text>
+
+  <rect x="42" y="1154" width="1116" height="220" rx="24" fill="#e8f7f0" stroke="#55b794" stroke-width="3"/>
+  <text x="76" y="1205" class="head">FORMATO E PONTUAÇÃO</text>
+  <text x="76" y="1248" class="body">30 impactos de prova · 5 em cada um dos 6 alvos · ensaio livre nos 2 alvos próprios</text>
+  <text x="76" y="1286" class="body">Máximo numérico: 300 pontos (30 × 10). X é desempate em centésimos, não ponto extra.</text>
+  <text x="76" y="1324" class="body">Falha de munição: pode substituir e deixar a munição visível para comprovação.</text>
+  <text x="76" y="1360" class="small muted">Fonte: CBTE, Regulamento de Carabina F-Class Rimfire, edição 05/01/2026, itens II e III.</text>
+
+  <rect x="42" y="1400" width="1116" height="86" rx="18" fill="#102b45"/>
+  <text x="76" y="1453" class="white sub">F-Class Rimfire CBTE · resumo visual complementar ao regulamento citado</text>
+</svg>

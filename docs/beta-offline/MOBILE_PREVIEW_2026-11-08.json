@@ -1,0 +1,35 @@
+{
+  "state": "FAIL",
+  "checkedAt": "2026-11-08T15:51:28.493Z",
+  "url": "https://192.168.1.12:4173/",
+  "transport": "HTTPS on local Wi-Fi; local self-signed certificate accepted by test browser only",
+  "appHttpStatus": 200,
+  "served": {
+    "manifestStatus": 200,
+    "cardsStatus": 200,
+    "packageSha256": "c560f7f5ac4cbd48996039690a1b7db2e5ff4554444037f28a3cb636caa60d62",
+    "qnaCount": 1104,
+    "pdfCount": 27,
+    "ocrCount": 46,
+    "passageCount": 15174,
+    "cardGroups": {
+      "standardized": 30,
+      "eventEvidence": 100,
+      "equipment": 12
+    },
+    "viewportWidth": 390,
+    "documentWidth": 390,
+    "title": "RENATE — BETA Offline"
+  },
+  "approvedCurrentCardHashes": {
+    "total": 142,
+    "matching": 138
+  },
+  "serviceWorker": {
+    "status": 200,
+    "bytes": 24733,
+    "localBuildBytes": 24733
+  },
+  "externalRequests": [],
+  "note": "Confirms the LAN URL serves the latest local build and the current card hashes. It does not prove installation, offline reopening, certificate trust, or acceptance on the physical phone."
+}

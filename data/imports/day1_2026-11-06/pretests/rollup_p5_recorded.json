@@ -1,0 +1,85 @@
+{
+  "schema": "ADANA_ROUTE45_P5_12_CASE_GATE_ROLLUP_V1",
+  "human_approval_or_lock_changed": false,
+  "route_name": "WSPS 10m Air Pistol Standard",
+  "cases": [
+    {
+      "case": "p5_event_overview_progressive_cards",
+      "status": "PASS",
+      "mode": "PHASE_CARDS + VERIFIED_RULE_SELECTION_HANDOFF",
+      "evidence": "route45_p5_gate01_overview_p1_image_reload_20261105.json"
+    },
+    {
+      "case": "p5_final_no_final_direct_horus_card",
+      "status": "PASS",
+      "mode": "PHASE_CARDS + QWEN_ANSWER",
+      "evidence": "route45_p5_gate02_no_final_card_criteria_pass_20261105.json"
+    },
+    {
+      "case": "p5_rag_score_calculation",
+      "status": "PASS",
+      "mode": "PHASE_CARDS + VERIFIED_RULE_SELECTION_HANDOFF; human adjudication",
+      "evidence": "route45_p5_gate03_card_pass_adjudication_20261105.json"
+    },
+    {
+      "case": "p5_eligibility_category",
+      "status": "PASS",
+      "mode": "PHASE_CARDS + QWEN_ANSWER",
+      "evidence": "route45_p5_gate04_eligibility_retry_20261105.json"
+    },
+    {
+      "case": "p5_original_magazine_capacity_query",
+      "status": "PASS",
+      "mode": "PHASE_CARDS + QWEN_ANSWER",
+      "evidence": "route45_p5_v2_case05_magazine_retry_20261105.json"
+    },
+    {
+      "case": "p5_negative_issf25m_facts",
+      "status": "PASS",
+      "mode": "QWEN_ANSWER_SEMANTIC_EQUIVALENCE; human adjudication",
+      "evidence": "route45_p5_v2_case06_issf25m_semantic_adjudication_20261105.json"
+    },
+    {
+      "case": "p5_boundary_neighbor_p4_identity",
+      "status": "PASS",
+      "mode": "HUMAN_ADJUDICATED_PASS",
+      "evidence": "route45_p5_q7_human_adjudication_20261105.json"
+    },
+    {
+      "case": "p5_route_identity_precedence",
+      "status": "PASS",
+      "mode": "QWEN_ANSWER",
+      "evidence": "route45_p5_v2_q8_identity_precedence_20261105.json"
+    },
+    {
+      "case": "p5_qualification_total_shot_count",
+      "status": "PASS",
+      "mode": "PHASE_CARDS + VERIFIED_RULE_SELECTION_HANDOFF",
+      "evidence": "route45_p5_v2_q9_shot_count_20261105.json"
+    },
+    {
+      "case": "p5_qualification_time_and_shots",
+      "status": "PASS",
+      "mode": "PHASE_CARDS + VERIFIED_RULE_SELECTION_HANDOFF",
+      "evidence": "route45_p5_v2_q10_time_and_shots_20261105.json"
+    },
+    {
+      "case": "p5_compound_overview_score_and_eligibility",
+      "status": "PASS",
+      "mode": "PHASE_CARDS + VERIFIED_RULE_SELECTION_HANDOFF",
+      "evidence": "route45_p5_v2_q11_compound_overview_scoring_eligibility_20261105.json"
+    },
+    {
+      "case": "p5_clarify_unbound_caliber",
+      "status": "PASS",
+      "mode": "CLARIFICATION_REQUIRED",
+      "evidence": "route45_p5_v2_q12_generic_caliber_clarification_20261105.json"
+    }
+  ],
+  "case_count": 12,
+  "pass_count": 12,
+  "global_regression": "NOT_RUN; prior blocked first at Route 8 remains separate",
+  "route_id": "wsps.event.p5",
+  "fail_count": 0,
+  "route_state": "UNVERIFIED"
+}

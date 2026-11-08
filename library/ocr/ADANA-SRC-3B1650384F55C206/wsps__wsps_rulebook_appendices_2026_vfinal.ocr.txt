@@ -1,0 +1,1282 @@
+source_path: _PDF_originais/WSPS Rulebook Appendices 2026_vFinal.pdf
+source_sha256: 3b1650384f55c206cde8617f073ca6c6871433958b8f702ca678b873b04ee369
+source_pages: 34
+ocr_link_basis: PDF SHA-256 matches the existing sidecar header exactly
+
+DOCUMENT TITLE: WSPS Rulebook Appendices 2026_vFinal
+
+SOURCE PDF: WSPS Rulebook Appendices 2026_vFinal.pdf
+
+SOURCE SHA-256: 3b1650384f55c206cde8617f073ca6c6871433958b8f702ca678b873b04ee369
+
+--- PDF PAGE 0001 | method=TESSERACT_OCR ---
+World Shooting Para Sport 
+Appendices 1-6 
+International Paralympic Committee 
+ 
+Dahlmannstraße 2 Tel. +49 228 2097-195 www.paralympic.org/shooting 
+53113 Bonn, Germany Fax +49 228 2097-209  
+ 
+Table of contents 
+ 
+Appendix Number Page Numbers 
+Appendix 1 – Requirements & Designation of Competitions 2-6 
+Appendix 2 – Recognised Competition Requirements 7-12 
+Appendix 3 – Sanctioned & Approved Competition Requirements 13-20 
+Appendix 4 – Trigger Extensions & Adaptations 21-23 
+Appendix 5 – SH2 Support Stands & Springs 24-29 
+Appendix 6 – P5 10m Air Pistol Standard 30-34
+
+--- PDF PAGE 0002 | method=TESSERACT_OCR ---
+Appendix 1 
+Requirements & Designation of Competitions 
+Appendix 1 - Requirements & Designation of Competitions 2 
+1 General requirements 
+ 
+Paralympic Games, Regional 
+Championships and WSPS World 
+Championships 
+World Shooting Para Sport (WSPS) 
+Sanctioned Competitions (World Cup) 
+World Shooting Para Sport (WSPS) 
+Approved Competitions (Grand Prix) 
+Legal terms of 
+reference 
+Hosting agreement, Memorandum of     
+Understanding (MOU) as applicable Application and hosting agreement Competition application  
+Athlete licensing All participating athletes must have a 
+WSPS License 
+All participating athletes must have a 
+WSPS License 
+All participating athletes must have a 
+WSPS License 
+Results recognition Results are recognised for MQS, rankings 
+and records 
+Results are recognised for MQS, rankings 
+and records  
+Results are recognised for MQS and 
+rankings, but are not recognised for 
+records 
+Fee Application and Signing fees  Sanctioning fee  Approval fee  
+Officiating Technical Delegate required,  
+full panel of Competition Jury required 
+Technical Delegate required, 
+full panel of Competition Jury required 
+Technical Delegate/Chief Judge required; 
+panel of Competition Jury as prescribed  
+Results, Timing, 
+Scoring (RTS) Full international panels required Full international panels required, or as 
+prescribed by WSPS 
+Full international panels preferred, or as 
+prescribed by WSPS 
+Doping control IPC results management subject to Doping 
+Control Agreement 
+IPC results management subject to Doping 
+Control Agreement 
+Run under National Jurisdiction or LOC 
+Jurisdiction, education encouraged 
+Media and 
+communications 
+Service Level Agreement between WSPS 
+and LOC As defined in the host agreement No set requirements 
+Broadcasting 
+ 
+(PG) – Games Broadcasting strategy 
+applies 
+(WCH, RCH) – Broadcasting agreement 
+between WSPS and LOC 
+Live stream to be provided by the LOC as 
+defined in the hosting agreement 
+ 
+ 
+ 
+No set requirements
+
+--- PDF PAGE 0003 | method=TESSERACT_OCR ---
+Appendix 1 
+Requirements & Designation of Competitions 
+Appendix 1 - Requirements & Designation of Competitions 3 
+ Paralympic Games and World 
+Championships World Cup Grand Prix 
+Branding 
+(PG) - Games Branding policies (WCH,RCH) 
+– Branding guidelines apply, WSPS logo, 
+branding and official Competition title 
+usage is mandatory 
+Branding guidelines apply. 
+Usage of WSPS logo, branding, and official 
+Competition title (“[City][Year] Shooting 
+Para Sport [World Cup”) is mandatory 
+“WSPS Grand Prix” alongside the 
+Competition name 
+Commercial rights 
+(PG) – Games marketing conditions apply 
+(WCH, RCH) – Commercial rights granted 
+to LOC pursuant to hosting agreement, 
+LOC to offer first right of refusal to WSPS 
+partners, WSPS retains % of marketing 
+inventory 
+Commercial rights granted to LOC 
+pursuant to hosting agreement, LOC to 
+offer first right of refusal to WSPS partners, 
+WSPS retains a percentage of the 
+marketing inventory 
+No set requirements 
+Publications (PG) - As determined by IPC 
+(WCH, RCH) - As determined by WSPS To be approved by WSPS No set requirements but must be approved 
+by WSPS where applicable 
+Protocol (PG) - As determined by IPC 
+(WCH, RCH) - As determined by WSPS As determined by WSPS No set requirements but must be approved 
+by WSPS where applicable 
+Services Standards apply as set out in Manuals, 
+Guidelines and/or MOU 
+Standards apply as set out in Competition 
+Guidelines Standards set by LOC 
+Look (PG) - As determined by IPC 
+(WCH, RCH) - As approved by WSPS To be approved by WSPS No set requirements 
+Technology 
+OVR = On Venue 
+Results 
+PRIS requirements apply, OVR must be 
+supplied through Games or WSPS supplier 
+OVR must be supplied through WSPS 
+supplier 
+OVR supplied through LOC’s Competition 
+supplier
+
+--- PDF PAGE 0004 | method=TESSERACT_OCR ---
+Appendix 1 
+Requirements & Designation of Competitions 
+Appendix 1 - Requirements & Designation of Competitions 4 
+2 Specific requirements 
+ IPC Games and World Championships World Cups Grand Prix 
+ Paralympic Games World / Regional 
+Championships  World Cups or Regional Games Grand Prix 
+Events programme Set by WSPS/IPC All WSPS Events All Paralympic Events, optional 
+additional Events Any combination of Events 
+Entry level 
+Direct Slots 
+2 MQS for 1st Event 
+1MQS for additional 
+event(s) 
+1 MQS per Event No MQS required No MQS required 
+Event viability (min. 
+number of countries 
+per Event) 
+No less than 4 per 
+Event 
+Individual Event: no less 
+than 4 per Event; Team 
+events: no less than 3 
+Individual Events: no less than 4; 
+Team Events: no less than 3  No less than 3 per Event 
+Output 
+Results 
+Records 
+Rankings 
+MQS 
+Results 
+Records  
+Rankings 
+MQS 
+Results 
+Records 
+Rankings  
+MQS 
+Results 
+Rankings  
+MQS 
+Finals In all Events  In all Paralympic Events, 
+VI and Para Trap In all Paralympic Events, VI and Para Trap In all Paralympic Events, VI and Para 
+Trap 
+Electronic targets and 
+results services 
+from Official Target 
+and Results Provider 
+Mandatory Mandatory  Mandatory  Optional
+
+--- PDF PAGE 0005 | method=TESSERACT_OCR ---
+Appendix 1 
+Requirements & Designation of Competitions 
+Appendix 1 - Requirements & Designation of Competitions 5 
+ Paralympic Games World / Regional Championships  World Cups Grand Prix 
+Technical 
+Delegate Mandatory 
+International 
+Technical 
+Officials (ITOs) 
+Role No. of 
+ITOs 
+Technical 
+Delegate 1 
+Chief of Jury 1 
+Pistol Jury 3 
+Rifle Jury 3 
+Equipment 
+Control Jury 2 
+RTS Jury 3 
+Appeal Jury 1 
+Total Appointed 
+by WSPS:  
+14  
+ITOs  
+ 
+Role No. of 
+ITOs 
+Technical 
+Delegate 1 
+Chief of Jury 1 
+Pistol Jury 3 
+Rifle Jury 3 
+Para Trap Jury 2 
+Equipment 
+Control Jury 2 
+RTS Jury 3 
+Total Appointed 
+by WSPS:  
+*15 
+ITOs  
+ 
+*Final number may vary and will 
+be determined by WSPS 
+depending on the range size and 
+competition requirements 
+World Cup: 
+Role No. of 
+ITOs 
+Technical Delegate 1 
+Chief of Jury 1 
+Pistol Jury 2 
+Rifle Jury 2 
+Para Trap Jury 2 
+Equipment Control 
+Jury 2 
+RTS Jury 2 
+Total Appointed by 
+WSPS:  
+*12 
+ITOs  
+ 
+*Final number may vary and will 
+be determined by WSPS 
+depending on the range size and 
+competition requirements 
+ Grand Prix: 
+Role No. of 
+ITOs 
+Technical Delegate 
+(Jury of Appeal Chief 
+Judge) 
+1 
+Combined Jury 2 
+Para Trap Jury 1 
+Total Appointed by 
+WSPS:  4 ITOs  
+ 
+ 
+Classification 
+Panels No Classification 
+No Classification or  
+The number is to be determined 
+by the final entries 
+The number is to be determined 
+by the final entries 
+ 
+Classification is optional.  
+If yes, the number is to be 
+determined by the final entries
+
+--- PDF PAGE 0006 | method=TESSERACT_OCR ---
+Appendix 1 
+Requirements & Designation of Competitions 
+Appendix 1 - Requirements & Designation of Competitions 6 
+ Paralympic Games World / Regional Championships  World Cup Grand Prix 
+Minimum 
+number of days 
+(depending on 
+range capacity) 
+Competition 
+days: 
+Min. 7 days  
+Equipment 
+Control: 
+ 2 days prior 
+to 
+Competition 
+TOTAL:  Min. 9 days 
+ 
+ 
+Competition 
+days: 
+Min. 8 days  
+*Classification
+/ Equipment 
+Control: 
+ 2 days prior 
+to 
+Competition 
+TOTAL:  Min. 10 days 
+*Only for Regional 
+Championships 
+ 
+ 
+Competition 
+days: 
+Min. 5 days  
+Classification/ 
+Equipment 
+Control: 
+ 2 days prior 
+to 
+Competition
+ 
+TOTAL:  Min. 7 days 
+ 
+ 
+ 
+ 
+Competition 
+days: 
+Min. 5 days  
+Classification/ 
+Equipment 
+Control: 
+ 2 days prior 
+to 
+Competition
+ 
+TOTAL:  Min. 7 days 
+ 
+ 
+Time schedule Depending on the shooting range capacity. This must be approved by WSPS. 
+Results 
+template  This must be managed by the WSPS Official Results Provider and sent to WSPS 
+The results must be submitted 
+with the WSPS template to WSPS 
+office 7 days after Competition or 
+sooner 
+Result Book 
+Coordinated and published by 
+OCOG, with review and approval 
+by TD 
+As per the WSPS template. Coordinated by TD and RTS Jury 
+Chairperson. Published by WSPS 
+Coordinated and published by the 
+LOC, with review and approval by 
+the TD
+
+--- PDF PAGE 0007 | method=TESSERACT_OCR ---
+Appendix 2 
+Recognised Competition Requirements 
+ 
+Appendix 2 - Recognised Competition Requirements 7 
+1 Programme of Events Examples 
+1.1 The Competition Programme of Events recognised by World Shooting Para Sport (WSPS) at 
+the varying Competition levels are: 
+Programme Events included 
+Accepted at Competition level(s) 
+Grand Prix, 
+World Cup, RCH WCH PG 
+Programme 1 All Events 
+ R1-R9 
+ P1-P4  
+   
+Programme 2 All Events 
+ R1-R11 
+ P1-P6 
+ VIS-VIP 
+ PT1-PT3  
+   
+Programme 3  Any combination of 
+events from Programme 
+2 as approved by WSPS.  
+   
+1.2 The Programme of Events for IPC Games will be confirmed in the qualification guide for such 
+Competitions. 
+1.3 WSPS will also consider online only events as a recognised competition, but these events will 
+not be eligible for records, rankings, or MQS.  
+1.4 WSPS competitions officially begin on  arrival day, which will be determined by WSPS at its 
+own discretion. For reference, arrivals days will be typified as follows, unless otherwise 
+agreed with WSPS:  
+ 
+Technical Delegate 3 days before arrival day 
+Classification Panel  1 day before the arrival day 
+Pistol & Rifle Jury 1 day before the arrival day 
+Equipment Control Jury 1 day before the arrival day 
+Technical Delegate (Shotgun) 2 days before the 1st SG PET 
+Shotgun Officials 1 day before the 1st SG PET
+
+--- PDF PAGE 0008 | method=TESSERACT_OCR ---
+Appendix 2 
+Recognised Competition Requirements 
+ 
+Appendix 2 - Recognised Competition Requirements 8 
+2 Application 
+2.1 Competition hosting expression of interest application forms for WSPS Championships 
+(WCH/RCH), Sanctioned Competitions (World Cup) and Approved Competitions (Grand 
+Prix) can be found on the WSPS website.  
+2.2 To apply to host a WSPS Recognised Competition, the LOC should submit the relevant 
+application form by the applicable deadline: 
+Recognised Competition 
+Deadline for application submission 
+(months prior to proposed Competition 
+date) 
+WSPS Championships World & Regional 
+Championships 
+24 months  
+WSPS Sanctioned 
+Competitions 
+World Cup  12 months 
+WSPS Approved 
+Competitions 
+Grand Prix 6 months  
+2.3 All applications will be reviewed at the discretion of WSPS.  
+2.4 WSPS will confirm to the applicant in writing the result of the application. 
+2.5 For WSPS Championships and WSPS Sanctioned Competitions - if an application is 
+successful, the LOC must agree to the terms and conditions of a hosting agreement, as 
+required by WSPS.  
+ 
+3 Competition Entries 
+3.1 All athletes must first be entered by their respective NPCs or other organisation authorised 
+by the NPC and accepted by WSPS, in order  to participate in any WSPS Recognised 
+Competition.  
+3.2 All entries from NPCs must be received by the deadlines as set out in the Competition 
+information package. Close of entries is midnight CET on the date given. 
+3.3 ‘First Entry by Number’ must include: 
+3.3.1 total number of athletes and Team Officials participating; and 
+3.3.2 number of individual and team Event entries the NPC will submit.  
+3.4 ‘Final Entry by Name’ must include: 
+3.4.1 full details of all athletes entered to compete in the Competition; 
+3.4.2 confirmation of all individual and team Event entries, with names of all athletes; 
+3.4.3 confirmation (name and details) of all Team Officials participating at the 
+Competition; and
+
+--- PDF PAGE 0009 | method=TESSERACT_OCR ---
+Appendix 2 
+Recognised Competition Requirements 
+ 
+Appendix 2 - Recognised Competition Requirements 9 
+3.4.4 all Competition booking details (as applicable) including accommodation, transport 
+and firearms information. 
+3.5 The entry criteria shall be defined in the Competition general information package and/or 
+qualification documentation for each Competition. 
+3.6 An Event will only be considered viable if the minimum viability criteria (as specified in 
+Appendix 1) is met by the time of the Technical Meeting and reflected as such on the start 
+list.  
+3.7 WSPS reserves the right to cancel in advance any Events which are not viable by the first 
+entry by number deadline.  
+ 
+4 Maximum Number of Entries 
+4.1 At each WSPS Recognised Competition, the maximum number of starts per Event will be 
+calculated; this calculation is based upon range capacity and the Competition schedule. 
+4.2 The entries accepted at WSPS Recognised Competitions can be defined as: 
+4.2.1 ‘Full’ participants are athletes eligible to progress to the Finals, and to obtain records 
+and ranking; and 
+4.2.2 ‘MQS-only’ participants are athletes eligible to obtain qualification scores to be 
+recognised for MQS, but cannot progress to the Event Finals or obtain direct quota 
+allocation, records or rankings.  
+4.3 The limit of maximum number of entries per NPC per Competition type can be summarised 
+as follows:
+
+--- PDF PAGE 0010 | method=TESSERACT_OCR ---
+Appendix 2 
+Recognised Competition Requirements 
+ 
+Appendix 2 - Recognised Competition Requirements 10 
+Competition 
+Maximum number of entries 
+‘Full’ participants  ‘MQS only’ 
+participants  
+IPC Games and WSPS 
+Championships 
+Paralympic Games 
+Defined in 
+Qualification 
+Criteria 
+Not applicable 
+World 
+Championship 
+*4 per NPC per 
+Event + defined in 
+qualification 
+criteria 
+Not applicable 
+Regional 
+Championship 
+*4 per NPC per 
+Event + defined in 
+qualification 
+criteria 
+3 per country 
+per event 
+(pending 
+capacity) 
+WSPS Sanctioned Competitions 
+World Cup *4 per NPC per 
+Event 
+3 per country 
+per event 
+(pending 
+capacity) 
+Regional Games 
+Defined in 
+qualification 
+criteria 
+Not applicable 
+WSPS Approved Competition Grand Prix Unlimited 
+3 per country 
+per event 
+(pending 
+capacity) 
+*in accordance with rule 4.3.1 below.  
+4.3.1 NPCs may enter 4 athletes per Event if 1 athlete is a female or a junior, otherwise 
+NPCs may only enter 3 athletes per Event. 
+4.3.2 When entering more than four athletes to an Event via the online entry system, the 
+NPC must confirm which athletes are to be entered as “Full” entry and which as 
+“MQS-only”. 
+4.3.3 If the maximum number of starts is reached the number of ‘MQS-only’ entries may be 
+limited; in such cases, affected NPCs will be notified by WSPS.
+
+--- PDF PAGE 0011 | method=TESSERACT_OCR ---
+Appendix 2 
+Recognised Competition Requirements 
+ 
+Appendix 2 - Recognised Competition Requirements 11 
+5 Entry Fees 
+5.1 Event entry fee (World Cup or Grand Prix Competitions only) 
+5.1.1 Basic entry fee 
+5.1.1.1 A basic entry fee shall be charged by the LOC to all participating athletes and 
+Team Officials.  
+5.1.1.2 The basic entry fee is calculated by the LOC according to the approximate price 
+per person for services during the relevant Competition. The Event entry 
+fee shall be charged as follows (included in the LOC entry fee):  
+(a) Individual Events (including Mixed Team) (World Cup): EUR 15  per 
+athlete entry per Event; 
+(b) Individual Events (including Mixed Team) ( Grand Prix): EUR 10  per 
+athlete entry per Event;  
+(c) Individual Events (including Mixed Team) ( online only event): EUR 5 
+per athlete entry per Event;  
+(d) Team Events (World Cup): EUR 25 per team entry per team Event. 
+5.1.2 The basic entry fee and Event entry fee will be collected by the LOC by the deadline 
+given in the Competition information package. The LOC may charge an additional fee 
+in addition to the WSPS fee.  
+5.1.3 The LOC must transfer the Event entry fees to WSPS no later than 30 days after the 
+receiving the invoice from WSPS. 
+5.2 Late entries 
+5.2.1 Late entry requests (submitted after the final entry by name deadline) will only be 
+considered if they are received by WSPS no later than three days before the official 
+arrival day of the relevant Competition.  
+5.2.2 Late entry requests may be accepted at the discretion of the LOC and WSPS if it is 
+deemed that such late entries can be accommodated (i.e. within the Competition 
+schedule, sufficient time for processing firearms permits); a late entry fee of EUR 100 
+will be charged and retained by the LOC per additional start. 
+5.3 Entry changes 
+5.3.1 Replacement entries may be accepted in the same Event, due only to injury or 
+medical reason, at the sole discretion of WSPS, in consultation with the LOC. NPCs 
+requesting replacement entries must submit supporting documents to WSPS for 
+approval. All replacement athletes must already be entered in the competition.
+
+--- PDF PAGE 0012 | method=TESSERACT_OCR ---
+Appendix 2 
+Recognised Competition Requirements 
+ 
+Appendix 2 - Recognised Competition Requirements 12 
+5.4 Cancellations 
+5.4.1 The cancellation dates and policies for each Competition may be published in each 
+Competition information package and must be adhered to. 
+5.4.2 Any teams cancelling any bookings or participants after the final cancellation 
+deadline will be liable for all costs incurred. 
+ 
+6  Minimum Qualifying Scores (MQS) 
+6.1 All athletes will be required to reach set MQS to be eligible to compete in certain 
+Competitions. The MQS will be defined by WSPS for each Events and published in the 
+relevant qualification documentation for each Competition.  
+6.2 There is no required MQS for competing in a WSPS World Cup or Grand Prix.
+
+--- PDF PAGE 0013 | method=TESSERACT_OCR ---
+Appendix 3 
+Sanctioned & Approved Competition Requirements 
+ 
+Appendix 3 - Sanctioned & Approved Competition Requirements 13 
+1 Overview of WSPS Sanctioned Competitions (World Cup) 
+Requirements 
+1.1 Sanctioning process 
+1.1.1 Applications should be completed in full and submitted to WSPS office at 
+info@worldshootingparasport.org no later than 12 months prior to the Competition. 
+1.1.2 Applications submitted outside the given timelines or not completed in full may not be 
+accepted. 
+1.1.3 If deemed necessary by WSPS, prior to a sanctioning decision a site visit may be 
+required to be conducted by WSPS (at the LOC cost). 
+1.1.4 WSPS will provide an LOC with its decision in writing whether or not to sanction the 
+Competition (acting in its absolute discretion) . WSPS Sanctioned Competitions will 
+only be officially announced after the LOC has entered into a hosting agreement with 
+WSPS for the Competition, unless WSPS determines otherwise.  
+1.1.5 If the Competition is sanctioned, a sanctioning fee of EUR 200 must be paid by the LOC 
+to WSPS (LOC will be invoiced accordingly). 
+1.1.6 All WSPS Sanctioned Competitions will appear on the WSPS calendar. 
+1.2 General requirements 
+1.2.1 Rules: All WSPS Sanctioned Competitions must be held in accordance with these Rules 
+and Regulations. 
+1.2.2 Programme of Events:  
+1.2.2.1 Refer to WSPS Regulation 2.1.1  for the Events which may be included in WSPS 
+Sanctioned Competitions. 
+1.2.2.2 Finals are required for all Events except P5. 
+1.2.3 Number of days for classification, training & equipment control  
+1.2.3.1 Two (2) days are required prior to the Competition days  for Classification, training 
+and Equipment Control, unless WSPS determines otherwise. 
+1.2.4 Classification:  
+1.2.4.1 International Classification must be held at all WSPS Sanctioned Competitions, 
+unless WSPS determines otherwise.  
+1.2.4.2 Unless agreed otherwise by WSPS, an International Classification Panel will consist 
+of at least two (2) International Classifiers per impairment group - Physical 
+Impairment (PI) or Visual Impairment (VI) – who will be appointed by 
+WSPS.
+
+--- PDF PAGE 0014 | method=TESSERACT_OCR ---
+Appendix 3 
+Sanctioned & Approved Competition Requirements 
+ 
+Appendix 3 - Sanctioned & Approved Competition Requirements 14 
+1.2.5 Anti-Doping: 
+1.2.5.1 Doping control must take place at all WSPS Sanctioned Competitions, unless 
+specified otherwise by WSPS.  
+1.2.5.2 Prior to the Competition, the LOC must enter into a Doping Control Agreement 
+(DCA) with WSPS/ the IPC, and/or other parties as required by WSPS, which 
+shall set out the size and type of the testing programme to be conducted at 
+the Competition, unless WSPS determines otherwise. 
+1.3 Entries 
+1.3.1 The WSPS online entry system will be used for this Event for athlete entries; other 
+entry forms must be distributed to teams along with the Competition information 
+package (WSPS will send templates of these forms to the LOC if requested).  
+1.3.2 All Athletes are required to have a WSPS License by the final entry deadline. 
+1.3.3 Unless specified otherwise by WSPS, the estimated number of wheelchair users at 
+the Competition will be as follows: 
+1.3.3.1 WSPS Athletes = 50-60% of the total number of Athletes 
+1.3.3.2 Team officials = 2-3% of the total number of Team Officials 
+1.4 Event viability 
+1.4.1 The minimum number of entries for per Event are:  
+1.4.1.1 Individual Events: four (4) Athletes from four (4) NPCs. 
+1.4.1.2 Team Events: teams from a minimum of three (3) NPCs.  
+1.4.2 If the minimum viability criteria is not met by the final entries deadline an Event is not 
+considered viable and may be shot for MQS score only at the discretion of the 
+Technical Delegate.  
+1.4.3 Competition information package  
+1.4.3.1 The Competition information package and entry forms must be sent to NPCs in a 
+timely manner. WSPS will distribute the information package and forms to 
+NPCs, and also publish the information on the website 
+(www.paralympic.org/shooting/events).  
+1.4.3.2 The LOC’s Competition information package must include all: 
+a) deadlines for entry applications; 
+b) financial matters including full costs (entries, accommodation, etc) 
+and bank transfer details; 
+c) transportation details including to/from airport and hotel; 
+d) accommodation details/options; 
+e) gun import and visa procedures; and 
+f) a preliminary Competition schedule.
+
+--- PDF PAGE 0015 | method=TESSERACT_OCR ---
+Appendix 3 
+Sanctioned & Approved Competition Requirements 
+ 
+Appendix 3 - Sanctioned & Approved Competition Requirements 15 
+1.4.3.3 A template will be sent to the LOC by WSPS, if requested. The template or other 
+document must be completed by the LOC and sent to WSPS for approval, 
+along with draft Competition schedule. 
+1.4.4 Deadlines 
+1.4.4.1 First entry by number: the Competition first entry by number deadline must be set 
+to a minimum of seven (7) weeks before the start of the Competition; 
+1.4.4.2 Final entry by name: the Competition final entry deadline must be set to a 
+minimum of three (3) weeks before the start of the Competition.  
+1.4.4.3 Bibs: Following the final entry deadline WSPS will prepare athlete, loader and 
+assistant bibs and then send to the LOC for printing and distribution.  
+1.5 Transport  
+1.5.1 Transport (airport to hotel, and hotel to venue) must be provided by LOC for all 
+appointed Competition officials (Competition Jury, Classifiers, WSPS Staff). 
+1.5.2 The LOC must provide transport (airport to hotel and/or hotel to venue) or 
+transportation options to all Athletes and Team Officials, and a suitable number of 
+accessible vehicles must be provided.  
+1.6 Accommodation 
+1.6.1 If the LOC will offer accommodation services to Athletes and Team Officials, a 
+suitable number of accessible rooms must be provided in accordance with local 
+regulations. 
+1.6.1.1 For information about accessibility considerations, refer to the IPC Accessibility 
+Guide.  
+1.7 Venue 
+1.7.1 General Venue requirements  
+1.7.1.1 Firing points, ranges specifications, etc.) are as according to these Rules and 
+Regulations. 
+1.7.2 Equipment 
+1.7.2.1 Electronic targets are mandatory. Targets and results services must be provided by 
+the WSPS Official Results & Target System Provider (see LOC obligation 
+details at www.paralympic.org/shooting/organisers); 
+1.7.2.2 The full set of devices for both the ISSF and WSPS equipment control must be 
+provided by LOC (Note: if the LOC does not own a WSPS equipment 
+control device, please inform WSPS and the purchase or loan of such items 
+can be arranged). 
+1.7.3 Accessibility  
+1.7.3.1 The venue must be accessible to wheelchair users, including ‘barrier-free’ access to 
+the venue and field of play.
+
+--- PDF PAGE 0016 | method=TESSERACT_OCR ---
+Appendix 3 
+Sanctioned & Approved Competition Requirements 
+ 
+Appendix 3 - Sanctioned & Approved Competition Requirements 16 
+1.7.3.2 A suitable number of accessible toilets must be available at the venue, refer to the 
+IPC Accessibility Guide.  
+1.7.4 Information services  
+1.7.4.1 A results board (for results display) may be provided at the venue. 
+1.7.4.2 A website can be provided for distributing documents and notices to delegations 
+and officials. 
+1.7.4.3 An information desk or notice board for Competition information may be made 
+available to teams at the venue and official hotel (if applicable). 
+1.7.4.4 The LOC must provide free Wi-Fi services to all officials and participants across the 
+venue. 
+1.7.5 Meeting rooms and office facilities 
+1.7.5.1 A large room or space must be allocated to be used for the Technical Meeting 
+(there will be approximately 2 persons per participating country attending).  
+1.7.5.2 An office for the Technical Delegate, WSPS Staff, and Competition Jury must be 
+provided. The allocated office must include access to internet, printer and 
+photocopier.  
+1.7.6 Classification 
+1.7.6.1 LOC must provide all necessary facilities to allow classification to be conducted in 
+accordance with the WSPS Classification Rules and Regulations. 
+1.7.6.2 The LOC must comply with WSPS Classification requirements provided by WSPS.
+
+--- PDF PAGE 0017 | method=TESSERACT_OCR ---
+Appendix 3 
+Sanctioned & Approved Competition Requirements 
+ 
+Appendix 3 - Sanctioned & Approved Competition Requirements 17 
+1.8 Officials 
+1.8.1 WSPS will appoint the necessary number of WSPS Officials, and confirm the names to 
+the LOC in writing. 
+1.8.2 The LOC must budget to cover the following number of WSPS officials and relevant 
+costs/services: 
+Role Number of persons Period of attendance Services to be 
+provided 
+Technical 
+Delegate 
+1  Arrive: 2 -3 days before the 
+official arrival day 
+ Depart: Day after the end of 
+the Competition 
+ Flights 
+ Transport 
+ Accommodation 
+ Catering 
+Competition 
+Jury 
+3-8 (depending on the  
+Competition programme) 
+ Arrive: 1 day before the 
+official arrival day 
+ Depart: Day after end the of 
+the Competition 
+ Flights 
+ Transport 
+ Accommodation 
+ Catering 
+Chief Classifier 1  Arrive: 2 days before the 
+official arrival day 
+ Depart: 3 days after the end of 
+Classification 
+ Flights 
+ Transport 
+ Accommodation 
+ Catering 
+Classifiers 1-3  
+(depending on decision by WSPS 
+of no.  of Classification Panels to 
+be provided) 
+ Arrive: 1 day before the 
+official arrival day 
+ Depart: Day after the end of 
+Classification 
+ Flights 
+ Transport 
+ Accommodation 
+ Catering 
+WSPS Staff 1  Arrive: 1 day before the 
+official arrival day 
+ Depart: Day after the end of 
+the Competition 
+ Flights 
+ Transport 
+ Accommodation 
+ Catering
+
+--- PDF PAGE 0018 | method=TESSERACT_OCR ---
+Appendix 3 
+Sanctioned & Approved Competition Requirements 
+ 
+Appendix 3 - Sanctioned & Approved Competition Requirements 18 
+1.8.3 National technical officials 
+1.8.3.1 An appropriate number of national technical officials are to be selected and 
+appointed by the LOC in consultation with WSPS. 
+1.8.4 Competition Juries 
+1.8.4.1 WSPS will provide a list of Competition Jury appointments to the LOC following 
+the official appointment process by WSPS.  
+1.8.4.2 One member per Competition Jury is to be provided by the LOC.  
+1.9 Protocol 
+1.9.1 Medals 
+1.9.1.1 The LOC must send the proposed medal designs to WSPS for approval.  
+1.9.1.2 Medal design must follow the WSPS brand guidelines and include:  
+a) Front: Competition logo & official Competition name 
+b) Back: WSPS wordmark 
+c) Ribbon: plain or a design chosen by LOC (to be approved by WSPS). 
+1.9.2 Victory ceremonies 
+1.9.2.1 Depending on the preference of the LOC, victory ceremonies can be scheduled 
+following each Finals or at the end of every day. 
+1.9.2.2 The victory ceremony area must be accessible for wheelchair users. 
+1.9.2.3 A back-drop and podium must be prepared by LOC for the ceremonies, and the 
+designs must be sent to WSPS for approval.  
+1.9.2.4 The LOC must provide the national anthems and three (3) flags of each 
+participating NPC of the same size (NOTE: total number of required flags 
+per NPC can be finalised with WSPS following the final entry deadline). 
+1.9.3 Opening and closing ceremonies 
+1.9.3.1 Opening and closing ceremonies are optional.  
+1.9.3.2 If an LOC wishes to plan an opening and/or closing ceremony, plans must be 
+approved by WSPS.  
+1.10 Branding 
+1.10.1 Any Competition branding (including posters, banners, brochures, etc) must include 
+the official Competition title and Competition logo as determined and provided to the 
+LOC by WSPS.  
+1.10.2 A design of all planned materials must be sent to WSPS for approval.  
+1.11 Broadcasting / Live Steam 
+1.11.1 A live stream must be provided to WSPS for the Finals of all Events.  
+1.11.2 LOCs must contact WSPS for the broadcast/live stream requirements.
+
+--- PDF PAGE 0019 | method=TESSERACT_OCR ---
+Appendix 3 
+Sanctioned & Approved Competition Requirements 
+ 
+Appendix 3 - Sanctioned & Approved Competition Requirements 19 
+ 
+2 WSPS Approved Competition (Grand Prix) Requirements  
+2.1 Approval process 
+2.1.1 Application forms for WSPS Approved Competitions should  be completed in full and 
+submitted to the WSPS o ffice at info@worldshootingparasport.org  no later than six 
+(6) months prior to the commencement of an WSPS Approved Competition. 
+2.1.2 Applications submitted outside the given timelines or not completed in full will not be 
+accepted by WSPS.  
+2.1.3 WSPS will provide an LOC with its decision in writing whether or not to approve  the 
+Competition (acting in its absolute discretion).  
+2.1.4 If approved, a EUR 100 approval fee must be transferred by the LOC to WSPS’s 
+nominated account as invoiced by WSPS. 
+2.1.5 All WSPS Approved Competitions will appear in the WSPS calendar. 
+2.2 Minimum Requirements 
+2.2.1 Rules: all WSPS Approved Competitions must be held according to the se Rules and 
+Regulations. 
+2.2.2 Programme of Events: Refer to WSPS Regulation 2.1.1 for the Events which may be 
+included in WSPS Approved Competitions. 
+2.2.3 Time schedule:  the time schedule must  be developed by the LOC taking into 
+consideration the number of firing points, expected number of Athletes per Event, type 
+of targets (e.g. paper or electronic). The LOC must obtain WSPS’s approval of the 
+schedule before publishing.  
+2.2.4 Number of days for classification, unofficial training & equipment control: two (2) 
+days are required prior to the competition days. 
+2.2.5 Equipment: full set of devices for both the ISSF and WSPS Equipment Control must be 
+provided by LOC. (Note: if the LOC does not own WSPS equipment control devices , 
+please inform WSPS and the purchase or loan of such items can be arranged). 
+2.2.6 Entries: the final entries list must be sent to WSPS office after the final entries deadline 
+and not later than 4 weeks prior the start of the C ompetition. The athlete’s WSPS 
+License number, international Sport Class and Sport Class Status (if available) must be 
+included in this list. 
+2.2.7 Number of wheelchair users: The estimated number of wheelchair users at the 
+Competition will be as follows: 
+2.2.7.1 WSPS Athletes = 50-60% of the total number of Athletes. 
+2.2.7.2 Team Officials = 2-3% of the total number of Team Officials. 
+2.2.8 Officials  
+2.2.8.1 Technical Delegate: a Technical Delegate will be appointed by WSPS.
+
+--- PDF PAGE 0020 | method=TESSERACT_OCR ---
+Appendix 3 
+Sanctioned & Approved Competition Requirements 
+ 
+Appendix 3 - Sanctioned & Approved Competition Requirements 20 
+2.2.8.2 Competition Jury: the Competition must be officiated by a WSPS Competition Jury, 
+to be appointed by WSPS. The number of Competition Jury members to be 
+appointed is outlined in Appendix 1. 
+2.2.8.3 National Judges: National judges are to be selected by the LOC and confirmed by 
+WSPS. 
+2.2.9 Classification (optional): Unless agreed otherwise by WSPS, an International 
+Classification Panel will consist of at least two (2) certified International Classifiers per 
+impairment group -  Physical Impairment (PI ) or Visual Impairment (VI)  - to be 
+appointed by WSPS.  
+2.2.10 Results: the LOC must submit the results from all Events to WSPS in electronic format 
+in the standardised WSPS results template no later than seven (7) days after the end of 
+the Competition. Results recognition will follow the WSPS processes for MQS scores.
+
+--- PDF PAGE 0021 | method=TESSERACT_OCR ---
+Appendix 4 
+Trigger Extensions & Adaptions 
+ 
+Appendix 4 – Trigger Extensions & Adaptions 21 
+Appendix 4 
+Trigger Extensions & Adaptions 
+ 
+In accordance with the ISSF Rules, the style/shape of a trigger is a personal choice as long as it stays 
+within the boundary of the given dimensions (as stated in ISSF Rules ‘Depth of fore-end’ and Item I 
+‘Maximum thickness (breadth) of the fore-end’).  No definition of the shape of the trigger is given.   
+ 
+ 
+ Trigger extension: triggers that have modifications compared to standard triggers, but are 
+inside the dimensions of ISSF Rules and protected by a trigger guard.  
+ 
+ Trigger adaptions: triggers that have modifications compared to standard triggers, and are 
+outside of the trigger guard and dimensions of ISSF Rules. 
+o athletes must have a medical reason to use a trigger adaption; 
+o The Athlete’s request to use a trigger adaption must be reviewed and approved by a 
+WSPS Classification Panel during a technical assessment (in consultation with the 
+Technical Delegate, regarding the safe use of the proposed trigger adaptation). 
+o If approved, the trigger adaption must be recorded on the Athlete’s WSPS Licence. 
+ 
+  
+ 
+ 
+To help to understand the differences, on the following pages are some example photographs and 
+explanations. 
+ 
+ 
+ 
+ 
+Trigger extension: trigger is inside the 
+dimensions of ISSF Rules and protected by a 
+trigger guard.
+
+--- PDF PAGE 0022 | method=TESSERACT_OCR ---
+Appendix 4 
+Trigger Extensions & Adaptions 
+ 
+Appendix 4 – Trigger Extensions & Adaptions 22 
+ 
+ 
+Trigger extension: trigger is inside the 
+dimensions of ISSF Rules and protected by a 
+trigger guard. 
+ Trigger extension: trigger is inside the 
+dimensions of ISSF Rules and protected by a 
+trigger guard. 
+ 
+Trigger adaptation:  trigger is outside the 
+trigger guard and outside the dimensions of 
+ISSF Rules. 
+ 
+ 
+Trigger adaptation:  trigger is outside the 
+trigger guard and outside the dimensions of 
+ISSF Rules.
+
+--- PDF PAGE 0023 | method=TESSERACT_OCR ---
+Appendix 4 
+Trigger Extensions & Adaptions 
+ 
+Appendix 4 – Trigger Extensions & Adaptions 23 
+ 
+Trigger adaptation:  there is no trigger 
+guard. 
+ 
+ 
+Trigger adaptation: trigger is outside the 
+trigger guard and outside the dimensions 
+of ISSF Rules 
+ 
+ 
+Trigger adaptation: trigger is outside the 
+trigger guard and outside the dimensions 
+of ISSF Rules.
+
+--- PDF PAGE 0024 | method=TESSERACT_OCR ---
+Appendix 5 
+SH2 Support Stand & Springs 
+Parts Drawings  
+ 
+ 
+Appendix 5 - SH2 Support Stand & Springs 24 
+Appendix 5 
+SH2 Support Stand & Springs 
+Parts Drawings  
+ 
+ 
+1 Overview 
+ 
+ 
+ 
+ 
+Upper 
+part 
+Lower 
+part 
+min. 20mm
+
+--- PDF PAGE 0025 | method=TESSERACT_OCR ---
+Appendix 5 
+SH2 Support Stand & Springs 
+Parts Drawings  
+ 
+ 
+Appendix 5 - SH2 Support Stand & Springs 25 
+2  Upper part support (U form Shaft) 
+ 
+ 
+ 
+ 
+ 
+  
+Max. weight: 200 grams 
+10mm 
+ 
+30mm 
+ISSF rule 7.4.4.2I+10mm= 60mm+10mm  
+  
+80mm 
+30mm
+
+--- PDF PAGE 0026 | method=TESSERACT_OCR ---
+Appendix 5 
+SH2 Support Stand & Springs 
+Parts Drawings  
+ 
+ 
+Appendix 5 - SH2 Support Stand & Springs 26 
+3 Support stand measuring procedure  
+ 
+3.1 Zero point 
+250 gram measuring bar is used to determine the zero point.  
+ 
+ 
+ 
+3.2 Spring flexibility 
+720 gram measuring bar is used to indicate spring flexibility: 
+ Weak (a) spring: minimum 35mm flexibility 
+ Strong (b) spring: minimum 25mm flexibility 
+ 
+ 
+ 
+ 
+ 
+Distance indicators for 
+25mm & 35mm 
+Zeroing test bar 
+25mm or 35mm 
+Zeroing test bar 
+Measuring test bar
+
+--- PDF PAGE 0027 | method=TESSERACT_OCR ---
+Appendix 5 
+SH2 Support Stand & Springs 
+Parts Drawings  
+ 
+ 
+Appendix 5 - SH2 Support Stand & Springs 27 
+4 Test Bar for Spring Flexibility  
+4.1 All springs are checked and marked at Equipment Control. Every spring shall be tested in all 
+four positions. Starting with the strong side (open turn on top) then rotating 90 degrees 
+clockwise. Position: 0, 90, 180, 270 degrees.  
+4.2 Of the four (4) test positions noted above, only one (1) side may fail, as follows. The failing 
+side will be marked with a red sticker (as illustrated below). All springs that pass the test are 
+given the general Equipment  Control (“EC”) sticker. These stickers may not interfere with 
+the function of the spring. 
+4.3 All springs used during the competition must have an EC sticker. Those with the additional 
+RED sticker, must position the spring so that the RED sticker is facing the Athlete.  
+4.4 During the random EC check, all four sides of the spring will be tested as in 4.1.  If two or 
+more sides of the spring fail, the athlete will be disqualified.
+
+--- PDF PAGE 0028 | method=TESSERACT_OCR ---
+Appendix 5 
+SH2 Support Stand & Springs 
+Parts Drawings  
+ 
+ 
+Appendix 5 - SH2 Support Stand & Springs 28 
+5 SH2 Rifle Configuration 
+5.1 In addition to the ISSF measurements and drawings of an air-rifle and 50m rifle, the for-end 
+must be symmetric in relation to the centreline of the barrel, as illustrated below.  
+ 
+ 
+5.2 One side of the for-end must touch one side of the yoke.
+
+--- PDF PAGE 0029 | method=TESSERACT_OCR ---
+Appendix 5 
+SH2 Support Stand & Springs 
+Parts Drawings  
+ 
+ 
+Appendix 5 - SH2 Support Stand & Springs 29 
+6 SH2 Arrow Sticker 
+~ 16mm
+~ 50mm
+SH2 Arrow
+Sticker size
+ 
+30mm 
+10mm
+
+--- PDF PAGE 0030 | method=TESSERACT_OCR ---
+Appendix 6 
+P5 10m Air Pistol Standard  
+ 
+Appendix 6 - P5 10m Air Pistol Standard 30 
+Appendix 6 
+P5 10m Air Pistol Standard 
+General 
+1.1 Any calibre 4.5 mm (.177) compressed air or gas pistol may be used. 
+1.2 The pistol used in the 10m five shot air pistol Event must have a magazine that can be 
+loaded with five (5) pellets. 
+2 Competition 
+2.1 Three (3) minutes preparation time will be given.  
+2.1.1 During the p reparation time, Athletes may remove safety flags and handle their 
+pistols, Dry Fire (pursuant to Rule 2.13) and carry out holding and aiming exercises.  
+2.2 Ready position:  
+2.2.1 Before each series, Athletes must lower their arm and adopt the READY position. If an 
+Athlete cannot adopt the READY position due to the height of table, they must lower 
+their hand as much as possible or, alternatively, they must rest their hand on the table. 
+Athletes are permitted to rest the  pistol on the bench or shooting table. 
+2.2.2 AthleteThe pistol may not be raised or lifted to point towards the target until the 
+command “START” is given. 
+2.3 A series is considered as having started from the moment of the command "ATTENTION". 
+Every shot fired after that will be counted as MATCH shot. (See ISSF Rules 8.8.2.3.a) 
+2.4 Before the beginning of the Competition series, the Athlete may fire one (1) sighting series 
+of five (5) shots in ten (10) seconds. 
+2.5 All shooting (sighting and Competition series) are by command. All Athletes in the same 
+range section must fire at the same time, but LOCs may arrange for more than one range 
+section to fire simultaneously under centralized commands. 
+2.6 The event is forty (40) Competition shots.  
+2.7 The Event is divided into series of five (5) shots each with a ten (10) seconds time limit. In 
+each series five shots are fired on one (1) Stationary Air Pistol target (see ISSF Rules 
+(currently 6.3.2.6)) in the time limit for the series.
+
+--- PDF PAGE 0031 | method=TESSERACT_OCR ---
+Appendix 6 
+P5 10m Air Pistol Standard  
+ 
+Appendix 6 - P5 10m Air Pistol Standard 31 
+2.8 Commands 
+2.8.1 When the range officer gives the command “LOAD”, the Athletes must prepare 
+themselves for their series within one (1) minute. 
+2.8.2 When one (1) minute has expired, the range officer will give the commands: 
+"ATTENTION" 
+Seven (7) seconds after “ATTENTION”  
+"START" (the signal to fire ). 
+After 10 seconds "STOP".  
+Shot(s) after the command "STOP" must be counted as zero(es)  (0). 
+2.8.3 The timing will be controlled by stop watches. 
+2.8.4 Incorrect range commands  
+2.8.4.1 If the Athlete wishes to protest because of an incorrect command and/or action by 
+the range officer, the Athlete must hold the pistol (or secure in the loading device) 
+pointing down range and raise their hand, and immediately after the series report 
+this to the range officer or a Competition Jury member. 
+2.8.4.2 If the claim is considered justified, the Athlete must be allowed to fire the series. 
+2.8.4.3 If the claim is considered not justified, the Athlete may fire the series, but must be 
+penalized by the deduction of two (2) points in the event from the score of that 
+series. 
+2.8.4.4 If the Athlete has fired a shot after the incorrect command and/or action, the 
+protest must not be accepted. 
+ 
+2.9 Scoring 
+2.9.1 All shots fired in the 10 seconds shooting time will be scored. Early and late shot(s) 
+will be scored as zero(es). 
+2.9.2 Ties 
+2.9.2.1 Any ties will be broken by ISSF Rules (currently 6.15.1).
+
+--- PDF PAGE 0032 | method=TESSERACT_OCR ---
+Appendix 6 
+P5 10m Air Pistol Standard  
+ 
+Appendix 6 - P5 10m Air Pistol Standard 32 
+2.10 Interruption 
+2.10.1 If the interruption is for safety or technical reasons without fault of the Athlete: 
+2.10.1.1 If the elapsed time is more than fifteen (15) minutes, the Competition Jury must 
+allow one extra sighting series of five (5) shots. 
+2.10.1.2 In the 10m Air Pistol Standard Event, the interrupted series must be annulled and 
+repeated. The repeated series must be recorded and credited to the Athlete. 
+2.10.1.3 Any extension of time allowed by the Competition Jury or range officers must be 
+marked clearly, stating the reason, on the register keeper's score card and on the 
+scoreboard where it is visible clearly to the Athlete. 
+ 
+2.11 Disturbances 
+2.11.1 Should an Athlete consider that they were disturbed while firing a shot, the Athlete 
+must hold their pistol pointing down range (or secure in the loading device) and 
+inform immediately the range officer or Competition Jury by raising their hand. The 
+Athlete must not disturb other Athletes. 
+2.11.2 If the claim is considered justified: 
+2.11.2.1 The series must be annulled and the Athlete may repeat the series. 
+2.11.3 If the claim is considered not justified: 
+2.11.3.1 If the Athlete has finished his series, the shot or series must be credited to the 
+Athlete. 
+2.11.3.2 If the Athlete has not finished his series due to the claimed disturbance, the 
+Athlete may repeat the series.  
+2.11.4 Scoring and penalties are as follows: 
+2.11.4.1 The score must be recorded as the total of the five (5) lowest value hits on the 
+targets. 
+2.11.4.2 Two (2) points must be deducted from the score of the repeated series if the 
+claim is not justified under Regulation 2.11.3. 
+2.11.4.3 In any repeated series, all five (5) shots must be fired at the target. Any shot(s) 
+not fired or not hitting the target must be scored as zero(es).
+
+--- PDF PAGE 0033 | method=TESSERACT_OCR ---
+Appendix 6 
+P5 10m Air Pistol Standard  
+ 
+Appendix 6 - P5 10m Air Pistol Standard 33 
+2.12 Malfunctions 
+2.12.1 If a shot has not been fired due to a Malfunction, and if the Athletes wishes to claim a 
+Malfunction, they must aim the pistol pointing down range, retain his grip, and 
+immediately inform the range officer by raising their free hand. They must not disturb 
+other Athletes.  
+2.12.1.1 An Athlete may try to correct a Malfunction and continue the series, but after 
+attempting any correction, they may not claim an allowable Malfunction unless a 
+part of the pistol is damaged sufficiently to prevent the pistol from functioning. 
+2.12.1.2 If a Malfunction occurs in the sighting series it must not be registered as a 
+Malfunction and the series will not be repeated.  
+2.12.1.3 The number of shots already fired must be recorded and the series may be 
+repeated if the malfunction is allowable. 
+2.12.1.4 Repeating a series because of a Malfunction must be permitted only in case of an 
+allowable Malfunction. 
+2.12.2 Scoring: allowable Malfunction  
+2.12.2.1 The score must be recorded as the total of the five (5) lowest value hits on the 
+targets. The Athlete must fire all five (5) shots at the target in the repeat series. 
+Any shot(s) not fired or not hitting the target in the re-shoot must be recorded as 
+zero(es). (If paper targets are used, a second target must be provided for the re-
+shoot.) 
+2.12.3 Scoring: non allowable Malfunction 
+2.12.3.1 The score must be the total of the fired shots. 
+2.13 Dry Firing 
+2.13.1 Athletes are only allowed to dry fire during preparation time. Dry fire is defined as a 
+release of the trigger mechanism which enables the trigger to be operated without 
+releasing propelling charge. Any release of gas (special magazines with minimum 
+release of charge) is not considered dry fire and is not allowed.
+
+--- PDF PAGE 0034 | method=TESSERACT_OCR ---
+Appendix 6 
+P5 10m Air Pistol Standard  
+ 
+Appendix 6 - P5 10m Air Pistol Standard 34 
+3 Other Specifications 
+Number of sighting shots One (1) series of five (5) shots in ten (10) seconds 
+Targets According to ISSF Rules (currently 6.3.1.1) 
+Scoring After every five (5) shot series 
+Competition shots Eight (8) series of five (5) shots 
+Competition time 10 seconds per shot series 
+Preparation time Three (3) minutes 
+Maximum Pistol Weight 1500g 
+Minimum Trigger Pull 500g 
+Maximum Barrel Length - 
+Sight Radius 
+Box Size Only 420mm x 200mm x 50mm 
+Grips  No part of the grip or accessories may encircle the hand. The 
+heel rest must extend at an angle of not less than 90 degrees 
+to the grip. Any upward curvature of the heel and/or thumb 
+rest and/or a downward curvature of the side opposite the 
+thumb is prohib ited. The thumb support must allow free 
+upward movement of the thumb. However, curved surfaces on 
+the grips or frame, including the heel and/or thumb rest in the 
+longitudinal direction of the pistol are permitted. 
+Other specifications  Magazine loaded with five (5) pellets.  
+ Ported barrels and perforated barrel attachments are allowed 
+ The weighing of the pistol is made with all accessories, 
+including balancing weights and unloaded magazine. 
+ A manufacturing tolerance of the rectangular Measuring Box 
+of 0.0mm to +1.0 mm will be permitted. It may be measured 
+with the magazine removed.

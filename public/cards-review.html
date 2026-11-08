@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Revisão humana dos cards — RENATE</title>
+  <style>
+    :root { font-family: Arial, Roboto, sans-serif; color: #16324f; background: #f1f4f7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { position: sticky; top: 0; z-index: 2; padding: 16px clamp(16px, 4vw, 40px); color: white; background: #034ea2; box-shadow: 0 2px 8px #102a4333; }
+    header h1 { margin: 0 0 6px; font-size: 20px; }
+    header p { margin: 0; font-size: 13px; line-height: 1.45; }
+    main { max-width: 1200px; margin: auto; padding: 18px 16px 56px; }
+    .toolbar { position: sticky; top: 83px; z-index: 1; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 12px; margin-bottom: 16px; background: #fff; border: 1px solid #d7e0e8; border-radius: 10px; }
+    .toolbar input { flex: 1 1 260px; min-width: 160px; padding: 10px; border: 1px solid #aab9c7; border-radius: 7px; font-size: 15px; }
+    .toolbar button, .decision button { padding: 9px 12px; border: 0; border-radius: 7px; font-weight: 700; cursor: pointer; }
+    .toolbar button { color: white; background: #034ea2; }
+    #count { flex: 1 1 100%; font-size: 13px; }
+    .card { overflow: hidden; margin: 14px 0; background: white; border: 1px solid #d7e0e8; border-radius: 12px; box-shadow: 0 1px 4px #102a4310; }
+    .card-head { padding: 14px 16px; border-bottom: 1px solid #e3e9ee; }
+    .card-head h2 { margin: 0 0 6px; color: #034ea2; font-size: 17px; }
+    .meta { color: #52677c; font-size: 12px; overflow-wrap: anywhere; }
+    .card-body { display: grid; grid-template-columns: minmax(240px, 0.9fr) minmax(280px, 1.1fr); gap: 16px; padding: 16px; }
+    .visuals { display: grid; gap: 10px; align-content: start; }
+    .visuals img { display: block; max-width: 100%; max-height: 620px; margin: auto; object-fit: contain; border: 1px solid #d7e0e8; border-radius: 7px; }
+    .visual-label { color: #52677c; font-size: 12px; overflow-wrap: anywhere; }
+    .facts { min-width: 0; }
+    .facts p { margin: 0 0 10px; line-height: 1.5; white-space: pre-wrap; }
+    .facts ul { margin: 6px 0 12px; padding-left: 21px; }
+    .facts li { margin: 5px 0; line-height: 1.45; }
+    details { margin-top: 10px; }
+    details summary { color: #034ea2; cursor: pointer; font-weight: 700; }
+    .sources { padding-left: 18px; font-size: 12px; line-height: 1.45; overflow-wrap: anywhere; }
+    .sources li { margin: 6px 0; }
+    .source-link { color: #034ea2; }
+    .decision { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px 16px; background: #f8fafc; border-top: 1px solid #e3e9ee; }
+    .decision button.approve { color: #fff; background: #168348; }
+    .decision button.changes { color: #fff; background: #a23d22; }
+    .decision button.clear { color: #234; background: #e1e8ef; }
+    .decision .status { min-width: 120px; font-weight: 700; font-size: 13px; }
+    .decision textarea { flex: 1 1 250px; min-height: 38px; padding: 8px; border: 1px solid #bdcbd7; border-radius: 7px; font: inherit; }
+    .empty, .loading, .error { padding: 18px; background: white; border-radius: 10px; }
+    @media (max-width: 720px) { .card-body { grid-template-columns: 1fr; } .toolbar { top: 96px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Revisão humana dos cards — RENATE</h1>
+    <p>Revise texto, prova/fase, imagem e referências. As decisões ficam neste navegador. Use “Exportar decisões” para baixar o registro; nada é enviado a um servidor.</p>
+  </header>
+  <main>
+    <section class="toolbar" aria-label="Controles da revisão">
+      <input id="filter" type="search" placeholder="Filtrar por prova, autoridade ou ID" aria-label="Filtrar cards">
+      <button id="export" type="button">Exportar decisões</button>
+      <button id="clear-all" type="button">Limpar decisões locais</button>
+      <strong id="count">Carregando catálogo local…</strong>
+    </section>
+    <div id="cards" class="loading" role="status">Carregando cards do pacote RENATE…</div>
+  </main>
+  <script>
+    const reviewKey = 'renate-card-human-review-v1';
+    const root = document.getElementById('cards');
+    const filter = document.getElementById('filter');
+    const count = document.getElementById('count');
+    const decisions = JSON.parse(localStorage.getItem(reviewKey) || '{}');
+    let allCards = [];
+    const currentHashes = new Map();
+    const text = (tag, value, className) => { const node = document.createElement(tag); if (className) node.className = className; node.textContent = value ?? ''; return node; };
+    const assetUrl = (path) => path ? `/renate-pack/${String(path).replace(/^\.\//, '')}` : '';
+    const hashText = async (value) => {
+      const bytes = new TextEncoder().encode(JSON.stringify(value));
+      const digest = await crypto.subtle.digest('SHA-256', bytes);
+      return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, '0')).join('');
+    };
+    const saveDecisions = () => localStorage.setItem(reviewKey, JSON.stringify(decisions));
+    function addTextList(parent, label, items) {
+      if (!Array.isArray(items) || !items.length) return;
+      parent.append(text('h3', label));
+      const list = document.createElement('ul');
+      for (const item of items) list.append(text('li', typeof item === 'string' ? item : JSON.stringify(item)));
+      parent.append(list);
+    }
+    function sourceItems(card) {
+      return [...(card.sourceReferences ?? []), ...(card.sourceRefs ?? [])];
+    }
+    function makeCard(card, contentHash) {
+      currentHashes.set(card.cardId, contentHash);
+      const article = document.createElement('article'); article.className = 'card'; article.dataset.search = [card.cardId, card.authority, card.event, card.eventId, card.phase, card.caption].join(' ').toLowerCase();
+      const head = document.createElement('div'); head.className = 'card-head';
+      head.append(text('h2', `${card.authority ?? 'RENATE'} · ${card.event ?? card.eventId ?? 'Card'} · ${card.phase ?? card.category ?? ''}`));
+      head.append(text('div', `${card.cardId ?? 'ID ausente'} · ${card.role ?? ''} · ${card.sourceReviewState ?? ''}`, 'meta'));
+      head.append(text('div', `SHA-256 do conteúdo: ${contentHash}`, 'meta'));
+      const body = document.createElement('div'); body.className = 'card-body';
+      const visuals = document.createElement('div'); visuals.className = 'visuals';
+      const visualPaths = [...new Set([card.imagePath, card.photoPath, ...(card.photoGallery ?? []).map((item) => item.path)].filter(Boolean))];
+      for (const path of visualPaths) {
+        const image = document.createElement('img'); image.loading = 'lazy'; image.src = assetUrl(path); image.alt = card.imageAlt ?? card.photoAlt ?? card.event ?? 'Imagem do card';
+        image.onerror = () => { image.alt = `Arquivo não carregado: ${path}`; image.replaceWith(text('p', `Não carregou: ${path}`, 'visual-label')); };
+        visuals.append(image, text('div', `${path}${path === card.imagePath ? ` · SHA-256 ${card.imageSha256 ?? ''}` : path === card.photoPath ? ` · SHA-256 ${card.photoSha256 ?? ''}` : ''}`, 'visual-label'));
+      }
+      if (!visualPaths.length) visuals.append(text('p', 'Card tipográfico: sem imagem associada.', 'visual-label'));
+      const facts = document.createElement('div'); facts.className = 'facts';
+      if (card.caption) facts.append(text('p', card.caption));
+      addTextList(facts, 'Conteúdo do card', card.contentBlocksInOriginalOrder);
+      for (const section of card.displaySections ?? []) {
+        facts.append(text('h3', section.heading ?? 'Seção'));
+        addTextList(facts, '', section.items);
+      }
+      addTextList(facts, 'Referências/localizadores', card.ruleReferences);
+      const sources = sourceItems(card);
+      if (sources.length) {
+        const details = document.createElement('details'); details.append(text('summary', `Fontes locais (${sources.length})`));
+        const list = document.createElement('ul'); list.className = 'sources';
+        for (const source of sources) {
+          const title = source.title ?? source.documentSourceId ?? source.document_source_id ?? source.authority ?? 'Fonte';
+          const edition = source.edition ? ` · ${source.edition}` : '';
+          const locators = source.locators?.join(', ') ?? source.localPdfPath ?? source.pdf_path ?? '';
+          const li = document.createElement('li'); li.append(text('span', `${title}${edition} — ${locators}`));
+          const pdfPath = source.localPdfPath ?? source.pdf_path;
+          if (pdfPath) { const link = document.createElement('a'); link.className = 'source-link'; link.href = assetUrl(pdfPath); link.target = '_blank'; link.rel = 'noreferrer'; link.textContent = ' Abrir PDF'; li.append(link); }
+          if (source.localPdfSha256 ?? source.pdf_sha256) li.append(text('div', `PDF SHA-256: ${source.localPdfSha256 ?? source.pdf_sha256}`, 'meta'));
+          list.append(li);
+        }
+        details.append(list); facts.append(details);
+      }
+      body.append(visuals, facts);
+      const controls = document.createElement('div'); controls.className = 'decision';
+      const saved = decisions[card.cardId] ?? {};
+      const current = saved.contentSha256 === contentHash ? saved : {};
+      const stale = Boolean(saved.decision && saved.contentSha256 !== contentHash);
+      const status = text('span', current.decision === 'APPROVE' ? 'Aprovado' : current.decision === 'CHANGES' ? 'Ajustes solicitados' : stale ? 'Pendente · conteúdo mudou' : 'Pendente', 'status');
+      const note = document.createElement('textarea'); note.placeholder = 'Observação opcional'; note.value = current.note ?? ''; note.setAttribute('aria-label', `Observação para ${card.cardId}`);
+      const setDecision = (decision) => { decisions[card.cardId] = { cardId: card.cardId, decision, contentSha256: contentHash, assetSha256: card.imageSha256 ?? card.photoSha256 ?? null, note: note.value.trim(), reviewedAt: new Date().toISOString() }; saveDecisions(); status.textContent = decision === 'APPROVE' ? 'Aprovado' : 'Ajustes solicitados'; updateCount(); };
+      const approve = text('button', 'Aprovar'); approve.className = 'approve'; approve.type = 'button'; approve.onclick = () => setDecision('APPROVE');
+      const changes = text('button', 'Pedir ajuste'); changes.className = 'changes'; changes.type = 'button'; changes.onclick = () => setDecision('CHANGES');
+      const clear = text('button', 'Desmarcar'); clear.className = 'clear'; clear.type = 'button'; clear.onclick = () => { delete decisions[card.cardId]; saveDecisions(); status.textContent = 'Pendente'; updateCount(); };
+      controls.append(status, approve, changes, clear, note);
+      article.append(head, body, controls);
+      return article;
+    }
+    function updateCount() {
+      const visible = [...root.querySelectorAll('.card')].filter((card) => !card.hidden);
+      const activeDecisions = Object.values(decisions).filter((item) => currentHashes.get(item.cardId) === item.contentSha256);
+      const approved = activeDecisions.filter((item) => item.decision === 'APPROVE').length;
+      const changes = activeDecisions.filter((item) => item.decision === 'CHANGES').length;
+      count.textContent = `${visible.length}/${allCards.length} cards exibidos · ${approved} aprovados · ${changes} com ajustes · ${allCards.length - approved - changes} pendentes`;
+    }
+    document.getElementById('export').onclick = () => {
+      const currentDecisions = Object.values(decisions).filter((item) => currentHashes.get(item.cardId) === item.contentSha256);
+      const report = { schema: 'RENATE_HUMAN_CARD_REVIEW_V1', exportedAt: new Date().toISOString(), origin: location.origin, decisions: currentDecisions };
+      const url = URL.createObjectURL(new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' }));
+      const link = document.createElement('a'); link.href = url; link.download = 'renate-card-human-review.json'; link.click(); URL.revokeObjectURL(url);
+    };
+    document.getElementById('clear-all').onclick = () => { if (confirm('Apagar todas as decisões salvas neste navegador?')) { for (const key of Object.keys(decisions)) delete decisions[key]; saveDecisions(); location.reload(); } };
+    filter.oninput = () => { const query = filter.value.trim().toLowerCase(); for (const card of root.querySelectorAll('.card')) card.hidden = !card.dataset.search.includes(query); updateCount(); };
+    fetch('/renate-pack/cards.json').then((response) => { if (!response.ok) throw new Error(`Catálogo local retornou ${response.status}`); return response.json(); }).then(async (catalog) => {
+      allCards = [...(catalog.cards ?? []), ...(catalog.eventEvidenceCards ?? []), ...(catalog.equipmentCards ?? [])];
+      root.className = '';
+      if (!allCards.length) { root.className = 'empty'; root.textContent = 'O catálogo não contém cards.'; return; }
+      const fragment = document.createDocumentFragment();
+      for (const card of allCards) fragment.append(await makeCard(card, await hashText(card)));
+      root.replaceChildren(fragment); updateCount();
+    }).catch((error) => { root.className = 'error'; root.textContent = `Não foi possível abrir o catálogo local: ${error.message}`; });
+  </script>
+</body>
+</html>

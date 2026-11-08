@@ -1,0 +1,1927 @@
+source_path: _PDF_originais/WSPS Rulebook 2026_vFinal.pdf
+source_sha256: 892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87
+source_pages: 56
+ocr_link_basis: PDF SHA-256 matches the existing sidecar header exactly
+
+DOCUMENT TITLE: WSPS Rulebook 2026_vFinal
+
+SOURCE PDF: WSPS Rulebook 2026_vFinal.pdf
+
+SOURCE SHA-256: 892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87
+
+--- PDF PAGE 0001 | method=TESSERACT_OCR ---
+World Shooting Para Sport
+Technical Rules and  
+Regulations
+01 January 2026
+
+--- PDF PAGE 0002 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 2 
+Table of contents 
+Introduction ..................................................................................................................... 5 
+Definitions ....................................................................................................................... 5 
+WSPS Regulations ............................................................................................................ 9 
+1 General Provisions ..................................................................................................... 9 
+1.1 Scope and application ...................................................................................................... 9 
+1.2 Interpretation ................................................................................................................... 9 
+1.3 Governance .................................................................................................................... 10 
+1.4 Printing of these Rules and Regulations .......................................................................... 10 
+1.5 Amendments to these Rules and Regulations ................................................................. 10 
+2 Competition Regulations .......................................................................................... 11 
+2.1 Events ............................................................................................................................ 11 
+2.2 Competition Levels ........................................................................................................ 12 
+2.3 Competition Management ............................................................................................. 12 
+2.4 Local Organising Committee (“LOC”) ............................................................................. 13 
+2.5 Athlete Eligibility ............................................................................................................ 13 
+2.6 Qualification requirements ............................................................................................. 14 
+2.7 Gender ........................................................................................................................... 14 
+2.8 Anti-Doping ................................................................................................................... 14 
+2.9 International Classification ............................................................................................. 15 
+2.10 Technical Meeting .......................................................................................................... 15 
+2.11 Start Number ................................................................................................................. 16 
+2.12 Technical Protests and Appeals ...................................................................................... 16 
+2.13 Penalties for Rule Violations ........................................................................................... 17 
+2.14 Disqualification .............................................................................................................. 17 
+2.15 Disciplinary Action ......................................................................................................... 18 
+2.16 Coaching During Any Event ............................................................................................ 18 
+2.17 Results ........................................................................................................................... 18 
+2.18 Rankings ........................................................................................................................ 18 
+2.19 Records .......................................................................................................................... 21 
+WSPS Rules ................................................................................................................... 25
+
+--- PDF PAGE 0003 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 3 
+3 Apparel and Equipment Rules ................................................................................... 25 
+3.1 Compliance with ISSF dress code ................................................................................... 25 
+3.2 WSPS-specific dress code provisions (jackets, trousers and footwear) ............................ 25 
+3.3 Equipment ..................................................................................................................... 27 
+3.4 Equipment Control ......................................................................................................... 28 
+3.5 Strapping ....................................................................................................................... 28 
+3.6 Trigger extensions and trigger adaptations .................................................................... 29 
+3.7 Shooting Chairs .............................................................................................................. 29 
+3.8 Shooting Tables ............................................................................................................. 34 
+3.9 SH2 rifle support stands ................................................................................................. 36 
+4 Rifle Rules ............................................................................................................... 39 
+4.1 Events and times ............................................................................................................ 39 
+4.2 Shooting positions ......................................................................................................... 41 
+4.3 Loaders (SH2 only) ......................................................................................................... 44 
+5 Pistol Rules ............................................................................................................. 46 
+5.1 Events and times ............................................................................................................ 46 
+5.2 Shooting position ........................................................................................................... 47 
+5.3 Loading device (safety)................................................................................................... 47 
+6 Shotgun Rules ......................................................................................................... 48 
+6.1 Events and times ............................................................................................................ 48 
+6.2 Shooting position ........................................................................................................... 48 
+6.3 Loading device (safety)................................................................................................... 49 
+6.4 Other ............................................................................................................................. 50 
+7 Vision Impairment (VI) Rules ..................................................................................... 51 
+7.1 Events and times ............................................................................................................ 51 
+7.2 Apparel and Equipment .................................................................................................. 51 
+7.3 Shooting Positions ......................................................................................................... 53 
+7.4 VI Assistant .................................................................................................................... 53 
+8 Team Event Rules .................................................................................................... 55
+
+--- PDF PAGE 0004 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 4 
+8.1 Rifle/Pistol Team Events and format ............................................................................... 55 
+8.2 Mixed Team – Rifle/Pistol ............................................................................................... 55 
+8.3 Para Trap Two Person Team ........................................................................................... 55 
+9 Medical Rules .......................................................................................................... 56 
+9.1 Athlete Safety ................................................................................................................ 56 
+9.2 Epilepsy .......................................................................................................................... 56 
+9.3 Pacemakers .................................................................................................................... 56 
+ 
+ 
+Appendix 1  Requirements & Designation of Competitions 
+Appendix 2  Recognised Competition Requirements  
+Appendix 3  Sanctioned & Approved Competition Requirements 
+Appendix 4  Trigger Extensions & Adaptations 
+Appendix 5  SH2 Support Stand & Springs 
+Appendix 6  P5 10m Air Pistol Standard
+
+--- PDF PAGE 0005 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 5 
+Introduction 
+Preamble 
+These World Shooting Para Sport (“WSPS”) Rules and Regulations are mandatory for all WSPS  
+Recognised Competitions. The overall governance and management of all World Para Sports 
+(including WSPS) is subject to the detailed provisions of the IPC Handbook. 
+Section 1 and 2 of this document consist of the WSPS Regulations. Sections 3-9 consist of the WSPS 
+Rules. 
+World Shooting Para Sport Classification Rules and Regulations 
+The WSPS Classification Rules and Regulations are an integral part of these Rules and Regulations 
+and are available at: www.paralympic.org/shooting/rules-and-regulations/classification. Terms 
+which are defined in the WSPS Classification Rules and Regulations and appear in these Rules and 
+Regulations shall have the meaning given to them in the WSPS Classification Rules and Regulations, 
+unless otherwise defined in these Rules and Regulations.  
+Changes to these Rules and Regulations 
+Please note that these Rules and Regulations may be changed at any time as a result, for example, 
+of changes in the ISSF Rules, Classification -related matters or where WSPS  otherwise considers it 
+necessary to do so. 
+Definitions  
+Athlete: as defined in the WSPS Classification Rules and Regulations. 
+Classification: as defined in the WSPS Classification Rules and Regulations.  
+Classification Panel: as defined in the WSPS Classification Rules and Regulations. 
+Classifier: as defined in the WSPS Classification Rules and Regulations. 
+Competition: a series of individual  and mixed team  events conducted together under one ruling 
+body. 
+Competition Jury: the person(s) appointed to adjudicate WSPS Competitions. 
+Eligible Impairment: as defined in the WSPS Classification Rules and Regulations.  
+Equipment Control:  the process of checking an Athlete’s equipment to ensure it complies with 
+these Rules and Regulations. 
+Event: a single event that takes place at a Competition, for example the R4 Event.  
+Finals: the final round Competition that takes place after the qualification round is complete.
+
+--- PDF PAGE 0006 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 6 
+Firing Line: the starting line that marks the appropriate distance to the target. This  is the line that  
+all Athletes must be behind when competing.   
+ID Card: an official picture card that can identify the Athlete, such as a passport.  
+International Classification: Classification that takes place with a WSPS- appointed Classification 
+Panel in accordance with the WSPS Classification Rules and Regulations.  
+International Federation: means an international sport federation recognised by the IPC as the sole 
+worldwide representative of a specific Para sport that is on the Paralympic Games Sport 
+Programme.  
+IOC: the International Olympic Committee. 
+IOSD: International Organisation of Sport for the Disabled, an independent organisation recognised 
+by the IPC as the sole worldwide representative for a specific Eligible Impairment group to the IPC. 
+IPC: the International Paralympic Committee.  
+IPC Handbook: The IPC Handbook located on the IPC’s website at https://www.paralympic.org/ipc-
+handbook   
+ISSF: the International Shooting Sport Federation. 
+ISSF Rules: the in-force version of the International Shooting Sport Federation Rules  including the 
+ISSF General Regulations, General Technical Rules, Rifle Rules, Pistol Rules, and Shotgun Rules , as 
+amended from time to time. 
+Loader: a Team Official who will assist Athletes with loading during Competitions.  
+LOC: Local Organising Committee,  organisation appointed to organise a WSPS Recognised 
+Competition. 
+Malfunctions: this includes both allowable and non- allowable malfunctions as defined in the ISSF 
+Rules.  
+Minimum Qualifying Score ( “MQS”): a list of qualification scores, per E vent and Sport Class, an 
+Athlete must achieve to enter the Competition. MQS scores shall be defined by WSPS for a specific 
+Competition.  
+Mixed: A team Event featuring one male and one female Athlete per team.  
+National Federation: the national member of an International Federation.
+
+--- PDF PAGE 0007 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 7 
+NPC: National Paralympic Committee,  the national member of the IPC who is the sole 
+representative of Athletes with an impairment in that country or territory. These are the national 
+members of the IPC.  
+Open: An Event in which athletes of both male and female gender can compete.  
+Para sport: a sport governed by the IPC Classification Code and recognised as a Para sport by the 
+IPC.  
+Paralympic Games:  means the major international event owned and sanctioned by the IPC 
+comprising summer and winter editions usually held in alternating biennial cycles where Para 
+athletes compete in Para sports that are on the Paralympic Games Sport Programme. 
+Paralympic Games Sport Programme: Para sports on the programme for the Paralympic Games. 
+Physical Impairment (“PI”): as defined in the WSPS Classification Rules and Regulations. 
+Programme of Events: the Programme of Events is a list of Events/days in the order they are going 
+to be competed.  
+Range Official: an official appointed by the LOC with WSPS approval to ensure  compliance with 
+these WSPS Rules and Regulations at a Competition.  
+Shooting Para sport: the sport of shooting Para sport governed by WSPS and recognised as a Para 
+sport by the IPC.  
+Sport Class: as defined in the WSPS Classification Rules and Regulations.  
+Sport Class Status: as defined in the WSPS Classification Rules and Regulations.  
+Team Leader: an accredited Team Official who is the main point of contact for their delegation.  
+Team Official: an accredited team member (non-Athlete) who represents their delegation.  
+Technical Delegate: a Competition Jury member appointed by WSPS to monitor and oversee a 
+WSPS Recognised Competition and to ensure all technical operations are conducted in accordance 
+with these Rules and Regulations.  
+Technical Meeting: a meeting for all teams which takes place before a WSPS Recognised 
+Competition to disseminate information on technical matters and logistics related to the 
+Competition.  
+VI Assistant: a Team Official who supports VI Athletes  during the Competition  as determined by 
+these Rules and Regulations.
+
+--- PDF PAGE 0008 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 8 
+Vision Impairment (“VI”): as defined in the WSPS Classification Rules and Regulations. 
+WADA: the World Anti-Doping Agency. 
+WADC: the World Anti-Doping Code. 
+WSPS: World Shooting Para Sport. 
+WSPS Approved Competition s: international and national level Competitions for the sport of 
+shooting Para sport that have been approved by WSPS. 
+WSPS Championships: Shooting Para Sport World Championships and WSPS Regional 
+Championships. 
+WSPS Licence: a licence card issued by WSPS in accordance with the WSPS Athlete Registration 
+and Licensing Regulations to enable Athletes to compete in Paralympic Games , WSPS 
+Championships and WSPS Sanctioned Competitions. 
+WSPS Official: WSPS-certified officials.  
+WSPS Athlete Registration and Licensing Regulations : The World Shooting Para Sport Athlete 
+Registration and Licensing Regulations, as published on the WSPS website and updated from time 
+to time.  
+WSPS Nationality Policy : The World Shooting Para Sport Nationality Policy, as published on the 
+WSPS website and updated from time to time. 
+WSPS Recognised Competitions: Paralympic Games , WSPS Championships, WSPS Sanctioned 
+Competitions and WSPS Approved Competitions. 
+WSPS Sanctioned Competitions: Shooting Para Sport World Cups and other s hooting Para sport 
+international Competitions as determined by WSPS.
+
+--- PDF PAGE 0009 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 9 
+WSPS Regulations 
+1 General Provisions 
+1.1 Scope and application 
+1.1.1 These Rules and Regulations  comprise the WSPS Regulations ( “Regulations”) and 
+the WSPS Rules  (“Rules”), together with the Appendices listed above . The 
+Appendices form an integral part of these Rules and Regulations  (together referred 
+to as these “Rules and Regulations”).   
+1.1.2 Compliance with these Rules and Regulations is mandatory for all WSPS Recognised 
+Competitions.  
+1.1.3 Unless a WSPS Rule specifies otherwise, WSPS will enforce the ISSF Rules. When 
+there is a conflict between any ISSF Rule and these Rules and Regulations, these Rules 
+and Regulations will apply. In the event of a dispute relating to ISSF Rules in relation 
+to any aspect of a WSPS Recognised C ompetition, including as to whether such a 
+conflict exists or whether any ISSF Rule(s) applies, WSPS will make the final decision 
+as to its resolution, acting in its sole discretion.  
+1.1.4 All participants (including, but not limited to, Athletes  and support personnel, 
+coaches, trainers, managers, interpreters, Team Officials, medical or paramedical 
+personnel) in any WSPS Recognised Competitions agree to be bound by  these Rules 
+and Regulations as a condition of such participation. 
+1.1.5 The WSPS Classification Rules and Regulations are an integral part of these Rules and 
+Regulations and are located on the WSPS website. 
+1.1.6 The IPC Handbook is an integral part of the governance of the sport of shooting Para 
+sport.  
+1.1.7 Any matter not addressed in t hese Rules and Regulations  shall be determined by 
+WSPS, in its sole discretion. 
+1.1.8 This version of these Rules and Regulations will be effective from 01 January 2026 and 
+shall prevail over all previous versions of these Rules and Regulations. 
+1.2 Interpretation 
+1.2.1 Any capitalised terms not otherwise defined in these Rules and Regulations shall have 
+the meaning given to them in the WSPS Classification Rules and Regulations  
+1.2.2 Any comments annotating various provisions of these Rules and Regulations shall be 
+used to interpret these Rules and Regulations. 
+1.2.3 Headings used in these Rules and Regulations are used for convenience only and have 
+no meaning that is separate from the Regulation(s) or Rule(s) to which they refer.
+
+--- PDF PAGE 0010 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 10 
+1.2.4 All references to the words “he”, “his” or “him” in these Rules and Regulations also 
+mean the words “she”, “hers” or “her”. 
+1.3 Governance 
+1.3.1 The IPC acts as the International Federation for and governs the sport of shooting 
+Para sport. It carries out these responsibilities under the name “ World Shooting Para 
+Sport” (“WSPS”) and the term “World Shooting Para Sport” (“WSPS”) must be read 
+in these Rules and Regulations as the IPC and vice versa.  
+1.4 Printing of these Rules and Regulations 
+1.4.1 These Rules and Regulations  are the copyright property of the IPC and have been 
+published for the benefit of NPCs, Athletes , Team Officials and others who are 
+engaged in an official capacity with WSPS. They may be reprinted or translated by 
+any organisation with a legitimate need to do so, subject to IPC’s continuing ability to 
+assert its copyright in the m, including the right to insist on an assignment to the IPC 
+of the copyright in any translated version . Any other organisation must obtain the 
+permission of the IPC prior to reprinting, translating or publishing t hese Rules and 
+Regulations. 
+1.4.2 The English language version of these Rules and Regulations  shall be the sole 
+authoritative version for the purpose of interpretation of these Rules and Regulations. 
+1.5 Amendments to these Rules and Regulations 
+1.5.1 These Rules and Regulations may be amended at any time by WSPS for any reason, 
+including, for example, as a result  of changes in Classification -related matters, the 
+ISSF Rules, or where WSPS otherwise considers it necessary to do so.
+
+--- PDF PAGE 0011 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 11 
+2 Competition Regulations 
+2.1 Events 
+2.1.1 The Events recognised by WSPS for the purposes of the sport of s hooting Para sport 
+are: 
+Event Discipline Gender Class 
+R1  10m Air Rifle Standing Men SH1 
+R2  10m Air Rifle Standing Women SH1 
+R3  10m Air Rifle Prone Open SH1 
+R4 10m Air Rifle Standing Open SH2 
+R5  10m Air Rifle Prone Open SH2 
+R6  50m Rifle Prone Open SH1 
+R7 50m Rifle 3 Positions Men SH1 
+R8  50m Rifle 3 Positions Women SH1 
+R9 50m Rifle Prone Open SH2 
+P1  10m Air Pistol  Men SH1 
+P2  10m Air Pistol  Women SH1 
+P3   25m Pistol Open SH1 
+P4  50m Pistol Open SH1 
+*P5 10m Air Pistol Standard Open SH1 
+*PT1 Trap Seated Open SG-S 
+*PT2 Trap Standing (Lower Limb) Open SG-L 
+*PT3 Trap Standing (Upper Limb) Open SG-U 
+*VIS 10m Air Rifle VI Standing Open SH-VI 
+*VIP 10m Air Rifle VI Prone Open SH-VI 
+*R10 Mixed Team 10m Air Rifle Prone SH1 Mixed SH1 
+*R11 Mixed Team 10m Air Rifle Prone SH2 Mixed SH2 
+*P6 Mixed Team 10m Air Pistol Mixed SH1 
+*Non Paralympic Events
+
+--- PDF PAGE 0012 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 12 
+2.2 Competition Levels  
+2.2.1 WSPS categorises Competitions based on their scale, size, and nature to determine 
+the applicable requirements at each Competition.    
+2.2.2 WSPS Recognised Competitions levels are as follows: 
+IPC Games  Paralympic Games 
+WSPS 
+Championships 
+ WSPS World Championships  
+ WSPS Regional Championships 
+WSPS Sanctioned 
+Competitions 
+ WSPS World Cups 
+ Any other WSPS international Competitions 
+determined by WSPS (such as Youth Games, IOSD 
+Games, Asian Para Games, Parapan American Games) 
+WSPS Approved 
+Competitions  
+ International Competitions, also called “Grand Prix”, 
+for the sport of shooting Para sport   
+ National Federation-endorsed Competitions approved 
+by WSPS 
+ Any other Competitions for the sport of shooting Para 
+sport as approved by WSPS 
+2.2.3 For an overview of the requirements for each level of WSPS Recognised Competition, 
+see the ‘Requirements & Designation of Competitions’ (Appendix 1). 
+2.3 Competition Management 
+2.3.1 The IPC shall manage the Paralympic Games.  
+2.3.2 WSPS shall have the right to manage and shall have ultimate jurisdiction over all 
+matters related to WSPS Championships and WSPS Sanctioned Competitions (and 
+may delegate or remove such jurisdiction to the Competition Jury  or other officials 
+under these Rules and Regulations or as it sees fit) and shall have the power to 
+postpone Events and give directions consistent with rules adopted for conducting any 
+Event. WSPS shall also have the right to oversee all WSPS Approved Competitions. 
+2.3.3 WSPS shall have the right to intercede as necessary in order to resolve any conflicts 
+or issues in a ny WSPS Recognised Competition, including by requiring an LOC to 
+address any aspect of the Competition or issue in relation to the WSPS Rules and 
+Regulations.
+
+--- PDF PAGE 0013 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 13 
+2.3.4 The words ‘World’, ‘Regional’ and ‘World Shooting Para Sport’ may not be used in 
+connection with any shooting Para sport Competition or Event without the prior 
+written consent of WSPS. In addition, the IPC is the owner of all rights of whatever 
+kind or nature in respect of the terms “Paralympics" and "Paralympic", the term 
+“Para” when associated with sport or any IPC activities, the IPC motto, flag and 
+anthem, the Paralympic Symbol (three Agitos design) and any other trademarks, 
+logos and other indicia used  or intended to be used in the context of the Paralympic 
+Movement. 
+2.3.5 For further details of  competition management requirements for WSPS Recognised 
+Competitions, please refer to Appendix 2.  
+2.3.6 For further details of competition management requirements and related hosting 
+requirements for WSPS Sanctioned and WSPS Approved Competitions, please refer 
+to Appendix 3. 
+2.4 Local Organising Committee (“LOC”) 
+2.4.1 An LOC is the organisation responsible for organising and hosting a Competition.  
+2.4.2 For WSPS Recognised Competitions (excluding Paralympic Games), the LOC must be 
+endorsed by and shall have its structure subject to approval by WSPS.  
+2.4.3 The LOC, in conjunction with WSPS, shall be responsible for the entire management 
+of the Competition, including the arrangement of the Programme of Events, 
+arrangement for the Classification of Athletes, all technical equipment and 
+installation prior to and during Competition. 
+2.5 Athlete Eligibility 
+2.5.1 Eligibility requirements – Paralympic Games 
+The IPC determines the eligibility requirements for Paralympic Games. 
+2.5.2 Eligibility requirements – WSPS Championships and W SPS Sanctioned 
+Competitions  
+To meet the eligibility requirements to participate in WSPS Championships and 
+WSPS Sanctioned Competitions an Athlete must: 
+2.5.2.1 satisfy the requirements of the WSPS Nationality Policy (located on the IPC 
+website www.paralympic.org/ipc-handbook; 
+2.5.2.2 have a WSPS Licence issued in accordance with the WSPS Athlete Registration 
+and Licensing Regulations by the time of the final entry deadline; 
+2.5.2.3 be in possession of a valid ID Card and WSPS Licence (to be carried at all times 
+during Competitions);
+
+--- PDF PAGE 0014 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 14 
+2.5.2.4  be entered by their NPC (or National Federation if such responsibility has been 
+delegated by the NPC) , in either case the NPC being a member in good 
+standing of the IPC; 
+2.5.2.5  meet the relevant Competition eligibility criteria, as defined in the Competition 
+information package and/or qualification guide; 
+2.5.2.6  be internationally classified and have been assigned a Sport Class , other than 
+Not Eligible (NE) , in ac cordance with the WSPS Classification Rules and 
+Regulations, or in the case of ‘New’  Athletes, have been determined by 
+WSPS to have an Eligible Impairment in accordance with the WSPS 
+Classification Rules and Regulations; and 
+2.5.2.7  not be disqualified, suspended or otherwise sanctioned. 
+2.5.3 Eligibility requirements – WSPS Approved Competitions 
+In order to compete in W SPS Approved Competitions an Athlete  must meet the 
+eligibility requirements determined by the relevant LOC or governing body. 
+2.6 Qualification requirements 
+2.6.1 In addition to the eligibility requirements  listed above, in order to compete in W SPS 
+Recognised Competitions an Athlete  must also meet the qualification standards, 
+qualification criteria and any sport entry rules applicable to the relevant Competition. 
+2.7 Gender 
+2.7.1 Subject to Regulation 2.7.3 below, an Athlete shall be eligible to compete in men’s 
+Competition if he is: 
+2.7.1.1 recognised as male in law; and 
+2.7.1.2 eligible to compete under these Rules and Regulations. 
+2.7.2 Subject to Regulation 2.7.3 below, an Athlete shall be eligible to compete in 
+women’s Competition if she is: 
+2.7.2.1 recognised as female in law; and 
+2.7.2.2 eligible to compete under these Rules and Regulations. 
+2.7.3 WSPS will deal with any cases involving transgender Athletes in accordance with the 
+IOC's transgender guidelines (as amended by the IOC from time to time) and any 
+applicable WSPS regulations. 
+2.7.4 The eligibility of persons recognised as third gender in law will be determined by the 
+WSPS on a case-by-case basis, in accordance with any applicable WSPS regulations. 
+2.8 Anti-Doping
+
+--- PDF PAGE 0015 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 15 
+2.8.1 The IPC Anti-Doping Code (located on the IPC website) applies as set out therein 
+and is binding on all persons involved in the sport of shooting Para sport to the 
+extent set out therein. All persons wishing to participate or have any other 
+involvement in WSPS Recognised Competitions agree to be bound by the IPC Anti-
+Doping Code as set out therein, as a condition of their involvement.  
+2.8.2 All doping control conducted at all WSPS Recognised Competitions must be 
+conducted in accordance with the anti-doping rules of a signatory to the WADC and 
+International Standards with relevant testing authority and results management 
+authority. WSPS strongly recommends that doping control take place at all WSPS 
+Approved Competitions. 
+2.9 International Classification 
+2.9.1 International Classification may be conducted in connection with a WSPS Recognised 
+Competition. Classification must always take place  in accordance with the WSPS  
+Classification Rules and Regulations. 
+2.9.2 Prior to the Competition a list and timetable for those Athletes required to be present 
+for Classification will be created  by WSPS. Athletes and NPCs will be informed 
+accordingly of their appointment time by WSPS.  
+2.9.3 In accordance with the WSPS Classification Rules and Regulations, all Athletes with 
+Sport Class Status ‘New’, ‘Review’ or ‘Review with a Fixed Review Date’ in the 
+Competition calendar year must  attend an Athlete Evaluation Session before 
+competing at any WSPS Recognised Competition, if an Athlete Evaluation Session is 
+available for them at that Competition. 
+2.9.4 Subject to the terms of Regulation s 2.5 and 2.9.3 above, and u nless specified 
+otherwise in the Competition entry requirement s, at any WSPS Recognised 
+Competition: 
+2.9.4.1 Athletes with Sport Class Status ‘New’ may compete but their results will 
+not be recognised, and they will not be eligible to win medals at that 
+Competition. WSPS may retroactively recognise the Athlete ’s results for 
+MQS purposes only, acting in its sole discretion, in the event that a ‘New’ 
+Athlete is subsequently allocated the same Sport Class in which they 
+competed as ‘New’ Athlete; and 
+2.9.4.2 Athletes who have Sport Class Status ‘Review’ or ‘Review with a Fixed 
+Review Date’ in the Competition calendar year may compete, win medals 
+and have their results recognised in that Competition. 
+2.10 Technical Meeting
+
+--- PDF PAGE 0016 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 16 
+2.10.1 Unless otherwise specified by WSPS, b efore the start of each WSPS Recognised 
+Competition the LOC, together with the Technical Delegate,  must organise a 
+Technical Meeting with representatives of the participating countries and the LOC , 
+supervised by the Technical Delegate.  
+2.10.1.1 The Technical Delegate is responsible for overseeing all technical matters 
+at the Competition in accordance with these Rules and Regulations. 
+2.10.1.2 Whenever possible, the Technical Delegate will communicate any specific 
+advice or requirements related to technical matters for the Competition at 
+the Technical Meeting.  
+2.11 Start Number 
+2.11.1 A start number must be assigned to each Athlete  and appear on all Competition lists 
+and timetables. 
+2.11.2 The Athlete start numbers are printed on b ibs, which are produced by W SPS and 
+printed and distributed by the LOC.  
+2.11.3 SH2 Athletes who are permitted to use a Loader(s) (denoted by ‘(L)’ on the Athlete 
+bib) will also be issued a Loader bib. 
+2.11.4 VI Assistants will be assigned a VI Assistant bib (denoted by ‘(A)’ on the Athlete bib).  
+2.11.5 The bib size and design must be as shown in  the Athlete Bib Template available on 
+the WSPS website. 
+2.11.6 The bib must be visible at all times when the Athlete  (and/or Loaders/VI Assistant) is 
+on the field of play.  
+2.11.6.1 Athletes with backrest score A: the bib must be worn on the back of the 
+Athlete. 
+2.11.6.2 Athletes with backrest score B or C: the bib must be displayed on the back 
+of the S hooting Chair. The bib cannot obscure the view of the f ree sitting 
+height marking tape. 
+2.11.6.3 Loaders and VI Assistants: must wear the bib on their back. The bib must 
+be properly fixed/pinned so as not to move at the top and bottom to the 
+shirt above the waistline during the entire Competition.   
+2.11.7 In the case that the bib is issued to an Athlete (and/or Loaders/VI Assistants) but not 
+displayed, the Athlete may not commence/continue to shoot in the Event. 
+2.12 Technical Protests and Appeals  
+2.12.1 Any violation by an Athlete , Team Official, team member or any other individual of 
+these Rules and Regulations (as determined by WSPS) will be resolved in accordance 
+with the procedures set out in these Rules and Regulations and the ISSF Rules.
+
+--- PDF PAGE 0017 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 17 
+2.12.2 All protests and appeals regarding technical matters will be resolved in accordance 
+with the  procedures described in the ISSF Rules, following these Rules and 
+Regulations, documentation and forms (available on the WSPS website).  
+2.12.3 All protests and appeals  regarding Classification matters will be handled in 
+accordance with the WSPS Classification Rules and Regulations. 
+2.12.4 The fee for a technical protest or appeal is to be determined in accordance with ISSF 
+Rules, unless otherwise specified by WSPS.  
+2.12.5 If a technical protest or appeal is denied, the protest or appeal fee will be retained by 
+the LOC. 
+2.13 Penalties for Rule Violations 
+2.13.1 The Competition Jury must decide  Rules violations by Athletes at Competitions  in 
+accordance with the following procedures: 
+2.13.1.1 In the case of an open violation of the Rules (i.e. where no attempt is made 
+by the Athlete  or other member of their team to conceal the violation) , a 
+warning (‘Yellow Card ’) must first be given so the Athlete  may have an 
+opportunity to correct the fault. Whenever possible, the warning should be 
+given during training or the p reparation and s ighting time. If the Athlete  
+does not correct the fault as instructed by the Competition Jury, two (2) 
+points must be deducted from their score (‘Green Card’). If the Athlete still 
+does not correct the fault after receiving a d eduction (‘Green Card’), then 
+disqualification (‘Red Card’) (‘DSQ’) must be imposed. 
+2.13.1.2 In the case of a concealed violation of the Rules, (i.e. where an attempt is 
+made by an  Athlete or member of their team to conceal the violation) 
+disqualification (‘Red Card’) (‘DSQ’) must be imposed. 
+2.14 Disqualification  
+2.14.1 In addition to any specific  provisions of these Rules and Regulations providing for 
+disqualification, an Athlete, Team Official, team member or any other individual may 
+have their accreditation withdrawn and/or  be disqualified from any Event(s) or 
+Competition(s) by WSPS, if, in the reasonable opinion of WSPS, they:  
+2.14.1.1 contravene the spirit of fair -play or obstruct members of any committee, 
+WSPS Officials or the Competition Jury in his/her official duties;  
+2.14.1.2 behave in a manner which may actually or potentially bring into disrepute 
+WSPS, the IPC, any International Federation and/or the LOC; or 
+2.14.1.3 breach any protocol or procedure put in place by an LOC and/or WSPS for 
+an Event or Competition (for example in relation to the health, safety or 
+security of Athletes, including any protocol put in place in relation to the 
+coronavirus pandemic).
+
+--- PDF PAGE 0018 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 18 
+2.15 Disciplinary Action  
+2.15.1 Further disciplinary action, including in relation to  situations that are not covered by 
+these Rules or Regulat ions or ISSF  Rules, may be  taken against any individual(s) 
+bound by these Rules and Regulations on a case-by-case basis by the WSPS Technical 
+Delegate, in consultation with WSPS. Further action(s) may be taken at WSPS’ 
+discretion.  
+2.16 Coaching During Any Event 
+2.16.1 Verbal Coaching 
+2.16.1.1 Verbal coaching during training and preparation time is permitted, but such 
+coaching must not disturb other Athletes. 
+2.16.1.2 During training and preparation time coaches are permitted to approach 
+the Firing Line  to verbally coach their Athlete (s) (unless prohibited by a 
+member of the Competition Jury). 
+2.16.1.3 During Competition, coaches are permitted to approach the Firing Line  
+only following a specific request by their Athlete(s) or a VI Assistant and if a 
+member of the Competition Jury permits this request. 
+2.16.1.4 Subject to 2.16.1.3, while on the Firing Line during Competition, all 
+Athletes may speak only with a member of the Competition Jury or a 
+Range Official (except SH2 Athletes who may speak with their Loader as 
+required).  
+2.16.1.5 In R7/R8 Finals, verbal coaching is allowed only during changeover times. 
+2.16.2 Non-Verbal Coaching 
+2.16.2.1 In all Events, non -verbal coaching is permitted , including written 
+communication, but such coaching must not disturb other Athletes. 
+2.16.3 Violation of Coaching Regulation 
+2.16.3.1 If a Team Official or Athlete violates any provision of this Regulation 2. 
+during any Event, a warning must be issued for a first offence in that 
+Event. For each further violation in that Event, two (2) points must be 
+deducted from the Athlete’s score and the Team Official must leave the 
+vicinity of the Firing Line. 
+2.17 Results 
+2.17.1 Unless specified otherwise in these Rules and Regulations, scoring procedures for all 
+WSPS Recognised Competitions must be followed as described in the ISSF Rules. 
+2.18 Rankings
+
+--- PDF PAGE 0019 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 19 
+2.18.1 WSPS shall maintain world and regional rankings to determine the best performing 
+Athletes per Event per season, based on a points system, by considering both the rank 
+and the result achieved by the Athletes. 
+2.18.2 Rankings shall be calculated on a rolling basis. The rolling ranking will include all 
+WSPS Recognised Competitions from one year ago to the day. (Example: on 15 April 
+2025, rankings will include all results achieved in WSPS Recognised Competitions 
+from 15 April 2024 - 15 April 2025).  
+2.18.3 Only Athletes who have a WSPS Licence and have a Sport Class Status ‘Confirmed’, 
+‘Review’ or ‘Review with a Fixed Review Date’ can have their results recognised for 
+ranking purposes. 
+2.18.4 Performance Points 
+2.18.4.1 After each WSPS  Recognised Competition, Athletes  will obtain 
+performance points based on their performance.  
+2.18.4.2 Athletes will be ranked in descending order according to their performance 
+points.  
+2.18.4.3 Athletes will receive ranking points depending on their performance as 
+outlined below.  
+2.18.4.4 Performance points will be allocated following the ratification of the 
+Competition results, and are calculated based on the following values: 
+a) Value A  (rank points)  - based on the rank achieved in the 
+qualification and final rounds. 
+b) Value B  (Competition weighting) - based on the level and 
+significance of the Competition. 
+c) Value C (q ualification result points)  - based on the qualification 
+score achieved by the Athlete , divided by the w orld record (as of 1 
+January of the Competition year) in that Event. 
+2.18.4.5 The total p erformance points will be calculated and published to two 
+decimal places (mathematically rounded). 
+2.18.5 Duration of validity 
+The time for which the allocated performance points remain valid will vary according 
+to the level and significance of the WSPS Recognised Competition:
+
+--- PDF PAGE 0020 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 20 
+Competition Code Duration of validity 
+(seasons) 
+Paralympic Games  PG  2 
+WSPS World Championships WCH  2 
+Regional Games /Championships (only valid for  
+Regional Rankings)   RG 1 
+WSPS Sanctioned Competition (WSPS World Cup) WC 1 
+WSPS Approved Competition (WSPS Grand Prix) GP 1 
+2.18.5.1 Points obtained at the Paralympic Games and World Championships will 
+remain valid in the ranking system for two years from the date of 
+Competition.  
+2.18.5.2 Performance points obtained at all other WSPS Recognised Competitions 
+will be valid in the ranking system for one year.  
+2.18.6 Value A (Rank Points) 
+2.18.6.1 The Value ‘A’ allocated will be determined by the rank an Athlete achieves, 
+both in the qualification and final rounds. 
+2.18.6.2 A point value is allocated based on the rank in the q ualification rounds 
+(value A1) and final round (value A2): 
+Rank  Qualification Round Points  
+(A1) 
+Final Round Points  
+(A2) 
+1st rank  11 50 
+2nd rank  10 40 
+3rd rank  9 30 
+4th rank  8 20 
+5th rank  7 18 
+6th rank  6 16 
+7th rank  5 14 
+8th rank  4 12 
+9th+ rank 1 0 
+2.18.6.3 Value A is calculated as a sum of the points for the qualification and final 
+ranking (values A1 + A2). 
+Qualification Rank Points 
++ 
+Final Rank Points 
+= Value A 
+(A1) (A2)
+
+--- PDF PAGE 0021 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 21 
+2.18.6.4 For non-Paralympic Events where no Finals are conducted, in the ranking 
+calculations a value of zero will be assigned for the final rank points (value 
+A2).  
+2.18.6.5 If an Athlete ranks 1-8 in q ualification but is DNS (“Did Not Start”) in the 
+final, in the ranking calculations a value of zero will be assigned for the final 
+rank points (value A2). 
+2.18.7 Value B (Competition weighting) 
+2.18.7.1 The Value B allocated will vary according to the level and significance of the 
+Competition:  
+Competition Code Value B 
+Paralympic Games  PG  10 
+World Championships WCH  8 
+Regional Games /Championships (only valid for  Regional 
+Rankings)  RG 6 
+World Cup  WC 6 
+Grand Prix GP 2 
+2.18.8 Value C (qualification result points) 
+2.18.8.1 The Value C allocated is the q ualification score achieved by the Athlete , 
+divided by the w orld record in that E vent (as of 01 January of the 
+Competition year). 
+2.18.8.2 For both world and regional rankings, the world record will be used. 
+Qualification Score 
+= Value C 
+World Record 
+2.18.9 Calculation 
+2.18.9.1 Performance points per Competition are calculated by multiplying together 
+Values A, B and C. 
+Value A 
+x 
+Value B 
+x 
+Value C 
+= Performance Points  
+(Rank points) (Competition 
+weighting) 
+(Qualification 
+result points) 
+2.19 Records 
+2.19.1 World, regional and junior world records may be established in WSPS Events R1-R11, 
+P1-P6, PT1-PT3, VIS, and VIP.
+
+--- PDF PAGE 0022 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 22 
+2.19.2 Paralympic Games records may be established only at the Paralympic  Games in the 
+relevant Events. 
+2.19.3 Only scores obtained at WSPS Championships or WSPS Sanctioned Competitions will 
+be eligible for records recognition.  
+2.19.4 Athletes must have a WSPS Licence and a Sport Class Status ‘Confirmed’ or  ‘Review’ 
+with a ‘Fixed Review Date’ which is after the date the record was achieved in the 
+Competition to be eligible for recognition of a record-breaking performance. 
+2.19.5 The Technical Delegate must submit the record report form at the end of the 
+Competition for records to be ratified and recognised. 
+2.19.6 Junior records 
+2.19.6.1 To be eligible to obtain junior  world records, Athletes must be under the 
+age of 21 on 31 December of the year of the relevant Competition.  
+2.19.7 Records definitions 
+2.19.7.1 The obtainable WSPS records are as follows:  
+Record  Type Code Description 
+World 
+Record 
+New WR Record to be established in the final of the relevant 
+Event using the Finals result only. 
+ 
+Equal EWR 
+Junior World 
+Record 
+New WRJ 
+Equal EWRJ 
+Regional 
+Record 
+New [Region] 
+Equal E[Region] 
+Qualification 
+Record 
+New QR Record to be established in the qualification round 
+of the relevant Event using the qualification result 
+only. 
+ 
+Equal EQR 
+Junior 
+Qualification 
+Record 
+New QRJ 
+Equal EQRJ 
+Regional 
+Qualification 
+Record 
+New Q[Region] 
+Equal EQ[Region] 
+Team 
+Record 
+New WR 
+Team records will be established in team Events 
+using the combined qualification scores of the 3 
+nominated team members. 
+Equal EWR 
+Team 
+Regional 
+Record 
+New [Region] 
+Equal E[Region] 
+Paralympic 
+Record 
+New PR Paralympic records will be established in the 
+Paralympic Games Final of the relevant Event using 
+the Finals result only. 
+Equal EPR 
+Paralympic 
+Qualification 
+Record 
+New PQR Paralympic qualification records will be established 
+in the Paralympic Games qualification round of the 
+relevant event using the qualification result only. 
+Equal EPQR
+
+--- PDF PAGE 0023 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 23 
+Regional 
+Games 
+Record 
+New GR a) Games records will be established in the 
+relevant Regional Games final of the relevant 
+Event using the Finals result only. 
+Equal EGR 
+Regional 
+Games 
+Qualification 
+Record 
+New GQR b) Games qualification records will be established 
+in the relevant Regional Games qualification 
+round of the relevant E vent using the 
+qualification result only. 
+Equal EGQR
+
+--- PDF PAGE 0024 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 24
+
+--- PDF PAGE 0025 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 25 
+WSPS Rules 
+3 Apparel and Equipment Rules 
+3.1 Compliance with ISSF dress code 
+3.1.1 All persons on the f ield of p lay and ceremonies area must adhere to the ISSF d ress 
+code.  
+3.1.2 Athletes must also comply with the WSPS-specific dress code provisions as set out in 
+Rule 3.2 below.  
+3.2 WSPS-specific dress code provisions (jackets, trousers and footwear) 
+3.2.1 Shooting Jackets (“WSPS Jacket”) 
+3.2.1.1 The maximum length of the WSPS 
+Jacket must not be longer than 
+down to the lap in the front and 
+down to the top of the cushion in 
+the back.  
+3.2.1.2 The length of the WSPS Jacket will 
+be measured in a standing 
+shooting position. 
+3.2.1.3 The Athlete must not sit on any 
+part of their WSPS J acket during 
+Competition. 
+3.2.1.4 Athletes in Sport Classes SH1B  
+Rifle, SH1 C Rifle and SH2 R ifle 
+must use a WSPS Jacket. Athletes 
+shooting on the floor in the prone 
+position may use an ISSF jacket. 
+3.2.1.5 Athletes in Sport Class  SH1A Rifle 
+may use an ISSF jacket in accordance with the ISSF Rules, in the following 
+circumstances: 
+  
+Maximum length of  
+jacket/vest
+
+--- PDF PAGE 0026 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 26 
+Position Style  Regulation 
+Kneeling 
+Shooting as per ISSF position Permitted: Jacket usage as per 
+ISSF Rules 
+Shooting from a Shooting Chair 
+Permitted:  
+Only the top 3 jacket buttons may 
+be fastened, and the buttons may 
+not extend below the bottom of 
+the ribcage or equivalent. Any 
+additional buttons must not be 
+used.  
+Prone 
+Shooting as per ISSF position Permitted: Jacket usage as per 
+ISSF Rules 
+Shooting from a Shooting Chair 
+Permitted:  
+Only the top 3 jacket buttons may 
+be fastened, and the buttons may 
+not extend below the bottom of 
+the ribcage or equivalent. Any 
+additional buttons must not be 
+used.  
+Standing 
+Shooting from a high stool or 
+free-standing  
+Permitted: Jacket usage as per 
+ISSF Rules 
+Shooting from a Shooting Chair ISSF jacket not permitted 
+3.2.1.6 A maximum of 1 WSPS Jacket and 1 ISSF jacket per Athlete  must be 
+approved by Equipment Control in each Competition.  
+3.2.1.7 Jackets without buttons 
+a) Even if the jacket has no buttons, the jacket must be shaped in 
+accordance with Rules 3.2.1.1 and 3.2.1.2 above.  
+3.2.2 Shooting Trousers 
+3.2.2.1 Shooting Trousers are prohibited  for all Athletes in Sport Classes SH1B, 
+SH1C and all SH2 . 
+3.2.2.2 Shooting trousers are permitted for  Athletes in Sport Class SH1A  Rifle 
+shooting in the standing position from a high stool or free -standing, in the 
+kneeling position, and in the prone position as per the applicable ISSF Rules.
+
+--- PDF PAGE 0027 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 27 
+3.2.2.3 In the R7 and R8 Events, athletes with lower limb prosthesis/prostheses are 
+permitted to keep their shooting trousers on in the kneeling position from 
+a Shooting Chair and prone position, only if:  
+a) they are unable to remove their trousers due to a prosthesis; and 
+b) the leg zippers and waistband of the trousers are open when in 
+position.  
+3.2.3 Footwear 
+3.2.3.1 Footwear must be worn by all persons on the field of play unless prescribed 
+otherwise on their WSPS Licence. 
+3.2.3.2 An Athlete may be permitted to wear orthopaedic footwear or other non -
+ISSF dress code compliant footwear (e.g. sandals) if there is a valid medical 
+reason. In all cases unless WSPS determines otherwise: 
+a) such exceptions will be assessed and decided by the Classification 
+Panel and recorded on the Athlete ’s Classification and WSPS 
+Licence; and 
+b) such footwear will not be tested for flexibility during Equipment 
+Control. 
+3.3 Equipment 
+3.3.1 Athletes must use only equipment that complies with and is in accordance with these 
+Rules and Regulations and the ISSF Rules. Any equipment that the Competition Jury 
+deem may give an Athlete an unfair advantage or is not expressly permitted in these 
+Rules and Regulations is prohibited. 
+3.3.2 All equipment must be supplied by the Athlete. 
+3.3.3 Athlete may not touch the wheels or the sideboards with any part of their body or 
+equipment, unless specified otherwise in these Rules and Regulations. 
+3.3.4 Athletes and their equipment must be within the designated area of their firing point 
+and behind the Firing Line. 
+3.3.4.1 An exception may be made for rifle resting stands, which will be permitted 
+in accordance with the ISSF Rules. 
+3.3.5 Athletes are permitted to add material that increases hand grip on the rifle. However:  
+3.3.5.1 The adaptation must comply with Rule 3.3.1; 
+3.3.5.2 The material must still allow free movement of the Athlete and rifle; 
+3.3.5.3 The rifle needs to remain within the specified dimensions; and
+
+--- PDF PAGE 0028 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 28 
+3.3.5.4 The Athlete’s request t o use a grip adaption  must be reviewed and 
+approved by a WSPS Classification Panel during a technical assessment. 
+3.4 Equipment Control 
+3.4.1 Team Leaders and coaches are equally responsible for ensuring that Athletes ’ 
+equipment and apparel comply with these Rules and Regulations and the ISSF Rules. 
+3.4.2 ISSF equipment will be checked in accordance with the ISSF Rules.  
+3.4.3 WSPS-specific equipment 
+3.4.3.1 ‘WSPS-specific equipment’ is defined as: 
+a) Strapping 
+b) Prosthesis 
+c) Shooting table(s) 
+d) Compensating block 
+e) 10cm block 
+f) Shooting Chair(s) 
+g) SH2 rifle support stand 
+h) Loading device (for Pistol only) 
+i) Trigger extensions, grips and trigger adaptations  
+ 
+3.4.3.2 WSPS-specific equipment checks will be done in accordance with t hese 
+Rules and Regulations. 
+3.4.3.3 The Athlete is responsible for submitting W SPS-specific equipment and 
+apparel for official inspection and approval  before the start of every 
+Competition. As part of this process: 
+a) The Athlete must present both their valid ID C ard and WSPS 
+Licence; and 
+b) The ‘Equipment Control Sheet’ (available on the WSPS website ) 
+must be completed and signed by all relevant parties.  
+3.4.3.4 Each Athlete’s equipment may be checked by the Competition Jury on the 
+Firing Line prior to the start of each Event. 
+3.4.4 Random equipment checks will be done by the Competition  Jury from Equipment 
+Control directly after an Event. 
+3.5 Strapping 
+3.5.1 Athletes are not allowed to hold or touch the straps when competing to gain stability. 
+3.5.2 Straps must not exceed 5cm in width. 
+3.5.3 Below knee: it is permitted to have 1 below knee strap to the Shooting Chair.
+
+--- PDF PAGE 0029 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 29 
+3.5.4 Above knee: the legs may be strapped together once above the knees but not to the 
+chair.  
+3.5.5 All Athletes with double above -knee amputation  (and not using any prosthesis), a 
+strap across the stumps and strapped to the chair is permitted. 
+3.6 Trigger extensions and trigger adaptations  
+3.6.1 In accordance with the ISSF Rules, the style/shape of a trigger is a personal choice as 
+long as it stays within the boundary of the given dimensions (as stated in  the ISSF 
+Rules).  
+3.6.2 The shape of the trigger is free; however the trigger must remain safe and stay within 
+the permitted dimensions.  
+3.6.2.1 Trigger extension: triggers that have modifications compared to standard 
+triggers, but are inside the dimensions of the ISSF Rules and protected by a 
+trigger guard.  
+3.6.2.2 Trigger Adapt ations: triggers that have modifications compared to 
+standard triggers, and are outside of the trigger guard and dimensions of 
+the ISSF Rules (see Appendix 4). 
+3.6.3 Trigger adaptations are only permitted in the following circumstances: 
+3.6.3.1 Athletes must have a medical reason to use a trigger adaptation.  
+3.6.3.2 The Athlete’s request to use a trigger adaptation must be reviewed and 
+approved by a WSPS Classification Panel during a technical assessment (in 
+consultation with the Technical Delegate, regarding the safe use of the 
+proposed trigger adaptation). 
+3.6.3.3 If approved, the trigger adaptation  must be recorded on the Athlete ’s 
+WSPS Licence. 
+3.6.4 All air-operated trigger systems, including blowing and pneumatic  systems, are not 
+permitted.  
+3.7 Shooting Chairs 
+3.7.1 A “Shooting Chair” is any o bject on which an Athlete  sits to shoot.  This includes 
+wheelchairs, chairs, seats, stools, and high stools. 
+3.7.1.1 A high stool allows Athletes to compete with their feet on the ground 
+adopting a standing position while supported by a seat. WSPS shall have 
+final discretion as to whether any object shall be deemed a high stool. All 
+Athletes competing on high stools  during Rifle/Pistol Events must comply 
+with the following rules:
+
+--- PDF PAGE 0030 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 30 
+a) the minimum height of the seat must be equal to or higher than the 
+Athlete’s mid -thigh height. The mid -thigh height is the 
+measurement between the knee joint to the hip joint (measured 
+along the femur bone); 
+b) the maximum height of the seat is the measurement of the Athlete’s 
+inside leg length minus 7 cm. This measurement must be conducted 
+by a Classification Panel and the height of the high stool must be 
+noted on the WSPS Licence; 
+c) the measurement of the base of the stool must be no greater than  
+60X60 cm. The base of the stool must be 3 or 4 independent legs. 
+The base must not connect the legs; 
+d) the seat must be circular or rectangular . Use of a bike seat is 
+permitted for Athletes with an amputation at the hip(s) joint; 
+e) the Athlete’s feet must not touch the base of the high stool; and 
+f) both feet of the Athlete  must be in front of the forward part of the 
+seat. 
+3.7.2 For Athletes shooting from a S hooting Chair (not including a high stool), the 
+centreline of the barrel must not exceed more than 150cm (measured from the floor).  
+3.7.3 All Shooting Chairs will be checked with the Athlete  in the shooting position during 
+Equipment Control and will be subject to spot checks on the Firing Line before, during 
+or immediately after the Competition. A ny disputes will be resolved by WSPS or the 
+Technical Delegate in their absolute discretion. 
+3.7.4 Athletes using wheelchairs as Shooting Chairs  must be able to remove themselves 
+from the Firing Line without any artificial assistance.  
+3.7.4.1 For the purposes of this R ule, examples of artificial assistance  include any 
+tool used to lock a Shooting Chair on to the  firing point (for example a 
+screwdriver). 
+3.7.4.2 For the avoidance of doubt, the wheelchair’s brakes shall not constitute 
+artificial assistance for the purposes of this Rule. 
+3.7.4.3 Nothing in this Rule shall prevent another individual (for example a Coach 
+or Loader) from providing physical assistance (e.g. pushing a wheelchair) in 
+removing an Athlete from the Firing Line.  
+3.7.5 The rules for armrests, sideboards and table per discipline are summarised below.
+
+--- PDF PAGE 0031 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 31 
+Position Armrests Sideboards Table 
+Kneeling 
+Authorised only if the armrests 
+are used to attach the table, 
+however, the arm rests must not 
+provide additional trunk support 
+or stability (see Rule 4.2.1.2 ). 
+Not authorised. Authorised, however the 
+table frame must not 
+provide additional support or 
+stability in any way (see Rule 
+4.2.1.2). 
+Prone 
+Authorised only if the armrests 
+are used to attach the table. 
+Authorised, however they must 
+not provide additional trunk 
+support or stability. 
+Authorised (however with 
+restrictions as stipulated in 
+Rule 4.2.2.1). The arm(s) of the Shooting Chair 
+which are not used to attach the 
+table/board must be removed. 
+Standing Not authorised. Refer to Rule 
+4.2.3.2 
+Not authorised. Refer to Rule 
+4.2.3.2 
+Not authorised. 
+3.7.6 Handles and side posts may not exceed the height of the backrest. 
+3.7.7 The height of the wheels of the wheelchair may not exceed the height of the Athlete’s 
+hip when in the sitting position. An Athlete’s hip is not allowed to touch the wheels.  
+3.7.8 Subject to the other terms of this Rule  3.7, it is not permitted to add any material or 
+modify the structure of the Shooting Chair to gain stability of the pelvis or the spine. 
+3.7.8.1 Athletes are not permitted to adjust their electronic chairs during 
+Competitions, including Finals unless permitted by a member of the 
+Competition Jury.  
+3.7.9 Athletes must not lean on the side posts or wheels of their Shooting Chairs to gain 
+stability of the pelvis or the spine.  
+3.7.9.1 The sides of the torso may touch the side posts; however, it is not permitted 
+for Athletes to use the side posts to gain additional stability of the spine.  
+3.7.9.2 The spine must not be in contact with the post when the Athlete is in the 
+shooting position. 
+3.7.10 Seat pad and seat cushion:  
+3.7.10.1 Except as specified in this Rule 3.7.10, the use of seat pads or seat cushions 
+are permitted. The construction of the seat pad or seat cushion, their 
+shape, and their thickness are not limited within the dimensions of the 
+Shooting Chair. However, the seat pads or seat cushion must fit within the 
+seating area of the Shooting Chair and it cannot extend outside of it (for 
+example it is not permitted for the cushion to touch the wheels, 
+sideboards, or backrest).
+
+--- PDF PAGE 0032 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 32 
+3.7.10.2 If a chair is used, the maximum size of the seat pads or seat cushions is 
+50x50cm.  
+3.7.10.3 All programmable air cell cushions are prohibited.  
+3.7.10.4 It is not permitted to add a seat pad or seat cushion between the back rest 
+and the body of the Athlete. 
+3.7.10.5 All seat pads or seat cushions will be checked during Equipment Control and 
+will be subject to spot checks on the Firing Line before, during or 
+immediately after the Competition. Any disputes will be resolved by WSPS 
+or the Technical Delegate in their absolute discretion. 
+3.7.11 Seat angle  
+3.7.11.1 Subject to Rule 3.7.11.2  and Rule 
+3.7.11.3, the sitting angle and 
+backrest angle of the Athlete 
+sitting in a Shooting Chair is free.  
+3.7.11.2 The seat angle of the Shooting 
+Chair (except wheelchair)  in any 
+direction can be a maximum of 
+(±5 degrees).   
+3.7.11.3 The axis of the wheelchair from 
+side-to side must be horizontal 
+(±5 degrees).   
+3.7.12 Backrest slack 
+3.7.12.1 The backrest may be made of hard or flexible material: 
+a) Backrests made from flexible material: 
+the maximum slack (stretch) of the 
+backrest (the distance from the front of 
+the vertical side posts of the backrest 
+to the deepest part of the backrest) 
+shall not exceed 8cm. 
+Slack:  
+< 8cm (flexible backrest), or; 
+< 3cm (hard backrest)
+
+--- PDF PAGE 0033 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 33 
+b) Backrests made from hard material:  
+the backrest may be flat or with a 
+curved surfaced; however, the 
+maximum slack (depth of the curve) of 
+the backrest (the distance from the 
+front of the vertical side  posts of the 
+backrest to the deepest part of the 
+backrest) shall not exceed 3cm.  If the 
+backrest is upholstered with 
+compressible material , the maximum 
+depth of the curve must still not exceed 
+the permitted depth of 3cm when the 
+material is compressed. 
+3.7.12.2 Backrest slack is to be measured with the Athlete  in the Shooting C hair in 
+the shooting position. 
+3.7.13 Visible Free Height 
+3.7.13.1 Score A  
+a) A back-support of any height may be fitted to the Shooting Chair in 
+such a way that Athletes may take a rest against it between shots. 
+b) There must be clearly no contact between Athlete and back-support 
+when firing. 
+3.7.13.2 Score B  
+a) A minimum of 60% of the total back length of the Athlete  needs to 
+be above the backrest. 
+b) The measurement will be taken  from the middle of vertebra C7 - 
+vertebra prominence. 
+c) The measurement will be recorded on the Athlete ’s Classification 
+and WSPS Licence as the minimum ‘Visible Free Height’. 
+3.7.13.3 Score C  
+a) The measurement will be taken from the middle of vertebra C7 - 
+vertebra prominence. 
+b) The measurement will be recorded on the Athlete ’s Classification 
+and WSPS Licence as the minimum ‘Visible Free Height’.  
+3.7.13.4 No part of the backrest may be higher than the minimum Visible Free 
+Height as specified in the Athlete’s WSPS Licence. 
+3.7.13.5 The Competition Jury shall:
+
+--- PDF PAGE 0034 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 34 
+a) measure the Visible Free Height of each Athlete  and ensure that it 
+is not shorter than the minimum Visible Free Height indicated on 
+the Athlete’s WSPS Licence;  
+b) place a piece of tape on the back of the Athlete’s shooting jacket to 
+indicate the Visible Free Height (the Visible Free Height will be 
+indicated by the bottom edge of the tape). The tape must always 
+remain visible during Competition. 
+c) The Visible Free Height must be indicated on the start/BIB number.  
+3.8 Shooting Tables  
+3.8.1 Rifle Events 
+3.8.1.1 Size - all components of the shooting table 
+(regardless of shape or form) must: 
+a) be of a size no larger than 90cm in 
+diameter; 
+b) remain within the firing point dimensions. 
+3.8.1.2 Shape  
+a) Shooting tables may have a small upstanding edge fitted to prevent 
+small items from falling (but in no way may be used for additional 
+stability or support of the Athlete). 
+b) The shape of the shooting table is free. 
+c) If the shape of the table is curved (as in ‘U -Form’), the shape of the 
+curve must be wider than the Athlete ’s torso, so that the left and 
+right side of the Athlete 's abdomen cannot touch the table at the 
+same time when in the prone position.  
+3.8.1.3 Form - the construction of the shooting table may: 
+a) Either be attached to the S hooting Chair or free 
+standing; 
+b) Consist of a single table, or a multiple small 
+individual tables; 
+c) If two or more small individual tables are used: 
+I. They must be joined or placed together in 
+such a way as to provide one stable platform; and 
+II. The combined surface of the tables must meet all 
+requirements as specified for shooting tables (size, angle, 
+shape).
+
+--- PDF PAGE 0035 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 35 
+3.8.1.4 Angle  
+a) The shooting table must be horizontal or 
+at the same angle as the floor (measured 
+at the centre of the table).  
+b) A variation of ±5 degrees is allowed.  
+c) Athletes with uneven upper limbs  may 
+be permitted to use a compensating 
+block under the shorter limb  when shooting in the prone position . 
+This shall be assessed by the Classification Panel and marked on the 
+Athlete’s Classification and WSPS Licence if permitted.  
+3.8.1.5 Support  
+a) The shooting table must not be used to gain support or stability for 
+the body in any way, except for in the prone position. 
+b) In the prone position, the table can provide support (but Athletes 
+are not allowed to gain stability on the left or right side of the chair 
+with the abdomen). 
+3.8.1.6 Upholstering  
+a) The table or board may be upholstered with compressible material 
+of a maximum thickness of 2cm.  
+b) The material on the table must be of uniform thickness for both 
+elbows. 
+c) It is not permitted to make a hollow in the table or board or in the 
+upholstered material. 
+3.8.1.7 Elbow support table in the kneeling position  
+a) The maximum surface for support of the elbow in the kneeling 
+position is 10cm in diameter. This support can be from: 
+I. a small shooting table (10cm surface diameter); or  
+II. an additional mounted support  
+(hereafter ‘10cm block’) added to the 
+larger shooting table : a  removable 
+board with a diameter of 10cm and a 
+thickness of at least 20mm. 
+3.8.1.8 Shooting stand support  
+a) An additional separate board or table may be allowed for the rifle 
+rest.
+
+--- PDF PAGE 0036 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 36 
+3.8.2 Pistol Tables 
+3.8.2.1 In the event that the range bench is fixed to the ground so the Athlete  
+cannot get close enough to rest and load the pistol, or the bench is designed 
+in such a way that means the Athletes ’ shooting position is compromised 
+and cannot safely operate the loading procedure, the use of an additional 
+small table may be permitted: 
+a) the additional table must be presented at Equipment Control; 
+b) the Competition Jury from Equipment Control  will make an 
+assessment on a case-by-case basis and will confirm if the use of an 
+additional small table will be permitted; and 
+c) the use of the table will be checked on the Firing Line  by the  
+Competition Jury to confirm that the table is used in a safe manner 
+by the Athlete. 
+3.8.2.2 The additional table (if permitted) must be within the following 
+specifications: 
+a) Maximum size of 30cm x 
+30cm. 
+b) Maximum height of 
+100cm. 
+c) The table must in no way provide additional support to the Athlete  
+in the shooting position. 
+3.9 SH2 rifle support stands  
+3.9.1 All SH2 Athletes must use an approved support stand (see Appendix 5) to support the 
+weight of the rifle.  
+3.9.2 The Classification Panel will assess muscle power in the shooting arm  (arm used to 
+shoulder the rifle) for Athletes in Sport Class SH2 for the purpose of identifying if the 
+Athlete may use a weak or a strong spring on the rifle support.  
+3.9.3 Depending on the Athlete’s assessment score, they will be allocated a subclass; ‘a’ or 
+‘b’.  
+3.9.4 This subclass will be recorded on the Athlete ’s WSPS Licence and determines which 
+spring the Athlete shall use in their support stand: 
+Subclass Spring Characteristics 
+a WEAK SPRING (white plastic part) = flexibility minimum 35mm 
+b STRONG SPRING (black plastic part) = flexibility minimum 25mm
+
+--- PDF PAGE 0037 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 37 
+3.9.5 The shooting stand may be fixed to the table or on a tripod. 
+3.9.6 No other support or mechanical devices may be used as a support for the rifle.  
+3.9.7 No device or substance may be attached to the rifle or the shooting stand in order to 
+hold the rifle in a fixed position in, or against the shooting stand.  
+3.9.8 The Athlete’s hands must not be placed in front of the spring or interfere with the 
+operation of the spring when firing a shot.  
+3.9.9 The pin and the spring of the shooting stand must be in vertical position, front to back. 
+3.9.10 It is allowed to shorten the bottom part of the support stand. The remaining  length 
+needs to be at least 20mm , so that it will be possible to check the flexibility of the 
+support stand during Equipment Control. 
+3.9.11 Yoke (rifle holder) 
+3.9.11.1 The rifle must not contact both sides of the yoke at the same time. 
+3.9.11.2 The yoke must be at least 1cm wider than the width of the rifle stock.  
+3.9.11.3 It is allowed to add material inside the yoke if it is comparable to the surface 
+of a shooting glove and does not interfere with the yoke measurements.  
+3.9.12 Point of balance 
+3.9.12.1 The point of balance of the rifle must be marked at Equipment Control. The 
+rifle must be placed ±5 cm of its point of balance on the rifle support stand 
+and the total 10cm range must be marked. The complete yoke must be 
+within the 10cm range. 
+3.9.12.2 The point of balance on gas or compressed air rifles will be measured with 
+full containers.  
+3.9.12.3 The total weight of the upper part of the support stand must be less than or 
+equal to 200 grams. The spring must be an official WSPS- approved model 
+(see Appendix 5). 
+3.9.13 Test bar for spring flexibility (Appendix 5) 
+3.9.13.1 Weight and tolerances for testing the flexibility of the springs are:  
+a) Bar 1) 250 Grams +2 - 0 (used for zeroing) 
+b) Bar 2) 720 Grams +0 – 2 (used to test the flexibility) 
+3.9.13.2 All springs must be checked at Equipment Control prior to Competition , 
+according to Appendix 5.
+
+--- PDF PAGE 0038 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 38 
+3.9.13.3 An Athlete may use two  different springs (10m and 50m) during a  
+Competition. Both springs must successfully go through E quipment 
+Control.
+
+--- PDF PAGE 0039 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 39 
+4 Rifle Rules 
+4.1 Events and times 
+4.1.1 All rifle Event times are in accordance with these Rules and Regulations. 
+4.1.2 WSPS may, at its own discretion, and at any time, cancel Events for which viability 
+criteria are not met.  
+4.1.3 WSPS Competitions may comprise the following rifle Events (the “Rifle Events”): 
+Event Discipline Gender Class Shots 
+Time 
+Electronic 
+Targets 
+Time  
+Target carriers & 
+pit-operated 
+Competitions 
+R1 10m Air rifle standing Men SH1 60 1:15 1:30 
+R2 10m Air rifle standing Women SH1  60  1:15  1:30 
+R3 10m Air rifle prone Open SH1 60 0:50 1:00 
+R4 10m Air rifle standing Open SH2 60 1:15 1:30 
+R5 10m Air rifle prone Open SH2 60 1:00 1:10  
+R6 50m Rifle prone Open SH1 60 0:50 1:00 
+R7 50m Rifle 3 positions Men SH1 
+20 kneeling  
+20 prone 
+20 standing 
+1:45 2:00 
+R8 50m Rifle 3 positions Women SH1 
+20 kneeling 
+20 prone 
+20 standing 
+ 1:45 2:00 
+R9 50m Rifle prone Open SH2 60 1:00  1:10 
+*R10 Mixed Team Rifle Prone 
+SH1 Mixed SH1 2 ( Athletes) x 30 
+(shots each) 0:25  N/A 
+*R11 Mixed Team Rifle Prone 
+SH2 Mixed SH2 2 ( Athletes) x 30 
+(shots each) 0:25 N/A
+
+--- PDF PAGE 0040 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 40 
+*Non-Paralympic Event 
+4.1.4 It is recommended that in Events R3, and all SH2 events at least every third firing point 
+is left vacant to avoid the disturb ance of other Athletes. The final decision on this 
+matter will be made by the Technical Delegate. 
+4.1.5 Athletes are only allowed to use one rifle per Event distance (10m and 50m)  per 
+Competition, unless an allowable malfunction occurs in accordance with ISSF Rules.  
+4.1.6 In the R7 and R8 Events, one coach/team member is permitted to assist the Athlete in 
+the changeover  time between positions ; however, Athletes must lead in the 
+changeover process.  
+4.1.6.1 At qualification  stage and Final s, Athletes must lead in the changeover 
+process with rifle adjustments. The Coach/team member may only assist 
+the Athletes with: 
+(a) Setting the rifle on the shooting table or on a stable platform for the Athlete to 
+perform the changeover, 
+(b) Hand the Athlete tools or equipment requested by the Athlete  to be attached or 
+adjusted, 
+(c) Assist the Athlete with stabilizing the wheelchair on the firing point, 
+(d) Coach/team member  may request the Competi tion Jury to assist Athlete s in 
+another manner that does not consist of a  direct changeover activity to be 
+completed by the  Athletes. The decision to grant these requests is at the sole 
+discretion of the Competition Jury. 
+4.1.7 No unused equipment or additional chairs may be left on the field of play.  
+4.1.8 Athletes may not use chairs to rest their equipment on. 
+4.1.9 Finals 
+4.1.9.1 The ISSF Rules regarding  timings of Events will be followed in all F inals, 
+unless specified by WSPS. Refer to the WSPS Finals Commands document 
+available on the WSPS website. 
+4.1.9.2 During the final, Loaders must move to the back of firing point (1m behind 
+the Athlete) between shots. During the single shot series, the Loader must 
+wait until “STOP” is commanded before returning to the Athlete . Loaders 
+must be loading during the finals to be allowed on the field of play.  
+4.1.9.3 Athletes (and Loaders) must ens ure they do not touch the rifle with a 
+pellet/bullet before the command “LOAD” is given.
+
+--- PDF PAGE 0041 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 41 
+4.1.9.4 The loading process must be completed within 5 seconds from the 
+command “LOAD” being given , except  in SH2 Events, where 
+Athletes/Loaders must complete the loading process within 10 seconds 
+from the command “LOAD” being given. 
+4.1.9.5 The loader must assist the Athlete as follows: 
+(a) Ensuring the safety of the rifle during the loading process by standing next to the 
+Athlete, and 
+(b) Ensuring the safety of the rifle and assisting the Athlete during the de -shoulder 
+and/or position re-adjustment. 
+4.1.9.6 The penalty for a first violation in a Competition will be first a yellow card, 
+followed by a green card (two (2) point penalty) for a second violation in 
+that Competition, with a third violation in that Competition resulting in a 
+red card (disqualification). 
+4.1.9.7 If eliminated from the f inal, all Athletes (including SH2) must immediately 
+leave their firing point and move to the side of field of play to their allocated 
+place next to their coach. Coaches/ Loaders may assist Athletes in this 
+process. 
+4.2 Shooting positions 
+4.2.1 Kneeling 
+4.2.1.1 SH1A Athletes with lower limb deficiency can compete in the ISSF kneeling 
+position using a prosthesis or a stool of 35cm  maximum height (if marked 
+on the WSPS Licence) to support the rifle-supporting leg.  
+4.2.1.2 If a Shooting Chair and table is used: 
+a) the Athlete must comply with WSPS Rules 3.7 and 3.8; 
+b) only one elbow must rest on the table or board and the body must 
+be well clear of the board; 
+c) the supporting forearm must form an angle of not less than 30 
+degrees from the horizontal. Only the point of the e lbow may be 
+supported on the 10cm block; 
+d) no support may be gained from the board/table frame/arm rests; 
+e) the arm(s) of the S hooting Chair (which are not used to attach the 
+table/board to) must be removed.
+
+--- PDF PAGE 0042 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 42 
+ 
+4.2.2 Prone 
+4.2.2.1 SH1 and S H2 Athletes are not allowed to fixate their body between the 
+backrest and the table; they may either lean on the backrest or the table for 
+stability but not both.  
+4.2.2.2 Should an Athlete have uneven upper limb lengths, it is permitted to use a 
+compensating block (under the shorter limb). This shall be assessed by the 
+Classification Panel and marked on the Athlete ’s Classification and WSPS 
+Licence if permitted.  
+4.2.2.3 50m Rifle Prone: Athletes may choose to compete either in the position as 
+described in the ISSF R ules, or with the use of a S hooting Chair and table  
+and must comply with WSPS Rules 3.7 and 3.8. 
+4.2.2.4 10m Air Rifle prone:  Athletes may not lie  down but must use a S hooting 
+Chair and table and  must comply with WSPS Rules 3.7 and 3.8. 
+4.2.2.5 SH1 
+a) Both elbows must rest on the table or board. 
+b) The upper arms must not touch the table or board  (it is 
+recommended that the part of the table below the upper arm is 
+removed). 
+c) The forearm must not form an angle of less than 30 degrees from 
+the horizontal, measured from the axis of the forearm. 
+d) In the case of upper limb deficiency Athletes: it is permitted to hold 
+the rifle with a prosthesis if the prosthesis does not grip the rifle and 
+does not have a fixed elbow. 
+e) Both the forearms and the sleeves of the shooting jacket must be 
+visibly raised from the surface of the table as per ISSF rules. 
+4.2.2.6 SH2
+
+--- PDF PAGE 0043 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 43 
+a) Use of a sling is prohibited. 
+b) Both elbows (if the Athlete ’s Impairment allows) must rest on the 
+table or board.  
+c) If the athlete’s Impairment does not allow for both elbows to be 
+rested on the table, the athlete may rest their non-shooting arm on 
+the table, on top of the rifle, or on their body, provided that the arm 
+is visibly relaxed and not used in such a way as to  gain additional 
+support and an unfair advantage. 
+d) The upper arms must not touch the table  or board (it is 
+recommended that the part of the table below the upper arm is 
+removed). 
+ 
+4.2.3 Standing 
+4.2.3.1 Athletes with a trunk function score A may ch oose to compete free-
+standing (if so , they must stand free of any artificial support,  except for  
+medically certified prosthesis/orthosis). 
+4.2.3.2 The arms and sideboards of the Shooting Chair and the shooting table must 
+be removed.  
+4.2.3.3 When shooting from a high stool, the Athlete  must be able to remove 
+his/her feet from the floor, without losing balance and without moving the 
+upper body. 
+4.2.3.4 SH1 
+a) The rifle must be held with the arms only, without support (as per 
+the ISSF Rules). 
+b) No part of the arms may come in contact with any part of the 
+Shooting Chair. 
+c) No part of the Athlete’s elbows must come into contact with the lap, 
+wheel or gain support other than from the ribcage, hip or abdomen. 
+The penalty for noncompliance with this rule is  first a Yellow Card, 
+followed by a Green Card (two (2) point penalty), with a 3rd violation 
+resulting in a Red Card (disqualification). 
+4.2.3.5 SH2 
+a) In the case of arm -amputee Athletes it is not permitted to hold 
+(touch) the rifle with the prosthesis in standing position.
+
+--- PDF PAGE 0044 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 44 
+b) In the standing position all Athletes  must clearly and visibly de -
+shoulder (removal of physical contact between butt plate and 
+shoulder) the rifle in between shots. There must be a visible 
+separation of at least 3cm between every shot. 
+c) The penalty for not de- shouldering between shots will be first a 
+Yellow Card, followed by a Green Card (two (2) point penalty), with 
+a 3rd violation resulting in a Red Card (disqualification). 
+ 
+ 
+ 
+4.3 Loaders (SH2 only) 
+4.3.1 Loaders apply only to SH2 Athletes competing in SH2 Events and are permitted only 
+as described in the WSPS Classification Rules and Regulations. 
+4.3.1.1 A Classification Panel makes t he decision as to whether an Athlete  is 
+permitted to have a Loader and the outcome will be marked on the  WSPS 
+Licence. 
+4.3.2 The Loaders must: 
+4.3.2.1 not speak or give signals during the Event; 
+4.3.2.2 only load the rifle and/or adjust the sights at the request of the Athlete; 
+4.3.2.3 only load the rifle, while touching the barrel. Loading while touching the 
+back half of the rifle ( i.e., touching the cheek piece or butt plate) is not 
+permitted. 
+4.3.3 In SH2 qualification events, every third (3rd) firing point will be left free. This free firing 
+point must be used as space for the Loaders.  
+4.3.3.1 Depending on the firing point allocated, Loaders must stand to the left or 
+right of their Athlete as specified by the allocated firing point.  
+4.3.3.2 The Loader’s position (left/right of the Athlete ) is fixed according to the 
+firing point and cannot be changed to the other side of the Athlete.
+
+--- PDF PAGE 0045 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 45 
+4.3.3.3 Loaders must stay in position for the duration of the Competition and must 
+not move to the back of the firing point between shots. 
+4.3.4 If the Loader is also the Athlete's coach, they must first ask permission of the R ange 
+Official before speaking to each other, in accordance with Rule 2.16 above.
+
+--- PDF PAGE 0046 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 46 
+5 Pistol Rules 
+5.1 Events and times 
+5.1.1 All pistol Event times are in accordance with these Rules and Regulations. 
+5.1.2 WSPS may, at its own discretion, and at any time, cancel Events for which viability 
+criteria are not met. 
+5.1.3 WSPS Competitions may comprise the following pistol Events (the “Pistol Events”): 
+Event Discipline Gender Class Shots 
+Time 
+Electronic 
+Targets 
+Time  
+Target carriers & 
+pit-operated 
+Competitions 
+P1 10m Air Pistol Men SH1 60 1:15 1:30 
+P2 10m Air Pistol Women SH1  60  1:15  1:30 
+P3 25m Pistol Open SH1 60 - - 
+P4 50m Pistol Open SH1 60 1:30 1:45 
+*P5 10m Air Pistol Standard Open SH1 40- - - 
+*P6 Mixed Team Pistol Mixed SH1 2 (Athletes) x 30 
+(shots each) 0:40  N/A 
+*Non-Paralympic Event 
+5.1.4 P3 Event is to be shot according to the ISSF 25m Pistol Rules. 
+5.1.4.1 If the bench of the 25-meter range is too high for sitting Athletes to 
+perform the 45-degree angle in the ready position, the ‘ready position’ can 
+be accepted as the lowest point to the surface of the bench. 
+5.1.4.2 In no case may the pistol rest on the bench during the ‘ready position’.  
+5.1.4.3 Athletes may request this modified ‘ready position’. The decision to allow 
+the modified ‘ready position’ is at the discretion of the Technical Delegate. 
+5.1.5 P5 (10m Air Pistol Standard) E vent is to be shot in accordance  with the Rules as set 
+out in Appendix 6.  
+5.1.6 No equipment or additional chairs may be left on the field of play.  
+5.1.7 Athletes may not use chairs to rest their equipment on.
+
+--- PDF PAGE 0047 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 47 
+5.1.8 Finals 
+5.1.8.1 The ISSF Rules regarding timings will be followed in all Finals as set out in  
+the ‘WSPS Finals Commands’ document available on the WSPS website.  
+Athletes must ensure they do not touch the pistol with a pellet/bullet before 
+the command “LOAD” is given.  
+5.1.8.2 The loading process must be completed within five (5) seconds from the 
+command “LOAD” being given in Events P1, P2, and P4.  
+5.1.8.3 If eliminated from the Final, all Athletes must immediately leave their firing 
+point and move to the side of field of play to their allocated place next to 
+their coach. Coaches may assist Athletes in this process. 
+5.2 Shooting position 
+5.2.1 SH1A Athletes may choose to compete free -standing. If so, they must stand free of 
+any artificial support, except for medically certified prosthesis/orthosis. 
+5.2.2 The arms and sideboards of the S hooting Chair and the shooting table must be 
+removed. 
+5.2.3 The non-shooting arm/hand must not be on the Shooting Chair or in a position to give 
+the Athlete an additional support (in accordance with the ISSF Rules). 
+5.2.4 Any additional items between the legs and the non -shooting arm (such as a cushion) 
+are not allowed.  
+5.3 Loading device (safety) 
+5.3.1 Loading safety must follow the ISSF Rules, except for Rule 5.3.2 below.  
+5.3.2 A loading device, to hold the pistol to enable it to be loaded or unloaded safely, must 
+always be used  if it is specified on the WSPS Licence following Classification of the 
+Athlete by the Classification Panel. 
+5.3.2.1 The loading device will be ch ecked at Equipment Control  by the 
+Competition Jury to ensure safe handling.
+
+--- PDF PAGE 0048 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 48 
+6 Shotgun Rules 
+6.1 Events and times 
+6.1.1 All Shotgun Events and times are in accordance with these Rules and Regulations. 
+6.1.2 WSPS may, at its own discretion, and at any time, cancel Events for which viability 
+criteria are not met.  
+6.1.3 WSPS Competitions may be comprised of  the following s hotgun Events (the 
+“Shotgun Events”): 
+Event Discipline Gender Class Shots Targets 
+Preparation Time 
+Limits 
+ 
+*PT1 Trap Seated Open SG-S 125 
+Day 1 – 75 Targets 
+Day 2 – 50 Targets 
+15 sec 
+*PT2 Trap Standing (Lower 
+Limb) Open SG-L 125 
+Day 1 – 75 Targets 
+Day 2 – 50 Targets 
+ 15 sec 
+*PT3 Trap Standing (Upper 
+Limb) Open SG-U 125 
+Day 1 – 75 Targets 
+Day 2 – 50 Targets 
+ 15 sec 
+*Non-Paralympic Event 
+6.1.4 Shotgun Events will be conducted in accordance with ISSF Rules.  
+6.2 Shooting position 
+6.2.1 Sport Class SG-S 
+6.2.1.1 Athletes in Sport Class SG -S must compete seated in a wheelchair  or on a 
+stool. 
+6.2.1.2 If seated in a wheelchair Athletes  must sit with the spine against the 
+backrest of the wheelchair. Strapping to the backrest is allowed. The 
+buttocks must remain in full contact with the seat of the wheelchair  
+throughout the movement. 
+6.2.1.3 The feet must rest on the footplate of the wheelchair, or the lower limb 
+must be supported by a leg rest with knees bent to a 90-degree angle or the 
+angle indicated on the WSPS Licence . The feet must  not be placed on the 
+ground hereby enlarging the support base of the Athlete  as created by the 
+standard wheelchair configuration.
+
+--- PDF PAGE 0049 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 49 
+6.2.1.4 If the Athlete  uses a stool , the feet must support the weight bearing in a 
+vertical plane to the stool unless anatomical restrictions do not allow this. 
+Such restriction must be recorded on the WSPS Licence . The buttocks of 
+the Athlete must remain in full contact with the  stool throughout the 
+movement. 
+6.2.1.5 Athletes in Sport Class SG-S must be watched by the Competition Jury or 
+another delegated official to ensure that throughout the shot, the Athletes 
+remain seated, the spine is in contact with the backrest of the wheelchair (if 
+seated in a wheelchair) and the feet adhere to the requirements outlined 
+above.  
+6.2.1.6 Athletes in Sport C lass SG -S may use strapping on their upper body to 
+ensure safety while firing. The strapping used must not exceed 10 cm in 
+width and must not be elastic. As much body weight may be supported by 
+the strapping as the Athlete determines is necessary. 
+6.2.2 Sport Class SG-L 
+6.2.2.1 Athletes in Sport Class SG-L must compete in the standing position.  
+6.2.2.2 No stool, gadget or any device to support standing is permitted. 
+6.2.3 Sport Class SG-U 
+6.2.3.1 Athletes in Sport Class SG-U must compete in the standing position. 
+6.2.3.2 No stool, gadget or any device to support standing is permitted. 
+6.3 Loading device (safety) 
+6.3.1 Athletes competing in Sport Class SG-U must use the adaptive loading stand , as set 
+up by the LOC, on each station on the field. 
+6.3.2 During Athlete Evaluation, a Classification Panel may identify circumstances in which 
+an individual Athlete may not be able to, for example, safely load, hold and/or fire a 
+shotgun. In such cases, the Classification Panel will report to the Competition  Jury 
+who will conduct a full investigation to determine if the use of an approved prosthesis 
+and/or an adaptive loading stand  will alleviate the safety concerns and enable the 
+Athlete to compete. If the Competition  Jury determine that the Athlete  is unable to 
+safely load, hold and/or fire a shotgun that Athlete  will not be e ligible to compete in 
+Shotgun Events. 
+6.3.3 For the avoidance of doubt, if the Classification Panel considers it necessary to 
+disclose medical diagnostic information to the Competition  Jury for the purposes of 
+an investigation in accordance with Rule 6.3.2  above, such information shall be 
+treated as confidential in accordance with the data protection provisions of the WSPS 
+Classification Rules and Regulations.
+
+--- PDF PAGE 0050 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 50 
+6.4 Other 
+6.4.1 Except as provided for in Rule 6.3  above, adaptive devices used by Athletes  must be 
+approved by WSPS. All adaptive devices will be inspected, and, if approved will be 
+noted as a permanent approval of the device on the Athlete’s WSPS Licence.  
+6.4.2 No trigger adaptations are permitted for Athletes competing in Shotgun Events. 
+6.4.3 Shooting tables and support stands are not permitted  for Athletes competing in 
+Shotgun Events.
+
+--- PDF PAGE 0051 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 51 
+7 Vision Impairment (VI) Rules 
+7.1 Events and times 
+7.1.1 All VI Events and times are in accordance with these Rules and Regulations. 
+7.1.2 WSPS may, at its own discretion, and at any time, cancel Events for which viability 
+criteria are not met.  
+7.1.3 WSPS Recognised Competitions may comprise the following VI  Events (the “VI 
+Events”): 
+Event Discipline Gender Class Shots 
+Time 
+Electronic 
+Targets 
+Time 
+Target carriers & pit -
+operated Competitions 
+*VIS 10m Air Rifle Standing Open SHVI 60 1:15 1:30 
+*VIP 10m Air Rifle Prone Open SHVI 60 0:50 1:00 
+*Non-Paralympic Event 
+7.1.3.1 It is recommended that in VI Events at least every third firing point is left vacant 
+to avoid the disturbance of other Athletes. The final decision on this 
+matter will be made by the Technical Delegate. 
+7.1.3.2 No unused equipment or additional chairs may be left on the field of play. 
+Athletes may not use chairs to rest their equipment on. 
+7.1.4 Finals 
+7.1.4.1 The ISSF Rules regarding timings of Events will be followed in all Finals, 
+unless specified by WSPS. Please refer to the ‘WSPS Finals Commands’ 
+document available on the WSPS website. 
+7.1.4.2 In VIS and VIP, the Athlete must complete the loading process within ten 
+(10) seconds from the command “LOAD” being given. 
+7.1.4.3 The VI Assistant must stay in position for the duration of the Finals.   
+7.2 Apparel and Equipment 
+7.2.1 Shooting Jackets 
+7.2.1.1 WSPS Rule 3.2.1 will apply. 
+7.2.1.2 VI Rifle Athletes may use a n ISSF-approved jacket in accordance with the 
+ISSF Rules, in the following circumstances:
+
+--- PDF PAGE 0052 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 52 
+Position Style  Regulation 
+Prone Shooting from a Shooting Chair 
+Permitted: only the top three (3) jacket 
+buttons may be fastened,  and the buttons 
+may not extend below the bottom of the 
+ribcage or equivalent. 
+Any additional buttons must not be used 
+Standing Shooting free-standing  Permitted: Jacket usage as per ISSF Rules 
+ 
+7.2.2 Shooting Trousers  
+7.2.2.1 Shooting Trousers are prohibited for all prone Athletes.  
+7.2.3 Shooting Shoes  
+7.2.3.1 Shooting Shoes must follow ISSF Rules and WSPS Rule 3.2.3  
+7.2.4 Equipment 
+7.2.4.1 No additional light on the target is required; all lighting must  follow ISSF 
+Rules. 
+7.2.4.2 Competition Jury members must test the IR LED system. If a unit fails or is 
+broken it is an allowable Malfunction. 
+7.2.4.3 The Athlete must bring their own LED for the Competition. 
+7.2.4.4 During qualification and Finals , all competing Athletes  must wear an eye 
+covering which completely covers the eyes and ensures no vision is 
+possible, such as opaque goggles, completely enclosed glasses , safety 
+glasses or a mask deemed suitable by WSPS.  
+7.2.4.5 The sound unit of the Athlete is not permitted to produce sound outside of 
+the headphones. Audible noise from one (1) meter away is prohibited.  
+7.2.5 Equipment Control 
+7.2.5.1 Team Leaders and coaches are responsible for ensuring that the Athlete 
+has equipment and apparel that comply with these Rules and Regulations. 
+7.2.5.2 ISSF equipment will be checked in accordance with the ISSF Rules.  
+a) VI Shooting specific equipment checks will be done in accordance 
+with these Rules and Regulations.  
+b) The Athlete is responsible for submitting VI Shooting -specific 
+equipment and apparel for official inspection and approval before 
+the start of every Competition. As part of this process:
+
+--- PDF PAGE 0053 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 53 
+I. the Athlete must present both their current  ID Card and 
+WSPS Licence; and 
+II. the ‘Equipment Control  Sheet’ must be completed and 
+signed by all relevant parties.  
+7.2.5.3 Each Athlete and their VI Shooting-specific equipment may be checked by 
+the Competition Jury on the Firing Line prior to the start of each Event. 
+7.2.5.4 Random equipment checks will be done by the Competition Jury from 
+Equipment Control following the Competition. 
+7.2.6 Non-allowable Malfunctions  
+7.2.6.1 A claim that there is a Malfunction of the aiming system must be 
+immediately reported to the range staff. 
+7.2.6.2 Range staff will check the following during Competition: 
+a) disconnected wires. 
+b) low power bank or battery pack. 
+7.2.6.3 All other situation s regarding Malfunctions of the aiming system will be 
+dealt with in accordance with the ISSF rules. 
+7.2.7 Shooting Chairs & Table for Prone Position 
+7.2.7.1 Use of a backrest in the shooting position is prohibited. 
+7.2.7.2 For the prone position, it is not allowed to have a Shooting Chair with arm 
+rests or sideboards.  
+7.2.7.3 WSPS Rules 3.8.1.1 to 3.8.1.6 will be applied. 
+7.3 Shooting Positions 
+7.3.1 Prone 
+7.3.1.1 WSPS Rule 4.2.2.5 will apply.  
+7.3.2 Standing 
+7.3.2.1 Athletes must be free-standing conforming to ISSF Rules. 
+7.3.2.2 The cheek must be used as described in the ISSF Rules. 
+7.3.2.3 The barrel of the rifle must be level with the shoulders of the Athlete.  
+7.3.2.4 It is not necessary that the cheek is touching the cheek piece. 
+7.4 VI Assistant 
+7.4.1 All VI Athletes must be accompanied by a VI Assistant during their Competition. 
+7.4.2 The VI Assistant:
+
+--- PDF PAGE 0054 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 54 
+7.4.2.1 must place the LED lights on the target a minimum of ten (10) minutes 
+before the call to the Firing Line; 
+7.4.2.2 verbal communication between the Athlete and the VI Assistant is 
+prohibited during the Competition. The VI Assistant is permitted to give 
+non-verbal signals during the match for score indication and to show the 
+direction of their target; 
+7.4.2.3 may adjust the sights at the request of the Athlete and is not allowed to 
+support the rifle. Only one (1) person may be touching the rifle during 
+aiming; and 
+7.4.2.4 must stand in position for the duration of the Events (VIP & VIS) and it is 
+not permitted to move between shots. The VI Assistant position (behind 
+the Athlete) is fixed according to the rules and cannot be changed. The VI 
+Assistant must stand at a minimum of 50cm behind the Athlete and may 
+only move to give the signals for the score of the Athlete.  
+7.4.3 A VI Assistant may:  
+7.4.3.1 assist the Athlete with set up of equipment including the aiming device; 
+and 
+7.4.3.2 immediately notify an Athlete if they are not pointing at their own target. 
+7.4.3.3 A VI Assistant is only permitted to load if allowed in accordance with the 
+terms of their WSPS Licence.
+
+--- PDF PAGE 0055 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 55 
+8 Team Event Rules 
+8.1 Team Events and format 
+8.1.1 These will be included in WSPS Recognised Competitions, unless specified otherwise.  
+8.1.2 Team scores will be calculated by adding the individual Event scores of the Athletes 
+within a team together (i.e. no separate team matches will be shot).  
+8.1.3 Only an Athlete entered as a ‘Full’ participant may compete in team events. Athletes 
+entered as MQS only may not participate.  
+8.1.4 Team size: 
+8.1.4.1 All teams must consist of three Athletes. 
+8.1.5 Maximum number of teams per NPC: 
+8.1.5.1 WSPS Sanctioned Competitions and WSPS Championships: only one team 
+per event per NPC. 
+8.1.5.2 WSPS Approved Competitions: maximum two teams per event per NPC. 
+8.1.6 Event viability: 
+8.1.6.1 Minimum three teams must be on the start list of that E vent (by the final 
+entries deadline); otherwise, the team Event is automatically cancelled. 
+8.1.6.2 If only three teams participate in the Event, medals will be awarded 
+according to the ‘minus -one’ rule (e.g. only gold and silver would be 
+awarded). 
+8.2 Mixed Team – Rifle/Pistol 
+8.2.1 Maximum of two teams per event per NPC. 
+8.2.2 Mixed team events will follow the current ISSF forma t with the final’s competition 
+format specified in the Commands and Announcements for Finals document on the 
+WSPS website.  
+8.3 Para Trap Two Person Team 
+8.3.1 Maximum of two teams per NPC.  
+8.3.2 The team will consist of one male and one female athlete per team. The athletes can 
+be entered from any of the Para Trap Events (i.e. PT1, PT2, or PT3).  
+8.3.3 Team scores will be calculated by adding the individual Event scores of the Athletes  
+within a team together (i.e. no separate team matches will be shot).
+
+--- PDF PAGE 0056 | method=TESSERACT_OCR ---
+World Shooting Para Sport Technical Rules and Regulations, v1. 
+©2026 International Paralympic Committee – ALL RIGHTS RESERVED 56 
+9 Medical Rules 
+9.1  Athlete Safety 
+9.1.1 The overriding priority is  always to safeguard the health and safety of Athletes . The 
+outcome of the Competition should never influence such decisions.  
+9.1.2 It is the responsibility of the team management to evaluate whether a sick or injured 
+Athlete is fit to continue in or return to the Competition. WSPS may delay or prevent 
+any Athlete from entering or participating in any Competition based on  the health, 
+safety or security of any Athletes or other participants, at its absolute discretion.  
+9.2 Epilepsy 
+9.2.1 It is the duty of all Athletes and their NPCs to declare to WSPS if the Athlete has ever 
+suffered any form of epileptic fit/seizure or epilepsy-related episode.  
+9.2.2 All Athletes must complete the ‘Athlete Epilepsy Declaration Form’ (available on the 
+WSPS website) which must be uploaded to the Athlete ’s SDMS profile before they 
+are eligible to have a WSPS Licence for the Competition season.  
+9.2.3 The ‘Athlete Epilepsy Declaration Form’ confirms if the Athlete has epilepsy, and if so, 
+that the epilepsy is stable , and identifies  what type of epilepsy the Athlete  suffers 
+from.  
+9.2.4 If an Athlete declares that he/she has been medically diagnosed with epilepsy and has 
+had an epileptic episode in the preceding 12-month period, the Athlete’s participation 
+in WSPS Recognised Competitions shall be subject to approval by WSPS. 
+9.2.5 If at any time an Athlete suffers any form of epileptic fit/seizure or epilepsy -related 
+episode, an updated ‘ Athlete Epilepsy Declaration Form’ must immediately be 
+submitted to WSPS.  
+9.3 Pacemakers 
+9.3.1 The use of pacemakers by Athletes  in WSPS Recognised Competition s is subject to 
+approval by WSPS.  
+9.3.2 Any Athlete that uses a pacemaker is required to submit a medical file to WSPS 
+(info@worldshootingparasport.org), detailing the pathology and technical details of 
+the device implemented.  
+9.3.3 The WSPS shall determine whether the device is approved , and this decision is final. 
+The Athlete will only be entitled to use this approved device, and any change must be 
+notified to WSPS immediately. 
+9.3.4 Failure to notify WSPS of the use of a pacemaker results in automatic disqualification 
+of the Athlete and any results obtained in Competition where a pacemaker was used.

@@ -1,0 +1,66 @@
+{
+  "schema": "RENATE_USER_PROVIDED_CARD_IMAGES_V1",
+  "date": "2026-11-06",
+  "source": "User supplied files placed inside RENATE/img",
+  "userDeclaration": "Images are official",
+  "licenseEvidence": "No separate license document supplied; inclusion is based on the user's explicit instruction.",
+  "images": [
+    {
+      "path": "img/R4_wsps.png",
+      "sha256": "3c0824552fc0a3a9d3e0f9808069c87945985e5cd9267ff71eecff6a2da30034",
+      "route": "wsps.event.r4",
+      "status": "USED_IN_QUALIFICATION_CARD",
+      "visualNote": "Visible stream title identifies R4 Mixed 10m Air Rifle Standing SH2; the image shows the SH2 rifle support.",
+      "phaseVerified": false
+    },
+    {
+      "path": "img/R4_2_wsps.png",
+      "sha256": "dbad8697e57bbad640db1c01a50c4df5657d166b24f815cc57e1cef25843ab7b",
+      "route": "wsps.event.r4",
+      "status": "USED_IN_FINAL_CARD",
+      "visualNote": "User labeled this R4; the image shows the para rifle competition and SH2 support equipment.",
+      "phaseVerified": false
+    },
+    {
+      "path": "img/R7_kneeling_wsps.png",
+      "sha256": "1eff81acb598afd2dc570834571a3a59b30fd43fd00eb5f132a7ff61ee98255c",
+      "route": "wsps.event.r7",
+      "status": "USED_IN_APPROVED_SH1_CARD",
+      "visualNote": "Foto oficial fornecida pelo usuário. Elementos sob/ao lado do rifle são apoios de descanso; conforme esclarecimento do usuário, não sustentam a arma durante a posição de tiro.",
+      "phaseVerified": false
+    },
+    {
+      "path": "img/R7_prone_wsps.png",
+      "sha256": "cec0b8e2da63028e188d78e13e7c5ce0cd03ae4535731923cdd9daed4588afbb",
+      "route": "wsps.event.r7",
+      "status": "USED_IN_APPROVED_SH1_CARD",
+      "visualNote": "Foto oficial fornecida pelo usuário. Elementos sob/ao lado do rifle são apoios de descanso; conforme esclarecimento do usuário, não sustentam a arma durante a posição de tiro.",
+      "phaseVerified": false
+    },
+    {
+      "path": "img/R7_standing_wsps.png",
+      "sha256": "75ed2d5198152b69375a6595dd31f69113d6c2f465691383f62b9d652033a198",
+      "route": "wsps.event.r7",
+      "status": "USED_IN_APPROVED_SH1_CARD",
+      "visualNote": "Foto oficial fornecida pelo usuário. Elementos sob/ao lado do rifle são apoios de descanso; conforme esclarecimento do usuário, não sustentam a arma durante a posição de tiro.",
+      "phaseVerified": false
+    },
+    {
+      "path": "img/R8_standing_wsps.png",
+      "sha256": "65b1b5a4858f7cf22b82360a3d5639e9886f399e4e7b70c7b9d227cded195010",
+      "route": "wsps.event.r8",
+      "status": "USED_IN_APPROVED_SH1_CARD",
+      "visualNote": "Foto oficial fornecida pelo usuário. Elementos sob/ao lado do rifle são apoios de descanso; conforme esclarecimento do usuário, não sustentam a arma durante a posição de tiro.",
+      "phaseVerified": false
+    },
+    {
+      "path": "img/R8_standing_wsps_2.png",
+      "sha256": "29dd4ce3e9d94472327c5f23b755f62bdb3e7bd95a024c50a7308a11775f6ee9",
+      "route": "wsps.event.r8",
+      "status": "USED_IN_APPROVED_SH1_CARD",
+      "visualNote": "Foto oficial fornecida pelo usuário. Elementos sob/ao lado do rifle são apoios de descanso; conforme esclarecimento do usuário, não sustentam a arma durante a posição de tiro.",
+      "phaseVerified": false
+    }
+  ],
+  "userClarification": "2026-11-06: Os apoios visíveis são apoios de descanso; os atletas em posição de tiro não estão apoiados neles. O usuário confirmou que as fotos estão corretas e autorizou seu uso."
+}

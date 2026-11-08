@@ -1,0 +1,6 @@
+﻿route_id,route_name,original_snapshot_qa_count,renate_supplement_qa_count,effective_pack_qa_count,new_golden_cases,evaluation_state
+cbte.cmp.rimfire_sporter,Carabina CMP Fogo Circular Sporter,0,10,10,0,CONTENT_INCLUDED_NOT_EVALUATED
+cbte.shotgun.automatic_trap,Fossa Automática CBTE,0,10,10,0,CONTENT_INCLUDED_NOT_EVALUATED
+cbte.shotgun.issf,Tiro ao Prato Olímpico CBTE — Fossa Olímpica e Skeet,0,10,10,0,CONTENT_INCLUDED_NOT_EVALUATED
+cbte.shotgun.trap_nacional,Trap Nacional 2026,0,10,10,0,CONTENT_INCLUDED_NOT_EVALUATED
+issf.event.14,Skeet,0,10,10,0,CONTENT_INCLUDED_NOT_EVALUATED

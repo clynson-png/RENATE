@@ -1,0 +1,23 @@
+{
+  "schema": "RENATE_ATLAS_QA_ROUTE_CANDIDATES_V1",
+  "source": "ADANA20",
+  "imported_on": "2026-11-06",
+  "human_approval": "HUMAN_APPROVED_BY_USER_2026-11-06",
+  "record_count": 960,
+  "unique_route_mapped": 244,
+  "shared_or_ambiguous": 673,
+  "unclassified": 43,
+  "input_hashes": [
+    {
+      "source_path": "config\\adana_question_atlas_v2.json",
+      "sha256": "ad0f2855631876d81340ac9de4a6ef4b4866ccde43a5b6871a90d64b3412760e",
+      "bytes": 12882403
+    },
+    {
+      "source_path": "config\\adana_question_atlas_routes_v2.json",
+      "sha256": "5d43a86e69595af1cd2c0ffd7f546e469011d9a58a405f13a4aa3b26af31e945",
+      "bytes": 1317045
+    }
+  ],
+  "human_approval_record": "data/imports/day1_2026-11-06/decisions/ATLAS_QA_HUMAN_APPROVAL_2026-11-06.md"
+}

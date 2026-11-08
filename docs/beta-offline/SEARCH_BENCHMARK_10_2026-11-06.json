@@ -1,0 +1,188 @@
+{
+  "report_schema": "renate.day2.search-benchmark.v1",
+  "created_on": "2026-11-06",
+  "scope": "10 seeded random ATLAS questions associated with 10 distinct routes; local Node benchmark, not browser/device runtime proof",
+  "seed": 20261106,
+  "source_path": "data/imports/day1_2026-11-06/atlas/atlas_qa_route_candidates_2026-11-06.jsonl",
+  "source_sha256": "c383b6209768606ea0d5b6abf6b20d278abbe43a6fde12bc10184c862bdc7512",
+  "corpus_count": 960,
+  "sample": [
+    {
+      "atlas_id": "ISSF:ISSF-159:A01",
+      "route_id": "wsps.event.r5",
+      "question_id": "ISSF-159",
+      "atomic_id": "ISSF-159:A01",
+      "alias": null
+    },
+    {
+      "atlas_id": "CBTE:CBTE-ARB-061:A01",
+      "route_id": "cbte.cma.25m",
+      "question_id": "CBTE-ARB-061",
+      "atomic_id": "CBTE-ARB-061:A01",
+      "alias": null
+    },
+    {
+      "atlas_id": "ISSF:ISSF-253:A02",
+      "route_id": "issf.event.10",
+      "question_id": "ISSF-253",
+      "atomic_id": "ISSF-253:A02",
+      "alias": null
+    },
+    {
+      "atlas_id": "WSPS:WSPS-SRC-018:A01",
+      "route_id": "wsps.event.p6",
+      "question_id": "WSPS-SRC-018",
+      "atomic_id": "WSPS-SRC-018:A01",
+      "alias": null
+    },
+    {
+      "atlas_id": "ISSF:ISSF-052:A01",
+      "route_id": "wsps.event.r1",
+      "question_id": "ISSF-052",
+      "atomic_id": "ISSF-052:A01",
+      "alias": null
+    },
+    {
+      "atlas_id": "WSPS:WSPS-SRC-013:A01",
+      "route_id": "wsps.event.r4",
+      "question_id": "WSPS-SRC-013",
+      "atomic_id": "WSPS-SRC-013:A01",
+      "alias": null
+    },
+    {
+      "atlas_id": "CBTE:CBTE-ARB-025:A05",
+      "route_id": "cbte.wrabf.rifle_international",
+      "question_id": "CBTE-ARB-025",
+      "atomic_id": "CBTE-ARB-025:A05",
+      "alias": "chamada às bancadas antes da prova"
+    },
+    {
+      "atlas_id": "CBTE:CBTE-ARB-181:A02",
+      "route_id": "cbte.national_light",
+      "question_id": "CBTE-ARB-181",
+      "atomic_id": "CBTE-ARB-181:A02",
+      "alias": null
+    },
+    {
+      "atlas_id": "WSPS:WSPS-SRC-152:A01",
+      "route_id": "wsps.event.vip",
+      "question_id": "WSPS-SRC-152",
+      "atomic_id": "WSPS-SRC-152:A01",
+      "alias": null
+    },
+    {
+      "atlas_id": "ISSF:ISSF-219:A01",
+      "route_id": "issf.event.17",
+      "question_id": "ISSF-219",
+      "atomic_id": "ISSF-219:A01",
+      "alias": null
+    }
+  ],
+  "meilisearch": {
+    "status": "NOT_COMPATIBLE_WITH_FRONTEND_ONLY_RUNTIME",
+    "engine_search_results": null,
+    "reason": "No browser-embeddable engine artifact was available in RENATE; its JavaScript SDK is a remote HTTP client and no server/service may be part of RENATE runtime."
+  },
+  "engines": [
+    {
+      "name": "MiniSearch 7.2",
+      "searchable_documents": 960,
+      "index_build_ms": 101.78,
+      "rss_delta_bytes": 14856192,
+      "package_entry_footprint": {
+        "entry": "node_modules/minisearch/dist/cjs/index.cjs",
+        "raw_bytes": 78025,
+        "gzip_bytes": 18287
+      },
+      "queries": {
+        "exact_question": {
+          "cases": 10,
+          "coverage": 1,
+          "top1_accuracy": 1,
+          "mean_reciprocal_rank": 1
+        },
+        "normalized_question": {
+          "cases": 10,
+          "coverage": 1,
+          "top1_accuracy": 1,
+          "mean_reciprocal_rank": 1
+        },
+        "exact_code": {
+          "cases": 10,
+          "coverage": 1,
+          "top1_accuracy": 0.7,
+          "mean_reciprocal_rank": 0.82
+        },
+        "aliases": {
+          "cases": 1,
+          "coverage": 1,
+          "top1_accuracy": 0,
+          "mean_reciprocal_rank": 0.5
+        },
+        "ambiguity": {
+          "conflicting_groups_tested": 3,
+          "full_group_retrieval": 3,
+          "requires_post_search_clarification": true
+        }
+      },
+      "latency_ms": {
+        "median": 1.996,
+        "p95": 4.977,
+        "runs_per_query": 30
+      }
+    },
+    {
+      "name": "FlexSearch 0.8",
+      "searchable_documents": 960,
+      "index_build_ms": 101.98,
+      "rss_delta_bytes": 3702784,
+      "package_entry_footprint": {
+        "entry": "node_modules/flexsearch/dist/flexsearch.bundle.min.js",
+        "raw_bytes": 51355,
+        "gzip_bytes": 17790
+      },
+      "queries": {
+        "exact_question": {
+          "cases": 10,
+          "coverage": 1,
+          "top1_accuracy": 1,
+          "mean_reciprocal_rank": 1
+        },
+        "normalized_question": {
+          "cases": 10,
+          "coverage": 1,
+          "top1_accuracy": 1,
+          "mean_reciprocal_rank": 1
+        },
+        "exact_code": {
+          "cases": 10,
+          "coverage": 1,
+          "top1_accuracy": 0.7,
+          "mean_reciprocal_rank": 0.82
+        },
+        "aliases": {
+          "cases": 1,
+          "coverage": 1,
+          "top1_accuracy": 1,
+          "mean_reciprocal_rank": 1
+        },
+        "ambiguity": {
+          "conflicting_groups_tested": 3,
+          "full_group_retrieval": 3,
+          "requires_post_search_clarification": true
+        }
+      },
+      "latency_ms": {
+        "median": 0.112,
+        "p95": 0.237,
+        "runs_per_query": 30
+      }
+    }
+  ],
+  "limits": [
+    "Index/search/memory measurements are Node.js process measurements, not browser or mobile device measurements.",
+    "The 10-question sample evaluates exact retrieval of the ATLAS row; it does not score the normative correctness of its answer.",
+    "Alias coverage is reported only for aliases attached to sampled records.",
+    "All three known conflicting duplicate groups are checked separately for candidate retrieval; application-level clarification remains required."
+  ]
+}

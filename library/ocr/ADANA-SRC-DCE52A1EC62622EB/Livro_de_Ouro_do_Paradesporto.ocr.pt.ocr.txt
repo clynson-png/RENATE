@@ -1,0 +1,24 @@
+TRANSLATION_STATUS: PASSTHROUGH_INTERNAL_ONLY
+TRANSLATION_LANGUAGE: pt-BR
+TRANSLATION_MODEL: NONE
+SOURCE_RELATIVE_PATH: _OCR_pdf_originais/Livro_de_Ouro_do_Paradesporto.ocr.txt
+SOURCE_SHA256: 7fcb0473934d28cf1a5e7a56203d8ba09849edc33a289b92c039c03226245ae8
+SOURCE_REMAINS_AUTHORITATIVE: true
+
+source_path: _PDF_originais/Livro_de_Ouro_do_Paradesporto.pdf
+source_sha256: dce52a1ec62622eb9c6489bf41b39d34c1795d2313df403ff168aacabac5d5fd
+source_pages: 141
+ocr_link_basis: new local Tesseract OCR for sparse/image-only pages
+--- PDF PAGE 0141 | method=TESSERACT_OCR ---
+
+Ea "4
+AS
+a
+| &
+pa mea
+PARADESPORTO
+BRASIL + ACESSÍVEL
+(a) @paradesportoacessivel
+[nttev/ x paradesporto.unifesp.br
+
+@paradesporto_br

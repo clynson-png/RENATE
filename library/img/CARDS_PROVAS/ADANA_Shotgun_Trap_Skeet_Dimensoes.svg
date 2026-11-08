@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1880" role="img" aria-labelledby="title desc">
+  <title id="title">Shotgun e pratos: dimensões de referência para Trap e Skeet</title>
+  <desc id="desc">Diagrama esquemático de espingarda com comprimento do cano, comprimento total, comprimento de coronha e queda da coronha; exemplos identificados de modelos Trap e Skeet; dimensões dos pratos ISSF e Trap Nacional CBTE/ATA.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061725"/><stop offset="1" stop-color="#0e2637"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#b5f345"/><stop offset="1" stop-color="#25d2df"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#27d5e1"/></marker>
+    <style>
+      .t{font-family:Segoe UI,Arial,sans-serif;fill:#f5f8fa}.muted{fill:#adc1ce}.accent{fill:#c0f55a}.cyan{fill:#36dce7}.line{stroke:#25cddd;stroke-width:3;fill:none}.thin{stroke:#678494;stroke-width:2;fill:none}.panel{fill:#0b2030;stroke:#21495a;stroke-width:2}.small{font-size:22px}.body{font-size:27px}.label{font-size:24px;font-weight:700}.head{font-size:43px;font-weight:800}.sub{font-size:29px;font-weight:700}
+    </style>
+  </defs>
+  <rect width="1440" height="1880" rx="38" fill="url(#bg)"/>
+  <rect x="34" y="34" width="1372" height="1812" rx="30" fill="none" stroke="url(#accent)" stroke-width="5"/>
+  <text class="t head" x="78" y="111">SHOTGUN · TRAP · SKEET</text>
+  <text class="muted body" x="80" y="157">Dimensões: regra da prova separada de exemplo de fabricante</text>
+
+  <rect class="panel" x="70" y="198" width="1300" height="535" rx="24"/>
+  <text class="t sub" x="105" y="249">LEITURA DO DESENHO · ESPINGARDA SOBREPOSTA</text>
+  <text class="muted small" x="105" y="284">Esquema sem escala. As setas identificam medidas; os valores variam conforme o modelo.</text>
+  <!-- original schematic shotgun profile -->
+  <path d="M270 433 L1090 433 L1128 446 L1128 460 L270 460 Z" fill="#a7b8c1" stroke="#e6f0f3" stroke-width="3"/>
+  <path d="M270 469 L1090 469 L1128 482 L1128 496 L270 496 Z" fill="#7d939e" stroke="#d8e5ea" stroke-width="3"/>
+  <path d="M1040 423 L1192 423 L1248 450 L1192 509 L1040 509 L1068 481 Z" fill="#805d3e" stroke="#c5a982" stroke-width="3"/>
+  <path d="M311 459 L411 459 L438 507 Q418 531 388 531 L343 520 Z" fill="#805d3e" stroke="#c5a982" stroke-width="3"/>
+  <path d="M423 455 L487 455 L505 498 L477 521 L431 508 Z" fill="#5a6870" stroke="#d8e5ea" stroke-width="3"/>
+  <path d="M492 458 Q512 497 540 491 Q556 487 552 467" fill="none" stroke="#e6f0f3" stroke-width="7"/>
+  <path d="M540 485 L518 533 L591 533 L619 485 Z" fill="#6b4b35" stroke="#b79772" stroke-width="3"/>
+  <path d="M620 491 L620 520" stroke="#f5f8fa" stroke-width="6"/>
+  <text class="t small" x="305" y="409">Boca</text><text class="t small" x="1070" y="409">Soleira</text>
+  <line class="line" x1="271" y1="370" x2="1128" y2="370" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line class="thin" x1="271" y1="375" x2="271" y2="425"/><line class="thin" x1="1128" y1="375" x2="1128" y2="422"/>
+  <text class="t label" x="605" y="350">Comprimento total</text>
+  <line class="line" x1="272" y1="565" x2="1040" y2="565" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line class="thin" x1="272" y1="501" x2="272" y2="568"/><line class="thin" x1="1040" y1="511" x2="1040" y2="568"/>
+  <text class="t label" x="548" y="604">Comprimento do cano</text>
+  <line class="line" x1="621" y1="518" x2="621" y2="650" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text class="t small" x="650" y="646">Queda: crista / soleira</text>
+  <line class="line" x1="528" y1="664" x2="1205" y2="664" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text class="t small" x="735" y="705">Comprimento de coronha (LOP): gatilho → soleira</text>
+
+  <rect class="panel" x="70" y="760" width="630" height="405" rx="24"/>
+  <text class="accent sub" x="105" y="813">EXEMPLO TRAP · AKDAŞ 512-TR</text>
+  <text class="t body" x="108" y="865">Cano: <tspan class="cyan">76 ou 81 cm</tspan></text>
+  <text class="t body" x="108" y="910">Total: <tspan class="cyan">120 cm</tspan> com cano de 76 cm</text>
+  <text class="t body" x="108" y="955">LOP: <tspan class="cyan">360 ou 370 mm</tspan></text>
+  <text class="t body" x="108" y="1000">Queda crista/soleira: <tspan class="cyan">32/42 mm</tspan></text>
+  <text class="t body" x="108" y="1045">Peso: <tspan class="cyan">3,7–4,0 kg</tspan></text>
+  <text class="t body" x="108" y="1090">Calibre 12 · câmara 70 mm · coronha Trap ajustável</text>
+  <text class="muted small" x="108" y="1133">Exemplo de produto; não é dimensão obrigatória da regra.</text>
+
+  <rect class="panel" x="730" y="760" width="640" height="405" rx="24"/>
+  <text class="accent sub" x="765" y="813">EXEMPLO SKEET · AKDAŞ 512-SKX</text>
+  <text class="t body" x="768" y="865">Cano: <tspan class="cyan">71 cm</tspan></text>
+  <text class="t body" x="768" y="910">Total: <tspan class="cyan">115 cm</tspan></text>
+  <text class="t body" x="768" y="955">LOP: <tspan class="cyan">360 ou 370 mm</tspan></text>
+  <text class="t body" x="768" y="1000">Queda crista/soleira: <tspan class="cyan">35/50 mm</tspan></text>
+  <text class="t body" x="768" y="1045">Peso: <tspan class="cyan">3,6–3,7 kg</tspan></text>
+  <text class="t body" x="768" y="1090">Calibre 12 · câmara 70 mm · coronha Skeet ajustável</text>
+  <text class="muted small" x="768" y="1133">Exemplo de produto; não é dimensão obrigatória da regra.</text>
+
+  <rect class="panel" x="70" y="1192" width="1300" height="520" rx="24"/>
+  <text class="t sub" x="105" y="1246">PRATO · DIMENSÕES DEPENDEM DA DISCIPLINA</text>
+  <!-- dish top view -->
+  <ellipse cx="250" cy="1430" rx="126" ry="45" fill="#24d3df" opacity=".85" stroke="#d6fbff" stroke-width="4"/>
+  <ellipse cx="250" cy="1430" rx="82" ry="27" fill="#0e2637" stroke="#aef5fb" stroke-width="3"/>
+  <line class="line" x1="124" y1="1362" x2="376" y2="1362" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text class="t label" x="175" y="1336">Diâmetro</text>
+  <line class="line" x1="410" y1="1383" x2="410" y2="1476" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text class="t small" x="432" y="1437">Altura</text>
+  <text class="accent label" x="500" y="1324">ISSF · Trap / Skeet</text>
+  <text class="t body" x="500" y="1368">Ø 110 ± 1 mm · altura 25–26 mm · 105 ± 5 g</text>
+  <text class="muted small" x="500" y="1405">ISSF 2026, item 6.3.6; PDF p. 206.</text>
+  <line x1="500" y1="1435" x2="1315" y2="1435" stroke="#24495a" stroke-width="2"/>
+  <text class="accent label" x="500" y="1482">Trap Nacional CBTE · regra suplementar ATA XIII.D</text>
+  <text class="t body" x="500" y="1526">Ø máx. 4 5/16 in (≈109,5 mm) · altura máx. 1 1/8 in (≈28,6 mm)</text>
+  <text class="t body" x="500" y="1571">95–105 g; tolerância de lote conforme ATA.</text>
+  <text class="muted small" x="500" y="1608">CBTE 2026, item 3.1 + ATA, seção XIII.D, PDF p. 56.</text>
+  <rect x="105" y="1645" width="1230" height="44" rx="14" fill="#183246"/>
+  <text class="t small" x="125" y="1675">Armas: dimensões do fabricante são exemplos. Confira sempre a regra e a modalidade citadas na resposta.</text>
+
+  <text class="muted small" x="80" y="1718">Nas modalidades CBTE, use ISSF para uma lacuna apenas quando a regra da modalidade assim direcionar.</text>
+  <text class="muted small" x="80" y="1747">Trap Nacional segue CBTE 2026 e o complemento ATA autorizado pelo item 3.1.</text>
+  <text class="muted small" x="80" y="1780">Fontes: Akdaş 512-TR / 512-SKX; ISSF 2026, 6.3.6; CBTE Trap Nacional 2026, 3.1; ATA, XIII.D.</text>
+  <text class="muted small" x="80" y="1818">Card visual complementar. Os trechos normativos citados na resposta continuam sendo a evidência.</text>
+</svg>

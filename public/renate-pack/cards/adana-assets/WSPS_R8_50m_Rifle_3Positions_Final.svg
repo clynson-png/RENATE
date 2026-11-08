@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#071b27"/><stop offset="1" stop-color="#0b2634"/></linearGradient><linearGradient id="lime"><stop stop-color="#c3ff38"/><stop offset="1" stop-color="#71dc64"/></linearGradient><clipPath id="photo"><rect x="650" y="320" width="490" height="360" rx="26"/></clipPath></defs>
+<rect width="1200" height="1600" rx="38" fill="url(#bg)" stroke="#19c8d8" stroke-width="7"/>
+<text x="58" y="86" fill="#24d3e3" font-family="Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="5">WSPS · RIFLE 50 m · 3 POSIÇÕES</text>
+<text x="58" y="185" fill="url(#lime)" font-family="Arial,sans-serif" font-size="68" font-weight="800">R8 · FINAL</text>
+<text x="62" y="238" fill="#d8e7ee" font-family="Arial,sans-serif" font-size="31" font-weight="700">FEMININO · CLASSE SH1</text>
+<text x="62" y="286" fill="#9dc0cf" font-family="Arial,sans-serif" font-size="25">35 tiros · 8 finalistas · pontuação decimal</text>
+<rect x="58" y="322" width="540" height="360" rx="24" fill="#102e3c" stroke="#2c5668" stroke-width="3"/>
+<text x="84" y="364" fill="#22d1e3" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="2">POSIÇÃO EM PÉ ADAPTADA</text>
+<image href="WSPS_R8_Adaptive_Standing_Position.png" x="78" y="385" width="500" height="275" preserveAspectRatio="xMidYMid slice"/>
+<text x="84" y="709" fill="#bad0d9" font-family="Arial,sans-serif" font-size="18">Ilustração realista: banco alto, pés no chão; posição adaptada SH1.</text>
+<rect x="58" y="750" width="1082" height="71" rx="17" fill="#102e3c" stroke="#254a5a" stroke-width="2"/>
+<text x="82" y="780" fill="#25d1e3" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">FINALISTAS</text>
+<text x="82" y="811" fill="#eef6f8" font-family="Arial,sans-serif" font-size="23">8 melhores da qualificação; fase final independente</text>
+<rect x="58" y="829" width="1082" height="71" rx="17" fill="#102e3c" stroke="#254a5a" stroke-width="2"/>
+<text x="82" y="859" fill="#25d1e3" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">FASE INICIAL</text>
+<text x="82" y="890" fill="#eef6f8" font-family="Arial,sans-serif" font-size="23">10 ajoelhado + 10 deitado, em até 25 min (comandos WSPS R7/R8)</text>
+<rect x="58" y="908" width="1082" height="71" rx="17" fill="#102e3c" stroke="#254a5a" stroke-width="2"/>
+<text x="82" y="938" fill="#25d1e3" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">SÉRIES EM PÉ</text>
+<text x="82" y="969" fill="#eef6f8" font-family="Arial,sans-serif" font-size="23">2 × 5 tiros por comando · 250 s por série</text>
+<rect x="58" y="987" width="1082" height="71" rx="17" fill="#102e3c" stroke="#254a5a" stroke-width="2"/>
+<text x="82" y="1017" fill="#25d1e3" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">ELIMINAÇÕES</text>
+<text x="82" y="1048" fill="#eef6f8" font-family="Arial,sans-serif" font-size="23">2 eliminados após 30 tiros; depois 1 por tiro até definir bronze e ouro</text>
+<rect x="58" y="1066" width="1082" height="71" rx="17" fill="#102e3c" stroke="#254a5a" stroke-width="2"/>
+<text x="82" y="1096" fill="#25d1e3" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">TIROS INDIVIDUAIS</text>
+<text x="82" y="1127" fill="#eef6f8" font-family="Arial,sans-serif" font-size="23">5 tiros por comando · 50 s cada · total da final: 35 tiros</text>
+<rect x="58" y="1145" width="1082" height="71" rx="17" fill="#102e3c" stroke="#254a5a" stroke-width="2"/>
+<text x="82" y="1175" fill="#25d1e3" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">PONTUAÇÃO</text>
+<text x="82" y="1206" fill="#eef6f8" font-family="Arial,sans-serif" font-size="23">Décimos · máximo 35 × 10,9 = 381,5 pontos</text>
+<rect x="58" y="1224" width="1082" height="71" rx="17" fill="#102e3c" stroke="#254a5a" stroke-width="2"/>
+<text x="82" y="1254" fill="#25d1e3" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">DESEMPATE</text>
+<text x="82" y="1285" fill="#eef6f8" font-family="Arial,sans-serif" font-size="23">Shoot-off; R7/R8 worksheet também define count-back para 8º/7º</text>
+<rect x="58" y="1307" width="1082" height="140" rx="18" fill="#0a202c" stroke="#83d448" stroke-width="2"/>
+<text x="82" y="1341" fill="#bfff46" font-family="Arial,sans-serif" font-size="22" font-weight="700">REGRAS E LOCALIZADORES · CONSULTE “DESEJA VER A REGRA”</text>
+<text x="82" y="1379" fill="#c6d9df" font-family="Arial,sans-serif" font-size="18">WSPS 2.1.1 p.11 · 4.1.6–4.1.6.1 p.40 · 4.1.9.1 p.40 · ISSF 6.17.1.1 e 6.17.3 pp.273–275 · WSPS Finals Commands 2026 R8 worksheet rows 15–124</text>
+<text x="82" y="1415" fill="#7f9da8" font-family="Arial,sans-serif" font-size="16">Card visual complementar; a resposta e as passagens citadas são a base normativa.</text>
+</svg>

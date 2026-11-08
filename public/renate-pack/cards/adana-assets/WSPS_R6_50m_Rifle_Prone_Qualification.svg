@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">WSPS R6 — qualificação 50 m rifle prone, Open SH1</title>
+<desc id="desc">Card visual complementar: R6 Open SH1, 60 tiros, opções de posição deitado no solo ou cadeira e mesa. Imagens ilustrativas sem valor normativo.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071d2d"/><stop offset="1" stop-color="#0b1520"/></linearGradient>
+ <linearGradient id="lime"><stop stop-color="#c8ff4d"/><stop offset="1" stop-color="#82df4d"/></linearGradient>
+ <style>text{font-family:Arial,sans-serif}.label{fill:#42d7e5;font-size:17px;font-weight:700;letter-spacing:2px}.body{fill:#e8f1f4;font-size:20px}.muted{fill:#a9c2cc;font-size:15px}.value{fill:#c8ff4d;font-size:32px;font-weight:800}.small{fill:#d9e8ed;font-size:13px}</style>
+ <clipPath id="photoA"><rect x="54" y="246" width="220" height="242" rx="14"/></clipPath>
+ <clipPath id="photoB"><rect x="286" y="246" width="220" height="242" rx="14"/></clipPath>
+</defs>
+<rect width="1200" height="900" rx="30" fill="url(#bg)"/><rect x="14" y="14" width="1172" height="872" rx="25" fill="none" stroke="#19c9db" stroke-width="3"/>
+<text x="52" y="60" fill="#4adbe8" font-size="19" font-weight="700" letter-spacing="3">WSPS • R6 • RULEBOOK 2026 • QUALIFICAÇÃO</text>
+<text x="52" y="120" fill="url(#lime)" font-size="47" font-weight="800">RIFLE 50 m • PRONE</text>
+<text x="54" y="158" fill="#d4e4ea" font-size="22">R6 • Open • Classe esportiva SH1 • calibre 5,6 mm (.22 LR)</text>
+<rect x="40" y="188" width="486" height="390" rx="22" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="62" y="222" class="label">DUAS POSIÇÕES PERMITIDAS</text>
+<image x="54" y="246" width="220" height="242" preserveAspectRatio="xMidYMid slice" href="WSPS_R6_SH1_Floor_Prone.png" xlink:href="WSPS_R6_SH1_Floor_Prone.png"/>
+<image x="286" y="246" width="220" height="242" preserveAspectRatio="xMidYMid slice" href="WSPS_R6_SH1_Wheelchair_Table.png" xlink:href="WSPS_R6_SH1_Wheelchair_Table.png"/>
+<text x="62" y="520" class="small">DEITADO NO SOLO • posição ISSF</text>
+<text x="294" y="520" class="small">CADEIRA + MESA • adaptação SH1</text>
+<text x="62" y="550" class="muted">Imagens ilustrativas; postura real sujeita às regras.</text>
+<rect x="548" y="188" width="612" height="390" rx="22" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="580" y="230" class="label">FORMATO DA QUALIFICAÇÃO</text><text x="580" y="286" class="value">60 tiros • 50 metros</text>
+<text x="580" y="330" class="body">50 min • alvos eletrônicos</text><text x="580" y="366" class="body">60 min • porta-alvos / poço</text>
+<text x="580" y="414" class="body">15 min para preparação e tiros de ensaio</text>
+<path d="M580 438h548" stroke="#315a6e" stroke-width="2"/>
+<text x="580" y="474" class="label">PONTUAÇÃO • SISTEMA DECIMAL</text>
+<text x="580" y="520" class="value" font-size="27">60 × 10,9 = 654,0</text>
+<text x="580" y="550" class="small">Máximo teórico quando se aplica o decimal ISSF.</text>
+<rect x="40" y="606" width="1120" height="206" rx="22" fill="#0e2735" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="648" class="label">POSIÇÃO SENTADA • REGRAS WSPS PARA SH1</text>
+<text x="66" y="692" class="body">• Ambos os cotovelos apoiados na mesa ou prancha.</text>
+<text x="66" y="730" class="body">• Braços superiores sem tocar a mesa; antebraços a pelo menos 30° da horizontal.</text>
+<text x="66" y="768" class="body">• O atleta pode escolher: posição ISSF deitado no solo ou cadeira de tiro + mesa.</text>
+<text x="52" y="850" fill="#c4d9e1" font-size="15">Fontes: WSPS Technical Rules 2026, 4.1.3 e 4.2.2.3–4.2.2.5, pp. 39 e 41–42; ISSF Rule Book 2026, 6.11.9.3 e 7.7.5.</text>
+<text x="52" y="875" fill="#83a4b1" font-size="13">CARD APROVADO • imagem complementar, sem valor normativo</text>
+</svg>
+

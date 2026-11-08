@@ -1,0 +1,29 @@
+{
+  "schema": "RENATE_GENERATED_CARD_IMAGES_V1",
+  "generatedAtLocalDate": "2026-11-06",
+  "generator": "OpenAI image_gen tool",
+  "use": "Illustrative visual only; never normative evidence",
+  "images": [
+    {
+      "path": "RENATE_R3_R10_SH1_PRONE_10M.png",
+      "sha256": "2d1f06128049c434bd4cf2e52fc8df93958a21d4098a256978d40921231f4cb8",
+      "events": ["wsps.event.r3", "wsps.event.r10"],
+      "status": "USER_APPROVED_2026-11-06",
+      "promptSummary": "Foto esportiva fotorrealista R3/R10 SH1 prone 10m, sentado em cadeira com mesa; cotovelos na mesa, braços superiores sem tocar; rifle sustentado pelo atleta, sem mola, fork, rest, stand, trilho ou apoio sob a arma."
+    },
+    {
+      "path": "RENATE_R4_SH2_STANDING_10M.png",
+      "sha256": "c421fab9517319fcba5accc58c04fcf90e01075176683b687491ac5e9538ca5c",
+      "events": ["wsps.event.r4"],
+      "status": "USER_REJECTED_2026-11-06",
+      "promptSummary": "Foto esportiva fotorrealista R4 10m air rifle standing SH2, atleta sentado na adaptação em cadeira, rifle no suporte fork WSPS; sem mola helicoidal ou apoio improvisado; cotovelos/antebraços sem apoio na mesa."
+    },
+    {
+      "path": "RENATE_R7_R8_SH1_50M_THREE_POSITIONS_STANDING.png",
+      "sha256": "d7b1e3923763fb690443e1c06c07089b0c74b6f4e0cacc81e96fee2135dee0e6",
+      "events": ["wsps.event.r7", "wsps.event.r8"],
+      "status": "USER_REJECTED_2026-11-06",
+      "promptSummary": "Foto esportiva fotorrealista da fase em pé adaptada de R7/R8 50m três posições SH1; atleta sentado alto com pés no chão, rifle apoiado somente pelo atleta; sem mola, fork, rest, stand, trilho ou apoio sob a arma."
+    }
+  ]
+}

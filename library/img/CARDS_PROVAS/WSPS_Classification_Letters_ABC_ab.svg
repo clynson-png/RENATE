@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" role="img" aria-labelledby="title desc">
+  <title id="title">Classificação WSPS: o que significam A, B, C, a e b</title>
+  <desc id="desc">Card de consulta que distingue os escores de função do tronco A, B e C das subclasses de força do braço a e b usadas no rifle SH2 para selecionar a mola.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#081b2a"/><stop offset="1" stop-color="#07131c"/></linearGradient>
+    <linearGradient id="lime" x2="1"><stop stop-color="#d5ff55"/><stop offset="1" stop-color="#81e645"/></linearGradient>
+    <style>
+      .sans{font-family:Arial,Helvetica,sans-serif}.muted{fill:#aec3ce}.text{fill:#edf6f8}.cyan{fill:#36e3ef}.lime{fill:#c9ff4d}.small{font-size:17px}.body{font-size:21px}.sub{font-size:18px}
+    </style>
+  </defs>
+  <rect width="1200" height="920" rx="30" fill="url(#bg)"/>
+  <rect x="22" y="22" width="1156" height="876" rx="26" fill="none" stroke="#04d8e9" stroke-width="3"/>
+  <text x="62" y="78" class="sans cyan" font-size="19" font-weight="700" letter-spacing="4">WORLD SHOOTING PARA SPORT · CLASSIFICAÇÃO</text>
+  <text x="62" y="139" class="sans lime" font-size="48" font-weight="800">O QUE SIGNIFICAM AS LETRAS?</text>
+  <text x="64" y="178" class="sans muted" font-size="21">A/B/C descrevem função do tronco; a/b selecionam a mola somente no rifle SH2.</text>
+
+  <rect x="58" y="214" width="1084" height="374" rx="22" fill="#102d3a" stroke="#286173" stroke-width="2"/>
+  <text x="88" y="258" class="sans cyan" font-size="23" font-weight="700" letter-spacing="2">MAIÚSCULAS · ESCORE DE FUNÇÃO DO TRONCO</text>
+  <text x="88" y="289" class="sans muted sub">Painel WSPS avalia cinco testes funcionais. O escore define a altura livre visível do encosto.</text>
+
+  <g class="sans">
+    <rect x="88" y="318" width="318" height="226" rx="18" fill="#0a202c" stroke="#315a66" stroke-width="2"/>
+    <circle cx="137" cy="367" r="29" fill="url(#lime)"/><text x="137" y="378" text-anchor="middle" fill="#10202a" font-size="33" font-weight="800">A</text>
+    <text x="181" y="374" class="text" font-size="23" font-weight="700">ESCORE A</text>
+    <text x="112" y="425" class="text body"><tspan x="112">“+” nos cinco testes</tspan><tspan x="112" dy="31">de função do tronco.</tspan></text>
+    <text x="112" y="505" class="muted small"><tspan x="112">Sem contato com o encosto</tspan><tspan x="112" dy="24">durante o disparo.</tspan></text>
+
+    <rect x="441" y="318" width="318" height="226" rx="18" fill="#0a202c" stroke="#315a66" stroke-width="2"/>
+    <circle cx="490" cy="367" r="29" fill="url(#lime)"/><text x="490" y="378" text-anchor="middle" fill="#10202a" font-size="33" font-weight="800">B</text>
+    <text x="534" y="374" class="text" font-size="23" font-weight="700">ESCORE B</text>
+    <text x="465" y="425" class="text body"><tspan x="465">Função intermediária</tspan><tspan x="465" dy="31">nos cinco testes.</tspan></text>
+    <text x="465" y="505" class="muted small"><tspan x="465">Ao menos 60% do comprimento</tspan><tspan x="465" dy="24">das costas fica acima do encosto.</tspan></text>
+
+    <rect x="794" y="318" width="318" height="226" rx="18" fill="#0a202c" stroke="#315a66" stroke-width="2"/>
+    <circle cx="843" cy="367" r="29" fill="url(#lime)"/><text x="843" y="378" text-anchor="middle" fill="#10202a" font-size="33" font-weight="800">C</text>
+    <text x="887" y="374" class="text" font-size="23" font-weight="700">ESCORE C</text>
+    <text x="818" y="425" class="text body"><tspan x="818">“−” em pelo menos quatro</tspan><tspan x="818" dy="31">dos cinco testes.</tspan></text>
+    <text x="818" y="505" class="muted small"><tspan x="818">Altura livre visível mínima</tspan><tspan x="818" dy="24">individual, anotada na licença.</tspan></text>
+  </g>
+
+  <rect x="58" y="612" width="1084" height="197" rx="22" fill="#102d3a" stroke="#286173" stroke-width="2"/>
+  <text x="88" y="655" class="sans cyan" font-size="23" font-weight="700" letter-spacing="2">MINÚSCULAS · SUBCLASSE SH2 DE RIFLE</text>
+  <text x="88" y="686" class="sans muted sub">Avaliação da força muscular do braço que apoia/eleva o rifle; a letra consta na licença WSPS.</text>
+  <g class="sans">
+    <rect x="88" y="710" width="466" height="72" rx="14" fill="#0a202c" stroke="#315a66" stroke-width="2"/>
+    <text x="112" y="760" class="lime" font-size="38" font-weight="800">a</text><text x="158" y="744" class="text" font-size="20" font-weight="700">Mola fraca · menos rígida · branca</text><text x="158" y="770" class="muted" font-size="17">peça plástica · flexibilidade mínima: 35 mm</text>
+    <rect x="574" y="710" width="538" height="72" rx="14" fill="#0a202c" stroke="#315a66" stroke-width="2"/>
+    <text x="598" y="760" class="lime" font-size="38" font-weight="800">b</text><text x="644" y="744" class="text" font-size="20" font-weight="700">Mola forte · mais rígida · preta</text><text x="644" y="770" class="muted" font-size="17">peça plástica · flexibilidade mínima: 25 mm</text>
+  </g>
+
+  <rect x="58" y="832" width="1084" height="40" rx="12" fill="#172b26" stroke="#41642e"/>
+  <text x="78" y="858" class="sans lime" font-size="17" font-weight="700">Não são classes por gênero/nível nem tamanhos de mesa. As adaptações individuais seguem a licença WSPS.</text>
+  <text x="62" y="895" class="sans muted" font-size="14">Aplique a classificação individual e as adaptações registradas na licença WSPS. Fontes: Classification Rules 6.3–6.8, pp. 60–64; Technical Rules 3.7.13 e 3.9.2–3.9.4, pp. 33–37.</text>
+</svg>

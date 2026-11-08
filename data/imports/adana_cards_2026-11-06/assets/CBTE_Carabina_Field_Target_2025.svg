@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1380" viewBox="0 0 1200 1380" role="img" aria-labelledby="title desc">
+  <title id="title">CBTE Carabina Field Target</title>
+  <desc id="desc">Resumo visual do regulamento CBTE de Carabina Field Target 2025, com hit zone, distâncias, formato ordinário, pontuação e disciplinas.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#102b45"/><stop offset="1" stop-color="#071827"/></linearGradient>
+    <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#eaf5ff"/><stop offset="1" stop-color="#cfe7ff"/></linearGradient>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#102b45}.white{fill:#fff}.muted{fill:#536b80}.title{font-size:46px;font-weight:800}.sub{font-size:23px;font-weight:600}.head{font-size:25px;font-weight:800}.body{font-size:21px}.small{font-size:17px}.label{font-size:17px;font-weight:700;letter-spacing:1px}
+    </style>
+  </defs>
+  <rect width="1200" height="1380" rx="32" fill="#dceaf5"/>
+  <rect x="12" y="12" width="1176" height="1356" rx="25" fill="#f7fbff"/>
+  <path d="M12 37Q12 12 37 12H1163Q1188 12 1188 37V240H12Z" fill="url(#bg)"/>
+  <rect x="52" y="48" width="116" height="116" rx="22" fill="#fff"/>
+  <text x="110" y="119" text-anchor="middle" font-size="42" font-weight="900" fill="#0b568d">CBTE</text>
+  <text x="198" y="66" class="white label">REGULAMENTO CARABINA FIELD TARGET · 20/04/2025</text>
+  <text x="198" y="127" class="white title">CARABINA FIELD TARGET</text>
+  <text x="198" y="180" class="white sub">Resumo visual complementar · autoridade CBTE</text>
+
+  <rect x="42" y="265" width="1116" height="366" rx="24" fill="url(#blue)" stroke="#75b6eb" stroke-width="3"/>
+  <text x="76" y="314" class="head">ALVO E HIT ZONE</text>
+  <text x="76" y="355" class="body">Silhueta metálica que cai ao ser atingida, rearmável por cordel.</text>
+  <text x="76" y="390" class="body">A hit zone é circular, contrastante e visível pelo orifício.</text>
+  <text x="76" y="438" class="body" font-weight="700">Diâmetros da hit zone</text>
+  <text x="76" y="480" class="body">Padrão: 40 mm</text>
+  <text x="76" y="516" class="body">Reduzidas: 25 mm ou 15 mm</text>
+  <text x="76" y="563" class="small muted">A regra não informa modelo comercial nem tamanho total da silhueta.</text>
+  <g transform="translate(930 461)" fill="none" stroke="#1684cf">
+    <circle r="125" stroke-width="5"/><circle r="74" stroke-width="4"/><circle r="34" stroke-width="3"/>
+    <circle r="9" fill="#1684cf" stroke="none"/>
+  </g>
+  <text x="930" y="603" text-anchor="middle" class="small muted">Diagrama ilustrativo, não em escala</text>
+
+  <rect x="42" y="655" width="1116" height="310" rx="24" fill="#eef7ff" stroke="#75b6eb" stroke-width="3"/>
+  <text x="76" y="704" class="head">DISTÂNCIAS MÁXIMAS</text>
+  <text x="76" y="746" class="body">Faixa geral: 9 a 50 m</text>
+  <text x="76" y="790" class="label">ZONA</text><text x="420" y="790" class="label">POSIÇÃO LIVRE</text><text x="790" y="790" class="label">POSIÇÃO FORÇADA</text>
+  <path d="M76 807H1120M76 859H1120M76 911H1120" stroke="#aacde8" stroke-width="2"/>
+  <text x="76" y="842" class="body">15 mm</text><text x="420" y="842" class="body">20 m</text><text x="790" y="842" class="body">Não permitido</text>
+  <text x="76" y="894" class="body">25 mm</text><text x="420" y="894" class="body">35 m</text><text x="790" y="894" class="body">20 m</text>
+  <text x="76" y="946" class="body">40 mm</text><text x="420" y="946" class="body">50 m</text><text x="790" y="946" class="body">40 m</text>
+
+  <rect x="42" y="989" width="546" height="260" rx="24" fill="#e8f7f0" stroke="#55b794" stroke-width="3"/>
+  <text x="76" y="1038" class="head">FORMATO E PONTUAÇÃO</text>
+  <text x="76" y="1080" class="body">Percurso ordinário completo: 50 alvos.</text>
+  <text x="76" y="1116" class="body">Acerto: X se derrubado; erro: 0 se ficar em pé.</text>
+  <text x="76" y="1152" class="body">Resultado = acertos − penalizações.</text>
+  <text x="76" y="1203" class="small muted">Etapa Final e provas específicas podem ter outro formato.</text>
+
+  <rect x="612" y="989" width="546" height="260" rx="24" fill="#fff5e8" stroke="#e3b36a" stroke-width="3"/>
+  <text x="646" y="1038" class="head">DISCIPLINAS</text>
+  <text x="646" y="1080" class="body">PCP 16J · período da tarde</text>
+  <text x="646" y="1116" class="body">Springer 16J · período da manhã</text>
+  <text x="646" y="1152" class="body">Mesma categoria; sem distinção</text>
+  <text x="646" y="1184" class="body">por idade ou gênero.</text>
+  <text x="646" y="1223" class="small muted">Os itens 1.1.1, 4.2.1 e 5.3.4 usam limites de energia diferentes.</text>
+
+  <rect x="42" y="1270" width="1116" height="64" rx="18" fill="#102b45"/>
+  <text x="76" y="1310" class="white sub">Fonte: CBTE, Regulamento Carabina Field Target 2025, itens 2.2.1, 2.4, 2.6.1–2.8.4, 4.2 e 5.1, 5.8, 5.12.</text>
+</svg>

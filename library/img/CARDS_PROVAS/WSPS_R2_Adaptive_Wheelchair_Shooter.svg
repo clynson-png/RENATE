@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+<title id="title">Ilustração de atleta adaptada WSPS R2</title>
+<desc id="desc">Ilustração editorial de uma mulher adulta sentada em cadeira de rodas esportiva, em posição de tiro com carabina de ar em estande de 10 metros. Imagem ilustrativa, não normativa.</desc>
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#e9eff1"/><stop offset="1" stop-color="#becbd0"/></linearGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#647983"/><stop offset="1" stop-color="#354b55"/></linearGradient>
+ <linearGradient id="jacket" x2="1" y2="1"><stop stop-color="#e8edf0"/><stop offset="1" stop-color="#899ba3"/></linearGradient>
+</defs>
+<rect width="900" height="650" fill="url(#wall)"/><rect y="465" width="900" height="185" fill="url(#floor)"/>
+<g opacity=".8"><rect x="560" y="184" width="122" height="160" rx="8" fill="#78929a"/><rect x="579" y="203" width="84" height="118" fill="#f2f4f3"/><circle cx="621" cy="262" r="24" fill="none" stroke="#31454b" stroke-width="2"/><circle cx="621" cy="262" r="14" fill="none" stroke="#31454b" stroke-width="2"/><circle cx="621" cy="262" r="4" fill="#263a40"/></g>
+<!-- wheelchair -->
+<circle cx="270" cy="488" r="112" fill="#18252b" stroke="#dce5e8" stroke-width="13"/><circle cx="270" cy="488" r="87" fill="none" stroke="#9db0b5" stroke-width="4"/>
+<g stroke="#82969c" stroke-width="3"><path d="M270 376v224M158 488h224M191 409l158 158M349 409 191 567M225 381l90 214M377 443l-214 90M163 443l214 90M315 381l-90 214"/></g>
+<path d="M181 414h-43l-17 40M319 395l75 28 44 82" fill="none" stroke="#c3d0d4" stroke-width="13" stroke-linecap="round"/>
+<circle cx="429" cy="505" r="26" fill="#1b282e" stroke="#dce5e8" stroke-width="7"/><circle cx="429" cy="505" r="7" fill="#96a8ad"/>
+<path d="M205 405h170l44 56H230z" fill="#202c32" stroke="#9caeb3" stroke-width="5"/>
+<!-- athlete torso and head: seated, adaptive -->
+<path d="M230 214q-30 12-39 57l-13 126q-2 22 19 31l104 34q30 8 45-18l32-107-36-96q-28-36-112-27z" fill="url(#jacket)" stroke="#293d44" stroke-width="7"/>
+<path d="M198 276l95 18 50 89-34 51-100-33z" fill="#263b42"/><path d="M239 227q35-32 75-7l33 54-61 40-67-29z" fill="#f0f3f4"/>
+<path d="M287 180q3-58 48-74 52-19 84 18 20 24 7 68l-22 35-65 2-40-24z" fill="#242b2e"/>
+<ellipse cx="352" cy="184" rx="57" ry="66" fill="#c99072"/>
+<path d="M296 166q4-71 70-76 55-4 68 48-36-25-74-18-22 4-34 28l-30 34z" fill="#252a2c"/>
+<path d="M399 135q48-13 62 24-3 37-37 50l-13-29z" fill="#252a2c"/><path d="M390 182l35 14" stroke="#543d35" stroke-width="4"/>
+<!-- arms, supported rifle stance -->
+<path d="M289 288l86-6 82-42 22 18-82 62-68 37-44-15z" fill="#d7e0e3" stroke="#34494f" stroke-width="6"/>
+<path d="M318 333l76-32 73-30 16 19-62 47-67 39-42-15z" fill="#eef1f2" stroke="#34494f" stroke-width="6"/>
+<path d="M444 242l41-13 33 7 5 19-37 19-42-10z" fill="#c99072"/>
+<path d="M459 290l42-12 29 14-8 20-45 6-30-12z" fill="#c99072"/>
+<!-- precision air rifle silhouette -->
+<path d="M394 227l314-7 8 11-318 10-26 17-16-7 25-20z" fill="#313f44" stroke="#19272c" stroke-width="5"/>
+<path d="M467 222l22 52-21 21-20-7 8-43zM503 222l-8-25 43-3 13 7-3 12z" fill="#586b70" stroke="#25353a" stroke-width="5"/>
+<path d="M685 221h95" stroke="#24343a" stroke-width="8"/><path d="M747 214v-32h22v32" fill="none" stroke="#26373d" stroke-width="6"/>
+<path d="M467 282v137" stroke="#293b41" stroke-width="8"/><path d="M455 420h35" stroke="#293b41" stroke-width="8"/>
+<path d="M246 426l-20 52 137 18 36-48" fill="#171f23" stroke="#7f9197" stroke-width="5"/>
+<path d="M326 421l44 39 51 4" fill="none" stroke="#273940" stroke-width="18" stroke-linecap="round"/>
+<path d="M362 456l64 47" stroke="#273940" stroke-width="18" stroke-linecap="round"/>
+<path d="M349 522l89 10 21 35-93 2z" fill="#202c32"/>
+<text x="30" y="620" fill="#eff5f6" font-family="Arial,sans-serif" font-size="18">Ilustração visual adaptada • WSPS R2 feminino • sem valor normativo</text>
+</svg>

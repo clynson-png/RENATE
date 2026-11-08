@@ -1,0 +1,44 @@
+{
+  "name": "renate",
+  "version": "1.0.0",
+  "description": "Shell PWA offline do RENATE",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4173 --strictPort",
+    "build": "vite build && node scripts/generate_sw.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 4173 --strictPort",
+    "start:local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-renate.ps1",
+    "stop:local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-renate.ps1 -Stop",
+    "benchmark:search": "node --expose-gc scripts/day2_search_benchmark.mjs",
+    "test:history": "node --test tests/history-store.test.mjs",
+    "pretest:browser": "npm run build",
+    "test:browser": "node scripts/run_browser_acceptance.mjs",
+    "test:cards-import": "node scripts/audit_adana_card_import.mjs",
+    "test:audio-browser": "node scripts/run_audio_browser_test.mjs",
+    "test:model-provenance": "node scripts/verify_model_provenance.mjs",
+    "pack:local": "node scripts/build_local_pack.mjs",
+    "prebuild": "npm run pack:local",
+    "test:pack": "node scripts/build_local_pack.mjs",
+    "test:policy": "node --test tests/clarification-policy.test.mjs",
+    "test:locators": "node --test tests/rule-chunks.test.mjs",
+    "test:lead-privacy": "node scripts/audit_lead_privacy.mjs",
+    "assets:figure-crops": "python scripts/render_rule_page_crops.py"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "flexsearch": "^0.8.212",
+    "minisearch": "^7.2.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.7",
+    "kokoro-js": "^1.2.1",
+    "playwright": "^1.65.0",
+    "vite": "^7.3.7"
+  },
+  "overrides": {
+    "sharp": "0.35.5"
+  }
+}

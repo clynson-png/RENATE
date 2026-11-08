@@ -1,0 +1,36 @@
+{
+  "schema": "ADANA_HUMAN_CARD_PASS_ADJUDICATION_V1",
+  "route_id": "wsps.event.p6",
+  "case_id": "p6_compound_overview_score_eligibility",
+  "question": "Como é a prova WSPS P6, qual o máximo de pontos na qualificação e quem pode participar?",
+  "human_rule": "O Card responde, então é PASS",
+  "decision": "PASS",
+  "accepted_delivery_mode": "PHASE_CARDS",
+  "basis": {
+    "card_status": "READY",
+    "event_id": "wsps.event.p6",
+    "phase": "qualification",
+    "asset_filename": "ADANA_WSPS_EVENT_P6_QUALIFICATION_PHASE_CARD_V2.svg",
+    "asset_sha256": "3512925e336af0392489317004cb1a1bf1c282febb70f46eb386399517fa2593",
+    "answer_on_card": "P6 Mixed Team 10m Air Pistol; qualificação com 30 disparos por atleta e 60 por equipe; máximo de 300 pontos por atleta e 600 por equipe (30×10; 2×30×10); equipe mista de dois atletas da mesma nação, um homem e uma mulher, ambos SH1.",
+    "required_card_phase": "qualification",
+    "allow_cards_as_answer": true,
+    "card_was_presented_and_human_approved": true,
+    "card_sha256_verified": true,
+    "qwen_invoked": true,
+    "qwen_result_at_adjudication": "IN_PROGRESS; no gate result had been written"
+  },
+  "human_adjudication": {
+    "actor": "user",
+    "date": "2026-11-05",
+    "statement": "O Card responde, então é PASS"
+  },
+  "gate_attempt": {
+    "command": "python scripts/run_adana_route_template_v2_focused_gate.py --route-id wsps.event.p6 --cases audit/route_governance_v1/focused_suites/wsps_event_p6_focused_cases_v1.json --out audit/route_governance_v1/route46_p6_gate05_compound_overview_score_eligibility_20261105.json --case-id p6_compound_overview_score_eligibility",
+    "status_at_adjudication": "INTERRUPTED_BY_USER; output artifact not yet written",
+    "result_artifact": "audit/route_governance_v1/route46_p6_gate05_compound_overview_score_eligibility_20261105.json"
+  },
+  "route_state_changed": false,
+  "baseline_changed": false,
+  "lock_changed": false
+}

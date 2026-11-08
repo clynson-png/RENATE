@@ -1,0 +1,837 @@
+DOCUMENT TITLE: Carabina F-Class
+
+SOURCE PDF: docs/Library/Regulamentos_2026/Regulamento-Carabina-F-Class-09012025.pdf
+
+DOCUMENT EDITION: Atualizado em 09/01/2025
+
+SOURCE YEAR: 2025
+
+RULE AUTHORITY: CBTE / NRA
+
+
+
+--- PAGE 1 ---
+CARABINA F-CLASS
+
+  REGULAMENTO
+
+Atualizado em 09/01/2025
+[IMAGE/DIAGRAM PAGE: embedded text is partial; visual contents require image reading.]
+
+--- PAGE 2 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+    INTRODUÇÃO
+    O presente Regulamento foi traduzido e adaptado da regra internacional oficial NRA Full Bore Rifle/F-CLASS.
+     Caberá à CBTE, quando necessário, revisar ou alterar este Regulamento, em conformidade com a regra oficial da
+     NRA.
+
+    A Carabina F-Class é uma disciplina esportiva de Tiro de Rifle e do Tiro Esportivo Internacional, regulada pela
+    NRA (National  Rifle Association) e é baseada na modalidade  Rifle Prone (deitado) que  foi adaptada às
+       características e legislação do nosso País. A distância do alvo é de 300 a 1.000 metros (ou jardas), dividindo-se,
+       portanto, em Mid-Range: 300, 500 e/ou 600 metros; e Long Range: 800, 900 e/ou 1.000 metros. No Brasil,
+      atualmente, devido a limitação de estandes de longa distância, a realização das provas de F-Class serão feitas, a
+       princípio, somente a 300 metros, enquanto não houver estandes de tiro com maiores distâncias.
+
+    O objetivo maior é a precisão no tiro com armas longas raiadas de fogo central através do desenvolvimento de
+      técnicas de tiro (visada, respiração, puxada de gatilho, leitura do vento etc.), armas, munição, recarga, acessórios
+       etc., com o foco no requisito precisão.
+
+    A modalidade de F-Class visa não só proporcionar aos atiradores uma forma de praticar o princípio da precisão
+     com equipamentos mais sofisticados, como também a necessidade de buscar nos equipamentos disponíveis, em
+      especial as carabinas esporte e de caça, de fabricação nacional ou importados, além de rifles adquiridos em
+       licitações de armamento obsoleto e desativado das Forças Armadas, seu verdadeiro potencial de precisão, dentro
+     de suas categorias.
+
+    O mesmo princípio se aplica ao conhecimento profundo das técnicas de recarga de munições, utilizando-se de
+      materiais nacionais ou importados, visando obter o maior grau de precisão possível. Assim, busca-se um
+      aprimoramento das técnicas de tiro, equipamentos, sua manutenção e conservação, recarga de munições e
+      interação com as condições ambientais.
+
+     Por não exigir grandes esforços físicos do atirador, esta modalidade pode facilmente ser praticada por atletas
+      atiradores masters, veteranos e para-atletas.
+
+     As armas longas raiadas mais utilizadas são das marcas: Borden, BAT, Badger, Kelbly, Stiller, Mauser, Accuracy
+       International, FN, Springfield, Remington, Winchester, Ruger, CZ BRNO, Sauer, Beretta, Dakota, Heckler & Koch,
+      Sako, Tikka, Heym, Thompson Contender, SIG, Savage, Kimber, Browning, Marlin, Anschutz, Krico, Howa,
+      Weatherby, ParkerHale, Steyr-Mannlicher, Blaser, Walther, Nesika, Surgeon, Hart, Tanner, Norinco, Blazer,
+      Gruenig & Elmiger, Weihrauch, Bleiker entre outras.
+
+    Os calibres mais usados atualmente são: 6mmBR, .284win, .308win, .223rem, 6,5-284win, 22 PPC, 22BR, .222
+      Remington, 6 PPC, 260 Remington, 6,5x47 Lapua, 6,5 Creedmoor, 7-08 Remington, 7x57 Mauser, 7 Remington
+     Mag, 7mmBR, 30BR, 30-06 Springflield, 300 Winchester Magnum, 300WSM, 7mmWSM, .338 Lapua Mag, dentre
+       outros.
+
+     Obs: alguns trechos das regras estão destacados para facilitar sua visualização no corpo das regras.
+
+1. Divisões e Rifles
+1.1  Divisão Open
+         a) Rifle de fogo central que utilize um calibre não maior do que .35 polegadas (8,9 mm). Qualquer sistema
+         de mira óptico é permitido, porém será incluído no peso total do rifle.
+
+        b) O peso total do rifle inclui todos os equipamentos aderidos ao rifle F-Class Open, como bandoleira, miras,
+          bipé etc. e não poderá exceder 10 quilos (aprox. 22 libras). Um equipamento aderido inclui qualquer objeto
+           externo, outro que não o competidor ou sua roupa, que recue total ou parcialmente com o rifle, em que é
+           preso, seguro ou juntado de qualquer forma para cada disparo, ou que seja, mesmo que parcialmente,
+          levantado com o rifle quando este é suspendido de seus apoios.
+
+         c) Qualquer gatilho manualmente operado que atenda aos requisitos de segurança é permitido.
+
+        d) A largura do forend (fuste) do rifle não deverá exceder 76 mm (aprox. 3 polegadas).
+
+                                                                         2
+
+--- PAGE 3 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+         e) O rifle deve ser disparado na posição deitado, a partir do ombro do atirador, podendo ser utilizados os apoios
+           dianteiro e traseiro definidos no item 2.1.
+
+1.2  Divisão F-T/R
+         a)  Rifle de fogo central restrito aos calibres .308 Winchester  / 7,62mm NATO ou .223 Remington  /
+         5,56mmx45 NATO, sem qualquer modificação nas suas dimensões padronizadas.
+
+        b) O rifle deve ser disparado utilizando-se como apoio dianteiro um bipé, rigidamente conectado no fuste
+            dianteiro do rifle e/ou na bandoleira. Qualquer bipé, atendendo a definição de bipé, pode ser utilizado, mas
+         seu peso será incluído no peso total do rifle.
+
+         c)  Qualquer gatilho manualmente operado que atenda aos requisitos de segurança é permitido.
+
+        d)  Qualquer sistema de mira óptica é permitido, porém será incluído no peso total do rifle.
+
+         e) O rifle deve ser disparado na posição deitado a partir do ombro do atirador, conforme definido no item 4.1
+
+           f) O peso total do rifle inclui todos os equipamentos aderidos ao rifle F-Class F/TR, como bipé, bandoleira,
+           miras etc. e não deverá exceder 8,25 quilos (aprox. 18,15 libras). Um equipamento aderido inclui qualquer
+           objeto externo, outro que não o competidor ou sua roupa, que recue total ou parcialmente com o rifle em que
+         é preso, seguro ou juntado de qualquer forma para cada disparo, ou que seja, mesmo que parcialmente,
+           levantado com o rifle quando este é suspendido de seus apoios
+
+1.3 O uso de compensadores ou quebra-chamas é proibido para todos os rifles, em todas as divisões e categorias.
+
+1.4  “Rail Guns” (armas sobre trilhos rígidos) e/ou equipamentos mecânicos que ativamente retornem a arma ao ponto
+específico de visada do disparo anterior não são permitidos.
+
+2. Apoios do Rifle
+2.1 Divisão Open
+    O rifle poderá ser apoiado na dianteira (do final do forend/fuste até a frente do guarda mato) por qualquer meio
+       (exs: front rests, sacos de areia etc.), desde que este não seja um meio mecânico que ativamente retorne a
+     arma ao ponto específico de visada do disparo anterior. Se for utilizado bipé, este deve ser preso, seguro ou
+      juntado de qualquer forma ao rifle e este apoio deverá ser incluído no peso total do rifle. Como apoio na parte
+      traseira é permitido o uso de saco maleável (ex: couro, nylon, tecido etc.) preenchido com areia ou material
+      similar, podendo ele ter apêndices no formato de “orelha de coelho” e/ou a mão usando luvas que não sejam
+       rígidas.
+
+         a) Não poderão ser utilizados mais do que dois apoios e estes não poderão ser ligados um ao outro de
+        nenhuma forma.
+
+        b) A utilização de qualquer forma de mesa é vedada. Placas planas separadas entre si, que não excedam o
+         tamanho dos apoios por duas polegadas (5 centímetros) são permitidas de serem colocadas abaixo dos
+          apoios dianteiro e traseiro. Não é permitido o uso de qualquer dispositivo de nivelamento nessas placas que
+        devem ser planas nas superfícies superior e inferior.
+
+         c) Nenhuma parte da coronha ou da empunhadura do rifle pode repousar diretamente no chão, na placa ou
+           outra superfície rígida. Além disso, qualquer apoio traseiro empregado não pode ser preso ou rigidamente
+          conectado ao  rifle de qualquer maneira. Quaisquer apoios traseiros mecanicamente ajustáveis não são
+           permitidos.
+
+        d) Uma alternativa lícita de apoio frontal é o uso de uma jaqueta, toalha, coberta enrolada, ou em cima de um
+         saco de areia (aderido ou não a um front rest) ou qualquer outro material não rígido.
+
+         e) Qualquer número de objetos pode ser colocado abaixo dos apoios para compensar variações de altura no
+          posto de tiro ou para reduzir o desnível.
+
+                                                                         3
+
+--- PAGE 4 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+
+           f) O apoio dianteiro poderá ter até 3 (três) pés cravados e pressionados sobre o chão, desde que esses pinos
+         de cravação ou espetos não entrem no solo mais do que 2 polegadas ou 5 centímetros e que essa cravação
+         não danifique de forma significativa o posto de tiro.
+
+         g) Os apoios podem ser reajustados após cada disparo de forma a compensar sua movimentação ou ajuste.
+       Uma bandoleira poderá ser utilizada em junção com o(s) apoio(s), mas o seu peso será incluído no peso total
+         da arma.
+
+2.3 O F-Class é uma modificação da prova NRA High Power Prone (Rifle Deitado NRA), não uma forma de Benchrest
+e, portanto, não deve ser encarada como tal ao se interpretar este Regulamento.
+
+2.4   Atiradores com necessidades físicas especiais poderão requerer uma flexibilização deste Regulamento para
+poderem participar em condições de igualdade com os demais atiradores, a critério do Diretor de Prova.
+
+3. Outros Equipamentos
+3.1 Vestimenta
+         a) É permitido o uso de luvas maleáveis, próprias de tiro esportivo;
+
+        b) Ombreiras, bandoleiras almofadadas e cotoveleiras podem ser utilizadas desde que não sejam constituídos
+         de forma a prestar apoio adicional ao rifle;
+
+         c) Casacos, calças e outras vestimentas de tiro esportivo (ex: ISSF) poderão ser utilizadas;
+
+        d) Tapetes, coberta, pano ou material sintético para separar o contato com o chão pode ser utilizado desde que
+         não possibilitem ou prestem apoio adicional;
+
+         e) Óculos de tiro são permitidos.
+
+3.2 Óculos de Proteção
+  É responsabilidade e dever de cada atleta e demais pessoas na linha de tiro, utilizar óculos de proteção.
+
+3.3 Proteção Auricular
+  É responsabilidade e dever de cada atleta e demais pessoas no estande a sua utilização.
+
+3.4 Bandeiras de vento
+  É permitido e recomenda-se a instalação na linha de tiro pela organização da prova. As bandeiras de vento podem
+   ser as regulamentares da NRA Highpower Rifle, ou fitas nas cores vermelho, laranja ou amarelo, de preferência com
+   1 metro de comprimento e pelo menos 5cm de largura.
+
+3.5 Aparelhos eletrônicos
+  Não poderão ser utilizados dispositivos como rádios, gravadores ou qualquer outro equipamento que produza som ou
+   comunicação à frente da linha de tiro. Além disso, qualquer dispositivo de comunicação não poderá interferir com
+   aqueles utilizados para a condução da prova.
+
+3.6 Luneta de observação
+  É permitido ao  atleta  utilizar uma luneta de observação para  verificar os impactos no alvo e/ou condições
+   atmosféricas do estande.
+
+3.7 Dispositivos laser
+  Não é permitido o seu uso pelo atleta ou espectador, estando ou não acoplado à arma.
+
+3.9 Munição
+   Qualquer tipo de munição pode ser utilizado, desde que não represente perigo para os competidores, pessoal da
+   organização ou equipamentos e estruturas do estande. Munição traçante ou incendiária são proibidas.  Qualquer
+   munição que repetidamente “estoure” as espoletas ou rache ou separe os estojos será considerada como defeituosa
+   ou insegura e será removida da linha de tiro.
+
+                                                                         4
+
+--- PAGE 5 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+
+3.10 Outros Equipamentos
+    Todos os equipamentos ou dispositivos que facilitem o disparo e a precisão que não mencionados neste
+    regulamento ou que sejam contrários ao espírito do mesmo são proibidos. O Árbitro/Juiz da prova, o Diretor de
+    Prova, e/ou o Delegado ou Diretor da disciplina da CBTE, possuem o direito e o dever de examinar o
+    equipamento do atirador. É responsabilidade do atleta, em caso de dúvida sobre o equipamento, requerer a
+    inspeção e eventual aprovação em tempo hábil antes do início da competição ou de sua série de tiro, de forma a
+    não ser ou criar algum inconveniente para outros competidores, organização ou competição.
+
+3.11 O Árbitro da Prova é a autoridade máxima no estande para decidir sobre todas as questões de segurança,
+equipamentos, escores e regras, devendo suas decisões serem acatadas por todos na linha de tiro, trincheira e demais
+áreas no estande, podendo este ser auxiliado pelo Diretor de Prova, e/ou o Delegado e/ou Diretor da disciplina da
+CBTE.
+
+4. Posição de Tiro
+4.1 Deitado (Prone)
+  A posição de tiro deverá ser a deitado (exceto no caso de aplicação da regra 2.4), com o corpo estendido no chão,
+   cabeça na direção do alvo. O carregador ou qualquer parte da arma não pode encostar no solo de forma a propiciar
+   apoio artificial. O rifle deve ser disparado a partir do ombro do atirador.
+
+5. Série de Tiro
+5.1 Série de Tiro Nacional
+   Válido para o Campeonato Brasileiro, Campeonato Estadual e Recorde Nacional.
+
+   5.1.1 Ensaio e Série de Prova
+  Nas provas de F-Class haverá tiros de ensaio antes de cada série de tiros de prova. Os tiros de ensaio são aqueles
+   disparados no alvo de ensaio e não contam para o escore do atirador na competição.
+
+   Séries de prova são aquelas em que os disparos contam para o escore do atirador na competição.
+
+   5.1.2 Prova
+   Será composta de 3 séries de prova + tiros de ensaio.
+
+  As séries de prova consistirão em 30 disparos nos alvos de prova, sendo 10 disparos em cada alvo de prova,
+   totalizando 30 tiros de prova.
+
+   Obs.: Não é permitida a compensação de disparos em alvos que não o daquela série de tiro de prova.
+
+   5.1.3 Forma do ensaio
+   Antes de cada série de 10 disparos será concedido ao atirador um tempo e/ou número de disparos de ensaio,
+   conforme a série:
+
+  Na primeira série de tiros do dia, os atiradores terão 10 minutos de ensaio com número de tiros ilimitados, seguido
+   então, sem intervalo, da 1ª série de prova do dia, de 10 minutos e 10 disparos de prova.  Eventuais intervalos
+   decorrentes de troca de alvos poderão ocorrer, devendo os tiros serem retomados assim que possível.
+
+  Nas séries seguintes, o tempo de 2 minutos será adicionado ao tempo de prova e serão permitidos somente 2
+   tiros de ensaio imediatamente antes dos tiros da série de prova.
+
+   5.1.4 Séries de Prova
+   Primeira Série de Prova do dia:
+  O início ocorrerá com os tiros de ensaio, por 10 minutos, disparos livres. Ao final deste, a primeira série de prova do
+   dia terá 10 minutos e máximo de 10 disparos, iniciando imediatamente após os tiros de ensaio, assim que os
+   alvos estiverem a postos, sem tempo de preparação entre ensaio e série de prova, respeitada a eventual
+   necessidade de troca dos alvos.
+
+                                                                         5
+
+--- PAGE 6 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+   Séries seguintes de Prova:
+  As séries de prova seguintes terão o tempo de 12 minutos e o máximo de 12 disparos, sendo 2 disparos no alvo de
+   ensaio e 10 disparos no alvo de prova.
+
+   Iniciado o tempo de 12 minutos, o atirador poderá dar seus 2 tiros no alvo de ensaio e então, iniciar sua série de
+   prova de 10 tiros no alvo de prova. Não será preciso que o atirador avise ao Árbitro sobre o término dos seus 2 tiros
+   de ensaio se o alvo de ensaio e o de prova estiverem a postos.
+
+   Obs: O competidor, ao iniciar sua Série de tiros de Prova no alvo de prova, já deverá ter disparado seus 2 tiros de
+   ensaio e, portanto, somente poderá ter a seu alcance os 10 cartuchos restantes de prova. Caso o atirador opte
+   por não efetuar os 2 tiros de ensaio, ou efetue somente um tiro de ensaio, deverá deixar fora de seu alcance os
+   cartuchos destinados ao ensaio e não utilizados, antes de iniciar os tiros da Série de Prova.
+
+   5.1.5 Período de preparação
+   Entre as séries de tiros de prova, antes dos tiros de ensaio, será dado, obrigatoriamente, um período de 5
+   (cinco) minutos de preparação aos atletas e/ou troca de alvo. O cumprimento do período de 5 minutos é
+   obrigatório, mesmo que todos os atletas já estejam prontos para iniciar a série de tiro.
+
+5.2 O escore deverá computar a quantidade de pontos e o número de X (centros) em decimais, por exemplo: 280 pontos
+- 12X = 280,12. O número de X (centros) tem unicamente o propósito de desempate, não podendo acrescer a
+pontuação numérica.
+
+5.3 Todos os disparos deverão ser feitos alimentando-se ao armar, um a um, a cada disparo, mesmo que a arma
+possua carregador para mais de um cartucho e/ou seja de funcionamento semiautomático.
+
+5.4 Divisão, Distribuição e Colocação dos Atletas na Prova
+   De forma a manter a maior igualdade possível entre os competidores, a divisão, distribuição e colocação dos
+     atletas nos postos de tiro e organização da prova, se darão de uma das formas/sistemas abaixo descritas, sozinha
+    ou combinadas entre si, a critério da entidade organizadora do evento:
+
+        5.4.1 - Modalidades Separadas: recomendado em eventos com grande número de atletas e com possibilidade
+           de realização das provas em dois ou mais dias. Nesse sistema, os atletas de FTR e OPEN atiram em
+            turmas diferentes, no mesmo dia ou em dias diferentes. Se houver dois ou mais dias de provas, os atletas
+           devem competir, sempre que possível, no mesmo horário (ex: FTR as 09:00 do dia 01 e OPEN as 09:00
+           do dia 02).
+
+        5.4.2  - Modalidades Conjuntas: recomendado quando não há grande número de atletas inscritos e/ou o
+             estande possui uma grande quantidade de postos de tiro. Nesse sistema é feita a divisão dos postos de
+                  tiro entre atiradores das modalidades FTR e OPEN na mesma turma, de modo a que os atletas de cada
+              divisão possam competir lado a lado, respeitando, sempre que possível, uma organização igual ou
+              proporcional aos atletas inscritos, se possível não inferior a 3 postos para uma divisão, se houver no
+            mínimo 3 atletas desta.
+
+        5.4.3 - Rotação de Postos: útil quando houver várias séries de tiro de uma mesma prova, no mesmo dia ou em
+              dias distintos, ficando a critério da organização local e/ou arbitragem. Ao fim de cada série de tiro, os
+               atletas serão deslocados um número determinado de postos à sua  direita a fim de que todos os
+             competidores atirem em vários postos de tiro ao longo da linha de tiro, evitando vantagens indevidas
+             devido a características peculiares de cada estande ou posto de tiro (topografia, luminosidade, vento etc).
+          Os atletas que estiverem no final da linha de tiro a direita, serão deslocados para os postos iniciais da
+            esquerda do estande (ex: estande com 15 postos, sendo posto 1 a esquerda e posto 15 a direita. Se a
+             rotação for de 5 postos, o atleta do posto 6 será deslocado para o posto 11 e o atleta do posto 13, irá para
+           o posto 03).
+
+        5.4.4 - Sorteio de Postos: nesse sistema, aos atletas serão sorteados seus postos de tiro. Poderá ocorrer o
+               sorteio para a primeira série de tiros e/ou para as seguintes, a critério da entidade organizadora do
+              evento. Nesse sistema, ao atleta é sorteado seu posto de tiro, dentro daqueles atribuídos a sua divisão
+          (OPEN ou FTR) ou a todos os postos de tiro do estande onde a prova será realizada. Pode ser combinado
+          com o sistema de Rotação de Postos ou Postos por Classificação para as séries seguintes à primeira,
+              realizada por sorteio.
+
+                                                                         6
+
+--- PAGE 7 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina F-Class
+                                                                         REGULAMENTO
+                                                                                        Atualizado em 09/01/2025
+
+5.4.5 - Postos por Classificação:  especialmente indicada para a Final do Campeonato Brasileiro ou em
+      grandes eventos onde há várias séries de tiro durante o dia, ou dias. A distribuição dos postos de tiro aos
+       atletas é feita respeitando-se a classificação obtida até aquele momento no Campeonato Brasileiro, no
+     caso da Final, ou na série ou resultado do dia anterior. Nesse sistema, procura-se fazer com que os
+       atletas que estão competindo diretamente, atirem lado a lado (ex: o 1º lugar no posto 01, 2º lugar no posto
+     02 etc).
+
+5.4.6 - Infiltração: sistema destinado a agilizar a realização da prova, especialmente útil quando há um número
+      muito acima de competidores em relação ao número de postos e existem trincheiras no estande, com
+     marcação individual de alvos. Nesse sistema uma vez começada a série de tiro da primeira turma, os
+      competidores das turmas seguintes, entrarão nos postos de tiro à medida que o atleta da turma anterior
+      terminar sua série de tiros. O controle do tempo da série de tiro será feito individualmente para cada
+      competidor. Deverá ser utilizado o sistema de Sorteio ou Classificação para definir a ordem de entrada
+      e/ou os postos de tiro dos competidores.
+
+5.4.7 - Tiro em Relays (Turmas): sistema utilizado nos EUA, onde os competidores são divididos em duas, três
+     ou mais turmas (relays), revezando-se a cada série de tiros entre Atirador, Scorer e Trincheira (Pit). O
+       Atirador efetua os disparos no alvo. O Scorer, localizado ao lado ou atrás do Atirador, é responsável por
+      anotar o resultado dos impactos dos tiros no alvo, indicado pela Trincheira, em um cartão de pontuação.
+    O Trincheira é o responsável por subir e abaixar os alvos, obrear e marcar no alvo com o Scoring Disk a
+      pontuação do tiro efetuado. A ausência do competidor para realizar suas funções como Atirador, Scorer
+     ou Trincheira pode ser causa de desclassificação da prova.
+
+     No caso de provas com alvos fixos e/ou com auxiliares para marcação dos alvos e/ou trincheira, as
+      funções de Scorer e Trincheira poderão ser suprimidas, a critério da entidade organizadora do evento.
+
+5.4.8 - Tiro em Alvos Fixos (walk and paste): sistema utilizado no mundo todo quando a distância dos alvos é
+       igual ou abaixo de 300 metros e o estande não possui trincheiras com sistema de alvos móveis. Nesse
+      sistema, não há a função do Trincheira. Os alvos são colocados no anteparo e os disparos não são
+      marcados, tiro a tiro, mas somente ao final da série de tiro, quando o alvo é recolhido e apurados os
+      valores dos impactos. É permitido colocar no anteparo um ou mais alvos de prova e um de ensaio ao
+    mesmo tempo, a critério do Organizador do evento.
+
+5.4.9 - Tiro em Duplas: sistema utilizado na Europa, onde os competidores são divididos em Atirador/Scorer e
+       Trincheira. Dois competidores dividem um mesmo posto de tiro e alvo, atirando alternadamente na mesma
+       série de tiro e exercendo a função de Scorer um do outro. O Trincheira indica a pontuação do impacto
+     dos tiros no alvo, obreando, subindo e descendo o alvo.
+
+5.4.10 - Tiro em Alvo Eletrônico: sistema comumente utilizado na Europa e Oceania e em partes dos EUA.
+     Nesse sistema, a apuração do alvo é feita automaticamente por sistemas eletrônicos a cada disparo, não
+       existindo a função do Trincheira e podendo, ou não, haver a função do Scorer (como reserva/backup em
+     caso de pane do sistema eletrônico ou para controle de tempo, disparos etc).
+
+5.4.11 - Independente do sistema utilizado, os comandos, tempo de prova e série, número de disparos e séries
+     de tiro deverão ser obedecidos por todos os competidores.
+
+5.4.12 - No caso de competidores que por razões de equipamento (cessão ou empréstimo), de linguagem (no
+     caso de estrangeiros que não entendem a língua portuguesa) ou necessidades especiais, necessitarem
+        atirar em Turmas diferentes, específicas ou sequenciais a outro atirador, o competidor interessado deverá
+      comunicar antecipadamente o quanto antes for possível à Organização do evento e a Arbitragem, que
+      farão o esforço possível e razoável, dentro das condições de tempo e logísticas, para acomodar o pedido.
+
+5.4.13  - A entidade organizadora do evento e a arbitragem poderão promover pequenas adaptações aos
+      sistemas citados, em virtude de condições logísticas, de tempo, ambientais (mau tempo, por exemplo) ou
+      outras que justifiquem as ações, desde que não alterem substancialmente as presentes regras, seu
+       espírito e filosofia de promover a igualdade de condições a todos os Atiradores, evitando vantagens
+      indevidas.
+
+                                                                    7
+
+--- PAGE 8 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+5.5 Posicionamento dos Alvos
+   Em estandes com trincheira, recomenda-se que seja colocado somente um alvo por vez, sendo o mesmo retirado
+    para colocação do próximo alvo de prova ou ensaio seguinte, após o tempo regulamentar ter expirado, e assim
+    sucessivamente até o final da prova. Para estandes sem trincheira é recomendável que sejam colocados ao mesmo
+    tempo no suporte 2, 3 ou 4 alvos (um de ensaio e três de prova), de forma a agilizar e facilitar o andamento da
+     prova. O alvo de ensaio poderá ser reutilizado para todas as séries, após obreado.
+
+5.6 Quadro de ordem das séries de tiro
+   A prova de F-Class é de um total de 30 disparos de prova e mais tiros de ensaios, sendo o primeiro ensaio
+     livre e os demais com somente 2 tiros. O quadro abaixo se destina como guia básico do andamento da prova
+    para a maioria dos estandes no Brasil:
+                                        Tempo
+            Série de Tiro / Turma     Nº disparos                           Observação
+                                                     (minutos)
+
+           Preparação Turma 1                -           5               Obrigatório o tempo de 5 mins.
+                                                 Ao final do ensaio, não havendo troca de alvo,
+                 Ensaio                ilimitados       10     pode ser iniciada imediatamente a 1ª Série de
+                                                                                     tiros de prova, a comando do árbitro.
+                                                   Ao final da série de prova os atiradores
+         1ª Série de Prova Turma 1       10         10
+                                                                     deverão cessar fogo.
+
+               Preparação                      -           5             Obrigatório o tempo de 5 minutos.
+                                                      2 tiros no alvo de Ensaio e os 10 restantes no
+         2ª Série de Prova Turma 1       12         12         alvo de prova, com comando de início do
+                                                                                                    árbitro.
+               Preparação                      -           5               Obrigatório o tempo de 5 mins.
+
+                                                      2 tiros no alvo de Ensaio e os 10 restantes no
+                                                                     alvo de prova, sem comando do árbitro.
+                                                   Ao final da série de prova os atiradores         3ª Série de Prova Turma 1       12         12
+                                                           deverão retirar seu equipamento do posto de
+                                                                                       tiro e ceder suas posições para os atiradores
+                                                               da Turma 2, se houver.
+
+5.7 Série de Tiro Estadual/Local
+     Consistirá nos mesmos moldes da Série de Tiro Nacional, porém, poderá ser realizada a 200 metros, caso não haja
+     disponibilidade de estande com linha de tiro de 300 metros. Nesse caso, a prova poderá ser feita utilizando o Alvo
+    de F-Class 200 metros Oficial.
+
+        5.7.1 Para o Campeonato Estadual, o alvo a 200 metros só poderá ser usado se não existir estande disponível
+           no Estado com linha de tiro de 300 metros.
+
+        5.7.2 A pontuação obtida em provas que utilizem o alvo a 200 metros não valerá para fins de Campeonato
+               Brasileiro e/ou Ranking Brasileiro.
+
+5.8 Sempre que possível, o alvo de ensaio deverá ser substituído para facilitar a apuração dos disparos válidos para a
+prova. Neste caso, em se tratando da segunda e/ou terceira série, poderá o tempo de 12 minutos ser desmembrado
+para 2 minutos de ensaio e imediatamente, após a troca, 10 minutos de série de prova.
+
+5.9 A organização da prova pode decidir colocar na linha de tiro somente um alvo por série, 2 alvos por série (um de
+ensaio e um de prova) ou os 4 alvos de ensaio e prova (sendo um de ensaio e prova para a Turma 1 e um de ensaio e
+prova para a Turma 2). Em qualquer caso, não poderá haver compensação de quantidade de disparos, a mais ou a
+menos, entre os alvos de prova.
+
+                                                                         8
+
+--- PAGE 9 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+6. Andamento da Prova
+    Procedimentos e Comandos básicos na Linha de Tiro
+
+6.1 Começo da Prova
+ Quando tudo estiver pronto para o início da prova, o Árbitro da Prova irá dar os comandos:
+
+ "Prova F-Class, turma nº __, série de tiro de (ensaio, 1ª, 2ª ou 3ª série de 300 metros). Srs
+  atiradores, tomem suas posições na linha de tiro".
+
+6.2 Em seguida, dirá
+ “Seu período de preparação iniciará em 2 minutos".
+
+ Os competidores então ocuparão suas posições nos seus respectivos postos de tiro.
+
+6.3 Após os dois minutos:
+ “O período de preparação de 5 minutos começará agora".
+
+ Todos os alvos deverão estar visíveis neste período, podendo o atirador efetuar disparos em seco.
+
+6.4 Após o período de 5 minutos de preparação haver transcorrido:
+ “O período de preparação está encerrado".
+
+         a) Para a Série de Ensaio
+           “Esta série consiste em 10 minutos de tempo, com quantidade de tiros de ensaio livre".
+
+        b) Para a 1ª Série de Prova
+           “Esta série consiste em 10 minutos de tempo, com disparos no alvo de prova”.
+
+         c)  Para as 2ª e 3ª Séries de Prova
+           “Esta série consiste em 12 minutos de tempo, com quantidade de 2 tiros no alvo de ensaio e 10 tiros no alvo
+         de prova”.
+
+        d) Os seguintes avisos devem ser dados neste momento para as séries de Prova:
+            “Atiradores, tenham ao seu alcance somente 2 cartuchos de ensaio e 10 cartuchos para essa série de prova".
+
+         Caso haja mais do que um alvo no anteparo:
+         “O alvo de ensaio está a esquerda no cano superior e o alvo de prova a direita/esquerda/superior/inferior".
+
+6.5 “Pronto à direita?".
+
+6.6 “Pronto à esquerda?".
+
+6.7 Não ouvindo qualquer negativa:
+   “A linha de tiro está pronta".
+
+6.8 Em seguida dirá:
+   “Carregar armas".
+
+   Somente neste momento os competidores poderão municiar seus rifles.
+
+6.9 Verificando que não há qualquer impedimento, ordenará: “Srs.atiradores: começar!".
+
+   A partir deste momento o tempo de prova/série começará a correr e os competidores poderão disparar seus rifles.
+
+                                                                         9
+
+--- PAGE 10 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+6.10 Ao final do tempo permitido:
+   “Cessar fogo!”.
+
+  Os atiradores devem PARAR DE ATIRAR IMEDIATAMENTE após ouvir esse comando.
+
+6.11 Ao terminar a Série de tiros de Prova, ordenará:
+   “Srs. tempo encerrado. Descarreguem seus rifles, abram os ferrolhos. O período de preparação de 5 minutos se
+    iniciará agora".
+
+  No caso de término de prova:
+   “Srs. tempo encerrado. Prova encerrada. Descarreguem seus rifles, abram os ferrolhos e retirem seus equipamentos
+   da linha de tiro”.
+
+  Os atiradores deverão assim proceder, retirando seu equipamento para que a próxima turma de atiradores ocupe
+   seus postos.
+
+6.12 O Árbitro da prova não precisará avisar voluntariamente a passagem do tempo. Os atiradores poderão perguntar
+    aos Árbitros de prova sobre o tempo restante. A pergunta e a resposta deverão ser feitas em um tom que não
+     perturbe outros competidores.
+
+6.13 O Árbitro de Prova poderá dar outros comandos não previstos nesta regra, adequados ao método/sistema de prova
+    da regra 5.4 e, também, aqueles necessários para esclarecer algum ponto ou dirimir alguma dúvida.
+
+7. Disciplina e Segurança no Estande
+7.1 Disciplina
+  A segurança de todos os competidores, pessoal de apoio do estande e espectadores requer contínua atenção para
+   todos os detalhes no manuseio de armas de fogo e cautela na movimentação no estande. A autodisciplina de
+   todos é requerida. Onde houver falta de autodisciplina é dever do pessoal de apoio do estande reforçá-la e dever de
+   todos os competidores colaborar com esse esforço.
+
+7.2 Ferrolhos Abertos
+  A não ser que o rifle esteja em sua maleta ou estojo de transporte, os ~safety flags~, bandeiras de segurança ou
+   indicadores de câmara vazia deverão estar inseridos em sua câmara e os ferrolhos deverão estar na posição
+   aberta ou separados do rifle, em havendo carregadores destacáveis estes deverão estar removidos da arma
+   durante todo o tempo, com exceção do momento em que o atirador estiver na posição de tiro em seu posto de tiro e
+   o comando – “O período de preparação de 5 minutos começa agora.” - for dado. Em nenhuma circunstância os
+   atiradores deverão disparar um cartucho carregado enquanto o comando “Começar” ou “Fogo” não tiver sido dado
+   e/ou não existir uma condição de segurança para o disparo.
+
+7.3 Rifles Descarregados
+  Um rifle está descarregado quando não contém um cartucho na câmara ou no carregador, quando inserido no rifle.
+
+7.4 Rifles Carregados
+  Um rifle está carregado quando contém um cartucho na câmara, ou no carregador inserido no rifle. Nenhum rifle
+   deve ser carregado até que o comando “CARREGAR” seja dado. Um rifle carregado deve apontar em uma direção
+   segura o tempo todo. O ferrolho do rifle só deve ser fechado enquanto este estiver apontado na direção da linha de
+   alvos, com a boca do cano afastada do corpo do atirador.
+
+7.5 Cessar Fogo
+   Todos os competidores devem parar de atirar imediatamente ao ouvir o comando “CESSAR”, inclusive durante o
+   tempo normal de prova e/ou no meio de uma série de tiro. Ao se ouvir este comando todos os rifles devem ser
+   descarregados, os carregadores destacáveis removidos, as ações abertas e os indicadores de segurança inseridos.
+
+            a) Se o comando de CESSAR FOGO ocorrer durante o tempo normal de uma série de tiro, os atiradores
+            devem também se levantar e dar pelo menos um passo atrás, liberando seu posto de tiro, de forma a
+                 permitir que o Árbitro da Prova verifique rapidamente que nenhum atirador está em contato com sua
+              arma.
+
+                                                                         10
+
+--- PAGE 11 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+            b) No caso de interrupção de série, havendo condições de retomá-la, novo comando “CARREGAR” será
+             dado e o tempo seguirá pelo que restar.
+             c) Caso a interrupção dure mais de 5 (cinco) minutos, a critério da Arbitragem, poderá ser permitida a
+                realização de disparos de aquecimento, limitados a 2 disparos em 2 minutos. Os atiradores não poderão
+                   atirar em seus alvos de ensaio, mas tão somente na berma ou talude do estande, conforme indicado
+               pelo Árbitro da prova.
+
+7.6 Não Pronto
+  É dever do competidor notificar o Árbitro da Prova que não está pronto para disparar ao tempo em que esta pergunta
+  “PRONTO Á (DIREITA OU ESQUERDA)?” ou posteriormente, até o início da série de disparos, quando então o
+   Árbitro poderá conceder mais tempo ao Atleta ou atirar na série seguinte, desde que não prejudique o andamento
+   normal da prova.
+
+7.7 Se o competidor falhar em notificar o Juiz de Prova, não lhe será dado qualquer benefício para efetuar seus
+disparos, além do tempo regulamentar a todos os demais competidores na linha de tiro.
+
+7.8 É proibido produzir barulhos, conversas em altos brados e/ou linguajar inapropriado que perturbe a operação e o
+andamento da competição ou o competidor durante sua série de disparos. Competidores e pessoal de apoio no estande
+deverão limitar suas conversas diretamente atrás da linha de tiro a assuntos pertinentes à competição. Abusos verbais
+por competidores podem levar à desclassificação.
+
+7.9 Não será permitido fumar na linha de tiro ou nos postos de tiro, ele valendo para dispositivos eletrônicos.
+
+7.10 É proibido a orientação técnica (coaching) de terceiros em competições individuais. Porém, se a competição for por
+equipes, somente o técnico (ou se não houver, o capitão) da equipe poderá orientar e ajudar o atirador.
+
+7.11 Após o início das séries de prova não é permitido aos competidores conversarem entre si. Qualquer necessidade
+do competidor, iniciada a série, deve ser comunicada ou sinalizada ao árbitro ou pessoal de estande mais próximo,
+aguardando-se a devida autorização.
+
+8. Marcação e Apuração do alvo
+8.1 Os impactos serão computados baseados no diâmetro do furo deixado pelo projétil disparado naquele alvo,
+computando-se o anel de maior valor em contato com a borda do furo deixado pelo projétil.
+
+   8.1.1 O uso de calibradores oficiais com o diâmetro do projétil deverá ser usado para aferir o local do impacto do tiro
+        no alvo em caso de dúvida ou a pedido do Atleta.
+
+   8.1.2 Na falta de calibradores oficiais no diâmetro do projétil, poderá ser usado um projétil do mesmo calibre utilizado
+         pelo Atleta.
+
+8.2 Nos casos de difícil determinação, será dado o maior valor em benefício do atirador.
+
+8.3 Discos de Marcação
+  Quando o alvo for operado da trincheira, um disco de marcação pode e deve ser usado para mostrar a localização do
+   impacto do disparo.  Recomenda-se disco de marcação branco para impactos na área preta do alvo e disco de
+   marcação preto para impactos na área branca do alvo.
+
+8.4 Uso dos Discos de marcação
+  O seguinte procedimento pode ser adotado: após o tiro o alvo é baixado para que o disco de marcação seja
+   colocado no primeiro impacto no alvo, e a pontuação anotada pelo operador da trincheira no canto inferior esquerdo
+   do alvo. Somente após esse procedimento o alvo será levantado e exposto ao competidor para o próximo disparo.
+  A cada disparo o alvo é abaixado, o disco é removido e o buraco deixado é obreado. O disco então é colocado no
+   impacto mais recente, é anotada a pontuação no alvo, e assim sucessivamente.
+
+8.5 Tamanhos e materiais do disco de marcação
+   Recomenda-se que o disco e os materiais utilizados na marcação sejam de 2,5 centímetros de diâmetro para 300
+   metros, com uma haste para ser inserida no furo do alvo.
+
+                                                                         11
+
+--- PAGE 12 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+8.6 Discos de apuração de pontuação
+  O disco de pontuação deverá ser na cor laranja e diâmetro mínimo de 10 cm. No caso de se utilizar discos de
+   marcação, a apuração do alvo deverá ocorrer preferencialmente pelo método de disco de pontuação ocorrer no
+  momento anterior ao da inserção do disco de marcação do furo do tiro. Uma vez verificado o impacto no alvo pela
+   pessoa responsável por marcar o tiro neste, o disco de pontuação deve ser inserido nas bordas correspondentes
+   ao valor do tiro, na face do alvo para informar ao atirador o valor do tiro no alvo, conforme regras e utilização do
+  mesmo nas provas de NRA Fullbore Rifle e F-Class internacionais.
+
+8.7 Impactos fora dos aneis de escores serão computados como zero (miss). O mesmo ocorrendo caso o atirador efetue
+menos disparos do que o requerido, ou se disparar em alvo errado.
+
+8.8 Os alvos serão apurados na linha de tiro, sempre que possível, ao final da prova, caso não tenham sido usados
+discos de marcação e pontuação.
+
+8.9 Os alvos de ensaio deverão estar claramente marcados, preferencialmente com uma linha cruzada e visível no canto
+superior esquerdo do alvo.
+
+9. Situações de Prova
+9.1 Disparos antes ou depois do tempo permitido
+   Serão computados como zero como penalidade e valerão para o número de disparos feitos em prova (ou ensaio)
+   independente de outras penalidades disciplinares que se mostrarem necessárias, a critério do Árbitro da Prova,
+   devido a eventual infração de regras de segurança.
+
+9.2 Todos os disparos efetuados pelo atirador contam e serão computados para seu escore geral, ainda que o rifle
+dispare acidentalmente.
+
+9.3 Disparo em alvo de outro Atleta (crossfire)
+  Em caso de disparo cruzado, tal fato deverá ser imediatamente comunicado ao árbitro. O tiro cruzado não será
+   computado no alvo atingido por engano, mas será computado como um zero para o competidor que efetuou o
+   disparo e como penalidade valerá para o número de disparos de prova. Se não for possível identificar qual disparo
+   pertence ao atirador que teve seu alvo atingido por engano, serão computados os impactos de maior valor, excluindo
+   o de menor valor, sendo este considerado como o tiro cruzado.
+
+9.4 Disparos em excesso
+  É definido quando é identificado na apuração que há um número acima do permitido de impactos no alvo do
+   competidor. Neste caso, se houver possibilidade de identificar qual atirador efetuou o disparo, o disparo incorreto
+   será desconsiderado e o competidor que disparou em excesso terá o disparo computado para o número de disparos
+   de prova, recebendo o valor zero para esse disparo, e uma penalidade de -10 pontos caso em seu alvo de prova
+   tenha o número de disparos regulamentar de 10 tiros.
+
+        9.4.1 Quando os alvos estiverem sendo marcados na trincheira, se mais de um impacto aparecer no alvo do
+              competidor, será considerado o de maior valor, caso não tenha sido o próprio que tenha disparado em
+             excesso.
+
+        9.4.2 Caso o próprio competidor tenha efetuado disparo a mais em seu alvo, serão computados os 10 (dez)
+           menores impactos e aplicada a penalidade de -5 (menos cinco) pontos.
+
+        9.4.3 No caso de disparos em excesso, o  atirador que  identificar o  fato em seu  alvo, deverá avisar
+             imediatamente ao Árbitro da Prova, para, se possível identifique qual disparo é excedente ou anote os
+             pontos até aquele momento para que os posteriores não sejam afetados.
+
+        9.4.4 Tiros de Aquecimento (blow off shots)
+     A critério do Árbitro da prova, poderá ser concedido um período, não superior a 10 minutos para disparos de
+       aquecimento do cano. Os atiradores não poderão atirar em seus alvos de ensaio, mas tão somente na berma ou
+        talude do estande, conforme indicado pelo Árbitro da prova. No caso de requerimento de atirador que não
+        esteja com seu rifle zerado, o mesmo procedimento poderá ser adotado, para verificar o ponto de impacto dos
+         tiros e, a critério do Árbitro, até mesmo em um alvo de colocado especificamente para esse fim e, a partir do
+      momento em que um disparo for localizado nesse alvo na região central, o atirador deve cessar os disparos,
+       para evitar que tenha uma vantagem indevida perante os demais competidores.
+
+                                                                         12
+
+--- PAGE 13 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+
+9.5 Falha de munição ou de arma
+   Deverão  ser comunicadas  imediatamente ao  Árbitro. No caso de munição em que o  projétil não  tenha
+   comprovadamente deixado o cano, será permitido ao Atleta efetuar um novo disparo com outro cartucho, após retirar
+   o projétil do cano de forma segura. No caso de falha de arma, será permitido ao atleta tentar consertar a falha
+   durante o tempo regulamentar da série de tiro, desde que não atrapalhe os demais atiradores e/ou o andamento
+   normal da prova.
+
+  É permitido ao atleta que estiver com sua arma ou luneta inoperante por falha de equipamento, trocar de arma,
+   inclusive com outro atleta, sem qualquer acréscimo de tempo ao período regular da prova.
+
+9.6 Empate
+  Em todas as provas, desde que não expressamente disposto em forma contrária pelo Organizador do
+  Campeonato Brasileiro, o empate será decidido da seguinte forma e ordem:
+
+     a)  Pelo maior número de X na prova.
+
+     b)   Persistindo o empate, o critério vencedor será o de matrícula mais antiga.
+
+10. Alvos
+10.1 Os alvos utilizados são os oficiais da CBTE de F-Class e consistem em círculos concêntricos pretos com anéis de
+escore brancos nos valores de 5, 6, 7, 8, 9, 10 e X.
+
+10.2 Os alvos terão suas medidas proporcionais nas distâncias que serão utilizados, mantendo a relação de tamanho,
+de acordo com a regra oficial internacional da NRA.
+
+10.3 Para fins de melhor visualização dos impactos, em especial quando não houver trincheiras no estande para
+marcação deles, os círculos concêntricos poderão ser de cor azul, em vez de preto, ou ainda com as cores invertidas
+(anéis brancos e linhas e números pretos ou azuis).
+
+10.4 O alvo de 300 metros - MR-63FC, possui as seguintes medidas:
+
+                   (linha branca, números brancos, podendo o numeral 10 ser suprimido do alvo)
+                                      Anéis de pontuação     Diâmetro
+                                                    (preto)           (mm)
+                                  X              39
+                                         10              79
+                                         9              163
+                                         8              246
+                                         7              329
+                                         6              496
+                                      5 (branco)          662
+
+10.5 A CBTE poderá, obedecendo à regra internacional oficial da NRA, a seu critério e quando houver disponibilidade
+de estande, conveniência técnica ou estímulo à disciplina esportiva, implementar ou alterar os alvos e séries de tiro para
+as distâncias de 300, 400, 500, 600, 800, 900 e 1.000 metros/jardas.
+
+11. Formação das Equipes Brasileiras - Provas internacionais
+11.1 A prerrogativa para definir critérios destinados a subsidiar a indicação de representantes brasileiros para a
+participação em competições internacionais, será exercida pela Confederação Brasileira de Tiro Esportivo – CBTE.
+
+                                                                         13
+
+--- PAGE 14 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                     Carabina F-Class
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+11.2 Dessa forma, para os eventos internacionais realizados dentro ou fora do Brasil, a indicação dos representantes
+brasileiros terá como critério a classificação individual do atleta, em cada uma das divisões da Disciplina, tendo como
+referência o resultado do Campeonato Brasileiro da CBTE, sempre relativo ao ano imediatamente anterior ao do previsto
+para a realização do evento internacional.
+
+    a) Até o limite de vagas oferecidas pela Entidade Anfitriã, os atletas serão convocados individualmente e terão como
+       obrigação indicar, no prazo máximo de 30 dias corridos, a sua firme intenção de participar do evento para o qual
+          foi convocado.
+    b) Quando o número total de vagas disponibilizadas pela Entidade Anfitriã for inferior a seis, será considerado, para
+         efeito de classificação e convocação, a ordem decrescente do somatório simples dos resultados obtidos pelo
+         atleta em todas as divisões que tenha participado, sempre considerando o resultado do Campeonato Brasileiro
+      da CBTE.
+    c) No caso de não ocupação das vagas ou de eventuais desistências entre os convocados, serão realizadas tantas
+       convocações quanto forem necessárias para ocupar o número de vagas  disponíveis, sempre seguindo
+        estritamente a ordem de classificação obtida dentro do resultado do Campeonato Brasileiro da WRABF.
+    d) Na eventual necessidade de desempate na classificação utilizada para as convocações, serão utilizados os
+        seguintes critérios:
+            I- A prioridade será do Atleta que conseguiu o maior resultado na Prova Final do Campeonato Brasileiro do ano
+         anterior ao do previsto para o evento internacional;
+            II- Persistindo o empate, a prioridade será do Atleta que conseguiu o maior resultado em sua participação na
+       Prova Regional do Campeonato Brasileiro do ano anterior ao do previsto para o evento internacional.
+            III- Para a consolidação de sua convocação para o evento internacional, o  atleta deverá comprovar a
+        regularidade de seus Certificados de Registros junto às autoridades competentes, além de estar em dia com
+       suas obrigações cadastrais e financeiras junto à CBTE.
+        IV- A CBTE não assume o compromisso ou a responsabilidade pelo pagamento de qualquer despesa realizada
+        pelo  atleta  convocado,  tais como  inscrições,  passagens,  hospedagens,  alimentação ou  obtenção de
+       documentos (passaporte, vistos etc.).
+       V- Excepcionalmente, observada a disponibilidade orçamentária, própria ou a proporcionada por terceiros
+        (projetos de custeio específicos), a CBTE poderá subsidiar a participação de atletas em eventos internacionais
+        realizados fora do território brasileiro.
+    e) Os atletas e/ou equipes brasileiras, convocados(as) pela CBTE para representarem o Brasil em competições
+        internacionais, deverão ostentar a Bandeira Brasileira em todas as suas participações em cerimônias de
+       premiação, de homenagens e de entrega de troféus/medalhas.
+
+12. Casos de Divergência ou Dúvida neste regulamento
+12.1 Os casos omissos ou dúvidas suscitadas, nas provas, serão resolvidos pelo Árbitro da Prova, que deverá informar
+a questão e a solução dada à Diretoria Técnica de Rifle Internacional da CBTE, responsável pela modalidade, para
+análise e parecer nas situações semelhantes que porventura venham a ocorrer no futuro.
+
+12.2 Persistindo a dúvida,  terá prevalência as regras no formato  original e que podem ser encontradas em:
+http://www.nrahq.org/compete/RuleBooks/HPR/hpr-index.pdf
+
+                                                                         14

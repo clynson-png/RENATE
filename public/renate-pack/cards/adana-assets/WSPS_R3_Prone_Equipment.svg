@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1420" viewBox="0 0 1120 1420" role="img" aria-labelledby="title desc">
+  <title id="title">WSPS R3 — equipamentos da posição prone</title>
+  <desc id="desc">Card visual complementar com cadeira e mesa obrigatórias para a prova R3, regras da mesa e uso permitido, não obrigatório, da bandoleira conforme ISSF incorporada.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071c2a"/><stop offset="1" stop-color="#102e3d"/></linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c8ff4d"/><stop offset="1" stop-color="#75ed65"/></linearGradient>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#eef7f7}.muted{fill:#a8c1c8}.cyan{fill:#37d8e8}.lime{fill:#c8ff4d}.panel{fill:#102a38;stroke:#255161;stroke-width:2}.label{font-size:20px;font-weight:700;letter-spacing:2px}.body{font-size:23px}.small{font-size:18px}.tiny{font-size:15px}
+    </style>
+  </defs>
+  <rect width="1120" height="1420" rx="38" fill="#04131d"/>
+  <rect x="18" y="18" width="1084" height="1384" rx="30" fill="url(#bg)" stroke="#22d6e8" stroke-width="4"/>
+  <text x="62" y="92" class="cyan label">WSPS • R3 • 10 m AIR RIFLE PRONE • OPEN SH1</text>
+  <text x="62" y="164" class="lime" font-size="48" font-weight="800">EQUIPAMENTO DA POSIÇÃO PRONE</text>
+  <text x="62" y="207" class="muted" font-size="23">A atleta ou o atleta não se deita: usa cadeira de tiro e mesa.</text>
+
+  <rect x="62" y="250" width="996" height="318" rx="24" class="panel"/>
+  <text x="94" y="296" class="cyan label">CONFIGURAÇÃO OBRIGATÓRIA • WSPS 4.2.2.4</text>
+  <defs><clipPath id="posePhotoClip"><rect x="94" y="320" width="470" height="230" rx="18"/></clipPath></defs>
+  <image href="WSPS_R3_Prone_Position.png" x="94" y="320" width="470" height="230"
+         preserveAspectRatio="xMidYMid slice" clip-path="url(#posePhotoClip)"
+         aria-label="Atleta WSPS em cadeira de rodas, com os dois cotovelos apoiados na mesa e rifle apontado para o alvo"/>
+  <text x="598" y="365" class="body" font-weight="700">Cadeira de tiro + mesa de tiro</text>
+  <text x="598" y="407" class="muted body">O atleta deve usar ambas na R3.</text>
+  <text x="598" y="449" class="muted body">A posição adaptada é sentada; não</text>
+  <text x="598" y="481" class="muted body">é permitido deitar no piso.</text>
+  <text x="598" y="528" class="tiny">Foto ilustrativa; medidas seguem os itens citados.</text>
+
+  <rect x="62" y="596" width="482" height="378" rx="24" class="panel"/>
+  <text x="92" y="642" class="cyan label">MESA • WSPS 3.8.1</text>
+  <text x="92" y="697" class="body" font-weight="700">Limites geométricos</text>
+  <text x="92" y="737" class="body">• componentes: até 90 cm de diâmetro</text>
+  <text x="92" y="777" class="body">• dentro dos limites do posto de tiro</text>
+  <text x="92" y="830" class="body" font-weight="700">Apoio na posição prone</text>
+  <text x="92" y="870" class="body">• ambos os cotovelos apoiados na mesa</text>
+  <text x="92" y="910" class="body">• braços superiores sem tocar a mesa</text>
+  <text x="92" y="950" class="small muted">antebraço: mínimo de 30° da horizontal</text>
+
+  <rect x="576" y="596" width="482" height="378" rx="24" class="panel"/>
+  <text x="606" y="642" class="cyan label">BANDOLEIRA • ISSF INCORPORADA</text>
+  <text x="606" y="697" class="body" font-weight="700">Permitida, não obrigatória</text>
+  <text x="606" y="737" class="body">• pode apoiar o rifle na posição prone</text>
+  <text x="606" y="777" class="body">• largura máxima: 40 mm</text>
+  <text x="606" y="817" class="body">• no braço superior esquerdo e fore-end</text>
+  <text x="606" y="857" class="body">• rifle não toca a bandoleira, salvo</text>
+  <text x="626" y="889" class="body">nos pontos expressamente previstos</text>
+  <text x="606" y="943" class="small muted">WSPS 1.1.3; ISSF 7.5.8.2 e 7.6.1.2</text>
+
+  <rect x="62" y="1002" width="996" height="250" rx="24" fill="#0d232d" stroke="#255161" stroke-width="2"/>
+  <text x="94" y="1050" class="cyan label">RESTRIÇÕES DA R3 • CLASSE SH1</text>
+  <text x="94" y="1102" class="body">• ambos os cotovelos ficam apoiados; os braços superiores não podem tocar a mesa.</text>
+  <text x="94" y="1144" class="body">• antebraço a pelo menos 30° da horizontal; mangas e antebraços visivelmente elevados.</text>
+  <text x="94" y="1186" class="body">• mesa não pode ser usada como apoio lateral do abdômen para ganhar estabilidade.</text>
+  <text x="94" y="1232" class="small muted">WSPS 3.8.1.5–3.8.1.6 e 4.2.2.5 • ISSF incorporada apenas onde compatível.</text>
+
+  <text x="62" y="1310" class="tiny muted">Fontes: WSPS Technical Rules and Regulations v1 (2026), pp. 9, 34–35 e 42; ISSF Rule Book 2026, 3rd Print 10/2026, pp. 339–340.</text>
+  <text x="62" y="1350" class="tiny muted">Card complementar de consulta; as regras citadas e a classificação/licença do atleta prevalecem.</text>
+</svg>

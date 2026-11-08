@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste local do histórico RENATE</title>
+  </head>
+  <body>
+    <pre id="results">RUNNING</pre>
+    <script type="module">
+      import {
+        clearLocalHistory,
+        deleteLocalConversation,
+        getLocalConversation,
+        listLocalConversations,
+        saveLocalConversation,
+      } from '../src/localHistory.js';
+
+      const output = document.querySelector('#results');
+      const checks = [];
+      const check = (condition, label) => {
+        if (!condition) throw new Error(label);
+        checks.push(`PASS ${label}`);
+      };
+      const finish = (state) => {
+        output.textContent = `${state}\n${checks.join('\n')}`;
+        document.documentElement.dataset.testState = state;
+      };
+
+      try {
+        const stage = Number(sessionStorage.getItem('renate-history-test-stage') || 0);
+        if (stage === 0) {
+          await clearLocalHistory();
+          await saveLocalConversation({ id: 'test-a', messages: [{ role: 'user', text: 'Pergunta original' }] });
+          await saveLocalConversation({ id: 'test-b', messages: [{ role: 'user', text: 'Esclarecimento' }] });
+          sessionStorage.setItem('renate-history-test-stage', '1');
+          location.reload();
+        } else if (stage === 1) {
+          const rows = await listLocalConversations();
+          check(rows.length === 2, 'duas conversas persistem após recarregar a página');
+          check((await getLocalConversation('test-a'))?.messages[0]?.text === 'Pergunta original', 'pergunta original pode ser reaberta');
+          await deleteLocalConversation('test-a');
+          check((await listLocalConversations()).map((row) => row.id).join(',') === 'test-b', 'exclusão individual mantém a outra conversa');
+          await clearLocalHistory();
+          check((await listLocalConversations()).length === 0, 'limpar tudo remove todas as conversas');
+          sessionStorage.setItem('renate-history-test-stage', '2');
+          location.reload();
+        } else {
+          check((await listLocalConversations()).length === 0, 'histórico continua vazio após novo recarregamento');
+          sessionStorage.removeItem('renate-history-test-stage');
+          finish('PASS');
+        }
+      } catch (error) {
+        finish(`FAIL ${error.stack || error}`);
+      }
+    </script>
+  </body>
+</html>

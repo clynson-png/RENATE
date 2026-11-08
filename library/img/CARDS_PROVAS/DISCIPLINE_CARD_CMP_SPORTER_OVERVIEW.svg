@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Carabina CMP Fogo Circular Sporter — visão geral CBTE</title>
+  <desc id="desc">Resumo das três divisões, calibre, curso de seis estágios, alvo e cálculo da pontuação máxima da edição CBTE de 9 de janeiro de 2025.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f5f9fc}.navy{fill:#123f67}.blue{fill:#17689f}.ink{fill:#18324a}.muted{fill:#526b80}.green{fill:#14825d}.white{fill:#fff}.pale{fill:#eaf4fb}.gold{fill:#fff2c9}.line{stroke:#bad8ec;stroke-width:2}.h1{font:700 43px Arial,sans-serif}.h2{font:700 26px Arial,sans-serif}.body{font:400 22px Arial,sans-serif}.small{font:400 18px Arial,sans-serif}.value{font:700 25px Arial,sans-serif}.label{font:700 17px Arial,sans-serif;letter-spacing:1px}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="1500"/>
+  <rect class="navy" width="1200" height="210"/>
+  <text x="52" y="67" fill="#bfe35b" class="label">CBTE · REGULAMENTO LOCAL ADAPTADO DO CMP</text>
+  <text x="52" y="126" fill="#fff" class="h1">CARABINA CMP SPORTER</text>
+  <text x="52" y="174" fill="#cdeaff" class="body">Carabina CMP Fogo Circular Sporter · edição 09/01/2025</text>
+
+  <rect x="48" y="238" width="1104" height="267" rx="22" class="white line"/>
+  <text x="78" y="285" class="blue h2">DIVISÕES</text>
+  <rect x="78" y="310" width="320" height="76" rx="14" class="pale"/>
+  <rect x="440" y="310" width="320" height="76" rx="14" class="pale"/>
+  <rect x="802" y="310" width="320" height="76" rx="14" class="pale"/>
+  <text x="102" y="358" class="ink value">Mira Aberta · Class O</text>
+  <text x="464" y="358" class="ink value">Mira Fechada · Class T</text>
+  <text x="826" y="358" class="ink value">Tática · condicional</text>
+  <text x="80" y="430" class="muted body">A organização pode não incluir a divisão Tática; quando incluída, ela atira na Mira Fechada.</text>
+  <text x="80" y="470" class="muted small">Regra CBTE/CMP, itens 1.2 e 2.1 · PDF pp. 2–3</text>
+
+  <rect x="48" y="530" width="1104" height="142" rx="22" class="white line"/>
+  <text x="78" y="577" class="blue h2">CALIBRE E DISTÂNCIAS</text>
+  <text x="78" y="623" class="ink body">.22 Long Rifle (.22LR). Rimfire Magnum e calibre .17 não são permitidos.</text>
+  <text x="78" y="653" class="muted small">Prova em 50 m e 25 m · itens 2.1, 3.7 e 5.1 · PDF pp. 3, 5 e 8</text>
+
+  <rect x="48" y="698" width="1104" height="358" rx="22" class="gold" stroke="#e5cf87" stroke-width="2"/>
+  <text x="78" y="748" class="blue h2">CURSO DE TIRO · 60 DISPAROS PONTUÁVEIS</text>
+  <text x="78" y="797" class="label blue">ESTÁGIO</text><text x="260" y="797" class="label blue">DISTÂNCIA / POSIÇÃO</text><text x="680" y="797" class="label blue">SÉRIE</text><text x="934" y="797" class="label blue">DISPAROS</text>
+  <g class="ink body">
+    <text x="86" y="846">1</text><text x="260" y="846">50 m · Deitado</text><text x="680" y="846">Lento</text><text x="934" y="846">10</text>
+    <text x="86" y="888">2</text><text x="260" y="888">50 m · Deitado</text><text x="680" y="888">Rápido</text><text x="934" y="888">2 × 5</text>
+    <text x="86" y="930">3</text><text x="260" y="930">50 m · Sentado ou ajoelhado</text><text x="680" y="930">Lento</text><text x="934" y="930">10</text>
+    <text x="86" y="972">4</text><text x="260" y="972">50 m · Sentado ou ajoelhado</text><text x="680" y="972">Rápido</text><text x="934" y="972">2 × 5</text>
+    <text x="86" y="1014">5</text><text x="260" y="1014">25 m · Em pé</text><text x="680" y="1014">Lento</text><text x="934" y="1014">10</text>
+    <text x="86" y="1050">6</text><text x="260" y="1050">25 m · Em pé</text><text x="680" y="1050">Rápido</text><text x="934" y="1050">2 × 5</text>
+  </g>
+  <text x="78" y="1093" class="muted small">Estágios lentos: 10 min. Rápidos: 25 s semiautomática / 30 s manual. Ensaio ilimitado é separado.</text>
+  <text x="78" y="1121" class="muted small">Regra 5.1 e tabela de comandos · PDF pp. 8 e 11–13</text>
+
+  <rect x="48" y="1150" width="1104" height="208" rx="22" class="white line"/>
+  <text x="78" y="1200" class="blue h2">ALVO E PONTUAÇÃO</text>
+  <text x="78" y="1244" class="ink body">Anéis de 7 a 10; X é critério de desempate, não ponto adicional.</text>
+  <text x="78" y="1282" class="green value">Máximo derivado: 60 disparos × 10 pontos = 600 pontos</text>
+  <text x="78" y="1322" class="muted small">Alvo baseado na Pistola Livre 50 m; o anel 10 é aprox. 4,5 cm. Itens 3.8, 5.1, 6.2 e 6.8 · pp. 2, 5, 9–10</text>
+
+  <rect x="48" y="1380" width="1104" height="76" rx="18" fill="#e7f5ef" stroke="#b6e1cf" stroke-width="2"/>
+  <text x="78" y="1427" class="green label">FONTE</text><text x="174" y="1427" class="ink small">CBTE — Regulamento Carabina CMP Sporter, atualizado em 09/01/2025 · source id ADANA-SRC-0DB5E360F55EA1DD</text>
+</svg>

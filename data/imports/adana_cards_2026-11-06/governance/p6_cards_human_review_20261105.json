@@ -1,0 +1,82 @@
+{
+  "route_id": "wsps.event.p6",
+  "state": "HUMAN_APPROVED",
+  "runtime_sot_applied": false,
+  "gates_run": false,
+  "cards": {
+    "qualification": {
+      "path": "library/regras/CARDS_PROVAS/ADANA_WSPS_EVENT_P6_QUALIFICATION_PHASE_CARD_V2.svg",
+      "sha256": "3512925e336af0392489317004cb1a1bf1c282febb70f46eb386399517fa2593",
+      "slot_count": 17,
+      "preview": "audit/route_governance_v1/route46_p6_card_previews_20261105/WSPS_P6_QUALIFICATION_PREVIEW.png",
+      "preview_sha256": "c438aa0a6746dfc9626b57f5e1925551819221eb69b449fcf97b1ed957a339c1"
+    },
+    "final": {
+      "path": "library/regras/CARDS_PROVAS/ADANA_WSPS_EVENT_P6_FINAL_PHASE_CARD_V2.svg",
+      "sha256": "0089f7d8602763ce11c6811e362b3d4cc64dca6ab16379b2496922905b202729",
+      "slot_count": 15,
+      "preview": "audit/route_governance_v1/route46_p6_card_previews_20261105/WSPS_P6_FINAL_PREVIEW.png",
+      "preview_sha256": "9ff5910eb41f525d689a74179d4c47b86aeeb8818563fa20cbe7b58bffee884f"
+    }
+  },
+  "authorized_image_sha256": "3b7b8019b3ee4c407f8b25c7f9220cf895005c030a5a10d5330ce85027e56822",
+  "evidence": {
+    "wsps_source_id": "ADANA-SRC-892D95743F291E6F",
+    "wsps_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+    "issf_source_id": "ADANA-SRC-2A79B10E08375DE1",
+    "issf_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+    "issf_edition": "Third Print 10/2026; effective 19 October 2026"
+  },
+  "rag_calculations": {
+    "qualification": "300 per athlete; 600 per team (2 × 30 × 10)",
+    "final": "261.6 per athlete; 523.2 per team (2 × 24 × 10.9)"
+  },
+  "workbook_conflict": "March 2026 MTP P6 commands worksheet is retained as candidate; rifle-specific text conflicts with pistol event and is not allowed to override active WSPS/ISSF rule text.",
+  "catalog_updated": true,
+  "slots_completed": {
+    "qualification": [
+      "event_identity",
+      "gender_class",
+      "discipline_distance",
+      "caliber_and_energy",
+      "team_eligibility",
+      "shot_count",
+      "time_and_target_mode",
+      "target_type",
+      "team_positions",
+      "call_and_setup",
+      "preparation_sighting",
+      "scoring_format",
+      "maximum_score_rag",
+      "ranking_and_tie_break",
+      "final_qualification",
+      "coaching",
+      "series_format"
+    ],
+    "final": [
+      "event_identity",
+      "gender_class",
+      "discipline_distance",
+      "caliber_and_energy",
+      "team_eligibility",
+      "finalists",
+      "series_and_shots",
+      "elimination_sequence",
+      "scoring_format",
+      "maximum_score_rag",
+      "final_tie_break",
+      "preparation_sighting",
+      "report_and_setup",
+      "commands_and_roles",
+      "team_ranking"
+    ]
+  },
+  "horus_fact_bindings_added": true,
+  "catalog_sha256": "e69d4279ad2d9b0ff2b4ff9994039873d288956e63f6cae7ace5ef66acbc0991",
+  "approval": {
+    "actor": "user",
+    "date": "2026-11-05",
+    "statement": "cards aprovados, prossiga na implementação e na passagem dos gates",
+    "scope": "P6 qualification and final phase cards only"
+  }
+}

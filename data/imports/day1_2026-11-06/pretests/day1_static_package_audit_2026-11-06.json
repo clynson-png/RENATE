@@ -1,0 +1,43 @@
+{
+  "result": "PASS",
+  "scope": "RENATE-only static package audit; no application runtime test",
+  "library_manifest_rows": 81,
+  "library_artifact_counts": {
+    "ocr": 50,
+    "documents": 31
+  },
+  "pdf_documents_without_ocr": [],
+  "pdf_documents_not_used_by_atlas": [],
+  "allowlist_artifacts": 81,
+  "manifest_paths_without_allowlist": [],
+  "allowlist_paths_without_manifest": [],
+  "allowlist_pdf_records_missing_edition": 0,
+  "missing_edition_source_ids": [],
+  "ocr_allowlist_records_missing_human_approval": 0,
+  "unapproved_ocr_paths": [],
+  "atlas_records": 960,
+  "golden_test_cases": 960,
+  "golden_conflicting_duplicate_groups": 3,
+  "alphaomega_records": 43,
+  "alphaomega_golden_route_mismatches": [],
+  "atlas_source_bindings": 2233,
+  "unresolved_atlas_source_bindings": 0,
+  "route_audit_records": 62,
+  "recorded_pretest_rollups": {
+    "P4": {
+      "pass": 12,
+      "total": 12
+    },
+    "P5": {
+      "pass": 12,
+      "total": 12
+    }
+  },
+  "candidate_pretest_response_records": 13,
+  "candidate_pretest_state": "CANDIDATE_ONLY_NOT_RUNTIME_APPROVED",
+  "valid_json_files": 17,
+  "valid_jsonl_files": 3,
+  "card_asset_references_checked": 10,
+  "unique_card_assets_checked": 6,
+  "errors": []
+}

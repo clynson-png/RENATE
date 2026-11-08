@@ -1,0 +1,2913 @@
+CARABINA WRABF
+Regulamento Específico
+   Atualizado em 20.11.2024
+                                               Confederação Brasileira de Tiro Esportivo
+                           Carabina WRABF - Regulamento Específico
+                                                                  Edição de 06.02.2024 – V2
+
+
+                                     SUMÁRIO
+
+
+                                                                                  Pág.
+RESUMO - ALTERAÇÕES NO REGULAMENTO DA WRABF EM 2023                               02
+
+
+SEÇÕES
+SEÇÃO A – INFORMAÇÕES GERAIS (ADMINISTRATION)                                     04
+SEÇÃO B – REGRAS DA COMPETIÇÃO (RULES OF COMPETITION)                             04
+SEÇÃO C – CONDUÇÃO DA COMPETIÇÃO (CONDUCT OF CHAMPIONSHIP)                        10
+SEÇÃO D – EVENTOS APROVADOS E LIMITES DE PRAZOS (APPROVED EVENTS)                 19
+SEÇÃO E – DETALHAMENTOS TÉCNICOS (TECHNICAL PROVISIONS)                           20
+SEÇÃO F – INSTALAÇOES DO ESTANDE (RANGES AND FACILITIES)                          26
+SEÇÃO G – CERIMONIAL (CEREMONIES, MEETINGS, MEDALS AND AWARDS                     26
+SEÇÃO H – INSCRIÇÕES E TAXAS (ENTRY FEES)                                         26
+SEÇÃO I – SEGURANÇA NO ESTANDE (RANGE SAFETY AND PROCEDURES)                      27
+SEÇÃO J – REQUISITOS PARA O ATLETA (COMPETITOR REQUIREMENTS)                      28
+SEÇÃO K – DEVERES DOS ÁRBITROS (OFFICIALS AND DUTIES)                             28
+SEÇÃO L – APURAÇÃO ELETRÔNICA (ELECTRONIC SCORING PROCEDURES)                     30
+
+
+APÊNDICES
+APÊNDICE A – FORMULÁRIO DE PROTESTO (PROTEST FORM)                                32
+APÊNDICE B – ENTIDADE ANFITRIÃ (APPLICATION TO HOST CHAMPIONSHIP)                 -
+APÊNDICE C – RECORDE MUNDIAL (APPLICATION FOR WORLD RECORD)                       -
+APÊNDICE D – FORMULÁRIO DE INSPEÇÃO (RIFLE INSPECTION AND TECH DATA)              33
+APÊNDICE E – CARTÕES DE ALVOS (TARGETS)                                           -
+APÊNDICE F – ESPECIFICAÇÕES DE CORONHAS (STOCK CLARIFICATION)                     34
+APÊNDICE G – ESPECIFICAÇÕES DE APOIO FRONTAL (FRONT REST CLARIFICATION)           36
+APÊNDICE H – AGENDA ENCONTRO TÉCNICO (AGENDA – TECHNICAL MEETING)                 -
+APÊNDICE I – AGENDA ENCONTRO DE DELEGADOS (AGENDA DELEGATES MEETING)              -
+
+
+ANEXOS (Atenção: os Anexos foram atualizados em 20/11/2024, para a versão 3)
+
+
+VERSÕES - ALTERAÇÕES REALIZADOS NOS TEXTOS DOS ANEXOS I e II                      37
+ANEXO I – REGULAMENTO ESPECÍFICO DO CAMPEONATO BRASILEIRO                         38
+ANEXO II – DIRETRIZES: ORGANIZAÇÃO DAS PROVAS REGIONAIS E DA FINAL                50
+
+
+
+
+                                                                                         1
+                                               Confederação Brasileira de Tiro Esportivo
+                          Carabina WRABF - Regulamento Específico
+                                                                        Edição de 06.02.2024 – V2
+
+
+     RESUMO - ALTERAÇÕES NO REGULAMENTO DA WRABF EM 2023
+
+B.6 RIFLE SPICIFICATION        RIMFIRE
+                               a) International Sporter
+                                  - Alterada a magnificação das lunetas de 6X para 12X,
+                                  mantidas as recomendações e condições para a utilização de
+                                  lunetas com zoom variável;
+                                  - Incluída a expressão: Barrel attachments (vibration
+                                  devices) are NOT permititted;
+                                  - Incluída a expressão: No eletctronic or mechanically
+                                  assisted triggers allowed.
+                                  - Retirada a expressão: Return to battery shall NOT be
+                                  permitted;
+                               b) Light Rifle .22 Rimfire Rifle
+                                  - Alterado o nome, adotando a abreviatura RF-LR;
+                                  - Retirada a expressão: Return to battery shall NOT be
+                                  permitted.
+                               c) Heavy Rifle .22 Rimfire Rifle
+                                  - Alterado o nome, adotando a abreviatura RF-HR;
+                                  - Retiradas as expressões: Return to battery shall NOT be
+                                  permitted; e Rail guns will not be allowed
+                               AIR RIFLE
+                               a) Ligth Rifle Air Rifle
+                                  - Alterado o nome, adotando a abreviatura AR-LR;
+                                  - Incluída a expressão: Magazines are allowed.
+                                  - Retiradas as expressões: The air cylinder can be changed
+                                  as long as it is provided by the Manufacturer as an
+                                  option/spare to that model; Return to battery shall NOT be
+                                  permitted; Shooting Distance 25m. (0.177, 0.2 and 0.22
+                                  scores will be plugged by using a 0.22 calibre gauge).
+                               b) Heavy Rifle Air Rifle
+                                  - Alterado o nome, adotando a abreviatura AR-HR;
+                                  - Incluídas as expressões: Electronic triggers are allowed
+                                  however, mechanically, or electronically external assisted
+                                  triggers are not allowed; Electronic triggers must be part and
+                                  build into the rifle and no external assisted triggers are
+                                  Allowed; Stock tape is permitted; Magazines are allowed.
+                                  - Retiradas as expressões: Return to battery shall NOT be
+                                  permitted; Shooting Distance 25m. (0.177, 0.2 and 0.22
+                                  scores will be plugged by using a 0.22 calibre gauge).
+                               c) Unlimited Rifle Air Rifle – 50m
+                                  - Divisão incluída, adotando a abreviatura AR-UR;
+                                  - Todas as características e especificações da nova divisão
+                                  estão incluídas no texto deste Regulamento.
+B.7 AMMUNITION
+                               Incluída munição SLUG para Air Rifle
+
+B.8.1 FRONT REST               Texto anterior reformulado
+
+B.8.2 REAR REST
+                               Texto anterior reformulado
+
+B.9 SAND BAG
+                               Texto anterior reformulado
+
+B.10 RESTRAINT OF RIFLE
+                               Texto anterior reformulado
+
+
+                                                                                                   2
+                                                 Confederação Brasileira de Tiro Esportivo
+                          Carabina WRABF - Regulamento Específico
+                                                                           Edição de 06.02.2024 – V2
+
+C.3 TARGET DISLODGED
+                                 Texto anterior reformulado
+
+                                 Incluída a expressão: When more than one target is shot during
+C.8g FIRST MISS (FM)             a competition and the scores are tied, then go to the second
+                                 target to determine first miss.
+                                 1) Tempo de preparação alterado para 7 minutos
+C.12 – 1, 4 e 5 STANDARD RANGE   4) Texto anterior reformulado, incluindo a expressão: … and the
+COMMANDS – EACH MATCH            target will be marked as DNF (Did Not Finish)
+                                 5) Alterados os intervalos dos avisos referentes ao tempo de
+                                 prova restante, que eram 10min, 5 min e 30seg.
+                                 Alterado o tempo máximo para a apresentação do protesto, que
+                                 era de 15min, passando para 30min após a divulgação do último
+C.16 LODGING PROTEST
+                                 alvo da divisão específica.
+                                 Para o caso de DQ o prazo é de 1 hora após a ocorrência.
+                                 Incluído aspecto referente à limpeza das carabinas e melhorada a
+                                 caracterização dos motivos para a desqualificação do atleta.
+                                 Incluídas as letras j, k e l, referentes à utilização de bebida
+C.18 SPORTSMANSSHIP
+                                 alcoólica e substâncias não toleradas no esporte, troca de tanques
+                                 de ar adicionais e permissão para levantar-se em caso de
+                                 emergência.
+                                 Melhor esclarecida a caracterização dos motivos para a
+C.19 DISQUALIFICATION            desqualificação do atleta.
+
+                                 Alterados o 2º e o 3º itens da lista:
+                                 - Retirada a expressão: The stock must not be more than 76.2mm
+                                 (3") wide regardless of where measured for Light Varmint and
+E.8.4 CERTIFICATION EQUIPMENT    Unlimited Class.
+                                 - Retirada a expressão The bottom of the butt of stock, if flat,
+                                 must be 25mm (0.98")
+                                 - Incluída a expressão The gauge in case of a size template must
+                                 be exactly 1mm bigger than the allowable stock width.
+                                 - Retirada a expressão Common JSB Exact pellets of all calibers
+E.8.9 AIR RIFLE POWER CHECK      (4.52, 5.0, 5.5 mm) for LV class and Heavy version of JSB Exact
+PROCEDURE                        pellets for HV class to be used.
+                                 - Alterada toda a rotina de verificação de potência das carabinas
+                                 de ar (nova tabela)
+                                 Texto anterior reformulado
+K.6 AIR RIFLE FILLING STATION
+
+SEÇÃO L – ELECTRONIC SCORING     Seção incluída em ago/2023.
+PROCEDURES
+APPENDIX F
+                                 Texto anterior reformulado
+
+APPENDIX G                       Texto anterior reformulado
+
+
+
+
+                                                                                                      3
+                                                        Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico
+                                                                             Edição de 06.02.2024 – V2
+
+A. INFORMAÇÕES GERAIS (Referência: Section A)
+
+a. Exceto para as rotinas especificamente relacionadas ao Campeonato Brasileiro de CPR e tratadas
+   pormenorizadamente no ANEXO I e no ANEXO II deste documento, o Rules Book 2023/2027 -
+   Versão Publicada em Inglês (RBVPI) e disponível no sítio da WRABF (www.wrabf.com), será o
+   único instrumento competente para efeito de resolução de dúvidas e de eventuais controvérsias na
+   interpretação deste texto em português, conforme publicado no sítio da Confederação Brasileira de
+   Tiro Esportivo - CBTE (www.cbte.org.br).
+b. Estão incluídos no presente documento:
+     Regulamento Internacional da WRABF, em sua versão traduzida para a Língua Portuguesa;
+     ANEXO I: Campeonato Brasileiro - Especificidades para a Disciplina WRABF;
+     ANEXO II: Campeonato Brasileiro – Diretrizes para a organização das provas Regionais e da
+       Prova Final.
+c. As informações trazidas por este documento fazem referência às Regras e Normas para a realização
+   de Competições de Carabinas .22 Rimfire e de Carabinas de Ar Comprimido. Tais Regras e Normas
+   foram desenvolvidas especificamente para proporcionar a uniformização das práticas e das rotinas
+   que norteiam, internacionalmente, a disciplina do tiro esportivo sob a responsabilidade da World
+   Rimfire and Air Rifle Benchrest Federation - WRABF.
+d. Em vigor desde o ano de 2013 para os Campeonatos Mundiais e Europeus de Benchrest, aplicáveis às
+   Carabinas Rimfire ou de Ar Comprimido, as presentes Regras Gerais serão utilizadas pelos
+   organizadores e atletas praticantes das divisões vinculadas à disciplina WRABF, com adoção
+   obrigatória na condução de Campeonatos Locais, Nacionais e Continentais.
+e. Como forma de facilitar a localização das regras que norteiam as divisões da disciplina WRABF, em
+   seus tópicos, itens e interpretações, esta versão em português faz referência à numeração original
+   adotada pela versão oficial publicada em inglês (RBVPI).
+f. Para quaisquer alterações do Regulamento sob a bandeira da WRABF serão integralmente cumpridas
+   as premissas previstas no Tópico A.10 do RBVPI
+
+
+B. REGRAS DA COMPETIÇÃO (Referência: Section B)
+
+
+B.1 a B.5 – Definições
+
+a. Agregado (aggregate) – Totalização obtida por meio da soma do conjunto de três cartões de alvos
+   pertencentes a uma mesma divisão e que devem ser realizados em um mesmo dia;
+b. Campeonato (Championship)– Conjunto total de eventos previstos (provas ou competições) e
+   normalmente incluídos no calendário anual de Clubes, Federações ou Confederações;
+c. Disciplina WRABF – Conjunto das divisões que fazem parte das provas e competições realizadas sob
+   o regulamento (Rules Book) da WRABF;
+d. Divisões (Classes) – Separação das Carabinas dentro de grupos com mesmas características de
+   funcionamento (rimfire ou ar comprimido) e alocadas em subgrupos com configurações e
+   especificações próprias (Internacional Sporter, Ligth, Heavy, Unlimited, Springer);
+e. Evento (Event) – É uma Prova/Competição, realizada em um dia ou em dias sequenciais, geralmente
+   válida para a composição de um campeonato.
+f. Match (Match) - Dependendo do contexto em que for utilizado, o termo assume significados
+   diferentes:
+    Quando o evento é realizado em um único horário ou para uma só turma, match tem o mesmo
+       significado de “relay ou partida”;
+    Quando o evento é composto por um conjunto de relays e se estende por apenas um dia, match
+       tem o significado de “competição completa”;
+    Quando o evento é composto por vários conjuntos de relays e se estende por mais de um dia,
+       match tem o significado de “dia de competição”;
+
+                                                                                                    4
+                                                           Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                                 Edição de 06.02.2024 – V2
+g. Partidas – Intervalos de tempo destinados à utilização de um único cartão de alvos (25 zonas de
+   pontuação), no decorrer de um dia de prova ou competição (evento). Também pode ser representado
+   pelo termo Relay;
+h. Relay – Grupo de atletas designados para disparar contra um único cartão de alvos, em um mesmo dia
+   e horário, no decorrer de um dia de prova ou competição (evento). O termo também pode ser
+   utilizado para representar uma Partida.
+
+B.6 - Especificações das Carabinas
+
+B.6.1 - São aceitas na disciplina WRABF:
+a. Carabina no calibre .22 Rimfire, com câmara preparada para munição Short, Long ou Long Rifle;
+b. Carabinas de ar comprimido, com câmara preparada para .177 (4,5mm), .20 (5,0mm) ou .22 (5,5mm)
+    e com potência e velocidade estabelecidas conforme indicadas na seção de designação das divisões.
+    Carregadores (magazines) são permitidos.
+c. O uso de quaisquer tipos e/ou formas de equipamentos eletrônicos é estritamente proibido, em todas
+    as divisões da WRABF. Exceção é feita à utilização de temporizadores eletrônicos, desde que estes
+    sejam incapazes de emitir qualquer tipo de som (ao uso de temporizadores aplicam-se as regras do
+    espírito desportivo – item C.18 do RBVPI).
+
+B.6.2 - Divisões
+Conforme regulamentação contida neste documento, no âmbito da CBTE - Confederação Brasileira de
+Tiro Esportivo e de suas Filiadas, assim como em qualquer entidade localizada no território brasileiro, as
+divisões da disciplina WRABF – Word Rimfire and Air Rifle Benchrest Federation são as seguintes.
+
+
+#1 - CARABINA WRABF – RIMFIRE .22 (FOGO CIRCULAR)
+
+
+a. Rimfire Internacional Sporter Rifle (Fogo Circular .22 - 50 metros)
+
+Carabina de fogo circular – RF-SR, carabina disparada somente por meio de mecanismo mecânico e
+manual, com até 3,855kg (8.5 libras), com tolerância de +28,0g, já incluído o sistema de pontaria. Outras
+especificações a serem seguidas:
+    i.  A execução de bedding e/ou recoroar a boca do cano são permitidos.
+   ii.  O trabalho do gatilho ou a sua substituição são permitidos, sendo expressamente proibidos os
+        gatilhos eletrônicos ou mecanicamente assistidos.
+ iii.   É aceitável a instalação de colunas de fixação da ação (pillar bedding) e/ou o bedding do cano
+        com massa epóxi/fibra de vidro, assim como também é permitida que a parte de frente da coronha
+        seja aberta para deixar o cano “flutuar”.
+  iv.   Qualquer luneta pode ser utilizada, desde que não ultrapasse a magnificação de 12 vezes. No
+        entanto, quando for utilizada luneta com magnificação variável e com opções superiores a 12
+        vezes, deve ser providenciado o travamento do equipamento de pontaria durante toda a
+        competição, com a utilização de material antifraude, de forma a impossibilitar uma eventual
+        mudança não autorizada da magnificação.
+   v.   É expressamente “não permitida” a inclusão de pesos adicionais ao cano, os ajustadores de
+        harmônicos, os estabilizadores de projéteis, dispositivo antivibração e os acréscimos de quaisquer
+        outros equipamentos ou acessórios ao cano.
+  vi.   As miras frontais originais podem ser deixadas no lugar. Entretanto, elas não podem ser alteradas
+        ou substituídas. Também não é permitida a adição de outra mira frontal.
+ vii.   A estrutura do cano deve ser a de uma peça fixa de metal, independentemente de sua forma, sem
+        acessórios móveis, exceto a porca utilizada para fixar o cano à ação.
+viii.   Podem ser utilizadas quaisquer coronhas que atendam às regras estabelecidas em “Esclarecimento
+        de Coronhas” (ver APÊNDICE F).
+
+                                                                                                        5
+                                                         Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                               Edição de 06.02.2024 – V2
+b. Rimfire Light Rifle (Fogo Circular .22 - 50 metros)
+
+Carabina de fogo circular – RF-LR, carabina disparada somente por meio de mecanismo mecânico e
+manual, com até 4,762kg (10.5 libras), com tolerância de +28,0g, incluindo todos os acessórios anexados
+e as modificações realizadas na carabina. Outras especificações a serem seguidas:
+   i.  Qualquer modificação pode ser feita na carabina e qualquer aparelho de pontaria pode ser
+       utilizado.
+  ii.  Podem ser utilizadas coronhas de fábrica ou modificadas, desde de que cumpram integralmente as
+       regras estabelecidas em “Esclarecimento de coronhas” (ver APÊNDICE F).
+ iii.  Pesos de cano, dispositivo antivibração, ajustadores de harmônicos e/ou estabilizadores de
+       projéteis são permitidos, mas serão incluídos no peso total da carabina.
+ iv.   Não são permitidos gatilhos eletrônicos externos ou assistidos mecanicamente.
+  v.   Fitas para coronhas são permitidas.
+
+c. Rimfire Heavy Rifle (Fogo Circular .22 - 50 Metros)
+
+Carabina de fogo circular – RF-HR, carabina disparada somente por meio de mecanismo mecânico e
+manual, com até 6,803Kg (15 libras), com tolerância de +28,0g, incluindo todos os acessórios anexados e
+as modificações realizadas na carabina.
+   i.  Qualquer modificação pode ser feita na carabina e qualquer aparelho de pontaria pode ser
+       utilizado.
+  ii.  Podem ser utilizadas coronhas de fábrica ou modificadas, desde de que cumpram integralmente
+       as regras estabelecidas em “Esclarecimento de coronhas” (ver APÊNDICE F).
+ iii.  Pesos de cano, dispositivo antivibração, ajustadores de harmônicos e/ou estabilizadores de
+       projéteis são permitidos, mas serão incluídos no peso total da carabina.
+ iv.   Não são permitidos gatilhos eletrônicos externos ou assistidos mecanicamente.
+  v.   Fitas para coronhas são permitidas.
+
+#2 - CARABINA WRABF – AIR RIFLE (AR COMPRIMIDO)
+
+a. Air Light Rifle (25 Metros)
+
+Carabina de ar comprimido – AR-LR, carabina com até 4,762kg (10,5 libras), com tolerância de +28,0g,
+incluindo sistema de pontaria e todos os acessórios anexados, nos calibres 4,5mm, 5,0mm ou 5,5mm.
+    i.  Podem ser utilizadas coronhas de fábrica ou modificadas, desde de que cumpram integralmente as
+        regras estabelecidas em “Esclarecimento de coronhas” (ver APÊNDICE F).
+   ii.  Pesos de cano, ajustadores de harmônicos e/ou estabilizadores de projéteis são permitidos, mas
+        serão incluídos no peso total da carabina.
+ iii.   Reguladores de ar podem ser utilizados, desde que sejam integrados à carabina.
+  iv.   Lunetas de quaisquer magnificações podem ser utilizadas.
+   v.   O cano e a ação podem conter bedding e os gatilhos podem ser retrabalhados ou substituídos.
+  vi.   Gatilhos eletrônicos integrados à carabina são permitidos. Entretanto, são expressamente
+        proibidos os gatilhos externos ou assistidos externamente, sejam eles mecânicos ou eletrônicos.
+ vii.   Fitas para coronhas são permitidas.
+viii.   Carregadores (magazines) são permitidos.
+  ix.   A potência máxima da carabina está restrita a 16,27 Joules ou 12 libras/pé.
+
+b. Air Heavy Rifle (25 metros)
+
+Carabina de ar comprimido - AR-HR, carabina com até 6,803kg (15,0 libras), com tolerância de +28,0g,
+incluído o sistema de pontaria e todos os acessórios anexados, nos calibres 4,5mm, 5,0mm ou 5,5mm.
+   i.   Podem ser utilizadas coronhas de fábrica ou modificadas, desde de que cumpram integralmente as
+        regras estabelecidas em “Esclarecimento de coronhas” (ver APÊNDICE F).
+  ii.   Qualquer modificação pode ser feita na carabina.
+                                                                                                      6
+                                                                  Confederação Brasileira de Tiro Esportivo
+                                    Carabina WRABF - Regulamento Específico
+                                                                                            Edição de 06.02.2024 – V2
+ iii.   Reguladores de ar podem ser utilizados desde que sejam integrados à carabina de ar.
+ iv.    Carregadores (magazines), pesos de cano, muzzle breaks, muzzle flips, ajustadores de harmônico
+        ou estabilizadores de projétil são permitidos, sendo todos obrigatoriamente incluídos no peso total
+        da carabina.
+  v.    Lunetas de quaisquer magnificações podem ser utilizadas.
+ vi.    O cano/ação podem conter bedding e gatilhos modificados ou substituídos são permitidos.
+vii.    Cilindros separados não são permitidos. Não há restrição quanto à capacidade ou tamanho do
+        cilindro, desde que faça parte integral da carabina e seu peso seja incluído no peso total.
+viii.   Gatilhos eletrônicos integrados à carabina são permitidos. Entretanto, são expressamente
+        proibidos os gatilhos externos ou assistidos externamente, sejam eles mecânicos ou eletrônicos.
+ ix.    Fitas para coronhas são permitidas.
+  x.    A potência máxima está restrita a 27,12 Joules ou 20 libras/pé.
+
+c. Air Unlimited Rifle (50 metros)
+
+Carabina de ar comprimido – AR-UR, de calibre até 5,5 mm, sem restrições de peso, de energia, de
+velocidade, de ajustes ou dimensões de coronha, de magnificação de lunetas, com um mecanismo de
+disparo operado manualmente, mecanicamente ou eletronicamente.
+   i.   Gatilhos eletrônicos integrados são permitidos. Não é permitido nenhum tipo de gatilho
+        eletrônico externo.
+  ii.   A carabina pode ser disparada com a utilização de apoios dianteiro e traseiro, bipé ou X-bag.
+ iii.   Carregadores (magazines) e silenciadores/supressores são permitidos.
+ iv.    Não há restrição quanto ao tamanho ou à capacidade do cilindro de ar comprimido instalado na
+        carabina.
+  v.    É permitida a conexão permanente (fixa) de suprimento de ar suplementar, utilizando uma garrafa
+        solidária (externa) ao cilindro de ar de uma carabina. A conexão fixa deve ser feita com
+        segurança e utilizando uma garrafa solidária com capacidade máxima de 3 litros.
+ vi.    As garrafas solidárias (buddy) são pequenos reservatórios de ar, compactos e tradicionalmente
+        com capacidade para até 3 litros. Não são permitidas conexões fixas com cilindros de mergulho
+        (scuba) ou qualquer outro tipo de reservatório com capacidade superior a 3 litros.
+
+ATENÇÃO: O alvo padrão e a distância adotada para a divisão AR-UR são os mesmos utilizados para as
+divisões Rimfire (50m).
+
+
+
+
+                  Figura 1 - AR-UR: Exemplo de garrafa solidária (buddy) anexada ao cilindro de ar.
+
+d. Air Springer Rifle (Carabinas por ação de mola ou pneumática - 25 Metros)
+
+Carabina de ar comprimido – AR-SR, carabina disparada somente por meio de mecanismo mecânico e
+manual, com pistão propelido por ação de mola ou por ação de mola pneumáticas (Gás Ram), nos calibres
+4,5mm, 5,0mm ou 5,5mm, sem limite de peso e sem restrições às modificações.
+
+Deve ser enfatizado que a divisão Air Springer Rifle - AR-SR não está prevista no Regulamento da
+WRABF (versão RBVPI). Praticada exclusivamente em território brasileiro, tem o objetivo de servir
+como divisão base para o aprendizado técnico da disciplina e também como facilitadora de acesso para
+atletas principiantes.
+
+                                                                                                                   7
+                                                             Confederação Brasileira de Tiro Esportivo
+                                   Carabina WRABF - Regulamento Específico
+                                                                                   Edição de 06.02.2024 – V2
+B.7 - Especificações de Munição.
+
+São utilizadas na disciplina WRABF:
+a. Munição .22 Rimfire, que deve ter um projétil de chumbo montado em cartucho Short, L ou LR;
+b. Munição para as Carabinas de Ar Comprimido, que deve ser um pellet ou um slug, ambos
+    confeccionados exclusivamente em chumbo, nos calibres .177 (4,5mm), .20 (5,0mm) ou .22 (5,5mm).
+c. Serão desqualificados os atletas que usarem munição rimfire recarregada à mão e/ou munição
+    produzida com projétil encamisado ou, ainda, se utilizarem de munição não disponível em pontos de
+    venda regulares.
+
+B.8 - Apoios (Rests)
+
+a. O apoio frontal (front rest) deverá suportar apenas a parte frontal da carabina.
+b. O apoio traseiro (rear rest) deverá suportar apenas a parte traseira do carabina.
+c. Nenhum dos apoios pode ser fixado na bancada, na carabina ou serem conectados entre si, ou seja, o
+   apoio frontal e o apoio traseiro devem se mover independentemente um do outro.
+
+B.8.1 Apoio Frontal (Front Rest)
+
+a. Geralmente, os dispositivos destinados ao apoio dianteiro não possuem restrições em termos de peso,
+   material e projeto (Ver APÊNDICE G do RBVPI).
+b. Se for utilizado um apoio frontal (exceto o bipé), ele deverá incorporar uma almofada flexível
+   preenchida com material que cede facilmente à pressão e ao peso.
+c. A parte frontal da carabina será apoiada somente nas almofadas flexíveis do apoio frontal e não deve
+   entrar em contato com nenhuma outra parte desse apoio, exceto com o batente limitador utilizado
+   para regular a distância que a carabina é movida em direção ao alvo. Este item não se aplica quando
+   for utilizado saco de areia ou bipé como apoio frontal.
+d. O apoio frontal pode incorporar ajustes verticais e horizontais, com qualquer mecanismo apropriado
+   usado para conseguir isso.
+e. Se for usado um bipé, será aplicada a restrição de peso de 800 gramas. O bipé não será incluído no
+   peso da carabina.
+f. Enquanto o bipé simples apenas se desloca ou se inclina, o bipé mecânico permite ajustes da mesma
+   forma que um apoio dianteiro, ou seja, possui mecanismos que fornecem ajustes verticais e
+   horizontais. Dessa forma, o bipé mecânico será considerado descanso frontal e será pesado com a
+   carabina.
+
+B.8.2 Apoio Traseiro (Rear Rest)
+
+a. Pode ser uma bolsa, uma série de bolsas ou estrutura fixa em altura que suporte uma bolsa flexível.
+b. O descanso traseiro pode incorporar espaçadores verticais caso não possua ajuste verticais para
+   aquisição do alvo.
+c. O espaçador vertical não deve conter saliências que possam ser inseridas na bancada ou no saco de
+   areia.
+d. O apoio traseiro não pode ser contido de forma alguma.
+e. O descanso traseiro não pode conter capacidade de ajuste horizontal, apenas mecanismos de ajuste
+   vertical serão permitidos, de acordo com as regras abaixo.
+
+B.8.2.1 Se for utilizado um apoio dianteiro ou pedestal, o descanso traseiro pode incorporar espaçadores
+verticais, tais como "rosquinhas" ou estrutura fixa. Superfície antiderrapante pode ser utilizada para evitar
+que o apoio deslize sobre a bancada.
+
+B.8.2.2 Se um bipé for usado, o descanso traseiro pode incorporar espaçadores verticais, tais como
+“rosquinhas”, se não tiver ajustes mecânicos verticais, para ajudar na aquisição do alvo. Superfície
+antiderrapante pode ser utilizada para evitar que o apoio deslize sobre a bancada.
+                                                                                                           8
+                                                          Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                                Edição de 06.02.2024 – V2
+B.9 – Sacos de Areia (Sand Bag)
+
+a. Os sacos de areia devem ser feitos obrigatoriamente de couro e/ou tecido (nylon ou poliéster) e
+   preenchidos com material que ceda prontamente à pressão ou ao peso, em teste de pressão realizado
+   com o dedo.
+b. Nos sacos de areia podem ser utilizadas superfícies antiderrapantes no contato com a bancada.
+c. Compostos, materiais ou fitas de talco ou antiderrapantes podem ser usados para ajudar no
+   deslizamento da carabina.
+
+B.10 – Restrições ao Movimento, à Redução ou ao Controle do Recuo da Carabina (Restraint to
+       reduce or manage recoil))
+
+O recuo em carabinas rimfire ou carabinas de ar comprimido é insignificante, mas pode ser reduzido com
+a utilização de peso extremo. A definição de “fixação” no contexto destas regras é: prender uma carabina
+a um apoio pesado (dianteiro ou traseiro), muitas das vezes com peso superior a dez quilos. Esse ato tem
+o potencial de reduzir ou até mesmo anular o recuo da carabina e é proibido. Assim, aplicar-se-á as
+seguintes diretrizes:
+a. Os apoios dianteiros e/ou traseiros da carabina não podem ser usados para conter o recuo da carabina.
+b. Se for utilizado um apoio frontal (APÊNDICE G do RBVPI), por consequência do peso extremo
+     desse equipamento, a carabina deve permitir ser levantada verticalmente OU deslizar livremente para
+     frente e para trás, possibilitando que seja determinado se está sendo presa nos apoios.
+c. Se o apoio dianteiro e/ou traseiro for levantado com a carabina OU a carabina não puder ser deslizada
+     no apoio dianteiro e/ou traseiro, só então a regra de fixação deve ser aplicada: os descansos devem
+     então ser pesados com a carabina para determinar a elegibilidade de divisão.
+d. Se a carabina puder deslizar livremente para frente e para trás, ela não será considerada presa.
+e. Em geral, nenhum equipamento do atleta poderá ser preso à bancada.
+f. Se for utilizado um saco de areia traseiro em conjunto com um bipé, serão seguidas as mesmas regras
+     que o apoio de pedestal, exceto quanto ao indicado especificamente no item 8.2.
+g. Se for utilizado um bipé, ele tem a limitação de peso fixada em 800 gramas.
+      i. Os bipés serão pesados separadamente das carabinas para se determinar a elegibilidade de
+         divisão.
+     ii. A utilização de qualquer bipé com peso superior a 800 gramas ocasionará a adição do peso
+         excedente ao peso total da carabina.
+    iii. Os pés do bipé devem ter desenho que permita o recuo da carabina na bancada. Embora pés tipo
+         “esqui ou de borracha” sejam permitidos, são expressamente proibidos pés com pontas e garras
+         que possam ser ‘cravados’ na bancada e potencialmente controlar o recuo da carabina.
+    iv. Quando usado em conjunto com um bipé, o descanso traseiro (rear rest) segue as mesmas regras
+         válidas para quando é utilizado com um descanso tipo pedestal (APÊNDICE G do RBVPI).
+      v. Um bipé, por sua natureza, permite que uma carabina recue. Ele só poderia ser contido na
+         bancada, o que é expressamente proibido
+
+B.11 – Guias para Orientação Forçada de Movimento (Guiding mean)
+
+São expressamente considerados ilegais quaisquer equipamentos, dispositivos, adições, contornos ou
+dimensões de uma carabina que sejam utilizados como meio para guiá-la de volta à sua posição inicial de
+tiro, eliminando a necessidade de se mirar oticamente para a realização de cada tiro.
+
+B.12 Linha de Tiro (Firing Line).
+
+A linha de tiro deve ser preferencialmente coincidente com a borda dianteira da bancada. Caso contrário,
+a linha deve estar claramente marcada no tampo da bancada.
+
+
+
+
+                                                                                                       9
+                                                          Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                                Edição de 06.02.2024 – V2
+B.13 Bancada (Bench)
+
+a. Uma bancada deve ser uma plataforma rigidamente construída, possibilitando que o atleta seja capaz
+   de sentar e de ajustar a altura de sua preferência pessoal, por meio de um assento ou banqueta.
+b. As bancadas devem ser construídas para permitir a sua utilização por atletas destros ou canhotos.
+c. Durante uma partida (relay), os atletas ou integrantes das equipes não podem ocupar as bancadas se
+   não estiverem competindo.
+d. Haverá a designação de uma linha que os atletas ou espectadores não podem cruzar, caso não estejam
+   participando da partida em curso.
+
+B.14 Posição da Carabina na Bancada (Position on the bench).
+
+A carabina deve ser colocada de modo que a ponta de seu cano aponte em direção à parte frontal da
+bancada e que todo o receptor (ação ou caixa de culatra) da carabina esteja atrás da linha de tiro.
+
+B.15 Bancadas Não Utilizadas (Unused Benches)
+
+Nenhum atleta ou membro de equipe ocupará qualquer banco, em qualquer partida em que pessoalmente
+não esteja competindo.
+
+B.16 Altura das Bancadas (Bench Height)
+
+a. A altura do cartão de alvos deve ser superior à altura da bancada, tendo como referência para medição
+   o nível horizontal obtido a partir do piso onde estiverem localizadas as bancadas. Tal critério será
+   considerado para a avaliação de eventuais candidaturas para sediar um evento.
+b. Nos casos em que a implementação da altura dos alvos prevista no item acima não seja possível,
+   devido à concepção ou ao relevo do estande, deve ser apresentado pelo interessado um pedido de
+   avaliação à Direção Técnica da WRABF, com pelo menos 120 dias de antecipação à data do evento.
+c. A aprovação não será negada injustificadamente.
+
+
+C. CONDUÇÃO DA COMPETIÇÃO (Referência: Section C)
+
+
+C.1 Cartão de Alvos (Targets).
+
+Em todos os eventos da World Rimfire e Air Rifle Benchrest Federation - WRABF serão utilizados os
+Cartões Oficiais mundialmente destinados às Carabinas Rimfire e às Carabinas de Ar Comprimido, com o
+layout mestre do cartão de prova fornecido para a impressão em folha A3. As especificações e dimensões
+são as previstas no APÊNDICE E do Rules Book 2023/2027 - RBVPI.
+a. Os cartões de alvos consistem em 25 alvos de pontuação, individualmente inseridos em uma caixa de
+    pontuação (quadrado destacado em vermelho) e contendo alguns anéis coloridos destinados à sua
+    melhor visualização. A borda interna dos anéis representa a melhor pontuação.
+b. No Brasil, os cartões homologados são produzidos e fornecidos pelo fabricante LCL Comércio de
+    Alvos Ltda., com impressão realizada em papel de no mínimo 300/350 g/m².
+c. Os cartões de alvos são registrados e protegidos por direitos autorais (Copyright) para o uso da
+    WRABF e da ERABSF, incluindo-se todas as associações membros. Em todas as outras
+    circunstâncias, os cartões só serão utilizados mediante prévia autorização formal dos Delegados
+    Regionais Oficiais, observada a competente legislação referente aos direitos autorais e à propriedade
+    intelectual em cada uma das Regiões.
+
+
+C.1.1 – Posicionamento dos Alvos (APÊNDICE E – RBVPI)
+
+                                                                                                      10
+                                                           Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                                 Edição de 06.02.2024 – V2
+a. Os cartões devem ser fixados nos suportes somente na posição horizontal/paisagem.
+b. Os modelos de referência para os cartões a serem utilizados nas diferentes divisões são:
+         i.   Air Springer Rifle, Light Rifle e Heavy Rifle: Ref. LCL 08A – Cartão para 25 metros
+        ii.   Air Unlimited Rifle: Ref. LCL 08B – Cartão para 50 metros
+       iii.   Rimfire International Sporter Rifle, Light Rifle e Heavy Rifle: Ref. LCL 08B – Cartão para
+              50 metros
+d. Há dois diferentes cartões de alvos, um para disparos a 25 metros e outro para disparos a 50 metros,
+   sendo obrigatório que ambos sejam fixados nos suportes na posição horizontal/paisagem.
+         i.   Será considerada nula a partida feita em cartão de alvos não compatível com o previsto
+              neste regulamento.
+e. Os suportes dos cartões de alvos serão posicionados em distância medida a partir da linha de tiro,
+   observadas as respectivas divisões:
+         i.   Air Springer Rifle, Light Rifle e Heavy Rifle: na distância de 25 metros.
+        ii.   Air Unlimited Rifle: na distância de 50 metros.
+       iii.   Rimfire International Sporter Rifle, Light Rifle e Heavy Rifle: na distância de 50 metros.
+f. A critério do organizador da competição, será imputada penalidades pela utilização indevida do
+   cartão de alvos ou de seu suporte, a saber:
+         i.   Por atingir o suporte do cartão de alvo: multa de R$ 20,00, por disparo identificado.
+        ii.   Por atingir os logotipos ou as áreas destinadas às anotações de apuração ou a etiqueta de
+              identificação do atleta: multa de R$ 5,00, por disparo identificado.
+
+C.2 Conjunto Oficial de Cartões de Alvos (Official Set of Targets).
+
+Deve ser fornecido ao atleta um cartão de alvos por partida, que deverá ser claramente identificado: o
+número de identificação do atleta deve ser impresso em uma etiqueta/adesivo aplicada ao cartão, que trará
+ainda as informações referentes à divisão, à data, ao número do relay e ao número da bancada.
+
+C.3 Cartão Desalojado de Seu Suporte (Target Dislodged).
+
+Se um cartão se soltar de seu suporte durante uma partida, o Árbitro deverá interrompê-la e providenciar
+para que o alvo seja recolocado no suporte, adicionando mais 2 minutos ao tempo total do relay. Durante
+a correção da ocorrência, todos os atletas devem ficar afastados da linha de bancadas.
+
+C.4 Cartões de Alvos Perdidos (Lost Targets).
+
+Se um cartão de alvos é perdido (por culpa das condições do estande ou do clima) e o atleta tiver todos os
+outros cartões completos, a pontuação para o alvo perdido será a média da pontuação obtida nos cartões
+apurados. É responsabilidade do pessoal designado para a troca e guarda se assegurar que haja proteção
+adequada para os cartões de alvos, principalmente contra as intempéries e outras condições de campo,
+grampeando-os nos suportes se necessário.
+
+C.5 Exposição e Protesto dos Cartões de Alvos (Posting of Targets).
+
+Todos os cartões de alvos concluídos devem ser afixados em uma área comum (Muro das Lamentações) e
+exibidos para todos os competidores visualizarem, observado o seguinte:
+a. Nenhum concorrente deve remover quaisquer dos cartões de alvos da área de exibição, até que o
+    número de cartões (agregado) previstos para o dia tenham sido concluído e o tempo de protesto para
+    esse agregado tenha expirado.
+b. Se uma equipe ou indivíduo desejar apresentar um protesto, em relação às marcações de cartões de
+    alvos, deve consultar o RBVPI, Seção E - Procedimentos de reconferência de cartões.
+c. Caso surja algum problema em relação aos agregados, o Comitê de Protesto pode exigir que os
+    cartões de alvos sejam apresentados. No entanto, deve-se notar que a reconferência de cartões de
+    alvos não pode ser realizada após o término do tempo de protesto.
+
+                                                                                                       11
+                                                          Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                                Edição de 06.02.2024 – V2
+d. Quando um alvo for plugado e assinalado com a letra 'P', ele não mais será reconferido.
+e. Em circunstâncias excepcionais devido a um protesto, o COMITÊ DE PROTESTO pode, a seu
+   critério, usar um sistema de “EAGLE EYE” para determinar o resultado. Este não é um direito
+   automático e fica a critério do COMITÊ DE PROTESTO testar e alterar uma pontuação plugada.
+f. O correto armazenamento dos alvos de tiro será assegurado pelo Árbitro/Oficial responsável pelo
+   processo de apuração.
+g. Se um competidor for desclassificado por qualquer motivo, a pontuação para a partida em que
+   ocorreu o fato será anotada como "DQ". O Árbitro responsável pela penalidade informará o motivo
+   do DQ nos resultados da partida.
+h. Se um competidor não terminar o seu cartão de alvos no tempo regulamentar, a pontuação será
+   informada como "DNF".
+
+C.6 Remoção de Alvos (Removal of Targets).
+
+a. A remoção antecipada de alvos, realizada por um atleta antes do término do respectivo prazo de
+   protesto, revoga automaticamente todos os seus direitos de protesto, podendo levar à sua
+   desqualificação.
+b. A Comissão Organizadora deverá fornecer armazenamento adequado para alvos durante um
+   campeonato, para aqueles atletas que, após encerrado o tempo previsto para os protestos, não
+   removerem seus alvos até a conclusão do evento.
+
+C.7 Instalações Para Apuração de Cartões de Alvos (Target marking facilities).
+
+a. É obrigatória a disponibilidade de uma instalação separada e destinada aos procedimento de apuração
+   de cartões de alvos, com acesso restrito e não permitido aos atletas e ao público em geral.
+b. Toda apuração de cartões de alvos deve ser conduzida por dois Árbitros/Oficiais especificamente
+   designados para essa tarefa, um para realizar a apuração primária da pontuação, usando o
+   equipamento aprovado, e o outro para atuar como responsável pela verificação e aposição das
+   respectivas etiquetas de resultado, a conferência e o registro das ocorrências.
+
+C.8 Procedimentos Para Apuração dos Cartões de Alvos (Target Marking Procedures).
+
+a. Qualquer número de tiros pode ser disparado contra os alvos de ensaio (na cor vermelha) localizados
+   à esquerda e à direita das caixas de pontuação.
+b. Todos os cartões serão apurados e pontuados utilizando-se o mesmo plug (gauge) com a medida
+   .224”, independentemente da divisão (rimfire ou ar comprimido).
+c. Serão contados todos os impactos que estejam inseridos nas caixas de pontuação ou que toquem as
+   suas linhas externas DESTACADAS EM VERMELHO.
+d. Se o primeiro tiro impactar indevidamente a caixa de pontuação, o atleta deve notificar o Árbitro da
+   prova antes de disparar outro tiro. Após inspecionar o cartão de alvos, o Árbitro anotará a observação
+   no local em que ocorreu o impacto indevido, para que o tiro não seja computado no resultado do
+   cartão. Este procedimento só será permitido em uma única ocasião durante uma partida: erro de
+   primeiro tiro.
+e. Caso apareça mais de um impacto em uma caixa de pontuação, apenas a pontuação mais baixa será
+   contada.
+f.   Na apuração do cartão de alvos, se a soma dos impactos na área de pontuação for superior a 25, uma
+     penalidade de 1 ponto será atribuída para cada impacto que extrapolar o quantitativo máximo
+     permitido (25).
+
+C.8a Melhor Pontuação (Best Edge).
+
+                                                                                                      12
+                                                           Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                 Edição de 06.02.2024 – V2
+  i.   O princípio da Melhor Pontuação será usado na apuração dos cartões de alvos: se o buraco do tiro
+       tocar a borda do anel com a maior pontuação, a pontuação mais alta será concedida.
+ ii.   Um buraco de projétil tocando o menor anel interno (X) do alvo, correspondente ao cartão de alvos
+       para 50 metros, receberá uma pontuação X. No cartão de alvos para 25 metros o anel
+       correspondente ao 10 deverá ser completamente obliterado para que se tenha a contagem de um X.
+iii.   A pontuação deve ser registrada em cada caixa de pontuação (no campo apropriado), sob a forma de
+       X ou de pontos a serem retirados do total.
+iv.    Um tiro na caixa de pontuação que não atinja a borda do maior anel será pontuado como 4 pontos.
+ v.    Todos os impactos que estiverem próximos às linhas internas dos anéis serão plugados.
+vi.    Rasgos ou distorções no alvo não serão contabilizados.
+vii.   A pontuação perfeita a ser obtida é 250 pontos com 25X's.
+
+C.8b Caixa de pontuação do Cartão de Alvos (Scoring box).
+Somente os impactos que tocarem a linha ou entrarem na caixa de pontuação serão contados e pontuados.
+
+C.8c Plug para a apuração (Scoring Plugs).
+  i. Todos os tiros que não puderem ser pontuados por verificação visual serão apurados com a
+     utilização de um plug (gauge) com medida .224”, devidamente certificado pelos delegados
+     regionais.
+ ii. A caixa de pontuação em que for utilizado o plug deve ser marcada com um "P" no campo próprio.
+iii. Um alvo não pode ser “replugado”, mesmo que a sua pontuação seja contestada (ver C.5).
+iv. A pontuação apurada manualmente só se aplica às competições organizadas por confederações,
+     federações, regiões ou clubes.
+ v. Serão apurados eletronicamente todos os eventos designados como sendo “WRABF/ERABSF
+     Championships”. O processo de apuração eletrônica está descrito na Seção L do Rules Book
+     (RBVPI).
+
+C.8d Caixa de pontuação com vários impactos (Multiple shots on Targets).
+Caso vários tiros apareçam em uma caixa de pontuação, apenas a pontuação mais baixa será contada e
+será subtraído 1 ponto a título de penalidade.
+
+C.8e Impactos entre as Caixas de Pontuação (Shots between target blocks).
+Se um tiro aparecer entre as caixas de pontuação, ele será plugado para que se identifique em qual caixa
+de pontuação está localizada a maior parte do impacto. A caixa de pontuação com a maior parte do buraco
+será registrada como tendo recebido o tiro.
+
+C.8f Erro de primeiro tiro (First Shot error).
+Se o primeiro tiro no papel atingir involuntariamente uma caixa de pontuação, o Árbitro da linha de tiro
+deve ser informado antes que o segundo tiro seja disparado. O Árbitro deve verificar visualmente o alvo
+com a utilização de uma luneta e fazer a correspondente anotação no alvo imediatamente após o termino
+do relay. Nenhuma penalidade será aplicada.
+
+C.8g Primeira pontuação diferente de “10” (First Miss - FM).
+ i. A identificação do primeiro tiro que não seja “10” será realizada considerando todas as caixas de
+     pontuação.
+ ii.   A verificação será realizada de forma sequencial iniciando-se pela caixa de pontuação número “1”.
+iii.   A primeira caixa de pontuação a receber um tiro que não seja “10” será gravada como FM (First
+       Miss).
+iv.    Se todas as caixas de pontuação (1 a 25) forem impactadas no “10” (pontuação de 250), a primeira
+       caixa de pontuação que não receber um tiro no “X” será gravada como FM.
+                                                                                                    13
+                                                              Confederação Brasileira de Tiro Esportivo
+                                   Carabina WRABF - Regulamento Específico
+                                                                                      Edição de 06.02.2024 – V2
+ v.    Se ainda persistir o empate (250/25X), o primeiro X que não estiver completamente obliterado será
+       gravado como FM.
+vi.    A registro FM deverá ser feito nas áreas destinadas às anotações existentes nas caixas de pontuação.
+vii.   Quando mais de um cartão de alvo é utilizado durante uma competição e as pontuações empatarem,
+       os procedimentos de obtenção do FM deverá ocorrer em todos os cartões de alvos, na sequência em
+       que foram utilizados.
+
+C.8h Impressão dos Resultados (Results Printout).
+  i. Depois que todos os resultados de uma partida (relay) forem registrados, um relatório preliminar
+     com a pontuação será impresso.
+ ii. O responsável pela apuração analisará o relatório com o objetivo de identificar quaisquer erros
+     óbvios e, se ocorreram, providenciar as correções.
+iii. Em seguida, ele analisará o relatório em busca de qualquer empate que o Programa de Pontuação
+     não identificou (Ex.: FM).
+iv. Caso seja encontrada inconsistência, ele anotará no relatório e também informará ao Comitê de
+     Protesto.
+ v. O relatório preliminar com os resultados da partida será afixado juntamente com os cartões de
+     alvos.
+
+C.8i Apuração Eletrônica (Electronic Scoring).
+Quando a apuração eletrônica for utilizada, o Diretor da Prova garantirá que as regras acima sejam
+utilizadas quando for necessário, sem prejuízo de quaisquer direitos de protesto, remarcação manual, etc.
+
+
+
+
+                      Figura 2 – Apurando cartões de alvos com a utilização de plug (gauge)
+
+Procedimentos para Protestos e Comandos na Linha de Tiro
+(Protest Procedures & Range Commands)
+
+C. 9 Empates: Procedimento do Comitê de Protesto (Ties: Protest Committee Procedure).
+
+C9a Empates: Cartão de Alvos Único (Target Ties)
+Os empates são quebrados observando-se primeiro a quantidade de X e, depois, a ocorrência do FM (First
+Miss). Se ainda houver empate, o FM para as ocorrências de X será usado para o desempate.
+
+C9b Empates: Agregado de três Cartões de Alvos (Three Target Aggregate Ties).
+Em uma divisão específica, para se apurar o vencedor, os empates serão quebrados comparando-se a
+pontuação obtida no primeiro cartão de alvos: a maior pontuação vence. Se o empate ainda existir, será
+                                                                                                   14
+                                                            Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                   Edição de 06.02.2024 – V2
+comparada a pontuação do segundo cartão e, se o empate ainda existir, será comparada a pontuação do
+terceiro cartão.
+C9c Empate no Grande Agregado. (Mais de 3 Alvos - Equipes) (Grand Aggregate Tie).
+  i. Se houver empate na pontuação total e também na quantidade de X, tal empate será quebrado
+     comparando-se as pontuações dos primeiros cartões de alvos dos atletas com as maiores pontuações
+     (Nº1) em cada equipe: vence o que tiver a maior pontuação.
+ ii. Se ainda existir um empate, será comparada a pontuação do segundo cartão e, se ainda existir um
+     empate, então será comparada a pontuação do terceiro cartão.
+iii. Se o empate continuar, a comparação dos cartões de alvos passará para os atletas com as segundas
+     maiores pontuações dentro das equipes (No2), e assim por diante.
+iv. Se ainda houver empate, será utilizado o critério do FM (first miss) para desempatar.
+
+C.10 Contra Alvos (Stationary Backers).
+
+  i.   Os contra alvos são desejáveis, mas de uso opcional.
+ ii.   Se forem utilizados, serão instalados atrás dos suportes de cartões de alvos, em todos as partidas
+       (relays) e com a seguinte configuração: perfeitamente alinhados e fixados na distância de 1m atrás
+       do suporte dos cartões.
+iii.   No caso de tiro cruzado ou dúvidas em cartões de alvos, os contra alvos não serão retirados até que
+       o assunto seja resolvido pelo Árbitro.
+iv.    Qualquer método justo e apropriado de se usar contra alvos será discutido antes do início das
+       partidas (relays), para que todos os atletas entendam seu uso.
+
+C.11 Instruções Gerais – Primeiro Cartão de Alvos de cada Divisão (First Match General
+     Instructions).
+
+Antes do início de cada partida (relay) que utilizará o primeiro cartão de uma divisão, as instruções gerais
+serão anunciadas pelo Árbitro responsável pela linha de tiro. Elas devem ser iguais ou semelhantes aos
+exemplificados a seguir, respeitados os requisitos locais:
+   i. Durante a partida, se surgir uma emergência que exija um cessar fogo imediato, eu comandarei
+      emergência: "cessar fogo – abram imediatamente os ferrolhos e/ou as culatras de suas
+      carabinas".
+       As carabinas de ar também devem abrir seus mecanismos de disparo,
+       Isso permitirá que todas as carabinas fiquem em condições seguras, mesmo sem extrair a
+        munição da câmara.
+       Este comando só será dado em casos de emergência extrema, oportunidade em que não será
+        permitido que os atletas limpem suas carabinas disparando.
+  ii. Se surgir uma situação que exija a suspensão temporária dos disparos, eu ordenarei: "Suspendam
+      seus disparos – limpem suas carabinas disparando, removendo o ferrolho e/ou abrindo a
+      culatra e inserindo a bandeira de segurança (safety flag)".
+ iii. “Não coloquem nenhuma munição na câmara até que seja realizado o comando ”Comece a
+      disparar”.
+
+C.12 Comandos básicos da Linha de Tiro em cada partida (Standard Range Commands).
+Para garantir que a competição seja conduzida sem confusão, os seguintes comandos de linha de tiro
+devem ser usados.
+         1) Esta é a partida "XXX; do dia XXX; da Divisão XXX: Competidores preparem-se!
+         (Shooters Make Ready!)
+         Os atletas serão chamados para ocuparem as bancadas 7 minutos antes do início dos disparos,
+         com o objetivo de acomodarem suas carabinas e os demais equipamentos (inclusive as bandeiras
+         de vento). As carabinas devem se apresentar sem os ferrolhos e/ou com culatras abertas, todas
+         com as bandeiras de segurança inseridas.
+
+         2) Os atletas estão prontos? (Are Shooters Ready?)
+                                                                                                         15
+                                                             Confederação Brasileira de Tiro Esportivo
+                                   Carabina WRABF - Regulamento Específico
+                                                                                    Edição de 06.02.2024 – V2
+         Os atletas têm a opção de pedir ao Árbitro de linha a concessão de tempo adicional (não mais do
+         que três minutos) se estiverem enfrentando problemas com o equipamento. Tal opção só será
+         concedida uma única vez durante uma partida.
+
+         3) Insira o ferrolho em sua carabina e/ou remova a bandeira de segurança! (Insert Bolt in
+         Your Rifle/ Remove Breech Flag!)
+
+         4) Você tem 20 minutos para completar esta partida: comece ao som do apito.
+              i. Após o apito, nenhum competidor pode deixar a sua posição na bancada até que a partida
+                 seja concluída.
+             ii. Nenhum competidor entrará na linha de tiro após o início da partida. Ele perderá a partida
+                 (relay) se estiver atrasado e o respectivo cartão de alvos será marcado como não
+                 finalizado, por meio da sigla DNF (Did not Finish).
+            iii. Qualquer tiro disparado antes do apito inicial, resultará na desclassificação do atleta.
+            iv. Se houver uma gravação de áudio disponível para anunciar o início da partida e o tempo
+                 restante, a gravação de áudio deve ser usada, desde que seja perfeitamente audível por
+                 todos os concorrentes.
+
+         5) O tempo restante será anunciado aos: (Remaining time will be announced at;)
+                   15 minutos,
+                   10 minutos,
+                   5 minutos,
+                   3 minutos,
+                   1 minuto, e
+                   30 segundos.
+
+         6) O comando de cessar fogo será executado ao som do apito. Após o apito de encerramento
+         ordenar: Retire o ferrolho e/ou abra a culatra da carabina, insira a bandeira de segurança e
+         afastem-se das bancadas.
+              Quaisquer tiros disparados após o comando de cessar fogo sinalizado pelo som do apito
+                resultarão na desclassificação do atleta da partida.
+              Após o Árbitro confirmar que todas as carabinas estão em configuração de segurança,
+                todos os equipamentos devem ser imediatamente retirados da bancada e as bandeiras de
+                vento removidas da área de tiro.
+              As carabinas devem ser armazenadas adequadamente fora do ambiente da linha de tiro e
+                em cases ou racks apropriados.
+
+Orientações Importantes
+a) Nenhum tipo de munição deverá ser colocado na carabina até que o comando de “começar” seja
+   executado pelo Árbitro.
+b) O tempo de prova começa no início da palavra "começar” ou, se estiver disponível e for utilizado, ao
+   início do som do apito.
+c) O tempo de prova cessa ao final do som do apito.
+d) Quaisquer tiros disparados antes do comando "começar" ou após o "sopro do apito" para cessar fogo,
+   resultarão na desclassificação do atleta pelo restante do dia de competição.
+
+C.13 Comandos de Emergência (Emergency Commands).
+
+  i.   Em caso de emergência, o Árbitro de linha de tiro emitirá um comando de "cessar-fogo" (vide
+       C.11). Tal comando deve ser obedecido imediatamente e nenhum outro tiro disparado.
+ ii.   Antes de "reiniciar a partida", o Árbitro de linha de tiro permitirá 2 minutos de tempo adicional para
+       preparação do equipamento, avisando aos atletas da concessão. No entanto, apesar da permissão de
+       acréscimo, a realização do relay não pode exceder o intervalo de tempo inicialmente previsto.
+iii.   Se a partida for interrompida, três coisas devem acontecer para que todas as carabinas sejam
+       consideradas seguras:
+                                                                                                          16
+                                                         Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                               Edição de 06.02.2024 – V2
+        remoção do carregador e do ferrolho e/ou abertura da culatra,
+        inserção da bandeira de segurança, e
+        a inspeção de todas as carabinas pelo Árbitro de linha de tiro.
+iv.   A partida será abandonada ou reiniciada:
+       a. Se a opção for reiniciar, ninguém está autorizado a deixar a bancada, exceto o atleta com o
+           problema. Nesse caso, mais 5 minutos serão adicionados ao tempo restante para adequação do
+           equipamento (apoios, cronômetros, etc.).
+       b. Se a opção for abandonar, a partida será remarcada após um intervalo mínimo de 30 minutos.
+ v.   Qualquer tiro disparado após o comando de voz do Árbitro ou do fim do som do apito resultará na
+      desclassificação do atleta pelo restante do dia de competição
+
+Observações:
+   1. Para os comandos de emergência a voz do Árbitro da linha de tiro é preferível ao som de um
+      apito.
+   2. No entanto, o Árbitro da linha de tiro deve sempre trazer consigo um apito, para o caso de uma
+      parada não emergencial da partida: tiro cruzado, falha mecânica com a carabina de um atleta,
+      algum obstáculo na linha de tiro, etc.
+   3. Este comando só será dado em casos de emergência extrema, onde não será permitido que o atleta
+      descarregue a câmara de sua carabina com um disparo. Isso garantirá que todas as carabinas
+      fiquem em condições de segurança sem extrair o estojo da câmara.
+
+C.14 Comissão de Protesto (Protest Committee).
+
+É responsabilidade do Diretor de Prova providenciar a formação de um Comitê de Protesto, com a função
+de ouvir quaisquer queixas levantadas pelos atletas e/ou em relação a quaisquer assuntos associados à
+competição.
+
+C.15 Composição da Comissão de Protesto (Composition of Protest Committee).
+
+O Comitê de Protesto será composto pelo Diretor de Prova e por quatro atletas experientes, escolhidos e
+nomeados entre os inscritos no evento.
+   a. É aconselhável que os atletas nomeados sejam trocados diariamente, para o período da
+      competição.
+   b. Alternativamente, para atuar como Comitê de Protesto, o Diretor de Prova poderá nomear um
+      Comitê Técnico composto por indivíduos experientes, que não sejam atletas, mas que têm a
+      capacidade de agir independentemente.
+
+C.16 Apresentação de Protestos (Lodging Protest)
+
+Todos os protestos devem ser apresentados no formulário oficial adotado para a competição (ex.:
+formulário do apêndice A), juntamente com a taxa de protesto prevista pelo organizador do evento.
+   i. Em caso de protesto bem-sucedido, a taxa será reembolsada integralmente; caso contrário, todas as
+      taxas serão retidas pela Comissão Organizadora do evento.
+  ii. Todos os protestos devem ser apresentados no prazo máximo de 30 minutos após a alegada
+      ocorrência que deu origem à reclamação ou da publicação do último cartão de alvo da divisão
+      especificada.
+ iii. Qualquer desqualificação (DQ) poderá ser contestada por meio de pedido de revisão da penalidade
+      aplicada pela arbitragem. Entretanto, o atleta ou o delegado da equipe deve apresentar a defesa
+      (motivo) por escrito, obedecendo obrigatoriamente o prazo máximo de 1 hora após o registro da
+      desqualificação aplicada pelo Árbitro.
+
+C.17 Decisões do Comitê de Protesto (Decisions of Protest Committee)
+
+As decisões da Comissão de Protesto são definitivas e vinculativas e não há previsão de recurso de tais
+decisões.
+                                                                                                    17
+                                                            Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                   Edição de 06.02.2024 – V2
+
+
+
+C.18 Espírito Esportivo (Sportsmanship)
+
+Não deve haver conduta barulhenta ou escandaloso, na linha de tiro ou perto dela, durante a disputa de
+qualquer partida. Todos devem tratar a todos como gostariam de ser tratados, se estivessem prestes a bater
+um novo recorde.
+   i. Se algum atleta causar perturbação durante a realização de uma partida, outro competidor poderá
+      apresentar um protesto à arbitragem, de forma a levar o causador da perturbação a uma eventual
+      desqualificação ou a uma advertência.
+  ii. O competidor que quiser apresentar uma reclamação deve garantir que o Diretor de Prova ou o
+      Árbitro da linha de tiro esteja ciente da ocorrência. Eles determinarão o curso de ação a ser tomado.
+iii. Uma perturbação pode ser vista como (esta lista não é exaustiva):
+        a. Telefones celulares tocando ou vibrando (Não são permitidos celulares linha de tiro)
+        b. Sair da linha de tiro antes do término da partida (relay)
+        c. Conversar ou se comunicar com pessoas na linha de tiro ou na área do espectador, enquanto
+              os atletas estão atirando
+        d. Limpar a carabina fora das áreas designadas para limpeza (áreas de segurança)
+        e. Realizar grandes ajustes na carabina
+        f.    Treinar atletas (coaching) que estejam na linha de tiro, em todas e quaisquer de suas formas
+        g. Nenhum atleta deve entrar nos postos de tiro após o início da partida. Se eles perderem o
+              início da partida perdem também a partida (relay), pois isso causará transtorno para os outros
+              participantes.
+        h. Ajustes maiores não serão permitidos. Pequenos ajustes são permitidos apenas a partir da
+              posição sentada (ex.: ajustes no dispositivo afinação de harmônico), com a carabina
+              permanecendo apontada na direção do cartão de alvos.
+        i.    Os atletas não devem deixar seus assentos durante uma partida (relay), exceto no caso de
+              emergência.
+        j.    Os atletas deverão permanecer sentados até o final de cada partida (relay).
+        k. Cilindros de ar adicionais – Se surgirem problemas com os cilindros tipo buddy, utilizados
+              exclusivamente na divisão AR Unlimited Rifle, os atletas não estão autorizados a substituir,
+              alterar ou consertá-los durante a partida, em detrimento de outros competidores.
+ iv. As restrições aos comportamentos que causem perturbação no ambiente também se aplicam aos
+      espectadores, que serão solicitados a reduzir o ruído ao mínimo. Se não colaborarem serão
+      convidados a sair do estande até que todas as partidas terminem.
+  v. Os atletas que não estejam atirando e os demais espectadores não podem permanecer na área das
+      bancadas e da linha de tiro em nenhuma circunstância. Também não podem conversar com os
+      atletas na linha, estejam eles atirando ou não.
+ vi. O abuso de álcool e o uso de substâncias ilegais não são tolerados em nenhum esporte. Se de
+      alguma forma um atleta for considerado embriagado, ele será excluído da linha de tiro e será testado
+      para intoxicação. Se for comprovado o resultado positivo, ele será desqualificado. (POR FAVOR,
+      NÃO BEBA ENTRE AS PARTIDAS OU ENQUANTO ESTIVER NO ESTANDE DE TIRO)
+
+
+C.19 Desqualificação (Disqualification - DQ)
+
+  i.   Quando um atleta for desqualificado por um motivo específico, este DQ durará por todo o dia em
+       que ele estiver atirando em uma divisão na competição. Se ele for membro de uma equipe, por
+       padrão, essa equipe também será desqualificada naquele dia.
+ ii.   O atleta desqualificado (DQ) receberá um comunicado oficial de sua situação, como forma de evitar
+       que outros problemas não surjam durante o evento.
+iii.   Uma desqualificação (DQ) da competição será tomado como último recurso, mas está reservado ao
+       Comitê Organizador o direito de avisar aos atletas que participam do eventos sobre a possibilidade
+       dessa ação se os problemas persistirem durante o evento.
+                                                                                                         18
+                                                           Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                 Edição de 06.02.2024 – V2
+
+
+
+D. EVENTOS APROVADOS E LIMITES DE PRAZOS (Referência: Section D)
+
+
+D.1 Diretrizes e Orientações para a Organização de Eventos (Approved Events).
+
+As diretrizes para a realização de grandes eventos, tais como os destinados a Campeonatos Mundiais e/ou
+Finais de Campeonatos Regionais, realizados com as carabinas Rimfire ou Ar Comprimido, são as
+seguintes:
+
+D.2 Providências Obrigatórias (Mandatory Events)
+
+ Dependendo do número de inscrições, abaixo é apresentada uma sugestão para o roteiro de grandes
+ eventos, com o Diretor da Prova delineando a ordem de tiro das divisões (ex.: 25m em primeiro e 50m em
+ segundo), ou o que for mais adequado para a região específica onde a competição ocorrer.
+  i. De acordo com a regra E.4, um número máximo de 12 relays será disparado diariamente, com a
+     realização de no máximo 4 relays para cada um dos 3 cartões de alvos.
+     Sugestões de roteiro
+      Dia 1 LR Air Rifle - 25m - Cartões 1, 2 e 3
+      Dia 2 HR Air Rifle - 25m - Cartões 1, 2 e 3
+      Dia 3 UR Air Rifle – 50m - Cartões 1, 2 e 3
+      Dia 4 SR Rimfire - 50m - Cartões 1, 2 e 3
+      Dia 5 LR Rimfire - 50m - Cartões 1, 2 e 3
+      Dia 6 HR Rimfire - 50m - Cartões 1, 2 e 3
+ ii. As carabinas de ar comprimido, em todas as circunstâncias, serão disparadas primeiro.
+iii. As divisões devem ser disputadas na seguinte ordem:
+      Primeiro: Carabinas Unlimited/International Sporter;
+      Segundo: Carabinas Light; e
+      Terceiro: Carabinas Heavy.
+iv. Antes do início do evento, um dia de treino também deve ser estabelecido dentro do roteiro, tanto
+     para carabinas de ar quanto para as rimfire.
+
+D.2a Alternativa Métrica (Metric Alternative).
+Ver Seção A.9 do RBVPI
+
+D.2b Partidas de Aquecimento (Warm-up Match).
+Partida de aquecimento serão realizadas no primeiro dia de competição. Se o tempo for fator restritivo, as
+partidas de aquecimento ou a seção de treinos previstos para o evento podem ser eliminados, a critério do
+Diretor de Prova.
+
+D.3 Limites de Prazos (Time Limits).
+
+Partidas de pontuação - o tempo limite será de 20 minutos. Não haverá exceção à exigência de que todos
+os atletas completem sua sequência de disparos dentro do prazo permitido.
+
+D.4 Intervalos entre Relays (Subsequent Relays).
+
+  i.   Não serão permitidos mais de 20 minutos de intervalo entre o final de uma partida e o início do
+       relay seguinte.
+ ii.   O Árbitro da linha de tiro chamará os atletas para a linha de tiro com pelo menos dez minutos antes
+       dos comandos de início de partida, de forma a para permitir que apoios (rests) e outros
+       equipamentos sejam instalados e ajustados.
+
+                                                                                                       19
+                                                          Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                 Edição de 06.02.2024 – V2
+
+
+E. DETALHAMENTOS TÉCNICOS (Referência: Section E)
+
+
+E.1 Árbitros e pessoal de apoio
+
+Na seleção do pessoal técnico e seus auxiliares, deve ser dada especial atenção à competência dos
+Árbitros e ao seu conhecimento destas regras.
+  i. É indispensável a busca por indivíduos bem experientes e que tenham reconhecida habilidade para
+      conduzir os relays de maneira compatível com as características do evento:
+ ii. A ênfase deve ser colocada na capacidade de administrar problemas, tais como como tiros cruzados,
+      falhas nos cartões de alvos, etc.
+iii. Cada Árbitro da linha de tiro ou Árbitro auxiliar usará as diretrizes de segurança difundidas pela
+      WRABF e Membros Associados.
+
+E.2 Procedimentos de Distribuição nas Bancadas (Squadding Procedures).
+
+A distribuição das posições (bancadas) dos atletas na linha de tiro será sorteada imediatamente após a
+data de encerramento das inscrições.
+
+E.3 Rotação de bancadas (Bench Rotation)
+
+O rodízio de bancada será obrigatório, tendo como base o sorteio realizado previsto em E.2.
+  i.   O sistema de rodízio adotado deve ser comunicado aos atletas juntamente com o sorteio das
+       posições iniciais nas bancadas.
+ ii.   É preferível que a rotação ao longo da competição seja consecutiva, ou seja, que os atletas se
+       movimentem por toda a largura da linha de tiro.
+
+E.4 Partida (Relay).
+
+O número máximo programado para um dia de competição é de doze relays de 20 minutos, como forma
+de permitir um evento ordenado.
+
+E.5 Agregados inacabados (Unfinished Aggregates).
+
+Caso algum agregado (conjunto de 3 cartões de alvos) não seja concluído no dia programado, sua
+continuação ocorrerá na manhã seguinte, do ponto onde foi encerrado.
+
+E.6 Serviço de Apuração de Resultados (Results Service).
+
+Há a necessidade de fornecer aos competidores um serviço de apuração de resultados oportuno e preciso.
+ i. Em grandes eventos, é obrigatório que um programa de pontuação eletrônica seja usado para
+     processar os resultados, a fim de garantir um padrão adequado de apresentação e precisão.
+ ii.   Ainda assim, uma cópia impressa de todos os resultados deve ser mantida em caso de falha do
+       computador.
+iii.   A apuração deve ser feita em uma área privada e segura, restrita e com acesso apenas ao pessoal
+       autorizado pela Direção de Prova.
+iv.    A marcação de todos os cartões de alvos deve ser efetuada por, pelo menos, dois Árbitros, com um
+       deles efetuando a marcação primária com o auxílio do equipamento aprovado.
+ v.    A anotação com a pontuação obtida pelo atleta deve ser exibida nos campos próprios do cartão de
+       alvos.
+
+                                                                                                       20
+                                                           Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                  Edição de 06.02.2024 – V2
+vi.    Um plug de pontuação devidamente homologado deve ser usado em todas as provas oficiais.
+vii.   Nomeados pelo Diretor de Prova para fazer a apuração, os Árbitros responsáveis devem usar o
+       mesmo plug (gauge) durante toda a competição, com a adoção da medida .224” para todas as
+       divisões
+
+E.7 Publicação de resultados (Results Posting)
+
+1. São necessários quadros de avisos adequados para a publicação dos resultados durante o evento.
+   i. Tais quadros devem ser facilmente acessíveis, tanto aos concorrentes como ao público.
+  ii. Nenhum competidor ou pessoas do público estão autorizados a tocar em qualquer alvo, até que
+      tenham decorridos 30 minutos após o final do dia de prova.
+iii. Deve ser claramente indicado nas instruções do evento o local onde os resultados oficiais serão
+      publicados, como forma de garantir que não haja confusão sobre os procedimentos de protesto.
+ iv. Na publicação dos relatórios, referentes ao resultados agregados, serão obrigatoriamente incluídas a
+      hora exata da postagem e a hora da expiração dos direitos de protesto (30 minutos após a
+      publicação).
+  v. As pontuações e registros do campeonato serão publicados eletronicamente nos sítios apropriados.
+
+2. Recordes Mundiais - Apuração Independente pelos Árbitros.
+   i. Os organizadores de um evento indicarão o grupo de Árbitros responsáveis por realizar a análise
+      final das solicitações de registro de novos recordes mundiais. Esse grupo de Árbitros pode se reunir
+      pessoalmente ou por correspondência.
+  ii. Todos os alvos que constituem o registo do recorde serão disponibilizados aos Árbitros pelo
+      interessado.
+iii. Os Árbitros devem inspecionar pessoalmente e conferir independentemente cada cartão de alvos,
+      fornecendo ao Conselho Geral da WRABF os resultados de seus trabalhos.
+ iv. Caberá ao Presidente do WRABF anunciar quaisquer novos registros de recordes mundiais por
+      meio de sítios apropriado.
+  v. Não haverá direito de recurso em decorrência da pontuação apurada para os cartões de alvos que
+      forem encaminhados para o registro de recordes.
+
+E.8 Área de Inspeção (Inspection Area).
+
+Será necessário a implementação de uma área de segurança para a realização de inspeção nas carabinas. A
+área de inspeção, juntamente com os equipamentos de medição, deve ser disponibilizada aos atletas, no
+mínimo, dois dias antes do início da competição, garantindo a oportunidade de se aferir previamente as
+configurações das carabinas.
+
+E.8.1 Requisitos de Mão-de-Obra (Manpower Requirements).
+As inspeções devem ser efetuadas por Árbitros plenamente familiarizados com as regras.
+
+E.8.2 Documentação (Documentation)
+É desejável que seja utilizado um formulário de inspeção padronizado como forma de fornecer coerência
+aos procedimentos, facilitando os trabalhos de fiscalização realizados pelos Árbitros, no caso de se tornar
+necessário uma verificação mais aprofundada. Um modelo do formulário de inspeção pode ser obtido no
+Apêndice “E” deste Regulamento.
+
+E.8.3 Adesivos ou Etiquetas de Certificação (Certification Sticker/s).
+Para a certificação dos equipamentos serão utilizados adesivos ou etiquetas de inspeção, previamente
+aprovados pela Direção de Prova e adequados para fixação nas carabinas. Esses certificados serão
+exclusivos para cada evento e mantidos sob estrita segurança.
+
+E.8.4 Equipamento Utilizados na Certificação de Carabinas (Certification Equipment).
+São recomendados os seguintes equipamentos e acessórios:
+                                                                                                        21
+                                                           Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                                 Edição de 06.02.2024 – V2
+     Trena, régua, paquímetro, fita métrica ou gabarito, destinados à efetuar a medição das dimensões
+      das coronhas de carabinas.
+     Caso utilizados, os gabaritos precisam ser exatamente 1mm maior do que as dimensões
+      permitidas e especificadas para coronhas das respectivas divisões.
+     Balança devidamente aferida (preferencialmente eletrônica) e com capacidade nominal de 10kgs.
+     Cronógrafo destinado à obtenção da velocidade do pellet (projétil) disparado por carabinas de ar
+      comprimido, como forma de se calcular a sua energia efetiva (joule ou ft/lbs)
+E.8.5 Inspeção Obrigatória (Inspection Mandatory).
+Nos horários previstos pela Direção de Prova, todos competidores devem apresentar, para
+inspeção/certificação, as carabinas que serão utilizadas na competição. A ausência da inspeção
+implicará na desqualificação do evento.
+E.8.6 Falha na Inspeção (Inspection Failure).
+As carabinas que falharem na inspeção podem ser submetidas a nova inspeção após eventuais ajustes,
+desde que realizada antes do início da competição.
+E.8.7 Limite de Peso para cada Divisão (Weight Allowance for each class).
+Todas as carabinas devem ser pesadas antes do início da competição (E.8.5), para que ninguém tenha uma
+surpresa desagradável se seu equipamento for encontrado acima do peso especificado para a divisão.
+   i. Se uma carabina for encontrada acima do peso após a conclusão de uma partida, a pontuação deve
+      ser informada como "DQ" (o mesmo que qualquer outra desqualificação).
+  ii. Também é recomendado que as carabinas de todos os vencedores de prêmios sejam pesadas
+      novamente.
+ iii. No momento da pesagem, será concedida uma franquia adicional de 28g (1 onça), para compensar a
+      eventual e possível imprecisão/calibração das balanças.
+ iv. Adesivos ou etiquetas de “inspeção/aprovado” (E.8.3), adequados para fixação na carabina, devem
+      estar disponíveis, serem exclusivos para cada evento e mantidos sob segurança.
+  v. Uma área para pesagem e inspeção deve estar disponível no local (E.8).
+E.8.8 Inspeção Aleatória (Random Inspection).
+A critério do Diretor de Prova e a qualquer momento durante o competição, os atletas podem ser
+obrigados a reenviar suas carabinas para nova inspeção.
+  i. O Diretor de Prova não é obrigado a notificar previamente as novas inspeções.
+ ii. Se o(s) Árbitros(s) verificar(em) que alguma especificação do equipamento, já submetido a controle
+      preliminar, foi alterado ou substituído, o atleta será imediatamente desclassificado para todo o dia
+      de prova ou, em casos específicos, para todo o restante da competição.
+E.8.9 Potência da Carabina de Ar Comprimido (Air Rifle Power Check Procedure)
+A potência da carabina de ar comprimido será verificada antes do início da competição. Portanto, estará
+disponível um sistema de cronógrafo adequado em cada evento.
+   i. O competidor deverá cronografar o disparo de sua carabina de ar comprimido com os pellets ou
+      slugs que serão utilizados por ele durante a competição.
+  ii. Medida por um cronógrafo, a velocidade será apurada pela média simples de 5 disparos realizados
+      em sequência
+iii. Antes da realização do teste, a pressão mínima nos cilindros de ar das carabinas de ar dos
+      competidores será de 190 bar.
+ iv. Como os cronógrafos atuais de alta qualidade indicam uma precisão de 99,5%, um nível de
+      tolerância +/- de 0,5% será permitido.
+  v. A potência da carabina de ar comprimido será calculada com a utilização de uma das seguintes
+      fórmulas:
+        Energia cinética (ft/lbs.) = peso (grains) x velocidade (ft/seg) x velocidade (ft/seg)/450240; ou
+        Energia (Joules) = peso (quilogramas) x velocidade (m/seg) x velocidade (m/seg)/2
+
+
+                                                                                                       22
+                                                                  Confederação Brasileira de Tiro Esportivo
+                                      Carabina WRABF - Regulamento Específico
+                                                                                          Edição de 06.02.2024 – V2
+vi.   Para verificar a potência máxima de 16,27 Joules (12 pés/lbs.) ou de 27,12 Joules (20 pés/lbs), as
+      carabinas de ar comprimido devem ser testadas pelo seguinte procedimento:
+        O atleta deve fornecer seus próprios pellets ou slugs para a realização dos testes.
+        Os pellets ou slugs devem ser pesados (peso médio para 10 pellets) e posteriormente
+           efetivados os cálculos para a obtenção da energia máxima oferecida pela carabina.
+        Para fins de teste, os pellets ou slugs não devem ser mais leves que:
+              •   8,44 grains/0,547 grama para a classe LR para o calibre 0,177/4,5mm
+              •   13,34 grains/0,864 grama para a classe LR para o calibre 0,177/4,5mm
+              •   10,34 grains/ 0,67 grama para a classe HR para o calibre 0,177/4,5mm
+              •   13,73 grains/0,89 grama para o calibre 0,20/5,0mm (para todas as divisões)
+              •   15,89 grains/1,03 grama para a classe LR para o calibre 0,22/5,5mm
+              •   18,13 grains/1,175 gramas para a classe HR para o calibre 0,22/5,5mm
+
+ TABELA DE REFERÊNCIA – AFERIÇÃO DE POTÊNCIA DAS CARABINAS DE AR COMPRIMIDO
+                                      PESO DO          VELOCIDADE                              TOLERÂNCIA
+  DIVISÃO           CALIBRE                                                 ENERGIA
+                                     PROJÉTIL            MÁXIMA                                   (0.5%)
+                        .177          7.87 grains           828 fps                               832 fps
+      AR LR                                                                    12 ft lb
+                       4,5mm         0.099 gramas          252.37 m/s                           253.594 m/s
+                        .177          8.44 grains           800 fps                               804 fps
+      AR LR                                                                    12 ft lb
+                       4,5mm         0.546 gramas          243.84 m/s                           245.059 m/s
+                        .177         10.34 grains           724 fps                               727 fps
+      AR LR                                                                    12 ft lb
+                       4,5mm         0.670 gramas         220.675m/s                             221.59 m/s
+                        .177         13.34 grains           636 fps                               639 fps
+      AR LR                                                                    12 ft lb
+                       4,5mm         0.864 gramas         193.853 m/s                           194.767 m/s
+
+                        .177          8.44 grains          1033 fps                               1038 fps
+      AR HR                                                                    20 ft lb
+                       4,5mm         0.546 gramas         314.858 m/s                           316.384 m/s
+                        .177         10.34 grains           933 fps                                937 fps
+      AR HR                                                                    20 ft lb
+                       4,5mm         0.670 gramas         284.378 m/s                           285.598 m/s
+                        .177         13.34 grains           821 fps                                825 fps
+      AR HR                                                                    20 ft lb
+                       4,5mm         0.864 gramas         250.241 m/s                            251.46 m/s
+                        .177          16.2 grains           745 fps                                748 fps
+      AR HR                                                                    20 ft lb
+                       4,5mm         1.049 gramas         227.076 m/s                            227.99 m/s
+                         .20         13.73 grains           809 fps                               813 fps
+      AR HR                                                                    20 ft lb
+                       5,0mm         0.889 gramas         246.583 m/s                           247.802 m/s
+                         .20         15.89 grains           752 fps                               755 fps
+      AR HR                                                                    20 ft lb
+                       5,0mm         1.029 gramas          229.21 m/s                           230.124 m/s
+                         .20         18.13 grains           704 fps                               755 fps
+      AR HR                                                                    20 ft lb
+                       5,0mm         1.174 gramas         214.579 m/s                             230.124
+                         .22          13.43 grains          818 fps                               822 fps
+      AR HR                                                                    20 ft lb
+                       5,5mm         0.870 gramas         249.329 m/s                           250.546 m/s
+                         .22          14.35 grains          792 fps                               795 fps
+      AR HR                                                                    20 ft lb
+                       5,5mm         0.926 gramas         241.402 m/s                           242.316 m/s
+                         .22          15.89 grains          752 fps                               755 fps
+      AR HR                                                                    20 ft lb
+                       5,5mm         1.029 gramas          229.21 m/s                           230.124 m/s
+                         .22         18.13 grains           704 fps                               707 fps
+      AR HR                                                                    20 ft lb
+                       5,5mm         1.174 gramas         214.579 m/s                           215.494 m/s
+                         .22          25.39 grains          595 fps                               597 fps
+      AR HR                                                                    20 ft lb
+                       5,5mm         1.645 gramas         181.356 m/s                           181.966 m/s
+
+# Ressalva (Caveat):
+Se houver problema com a consistência do teste utilizando as informações dos pellets ou slugs com o
+padrão adotado na tabela de referência (pouca luz, calor ou outro problema que possa afetar o cronógrafo)
+ou mesmo por solicitação, com a permissão do Diretor de Prova o atleta pode optar por ter o mesmo
+procedimento de teste utilizando seus próprios pellets ou slugs, desde que aplicados as mesmas diretrizes
+previstas nas regras acima. Este procedimento ocorrerá após todos os outros testes terem ocorrido, ou
+quando houver tempo disponível, mas sempre antes da primeira partida do atleta na correspondente
+divisão.
+
+                                                                                                                23
+                                                            Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                   Edição de 06.02.2024 – V2
+E.8.10 Conformidade da Carabina e/ou Equipamento (Rifle and/ or Equipment Conformity)
+  i. Em caso de não conformidade da carabina e/ou dos equipamentos, notada pelo Oficial de Inspeção,
+     os atletas têm a possibilidade de substituí-lo ou de fazer ajustes, desde que dentro do limite de até
+     15 minutos antes do início da partida/relay.
+ ii. O Atleta também pode encaminhar reivindicação para que o referido equipamento ou carabina seja
+     admitido na divisão, solicitando por escrito ao Árbitro da linha de tiro, que tomará a decisão final.
+iii. Se isso não for feito a tempo, ou seja, antes do início da partida/relay, o Árbitro da linha de tiro tem
+     a prerrogativa de admitir o atirador com o objetivo de não atrapalhar ou retardar o início da
+     partida/relay.
+       a. Nesta situação, o Diretor de Prova tomará uma decisão definitiva ao final da partida/relay,
+           verificando se o equipamento/carabina é permitido ou não na respectiva divisão, de acordo
+           com as regras.
+       b. Caso não se enquadre nas regras, o equipamento/carabina será desautorizado e o atleta
+           desclassificado da prova, para aquela divisão.
+iv. É responsabilidade do concorrente garantir para que todas as regras sejam compreendidas, sempre
+     buscando os necessários esclarecimentos sobre as eventuais dúvidas.
+
+E.9 Erro na Apuração do Cartão de Alvos (Scoring Error).
+
+Sempre que um atleta considere que foi cometido um erro óbvio na apuração de seu cartão de alvos,
+poderá solicitar aos Árbitros responsáveis pela apuração que verifiquem visualmente o cartão de alvos ou
+o quadro de pontuação e que o assunto seja resolvido. Em caso de dúvida, o atleta pode apresentar um
+protesto formal, de acordo com os Procedimentos para Protestos previstos neste Regulamento.
+
+E.10 Procedimento de Recontagem de Cartões de Alvos (Target re-score Procedure).
+
+Uma vez que um cartão de alvos foi apurado eletronicamente, ele não será objeto de outra apuração. A
+única maneira de se obter uma verificação é por meio de um protesto formal, solicitando que um quadro
+de pontuação específico seja plugado pelo Comitê de Protesto.
+
+E.11 Remoção dos Ferrolhos das Carabinas (Removal of Bolts).
+
+Todos os ferrolhos (bolts) devem ser retirados e mantidos fora das carabinas, exceto sob o comando do
+Árbitro da linha de tiro.
+  i. As carabinas que não puderem ou que não possuírem ferrolhos (bolts) para serem retirados, devem
+      portar uma bandeira de segurança amarela inserida na câmara, que demonstre visivelmente que ela
+      está vazia.
+ ii. Esta disposição se aplica a todas as áreas do estande, inclusive às áreas de estacionamento, etc.
+iii. A violação desta regra leva à desclassificação da Prova, a critério do Diretor de Prova.
+
+E.12 Procedimentos nas Ocorrências de Tiro Cruzado. (Cross fire procedures)
+
+É responsabilidade do atleta que disparou o(s) tiro(s) cruzado(s) o imediato aviso ao Árbitro da linha de
+tiro e, em seguida, continuar disparando o restante de seus tiros em seu próprio alvo.
+   i. Para o atirador que disparou o(s) tiro(s) cruzado(s) e que notificou imediatamente o Árbitro da linha
+       de tiro, a ocorrência será considerada como ato inadvertido ou acidental, o que não provocará a sua
+       desqualificação.
+  ii. Entretanto, de qualquer forma, será penalizado de acordo com a regra E.12.2.
+ iii. Apenas o número necessário de tiros é contado no cartão de alvos do atleta que disparou o(s) tiro(s)
+       cruzado(s), mas a penalidade é aplicada para cada tiro cruzado identificado.
+
+E12.1 Transferência de pontuação de tiro cruzado (Cross-fire transfer).
+Um tiro cruzado devidamente notificado será transferido para o cartão de alvos correto e incluído na
+pontuação da partida, deduzindo-se a penalidade de 5 pontos.
+                                                                                                          24
+                                                            Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                   Edição de 06.02.2024 – V2
+
+
+E12.2 Penalidade de fogo cruzado (Cross-fire Penalty).
+    i. A(s) caixa(s) de pontuação do cartão de alvos do atleta que disparou o(s) tiro(s) cruzado(s)
+       será(ão) penalizada(s) com 5 pontos para cada tiro cruzado.
+   ii. Se o tiro cruzado não puder ser identificado (2 tiros na caixa de pontuação), a parte inocente será
+       premiada com o tiro de maior pontuação registrado em sua caixa de pontuação.
+
+E12.3 Parte Inocente (Innocent Party)
+O atleta em cujo cartão de alvos foi colocado um tiro cruzado é obrigado a avisar a ocorrência ao Árbitro
+da linha de tiro.
+
+E12.4 Falta de notificação (Failure to Notify).
+Qualquer atleta que tenha disparado tiro(s) cruzado(s), sem fazer a notificação da ocorrência ao Árbitro
+da linha de tiro, será desclassificado do evento se o seu próprio cartão de alvos contar com mais do que o
+número necessário de tiros válidos, após a inclusão do(s) tiro(s) cruzado(s) efetuado(s) no outro cartão de
+alvos (E.12.1). A ocorrência será registrada como tentativa de ocultar a irregularidade.
+
+E12.5. Indicação para refazer a caixa de pontuação (Nomination to re-shoot).
+  i. Depois que o Árbitro da linha de tiro identificou o tiro cruzado, a parte inocente pode solicitar para:
+        Realizar outro disparo na mesma caixa de pontuação que sofreu o impacto indevido, ou
+        Atirar em um alvo de ensaio próximo, que será reportado como válido para pontuação.
+ ii. Deve-se informar a decisão ao Árbitro de linha de tiro para que ele faça o registro disso.
+
+E.13 Bandeiras de vento (Wind flags).
+
+Podem ser utilizadas as bandeiras de vento que estão presentes no local, assim como os atletas podem
+trazer as suas próprias.
+   i. As bandeiras de vento não podem ter altura superior à de uma linha imaginária traçada entre a parte
+      anterior do tampo da bancada e a base do cartão de alvo afixado em seu respectivo suporte.
+  ii. Os organizadores devem colocar em posição bandeiras de vento em quantidade suficiente, antes do
+      início da partida.
+ iii. É possível a movimentação ou a retirada das bandeiras de vento após o término de cada
+      partida/relay, casos para os quais será necessário reservar tempo adicional para que isso ocorra entre
+      as partidas/relays de cada dia. O rodízio entre as bancadas também precisará ser considerado.
+ iv. Se uma bandeira de vento estiver na linha de visão de um atleta (acima da altura permitida), o
+      Árbitro da linha de tiro colocará a bandeira no chão. Isso deve ser feito antes do início da partida.
+  v. Para maior esclarecimento, a movimentação das bandeiras de vento estão sob o controle do Árbitro
+      da linha de tiro e não pode interferir na condução ordenada da partida/relay.
+ vi. O uso de eletrônicos, em qualquer de suas formas, é estritamente proibido em todas as divisões de
+      carabinas e isso inclui as bandeiras de vento eletrônicas.
+
+E.14 Falha da Carabina Durante a Partida/Relay (Rifle fault during the match)
+
+Se houver falha comprovada em seu funcionamento, a troca de carabina é permitida durante a realização
+de uma partida/relay, especialmente quando a falha estiver relacionada à segurança e for considerada
+perigosa.
+  i. Caso ocorra, o atleta pedirá ao Árbitro da linha de tiro para inspecionar visualmente a carabina e
+      decidir se autorizará substituí-la por um outra.
+ ii. O Árbitro da linha de tiro poderá autorizar a troca por uma carabina da mesma divisão. Se a troca
+      for efetivada, a carabina defeituosa será enviada para a avaliação do Árbitro de inspeção de
+      equipamentos.
+iii. O Árbitro da linha de tiro precisará decidir se a partida/relay continuará ou se será interrompida,
+      dependendo da gravidade da falha e se a troca da carabina irá causar prejuízos aos demais atletas
+      que participam da partida/relay.
+                                                                                                         25
+                                                           Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                                 Edição de 06.02.2024 – V2
+iv.   Não será permitido tempo extra para o atleta quando a substituição de carabina ocorrer. Ele também
+      não poderá refazer a partida/relay em outro dia ou horário.
+ v.   Após o término da partida/relay, se a inspeção confirmar a falha, o atleta manterá a pontuação
+      alcançada com a carabina substituta.
+vi.   Se a falha foi intencionalmente causada pelo atleta para obter vantagem, ou se foi causada por sua
+      própria negligência, uma desqualificação automática do evento será aplicada (DQ).
+
+
+F. INSTALAÇÕES DO ESTANDE – 25 metros e 50 metros (Referência: Section F)
+
+
+As normas deste tópico referem-se aos requisitos essenciais para as instalações de entidades que sediarão
+competições de nível continental ou mundial.
+
+De forma geral, as condições a serem seguidas pelos clubes brasileiros são as descritas nos ANEXOS I e
+II deste Regulamento Específico para o Campeonato Brasileiro da WRABF.
+
+Entretanto, apesar de não incluídos nesta versão em português, recomenda-se aos organizadores
+vinculados aos clubes anfitriões de provas presenciais no Brasil a leitura atenta dos itens disponíveis na
+versão em inglês do Rules Book – 2023/2027 (RBVPI - www.wrabf.com).
+
+Por oportuno, entende-se relevante destacar as notas incluídas ao final da Seção F (RBVPI), conforme
+descritas a seguir:
+   i. Como forma de garantir uma competição ordenada e justa, o número máximo de relays
+      programados para um dia de competição não deve ser superior a 12.
+  ii. Em um dia o atleta deverá disparar em três cartões de alvos, em cada divisão, sendo recomendada a
+      rotação de bancadas. O agregado da pontuação apresentada é que formará a base do "Ranking
+      Mundial" dentro da WRABF.
+iii. Os principais eventos/competições devem oferecer:
+        Área de estacionamento para visitantes;
+        Área protegida que possibilite a guarda temporária de carabinas e equipamentos durante a
+           competição;
+        Área separada para atletas e para os Árbitros/Oficiais;
+        Área coberta e adequada para exposição dos cartões de alvos concluídos; e,
+        Área coberta para descanso e relaxamento dos atletas.
+ iv. Será responsabilidade dos organizadores garantir que as áreas de acolhimento e as instalações do
+      estande estejam dentro do padrão adequado para a realização da competição.
+  v. A Autoridade Esportiva responsável pela competição poderá nomear uma pessoa habilitada para
+      realizar inspeção pré-competição, como forma de garantir que todas as normas serão cumpridas.
+
+
+G. CERIMÔNIAL, REUNIÕES E PREMIAÇÃO (Referência: Section G)
+
+
+As normas deste tópico referem-se às recomendações gerais para o cerimonial, as reuniões e a
+distribuição de medalhas nas competições de nível continental ou mundial.
+
+De forma geral, as condições a serem seguidas pelos clubes brasileiros são as descritas no Regulamento
+Geral de CPR adotado para o Campeonato Brasileiro(www.cbte.org.br)
+
+
+H. INSCRIÇÕES E TAXAS DE INSCRIÇÕES (Referência: Section H)
+
+As normas deste tópico referem-se às recomendações gerais para a realização de inscrições e o pagamento
+das respectivas taxas, relativas às competições de nível continental ou mundial.
+                                                                                                     26
+                                                            Confederação Brasileira de Tiro Esportivo
+                                   Carabina WRABF - Regulamento Específico
+                                                                                   Edição de 06.02.2024 – V2
+
+
+De forma geral, as condições a serem seguidas pelos clubes brasileiros são as descritas no Regulamento
+Geral de CPR adotado para o Campeonato Brasileiro (www.cbte.org.br)
+
+
+I. SEGURANÇA E PROCEDIMENTO NO ESTANDE DE TIRO (Referência: Section I)
+
+
+É considerada primordial a segurança dos atletas, Árbitros, funcionários, voluntários e espectadores.
+Garantir que todas as normas de segurança sejam cumpridas é responsabilidade de todos os participantes.
+Violações não serão toleradas.
+  i. O Diretor de Prova e os demais oficiais da prova serão responsáveis por garantir que as todas as
+     precauções de segurança sejam tomadas.
+ ii. Espera-se que o Diretor de Prova e todos os atletas tenham bom senso aprimorado para oferecer
+     nosso esporte de forma segura a todos que dele participam.
+iii. Se entender apropriado, o Árbitro da linha de tiro deve rever as regras básicas de segurança antes de
+     uma competição, para que possa orientar e responder eventuais dúvidas de qualquer pessoa presente
+     e não familiarizada com as regras em vigor.
+iv. Os chefes de equipe, mesmo que não estejam competindo, têm a responsabilidade de garantir que
+     todos os participantes cumpram os requisitos de segurança.
+
+
+       POR FAVOR, LEIAM AS REGRAS DE ESPORTIVIDADE (C.18) SOBRE
+       INTOXICAÇÃO E ABUSO DE SUBSTÂNCIAS EM ESTANDES DE TIRO.
+
+
+I.1 Árbitro da Linha de Tiro (Range Officer).
+
+É responsabilidade do Árbitro da linha de tiro supervisionar todas as partidas/relays e fazer cumprir
+quaisquer das regras de segurança.
+  i. A recusa em cumprir uma ordem de segurança do Árbitro será motivo para impedir a permanência
+     de um atleta no estande.
+ ii.   A desqualificação ocorrerá sempre que os procedimentos de segurança não forem seguidos.
+iii.   Um Árbitro da linha de tiro pode desqualificar um atleta por violar qualquer regra estabelecida neste
+       Regulamento da WRABF.
+iv.    Caso o Árbitro efetue a desqualificação, o Atleta punido terá a oportunidade de completar o relay
+       em que estiver participando. Isso permitirá que o atleta apresente um protesto contra a
+       desclassificação.
+ v.    Desde de que os atletas não cometam a quebra de regras de segurança inerentes aos estandes de tiro,
+       os Árbitros podem optar pela advertência antes de aplicar a desqualificação.
+
+I.2 Conjunto Padrão de Comandos (Standard set of commands).
+
+As regras a serem seguidas em cada instalação podem variar de país para país:
+ i. É da responsabilidade do Comitê Organizador de cada competição garantir que sejam oferecidas aos
+     atletas participantes, na medida do possível, soluções para quaisquer necessidades especiais
+     individuais dos atletas.
+ ii.   Como mínimo, um conjunto padrão de comandos é fornecido nos tópicos C11 e C12 deste
+       Regulamento.
+
+I.3 Áreas Públicas (Public Areas).
+                                                                                                         27
+                                                            Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                   Edição de 06.02.2024 – V2
+
+
+É responsabilidade individual de cada atleta garantir que a circulação com armas de fogo, ao redor de
+áreas públicas, seja realizada de forma segura e adequada. Todas as carabinas devem ser conduzidas em
+uma bolsa ou estojo.
+Os chefes de equipe têm a responsabilidade de garantir que todos os participantes cumpram esse
+requisito.
+
+I.4 As Regras de Segurança Reconhecidas Serão Aplicadas (Recognized safety rules will apply).
+
+I.4a Todas as carabinas dotadas de um mecanismo de disparo manual e mecânico ou eletrônico seguros,
+devem estar equipadas com protetores de gatilho (guarda-mato).
+I.4b A movimentação de arma de fogo ao redor de área pública tem que acontecer com a carabina
+acondicionada em recipiente fechado. Esta regra também se aplica para as áreas atrás da linha de tiro e a
+outras áreas de uso comum, tais como instalações de atletas, áreas de estacionamento, etc.
+I.4c As carabinas NUNCA devem ser colocadas sobre a bancada até que o Diretor de Prova ou o Árbitro
+encarregado chame os participantes do relay para a linha de tiro, o que ocorrerá somente depois de
+determinar que a linha de tiro está segura. Enquanto alguém estiver à frente da linha de tiro, NENHUMA
+CARABINA será permitida nas bancadas.
+
+I.4d Na linha de tiro, durante todo o tempo, os ferrolhos (bolts) serão mantidos fora de todas as carabinas,
+exceto sob o comando do Árbitro da linha de tiro.
+   i.   A carabina que não puder ou não tiver ferrolho para ser removido, deve ter inserida em sua
+        câmera uma bandeira de segurança, demonstrando visivelmente que está vazia.
+  ii.   O ferrolho será inserido ou a bandeira de segurança removida somente após o Árbitro da linha de
+        tiro emitir o comando "Insira o ferrolho em sua carabina".
+I.4e Em nenhuma circunstância um atleta carregará uma munição em uma carabina antes do comando
+"COMEÇAR".
+
+I.4f As carabinas e os equipamentos não serão retirados da bancada antes do término da partida, exceto
+com a autorização do Árbitro da linha de tiro.
+    i.  O atleta que precisar deixar a bancada durante a partida/relay, mesmo que momentaneamente,
+        deve obter a permissão expressa do Árbitro da linha de tiro ou do Diretor de Prova, deixando a
+        carabina sobre os apoios (rests), com o ferrolho removido e a bandeira de segurança inserida na
+        câmara.
+   ii.  Ao final da partida/relay, o atleta deve declarar sua carabina segura ao Árbitro da linha de
+        tiro, mostrar o seu respectivo ferrolho e a bandeira de segurança inserida na câmara.
+
+
+J. REQUISITOS PARA O ATLETA (Referência: Section J)
+
+
+As normas deste tópico referem-se às recomendações gerais que tratam dos requisitos esperados do atleta
+para a sua participação em competições de nível continental ou mundial.
+
+De forma geral, os requisitos exigidos dos atletas brasileiros são os incluídos no Regulamento Geral de
+CPR adotado para o Campeonato Brasileiro (www.cbte.org.br)
+
+
+K. DEVERES DOS ÁRBITROS (Referência: Section K)
+
+
+
+
+                                                                                                         28
+                                                            Confederação Brasileira de Tiro Esportivo
+                                   Carabina WRABF - Regulamento Específico
+                                                                                  Edição de 06.02.2024 – V2
+A. Generalidade (General).
+
+  i.   Qualquer pessoa habilitada pode ocupar mais de uma função como Oficial da competição.
+ ii.   Quando possível, sugere-se que os relays sejam agendados de forma que as pessoas que ocupam as
+       funções de Oficiais (exceto os de apuração) também possam participar na condição de atletas.
+iii.   Todas as regras se aplicam aos Oficiais da competição, que serão os seguintes:
+           Diretor de Prova (Competição);
+           Árbitro da Linha de Tiro;
+           Oficial de Inspeção de Carabinas e Equipamentos;
+           Oficial de Apuração; e
+           Árbitros.
+
+
+B. Definições e Deveres (Definition and Duties)
+
+
+K.1 Diretor de Provas/Competições (Match / Championship Director).
+
+O Diretor de Provas é o gestor responsável por dar forma e configurar a competição, enviando os
+programas e formulários de convite aos participantes.
+
+  i.   Ele pode nomear colaboradores e supervisores onde houver exigência específica para as instalações
+       logísticas, de segurança ou da área do estande.
+ ii.   Ele é responsável por todos os outros aspectos organizacionais da prova ou competição.
+
+
+K.2 Oficiais de Inspeção de Carabinas e de Equipamentos (Firearm & Equipment Check
+Officer).
+
+Oficial nomeado pelo Diretor de Prova para pesar e medir as carabinas e verificar se todos os
+equipamentos e acessórios estão de acordo com as regras. Uma certificação de conformidade, na forma de
+adesivo ou etiqueta de verificação, será aplicada a cada carabina, luneta e equipamento inspecionado.
+
+K.3 Oficial de Apuração (Score Officer).
+
+Nomeado pelo Diretor de Prova para apurar os cartões de alvos e ser o responsável pela compilação e
+classificação de todas as pontuações, o Oficial de Apuração deve ter pleno conhecimento das regras, além
+de muita experiência em competições.
+
+  i.   Em caso de dúvidas na obtenção de uma pontuação, com a aprovação do Diretor de Prova, ele pode
+       indicar dois Árbitros para auxiliá-lo na decisão.
+ ii.   O Oficial de Apuração deve utilizar um plug de pontuação, aprovado pela CBTE e fornecido pelo
+       clube.
+iii.   O Oficial de Apuração e o Árbitro não podem ser concorrentes entre si em uma competição.
+
+
+K.4 Árbitro da Linha de Tiro (Range Officer).
+
+
+
+                                                                                                        29
+                                                            Confederação Brasileira de Tiro Esportivo
+                                  Carabina WRABF - Regulamento Específico
+                                                                                 Edição de 06.02.2024 – V2
+Responsável por acompanhar e cronometrar cada partida/relay, ele é a única pessoa autorizada a
+pronunciar os comandos da linha de tiro, realizando a primeira ligação entre o Diretor da Prova os
+Árbitros e os atletas.
+  i.   Ele deve verificar a segurança e todas as condições relevantes da linha de tiro, antes dar início a
+       cada relay.
+ ii.   O atleta irá consultá-lo para qualquer questão, protesto ou problema na linha de tiro, durante ou
+       após cada relay, até um máximo de 30 minutos após o término da correspondente partida.
+
+K.5 Árbitros (Referees)
+
+São as Pessoas que decidirão problemas relacionados aos tiros cruzados, ajudarão com protestos na
+pontuação, na verificação da elegibilidade de carabinas e apoios (rests), além de ajudarem com quaisquer
+outros problemas e protestos relacionados à competição.
+  i.   Os Árbitros, a qualquer momento antes do "início dos disparos" e após o cessar-fogo, podem
+       inspecionar e pesar carabinas ou inspecionar o apoio ou a luneta, para determinar se estão em
+       conformidade com as regras.
+ ii.   Os Árbitros devem pesar pelo menos as três primeiras carabinas vencedoras em cada divisão. Os
+       Árbitros podem pesar novamente quaisquer outras carabinas.
+iii.   Os Árbitros podem ajudar o "Comitê de Protestos" a decidir o resultado de quaisquer protestos
+       apresentados pelos atletas antes, durante ou depois da partida.
+iv.    Os Árbitros devem verificar se todos as lunetas variáveis utilizadas na divisão Rimfire -
+       Internacional Sporter estão devidamente lacradas ou se essa condição foi alterada antes de "início
+       dos disparos".
+ v.    Um Árbitro suplente deve ser nomeado caso um dos Árbitros da prova apresente um protesto ou
+       esteja envolvido em um protesto.
+vi.    O Diretor de Prova não pode ser um Árbitro, mas pode agir por meio de um "voto" para a tomada
+       de decisão em uma questão de protesto.
+vii.   O Árbitro não pode atuar como Oficial de Apuração.
+
+K.6 Enchimento de Cilindros para Carabinas de Ar Comprimido (Air Rifle filling station).
+
+Durante o evento, os anfitriões devem garantir a disponibilidade de instalações seguras e adequadas no
+ambiente do estande de tiro, com capacidade de enchimento de 200 e 300 bar, permitindo que os atletas
+possam encher os cilindros de ar de suas carabinas até à capacidade exigida.
+
+
+L. PROCEDIMENTOS PARA APURAÇÃO ELETRÔNICA (Referência: Section L)
+
+
+As normas deste tópico referem-se às recomendações e procedimentos gerais para a implementação e
+realização da apuração eletrônica dos cartões de alvos de uma competição. Apesar de não incluídos nesta
+versão em português, recomenda-se aos organizadores, vinculados aos clubes anfitriões de provas
+presenciais no Brasil, a leitura atenta dos itens disponíveis na versão em inglês do Rules Book –
+2023/2027 (RBVPI - www.wrabf.com).
+
+
+
+
+                                                                                                       30
+                                                     Confederação Brasileira de Tiro Esportivo
+                              Carabina WRABF - Regulamento Específico
+                                                                         Edição de 06.02.2024 – V2
+
+
+# APÊNDICES E ANEXOS
+
+
+Os APÊNDICES não incluídos no texto deste documento (B, C, E, H) deverão ser consultados
+diretamente na versão em inglês do Rules Book – 2023/2027 (RBVPI - www.wrabf.com).
+
+Os ANEXOS I e II trazem ESPECIFICIDADES PARA A DISCIPLINA WRABF, objetivando a
+condução do Campeonato Brasileiro da Disciplina WRABF e suas Divisões, sob a responsabilidade da
+Diretoria Técnica da CBTE:
+  ANEXO I – Regulamento Específico para as provas do CAMPEONATO BRASILEIRO
+  ANEXO II – Diretrizes para a organização das Provas Regionais e da Final
+
+
+
+                                                     Rio de Janeiro (RJ), 18 de janeiro de 2024.
+
+
+José Eduardo de Aguiar
+Diretor Técnico da CBTE - Disciplina WRABF
+Delegado Oficial da WRABF no Brasil
+
+
+
+
+                                                                                               31
+                                                                  Confederação Brasileira de Tiro Esportivo
+                                    Carabina WRABF - Regulamento Específico
+                                                                                              Edição de 06.02.2024 – V2
+
+
+                                           APÊNDICE A
+                          Formulário de Protestos (Protest Form)
+
+
+                         FORMULÁRIO DE PROTESTO – DISCIPLINA WRABF
+                          As Informações de PROTESTO devem ser fornecidas pelo Atleta
+                    Prova do Campeonato Brasileiro (marque uma opção):
+                     ( ) Online             ( ) Prova Regional              ( ) Prova Final
+                    Data:       /      /       Hora:                 N.º do Relay:
+Este protesto está relacionado com UM dos seguintes assuntos:
+( ) Pontuação ( ) Equipamento ( ) Violação de Regra ( ) Esportividade ( ) Segurança ( ) Outros
+RAZÃO DO PROTESTO (informe a(s) regra(s) aplicável(eis) a este protesto)
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+                                                                 (se necessário, continue no verso deste formulário)
+PROTESTO APRESENTADO POR
+Nome: ______________________________________            Nº. de Inscrição na Competição:__________
+
+
+Assinatura: _________________________________
+
+Declaração de Testemunha (se for o caso)
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+Assinatura da testemunha:___________________________________ Data:                             Hora:
+                                                                 (se necessário, continue no verso deste formulário)
+INFORMAÇÕES SOBRE O RECEBIMENTO DO PROTESTO (Arbitragem)
+Data e hora do recebimento do protesto: _____/_____/_____ ____:_____
+Valor da taxa recolhida (se for o caso): _________
+DECISÃO DA COMISSÃO DE PROTESTO
+Data: ____/_____/_____              Hora: ____:____          Local da reunião __________________________
+
+RESULTADO:                 ( ) Deferido (aceito)        ( ) Indeferido (rejeitado)
+
+Razões para a decisão:
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+
+Assinatura do Diretor de Prova ou membro da Comissão: ______________________________________________
+
+
+
+                                                                                                                       32
+                                                                   Confederação Brasileira de Tiro Esportivo
+                                     Carabina WRABF - Regulamento Específico
+                                                                                             Edição de 06.02.2024 – V2
+
+
+                                              APÊNDICE D
+                Formulário de Inspeção de Carabinas (Rifle Inspection)
+
+                          FORMULÁRIO DE INSPEÇÃO DE CARABINAS
+                            E INFORMAÇÃO DE DADOS TÉCNICOS
+                                   DISCIPLINA WRABF
+                    Prova do Campeonato Brasileiro (marque uma opção):
+                    ( ) Online                ( ) Prova Regional              ( ) Prova Final
+                    Data:     /       /          Hora:                  N.º do Relay:
+SEÇÃO A (Identificação do atleta)
+Nome: ___________________________ N.º de Inscrição: ___________ N.º do CR/RM: _________/_____
+Fone de Contato: __________________________ E-mail: ____________________________________________
+SEÇÃO B (Informações técnicas da carabina, munição e luneta)
+DIVISÃO DECLARADA:
+( ) AR SR       ( ) AR LR         ( ) AR HR         ( ) AR UN        ( ) RF SR          ( ) RF LR         ( ) RF H R
+
+Marca da carabina: _______________________             Modelo: ______________            Tipo: ( ) Ar      ( ) Rimfire
+
+Marca da munição: _______________ Calibre: ________ Peso: ____gr. Tipo: ( ) Pellet ( ) Slug ( ) Ogival
+
+Marca da Luneta: _____________________             Capacidade de aumento: _______
+
+
+
+Assinatura do Atleta: ____________________________              Data:        /    /             Hora:
+
+SEÇÃO C (Inspeção da carabina)
+Peso da carabina: __________________________              Luneta com capacidade travada? (        ) Sim ( ) Não
+Tipo de coronha: ( ) Original adaptada    (    ) Custom
+Medidas da coronha - Parte frontal: ( ) Atende ( ) Não atende           Parte traseira: ( ) Atende      ( ) Não atende
+
+Observações:
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+
+
+
+Assinatura do Oficial/Árbitro:___________________________________ Data:                                 Hora:
+OCORRÊNCIAS POSTERIORES (Inspeções extras, irregularidades, substituição de carabina, etc.)
+
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+
+       Este formulário deverá ser preenchido em duas vias. A segunda via é destinada ao atleta.
+
+
+
+                                                                                                                         33
+                                                          Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico
+                                                                               Edição de 06.02.2024 – V2
+
+
+                                       APÊNDICE F
+             Especificações de Coronhas (Stocks Clarification)
+1. Divisão Carabina Internacional Sporter
+
+   i. A ação pode ser colada na coronha.
+   ii. Não é permitido o uso de fita (grip tape) de coronha.
+  iii. A medida da coronha não pode ultrapassar 57,15mm (2,25") em seu ponto mais largo.
+  iv. A parte inferior frontal (forend) e a parte inferior traseira (butt) da coronha, nas áreas em que
+      entram em contato com o apoio frontal (rest) e o apoio traseiro (sandbags), devem ser planas OU
+      convexas.
+   v. A parte frontal da coronha, que repousa sobre o apoio dianteiro (front rest), deve medir 57,15mm
+      (2,25”) de largura nos seus primeiros 127mm (5") de comprimento, contados a partir de sua
+      extremidade frontal (front end).
+  vi. A motivação para que os primeiros 127mm (5") da coronha meçam 57,15mm (2,25”) de largura,
+      e o restante da coronha possa adotar qualquer largura inferior, é que a largura do restante da
+      coronha não dará ao atleta nenhuma vantagem competitiva.
+  vii. A traseira da coronha (butt) deve ser convexa ou plana, na parte inferior que entra em contato
+       com o saco de areia (sandbag). Se a área de contato for plana, não deve ter largura superior a
+       25mm (0,98”).
+ viii. Para a coronha, pode ser utilizado um modelo especializado ou afixada uma placa plana em sua
+       parte inferior, sendo permitida a utilização de qualquer material.
+  ix. Muitas coronhas de carabinas são mais largas em direção à ação, com o objetivo de proporcionar
+      maior apoio. Entretanto, a carabina deve permanecer dentro do limite de peso para a divisão.
+
+2. Divisões referentes às Carabinas Light e às Carabinas Heavy (Rimfire e Ar Comprimido)
+
+   i. A parte inferior frontal (forend) e a parte inferior traseira (butt) da coronha, nas áreas em que
+      entram respectivamente em contato com o apoio frontal (rest) e o apoio traseiro (sandbags),
+      devem ser planas OU convexas.
+   ii. A medida da coronha não pode ultrapassar 76,2mm (3") em seu ponto mais largo.
+  iii. A parte frontal da coronha, que repousa sobre o apoio dianteiro (front rest), deve medir 76,2mm
+       (3”) de largura nos seus primeiros 127mm (5") de comprimento, contados a partir de sua
+       extremidade frontal (front end). A motivação para que os primeiros 127mm (5") da coronha
+       meçam 76,2mm (3”) de largura, e o restante da coronha possa adotar qualquer largura inferior, é
+       que a largura do restante da coronha não dará ao atleta nenhuma vantagem competitiva.
+  iv. Para a coronha, pode ser utilizado um modelo especializado ou afixada uma placa plana em sua
+      parte inferior, sendo permitida a utilização de qualquer material.
+   v. Muitas coronhas de carabinas são mais largas em direção à ação, com o objetivo de proporcionar
+      maior apoio. Entretanto, a carabina deve permanecer dentro do limite de peso para a divisão.
+  vi. A traseira da coronha (butt) deve ser convexa ou plana, na parte inferior que entra em contato
+      com o saco de areia (sandbag). Se a área de contato for plana, não deve ter largura superior a
+      25mm (0,98”).
+
+
+
+                                                                                                     34
+                                                        Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico
+                                                                             Edição de 06.02.2024 – V2
+
+
+       TABELA DE REFÊRENCIA - PESO E LARGURA PERMITIDOS PARA AS CORONHAS.
+
+
+                                           PESO                                      LARGURA
+   DIVISÃO      PESO      TOLERÂNCIA                   LARGURA     TOLERÂNCIA
+                                          MÃXIMO                                     MÁXIMA
+
+               3.855 kg       28 g         3.88 kg     57.15mm          1mm            58.15mm
+     RF IS
+                8,5 lbs   0.98767 onças   8.5539 lbs   2.25 pol.     0.0393 pol.      2.2893 pol.
+
+              4.762 kg        28 g         4.79 kg      76.2mm          1mm            77.2mm
+    RF LR
+              10,5 lbs    0.98767 onças   10.560 lbs     3 pol.      0.0393 pol.      3.0393 pol.
+
+               6.803 kg       28 g         6.831 kg     76.2mm          1mm            77.2mm
+    RF HR
+                15 lbs    0.98767 onças   15.059 lbs     3 pol.      0.0393 pol.      3.0393 pol.
+
+               4.762 kg       28 g         4.79 kg      76.2mm          1mm            77.2mm
+    AR LR
+               10,5 lbs   0.98767 onças   10.560 lbs     3 pol.      0.0393 pol.      3.0393 pol.
+
+               6.803 kg       28 g         6.831 kg     76.2mm          1mm            77.2mm
+    AR HR
+                15 lbs    0.98767 onças   15.059 lbs     3 pol.      0.0393 pol.      3.0393 pol.
+
+
+
+3. Divisão Carabina de Ar Unlimited
+
+Na divisão Carabina de Ar Unlimited não há regra estabelecida para a coronha.
+    i. As coronhas podem ser de qualquer material, qualquer forma e qualquer largura.
+   ii. As carabinas de ar comprimido que competirem nesta divisão podem disparar de um apoio frontal
+        (front rest), apoio traseiro (back rest), Saco em X (X-bag) ou bipé (bi-pods).
+
+4. É responsabilidade individual do atleta verificar se a carabina cumpre as especificações de
+   sua respectiva divisão, conforme previstas neste Apêndice.
+
+
+
+
+                                                                                                    35
+                                                       Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico
+                                                                             Edição de 06.02.2024 – V2
+
+
+                                     APÊNDICE G
+ Esclarecimento sobre Apoio Dianteiro (Clarification on latest design of front rests)
+Os equipamentos para benchrest ainda estão em fase de desenvolvimento pelos principais fabricantes,
+especialmente no que diz referência ao apoio dianteiro (front rest). A seguir estão exemplos de tais
+equipamentos de apoio e suas respectivas bolsas (sandbags).
+
+
+
+
+                                                                                                   36
+                                                             Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                      Edição de 20.11.2024 – V3
+
+           VERSÕES - ALTERAÇÕES REALIZADAS NOS TEXTOS DOS ANEXOS I e II
+
+Versão 2
+    Data           Item Alterado                                Resumos das Alterações
+                                          Inclusão da letra “c”, que diz respeito à participação de Atletas em
+06/02/2024    Anexo I; Tópico VI
+                                          Cerimônias de Premiação em eventos internacionais.
+                                          Estabelecida nova quantidade de cartões de alvos para todas as
+              Anexo I; Tópico III;
+06/02/2024                                divisões de Ar comprimido, a serem utilizados nas provas ONLINE,
+              letra “b”, itens ii e iii
+                                          REGIONAIS e FINAL do Campeonato Brasileiro de 2024.
+              Anexo I; Tópico III;        Adequação da tabela para homologação de recordes, em sintonia
+06/02/2024
+              letra “h”                   com a quantidade de cartões de alvos disparados em cada divisão.
+
+
+Versão 3
+    Data           Item Alterado                                Resumos das Alterações
+              Títulos dos Anexos I e      Retirado o ano de vinculação/referência, considerando a perenidade
+20/11/2024
+              II                          esperada para as regras expressas nos Anexos I e II
+              Anexo I; Tópicos I e II
+                                          Adequação do texto para refletir o conteúdo atualizado do
+20/11/2024    – FINALIDADES E
+                                          Regulamento Geral de CPR
+              OBJETIVOS
+              Anexo I; Tópico III, Atualização dos vínculos relacionados ao texto do Regulamento
+20/11/2024
+              letra “a”            Geral de CPR
+              Anexo I; Tópico III,
+                                   Atualização dos vínculos relacionados ao texto do Regulamento
+20/11/2024    letra “b”, item 1, Geral de CPR
+              subitem i
+              Anexo I; Tópico III, Atualização dos vínculos relacionados ao texto do Regulamento
+20/11/2024
+              letra “h”, item 2    Geral de CPR
+              Anexo I; Tópico III, Atualização dos vínculos relacionados ao texto do Regulamento
+20/11/2024
+              letra “m”            Geral de CPR
+
+
+
+
+                                                                                                                 37
+                                                         Confederação Brasileira de Tiro Esportivo
+                               Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                              Edição de 20.11.2024 – V3
+
+                                         ANEXO I
+
+                             CAMPEONATO BRASILEIRO DE CPR
+                RIFLE INTERNACIONAL - DISCIPLINA WRABF
+
+
+                       ESPECIFICIDADES PARA A DISCIPLINA WRABF
+
+
+A. Regulamento Específico para as Provas do Campeonato Brasileiro
+
+
+Como consequência das características inerentes a Disciplina WRABF e suas divisões, são necessárias a
+adoção de estratégicas e de parâmetros específicos para a condução das competições do Campeonato
+Brasileiro. Foram considerados:
+    A utilização de grande número de equipamentos, normalmente volumosos e pesados;
+    O obrigatório revezamento dos atletas na utilização das bancadas posicionadas dentro da linha de
+        tiro;
+    A eventual necessidade de se atirar em 3 cartões de alvos, por grande parte das divisões, para se
+        obter o resultado final da prova (agregado);
+    A necessidade de se fazer a movimentação dos equipamentos entre as partidas/relays, de realizar
+        o revezamento entre bancadas, de encher cilindros de ar, fazer a limpeza de canos, a troca de
+        localização das bandeiras de vento, de acessórios e apoios, etc.;
+    O número de divisões da Disciplina, que impõe a necessidade de pelo menos 3 dias para a
+        execução das provas Regionais e de 4 dias para a execução da prova Final do Campeonato
+        Brasileiro;
+    O número variável de inscrições dentro de cada uma das 7 divisões;
+    O número máximo de relays (12) que é possível realizar dentro de um dia de competição;
+    O número máximo de divisões que é possível implementar dentro da quantidade diária de relays;
+    A disponibilização, pelo clube, de número limitado de bancadas;
+    A possibilidade do compartilhamento de equipamentos entre atletas;
+    A extrema dependência das condições climáticas, com ênfase para a velocidade do vento;
+
+Em alinhamento com o Regulamento Internacional da WRABF (RBVPI – Seções D, E e F), para que seja
+cumprido o cronograma estabelecido, seja oferecida a máxima equidade de condições aos atletas, sejam
+evitados eventuais distúrbios decorrentes das escolhas individuais de bancadas e de horários, além de
+possibilitar a tempestiva aferição de equipamentos e a apuração de resultados, foram adotadas as
+seguintes providências:
+     Data conhecida para participação do atleta, com a pré-distribuição das divisões nos dias
+        disponíveis para a prova;
+     Determinação do número mínimo de bancadas para as Provas Regionais e Prova Final;
+     Restrição ao número de atletas que possam compartilhar o mesmo equipamento;
+     Determinação prévia da quantidade de relays que serão realizados em cada dia de prova;
+     Determinação prévia dos horários de início e de término de cada um dos relay, em cada dia de
+        prova.
+
+Os Tópicos e itens expressamente não tratados neste Regulamento Específico da Disciplina WRABF
+seguirão as mesmas normas, premissas e previsões do Regulamento Geral de CPR corrente.
+
+
+                                                                                                    38
+                                                           Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                  Edição de 20.11.2024 – V3
+I e II – FINALIDADES E OBJETIVOS
+
+A finalidade e os objetivos deste Regulamento Específico estão correlacionados com os respectivos
+tópicos do Regulamento Geral de CPR.
+
+III – DESENVOLVIMENTO
+
+a) Definições
+
+As definições que foram incluídas no Regulamento Geral de CPR, Tópico 3 - Desenvolvimento, no que
+couber, serão integralmente aplicadas a este Regulamento Específico da WRABF.
+
+b) Campeonato Brasileiro
+
+1. Etapas
+   i. Para as etapas ONLINE serão seguidas as diretrizes básicas traçadas pelo Regulamento Geral de
+        CPR, assim como também serão adotados os critérios exarados pelo Tópico 3 - Desenvolvimento,
+        letra “i) Campeonato Brasileiro de Tiro Esportivo, itens de 1 a 4.
+  ii. As provas das etapas ONLINE e REGIONAIS serão disputadas com a utilização, por atleta, das
+        seguintes quantidades de cartões de alvos nas divisões:
+             1º. Carabinas de Ar Comprimido: será atirado somente 1 cartão de alvos em cada uma das
+                  divisões de Ar Comprimido.
+             2º. Carabinas Rimfire: será atirado somente 1 cartão de alvos em cada uma das divisões
+                  Rimfire.
+ iii. A prova FINAL DO CAMPEONATO BRASILEIRO será disputada com a utilização, por atleta,
+        das seguintes quantidades de cartões de alvos na divisão:
+             1º. Carabinas de Ar Comprimido:
+                   - Nas divisões Springer Rifle, Light Rifle, Heavy Rifle e Unlimited Rifle serão atirados
+                     3 cartões de alvos em cada uma.
+             2º. Carabinas Rimfire:
+                   - Nas divisões Internacional Sporter Rifle, Light Rifle e Heavy Rifle serão atirados 3
+                     cartões de alvos em cada uma
+
+2. Definição dos Campeões (encerramento do Campeonato)
+
+2.1) Classificação
+
+Para o Campeonato Brasileiro da Disciplina WRABF, na obtenção da classificação final INDIVIDUAL
+do atleta será adotada a metodologia e as orientações a seguir:
+   i. Não será adotado “peso diferenciado” para nenhuma das provas da Disciplina WRABF.
+  ii. Na apuração da classificação final de uma divisão, a soma dos 3 melhores resultados obtidos pelo
+         atleta em etapas online será dividida por 3, obtendo-se a média aritmética simples. A esta média
+         aritmética serão acrescidos os resultados válidos obtidos na primeira Prova Regional realizada
+         pelo atleta e na Prova Final do Campeonato Brasileiro.
+ iii. O atleta poderá participar das quatro Provas Regionais previstas no calendário - CENTROS,
+         CENBRA, NORTE NORDESTE e SULBRA. Entretanto, para efeito de realização do somatório
+         destinado à obtenção da Classificação Final INDIVIDUAL no Campeonato Brasileiro, será
+         considerado apenas o resultado válido obtido na primeira Prova Regional realizada pelo atleta,
+         independente da Região onde ocorreu. Os resultados Regionais não aproveitados receberão o
+         mesmo tratamento das etapas online.
+
+
+                                                                                                        39
+                                                          Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                Edição de 20.11.2024 – V3
+ iv.   Especificamente para a primeira Prova Regional realizada pelo atleta no ano corrente,
+       independentemente da Região onde ocorreu:
+         no caso de eventual quebra ou inoperância da carabina, para a qual não haja solução possível
+           dentro do cronograma previsto para a competição, impossibilitando a sua conclusão, o
+           resultado dessa primeira participação não será considerado válido para efeito do somatório
+           destinado à obtenção da Classificação Final INDIVIDUAL no Campeonato Brasileiro.
+           Nesse caso e apenas nesse caso, será considerado o resultado da segunda participação em
+           Provas Regionais do atleta.
+
+Na obtenção da classificação por EQUIPES/FEDERAÇÕES, serão considerados os resultados por
+DIVISÃO, respeitando-se todos os demais critérios do Regulamento Geral de CPR.
+
+3. Campeonatos Regionais e Etapa Final do Campeonato - Disciplina WRABF
+
+As condições para a realização das Provas Regionais e da Prova Final da Disciplina WRABF são as
+previstas no ANEXO II deste Documento.
+
+3.1 Provas Regionais - Divisões da Disciplina WRABF
+
+a) As Provas Regionais deverão ser realizadas em até 4 (quatro) localidades diferentes, 1 (uma) em cada
+   região delimitada pelo Regulamento Geral de CPR, sempre em Clubes que atendam aos critérios
+   mínimos estabelecidos neste Regulamento (ANEXO II) e devidamente homologados pela
+   CBTE/Diretoria Técnica da WRABF.
+b) A Diretoria Técnica da WRABF publicará, no início do calendário anual, Chamada para Candidaturas
+   de Clubes Anfitriões, a ser amplamente divulgada pelos canais de comunicação operados pela CBTE.
+c) O Clube anfitrião será escolhido pela Diretoria Técnica da WRABF e homologado pela Presidência
+   da CBTE, observado o resultado da Chamada para Candidaturas de Clubes Anfitriões.
+d) Os locais e as datas de realização das Provas Regionais do Campeonato Brasileiro da Disciplina
+   WRABF será confirmada e divulgada com antecedência mínima de 90 dias, contados da data
+   prevista para as Provas Regionais das demais disciplinas das Provas Nacionais.
+e) As Etapas Regionais da WRABF ocorrerão, a priori, em datas distintas das demais datas reservadas
+   para as Provas Regionais das outras disciplinas de CPR.
+f) Todas as despesas das Etapas Regionais, inclusive com eventuais troféus, deverão ser suportadas com
+   a arrecadação da prova ou com os patrocínios conseguidos pelo Clube anfitrião.
+
+3.2 Equipes nas Regionais – Divisões da Disciplina WRABF
+
+Serão formadas por 3 atletas de cada Federação, detentores dos melhores resultados em cada divisão da
+WRABF, independente de gênero, classe e categoria (equipes mistas). Exclusivamente para efeito de suas
+composições, serão integrantes das equipes das divisões da WRABF somente os atletas que tenham
+participado de, no mínimo, duas etapas online antes da Prova Regional.
+
+3.3 Prova Final do Campeonato Brasileiro – Divisões da Disciplina WRABF
+
+a) A Prova Final da Disciplina WRABF e suas divisões será realizada em localidade a ser previamente
+   definida, em qualquer Estado brasileiro, observados os requisitos e os critérios mínimos estabelecidos
+   neste Regulamento (ANEXO II) e devidamente homologados pela CBTE/Diretoria Técnica da
+   WRABF.
+b) A Diretória Técnica da WRABF publicará, no início do calendário anual, Chamada para Candidaturas
+   de Clubes Anfitriões, a ser amplamente divulgada pelos canais de comunicação operados pela CBTE
+
+
+                                                                                                      40
+                                                         Confederação Brasileira de Tiro Esportivo
+                               Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                               Edição de 20.11.2024 – V3
+c) O Clube anfitrião será escolhido pela Diretoria Técnica da WRABF e homologado pela Presidência
+   da CBTE, observado o resultado da Chamada para Candidaturas de Clubes Anfitriões.
+d) O local e a data de realização da Etapa Final do Campeonato Brasileiro da Disciplina WRABF
+   será confirmada e divulgada com antecedência mínima de 120 dias, contados da data prevista
+   para a Prova Final das demais disciplinas Nacionais.
+e) A Prova Final da WRABF ocorrerá, a priori, em datas distintas das demais datas reservadas para as
+   Provas Finais das demais disciplinas de CPR.
+
+3.4 Equipes na Final do Campeonato Brasileiro - Divisões da Disciplina WRABF
+
+Serão formadas por 3 atletas de cada Federação, detentores dos melhores resultados em cada divisão da
+WRABF, independente de gênero, classe e categoria (equipes mistas). Exclusivamente para efeito de suas
+composições, serão integrantes das equipes das divisões da WRABF somente os atletas que tenham
+participado de, no mínimo, duas etapas online e de uma Prova Regional antes da Final.
+
+3.5 Classificação
+
+Para o que não estiver em conflito com este Regulamento Específico, serão observadas as normas
+previstas no Regulamento Geral de CPR.
+
+3.6 Desempate
+
+Para o que não estiver em conflito com este Regulamento Específico, serão observadas as normas
+previstas no Regulamento Geral de CPR.
+
+3.7 Premiação (por conta da CBTE)
+
+a) Campeonato Brasileiro
+    i. Individual
+          Medalhas para os atletas 3 primeiros lugares, por divisão e classe.
+          Certificado para todos os atletas, independentemente de sua classificação, por divisão e
+             classe. Este certificado poderá ser emitido pelo site da CBTE após a apuração final do
+             evento.
+   ii. Equipe
+          Medalhas para os atletas dos 3 primeiros lugares, por divisão.
+          Certificado para todos os atletas das equipes participantes, por divisão. Este certificado
+             poderá ser emitido pelo site da CBTE após a apuração final do evento.
+  iii. Federações
+          Troféus para os 3 primeiros lugares.
+
+b) Para o que não estiver em conflito com este Regulamento Específico, serão observadas as normas
+   previstas no Regulamento Geral de CPR.
+
+c) Campeonato Brasileiro Interclubes
+   A Disciplina WRABF e suas divisões não participará do Campeonato Brasileiro Interclubes
+
+d) Regularização do atleta
+   Serão observadas as normas previstas no Regulamento Geral de CPR.
+
+e) Inscrições
+
+
+                                                                                                     41
+                                                                      Confederação Brasileira de Tiro Esportivo
+                                     Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                                   Edição de 20.11.2024 – V3
+    i. Em uma mesma etapa, seja online ou presencial, ao Atleta será permitida apenas uma inscrição
+       em cada divisão da WRABF,
+   ii. Serão observadas as demais normas previstas para o item no Regulamento Geral de CPR.
+
+f) Definição dos Organizadores
+   1. Escolha dos locais de PROVAS ONLINE para a Disciplina WRABF
+   - O Clube que desejar ser o anfitrião organizador de PROVAS ONLINE, referentes à Disciplina
+       WRABF, deverá enviar e-mail com pedido de credenciamento específico e destinado à Diretoria
+       Técnica da WRABF (aguiar@cbte.org.br), contendo a indicação das etapas do Calendário que
+       deseja realizar durante o ano.
+   - Em caso de dois ou mais candidatos a anfitrião organizador em uma mesma região, a CBTE fará
+       a compatibilização de datas entre eles, caso ainda não exista acordo.
+   - Não serão consideradas válidas para o Campeonato Brasileiro quaisquer etapas realizadas em
+       Clubes que não tenham obtido previamente o deferimento formal de seu credenciamento.
+   - O deferimento para realização das PROVAS ONLINE da Disciplina WRABF em um
+       determinado Clube será de responsabilidade da respectiva Diretoria Técnica da CBTE, observado
+       os requisitos mínimos referentes à documentação exigida pelas autoridades competentes e à
+       necessária estrutura física, conforme evidenciado na letra “k” deste tópico.
+   2. Aprovação e Manutenção - Para o que não estiver em conflito com este Regulamento Específico,
+      serão observadas as demais normas previstas no Regulamento Geral de CPR
+
+g) Alvos
+Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais normas
+previstas no Regulamento Geral de CPR
+
+h) Recordes Brasileiros
+   1. Os recordes brasileiros serão válidos se igualados ou superados, observando-se obrigatoriamente
+      as seguintes condições:
+       i.   Quando ocorrer durante a realização das provas presenciais incluídas no calendário do
+            CAMPEONATO BRASILEIRO, o recorde somente será homologado se foi obtido com a
+            participação mínima de 3 (três) atletas atirando na mesma disciplina, na mesma data, no
+            mesmo horário e na mesma linha de tiro, independentemente de divisão e classe;
+      ii.   A pontuação a ser considerada para a homologação do recorde dependerá diretamente da
+            abrangência da competição e da divisão para a qual foi obtida, a saber:
+
+                 RECORDES DA DISCIPLINA WRABF - A PARTIR DA TEMPORADA 2024
+         RECORDES EM PROVAS REGIONAIS (Presenciais)                            Critério de Pontuação            Pontuação Máxima
+CARABINA WRABF AR COMPRIMIDO - LIGHT RIFLE                                    Somente 1 cartão de alvos              250/25x
+CARABINA WRABF AR COMPRIMIDO - HEAVY RIFLE                                    Somente 1 cartão de alvos              250/25x
+CARABINA WRABF AR COMPRIMIDO - UNLIMITED RIFLE                                Somente 1 cartão de alvos              250/25x
+CARABINA WRABF AR COMPRIMIDO - SPRINGER RIFLE (MOLA)                          Somente 1 cartão de alvos              250/25x
+CARABINA WRABF RIMFIRE - LIGHT RIFLE                                          Somente 1 cartão de alvos              250/25x
+CARABINA WRABF RIMFIRE - HEAVY RIFLE                                          Somente 1 cartão de alvos              250/25x
+CARABINA WRABF RIMFIRE - INTERNATIONAL SPORTER RIFLE                          Somente 1 cartão de alvos              250/25x
+   RECORDES NA PROVA FINAL OU EM PROVAS INTERNACIONAIS                        Critério de Pontuação             Pontuação Máxima
+CARABINA WRABF AR COMPRIMIDO - LIGHT RIFLE                              Agregado (soma de 3 cartões de alvos)        750/75X
+CARABINA WRABF AR COMPRIMIDO - HEAVY RIFLE                              Agregado (soma de 3 cartões de alvos)        750/75X
+CARABINA WRABF AR COMPRIMIDO - UNLIMITED RIFLE                          Agregado (soma de 3 cartões de alvos)        750/75X
+CARABINA WRABF AR COMPRIMIDO - SPRINGER RIFLE (MOLA) *                  Agregado (soma de 3 cartões de alvos)        750/75X
+CARABINA WRABF RIMFIRE - LIGHT RIFLE                                    Agregado (soma de 3 cartões de alvos)        750/75X
+CARABINA WRABF RIMFIRE - HEAVY RIFLE                                    Agregado (soma de 3 cartões de alvos)        750/75X
+CARABINA WRABF RIMFIRE - INTERNATIONAL SPORTER RIFLE                    Agregado (soma de 3 cartões de alvos)        750/75X
+*Obs.: A divisão Ar Comprimido - Springer Rifle só existe no Brasil
+
+
+
+   2. Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais
+      normas previstas no Regulamento Geral de CPR.
+                                                                                                                              42
+                                                           Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                  Edição de 20.11.2024 – V3
+
+
+i)   Documentação de Competição
+     Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais
+     normas previstas no Regulamento Geral de CPR
+
+j)   Lançamento dos Resultados
+     Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais
+     normas previstas no Regulamento Geral de CPR
+
+k) Equipamento Mínimo para Locais de Competição
+   Além das normas previstas no Regulamento Geral de CPR, excetuando as que eventualmente
+   conflitem com este Regulamento Específico, o Clube anfitrião deverá:
+      i. Possuir Certificado de Registro – CR emitido pelo Exército Brasileiro, dentro do prazo de
+         validade e onde conste o endereço das instalações que serão utilizadas para a realização da
+         competição, além do alvará de funcionamento e localização emitido pela prefeitura local;
+     ii. Disponibilizar:
+              A presença de, no mínimo, um Árbitro pertencente aos quadros de oficiais plenos da
+                 CBTE e que deve permanecer presente na linha de tiro durante todo o tempo de
+                 realização do evento,
+              Um par de plugs (gauges) na medida .224”, de marca homologada pela CBTE,
+              Instrumentos para medição das coronhas (régua, trena, paquímetro),
+              Balança digital com capacidade mínima de 10Kg e resolução de 1gr.,
+              Cronógrafo para aferição de energia nas disciplinas Ar Comprimido Light e Heavy Rifle;
+   iii. O terreno do estande à frente da linha de tiro deve ser preferencialmente plano, sendo
+         recomendável inclinação máxima de 1% (50 cm em 50 metros);
+    iv. O piso onde localizadas as bancadas deve ser pavimentado e regular, evitando oscilações das
+         bancadas;
+     v. Possuir a quantidade mínima de 03 bancadas, que devem ser construídas no padrão benckrest
+         bilateral (uso por destros e canhotos), de boa qualidade e firmeza estrutural, com a altura máxima
+         de 85cm e mínima de 75cm, acompanhadas das respectivas cadeiras;
+    vi. O ambiente referente à linha de tiro e à área imediatamente atrás das bancadas deve ser coberto
+         por telhado que proporcione a adequada proteção contra o sol e a chuva.
+   vii. O estande deverá ser equipado com suportes de cartões de alvos em número compatível com a
+         quantidade de bancadas a serem utilizadas.
+
+l)   Programação dos locais de Competição
+     Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais
+     normas previstas no Regulamento Geral de CPR.
+
+m) Particularidades das Disciplinas Nacionais e Rifle Internacional
+   Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais
+   normas previstas no Regulamento Geral de CPR.
+    Seguindo a regulamentação internacional da Disciplina WRABF, não haverá restrição quanto ao
+       uso de calças jeans ou de brim, assim como também não haverá restrição quanto ao tipo de
+       calçado, desde que não seja do tipo sandália (dedos e/ou calcanhares à mostra). Devem ser
+       mantidas as demais restrições previstas pelo Código de vestimenta da ISSF.
+
+n) Indicação ao Programa Bolsa Atleta
+   Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais
+   normas previstas no Regulamento Geral de CPR.
+
+
+
+                                                                                                        43
+                                                            Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                   Edição de 20.11.2024 – V3
+
+
+o) Insuficiência Técnica
+      i. É prerrogativa dos Árbitros oficiais da CBTE, a qualquer tempo durante a realização das etapas
+         online, das Provas Regionais ou da Prova Final, retirar da linha de tiro o atleta que não tenha
+         comportamento compatível com o ambiente de um estande de tiro ou deixe transparecer não
+         possuir o mínimo de conhecimento necessário para conclusão da competição.
+     ii. Para participar das provas Regionais ou da Prova Final do Campeonato Brasileiro será necessário
+         demonstrar que tem o mínimo de conhecimento da Disciplina WRABF, seja de seus
+         regulamentos, seja das especificações dos equipamentos necessários à competição.
+   iii. Como forma de comprovar que possuiu as condições mínimas exemplificadas no inciso anterior
+         deste item, ao atleta será exigida a participação em, no mínimo, duas provas online com
+         resultados válidos, realizadas em calendários anteriores ou no calendário do corrente ano, ou seja,
+         antes da inscrição em provas presenciais.
+    iv. Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais
+         normas previstas no Regulamento Geral de CPR.
+
+
+IV - ADVERTÊNCIAS E DESQUALIFICAÇÕES
+
+As advertências e desqualificações serão aplicadas em conformidade com o previsto no texto do
+Regulamento da WRABF (RBVPI) traduzido para o português, considerando, portanto, as características
+inerentes ao Campeonato Brasileiro da WRABF e aos atletas que dele participam.
+a) Advertências
+    1. As advertências serão aplicadas em todas e quaisquer situações em que o espirito desportivo (fair
+        play) for desrespeitado por atletas, dirigentes, treinadores ou assistentes, observadas as exceções
+        evidenciadas no item 2 a seguir;
+    2. As ocorrências direta ou indiretamente relacionadas à fraude no uso dos equipamentos, à quebra
+        de regras de segurança, ao comportamento agressivo ou às atitudes violentas por parte de atletas,
+        serão tratadas diretamente como casos de desqualificação (DQ), não sendo passíveis de mera
+        advertência.
+    3. Para o que não estiver em conflito com este Regulamento Específico, serão observadas as demais
+        normas previstas no Regulamento Geral de CPR.
+
+b) Desqualificações
+   1. Desqualificação do Evento (Prova ou Competição)
+        i.    As ocorrências relacionadas ao comportamento agressivo, atitude violenta, fraude no uso
+              dos equipamentos ou à quebra de regras de segurança no manuseio, na condução ou na
+              utilização da carabina, serão oficialmente comunicadas ao atleta no instante em que forem
+              identificadas pelo Árbitro.        São motivos para a desqualificação do atleta por
+              comportamento incompatível com o desporto e por quebra de regras de segurança:
+                Condução de carabina sem a inserção do obrigatório dispositivo de segurança (safety
+                    flag),
+                Disparo, acidental ou não, caracterizado pela passagem de munição pelo cano da
+                    arma (total ou parcialmente), ocorrido
+                   - em qualquer ambiente que esteja fora da linha de tiro ou da área de
+                      cronometragem,
+                   - em direção não segura, tais como em muros laterais, acima do para balas, nos
+                      tampos ou estruturas das bancadas, em divisórias dos box, em teto ou cobertura da
+                      linha de tiro, no chão (quando o impacto do projétil ocorrer a menos de 3 metros do
+                      atleta ou de terceiros),
+                   - antes do comando que autoriza o atleta remover o bandeira de segurança e/ou
+                      inserir o ferrolho na carabina (Item C.12 “3”),
+
+
+                                                                                                         44
+                                                     Confederação Brasileira de Tiro Esportivo
+                          Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                           Edição de 20.11.2024 – V3
+            Manuseio de qualquer tipo munição em áreas de segurança ou em locais destinados à
+             manutenção das carabinas,
+            Adulteração das configurações de equipamentos após a realização da vistoria
+             regulamentar (itens E.8.8 e Apêndice F), com o objetivo de obter vantagem indevida
+             na competição.
+            Incorrer na tentativa de ocultar a realização de tiro cruzado, nas condições previstas
+             pelo item E12.4 do RBVPI.
+            Provocar intencionalmente ou por sua própria negligência a falha de equipamento
+             para obter vantagem (item E.14).
+            Comportamento ou conduta que denote agressividade ou violência, materializadas
+             em agressão física ou verbal, praticada contra qualquer pessoa presente ao local do
+             evento, independentemente do motivo que tenha provocando o incidente,
+            Consumo de droga ilícita ou de bebida alcoólica nos ambientes próximos à linha de
+             tiro,
+            Comparecer para a realização de suas partidas/relays sob o efeito de drogas ou em
+             evidente estado de embriagues.
+
+2. Desqualificação do restante do dia de competição
+     i.   A desqualificação do restante do dia de competição será aplicada aos atletas que:
+            Receberem a 3ª advertência por um mesmo motivo, independentemente da
+               data/horário em que as advertências tenham sido registradas (vide C.18).
+            Receberem a 4ª advertência por motivos iguais ou diferentes, independentemente da
+               data/horário em que as advertências tenham sido registradas (vide C.18).
+            Durante a execução de uma partida forem flagrados pelo Árbitro disparando carabina
+               com o movimento restrito (restrição de movimento – B.10 e 11).
+            Efetuarem qualquer tiro disparado após o comando “inserir ferrolho e retirar
+               bandeiras de segurança” (C.12 “3”) e antes do comando "começar" ou após o "sopro
+               do apito" para cessar fogo (C.12 “4 e 6” e C.13 “v”).
+
+3. Desqualificação da partida ou relay (vide C.18)
+     i.   A desqualificação da partida ou relay será aplicada aos atletas que:
+            Receberem a 2ª advertência por um mesmo motivo, durante a realização de uma
+               determinada partida.
+            Receberem a 3ª advertência por motivos iguais ou diferentes, durante a realização de
+               uma determinada partida.
+            Sejam o motivo de apresentação de protesto, realizado por iniciativa de outro atleta,
+               em decorrência de desordens ou de distúrbios provocados durante a realização da
+               partida (vide item C.18).
+            Tenham suas participações impedidas por descumprimento de tempos e prazos
+               (início e fim dos relays) previstos pelo Regulamento da WRABF.
+            Tenham sua participação impedida por falta de adequação da carabina utilizada aos
+               parâmetros previstos para a divisão em que pretende competir (vide ANEXO F)
+            Nos casos em que haja o abandono da partida sem que seja esclarecido o motivo ou
+               quando, a critério do Árbitro, ficar evidente que o abandono está relacionado à falta
+               de esportividade (Ex.: discordância quanto à aplicação de eventual advertência).
+
+4. Providências da Arbitragem após a Desqualificação do atleta (vide C.18)
+      i.  O Árbitro providenciará a formal e imediata elaboração de súmula ou de correspondente
+          relatório, comunicando o fato ao atleta envolvido e, se possível, colhendo o seu
+          visto/ciente.
+     ii.  Após a formalização, a súmula ou o relatório será entregue o mais rapidamente possível à
+          direção da prova com a indicação da data e o horário da ocorrência.
+
+
+                                                                                                 45
+                                                           Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                  Edição de 20.11.2024 – V3
+         iii.   A ocorrência será comunicada à equipe de apuração, que a registrará para efeito de
+                lançamento do resultado do evento (DQ).
+         iv.    O diretor responsável tomará as providências necessárias para que seja garantida ao atleta
+                a oportunidade de apresentar seu protesto quanto à decisão da arbitragem, respeitado o
+                prazo regulamentar previsto (Item C.16).
+
+c) Casos omissos
+Os casos omissos e eventuais divergências, caso ocorram, serão apresentados:
+
+    Em 1ª instância – ao Árbitro designado como Diretor da prova
+    Em grau de Recurso (ou 1ª instância) – à Diretoria Técnica da WRABF (se presente);
+    Em grau de Recurso (ou 2ª e última instância) – à Comissão Técnica de Car/Pst/RF, conforme
+     constituída e relacionada no Regulamento Geral de CPR.
+
+
+V – PROCEDIMENTOS REFERENTES À EXECUÇÃO DAS PROVAS PRESENCIAIS
+
+
+V.1 Compartilhamento de equipamentos
+
+A possibilidade de se fazer o compartilhamento de equipamentos entre atletas leva em consideração os
+aspectos relacionados à legislação em vigor e as características do evento a ser realizado.
+1) Obrigatoriamente, deverão ser atendidos os aspectos relacionados ao Decreto nº 11.615, de
+    21/07/2023, em seu Art. 34, §2º, incisos I e II, assim como também à Portaria 166 - COLOG, de
+    27/12/2023, Art. 83, §3º e Anexo N. A apresentação da documentação pertinente é de
+    responsabilidade exclusiva do atleta;
+2) As características normalmente vinculadas aos eventos serviram de base para a elaboração e adoção
+    dos critérios que permitirão o compartilhamento de equipamento, com destaque àquelas referentes às
+    situações relacionadas:
+       ao número de inscrições esperadas,
+       ao número de dias previstos para a realização do evento,
+       à quantidade de bancadas disponibilizadas,
+       ao número de relays diários previstos,
+       à quantidade de divisões a serem disputadas diariamente,
+       ao número de cartões de alvos previstos para cada divisão,
+3) Os atletas que eventualmente optarem por compartilhar equipamentos deverão informar previamente
+    tal condição à direção de prova, fornecendo os nomes completos dos atletas e a(s) divisão(ões) em
+    que irão compartilhar o mesmo equipamento. Impreterivelmente, a informação será enviada por
+    e-mail em até 4 dias (96 horas) antes do início do evento.
+4) É obrigação dos atletas providenciarem para que seja agilizada a retirada e/ou movimentação dos
+    equipamentos de uso coletivo, responsabilizando-se pelo estrito cumprimento dos horários previstos
+    para a realização dos relays.
+
+V.1.1 - Provas Regionais da Disciplina WRABF
+Atendidas a legislação vigente e as condições mínimas para a realização do evento, conforme listadas
+abaixo, em Provas Regionais será possível o compartilhamento de equipamentos por até 3 (três) atletas:
+
+      Disponibilização de 10 mesas
+      Implementação de 12 relays diários
+      Adoção do cronograma diário previsto para a ordem de tiro das divisões
+      Número de cartões de alvos utilizados pelas divisões (vide item III, “b”, 1)
+
+
+                                                                                                        46
+                                                          Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                Edição de 20.11.2024 – V3
+V.1.2 - Prova Final da Disciplina WRABF
+1) Atendidas a legislação vigente e as condições mínimas para a realização do evento, conforme listadas
+   abaixo, na Prova Final do Campeonato Brasileiro será possível o compartilhamento de equipamentos
+   por até 2 (dois) atletas:
+       Disponibilização de 25 mesas
+       Implementação de 12 relays diários
+       Adoção do cronograma diário previsto para a ordem de tiro das divisões
+       Número de cartões de alvos utilizados pelas divisões (vide item III, “b”, 1)
+2) Excepcionalmente, a critério da Diretoria Técnica da WRABF, serão admitidos o compartilhamento
+   por até 3 (três) atletas, desde de que sejam observadas as restrições adicionais listadas a seguir:
+    i. O compartilhamento do equipamento entre 3 (três) atletas não será possível quando envolver duas
+        divisões distintas a serem disputadas em um mesmo dia de prova,
+   ii. Nas divisões em que se pretende compartilhar os equipamentos entre 3 (três) atletas, o número de
+        inscritos não deve ultrapassar o equivalente ao dobro (2X) do número de bancadas
+        disponibilizadas para a(s) respectiva(s) linha(s) de tiro.
+
+V.2 – Formatação dos Procedimentos para as Provas Presenciais da Disciplina WRABF
+
+1) As Provas Presenciais do Campeonato Brasileiro respeitarão essencialmente o formato padrão
+    adotado pelo Regulamento da WRABF (RBVPI), conforme previsto nas Seções D, E e F, observadas
+    e respeitadas as eventuais limitações impostas pela realidade brasileira.
+2) Serão obrigatoriamente adotados nas Provas Regionais e na Prova Final do Campeonato Brasileiro:
+    2.1 - Cronograma de atividades
+    i. A relação com a alocação dos atletas regularmente inscritos, contendo a respectiva individualização
+        de data/horário/relay/bancada previstos para as atividades da competição, será tempestivamente
+        disponibilizada pela Direção de Prova, observado o mínimo de 24 horas de antecedência em relação
+        ao primeiro dia com atividades pontuáveis do evento.
+   ii. A ausência do atleta nas datas/horários previstos, para as atividades da prova, ocasionará a sua
+        desqualificação (DQ) na respectiva partida/relay. Casos excepcionais serão analisados e
+        deliberados pelo Comitê de Arbitragem, após a necessária apresentação do Formulário de Protesto
+        pelo interessado.
+
+  2.2 - Designação de Horários – Partidas ou Relays (RBVPI E.4)
+    i. A atletas serão designados para os relays com base na sua classificação dentro do Campeonato
+        Brasileiro em curso, incluindo-se até a última etapa online, ressalvados os casos de
+        compartilhamento de equipamento.
+   ii. Horários para o início de cada um dos relays, a serem implementados pela Direção de Prova
+        (último tiro às 17:05h):
+           Manhã (6 relays) – 08:15h; 09:00h; 09:45h; 10:30h; 11:15h e 12:00h
+           Tarde (6 relays) – 12:45h; 13:30h; 14:15h; 15:00h; 15:45h e 16:30h
+  iii. Não haverá pausa para o almoço, devendo o atleta se programar para atender ao cronograma da
+        prova.
+  iv. Não serão acolhidas as solicitações para a alteração/troca nos horários previstos para a participação
+        do atleta.
+
+   2.3 - Designação das bancadas
+   Para o primeiro cartão de alvos ou cartão de alvos único, a distribuição dos atletas nas mesas será
+   realizada por sorteio. No caso dos atletas inscritos em divisões que utilizarão mais de um cartão de
+   alvos no evento, serão promovidos os rodízios de mesas para o 2º e o 3º cartões de alvos, com o
+   deslocamento lateral à direita (sentido horário) de 5 posições na linha de tiro (Ex.: o atleta que
+   inicialmente ocupar a mesa 1 será rodiziado para a mesa 6 e, depois, da mesa 6 para a mesa 11).
+
+
+                                                                                                      47
+                                                          Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                Edição de 20.11.2024 – V3
+   2.4 - Ordem de participação/entrada das divisões (RBVPI D.2)
+   Opcionalmente, a critério da organização da prova, poderá ser adotado o 4º dia de prova,
+   possibilitando a utilização de relays adicionais ou complementares para o término da competição.
+   Entretanto, para as divisões em que são utilizados 3 cartões de alvos (agregado), torna-se obrigatório
+   que os 3 cartões de um mesmo atleta sejam utilizados em um mesmo dia.
+        Dia 1 - Carabina WRABF Ar Comprimido - Light Rifle (6 relays)
+                - Carabina WRABF Ar Comprimido - Heavy Rifle (6 relays)
+        Dia 2 - Carabina WRABF Ar Comprimido - Springer (mola) (6 relays em comum)
+                - Carabina WRABF Ar Comprimido – Unlimited Rifle (12 relays)
+        Dia 3 - Carabina WRABF Rimfire - Internacional Sporter Rifle (6 relays em comum)
+                - Carabina WRABF Rimfire Light Rifle (6 relays)
+                - Carabina WRABF Rimfire Heavy Rifle (6 relays)
+
+   2.5 - Inspeção de Equipamentos (RBVPI Seção E e Apêndice F)
+   A primeira inspeção de equipamentos ocorrerá obrigatoriamente antes do início da participação do
+   atleta, ou seja, antes do 1º disparo em cada divisão. O posto de checagem de equipamentos estará
+   aberto no início de cada dia de prova, das 07:00h às 09:00h, e posteriormente das 12:00h às 14:00h.
+
+VI – FORMAÇÃO DAS EQUIPES BRASILEIRAS - PROVAS INTERNACIONAIS
+
+a) A prerrogativa para definir critérios destinados a subsidiar a indicação de representantes brasileiros
+   para a participação em competições internacionais, direito exercido originariamente pela Instituição
+   que representa oficialmente a WRABF no Brasil, foi formalmente delegada à Confederação Brasileira
+   de Tiro Esportivo – CBTE.
+b) Dessa forma, para os eventos internacionais realizados dentro ou fora do Brasil, a indicação dos
+   representantes brasileiros terá como critério a classificação individual do atleta, em cada uma das
+   divisões da Disciplina, tendo como referência o resultado final do Campeonato Brasileiro da
+   WRABF, sempre relativo ao ano imediatamente anterior ao do previsto para a realização do evento
+   internacional.
+       i.   Até o limite de vagas oferecidas pela Entidade Anfitriã, os atletas serão convocados
+            individualmente e terão como obrigação indicar, no prazo máximo de 30 dias corridos, a sua
+            firme intenção de participar do evento para o qual foi convocado.
+      ii.   Quando o número total de vagas disponibilizadas pela Entidade Anfitriã for inferior a seis,
+            será considerado, para efeito de classificação e convocação, a ordem decrescente do
+            somatório simples dos resultados finais obtidos pelo atleta em todas as divisões que tenha
+            participado, sempre considerando o resultado final do Campeonato Brasileiro da WRABF.
+     iii.   No caso de não ocupação das vagas ou de eventuais desistências entre os convocados, serão
+            realizadas tantas convocações quanto forem necessárias para ocupar o número de vagas
+            disponíveis, sempre seguindo estritamente a ordem de classificação obtida dentro do
+            resultado final do Campeonato Brasileiro da WRABF.
+     iv.    Na eventual necessidade de desempate na classificação utilizada para as convocações, serão
+            utilizados os seguintes critérios:
+                A prioridade será do Atleta que conseguiu o maior resultado na Prova Final do
+                   Campeonato Brasileiro do ano anterior ao do previsto para o evento internacional;
+                Persistindo o empate, a prioridade será do Atleta que conseguiu o maior resultado em
+                   sua participação na Prova Regional aproveitada na composição do Campeonato
+                   Brasileiro do ano anterior ao do previsto para o evento internacional.
+      v.    Para a consolidação de sua convocação para o evento internacional, o atleta deverá
+            comprovar a regularidade de seus Certificados de Registros junto às autoridades
+            competentes, além de estar em dia com suas obrigações cadastrais e financeiras junto à
+            CBTE.
+
+                                                                                                      48
+                                                         Confederação Brasileira de Tiro Esportivo
+                               Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                              Edição de 20.11.2024 – V3
+     vi.    A CBTE não assume o compromisso ou a responsabilidade pelo pagamento de qualquer
+            despesa realizada pelo atleta convocado, tais como inscrições, passagens, hospedagens,
+            alimentação ou obtenção de documentos (passaporte, vistos, etc.).
+    vii.    Excepcionalmente, observada a disponibilidade orçamentária, própria ou a proporcionada
+            por terceiros (projetos de custeio específicos), a CBTE poderá subsidiar a participação de
+            atletas em eventos internacionais realizados fora do território brasileiro.
+c) Os atletas e/ou equipes brasileiras, convocados(as) pela CBTE para representarem o Brasil em
+   competições internacionais da WRABF, deverão ostentar a Bandeira Brasileira em todas as suas
+   participações em cerimônias de premiação, de homenagens e de entrega de troféus/medalhas.
+
+                                                         Rio de Janeiro (RJ), 20 de novembro de 2024.
+
+
+José Eduardo de Aguiar
+Diretor Técnico da Disciplina WRABF
+
+
+
+
+                                                                                                    49
+                                                            Confederação Brasileira de Tiro Esportivo
+                                 Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                   Edição de 20.11.2024 – V3
+
+                                           ANEXO II
+
+                               CAMPEONATO BRASILEIRO DE CPR
+                 RIFLE INTERNACIONAL - DISCIPLINA WRABF
+
+
+  DIRETRIZES PARA A ORGANIZAÇÃO DAS PROVAS REGIONAIS E DA PROVA FINAL
+
+Candidatura à condição de Clube Sede para as Provas Regionais e a Prova Final
+
+Como forma de alavancar o desenvolvimento das competências administrativas e esportivas dos Clubes
+de Tiro Esportivo, incentivando a participação de novos atletas e, por consequência, proporcionando o
+crescimento do número de adeptos da Disciplina WRABF, a CBTE abrirá inscrições para que os clubes
+possam se candidatar à condição de anfitriões responsáveis por receber as Provas Regionais e/ou a Prova
+Final do Campeonato Brasileiro.
+
+Os clubes interessados devem ficar atentos à publicação da chamada por candidaturas, ocasião em que
+serão informadas as condições a serem observadas pelos interessados.
+
+A. Exigências a serem cumpridas pelo clube candidato à condição de anfitrião de Provas
+   Regionais ou da Prova Final da WRABF
+
+Para a realização do evento, o Clube candidato a anfitrião deverá, além de apresentar a documentação
+obrigatória, comprovar que detém a necessária estrutura física, representada por suficientes
+equipamentos, instalações destinadas aos serviços e adequação do estande.
+
+Também deverá disponibilizar informações sobre a distância do Clube/estande à Cidade, a
+disponibilidade da rede hoteleira no município sede, a distância e a qualidade das estradas até a Capital do
+Estado e a distância dos aeroportos mais próximos ao Município do Clube, como segue:
+
+A.1 - Documentação
+
+1. Apresentar Certificado de Registro – CR emitido pelo Exército Brasileiro, dentro do prazo de
+   validade e onde conste o endereço das instalações que serão utilizadas para a realização da
+   competição, além do alvará de funcionamento e localização emitido pela prefeitura local.
+2. Firmar Termo de Compromisso com a CBTE, responsabilizando-se pelo cumprimento integral da
+   legislação em vigor no País, no âmbito das instalações utilizadas pelo Clube para a realização do
+   evento, inclusive com o atendimento das obrigações inerentes à fiscalização dos atletas inscritos
+   para a prova: o atleta que não estiver legalmente habilitado para a prática do tiro esportivo está
+   impedido de utilizar produtos controlados pelo Exército, próprios ou de terceiros. As sanções
+   decorrentes do não cumprimento da legislação serão aplicadas ao atleta e solidariamente ao Clube.
+
+A.2 - Localização e acessos (aéreo e rodoviário) ao Município onde instalado o Clube
+
+As condições referentes à localização, à disponibilidade de meios de transporte e à facilidade de acesso
+do Clube candidato a anfitrião serão objetos de análise por parte da Diretoria Técnica da WRABF,
+considerando tratar-se de fator importantíssimo na escolha das sedes que receberão as provas
+presencias.
+
+
+
+                                                                                                           50
+                                                          Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                Edição de 20.11.2024 – V3
+A.3 - Estrutura física e instalações de Serviços
+
+São necessários(as):
+1. Área de convivência, próxima às instalações da linha de tiro, com cobertura e capacidade de
+    receber pelo menos 50 pessoas simultaneamente, mobiliada com mesas e cadeiras destinadas aos
+    atletas e espectadores.
+2. O oferecimento de serviços de restaurante e/ou lanchonete, em todos os dias do evento, com
+    lanches, refeições e bebidas de boa qualidade e oferecidos a preços razoáveis.
+3. Banheiros com higienização realizada em pelo menos 2 vezes ao dia, separados em masculino e
+    feminino, com no mínimo três sanitários e 2 pias, além de espaço suficiente para a utilização por
+    pelo menos 3 pessoas simultaneamente e acessibilidade para portadores de necessidades especiais.
+4. Área destinada ao acondicionamento transitório de bolsas e cases (malas ou maletas) dos
+    equipamentos dos atletas, com 4 mesas simples destinadas à limpeza e/ou manutenção.
+5. Sala para a instalação do equipamento de apuração, preferencialmente climatizada, com 6 mesas, 8
+    cadeiras e instalações elétricas com boa iluminação e tomadas de energia suficientes para a ligação
+    de 5 equipamentos elétricos ou eletrônicos.
+6. Rede sem fio (Wi-Fi), com acesso à internet e velocidade não inferior a 300mbps.
+7. Na sede do clube, deverá ser disponibilizada a seguinte estrutura:
+    Conjunto com mastros para hasteamento de 4 bandeiras. Mastros adicionais, em área distinta,
+        poderão ser providenciados para a utilização por eventuais patrocinadores.
+    Bandeiras oficiais do Brasil, do Estado, do Município e da CBTE.
+    Pódio para os três primeiros colocados, localizado em frente aos mastros das bandeiras e em
+        tamanho suficiente para receber também 3 equipes.
+    Um dispositivo de mídia (pendrive ou similar) com o hino nacional brasileiro.
+    No caso de oficiais do Exército Brasileiro (SFPC) se fizerem presentes, para fiscalizar os atletas
+        participantes do evento, deverá ser providenciado um local apropriado para acomodar os militares
+        fiscalizadores, fornecendo-lhes todas as informações requisitadas.
+
+A.4 - Material Auxiliar e Equipamentos para Apuração de Resultados
+
+Disponibilizar:
+1. Um par de plugs (gauges) na medida .224”, homologado pela CBTE;
+2. Instrumentos para a medição de coronhas (régua, trena ou paquímetro);
+3. Balança digital com capacidade mínima de 10Kg e resolução de 1gr.;
+4. Cronógrafo para aferição de energia nas disciplinas Ar Comprimido Light e Heavy Rifle;
+5. Base para receber os cartões de alvos, a ser utilizada quando da utilização do plug;
+6. Pelo menos 3 cilindros de ar comprimido, com capacidade para 300bar e mínimo de 6 litros cada,
+    equipados com válvulas padrão DIN, compatíveis com os equipamentos geralmente utilizados nas
+    carabinas de ar comprimido (PCP). Os cilindros serão colocados à disposição dos atletas ao início
+    de cada dia em que estejam previstas disputas envolvendo as divisões de ar comprimido,
+    completamente revisados e abastecidos;
+7. Equipamento de microinformática (desktop ou notebook), com hardware de boa qualidade, com
+    sistema operacional Windows 10 (ou superior) e softwares para o processamento de textos e de
+    planilhas compatíveis com o Microsoft Office;
+8. Duas impressoras laser monocromáticas, com os respectivos cartuchos de toners cheios;
+9. Um transformador/conversor de corrente elétrica, bivolt (110/220) com entrada e saída reversível e
+    potência mínima de 500va;
+10. Um nobreak com capacidade de sustentação de pelo menos 2 horas, considerando a instalação
+    mínima de um microcomputador e uma impressora laser;
+11. Uma caixa de som ativa e com potência mínima de 500 watts, além de 1 microfone sem fio de boa
+    qualidade (se possível Shure ou Sennheiser), por linha de tiro;
+
+
+
+                                                                                                        51
+                                                          Confederação Brasileira de Tiro Esportivo
+                               Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                Edição de 20.11.2024 – V3
+12. Próxima à área destinada à equipe de apuração, disponibilizar área para a montagem de um mural ou
+    “varal” para a fixação dos cartões de alvos, em tamanho suficiente para abrigar/expor pelo menos 100
+    unidades (nos Regionais) e 200 unidades (na Final);
+13. Providenciar para que o seguinte material seja disponibilizado à equipe de Árbitros:
+     04 Pilhas para os microfones que serão utilizados na condução da prova
+     01 pacote de papel A4 branco (500 folhas)
+     01 pacote com 2.000 unid. de etiquetas PIMACO (ou similar) brancas e na medida 38,1mm x
+        68,5mm
+     01 pacote com 2.000 unid. de etiquetas PIMACO (ou similar) brancas e na medida 31,0mm x
+        68,5mm
+     12 Canetas esferográficas - azuis ou pretas
+     02 Pinceis atômicos grossos - azuis ou pretos
+     01 rolo de fita crepe
+     01 rolo de barbante
+     01 rolo de fita zebrada para isolamento de área
+     160 prendedores metálicos para afixação dos cartões de alvos no “varal”
+     02 Grampeadores - tipo tapeceiro e com regulagem de força
+     02 caixas de grampos para os grampeados (300gr cada - tamanho 106/8)
+     Cartões de alvos homologados da WRABF (ref. LCL Alvos) – Provas Regionais (300 unid. para
+        25m Air Rifle e 300 unid. para 50m Rimfire); Prova Final (600 unid. para 25m Air Rifle e 600
+        unid. para 50m Rimfire);
+     Material em quantidade suficiente para a confecção de contra alvos (rolo de papel pardo, cartolina
+        ou alvos destinados às disciplinas das provas nacionais).
+     02 apitos (para a arbitragem)
+     10 metros de fio de nylon (usado em roçadeiras), diâmetro máximo 3mm, para confecção de
+        safety flags.
+     01 extensão elétrica (régua com pelo menos 2 metros de fio e 6 tomadas)
+     02 engradados ou caixas para a guarda dos materiais e equipamentos utilizados pela equipe de
+        apuração
+     02 pranchetas
+     01 pacote de elásticos (borrachinhas de dinheiro).
+
+A.5 - Instalações do estande
+
+Condições mínimas:
+1. O terreno do estande à frente da linha de tiro deve ser plano, sendo aceitável aclive ou declive com
+   inclinação máxima de 1% (50cm em 50m) entre o piso do posto de tiro e o piso onde fixado o suporte
+   do cartão de alvos.
+2. A base do cartão de alvos deve ficar a uma altura mínima de 90cm e máxima de 140cm do solo onde
+   fixado o seu suporte. Os suportes da linha de alvos devem manter o mesmo alinhamento e
+   nivelamento entre si (mesma altura em relação ao piso dos postos de tiro).
+3. O piso onde localizadas as bancadas deve ser pavimentado e regular, evitando a oscilação das
+   bancadas;
+4. Ter instaladas a quantidade mínima de 10 bancadas (provas Regionais) ou 25 bancadas (prova Final).
+   As bancadas devem ser construídas no padrão benckrest bilateral (uso por destros e canhotos), de boa
+   qualidade e firmeza estrutural, com a altura máxima de 85cm e mínima de 75cm, acompanhadas das
+   respectivas cadeiras;
+5. O ambiente referente à linha de tiro e à área imediatamente atrás das bancadas deve ser coberto por
+   telhado que proporcione a adequada proteção contra o sol e a chuva, além de disponibilizar
+   iluminação elétrica e tomadas de energia para o equipamento de som.
+6. O estande deverá ser equipado com suportes de alvos e os seus respectivos suportes de contra alvos,
+   em número compatível com a quantidade de bancadas a serem utilizadas. Os suportes devem
+   possibilitar a troca rápida de sua própria estrutura, possuir superfície que ofereça apoio uniforme e
+   permita a troca rápida dos cartões de alvos, sendo confeccionado em material compatível com a
+                                                                                                      52
+                                                          Confederação Brasileira de Tiro Esportivo
+                                Carabina WRABF - Regulamento Específico - ANEXOS
+                                                                                Edição de 20.11.2024 – V3
+    utilização de grampeadores/grampos ou dotados de outra forma eficaz de fixação que não danifique
+    os cartões de alvos.
+
+A.6 – Segurança
+
+1. É de responsabilidade do atleta, de forma solidária com a administração do Clube organizador do
+   evento, o respeito às normas de segurança relacionadas à guarda e ao manuseio de armas de fogo e
+   munições.
+2. Para os funcionários e/ou contratados que trabalharão no evento, os clubes organizadores
+   providenciarão as necessárias instruções relacionadas às regras de segurança e aos potenciais riscos
+   de acidentes no ambiente do estande.
+3. É desejável que não se permita a venda e o consumo de bebidas alcoólicas no ambiente do Clube.
+4. O consumo de bebidas alcoólicas por atletas é expressamente não permitido antes do encerramento
+   das competições do dia.
+
+A.7 - Gestão do Evento – Árbitros e pessoal auxiliar
+
+Os Clubes anfitriões de provas presenciais serão responsáveis pela alocação de pessoal auxiliar dedicado
+à gestão da prova (manutenção e limpeza do estande, troca de alvos, higiene dos banheiros) e pela
+indicação de Árbitros CBTE Plenos (locais ou de sua região), assumindo integralmente, quando for o
+caso, o pagamento das despesas relacionadas às diárias e à alimentação. Por seu turno, a CBTE designará
+Árbitros Plenos para a coordenação e apuração de resultados do evento, responsabilizando-se pelo
+pagamento das despesas correspondentes.
+
+As quantidades relacionadas aos Árbitros certificados pela CBTE são as seguintes:
+    1) Para as Provas Regionais:
+        - Clube Anfitrião - Indicação de 2 Árbitros locais/regionais
+        - CBTE: Indicação de 1 Árbitro para coordenar o evento.
+
+    2) Para a Prova Final:
+       - Clube Anfitrião - Indicação de 4 Árbitros locais/regionais
+       - CBTE: Indicação de 2 Árbitros para as funções de coordenação e apuração de resultados.
+
+B. CONSIDERAÇÕES FINAIS
+
+A CBTE, por meio da Diretoria Técnica da WRABF, poderá determinar a realização de vistorias nos
+Clubes que sediam ou sediarão eventos relacionados à Disciplina WRABF e, se verificadas situações que
+estejam em desacordo com os Regulamentos, promover a suspenção das inscrições realizadas pelo local,
+até que sejam sanados os problemas detectados e que nova homologação seja concedida.
+
+Este Regulamento entrará em vigor após a sua aprovação pela Comissão de Atletas, pela Comissão
+Técnica de CPR e de sua publicação no site da CBTE, revogando-se as edições anteriores.
+
+
+                                                          Rio de Janeiro (RJ), 20 de novembro de 2024.
+
+
+
+
+José Eduardo de Aguiar
+Diretor Técnico da Disciplina WRABF
+
+                                                                                                      53
+

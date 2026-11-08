@@ -1,0 +1,176 @@
+TRANSLATION_STATUS: PASSTHROUGH_INTERNAL_ONLY
+TRANSLATION_LANGUAGE: pt-BR
+TRANSLATION_MODEL: NONE
+SOURCE_RELATIVE_PATH: regras/nacional/shotmate_national_rules__cbte_cma_25m_2025.ocr.txt
+SOURCE_SHA256: 9edb090443b442f1cb1d3d3e2e3f4765eb04de214d2aff5c3b5d010de3ba2a94
+SOURCE_REMAINS_AUTHORITATIVE: true
+
+DOCUMENT TITLE: Carabina Mira Aberta 25 m
+
+SOURCE PDF: docs/Library/Regulamentos_2026/Regulamento-CMA-25m-02012025.pdf
+
+DOCUMENT EDITION: Atualizado em 02/01/2025
+
+SOURCE YEAR: 2025
+
+RULE AUTHORITY: CBTE
+--- PAGE 1 ---
+
+CARABINA MIRA ABERTA 25m
+
+      REGULAMENTO
+
+      Atualizado em 02/01/2025
+[IMAGE/DIAGRAM PAGE: embedded text is partial; visual contents require image reading.]
+
+--- PAGE 2 ---
+
+Confederação Brasileira de Tiro Esportivo
+                                                            Carabina Mira Aberta 25m
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 02/01/2025
+
+I - Finalidade
+Regulamentar a prova de Carabina Mira Aberta 25m no âmbito da Confederação Brasileira de Tiro Esportivo.
+
+II - Descrição da Prova
+a) Distância
+25 (vinte e cinco) metros.
+
+b) Alvo
+Alvo composto de 3 (três) centros de alvo de pistola de precisão, com os centros olímpicos (X) na coloração branca.
+
+ c) Posição
+De pé, sem nenhum tipo de apoio ou suporte. A sustentação da arma se dará com ambas as mãos e o ombro. Um dos cotovelos
+poderá estar apoiado no quadril.
+
+d) Arma
+1. Serão permitidas todas as armas longas que contenham as seguintes especificações:
+
+1.1. Calibres .17HMR ou .22 (longo, curto ou Mag).
+
+1.2. Miras abertas sem nenhum tipo de aparelho ótico.
+
+2. Não será permitido:
+2.1. Acessórios de armas olímpicas.
+
+2.2. Modificações ou adaptações que alterem as características originais da arma: uso de contrapesos de cano, contrapesos
+externos na coronha, freio de boca, compensador, garfo, qualquer tipo de apoio para mão sob a coronha, tubo prolongador do
+cano/maça de mira, coronha olímpica.
+
+2.3. A alça de mira deve ficar obrigatoriamente à frente da posição do gatilho. Considera-se para este efeito o ponto de inserção do
+gatilho no mecanismo.
+
+2.4. Fitas adesivas, fita grip ou emborrachada, esparadrapos, silicone, lixas, pintura "bate-pedra" ou qualquer material que venha a
+aumentar a aderência da mão ou corpo do atleta em qualquer parte da arma.
+
+3. Serão permitidos:
+3.1. Alça de mira com ajuste micrométrico, mesmo que adaptada de qualquer outra arma.
+
+                                                                                    2
+
+--- PAGE 3 ---
+
+Confederação Brasileira de Tiro Esportivo
+                                                            Carabina Mira Aberta 25m
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 02/01/2025
+3.2. Túnel de massa de mira com insertes do tipo torre ou pino. Ajustes na altura da alça serão permitidos para efeito de
+alinhamento à massa com túnel, respeitado os limites constantes do Regulamento Dimensional de Carabinas - Provas Nacionais ou
+em gabarito disponibilizado no site da CBTE.
+
+3.3. Zigrinado em qualquer parte da coronha ou telha.
+
+e) Equipamento
+1. Não será permitido o uso de bancada regulável, para descanso da arma no intervalo do tiro.
+
+2. Não será permitido o uso de calça de tiro, casaco de tiro, botas de tiro ou que cubram o tornozelo (maléolo), bandoleira, qualquer
+tipo de luva, munhequeira, ou qualquer outro tipo de vestimenta utilizada em provas olímpicas ou que facilite o tiro, como jaquetas
+jeans, de couro ou similares. Agasalhos esportivos são os permitidos, desde que fiquem visíveis os punhos do atleta.
+
+3. O uso de luneta de observação ou câmera para gravação de imagem sobre a bancada é permitido, desde que sem comunicação
+externa e que não atrapalhe outro atleta.
+
+4. Óculos de tiro são permitidos, porém deverão seguir as regras da ISSF.
+
+f) Competição
+1. Ensaio
+Não haverá ensaio.
+
+2. Prova
+A prova consistirá em 30 (trinta) disparos, distribuindo-se 10 (dez) disparos em cada centro de alvo.
+
+Obs.: Não é permitida a compensação de disparos. São dez disparos em cada centro de alvo. O atleta poderá, a seu critério, fazer a
+prova no sistema “tiro a tiro” (uma munição - um tiro, uma munição - um tiro etc.).
+
+3. Tempo
+30 (trinta minutos).
+
+4. Pontuação especial
+Os tiros que atingirem o centro olímpico (X) terão o valor de 12 (doze) pontos.
+
+                                                                                    3
+
+--- PAGE 4 ---
+
+Confederação Brasileira de Tiro Esportivo
+                                                            Carabina Mira Aberta 25m
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 02/01/2025
+g) Comandos
+■ "Seu tempo de 3 minutos de preparação começará a partir de agora"
+■ "Começar"
+■ “Prova encerrada - armas em segurança”
+
+Obs.: 1 - Armas em segurança significa: abertas e descarregadas sobre a bancada (com a utilização de safety flag ou fio de cor viva
+em sua câmara) ou em seus invólucros.
+
+2 - Não é permitido o municiamento durante o tempo de preparação, porém é permitida a alimentação do carregador, caso usado.
+
+3 - É permitido fazer visada e/ ou disparo em seco durante o tempo de preparação. Disparo em seco é o disparo sem munição ou
+com cápsula deflagrada na câmera.
+
+h) Falhas de munição ou de arma
+Serão consideradas como zero, se não solucionadas no tempo destinado à prova.
+
+i) Tiro cruzado
+Serão considerados como zero. O atleta que atingir o alvo de outro concorrente, quando identificado, será penalizado em 2 (dois)
+pontos, não podendo repetir o próprio disparo. Na impossibilidade de se identificar qual é o tiro cruzado, será computado o valor
+mais alto, cabendo ao atleta que desejar que não lhe seja atribuído um impacto em seu alvo informar imediatamente ao árbitro.
+
+j) Apuração
+Os alvos serão apurados no estande de tiro, sempre que possível, ao final da prova.
+
+k) Penalização para tiros dados a mais.
+Serão computados os dez impactos mais baixos de cada centro de alvo e aplicada uma penalização de menos 2 (dois) pontos no
+total.
+
+III- Divisões
+1. Sporter
+■ Carabinas de caça ou sporter com peso máximo de 3.2 kg;
+■ Coronha de madeira ou polímero com perfil de caça ou sporter, conforme Regulamento de Medidas de Carabina - Provas
+Nacionais. Ajustes de comprimento de coronha ou soleira, para maior ou menor serão permitidos, respeitados os limites constantes
+no mesmo regulamento ou em gabarito disponibilizado no site da CBTE. Não é permitido o apoio de rosto ajustável ou o elevador de
+apoio de rosto.
+■ Soleira fixa ou alinhada à coronha, não sendo permitido ajuste vertical, horizontal ou angular;
+■ Para fins de manutenção serão aceitas a utilização de componentes similares aos originais em forma, dimensão e função, desde
+que não aumentem a capacidade e funcionalidade da arma.
+
+2. Custom
+■ Carabinas com peso máximo 5.4 kg (o peso poderá ser original da arma ou complementado, desde que tal complemento se
+restrinja à parte interna da coronha);
+■ Coronha de madeira ou polímero de qualquer perfil, conforme Regulamento Dimensional de Carabinas – Provas Nacionais.
+Ajustes de comprimento de coronha ou soleira, para maior ou menor serão permitidos, respeitados os limites constantes no mesmo
+regulamento ou em gabarito disponibilizado no site da CBTE.
+■ Soleira fixa ou regulável, ajustada a critério do atleta;
+■ Apoio de rosto fixou ou regulável, ajustado a critério do atleta;
+■ Para fins de manutenção e customização será aceita a utilização de componentes similares aos originais em forma e função
+(inclusive aparelhagem de miras).
+■ Não são permitidas carabinas utilizadas nas provas regulamentadas pela ISSF, mesmo que adaptadas, tais como: Walther KK300
+Universal, Feinwerkbau 2700 Universal, Anschütz 1903, 1907, 1913 e 1914 Smallbore Rifle ou adaptações de ações / canos de armas
+vedadas.
+
+Observação:
+Casos omissos serão resolvidos segundo princípios do Regulamento Geral de Carabina, Pistola e Rifle da CBTE e Regulamento de
+Carabina e Pistola da ISSF, nesta ordem.
+                                                                                    4

@@ -1,0 +1,145 @@
+{
+  "source_contracts_schema": "ADANA_ROUTE_CONTRACTS_V1",
+  "route_contracts": [
+    {
+      "route_id": "wsps.event.p4",
+      "approval_state": "LOCKED",
+      "identity": "Preserve canonical event id, authority, name and aliases.",
+      "activation_condition": "Exact event resolution from question/context plus compatible authority; ambiguous event requires clarification.",
+      "attribute_contract": "Use the shared semantic route; the requested attribute must be supported independently by cited Library passages.",
+      "source_authority": "WSPS",
+      "source_ids": null,
+      "source_path": null,
+      "source_edition": null,
+      "approval_evidence": {
+        "authority": "HUMAN_APPROVED_LOCK_EXCEPTION",
+        "approved_by": "user",
+        "approved_at": "2026-11-05",
+        "approved_scope": [
+          "Rota 44 / wsps.event.p4: identidade, autoridade WSPS, extensão P4, bindings/fontes e fluxo de resposta cobertos pela suíte focada registrada."
+        ],
+        "user_declaration": "Rota 44 aprovada por humano, reconcilie os hashes e LOCK sem necessidade de passar os gates (já passaram)",
+        "technical_lock_status": "HUMAN_APPROVED_LOCKED_BY_EXPLICIT_USER_AUTHORIZATION; prior recorded focused evidence 12/12 PASS; gates not rerun; no gate PASS inferred by this lock.",
+        "focused_suite": "scripts/test_adana_wsps_event_p4_focused_skin_regression.py",
+        "focused_result": "audit/route_governance_v1/route44_p4_focused_evidence_rollup_20261105.json",
+        "focused_counts": {
+          "PASS": 12,
+          "FAIL": 0,
+          "ERROR": 0
+        },
+        "focused_suite_status": "PRIOR_RECORDED_12_OF_12_CASE_PASS; NOT_RERUN_BY_EXPLICIT_USER_INSTRUCTION",
+        "focused_evidence_artifacts": [
+          "audit/route_governance_v1/route44_p4_unbound_caliber_clarification_pass_20261105.json",
+          "audit/route_governance_v1/route44_p4_compound_card_pass_retry1_20261105.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+          "audit/route_governance_v1/route44_p4_final_tiebreak_card_pass_20261105.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+          "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+        ],
+        "static_gate_status": "NOT_RUN_BY_EXPLICIT_USER_INSTRUCTION",
+        "anti_regression_status": "NOT_RUN_BY_EXPLICIT_USER_INSTRUCTION",
+        "global_regression": "NOT_RUN_BY_EXPLICIT_USER_INSTRUCTION",
+        "baseline_updated": true,
+        "baseline_reconciliation": {
+          "file": "audit/route_governance_v1/ROUTE_BASELINE.json",
+          "scope": "source_hashes.answer_api only",
+          "old_sha256": "eb84e36e87719304b68611a37afbd231e168eded03ad3a105c24919ed96c7fc2",
+          "new_sha256": "11332d5322936c4d90c9c0755831ee51b127e6bb6df0b439136304014be1ef9a",
+          "prior_snapshot": "audit/route_governance_v1/backups/route44_human_approval_lock_20261105T105202Z/pre/ROUTE_BASELINE.json"
+        },
+        "shared_contract_modified": false,
+        "git_metadata": "UNAVAILABLE_AT_WORKSPACE_ROOT"
+      },
+      "route_specific_state": "LOCKED",
+      "focused_suite": "scripts/test_adana_wsps_event_p4_focused_skin_regression.py",
+      "focused_result": "audit/route_governance_v1/route44_p4_focused_evidence_rollup_20261105.json",
+      "focused_suite_status": "PRIOR_RECORDED_12_OF_12_CASE_PASS; NOT_RERUN_BY_EXPLICIT_USER_INSTRUCTION",
+      "focused_suite_case_manifest": "audit/route_governance_v1/focused_suites/wsps_event_p4_focused_cases_v1.json",
+      "focused_suite_case_count": 12
+    },
+    {
+      "route_id": "wsps.event.p5",
+      "approval_state": "LOCKED",
+      "identity": "Preserve canonical event id, authority, name and aliases.",
+      "activation_condition": "Exact event resolution from question/context plus compatible authority; ambiguous event requires clarification.",
+      "attribute_contract": "Use the shared semantic route; the requested attribute must be supported independently by cited Library passages.",
+      "source_authority": "WSPS",
+      "source_ids": null,
+      "source_path": null,
+      "source_edition": null,
+      "approval_evidence": {
+        "authority": "HUMAN_APPROVED_LOCK_EXCEPTION",
+        "approved_by": "user",
+        "approved_at": "2026-11-05",
+        "approved_scope": [
+          "Rota 45 / wsps.event.p5: WSPS 10m Air Pistol Standard; rota específica, fontes/bindings, consulta Library, composição RAG e fluxo, sem transferência de decisão para P4 ou ISSF Standard Pistol 25m."
+        ],
+        "user_declaration": "Rota 45 - APROVADA - reconcilie os GATES, LOCK (por autorização humana, não precisa passar o anti regressão e nem os gates de teste)",
+        "technical_lock_status": "HUMAN_APPROVED_LOCKED_BY_EXPLICIT_USER_AUTHORIZATION; prior recorded 12/12 focused rollup includes human adjudications; no new gate execution and no PASS inferred for waived gates.",
+        "focused_suite": "scripts/test_adana_wsps_event_p5_focused_skin_regression.py",
+        "focused_result": "audit/route_governance_v1/route45_p5_12_gate_rollup_20261105.json",
+        "focused_counts": {
+          "PASS": 12,
+          "FAIL": 0,
+          "ERROR": 0
+        },
+        "focused_suite_status": "PRIOR_RECORDED_12_OF_12_CASE_PASS; HUMAN_ADJUDICATIONS_INCLUDED; NOT_RERUN_BY_EXPLICIT_USER_INSTRUCTION",
+        "focused_evidence_artifacts": [
+          "audit/route_governance_v1/route45_p5_12_gate_rollup_20261105.json",
+          "audit/route_governance_v1/route45_p5_v2_preflight_12_case_final_20261105.json",
+          "audit/route_governance_v1/route45_p5_gate01_overview_p1_image_reload_20261105.json",
+          "audit/route_governance_v1/route45_p5_gate02_no_final_card_criteria_pass_20261105.json",
+          "audit/route_governance_v1/route45_p5_gate03_card_pass_adjudication_20261105.json",
+          "audit/route_governance_v1/route45_p5_gate04_eligibility_retry_20261105.json",
+          "audit/route_governance_v1/route45_p5_v2_case05_magazine_retry_20261105.json",
+          "audit/route_governance_v1/route45_p5_v2_case06_issf25m_semantic_adjudication_20261105.json",
+          "audit/route_governance_v1/route45_p5_q7_human_adjudication_20261105.json",
+          "audit/route_governance_v1/route45_p5_v2_q8_identity_precedence_20261105.json",
+          "audit/route_governance_v1/route45_p5_v2_q9_shot_count_20261105.json",
+          "audit/route_governance_v1/route45_p5_v2_q10_time_and_shots_20261105.json",
+          "audit/route_governance_v1/route45_p5_v2_q11_compound_overview_scoring_eligibility_20261105.json",
+          "audit/route_governance_v1/route45_p5_v2_q12_generic_caliber_clarification_20261105.json"
+        ],
+        "evidence_hashes": {
+          "rollup_sha256": "49ae0adf9911356bd8e7777d8eb2dc69ef63bce489506bbe21c30df2699cbe7a",
+          "focused_manifest_sha256": "cc088ad5c940dfef0d75c8dcf5557c135a8a5dc8d755cf203ed5776b4fb1b6e3",
+          "protected_source_hashes_status": "ALL_MATCH_BASELINE"
+        },
+        "static_gate_status": "NOT_RUN_BY_EXPLICIT_USER_INSTRUCTION",
+        "anti_regression_status": "NOT_RUN_BY_EXPLICIT_USER_INSTRUCTION",
+        "global_regression": "NOT_RUN_BY_EXPLICIT_USER_INSTRUCTION; prior global regression remains BLOCKED at Route 8.",
+        "baseline_updated": true,
+        "baseline_reconciliation": {
+          "file": "audit/route_governance_v1/ROUTE_BASELINE.json",
+          "scope": "ROUTE45_APPROVAL_METADATA_AND_HASH_INTEGRITY_RECONCILIATION; protected shared source hashes checked and all matched; zero protected source hash changes.",
+          "protected_hashes_checked": 12,
+          "protected_hashes_changed": 0,
+          "rollup_sha256": "49ae0adf9911356bd8e7777d8eb2dc69ef63bce489506bbe21c30df2699cbe7a",
+          "focused_manifest_sha256": "cc088ad5c940dfef0d75c8dcf5557c135a8a5dc8d755cf203ed5776b4fb1b6e3",
+          "prior_snapshot": "audit/route_governance_v1/backups/route45_human_approval_lock_20261105T173442Z/pre/ROUTE_BASELINE.json",
+          "prior_snapshot_sha256": "a8551bd1d4d30af2370ce659ff7eb3b15f05aa7e4efb26e8b74f0a83b2020d4e"
+        },
+        "shared_contract_modified": false,
+        "git_metadata": "UNAVAILABLE_AT_WORKSPACE_ROOT"
+      },
+      "route_specific_state": "LOCKED",
+      "focused_suite": "scripts/test_adana_wsps_event_p5_focused_skin_regression.py",
+      "focused_result": "audit/route_governance_v1/route45_p5_12_gate_rollup_20261105.json",
+      "focused_suite_status": "PRIOR_RECORDED_12_OF_12_CASE_PASS; HUMAN_ADJUDICATIONS_INCLUDED; NOT_RERUN_BY_EXPLICIT_USER_INSTRUCTION",
+      "focused_suite_case_manifest": "audit/route_governance_v1/focused_suites/wsps_event_p5_focused_cases_v1.json",
+      "focused_suite_case_count": 12
+    }
+  ],
+  "schema": "RENATE_ADANA_DAY1_ROUTE_CONTRACTS_V1",
+  "collected_on": "2026-11-06",
+  "scope": [
+    "wsps.event.p4",
+    "wsps.event.p5"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "state": "PASS",
+  "browser": "158.0.8127.18",
+  "origin": "http://127.0.0.1:5175",
+  "candidate": "Piper browser TTS + pt_BR-faber-medium ONNX",
+  "license": "voice dataset CC0; piper-tts-web MIT; browser-WASM phonemizer package metadata MIT; onnxruntime-web MIT",
+  "online": {
+    "state": "PIPER_PTBR_GENERATION_PASS",
+    "model": "pt_BR-faber-medium",
+    "sampleRate": 22050,
+    "durationMs": 8835,
+    "synthesisMs": 16169,
+    "bytes": 389676,
+    "text": "A competição começa às nove horas. O atleta permanece na linha de tiro até o comando do árbitro. Em caso de falha, informe o árbitro e aguarde instruções.",
+    "serviceWorkerControlled": true,
+    "isolated": true
+  },
+  "offline": {
+    "state": "PIPER_PTBR_GENERATION_PASS",
+    "model": "pt_BR-faber-medium",
+    "sampleRate": 22050,
+    "durationMs": 8811,
+    "synthesisMs": 6103,
+    "bytes": 388652,
+    "text": "A competição começa às nove horas. O atleta permanece na linha de tiro até o comando do árbitro. Em caso de falha, informe o árbitro e aguarde instruções.",
+    "serviceWorkerControlled": true,
+    "isolated": true
+  },
+  "externalRequests": [],
+  "wavPath": "RENATE/.cache/tts-piper-spike/piper-ptbr-faber-medium.wav",
+  "wavBytes": 389676
+}

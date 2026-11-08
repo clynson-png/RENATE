@@ -1,0 +1,31 @@
+{
+  "state": "PASS",
+  "browser": "158.0.8127.18",
+  "view": "390x844 mobile viewport on local production dist",
+  "caseId": "ATLAS-CBTE:CBTE-ARB-020:A01",
+  "atlasId": "CBTE:CBTE-ARB-020:A01",
+  "questionSha256": "52d1873a4890ae8d81683fef94b05a363cb7ccb6a9d34c7704b3910b49b74a16",
+  "initial": {
+    "order": [
+      "local-card",
+      "qa-answer",
+      "local-rule-documents",
+      "more-passages"
+    ],
+    "detailsCollapsed": true,
+    "summary": "Deseja ver mais passagens sobre o assunto?",
+    "rulePassagesInitiallyVisible": false,
+    "localRuleLinks": 1
+  },
+  "afterOpen": {
+    "detailsOpen": true,
+    "passagesVisible": true,
+    "figureCount": 18
+  },
+  "layout": {
+    "viewport": 390,
+    "pageWidth": 390
+  },
+  "externalRequests": [],
+  "note": "Checks only compact UI order and disclosure behavior; not human acceptance or route/Q&A semantic approval."
+}

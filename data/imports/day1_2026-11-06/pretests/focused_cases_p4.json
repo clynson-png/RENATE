@@ -1,0 +1,325 @@
+{
+  "schema": "ADANA_ROUTE_TEMPLATE_V2_FOCUSED_CASES_V1",
+  "route_id": "wsps.event.p4",
+  "case_plan_id": "route44_p4_rag_focused_v1",
+  "case_plan_source": "HUMAN_DIRECTED_TARGET_MANIFEST",
+  "cases": [
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_event_overview_cards_and_generic_relations",
+      "case_kind": "POSITIVE",
+      "question": "Como é a prova WSPS P4 (50m Pistol)?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "EVENT_OPERATION",
+      "expected_slot_phase": "qualification",
+      "required_answer_markers": [
+        "P4",
+        "50m Pistol",
+        "Open",
+        "SH1"
+      ],
+      "required_card_phases": [
+        "qualification",
+        "final"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "EVENT_OPERATION",
+          "phase": "qualification"
+        }
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_original_contract_question_qualification_count",
+      "case_kind": "POSITIVE",
+      "question": "Qual é o total de disparos da qualificação da prova WSPS P4 (50m Pistol)?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "QUALIFICATION_OPERATION",
+      "expected_slot_phase": "qualification",
+      "required_answer_markers": [
+        "60"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "QUALIFICATION_OPERATION",
+          "phase": "qualification"
+        }
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_qualification_time_and_shots",
+      "case_kind": "POSITIVE",
+      "question": "Quantos disparos e quais tempos de prova constam da tabela WSPS para a qualificação P4?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "QUALIFICATION_OPERATION",
+      "expected_slot_phase": "qualification",
+      "required_answer_markers": [
+        "60",
+        "1:30",
+        "1:45"
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_qualification_rag_score_calculation",
+      "case_kind": "POSITIVE",
+      "question": "Calcule a pontuação máxima da qualificação P4 e mostre os operandos e a regra de pontuação.",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F",
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": false,
+      "expected_slot_intent": "SCORING_MAXIMUM",
+      "expected_slot_phase": "qualification",
+      "required_answer_markers": [
+        "60",
+        "10",
+        "600"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "SCORING_MAXIMUM",
+          "phase": "qualification"
+        }
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_event_eligibility_category_and_requirements",
+      "case_kind": "POSITIVE",
+      "question": "Quem pode participar da prova WSPS P4 e quais são os requisitos de elegibilidade?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": false,
+      "expected_slot_intent": "ELIGIBILITY",
+      "expected_slot_phase": "event",
+      "required_answer_markers": [
+        "Aberto",
+        "SH1"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "ELIGIBILITY",
+          "phase": "event"
+        }
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_compound_overview_score_and_eligibility",
+      "case_kind": "POSITIVE",
+      "question": "Como é a prova WSPS P4, qual o máximo de pontos na qualificação e quem pode participar?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "EVENT_OPERATION+SCORING_MAXIMUM+ELIGIBILITY",
+      "expected_slot_phase": "qualification+event",
+      "required_answer_markers": [
+        "Open",
+        "SH1"
+      ],
+      "required_card_phases": [
+        "qualification",
+        "final"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "EVENT_OPERATION",
+          "phase": "qualification"
+        },
+        {
+          "intent": "SCORING_MAXIMUM",
+          "phase": "qualification"
+        },
+        {
+          "intent": "ELIGIBILITY",
+          "phase": "event"
+        }
+      ],
+      "require_closed_slot_composition": true
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_final_operation_and_card",
+      "case_kind": "POSITIVE",
+      "question": "Como funciona a final P4: sequência, número de séries e disparos, pontuação, eliminação e desempate?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F",
+        "ADANA-SRC-260C623ACB97F24A"
+      ],
+      "required_card_phase": "final",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "FINAL_OPERATION",
+      "expected_slot_phase": "final",
+      "required_answer_markers": [
+        "8",
+        "24",
+        "12",
+        "14"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "FINAL_OPERATION",
+          "phase": "final"
+        }
+      ],
+      "required_card_phases": [
+        "final"
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_final_phase_card_acceptance",
+      "case_kind": "POSITIVE",
+      "question": "Mostre o card da final WSPS P4.",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F",
+        "ADANA-SRC-260C623ACB97F24A"
+      ],
+      "required_card_phase": "final",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "FINAL_OPERATION",
+      "expected_slot_phase": "final",
+      "required_answer_markers": [
+        "P4"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "FINAL_OPERATION",
+          "phase": "final"
+        }
+      ],
+      "required_card_phases": [
+        "final"
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_precedence_wsps_over_issf",
+      "case_kind": "PRECEDENCE",
+      "question": "Se houver conflito entre regra ISSF e regra específica WSPS aplicável à P4, qual prevalece?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": false,
+      "expected_slot_intent": "SCORING_AUTHORITY",
+      "expected_slot_phase": "event",
+      "required_answer_markers": [
+        "WSPS"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "SCORING_AUTHORITY",
+          "phase": "event"
+        }
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "case_id": "p4_final_tiebreak_boundary",
+      "case_kind": "POSITIVE",
+      "question": "Como é resolvido o empate para eliminação na final P4?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F",
+        "ADANA-SRC-260C623ACB97F24A"
+      ],
+      "required_card_phase": "final",
+      "allow_cards_as_answer": true,
+      "required_card_phases": [
+        "final"
+      ],
+      "expected_slot_intent": "FINAL_TIE_BREAK",
+      "expected_slot_phase": "final",
+      "required_answer_markers": [
+        "desempatar"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "FINAL_TIE_BREAK",
+          "phase": "final"
+        }
+      ]
+    },
+    {
+      "expected_event_id": "wsps.event.p4",
+      "require_event_id": false,
+      "require_automatic_pass": false,
+      "case_id": "p4_clarify_unbound_caliber",
+      "case_kind": "NEGATIVE",
+      "question": "Qual o calibre da pistola?",
+      "required_source_ids": [],
+      "allow_cards_as_answer": false,
+      "expected_slot_intent": "TARGET_OR_CALIBER",
+      "expected_slot_phase": "competition",
+      "required_answer_markers": [],
+      "accepted_answer_statuses": [
+        "CLARIFICATION_REQUIRED"
+      ]
+    },
+    {
+      "case_id": "p4_reject_neighbor_p1_identity",
+      "case_kind": "BOUNDARY",
+      "question": "Qual é a pontuação máxima da prova WSPS P1 (10m Air Pistol)?",
+      "expected_event_id": "wsps.event.p1",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "expected_slot_intent": "SCORING_MAXIMUM",
+      "expected_slot_phase": "qualification",
+      "accepted_answer_statuses": [
+        "ANSWERED"
+      ],
+      "forbidden_fact_ids": [
+        "WSPS_P4_EVENT_IDENTITY_V1",
+        "WSPS_P4_QUALIFICATION_EVENT_FACTS_V1",
+        "WSPS_P4_QUALIFICATION_SCORING_V1",
+        "WSPS_P4_FINAL_OPERATION_RULES_V1"
+      ],
+      "forbidden_fact_scope": "selected",
+      "required_answer_markers": [],
+      "required_card_phases": []
+    }
+  ]
+}

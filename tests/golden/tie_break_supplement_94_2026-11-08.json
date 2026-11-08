@@ -1,0 +1,2411 @@
+{
+  "schema_version": "renate.atlas-regression-reference.v1",
+  "purpose": "test_only_reference_manifest_ids_and_hashes_no_runtime_content",
+  "created_on": "2026-11-08",
+  "evaluation_note": "Mechanical retrieval/presentation regression only. Does not constitute new human approval of imported answers or source locator semantics.",
+  "source_hashes": {
+    "original_snapshot_sha256": "c383b6209768606ea0d5b6abf6b20d278abbe43a6fde12bc10184c862bdc7512",
+    "original_golden_sha256": "cd476a564552ae256c4542467d6019bd80eaf2775042a0c480019ccbc57c948d",
+    "supplement50_sha256": "783f9f80b9eb6391e9f0d473ca9493145446c6d0c976d88c7d4451b52424d409",
+    "tie_break_supplement94_sha256": "2442c171c028cb8c71c27e0b81b0a8bded665beca52e8253e37383904cb79842",
+    "runtime_pack_sha256": "99f49a00d45b5cf23f3bbe714b0c0c57070a0ab2eb56d87b8335a55ebd9d1002"
+  },
+  "protected_data_check": "PASS_IDS_AND_ORDER_MATCH_SOURCE_CONCATENATION",
+  "suite": "tie_break_supplement_94",
+  "case_count": 94,
+  "source_snapshot_sha256": "c383b6209768606ea0d5b6abf6b20d278abbe43a6fde12bc10184c862bdc7512",
+  "cases": [
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-CMA-10M:6BE5E86D6B:A01",
+      "atlas_id": "RENATE:TIE:CBTE-CMA-10M:6BE5E86D6B:A01",
+      "question_sha256": "ea70a30cc9417a3891c880c21a780ac9f14f4b9b80391d67695eacd9e5088476",
+      "expected_answer_sha256": "f2f1ddd9381c1cdc7d8f7f96090a84484c91999773c329b7f1a9fc0423d30a20",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cma.10m"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "2",
+        "6",
+        "7"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-CMA-25M:1B63385D95:A01",
+      "atlas_id": "RENATE:TIE:CBTE-CMA-25M:1B63385D95:A01",
+      "question_sha256": "6da5dfa3e101bceb41db1f11859c2d1136e4683680e04676858da6c3e52e90b5",
+      "expected_answer_sha256": "f2f1ddd9381c1cdc7d8f7f96090a84484c91999773c329b7f1a9fc0423d30a20",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cma.25m"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "2",
+        "6",
+        "7"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-CMA-50M:48D39A47B8:A01",
+      "atlas_id": "RENATE:TIE:CBTE-CMA-50M:48D39A47B8:A01",
+      "question_sha256": "d9eb131fca47a68ef6ac622da5d69ba5b4056834d92764d072a10074bd8c3f4d",
+      "expected_answer_sha256": "f2f1ddd9381c1cdc7d8f7f96090a84484c91999773c329b7f1a9fc0423d30a20",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cma.50m"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "2",
+        "6",
+        "7"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-CMP-RIMFIRE_SPORTER:4E727B16C3:A01",
+      "atlas_id": "RENATE:TIE:CBTE-CMP-RIMFIRE_SPORTER:4E727B16C3:A01",
+      "question_sha256": "12b83841da58f56933e0a24fee7a549605323dde6d74c71809edde193cc88eec",
+      "expected_answer_sha256": "2a6adb77138068a22c32487b1dc2dbbec65fe8bc72fda88509fc9ea61e9bcc25",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "6.8",
+        "6.8(b)"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-DUELO-10M:E6E1FD888A:A01",
+      "atlas_id": "RENATE:TIE:CBTE-DUELO-10M:E6E1FD888A:A01",
+      "question_sha256": "1cfd0f8387822ce6ba4f87182812987e20cc2bc55377f905b720d06bc44fe102",
+      "expected_answer_sha256": "cc011c3f7db9136e070ddd34dc63cf9e20ef46102a08f1b727f1e3e794017f8d",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.duelo.10m"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-13851AFE541DA476",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "II.m",
+        "2"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-13851AFE541DA476",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-DUELO-25M:A5B7AF6884:A01",
+      "atlas_id": "RENATE:TIE:CBTE-DUELO-25M:A5B7AF6884:A01",
+      "question_sha256": "cd97e99a8a68e085781a637342992d6c9f2791ef243944fc6f2ecd68e4451c24",
+      "expected_answer_sha256": "f2f1ddd9381c1cdc7d8f7f96090a84484c91999773c329b7f1a9fc0423d30a20",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.duelo.25m"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "2",
+        "6",
+        "7"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-FCLASS-CENTERFIRE:6216C73DAD:A01",
+      "atlas_id": "RENATE:TIE:CBTE-FCLASS-CENTERFIRE:6216C73DAD:A01",
+      "question_sha256": "538cffdfb4d9fecc41871a7431cc353a2a69961a40b5926ad9c58cddc53faff7",
+      "expected_answer_sha256": "b2a7b473033f88e6dd87b71f8d9d9e84f9a1fe6fdb8c3c33b4ebc70511810e27",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.fclass.centerfire"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-158DF36CC16073A4"
+      ],
+      "expected_rule_locators": [
+        "5.2",
+        "9.6",
+        "9.6(b)"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-158DF36CC16073A4"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-FCLASS-RIMFIRE:576F1A4C55:A01",
+      "atlas_id": "RENATE:TIE:CBTE-FCLASS-RIMFIRE:576F1A4C55:A01",
+      "question_sha256": "cc1703874730f963ade07439e3fcfc94f710b2d3d44a465be09fc1401e62ca5e",
+      "expected_answer_sha256": "1ece2284dc9b5fefecbabe9400a81533bfc192605c731ec494ecb4aac357e8b7",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.fclass.rimfire"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "6) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-FIELD_TARGET:E6936E8AEC:A01",
+      "atlas_id": "RENATE:TIE:CBTE-FIELD_TARGET:E6936E8AEC:A01",
+      "question_sha256": "1b429bc977566bfd3d854077b92f38a000736d6185bb52840e2535d4c3b2dc6b",
+      "expected_answer_sha256": "4d59447601806a169ff7703cb659af55ea4dcbb425ba0103fd4f1fea00c46f60",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.field_target"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-42944A61178F7B21"
+      ],
+      "expected_rule_locators": [
+        "5.13",
+        "5.13.1",
+        "5.13.2"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-42944A61178F7B21"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-CARABINA:14F6678A8F:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-CARABINA:14F6678A8F:A01",
+      "question_sha256": "1786b32d62f20e5df42da768c666b2c165cad22749effd701c2267a311a9a01c",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.carabina"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-CARABINA:D987292EFD:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-CARABINA:D987292EFD:A01",
+      "question_sha256": "69e88e634e7eb57f2d45d9f9faa4563abac3ad6e0504b30d3cd1c13c2954e836",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.carabina"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-CARABINA:8317338E36:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-CARABINA:8317338E36:A01",
+      "question_sha256": "d849475f0a40103e513778c28e6b313b3fb85a211ba4834008b648777062537c",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.carabina"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-CARABINA:EEB5BD5D08:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-CARABINA:EEB5BD5D08:A01",
+      "question_sha256": "2a4d46ee324d7a830a223d76099579bc6a2727ed82dc79b9ebec99a98758c669",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.carabina"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-CARABINA:D1ED19AF6A:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-CARABINA:D1ED19AF6A:A01",
+      "question_sha256": "3962ec428b5f82690efe892933bde98d3d1d9cd0f6842015d975546b9f6775bc",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.carabina"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-CARABINA:92CA2A6A6C:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-CARABINA:92CA2A6A6C:A01",
+      "question_sha256": "de7486f4662ea012509009f5496278304a1ccda1584e8ba6b2aefcf7db7f4553",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.carabina"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-PISTOLA:B766CB5C4E:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-PISTOLA:B766CB5C4E:A01",
+      "question_sha256": "84fe3bec495cdf2af123f1a118f6ba0772eab2c5a0da9d2c8f66a25eac826a68",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.pistola"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-PISTOLA:B2B9A79D3C:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-PISTOLA:B2B9A79D3C:A01",
+      "question_sha256": "3f4ee86724e5aca67b782015a9e555512565d9e323c58b1d49a938f0e561fd2f",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.pistola"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-PISTOLA:908D45374C:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-PISTOLA:908D45374C:A01",
+      "question_sha256": "bb18ec079c8c5b7ddfe44426eabbd4923a2edba146930c306a7a49b1485aae50",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.pistola"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-PISTOLA:A403E6CC51:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-PISTOLA:A403E6CC51:A01",
+      "question_sha256": "e41bf3b3a2733f26b26ad5d14057fd02693f3516bc672a3d92f43f33a428726e",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.pistola"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-PISTOLA:CA9B37654A:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-PISTOLA:CA9B37654A:A01",
+      "question_sha256": "23ea342728313a870dad862a6c0b6ad594d7c48512a7e6171d583dd52f0b7d8b",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.pistola"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-ISSF-PISTOLA:16E9015DF7:A01",
+      "atlas_id": "RENATE:TIE:CBTE-ISSF-PISTOLA:16E9015DF7:A01",
+      "question_sha256": "fe17f581d85da775e71e87aa1931080965a9e26cdf70b690b68a261f85bb4b9f",
+      "expected_answer_sha256": "1f987d573d6e789d26df8a909e0d80be87245d68f899f0410de434ee10086a03",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.issf.pistola"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "a) Desempate individual"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NATIONAL_LIGHT:8B28745FF4:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NATIONAL_LIGHT:8B28745FF4:A01",
+      "question_sha256": "86c9a82c2bb1e7d7ba984827011064671ab59c4b35a52684c634e71c8d79597e",
+      "expected_answer_sha256": "2a598610545e9750ccc1ee368860d65bc4195a3c98fe06ebd142479ae6dfd885",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.national_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "1.1",
+        "1.2",
+        "b) Disciplinas Nacionais e de Rifle Internacional"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NATIONAL_LIGHT:CFD02F7C1A:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NATIONAL_LIGHT:CFD02F7C1A:A01",
+      "question_sha256": "cb5a6a7c68a6a059f649fcd132fa0bb250ac058d4776388682e0da8753cc3ed2",
+      "expected_answer_sha256": "2a598610545e9750ccc1ee368860d65bc4195a3c98fe06ebd142479ae6dfd885",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.national_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "1.1",
+        "1.2",
+        "b) Disciplinas Nacionais e de Rifle Internacional"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NATIONAL_LIGHT:AFF94CA9DA:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NATIONAL_LIGHT:AFF94CA9DA:A01",
+      "question_sha256": "b0281e0bf418a7cde6d9f874b58237a7a163eea524af949662ba4f44d97d314c",
+      "expected_answer_sha256": "2a598610545e9750ccc1ee368860d65bc4195a3c98fe06ebd142479ae6dfd885",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.national_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "2.1",
+        "b) Disciplinas Nacionais e de Rifle Internacional"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NATIONAL_LIGHT:C263F74C2B:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NATIONAL_LIGHT:C263F74C2B:A01",
+      "question_sha256": "4b7d66be8e31a7d4594daa84dfcc4b41de4f635103ceeafa70dfa094fda28589",
+      "expected_answer_sha256": "2a598610545e9750ccc1ee368860d65bc4195a3c98fe06ebd142479ae6dfd885",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.national_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "2.2",
+        "b) Disciplinas Nacionais e de Rifle Internacional"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NATIONAL_LIGHT:04600D3663:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NATIONAL_LIGHT:04600D3663:A01",
+      "question_sha256": "b35cdadd7253cd985c1f853f8a97d79ac247c5105c4d428c728864e2f6bd059e",
+      "expected_answer_sha256": "2a598610545e9750ccc1ee368860d65bc4195a3c98fe06ebd142479ae6dfd885",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.national_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "2.3",
+        "b) Disciplinas Nacionais e de Rifle Internacional"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NATIONAL_LIGHT:6C90F6F55C:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NATIONAL_LIGHT:6C90F6F55C:A01",
+      "question_sha256": "fce6e1a641d640bc6e8366f70207dcba847451312f27d1d222c63ae98681ac51",
+      "expected_answer_sha256": "2a598610545e9750ccc1ee368860d65bc4195a3c98fe06ebd142479ae6dfd885",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.national_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ],
+      "expected_rule_locators": [
+        "2.4",
+        "b) Disciplinas Nacionais e de Rifle Internacional"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C",
+        "ADANA-SRC-7914789A181774E9"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NATIONAL_LIGHT:5855D1A53C:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NATIONAL_LIGHT:5855D1A53C:A01",
+      "question_sha256": "b36e597f968931685f8b51ba209790a3f2f573dda8e4b3790c0a1687ce71d1b7",
+      "expected_answer_sha256": "5fb58ae919afffc62943228a5e2348a3cfbdd34cecee06f742bb593461adbda9",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.national_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C"
+      ],
+      "expected_rule_locators": [
+        "3.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NATIONAL_LIGHT:BF52D7FB79:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NATIONAL_LIGHT:BF52D7FB79:A01",
+      "question_sha256": "ea5a571ce760b62238321e1376eac96bf31cfb46dbc0f73e69849a4852f0e48e",
+      "expected_answer_sha256": "5fb58ae919afffc62943228a5e2348a3cfbdd34cecee06f742bb593461adbda9",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.national_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C"
+      ],
+      "expected_rule_locators": [
+        "3.2"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DF327513A5FB06C"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-NRA:55530BF947:A01",
+      "atlas_id": "RENATE:TIE:CBTE-NRA:55530BF947:A01",
+      "question_sha256": "cfa780b1ae57a51dbd9c40c44e5978295c74849ede5062a2870b4369c789e6a7",
+      "expected_answer_sha256": "c04a1f652d4f5d66cd66fd6daddcd167923a50a7609d9cdd4d89fa513e4284c6",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.nra"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-B814AF7D19CC3FFC"
+      ],
+      "expected_rule_locators": [
+        "3",
+        "3.1",
+        "3.1(b)"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-B814AF7D19CC3FFC"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-SHOTGUN-AUTOMATIC_TRAP:79F4EBD979:A01",
+      "atlas_id": "RENATE:TIE:CBTE-SHOTGUN-AUTOMATIC_TRAP:79F4EBD979:A01",
+      "question_sha256": "a2c599aaa522f258d16c1c4b80009b9b3f9d5d981afa9689fe223abe9a9109c3",
+      "expected_answer_sha256": "6fc6bd5efd258ed9b21798a312d2299d0d0c96d87a6b2107d7121dfe79373986",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "III.b.5.2"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-SHOTGUN-ISSF:6E7C25EAE1:A01",
+      "atlas_id": "RENATE:TIE:CBTE-SHOTGUN-ISSF:6E7C25EAE1:A01",
+      "question_sha256": "a415c46ade916594b9b687f3dd08e8736ec412316b02f73cf89c5603cc9bd9a2",
+      "expected_answer_sha256": "5dc78e3c0e7c20f9b2ec3494509556a898e59bb1a5564a7747b0a898f8aa37fe",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.1.1",
+        "C.g.9.14.2.3",
+        "C.g.9.14.2.4",
+        "C.c.9.17.4.1",
+        "C.c.9.17.4.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-SHOTGUN-ISSF:D90588EB6A:A01",
+      "atlas_id": "RENATE:TIE:CBTE-SHOTGUN-ISSF:D90588EB6A:A01",
+      "question_sha256": "2a88d13fdd1b07f9bf284aefadbe7d3daa6df28e17d12fc3c52da175085b3d09",
+      "expected_answer_sha256": "904b55f5aece8cf98215d32e5de66c5d5edf8a9468e691ccbf1a7fb8b8b7631c",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.1.1",
+        "C.g.9.14.2.3",
+        "C.g.9.14.2.4",
+        "C.c.9.17.4.2",
+        "C.c.9.17.4.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-SHOTGUN-TRAP_LIGHT:32D0C3E959:A01",
+      "atlas_id": "RENATE:TIE:CBTE-SHOTGUN-TRAP_LIGHT:32D0C3E959:A01",
+      "question_sha256": "2838c3b9f7864477b241034a14dd60a051c4323d79b00f4b4ec4a29cec0fdd44",
+      "expected_answer_sha256": "4fd360c976aafb9228e4820055d1bd952833ac8cf71cecd7e2abbcd7a0db2aa3",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.1.1",
+        "C.g.9.14.2.3",
+        "C.g.9.14.2.4",
+        "C.c.9.17.4.1",
+        "C.c.9.17.4.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-SHOTGUN-TRAP_LIGHT:BA5A0390AF:A01",
+      "atlas_id": "RENATE:TIE:CBTE-SHOTGUN-TRAP_LIGHT:BA5A0390AF:A01",
+      "question_sha256": "f31e3c708cddd83e4d301e25fa94ef82bf6a85755e31d3e482dd4867b015e232",
+      "expected_answer_sha256": "3fa8550274c9c91bb85b24468137052de6b3ef9ac984ef09c40d2e385b54baf8",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_light"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.1.1",
+        "C.g.9.14.2.3",
+        "C.g.9.14.2.4",
+        "C.c.9.17.4.2",
+        "C.c.9.17.4.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-SHOTGUN-TRAP_NACIONAL:9DA60883F3:A01",
+      "atlas_id": "RENATE:TIE:CBTE-SHOTGUN-TRAP_NACIONAL:9DA60883F3:A01",
+      "question_sha256": "0cd59d7e5cf4abc703219839afeb50f24cd9dbf5ab9417cfe80f9d3e3aee8247",
+      "expected_answer_sha256": "d3889c6d7dcb95db8606036aefee76ce0ad172e28879d111ad3f7a0dc994614c",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.7.1",
+        "2.7.1.2",
+        "2.7.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-SHOTGUN-TRAP_NACIONAL_25_2024:79428ED7E2:A01",
+      "atlas_id": "RENATE:TIE:CBTE-SHOTGUN-TRAP_NACIONAL_25_2024:79428ED7E2:A01",
+      "question_sha256": "4a392f42fb5765f113854b3f8549eb15ba7bf4c87857e2384c526064de9b1f89",
+      "expected_answer_sha256": "d2394052490f0d7c713bb86677d3a68540ee07041c3ab4f69288b0f1d0a82056",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional_25_2024"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-214E78376F9517D1"
+      ],
+      "expected_rule_locators": [
+        "4.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-214E78376F9517D1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-SHOTGUN-TRAP_NACIONAL_50_2024:66A5D2755D:A01",
+      "atlas_id": "RENATE:TIE:CBTE-SHOTGUN-TRAP_NACIONAL_50_2024:66A5D2755D:A01",
+      "question_sha256": "570727055175b9398e6db0ce8def6dc850c4ba1a44d1e7f1f674ff45f1d2f2c0",
+      "expected_answer_sha256": "6cfdde58e04956bc9aef70acc55c607e6a8297915ae7d5d57fb8e9e1dc230e90",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional_50_2024"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-3243DF292DBCD06A"
+      ],
+      "expected_rule_locators": [
+        "4.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-3243DF292DBCD06A"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WRABF-RIFLE_INTERNATIONAL:BE5BB6A470:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WRABF-RIFLE_INTERNATIONAL:BE5BB6A470:A01",
+      "question_sha256": "29dcc5cbaab7ada10f4162f16d525b7828b6eb86fb3e08798d7b067283bb1d50",
+      "expected_answer_sha256": "aee5e9503badca12b161091c3814a679fcf6107876688866666f5ee192f01394",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wrabf.rifle_international"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-02E3760715D532DF"
+      ],
+      "expected_rule_locators": [
+        "C.v",
+        "C.i",
+        "Section C"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-02E3760715D532DF"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:9E347A44ED:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:9E347A44ED:A01",
+      "question_sha256": "9f4d88bc1b97b220f56c0f39485519ae8dfb5d7540eb982397d4d2a3751e364b",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:D160507B14:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:D160507B14:A01",
+      "question_sha256": "8ed8dcc2515fa33b5f7924e06050e8e2c771f323a4ef3ac34f222e99af935127",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:BDC3E50CB0:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:BDC3E50CB0:A01",
+      "question_sha256": "6af78e92fc491e776fa85a3c12bb15e4e755ef29fe861bfc35e8e29a44c789e0",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:28ACEF57A7:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:28ACEF57A7:A01",
+      "question_sha256": "e024bcdb4e2e8b2b2d0e12aff42295c20ab222bdc18f2ae86a1fe0338a54159b",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:2F2112DF8A:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:2F2112DF8A:A01",
+      "question_sha256": "f5a438efe90ce136d1daefd7607495ac0dedb9a079a7eea3cf53abfc6a26a112",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:E3B4B97110:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:E3B4B97110:A01",
+      "question_sha256": "1ec40e8e17026337378a7ea2c86191a3792a204332d030ecd6821fe7975926da",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:E6E916A1DF:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:E6E916A1DF:A01",
+      "question_sha256": "be874f4b201cb9d56d95e1c2093b9cb038043e9eaef0957f06a5909e03fc5806",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:DB17735BE0:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:DB17735BE0:A01",
+      "question_sha256": "303811db1cd3ddfbca238a8ecf313af0948d7b12d7048e3e8b8ccc8eac692a27",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:ECB3F140AF:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:ECB3F140AF:A01",
+      "question_sha256": "c5d3ae84169ff61f792b08f7be21185a780607f85f3b72805c0dadaad86e4021",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:F0795C7A60:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:F0795C7A60:A01",
+      "question_sha256": "0ce7be123cbb3f7eb96a245646d8c5cee2d782632e64213b111ab653f67eddc3",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:CE8E6542B6:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:CE8E6542B6:A01",
+      "question_sha256": "f60c33cd107f65ebf8feb18b47b399645f9e9ae3d74b1c714368a60f5de974a3",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:B72DA97A6A:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:B72DA97A6A:A01",
+      "question_sha256": "b2f65a21230d5b7ca6e9542c99a26c451dd43a5cae52627596e018ad1a595f3b",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:C2D29AE53A:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:C2D29AE53A:A01",
+      "question_sha256": "003afacfbf44a3860ada8f9d8fc044fcd780d03fc9c6247d10fd40397f4a40fc",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:CBTE-WSPS-PROGRAM:47FECAB5E3:A01",
+      "atlas_id": "RENATE:TIE:CBTE-WSPS-PROGRAM:47FECAB5E3:A01",
+      "question_sha256": "cd309307cf25e84860abdfbe6a61d61690f72a0226e8ae6165e316743ef9117f",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.wsps.program"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-01:B69BDC0696:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-01:B69BDC0696:A01",
+      "question_sha256": "a4ea750c16d24209490990e3a2362d93e1ce9472c4b52b2becff8a8ca4aad3b0",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.01"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-02:EEC7D61885:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-02:EEC7D61885:A01",
+      "question_sha256": "81f83e85996312b17c62eb9a1afff8b1d82ea092f8973e22642c1dbf183fc909",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.02"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-03:7390C41A2F:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-03:7390C41A2F:A01",
+      "question_sha256": "ada1afc80d8364e7d4171676c4580cb5cd64ec5fb1083c6eaa7f5f063fd56f1c",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.03"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-04:A451574162:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-04:A451574162:A01",
+      "question_sha256": "113c9f1cf13c8fcee494d0277d8e42e50e438fd35801664482d3938239ee8fb6",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.04"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-05:B729FBF13B:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-05:B729FBF13B:A01",
+      "question_sha256": "3fca97f56e4ae13fa64bf83a1c49d68adcb869c134d7eb244761830ae99c99f7",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.05"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-06:B7E7F03087:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-06:B7E7F03087:A01",
+      "question_sha256": "151ac722067550f0a6b4a364386d940690643b268d8ddaf91488f267d2f27291",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.06"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-07:99E9805321:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-07:99E9805321:A01",
+      "question_sha256": "1a44c890fbc99b9a6c05ec8d6af2514f01b188e67f9a45c299bde0ed4589277e",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.07"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-08:AE1F94DCE7:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-08:AE1F94DCE7:A01",
+      "question_sha256": "fcdbe1484de7c0d888898f874488c32b79924af3155218a91d9ebc160ae2d49d",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.08"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-09:C2E4622522:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-09:C2E4622522:A01",
+      "question_sha256": "b47f382291fcf7597d372901c3ea43fa60011bbb831a76eb1e7b851d3d282556",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.09"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-10:01A7CDF004:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-10:01A7CDF004:A01",
+      "question_sha256": "33ffc510b0856b1156dc8d3e424ab68fa8c8b50a4f63e673083ea284edaf99bd",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.10"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-11:59360998E3:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-11:59360998E3:A01",
+      "question_sha256": "06e583ff92a46201581cfe08d4cdda28158844d02d571545425021a1afc0c6d9",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.11"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-12:A2525DD595:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-12:A2525DD595:A01",
+      "question_sha256": "7cf5afb5c7c48a8152606f3ada82ed00cc815d37bd8e09ad3e864eb69288ea08",
+      "expected_answer_sha256": "c35804a41606d9de438fd7ad12444b661fccb3e99fde904fc26cbf46df847927",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.12"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-13:2A9ACDEB5D:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-13:2A9ACDEB5D:A01",
+      "question_sha256": "fc476d8cf7ab22a79bb94d9b37af280ba2b890890069f2134545b0ba68c64362",
+      "expected_answer_sha256": "5dc78e3c0e7c20f9b2ec3494509556a898e59bb1a5564a7747b0a898f8aa37fe",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.13"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.1.1",
+        "C.g.9.14.2.3",
+        "C.g.9.14.2.4",
+        "C.c.9.17.4",
+        "C.c.9.17.4.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-14:2A62B4087B:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-14:2A62B4087B:A01",
+      "question_sha256": "19f59792db9d3c3fbdf047775ffa9e26946a8fb125aa10abeb654d7715b08b66",
+      "expected_answer_sha256": "904b55f5aece8cf98215d32e5de66c5d5edf8a9468e691ccbf1a7fb8b8b7631c",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.1.1",
+        "C.g.9.14.2.3",
+        "C.g.9.14.2.4",
+        "C.c.9.17.4",
+        "C.c.9.17.4.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-15:3D20463E92:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-15:3D20463E92:A01",
+      "question_sha256": "005a017fbcee949c8e2d820da18d39c300c546cf06c624eeb18533cee4d2022f",
+      "expected_answer_sha256": "09da3b08e8b3de2406ca6a0fc7a2b1b4fdc1ddc5293ab6b0cfe2bcb28f65ec9c",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.15"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.h.10.12.1.1",
+        "C.h.10.12.1.2",
+        "C.h.10.12.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-16:9E2C0E0795:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-16:9E2C0E0795:A01",
+      "question_sha256": "cc03aacec8bac07c5bfc22c2c28376c25872f628a3f74228bace23d005e166e0",
+      "expected_answer_sha256": "09da3b08e8b3de2406ca6a0fc7a2b1b4fdc1ddc5293ab6b0cfe2bcb28f65ec9c",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.16"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.h.10.12.1.1",
+        "C.h.10.12.1.2",
+        "C.h.10.12.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-17:2C2CD00594:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-17:2C2CD00594:A01",
+      "question_sha256": "c6708e65cc208b6d0db5c6ee935ca71c8beb2f15ad17c8a97407cbb408014217",
+      "expected_answer_sha256": "feb8a94b5c8e3e3de2d08d12e48d0c381293cb827dcd5c39ac55cd5822b94c21",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.17"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.h.10.12.1.1",
+        "C.h.10.12.1.2",
+        "C.h.10.12.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-18:CC905A4269:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-18:CC905A4269:A01",
+      "question_sha256": "1b1ed6f1914334c789348923db2e0c63273cb1e03ec008f0c63c267836f99298",
+      "expected_answer_sha256": "08c30a46981f74a9bdc9ed6160cb2dc1b4e67b9e9d6681febf9736611d58d0a3",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.18"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.h.10.12.1.1",
+        "C.h.10.12.1.2",
+        "C.h.10.12.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:ISSF-EVENT-19:007AAEFCA1:A01",
+      "atlas_id": "RENATE:TIE:ISSF-EVENT-19:007AAEFCA1:A01",
+      "question_sha256": "65d638175da39b598bec1fd95beb263bfc03821348833e9f6b7ae7390d6d8311",
+      "expected_answer_sha256": "ccaa13034c8b9d859133efcd367d1d778ca329d7b23c33c59e90df678685327d",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.19"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "C.i.11.15.1"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-P1:82B23FB048:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-P1:82B23FB048:A01",
+      "question_sha256": "f3f7cc4674da943ea295407ba2b716703f8f806300d668a0cb347c6513dae218",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.p1"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-P2:7CDA71CA3F:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-P2:7CDA71CA3F:A01",
+      "question_sha256": "3d895b952b86fcbe8ceb57595fb15f4f771a97866de16cdf68b146e983fc4d35",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.p2"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-P3:74C35C4B19:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-P3:74C35C4B19:A01",
+      "question_sha256": "ce22d3c9773e6bf4be65b53f08e588e0c2728c9a1eb12fdb65f5f7d420166b94",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.p3"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-P4:250FDB2812:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-P4:250FDB2812:A01",
+      "question_sha256": "149f44587715757f4d6082ef2002c6bc0e02ad94039872b7bf001183e7ef3fcd",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.p4"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-P5:2A3233A067:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-P5:2A3233A067:A01",
+      "question_sha256": "87ad0354b9a672e5115e12ba6cbe1be24ef9439594e50466d7cfbc0c0e1de4bd",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.p5"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-P6:C300709770:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-P6:C300709770:A01",
+      "question_sha256": "0042c4119948c5e36da19007cd80064b42e24f431b09deca28817520b4e3b48d",
+      "expected_answer_sha256": "b92fe882d2b1125acea7cce26f6c881fdb1bf66b73755560a56f04614f0082b5",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.p6"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.5",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-PT1:9054C4D359:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-PT1:9054C4D359:A01",
+      "question_sha256": "edf6845df3969936cad08415be42442c4e2f7ac79fa11fd37c0687262ee23fe7",
+      "expected_answer_sha256": "6bd9cebea3e5a14c6d2a150980f52a25a2db4eebbee10a1853796427885de11c",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.pt1"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.3.1",
+        "C.g.9.14.3.2",
+        "C.g.9.14.3.3",
+        "C.g.9.14.3.4",
+        "C.g.9.14.2.3",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-PT2:DDC5C4F9C3:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-PT2:DDC5C4F9C3:A01",
+      "question_sha256": "602d53dba28aa67712b274c18578bc07f123333471b0a93eb197121d23580f68",
+      "expected_answer_sha256": "6bd9cebea3e5a14c6d2a150980f52a25a2db4eebbee10a1853796427885de11c",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.pt2"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.3.1",
+        "C.g.9.14.3.2",
+        "C.g.9.14.3.3",
+        "C.g.9.14.3.4",
+        "C.g.9.14.2.3",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-PT3:91BBD40A83:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-PT3:91BBD40A83:A01",
+      "question_sha256": "feb297f404ae14272d26781a8d9df8f81f9f3ef2734500e815a89fc9561df180",
+      "expected_answer_sha256": "6bd9cebea3e5a14c6d2a150980f52a25a2db4eebbee10a1853796427885de11c",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.pt3"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.g.9.14.3.1",
+        "C.g.9.14.3.2",
+        "C.g.9.14.3.3",
+        "C.g.9.14.3.4",
+        "C.g.9.14.2.3",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R1:90B8CBCCD5:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R1:90B8CBCCD5:A01",
+      "question_sha256": "678f7eb720674a8e32ecfb34ff653d6582e509720baec2a9a009bccb19acb91a",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r1"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R10:DDE5C8DBC0:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R10:DDE5C8DBC0:A01",
+      "question_sha256": "e8b712afa7d09bda83f884c6806912cf60f15eecda2f42ca982c9bea38855ab4",
+      "expected_answer_sha256": "b92fe882d2b1125acea7cce26f6c881fdb1bf66b73755560a56f04614f0082b5",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r10"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.5",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R11:9B025F4299:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R11:9B025F4299:A01",
+      "question_sha256": "48c036572d1bbef7a79690c52157b4adb4107c320dd96e98c3674b17936d8037",
+      "expected_answer_sha256": "b92fe882d2b1125acea7cce26f6c881fdb1bf66b73755560a56f04614f0082b5",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r11"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.5",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R2:59363A0CC8:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R2:59363A0CC8:A01",
+      "question_sha256": "596952ba453d1757509082f6d7a2ee779342690c6736303bc9fb6f589d2b44e1",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r2"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R3:CE953FB422:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R3:CE953FB422:A01",
+      "question_sha256": "549b3e3b30c827d97ff2af259baa3defa82a9ffbf01b48ac9cf602b91e8d99da",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r3"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R4:A51BACE85E:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R4:A51BACE85E:A01",
+      "question_sha256": "4820a2b098c633c2e3542eec86f50cdb7ae5cf933e84a80163c8270f171e409f",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r4"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R5:1AD6EC089B:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R5:1AD6EC089B:A01",
+      "question_sha256": "e8f53edbb3c2b9630f9b871a00e909cb3e6287279ddaaa2079b22d1f780e6db3",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r5"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R6:04FE33D372:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R6:04FE33D372:A01",
+      "question_sha256": "0858ab3baa83e1a16b1e9e2a7178684711221d1456bdff2b5af8bef20653c893",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r6"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R7:7392A9CD25:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R7:7392A9CD25:A01",
+      "question_sha256": "2c2cc134799811f13e15c34a7c912f575b30a0511dbae0c467ae281c4490de1c",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r7"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R8:4560D4AD1F:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R8:4560D4AD1F:A01",
+      "question_sha256": "2f648c991ed99cb285f6a67963aaab639afe5d15f015a6acc573e3bd494eba87",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r8"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-R9:9D8017487D:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-R9:9D8017487D:A01",
+      "question_sha256": "cc7cc6055da3fea7072ff0eddc829cc8cc8c992e3d756c9205fc23ad49950792",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.r9"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-VIP:C96E6001F4:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-VIP:C96E6001F4:A01",
+      "question_sha256": "a891cca584dc04968b96ee6fd86568d02027734b0d2ca09ee9942557e64ed3ee",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.vip"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-TIE_BREAK_SUPPLEMENT_94:RENATE:TIE:WSPS-EVENT-VIS:EA1392C372:A01",
+      "atlas_id": "RENATE:TIE:WSPS-EVENT-VIS:EA1392C372:A01",
+      "question_sha256": "1e22dbf78329078a1092218bf954b32c5642755461cbaa8f350f2e804aead1d7",
+      "expected_answer_sha256": "18573dded58f15825bed6e0e50b69a68560ba6c3650d6fed7a156daf4483ebf1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "wsps.event.vis"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ],
+      "expected_rule_locators": [
+        "C.e.6.15.1",
+        "Appendix 11 §1.1.3"
+      ],
+      "source_group": "TIE_BREAK_SUPPLEMENT_94",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-DERIVED-11BC52259F71C331"
+      ]
+    }
+  ]
+}

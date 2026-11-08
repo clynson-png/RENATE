@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="820" viewBox="0 0 1080 820" role="img" aria-labelledby="title desc">
+  <title id="title">CBTE Trap Nacional 2026</title>
+  <desc id="desc">Resumo visual dos formatos, séries, postos e cálculo por pratos acertados.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071522"/><stop offset="1" stop-color="#0c2735"/></linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b7f34a"/><stop offset="1" stop-color="#d5ff73"/></linearGradient>
+    <style>
+      .sans{font-family:Arial,Helvetica,sans-serif}.muted{fill:#a7bdc7}.white{fill:#f4f8fa}.cyan{fill:#36d7e5}.lime{fill:#c7fb57}.small{font-size:17px}.label{font-size:20px;font-weight:700;letter-spacing:1px}.body{font-size:24px}.bold{font-weight:700}
+    </style>
+  </defs>
+  <rect width="1080" height="820" rx="30" fill="url(#bg)"/>
+  <rect x="26" y="26" width="1028" height="768" rx="24" fill="none" stroke="#244757" stroke-width="2"/>
+  <rect x="52" y="52" width="10" height="94" rx="5" fill="url(#lime)"/>
+  <text x="82" y="82" class="sans cyan label">CBTE · TRAP NACIONAL 2026</text>
+  <text x="82" y="133" class="sans white" font-size="42" font-weight="700">Quatro formatos · pratos acertados</text>
+  <text x="82" y="174" class="sans muted body">Regulamento Geral Trap Nacional · itens 1.1 e 2.1.3</text>
+
+  <g class="sans">
+    <rect x="52" y="212" width="476" height="116" rx="18" fill="#102b3a" stroke="#255568"/>
+    <text x="78" y="250" class="lime label">TRAP 100 · SINGLE</text>
+    <text x="78" y="290" class="white body bold">100 pratos · 4 séries de 25</text>
+    <text x="78" y="316" class="muted small">Máximo: 100/100 pratos</text>
+
+    <rect x="552" y="212" width="476" height="116" rx="18" fill="#102b3a" stroke="#255568"/>
+    <text x="578" y="250" class="lime label">TRAP 200 · SINGLE</text>
+    <text x="578" y="290" class="white body bold">200 pratos · 8 séries de 25</text>
+    <text x="578" y="316" class="muted small">Máximo: 200/200 pratos</text>
+
+    <rect x="52" y="348" width="476" height="116" rx="18" fill="#102b3a" stroke="#255568"/>
+    <text x="78" y="386" class="lime label">TRAP DOUBLE</text>
+    <text x="78" y="426" class="white body bold">100 pratos · 2 séries de 50</text>
+    <text x="78" y="452" class="muted small">50 pares · máximo 100/100 pratos</text>
+
+    <rect x="552" y="348" width="476" height="116" rx="18" fill="#102b3a" stroke="#255568"/>
+    <text x="578" y="386" class="lime label">TRAP MISTO</text>
+    <text x="578" y="426" class="white body bold">1 atleta + 1 atleta · 100 cada</text>
+    <text x="578" y="452" class="muted small">4 séries de 25 por atleta · equipe até 200</text>
+  </g>
+
+  <rect x="52" y="490" width="976" height="236" rx="20" fill="#0c202b" stroke="#1e5967" stroke-width="2"/>
+  <text x="82" y="532" class="sans cyan label">POSTOS E INÍCIO DA SÉRIE · itens 2.6.2.6 e 2.7.3</text>
+  <g class="sans" text-anchor="middle">
+    <g fill="#173849" stroke="#36d7e5" stroke-width="2">
+      <circle cx="146" cy="594" r="30"/><circle cx="238" cy="594" r="30"/><circle cx="330" cy="594" r="30"/><circle cx="422" cy="594" r="30"/><circle cx="514" cy="594" r="30"/>
+    </g>
+    <text x="146" y="602" class="white body bold">1</text><text x="238" y="602" class="white body bold">2</text><text x="330" y="602" class="white body bold">3</text><text x="422" y="602" class="white body bold">4</text><text x="514" y="602" class="white body bold">5</text>
+  </g>
+  <text x="584" y="582" class="sans white body bold">O líder comanda um prato para visualização</text>
+  <text x="584" y="616" class="sans muted small">e confirma o atleta no posto 1 nas transições.</text>
+  <text x="82" y="656" class="sans white small">Prato: diâmetro máx. 4 5/16 pol. · altura máx. 1 1/8 pol. · 95–105 g</text>
+  <text x="82" y="681" class="sans muted small">Fonte complementar ATA XIII.D, aplicada somente na lacuna CBTE (item 3.1).</text>
+  <text x="82" y="714" class="sans lime" font-size="22" font-weight="700">Cálculo: pratos acertados ÷ pratos totais da disciplina</text>
+  <text x="82" y="770" class="sans muted small">Cartão visual complementar · prevalece a regra CBTE quando ela trata do ponto consultado.</text>
+</svg>

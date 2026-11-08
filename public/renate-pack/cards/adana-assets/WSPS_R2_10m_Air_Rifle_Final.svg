@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">WSPS R2 feminina — final, atleta adaptada em cadeira de rodas</title>
+<desc id="desc">Card da final WSPS R2: oito finalistas, placar zerado, duas séries de cinco, catorze tiros individuais, tempos e eliminações; fotografia ilustrativa gerada de atleta adaptada em cadeira de rodas.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071d2d"/><stop offset="1" stop-color="#0b1520"/></linearGradient>
+ <linearGradient id="lime"><stop stop-color="#c8ff4d"/><stop offset="1" stop-color="#82df4d"/></linearGradient>
+ <style>text{font-family:Arial,sans-serif}.label{fill:#42d7e5;font-size:17px;font-weight:700;letter-spacing:2px}.body{fill:#e8f1f4;font-size:21px}.muted{fill:#a9c2cc;font-size:16px}.value{fill:#c8ff4d;font-size:31px;font-weight:800}.small{fill:#d9e8ed;font-size:14px}</style>
+ <clipPath id="photo"><rect x="52" y="218" width="320" height="234" rx="18"/></clipPath>
+</defs>
+<rect width="1200" height="900" rx="30" fill="url(#bg)"/><rect x="14" y="14" width="1172" height="872" rx="25" fill="none" stroke="#19c9db" stroke-width="3"/>
+<text x="52" y="58" fill="#4adbe8" font-size="19" font-weight="700" letter-spacing="3">WSPS • R2 • WOMEN 10 m AIR RIFLE • FINAL</text>
+<text x="52" y="112" fill="url(#lime)" font-size="43" font-weight="800">FINAL • DISPUTA PROGRESSIVA</text>
+<text x="54" y="148" fill="#d4e4ea" font-size="19">Regras ISSF de final, sujeitas às adaptações específicas WSPS.</text>
+<rect x="40" y="174" width="360" height="300" rx="20" fill="#102b3a" stroke="#315a6e" stroke-width="2"/><text x="62" y="205" class="label">R2 • MULHER • SH1</text>
+<image x="52" y="218" width="320" height="234" preserveAspectRatio="xMidYMid meet" href="WSPS_R2_Adaptive_Wheelchair_Shooter.png" xlink:href="WSPS_R2_Adaptive_Wheelchair_Shooter.png"/>
+<text x="62" y="464" class="small">Foto ilustrativa gerada • não normativa.</text>
+<rect x="424" y="174" width="736" height="300" rx="20" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="454" y="211" class="label">FORMATO DA FINAL</text><text x="454" y="259" class="value">8 finalistas • placar zerado</text>
+<text x="454" y="296" class="body">2 × 5 tiros • 250 s por série</text><text x="454" y="332" class="body">Depois: 14 tiros individuais • 50 s por tiro</text>
+<text x="454" y="371" class="muted">LOAD → 5 s → START → tiro → STOP</text>
+<text x="454" y="405" class="muted">Pontuação decimal • máximo: 24 × 10,9 = 261,6</text>
+<text x="454" y="443" class="small">Os pontos da qualificação não são carregados para a final.</text>
+<rect x="40" y="498" width="1120" height="216" rx="20" fill="#0e2735" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="535" class="label">ELIMINAÇÕES • PLACAR ACUMULADO DA FINAL</text><path d="M120 588H1080" stroke="#2e8793" stroke-width="4"/>
+<g text-anchor="middle">
+ <circle cx="122" cy="588" r="10" fill="#c8ff4d"/><text x="122" y="574" class="value" font-size="22">12</text><text x="122" y="623" class="body">8º sai</text>
+ <circle cx="278" cy="588" r="10" fill="#c8ff4d"/><text x="278" y="574" class="value" font-size="22">14</text><text x="278" y="623" class="body">7º sai</text>
+ <circle cx="434" cy="588" r="10" fill="#c8ff4d"/><text x="434" y="574" class="value" font-size="22">16</text><text x="434" y="623" class="body">6º sai</text>
+ <circle cx="590" cy="588" r="10" fill="#c8ff4d"/><text x="590" y="574" class="value" font-size="22">18</text><text x="590" y="623" class="body">5º sai</text>
+ <circle cx="746" cy="588" r="10" fill="#c8ff4d"/><text x="746" y="574" class="value" font-size="22">20</text><text x="746" y="623" class="body">4º sai</text>
+ <circle cx="902" cy="588" r="10" fill="#c8ff4d"/><text x="902" y="574" class="value" font-size="22">22</text><text x="902" y="623" class="body">Bronze</text>
+ <circle cx="1058" cy="588" r="10" fill="#42d7e5"/><text x="1058" y="574" fill="#42d7e5" font-size="22" font-weight="800">24</text><text x="1058" y="623" class="body">Ouro / prata</text>
+</g>
+<text x="66" y="674" class="muted">Empate na última posição: tiros extras (*shoot-off*) até desempatar.</text>
+<rect x="40" y="738" width="1120" height="104" rx="18" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="778" class="label">ADAPTAÇÃO WSPS • R2 FEMININO SH1</text>
+<text x="66" y="812" class="body">No comando LOAD, a carga deve ser concluída em até 5 s (WSPS 4.1.9.4).</text>
+<text x="52" y="868" fill="#c4d9e1" font-size="15">Fontes: WSPS 4.1.3 e 4.1.9.1–4.1.9.4, pp. 39–41; ISSF 6.11.9.1 e 6.17.2, pp. 249 e 271–272.</text>
+</svg>

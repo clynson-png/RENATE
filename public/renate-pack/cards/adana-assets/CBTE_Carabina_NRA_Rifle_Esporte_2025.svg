@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1440" viewBox="0 0 1200 1440" role="img" aria-labelledby="title desc">
+  <title id="title">CBTE Carabina NRA / Rifle Esporte</title>
+  <desc id="desc">Resumo visual complementar do Regulamento NRA CBTE de 9 de janeiro de 2025: alvo SR-1M a 100 metros, divisões, 32 disparos e anéis de pontuação.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#102b45"/><stop offset="1" stop-color="#071827"/></linearGradient>
+    <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#eaf5ff"/><stop offset="1" stop-color="#cfe7ff"/></linearGradient>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#102b45}.white{fill:#fff}.muted{fill:#536b80}.title{font-size:48px;font-weight:800}.sub{font-size:23px;font-weight:600}.head{font-size:27px;font-weight:800}.body{font-size:22px}.small{font-size:18px}.label{font-size:17px;font-weight:700;letter-spacing:1px}
+    </style>
+  </defs>
+  <rect width="1200" height="1440" rx="32" fill="#dceaf5"/>
+  <rect x="12" y="12" width="1176" height="1416" rx="25" fill="#f7fbff"/>
+  <path d="M12 37Q12 12 37 12H1163Q1188 12 1188 37V250H12Z" fill="url(#bg)"/>
+  <rect x="52" y="48" width="116" height="116" rx="22" fill="#fff"/>
+  <text x="110" y="119" text-anchor="middle" font-size="42" font-weight="900" fill="#0b568d">CBTE</text>
+  <text x="198" y="66" class="white label">REGULAMENTO NRA · 09/01/2025</text>
+  <text x="198" y="127" class="white title">CARABINA NRA</text>
+  <text x="198" y="180" class="white sub">Rifle Esporte · resumo visual complementar</text>
+  <text x="198" y="220" class="white small">Consulte a resposta e as regras citadas para os fatos normativos.</text>
+
+  <rect x="42" y="278" width="1116" height="252" rx="24" fill="url(#blue)" stroke="#75b6eb" stroke-width="3"/>
+  <text x="76" y="326" class="head">FORMATO DA PROVA</text>
+  <text x="76" y="374" class="body">32 disparos de competição · 4 estágios de 8 disparos</text>
+  <text x="76" y="416" class="body">Deitado lento · em pé lento · sentado ou ajoelhado rápido · deitado rápido</text>
+  <text x="76" y="458" class="body">Máximo calculado: 32 × 10 = 320 pontos</text>
+  <text x="76" y="497" class="small muted">Cálculo do máximo pela escala do alvo e pelo total de disparos da regra.</text>
+
+  <rect x="42" y="560" width="1116" height="550" rx="24" fill="#fff" stroke="#9dc5e3" stroke-width="3"/>
+  <text x="76" y="610" class="head">ALVO OFICIAL · SR-1M / CBTE OU EQUIVALENTE</text>
+  <text x="76" y="650" class="body">Distância de prova: 100 m</text>
+  <g transform="translate(296 866)">
+    <circle r="172" fill="#f4f7fa" stroke="#153d5b" stroke-width="5"/>
+    <circle r="146" fill="#172b3b" stroke="#fff" stroke-width="3"/>
+    <circle r="119" fill="#fff" stroke="#173e5a" stroke-width="3"/>
+    <circle r="92" fill="#233d50" stroke="#fff" stroke-width="3"/>
+    <circle r="65" fill="#fff" stroke="#173e5a" stroke-width="3"/>
+    <circle r="38" fill="#20384c" stroke="#fff" stroke-width="3"/>
+    <circle r="14" fill="#f4f7fa" stroke="#173e5a" stroke-width="3"/>
+    <text x="0" y="8" text-anchor="middle" font-size="24" font-weight="800" fill="#102b45">X</text>
+  </g>
+  <g class="body">
+    <text x="548" y="715" font-weight="800">ANEL</text><text x="790" y="715" font-weight="800">DIÂMETRO</text>
+    <text x="548" y="760">X</text><text x="790" y="760">3,55 cm</text>
+    <text x="548" y="804">10</text><text x="790" y="804">9,35 cm</text>
+    <text x="548" y="848">9</text><text x="790" y="848">17,72 cm</text>
+    <text x="548" y="892">8</text><text x="790" y="892">26,10 cm</text>
+    <text x="548" y="936">7</text><text x="790" y="936">34,47 cm</text>
+    <text x="548" y="980">6</text><text x="790" y="980">42,85 cm</text>
+    <text x="548" y="1024">5</text><text x="790" y="1024">51,22 cm</text>
+  </g>
+  <text x="76" y="1068" class="small muted">Diâmetros dos anéis conforme tabela do regulamento, p. 5.</text>
+
+  <rect x="42" y="1140" width="1116" height="238" rx="24" fill="#e7f5ef" stroke="#8bcdb2" stroke-width="3"/>
+  <text x="76" y="1190" class="head">DIVISÕES E CLASSES</text>
+  <text x="76" y="1238" class="body">Miras Metálicas · Mira Óptica</text>
+  <text x="76" y="1280" class="body">Classes definidas a partir da média de pontuação, conforme regulamento.</text>
+  <text x="76" y="1335" class="small muted">Fonte de consulta: Regulamento NRA publicado pela CBTE · edição 09/01/2025.</text>
+</svg>

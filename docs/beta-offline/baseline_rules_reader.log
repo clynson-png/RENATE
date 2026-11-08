@@ -1,0 +1,10 @@
+test_decimal_scores_are_not_mislabeled_as_rule_numbers (__main__.RulesReaderTests.test_decimal_scores_are_not_mislabeled_as_rule_numbers) ... ok
+test_hash_verified_documents_and_authorities_are_catalog_backed (__main__.RulesReaderTests.test_hash_verified_documents_and_authorities_are_catalog_backed) ... ok
+test_search_is_scoped_and_forwarded_only_to_meilisearch (__main__.RulesReaderTests.test_search_is_scoped_and_forwarded_only_to_meilisearch) ... ok
+test_short_queries_are_rejected_before_meilisearch (__main__.RulesReaderTests.test_short_queries_are_rejected_before_meilisearch) ... ok
+test_unselected_source_cannot_expand_authority_search (__main__.RulesReaderTests.test_unselected_source_cannot_expand_authority_search) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.470s
+
+OK

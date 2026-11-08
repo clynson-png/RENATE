@@ -1,0 +1,236 @@
+{
+  "source_schema": "ADANA_HORUS_ATLAS_BINDINGS_V1",
+  "authority_note": "Routing metadata only; these bindings are not normative source evidence.",
+  "route_fact_bindings": [
+    {
+      "fact_id": "WSPS_P4_EVENT_IDENTITY_V1",
+      "authority": "WSPS",
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "WSPS_P4_EVENT_IDENTITY",
+      "route_id": "wsps.event.p4",
+      "event_id": "P4",
+      "trusted_selector_fact": true
+    },
+    {
+      "fact_id": "WSPS_P4_QUALIFICATION_EVENT_FACTS_V1",
+      "authority": "WSPS",
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "WSPS_P4_QUALIFICATION_EVENT_FACTS",
+      "route_id": "wsps.event.p4",
+      "event_id": "P4",
+      "trusted_selector_fact": true
+    },
+    {
+      "fact_id": "WSPS_P4_SCORING_AUTHORITY_V1",
+      "authority": "WSPS",
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "WSPS_P4_SCORING_AUTHORITY",
+      "route_id": "wsps.event.p4",
+      "event_id": "P4",
+      "trusted_selector_fact": true
+    },
+    {
+      "fact_id": "WSPS_P4_QUALIFICATION_SCORING_V1",
+      "authority": "WSPS",
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "WSPS_P4_QUALIFICATION_SCORING",
+      "route_id": "wsps.event.p4",
+      "event_id": "P4",
+      "trusted_selector_fact": true
+    },
+    {
+      "fact_id": "WSPS_P4_ELIGIBILITY_SCOPE_V1",
+      "authority": "WSPS",
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "WSPS_P4_ELIGIBILITY_SCOPE",
+      "route_id": "wsps.event.p4",
+      "event_id": "P4",
+      "trusted_selector_fact": true
+    },
+    {
+      "fact_id": "WSPS_P4_TECHNICAL_SPECIFICATIONS_V1",
+      "authority": "WSPS",
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "WSPS_P4_TECHNICAL_SPECIFICATIONS",
+      "route_id": "wsps.event.p4",
+      "event_id": "P4",
+      "trusted_selector_fact": true
+    },
+    {
+      "fact_id": "WSPS_P4_FINAL_SOURCE_APPLICABILITY_V1",
+      "authority": "WSPS",
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "WSPS_P4_FINAL_SOURCE_APPLICABILITY",
+      "route_id": "wsps.event.p4",
+      "event_id": "P4",
+      "trusted_selector_fact": true
+    },
+    {
+      "fact_id": "WSPS_P4_FINAL_OPERATION_RULES_V1",
+      "authority": "WSPS",
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "WSPS_P4_FINAL_OPERATION_RULES",
+      "route_id": "wsps.event.p4",
+      "event_id": "P4",
+      "trusted_selector_fact": true
+    },
+    {
+      "fact_id": "WSPS_P5_EVENT_IDENTITY_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [
+        "WSPS:WSPS-SRC-012:A01"
+      ],
+      "status": "DIRECT_ROUTE_FACT_BINDING",
+      "relation": "EVENT_IDENTITY"
+    },
+    {
+      "fact_id": "WSPS_P5_QUALIFICATION_EVENT_FACTS_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [
+        "WSPS:WSPS-SRC-249:A01",
+        "WSPS:WSPS-SRC-249:A02",
+        "WSPS:WSPS-SRC-249:A03",
+        "WSPS:WSPS-SRC-249:A04",
+        "WSPS:WSPS-SRC-237:A01"
+      ],
+      "status": "DIRECT_ROUTE_FACT_BINDING",
+      "relation": "QUALIFICATION_EVENT_FACTS"
+    },
+    {
+      "fact_id": "WSPS_P5_EQUIPMENT_AND_CALIBER_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [
+        "ISSF:ISSF-032:A01",
+        "WSPS:WSPS-SRC-235:A01",
+        "WSPS:WSPS-SRC-235:A02",
+        "WSPS:WSPS-SRC-236:A01",
+        "WSPS:WSPS-SRC-242:A01",
+        "WSPS:WSPS-SRC-250:A01",
+        "WSPS:WSPS-SRC-250:A02"
+      ],
+      "status": "DIRECT_ROUTE_FACT_BINDING",
+      "relation": "EQUIPMENT_AND_CALIBER"
+    },
+    {
+      "fact_id": "WSPS_P5_SCORING_OPERANDS_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "QUALIFICATION_SCORING_OPERANDS"
+    },
+    {
+      "fact_id": "WSPS_P5_QUALIFICATION_AND_SCORING_RULES_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [
+        "WSPS:WSPS-SRC-222:A01",
+        "WSPS:WSPS-SRC-224:A01",
+        "WSPS:WSPS-SRC-238:A01",
+        "WSPS:WSPS-SRC-239:A01",
+        "WSPS:WSPS-SRC-240:A01",
+        "WSPS:WSPS-SRC-240:A02",
+        "WSPS:WSPS-SRC-240:A03",
+        "WSPS:WSPS-SRC-240:A04"
+      ],
+      "status": "DIRECT_ROUTE_FACT_BINDING",
+      "relation": "QUALIFICATION_SCORING_AND_OPERATION"
+    },
+    {
+      "fact_id": "WSPS_P5_ELIGIBILITY_SCOPE_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [
+        "WSPS:WSPS-SRC-012:A01"
+      ],
+      "status": "DIRECT_ROUTE_FACT_BINDING",
+      "relation": "P5_EVENT_ELIGIBILITY"
+    },
+    {
+      "fact_id": "WSPS_P5_ATHLETE_POSITION_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [
+        "WSPS:WSPS-SRC-237:A01",
+        "WSPS:WSPS-SRC-238:A01",
+        "WSPS:WSPS-SRC-239:A01"
+      ],
+      "status": "DIRECT_ROUTE_FACT_BINDING",
+      "relation": "P5_READY_AND_PREPARATION"
+    },
+    {
+      "fact_id": "WSPS_P5_COMMANDS_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [
+        "WSPS:WSPS-SRC-239:A01",
+        "WSPS:WSPS-SRC-240:A01",
+        "WSPS:WSPS-SRC-240:A02",
+        "WSPS:WSPS-SRC-240:A03",
+        "WSPS:WSPS-SRC-240:A04"
+      ],
+      "status": "DIRECT_ROUTE_FACT_BINDING",
+      "relation": "P5_QUALIFICATION_COMMANDS"
+    },
+    {
+      "fact_id": "WSPS_P5_TARGET_RULES_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "P5_TARGET_TYPE"
+    },
+    {
+      "fact_id": "WSPS_P5_SCORING_SCALE_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [
+        "WSPS:WSPS-SRC-240:A04"
+      ],
+      "status": "DIRECT_ROUTE_FACT_BINDING",
+      "relation": "P5_SCORING_SCALE"
+    },
+    {
+      "fact_id": "WSPS_P5_FINAL_STATUS_NO_FINAL_HUMAN_CONFIRMED_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": false,
+      "atlas_ids": [],
+      "status": "DIRECT_ROUTE_DECISION_BINDING",
+      "relation": "P5_FINAL_STATUS_NO_FINAL"
+    },
+    {
+      "fact_id": "WSPS_P5_FINAL_STATUS_NO_FINAL_NORMATIVE_V1",
+      "authority": "WSPS",
+      "route_id": "wsps.event.p5",
+      "trusted_selector_fact": true,
+      "atlas_ids": [],
+      "status": "NO_DIRECT_ATLAS_MATCH",
+      "relation": "P5_FINAL_STATUS_NORMATIVE_EXCEPTION"
+    }
+  ],
+  "source_atlas_sha256": "ad0f2855631876d81340ac9de4a6ef4b4866ccde43a5b6871a90d64b3412760e",
+  "collected_on": "2026-11-06",
+  "schema": "RENATE_ROUTING_METADATA_ONLY_V1"
+}

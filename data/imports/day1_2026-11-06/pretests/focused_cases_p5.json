@@ -1,0 +1,340 @@
+{
+  "schema": "ADANA_ROUTE_TEMPLATE_V2_FOCUSED_CASES_V1",
+  "route_id": "wsps.event.p5",
+  "case_plan_id": "route45_p5_rag_focused_v1",
+  "case_plan_source": "HUMAN_DIRECTED_TARGET_MANIFEST",
+  "cases": [
+    {
+      "case_id": "p5_event_overview_progressive_cards",
+      "case_kind": "POSITIVE",
+      "expected_event_id": "wsps.event.p5",
+      "question": "Como é a prova WSPS P5 (10m Air Pistol Standard)?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F",
+        "ADANA-SRC-3B1650384F55C206"
+      ],
+      "required_card_phase": "qualification",
+      "required_card_phases": [
+        "qualification",
+        "final"
+      ],
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "EVENT_OPERATION",
+      "expected_slot_phase": "qualification",
+      "required_answer_markers": [
+        "P5",
+        "10m Air Pistol Standard",
+        "Open",
+        "SH1"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "EVENT_OPERATION",
+          "phase": "event"
+        },
+        {
+          "intent": "EVENT_OPERATION",
+          "phase": "qualification"
+        }
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true
+    },
+    {
+      "case_id": "p5_final_no_final_direct_horus_card",
+      "case_kind": "POSITIVE",
+      "expected_event_id": "wsps.event.p5",
+      "question": "Como é a final da prova WSPS P5?",
+      "required_source_ids": [
+        "ADANA-DECISION-1AAD701E2279F216"
+      ],
+      "required_card_phase": "final",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "FINAL_OPERATION",
+      "expected_slot_phase": "final",
+      "required_answer_markers": [
+        "Não tem final"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "FINAL_OPERATION",
+          "phase": "final"
+        }
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "required_card_phases": [
+        "final"
+      ]
+    },
+    {
+      "case_id": "p5_rag_score_calculation",
+      "case_kind": "POSITIVE",
+      "expected_event_id": "wsps.event.p5",
+      "question": "Calcule a pontuação máxima de qualificação da WSPS P5 e mostre os operandos e as fontes.",
+      "required_source_ids": [
+        "ADANA-SRC-3B1650384F55C206",
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "SCORING_MAXIMUM",
+      "expected_slot_phase": "qualification",
+      "required_answer_markers": [
+        "40",
+        "10",
+        "400"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "SCORING_MAXIMUM",
+          "phase": "qualification"
+        }
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "required_card_phases": [
+        "qualification"
+      ]
+    },
+    {
+      "case_id": "p5_eligibility_category",
+      "case_kind": "POSITIVE",
+      "expected_event_id": "wsps.event.p5",
+      "question": "Quem pode participar da WSPS P5?",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "ELIGIBILITY",
+      "expected_slot_phase": "event",
+      "required_answer_markers": [
+        "Open",
+        "SH1"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "ELIGIBILITY",
+          "phase": "event"
+        }
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "required_card_phases": [
+        "qualification"
+      ]
+    },
+    {
+      "case_id": "p5_original_magazine_capacity_query",
+      "case_kind": "POSITIVE",
+      "expected_event_id": "wsps.event.p5",
+      "question": "Na prova WSPS P5 de pistola de ar standard 10 m, quantos chumbinhos o carregador deve comportar?",
+      "required_source_ids": [
+        "ADANA-SRC-3B1650384F55C206"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "expected_slot_intent": "EQUIPMENT_OR_CLOTHING",
+      "expected_slot_phase": "event",
+      "required_answer_markers": [
+        "five (5) pellets"
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "required_card_phases": [
+        "qualification"
+      ]
+    },
+    {
+      "case_id": "p5_negative_issf25m_facts",
+      "expected_event_id": "wsps.event.p5",
+      "question": "Aplique à P5 as regras da ISSF Standard Pistol 25m.",
+      "accepted_answer_statuses": [
+        "ANSWERED"
+      ],
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true,
+      "expected_slot_intent": "EVENT_IDENTITY",
+      "expected_slot_phase": "event",
+      "expected_slot_contracts": [
+        {
+          "intent": "EVENT_IDENTITY",
+          "phase": "event"
+        }
+      ],
+      "required_answer_markers": [
+        "P5",
+        "10m Air Pistol Standard",
+        "não há regras",
+        "aplicáveis à P5"
+      ],
+      "forbidden_answer_markers": [
+        "5,6 mm",
+        "5.6 mm",
+        "7,62 mm",
+        "9,65 mm",
+        "8.4.1.6"
+      ],
+      "forbidden_citation_locator_markers": [
+        "8.4.1.6",
+        "8.4.3.2",
+        "8.4.3.3"
+      ],
+      "expected_horus_fact_ids": [
+        "WSPS_P5_EVENT_IDENTITY_V1"
+      ],
+      "case_kind": "NEGATIVE"
+    },
+    {
+      "case_id": "p5_boundary_neighbor_p4_identity",
+      "case_kind": "BOUNDARY",
+      "question": "Qual a distância de competição da prova WSPS P4?",
+      "expected_event_id": "wsps.event.p4",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "required_answer_markers": [
+        "50 m"
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true
+    },
+    {
+      "case_id": "p5_route_identity_precedence",
+      "case_kind": "PRECEDENCE",
+      "expected_event_id": "wsps.event.p5",
+      "question": "Na prova WSPS P5 10m Air Pistol Standard, qual é o calibre admitido?",
+      "required_source_ids": [
+        "ADANA-SRC-3B1650384F55C206"
+      ],
+      "required_card_phase": "qualification",
+      "expected_slot_intent": "TARGET_OR_CALIBER",
+      "expected_slot_phase": "event",
+      "required_answer_markers": [
+        "4.5 mm"
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true
+    },
+    {
+      "case_id": "p5_qualification_total_shot_count",
+      "case_kind": "POSITIVE",
+      "question": "Qual é o total de disparos da qualificação da prova WSPS P5 (10m Air Pistol Standard)?",
+      "expected_event_id": "wsps.event.p5",
+      "required_source_ids": [
+        "ADANA-SRC-3B1650384F55C206"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "required_card_phases": [
+        "qualification"
+      ],
+      "expected_slot_intent": "QUALIFICATION_OPERATION",
+      "expected_slot_phase": "qualification",
+      "expected_slot_contracts": [
+        {
+          "intent": "QUALIFICATION_OPERATION",
+          "phase": "qualification"
+        }
+      ],
+      "required_answer_markers": [
+        "40"
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true
+    },
+    {
+      "case_id": "p5_qualification_time_and_shots",
+      "case_kind": "POSITIVE",
+      "question": "Quantos disparos e quais tempos de prova constam para a qualificação WSPS P5?",
+      "expected_event_id": "wsps.event.p5",
+      "required_source_ids": [
+        "ADANA-SRC-3B1650384F55C206"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "required_card_phases": [
+        "qualification"
+      ],
+      "expected_slot_intent": "QUALIFICATION_OPERATION",
+      "expected_slot_phase": "qualification",
+      "expected_slot_contracts": [
+        {
+          "intent": "QUALIFICATION_OPERATION",
+          "phase": "qualification"
+        }
+      ],
+      "required_answer_markers": [
+        "40",
+        "8",
+        "5",
+        "10"
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true
+    },
+    {
+      "case_id": "p5_compound_overview_score_and_eligibility",
+      "case_kind": "POSITIVE",
+      "question": "Como é a prova WSPS P5, qual o máximo de pontos na qualificação e quem pode participar?",
+      "expected_event_id": "wsps.event.p5",
+      "required_source_ids": [
+        "ADANA-SRC-892D95743F291E6F",
+        "ADANA-SRC-3B1650384F55C206",
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "required_card_phase": "qualification",
+      "allow_cards_as_answer": true,
+      "required_card_phases": [
+        "qualification"
+      ],
+      "expected_slot_contracts": [
+        {
+          "intent": "EVENT_OPERATION",
+          "phase": "event"
+        },
+        {
+          "intent": "EVENT_OPERATION",
+          "phase": "qualification"
+        },
+        {
+          "intent": "SCORING_MAXIMUM",
+          "phase": "qualification"
+        },
+        {
+          "intent": "ELIGIBILITY",
+          "phase": "event"
+        }
+      ],
+      "required_answer_markers": [
+        "40",
+        "10",
+        "400",
+        "Open",
+        "SH1"
+      ],
+      "require_event_id": true,
+      "require_automatic_pass": true
+    },
+    {
+      "case_id": "p5_clarify_unbound_caliber",
+      "case_kind": "NEGATIVE",
+      "question": "Qual o calibre da pistola?",
+      "expected_event_id": "wsps.event.p5",
+      "required_source_ids": [],
+      "allow_cards_as_answer": false,
+      "required_answer_markers": [],
+      "accepted_answer_statuses": [
+        "CLARIFICATION_REQUIRED"
+      ],
+      "require_event_id": false,
+      "require_automatic_pass": false,
+      "expected_slot_contracts": []
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "state": "PASS",
+  "generatedAt": "2026-11-08T15:50:59.691Z",
+  "scope": "Reteste runtime focado dos 17 casos que falharam por card ausente no relatório anterior; perguntas originais do Atlas; sem forçar ID selecionado.",
+  "priorRegression": "docs/beta-offline/QA_PRESENTATION_REGRESSION_2026-11-08.json",
+  "expectedCases": 17,
+  "readyCount": 1104,
+  "passed": 17,
+  "failed": 0,
+  "externalRequests": [],
+  "results": [
+    {
+      "atlasId": "CBTE:CBTE-ARB-006:A03",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "cbte.cma.10m:qualification",
+      "question": "Como a arma deve ficar ao final da prova CBTE de Carabina Mira Aberta 10m?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "CBTE:CBTE-ARB-006:A03",
+      "cards": [
+        "cbte.cma.10m:qualification"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-105:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, na posição em pé, onde pode apoiar-se o braço de suporte?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-105:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-123:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, um atleta pode usar alça de mira fora das dimensões permitidas pela ISSF?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-123:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-123:A02",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, um atleta pode usar massa de mira fora das dimensões permitidas pela ISSF?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-123:A02",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-126:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, o rifle pode possuir apoio de palma?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-126:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-128:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, qual equipamento especial de vestuário é permitido em rifle?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-128:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-131:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, a calça de tiro pode ser usada com rigidez ilimitada?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-131:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-132:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, é permitido vestir duas jaquetas de tiro para aumentar o apoio?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-132:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-133:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, as roupas são medidas só antes da prova?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-133:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-136:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, uma bandagem ou fita pode ser usada para criar suporte adicional no braço?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-136:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-150:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "question": "Na disciplina Rifle da ISSF, pode o atleta usar roupa ou acessório que altere o contato da arma com o corpo além do permitido?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-150:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "ISSF:ISSF-268:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "ISSF_MOVING_TARGET_SLING_RULE_V1",
+      "question": "Na disciplina Moving Target da ISSF, o atleta pode usar sling em Moving Target?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "ISSF:ISSF-268:A01",
+      "cards": [
+        "ISSF_MOVING_TARGET_MARKER_TAPE_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1",
+        "issf.event.15:qualification",
+        "issf.event.15:final",
+        "issf.event.16:qualification",
+        "issf.event.17:qualification",
+        "issf.event.17:final",
+        "issf.event.18:qualification"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "WSPS:WSPS-SRC-181:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "WSPS_PARATRAP_ADAPTIVE_SUPPORT_V1",
+      "question": "Na disciplina de Tiro Esportivo Paralímpico da WSPS, o suporte adaptativo em cada estação é obrigatório para as três classes Para Trap?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "WSPS:WSPS-SRC-181:A01",
+      "cards": [
+        "WSPS_PARATRAP_ADAPTIVE_SUPPORT_V1",
+        "wsps.event.pt1:qualification",
+        "wsps.event.pt2:qualification",
+        "wsps.event.pt3:qualification",
+        "WSPS_PROGRAM_OF_EVENTS_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "WSPS:WSPS-SRC-201:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "WSPS_PROGRAM_OF_EVENTS_V1",
+      "question": "Nas provas WSPS R1, R9, P1, P4, qual programa de eventos do Apêndice 2 é exclusivo dos Jogos Paralímpicos?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "WSPS:WSPS-SRC-201:A01",
+      "cards": [
+        "WSPS_PROGRAM_OF_EVENTS_V1",
+        "issf.pistol.specifications.10m",
+        "wsps.event.r1:qualification",
+        "wsps.event.r1:final"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "WSPS:WSPS-SRC-202:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "WSPS_PROGRAM_OF_EVENTS_V1",
+      "question": "Nas provas WSPS R1, R11, P1, P6, VIS, VIP, PT1, PT3, qual programa de eventos o quadro aceita para Campeonatos Mundiais WSPS?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "WSPS:WSPS-SRC-202:A01",
+      "cards": [
+        "WSPS_PROGRAM_OF_EVENTS_V1",
+        "issf.pistol.specifications.10m",
+        "wsps.event.pt1:qualification",
+        "wsps.event.pt3:qualification",
+        "wsps.event.vip:qualification",
+        "wsps.event.vis:qualification",
+        "wsps.event.r1:qualification",
+        "wsps.event.r1:final"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "WSPS:WSPS-SRC-204:A01",
+      "group": "ORIGINAL_960",
+      "expectedCardId": "WSPS_PROGRAM_OF_EVENTS_V1",
+      "question": "Na disciplina de Tiro Esportivo Paralímpico da WSPS, o organizador pode escolher livremente o programa de eventos dos Jogos IPC?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "WSPS:WSPS-SRC-204:A01",
+      "cards": [
+        "WSPS_PROGRAM_OF_EVENTS_V1",
+        "cbte.wsps.program:qualification",
+        "cbte.wsps.program:final",
+        "issf.pistol.specifications.10m",
+        "issf.pistol.specifications.25m",
+        "wsps.event.r1:qualification",
+        "wsps.event.r1:final",
+        "wsps.event.r2:qualification",
+        "wsps.event.r2:final"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "atlasId": "RENATE:CMP-RIMFIRE:001:A01",
+      "group": "SUPPLEMENT_50",
+      "expectedCardId": "cbte.cmp.rimfire_sporter:qualification",
+      "question": "Como se desenvolve a prova, quais são as posições, distâncias, séries e existe final?",
+      "status": "ANSWERED",
+      "selectedAtlasId": "RENATE:CMP-RIMFIRE:001:A01",
+      "cards": [
+        "cbte.cmp.rimfire_sporter:qualification",
+        "cbte.cmp.rimfire_sporter:cmp-rimfire-sporter-mira-aberta-class:qualification",
+        "cbte.cmp.rimfire_sporter:cmp-rimfire-sporter-mira-fechada-class:qualification",
+        "cbte.cmp.rimfire_sporter:cmp-carabina-tatica-rimfire:qualification"
+      ],
+      "expectedCardPresented": true
+    }
+  ]
+}

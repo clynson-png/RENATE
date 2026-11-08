@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">WSPS R6 — final 50 m rifle prone, Open SH1</title>
+<desc id="desc">Card visual complementar: final R6 com oito atletas, duas séries de cinco tiros e tiros individuais até o 24º, eliminações progressivas. Imagens ilustrativas sem valor normativo.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071d2d"/><stop offset="1" stop-color="#0b1520"/></linearGradient>
+ <linearGradient id="lime"><stop stop-color="#c8ff4d"/><stop offset="1" stop-color="#82df4d"/></linearGradient>
+ <style>text{font-family:Arial,sans-serif}.label{fill:#42d7e5;font-size:17px;font-weight:700;letter-spacing:2px}.body{fill:#e8f1f4;font-size:19px}.muted{fill:#a9c2cc;font-size:15px}.value{fill:#c8ff4d;font-size:30px;font-weight:800}.small{fill:#d9e8ed;font-size:13px}</style>
+</defs>
+<rect width="1200" height="900" rx="30" fill="url(#bg)"/><rect x="14" y="14" width="1172" height="872" rx="25" fill="none" stroke="#19c9db" stroke-width="3"/>
+<text x="52" y="58" fill="#4adbe8" font-size="19" font-weight="700" letter-spacing="3">WSPS • R6 • OPEN SH1 • FINAL</text>
+<text x="52" y="112" fill="url(#lime)" font-size="43" font-weight="800">FINAL • ELIMINAÇÃO PROGRESSIVA</text>
+<text x="54" y="148" fill="#d4e4ea" font-size="20">50 m Rifle Prone • Open SH1 • .22 LR</text>
+<rect x="40" y="174" width="372" height="300" rx="20" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="62" y="205" class="label">DUAS OPÇÕES R6 • SH1</text>
+<image x="54" y="220" width="164" height="202" preserveAspectRatio="xMidYMid slice" href="WSPS_R6_SH1_Floor_Prone.png" xlink:href="WSPS_R6_SH1_Floor_Prone.png"/>
+<image x="230" y="220" width="164" height="202" preserveAspectRatio="xMidYMid slice" href="WSPS_R6_SH1_Wheelchair_Table.png" xlink:href="WSPS_R6_SH1_Wheelchair_Table.png"/>
+<text x="62" y="449" class="small">Deitado no solo</text><text x="230" y="449" class="small">Cadeira + mesa</text>
+<rect x="436" y="174" width="724" height="300" rx="20" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="466" y="211" class="label">FORMATO DA FINAL</text><text x="466" y="258" class="value">8 finalistas • 24 tiros</text>
+<text x="466" y="296" class="body">2 séries de 5 tiros • até 150 s por série</text>
+<text x="466" y="332" class="body">Depois: tiros individuais • 30 s por tiro</text>
+<text x="466" y="372" class="muted">Máximo teórico: 24 × 10,9 = 261,6 pontos.</text>
+<text x="466" y="410" class="muted">Preparação e ensaio: 5 min • comandos WSPS.</text>
+<text x="466" y="448" class="small">Imagens ilustrativas; não definem a posição individual do atleta.</text>
+<rect x="40" y="498" width="1120" height="216" rx="20" fill="#0e2735" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="535" class="label">MARCOS DE ELIMINAÇÃO • APÓS O TOTAL DE TIROS</text><path d="M120 588H1080" stroke="#2e8793" stroke-width="4"/>
+<g text-anchor="middle">
+ <circle cx="122" cy="588" r="10" fill="#c8ff4d"/><text x="122" y="574" class="value" font-size="21">12</text><text x="122" y="623" class="body">8º sai</text>
+ <circle cx="278" cy="588" r="10" fill="#c8ff4d"/><text x="278" y="574" class="value" font-size="21">14</text><text x="278" y="623" class="body">7º sai</text>
+ <circle cx="434" cy="588" r="10" fill="#c8ff4d"/><text x="434" y="574" class="value" font-size="21">16</text><text x="434" y="623" class="body">6º sai</text>
+ <circle cx="590" cy="588" r="10" fill="#c8ff4d"/><text x="590" y="574" class="value" font-size="21">18</text><text x="590" y="623" class="body">5º sai</text>
+ <circle cx="746" cy="588" r="10" fill="#c8ff4d"/><text x="746" y="574" class="value" font-size="21">20</text><text x="746" y="623" class="body">4º sai</text>
+ <circle cx="902" cy="588" r="10" fill="#c8ff4d"/><text x="902" y="574" class="value" font-size="21">22</text><text x="902" y="623" class="body">3º / bronze</text>
+ <circle cx="1058" cy="588" r="10" fill="#42d7e5"/><text x="1058" y="574" fill="#42d7e5" font-size="21" font-weight="800">24</text><text x="1058" y="623" class="body">1º / 2º</text>
+</g>
+<text x="66" y="674" class="muted">Empate na eliminação: tiro(s) extra(s) individual(is) até desempatar.</text>
+<rect x="40" y="720" width="1120" height="100" rx="18" fill="#102b3a" stroke="#315a6e" stroke-width="2"/>
+<text x="66" y="755" class="label">ADAPTAÇÃO WSPS • SH1</text>
+<text x="66" y="789" class="body">No modo cadeira + mesa, aplicam-se os limites de postura do WSPS 4.2.2.5.</text>
+<text x="52" y="838" fill="#c4d9e1" font-size="14">Fontes: WSPS 4.1.9 e 4.2.2.3–4.2.2.5; WSPS Finals Commands 2026, aba R6; ISSF 7.7.5.</text>
+<text x="52" y="859" fill="#83a4b1" font-size="13">CARD APROVADO • imagem complementar, sem valor normativo</text>
+</svg>
+

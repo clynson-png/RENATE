@@ -1,0 +1,4 @@
+PASS: all regression work is anchored to Route_Template_validation_v2 MCP pipeline policy.
+[1/2] Checking 62 canonical event identities, additional rule routes, contracts, dependencies and baseline hashes.
+FAIL: baseline source hash changed: answer_api; do not auto-refresh baseline
+BLOCKED: static governance checks failed; runtime replay was not started.

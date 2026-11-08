@@ -1,0 +1,781 @@
+DOCUMENT TITLE: Carabina CMP Sporter
+
+SOURCE PDF: docs/Library/Regulamentos_2026/Regulamento-Carabina-CMP-09012025.pdf
+
+DOCUMENT EDITION: Atualizado em 09/01/2025
+
+SOURCE YEAR: 2025
+
+RULE AUTHORITY: CBTE / CMP
+
+
+
+--- PAGE 1 ---
+CARABINA CMP SPORTER
+
+    REGULAMENTO
+
+    Atualizado em 09/01/2025
+[IMAGE/DIAGRAM PAGE: embedded text is partial; visual contents require image reading.]
+
+--- PAGE 2 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+
+INTRODUÇÃO
+O presente regulamento foi traduzido e adaptado pela CBTE, da regra internacional oficiais “Regras de Competições de
+Carabina e Pistola do CMP” (Competition Rules for CMP Games Rifle and Pistol Matches). Caberá à Diretoria de Rifle
+Internacional da CBTE, quando necessário ou indicado, revisar ou alterar este regulamento, em conformidade com a
+regra oficial do CMP.
+
+A disciplina Carabina CMP Fogo Circular Sporter de tiro de rifle/carabina é uma disciplina internacional de Tiro
+Esportivo, regulada pelo CMP (Civilian Marksmanship Program) e é baseada na modalidade “3 Positions Rifle NRA”,
+visando à formação de base para o tiro esportivo utilizando armas longas raiadas com munição .22LR de fogo lateral
+(rimfire) e regras que limitam os atletas a participarem com modelos de carabinas .22LR menos sofisticadas e mais
+facilmente disponíveis ao atirador em geral, fato este especialmente relevante no Brasil. Esta modalidade foi criada
+especialmente para ser acessível ao maior número possível de atletas, de todas as idades, mantendo os fundamentos
+técnicos do tiro de carabina, em uma competição fácil de ser organizada e realizada, nas distâncias de 50 e 25 metros,
+permitindo que um maior número de clubes promova competições dessa disciplina com grande número de participantes.
+
+Todos os tipos de carabinas no calibre .22LR que possuem características e peso máximo dentro do limite (3,4 Kg ou 7,5
+libras) podem participar com sucesso dessa disciplina de tiro esportivo. As regras oficiais criam limitações destinadas
+especificamente a não permitir o uso de armas específicas de tiro esportivo, muito sofisticadas, customizadas e/ou
+pesadas, para promover o nivelamento e incrementar a competitividade entre os atletas de NRA Sporting Rifle.
+
+A exigência desta prova está pautada na prática dos fundamentos básicos do tiro esportivo (visada, puxada de gatilho,
+respiração etc.), conjugada com um alvo de razoáveis dimensões (ex.: o anel do 10 possui aprox. 4,5 cm  / 1,78
+polegadas  / 3,5 MOA). Isso permite que os resultados alcançados sejam mais elevados, servindo como fonte de
+entusiasmo para o praticante, mesmo assim, exigindo muita dedicação e treinamento para a classificação entre os
+primeiros lugares.
+
+Por ser uma disciplina do tiro esportivo de carabina que possui o foco no atirador esportivo iniciante e nos fundamentos
+do tiro esportivo, com o uso de carabinas mais simples e acessíveis e um alvo de proporções generosas, os atletas de
+CMP Rimfire Sporter poderão fazer uso de munições .22LR simples e baratas com grande sucesso, não necessitando
+usar munições caras e difíceis de serem encontradas no Brasil.
+
+Obs: os pontos mais importantes da presente regra foram destacados de forma a permitir uma fácil visualização
+e localização dos assuntos.
+
+1- Competições
+1.1- Intenção e Espírito da disciplina
+A intenção e o espírito das regras é disponibilizar aos atletas de carabina .22LR, uma competição em que os atletas
+usarão carabinas de baixo custo, não especializadas e facilmente disponíveis no mercado. Qualquer carabina e/ou
+configuração de equipamento que não é mencionado nessas regras ou que seja contrário a intenção e espírito da
+presente regra são proibidos. As carabinas e os equipamentos permitidos nas provas são estritamente limitados com o
+objetivo de evitar uma “corrida de equipamento” na presente disciplina de tiro esportivo.
+
+1.2- Divisões
+Os atletas serão divididos em 2 ou 3 grupos:
+
+■ Mira Aberta
+Qualquer carabina equipada com miras abertas (alça e massa).
+
+■ Mira Fechada
+Qualquer carabina equipada com miras óticas ou fechadas (peep sight, dioptro etc.). A entidade organizadora nacional
+poderá estabelecer uma divisão específica, (Classe A) para as miras metálicas fechadas (regra 1.2.6).
+
+■ Tática
+Qualquer carabina que tenha a aparência similar a um rifle tático semiauto. Se a entidade organizadora incluir essa
+divisão, essas carabinas deverão atirar na divisão Mira Fechada.
+
+                                                                         2
+
+--- PAGE 3 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+2- Carabinas Esportes .22LR (Carabinas Fogo Circular Sporter)
+Qualquer carabina no calibre .22LR que se enquadre nas regras a seguir podem ser usadas nas provas de Carabina
+CMP Fogo Circular Sporter.
+
+2.1- Todas as carabinas devem ser simples, do tipo esporte ou de caça, no calibre .22 Long Rifle (.22LR). Os calibres de
+fogo lateral (rimfire) Magnum ou no calibre .17 não podem ser usados. Os canos das carabinas podem ter o perfil leve
+ou pesado, mas não podem ser canelados (fluted barrels). Existem 3 divisões de carabinas:
+
+■ Carabina Rimfire Sporter, Divisão Mira Aberta (Class O: Open Sights);
+■ Carabina Rimfire Sporter, Divisão Mira Fechada (Class T: Telescopic or Aperture Sights);
+■ Carabina Tática Rimfire (Tactical: Aperture or Optical Sights)
+
+2.2- Configurações Gerais das Carabinas Esporte e Tática
+As carabinas .22LR Esporte devem ser do tipo simples, com aparência de carabinas convencionais de caça. A carabina
+deve ter uma coronha de construção simples feita de madeira ou material sintético, não sendo permitido que ela tenha
+um pistol grip assimétrico ou anatômico. A coronha pode ter um suporte fixo de bandoleira no fuste (forend). O Fuste não
+pode ser plano ou alinhado horizontalmente em relação ao cano, nem possuir ângulos agudos. Coronhas do tipo
+thumbhole ou com qualquer tipo de ajuste, inclusive na soleira (butt plates) e bochecha (cheekpiece) não são permitidos.
+Trilhos para bandoleiras não são permitidos.
+
+São exemplos de coronhas clássicas permitidas:
+
+A: Coronha Inglesa, B: Coronha com Punho de Pistola, C: Coronha Lombo de Porco, D: Coronha Lombo de Porco com suporte de bochecha bávara,
+E: Coronha Lombo de Porco com suporta da bochecha, F: Coronha Monte Carlo com suporte de bochecha Monte Carlo.
+
+                                                                         3
+
+--- PAGE 4 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+As carabinas .22LR com aparência geral “tática” podem ser usadas nas provas de Carabina CMP Fogo Circular Sporter
+na classe Tactical Rimfire ou a entidade organizadora pode incluí-las na divisão Classe Mira Fechada (Class T). As
+carabinas Táticas devem obedecer aos limites de peso da arma e do gatilho e possuir uma configuração externa similar
+aos rifles táticos semiautomáticos militares. As carabinas .22LR Táticas podem ter miras fechadas ou ópticas (com
+aumento não maior do que 6X vezes). Se a coronha possuir algum ajuste de comprimento, a mesma deve ficar fixa em
+um comprimento durante todas as séries em todas as posições de tiro da prova.
+
+2.3- Peso total de todas as Carabinas .22LR
+O peso total da carabina, incluindo as miras, não pode exceder 7,5 libras (ou 3,4 kgs).  Bandoleiras podem ser
+removidas antes da aferição do peso, mas na Classe Mira Fechada (Class T) as carabinas deverão ser pesadas com as
+miras e seus suportes instalados na arma. Carabinas com carregadores destacáveis ou removíveis, devem ser pesados
+com um carregador na arma, sendo este carregador o mesmo ou igual ao que será usado durante a prova.  Pesos
+internos ou externos podem ser acrescentados ao cano e coronha, desde que respeitem o limite total permitido, incluindo
+miras, de 7,5 libras (ou 3,4 kgs). No caso de pesos externos, estes somente podem ser acrescentados ao cano e sua
+forma deve ser concêntrica.
+
+2.4- Tipos de ação e carregadores das Carabinas .22LR
+As carabinas podem ser de qualquer tipo de sistema de funcionamento, semi-auto ou de repetição, desde que possua
+carregadores internos ou externos capazes de comportar um mínimo de 5 cartuchos .22LR. Nas séries de tiro rápido, os
+competidores com carabinas de repetição terão um tempo adicional de 5 segundos para cada série de 5 tiros de tiro
+rápido para compensar o tempo mais lento de ciclagem das carabinas com esse tipo de funcionamento (veja quadro na
+regra 5.1). Os carregadores das carabinas não poderão encostar no chão durante as séries de tiro ou serem usados
+para apoiar a carabina. O carregador pode tocar o braço, mas não pode ser apoiado por ele ou encostar no chão ou
+tapete de tiro do competidor.
+
+2.5- Peso dos gatilhos das Carabinas .22LR
+Todos os gatilhos das armas usadas devem ser capazes de levantar um peso de 3 libras (ou 1,36 kgs) quando
+engatilhados.
+
+2.6- Miras nas Divisões
+Existem duas divisões que são determinadas pelo tipo de mira instalada na carabina do atirador:
+
+•  Mira Aberta (Class O: Open Sight) - A carabina deve ser equipada com uma alça de mira (em forma de U, V ou
+fenda quadrada) regulável ou não, e uma massa de mira que pode ser um poste, com ou sem cobertura, desde que não
+seja do tipo de tiro ao alvo com inserts de massas removíveis.
+
+•  Mira Fechada (Class T: Telescopic and Special Sights / Miras Ópticas e Miras Especiais) - A carabina deve ser
+equipada com uma mira do tipo dioptro/peep ou com uma mira ótica que não exceda o aumento de 6X (seis vezes). Se a
+mira óptica tiver uma faixa de aumento além de 6X, o seu ajuste de zoom deverá ser envolvido com uma fita para
+imobilizá-lo em um aumento máximo de até 6X, de forma a impedir seu ajuste durante as séries de tiro. Carabinas com
+miras do tipo dioptro ou peep sight ou qualquer outro tipo de mira óptica eletrônica (red dot) serão incluídos na divisão
+Mira Fechada. A entidade nacional organizadora pode, por sua opção, dividi-la em duas: miras óticas e miras metálicas
+fechadas (dioptro / peep sight).
+
+2.7- Carregadores
+Não removíveis (de tubo ou internos) não podem ser alimentados enquanto a carabina estiver no estande, exceto após o
+comando CARREGAR ser dado pelo árbitro da prova. Se o carregador é removível ou destacável, ele deve estar fora do
+rifle durante todo o tempo, exceto durante a realização das séries de tiro. Carregadores removíveis ou destacáveis
+poderão estar municiados previamente, desde que eles não tenham contato com a carabina até que o comando
+CARREGAR seja dado pelo árbitro.
+
+2.8 A arma, munição, acessório ou equipamento de tiro utilizado em desacordo com as regras, tornará o atleta passível
+de desclassificação da prova.
+
+                                                                         4
+
+--- PAGE 5 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+3- Equipamentos e Alvos
+3.1- Roupas
+O competidor poderá vestir não mais do que duas camadas de roupa esporte ou casual macia (camisa, moletom etc.).
+Camisas e suéteres devem ser feitos de uma camada única de tecido macio e/ou flexível. O acréscimo de reforço ou
+acolchoamento nos cotovelos ou ombros não é permitido, exceto se forem bolsos normais. Jaquetas, casacos ou roupas
+pesadas de inverno não são permitidas (exceto se estiver numa temperatura ambiente excepcionalmente baixa).
+Jaquetas, casacos, calças ou calçados especiais de tiro ao alvo são proibidos. Calçados comuns, casuais, de trabalho
+ou botas do tipo de caça são permitidos.
+
+3.2- Bandoleiras
+Uma bandoleira, não maior do que 1,25 polegadas de largura (3,18 cm), pode ser aderida à carabina usando um ou
+dois pontos fixos e não ajustáveis (não é permitido hand stops ou trilhos). A bandoleira deverá ser uma tira simples de
+couro, tecido ou material sintético, não sendo permitido que ela tenha acolchoamentos, forros ou que tenha uma
+construção assimétrica. A bandoleira poderá ser usada para apoiar a carabina nas posições Deitado, de Joelhos ou
+Sentado, sendo vedada sua utilização na posição de Pé, embora possa continuar aderida a carabina ou ser removida.
+Bandoleiras do tipo militar de couro ou de material trançado podem ser utilizadas. Bandoleiras específicas de tiro ao alvo
+que não se enquadrem nessa regra, não são permitidas.
+
+3.3- Lunetas de Espotagem
+Os competidores poderão usar uma luneta de espotagem ou binóculos para visualizarem os disparos efetuados no alvo.
+
+3.4- Luvas
+Os competidores poderão usar luvas normais de trabalho ou de esporte na mão que apoia a carabina. Luvas
+acolchoadas ou outro material acolchoado são proibidos, assim como luvas específicas de tiro.
+
+3.5- Tapetes de tiro
+Os competidores poderão usar um tapete de tiro, ou cobertor, desde que ele não forneça um suporte adicional artificial
+ao atirador.
+
+3.6- Rolos de Joelho (Knneling Roll)
+Se um competidor decide atirar na posição de Joelhos, ele poderá usar um rolo de apoio em uma das pernas de apoio
+de não mais do que 6 polegadas de diâmetro (15,24 cm), que poderá ser colocado embaixo do pé, da canela ou entre o
+pé e as nádegas.
+
+3.7- Munição
+Todas as carabinas deverão ser cameradas para o calibre .22 Long Rifle (LR). Qualquer munição segura no calibre
+.22LR poderá ser utilizada.
+
+3.8- Alvos
+Os alvos de Carabina CMP Fogo Circular Sporter serão usados em todas as provas nas distâncias de tiro de 25 e 50
+metros. Os anéis de pontuação são baseados nas dimensões do alvo internacional de Pistola Livre 50 metros. A zona
+dos anéis dos escores 9, 8 e 7 serão na cor preta; a zona do 10 e X serão brancas para prover um ponto de visada para
+as carabinas Classe T.
+
+3.9- Montagem dos Alvos
+Para reduzir o tempo de troca de alvos, é recomendado que ao menos 2 alvos sejam colocados no suporte ao mesmo
+tempo. Com suportes grandes é possível colocar um máximo de até 6 alvos para cada posto de tiro.
+
+4- Competição e procedimentos de tiro
+4.1- Posições de tiro
+As posições deitado, sentado, ajoelhado e em pé são as utilizadas para a realização das respectivas séries de tiro.
+Qualquer das posições, se utilizadas com apoio artificial, somente poderão ser usadas no estágio de ensaio. Nas séries
+de tiro rápido, a posição inicial é a de PÉ com arma carregada, porém sem munição na câmara e ferrolho aberto.
+
+                                                                         5
+
+--- PAGE 6 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+4.2- Turmas ou Tandas
+As turmas ou tandas serão constituídas de  atletas disparando carabinas semiautomáticas e aquelas operadas
+manualmente, conjuntamente. Se possível, as carabinas semiauto serão organizadas de um lado do estande e as de
+repetição (manualmente operadas) do outro lado. Isso facilita o escalonamento da partida do estágio de fogo rápido,
+conforme descrito nessas regras. A entidade organizadora do evento poderá separar em turmas ou tandas distintas, as
+carabinas semiauto das operadas manualmente, se assim for mais conveniente.
+
+4.3- Etiquetando os alvos
+Antes de colocar os alvos no suporte para a série de tiro, todos os alvos deverão ser etiquetados ou marcados com o
+nome do atleta e número (se disponível). Essa informação deverá ser colocada no canto superior direito de cada alvo.
+
+A etiqueta ou marcação do alvo deverá conter o nome do competidor, o número (se possível), a tanda, o posto de tiro
+(número do alvo), fase de tiro e a divisão de rifle utilizado, marcando com “Mira Aberta”, “Mira Fechada” ou “Tática”.
+
+4.4- Procedimentos de tiro e Comandos de Estande
+Deverão ser conduzidos conforme os Procedimentos de tiro e Comandos de Estande da prova CMP Fogo Circular
+Sporter publicados ao final desta regra.
+
+4.5- Comandos de Estande
+Os comados de estande, procedimentos de carregar e instruções das provas incluem:
+
+4.5.1- Chamado para a linha de tiro
+O árbitro instruirá os atletas a trazerem seus rifles e equipamentos para a linha de tiro. As armas deverão estar com o
+mecanismo aberto e/ou com indicadores de câmara vazia inseridos quando carregados para a linha de tiro. Após os
+atletas terem sido chamados para linha de tiro, eles poderão transportar seus rifles, colocar as bandoleiras, estabelecer
+posições, mas eles não poderão remover o indicador de câmara vazia ou fechar o ferrolho até que o período de
+preparação comece.
+
+4.5.2- Período de Preparação
+Um minuto após o chamado dos atletas para a linha de tiro, o árbitro deverá dar um período de 3 (três) minutos de
+preparação antes do ensaio ou 1 (um) minuto de preparação antes de cada estágio de tiro. Durante os períodos de
+preparação os atletas poderão remover os indicadores de câmara vazia, fechar a ações e executar tiro em seco. Os
+atletas poderão carregar os carregadores destacáveis durante este período, porém não poderão inseri-los nas armas.
+Carregar a arma ou encher um carregador não destacável nesse período não é permitido.
+
+4.5.3- CARREGAR
+Após o término do período de preparação, o árbitro comandará COM AS AÇÕES ABERTAS OU FECHADAS EM
+CÂMARAS VAZIAS... CARREGUEM CINCO MUNIÇÕES. Após o comando CARREGAR, os atletas poderão inserir um
+carregador carregado com 5 (cinco) munições (série de  tiro lenta ou rápida), mas as ações dos rifles deverão
+permanecer abertas ou fechadas com a câmara vazia
+
+Não é permitido a ninguém carregar um magazine não destacável ou colocar um magazine em um rifle até que o
+comando CARREGAR seja dado. Não é permitido a ninguém carregar ou inserir munição na câmara até que o comando
+COMEÇAR seja dado.
+
+4.5.4- COMEÇAR
+Após os atletas receberem tempo suficiente para carregarem, o árbitro autoriza o início dos tiros com o comando
+COMEÇAR. Os estágios cronometrados iniciam com esse comando.
+
+Após o comando COMEÇAR, os atletas poderão fechar os mecanismos de suas armas ou ciclarem as mesmas
+para inserir a primeira munição na câmara e começar a atirar.
+
+Ninguém poderá colocar uma munição na câmara antes que o comando COMEÇAR seja dado. Após o comando
+COMEÇAR ser proferido, os atletas poderão atirar até que terminem o estágio de tiro ou o comando PARAR seja dado.
+Quando os atletas terminarem o estágio de tiro, deverão abrir a ação de seus rifles, inserir o indicador de câmara vazia e
+aguardar para que o árbitro vistorie seus rifles.
+
+                                                                         6
+
+--- PAGE 7 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+4.5.5- PARAR ou CESSAR FOGO E DESCARREGAR.
+Quando o comando PARAR, CESSAR ou CESSAR FOGO é dado, todos devem parar de atirar imediatamente, abrir as
+ações de seus rifles, remover munições da câmara e carregador, inserir o indicador de câmara vazia e manter a ação
+aberta, deixando seus rifles em condição segura. O árbitro comandará PARAR...DESCARREGAR quando todos os
+competidores tiverem terminado o estágio de tiro ou o tempo estiver acabado.
+
+IMPORTANTE: O árbitro ou qualquer pessoa no estande poderá comandar PARAR— PARAR— PARAR a qualquer
+momento se uma emergência de segurança ocorrer. Não é permitido que ninguém dispare um tiro após o comando
+PARAR. Tiros disparados após o PARAR deverão ser apurados como tiros perdidos.
+
+4.5.6- Após Completada a Prova.
+Se um atleta completar o curso de tiro de uma série lenta antes do tempo terminar ou de ser dado o comando o
+CESSAR deverá abrir a ação de seu rifle, inserir o indicador de câmera aberta e colocar a arma em segurança. Os
+atletas não deverão remover seus rifles e equipamentos da linha de tiro até que seja orientado, mas poderão dar um
+passo atrás após seus rifles serem colocados em segurança.
+
+4.5.7- Removendo o Equipamento da Linha.
+Após o árbitro inspecionar a linha de tiro para ter certeza de que todos os rifles estão com o mecanismo aberto e com os
+indicadores de câmara vazia inseridos, o árbitro instruirá aos atletas para que removam suas armas e equipamentos da
+linha de tiro. As armas não deverão ser removidas da linha de tiro até que autorizado pelo árbitro.
+
+4.6- Treinando ou auxiliando um atleta
+É proibido qualquer ajuda técnica (coaching) ao atirador nas séries de prova, sendo permitido somente durante o período
+de ensaio. Exceção poderá ser feita para o atirador inexperiente, em sua primeira participação na modalidade, sendo a
+ajuda técnica limitada a auxílio para zerar a arma, assumir as posições de tiro, ajuste de bandoleira, regulagem de miras
+e informações sobre as séries de tiro.
+
+4.7- Defeitos
+Um defeito é uma falha da arma ou da munição no seu funcionamento regular. Se ocorrer um defeito no equipamento
+ou munição do competidor, ele não terá direito a novo disparo, a menos que o competidor consiga reparar a falha de
+forma segura ou alimentar e disparar nova munição no tempo regulamentar.
+
+a) Se o competidor não conseguir reparar a falha, o mesmo deve permanecer na posição com a arma apontada para os
+alvos e notificar o Árbitro ou Diretor de Prova que tomará as precauções necessárias para retirada do equipamento
+defeituoso da linha de tiro em segurança.
+
+b) Não será concedido tempo adicional ou compensação, em caso de equipamento ou munição defeituosa.
+
+c) Somente em caso de falha do equipamento do estande, ou de comando, afetando um ou mais alvos, poderá ser
+concedido tempo adicional ou compensação, a critério do Árbitro ou Diretor de Prova.
+
+4.8- Tiros antes ou depois do tempo limite.
+4.8.1- Se um atleta carrega e dispara um tiro antes do comando CARREGAR, ele/ela deverá ser desqualificado da prova
+por violar regras de segurança.
+
+4.8.2- Se um atleta dispara um tiro depois do comando CARREGAR, mas antes do comando COMEÇAR ou FOGO, o
+maior disparo daquele estágio deverá ser contado como zero (0).
+
+4.8.3- Se um atleta disparar após o comando CESSAR, o disparo de maior valor deverá ser anulado e contado como
+zero (0).
+
+4.8.4- Durante as séries de fogo rápido, os Árbitros deverão ficar atentos para identificarem os atletas que dispararem
+depois do comando CESSAR.
+
+4.8.5- Os Árbitros poderão permitir uma tolerância de um (1) segundo de tempo após o comando CESSAR antes de
+decidirem se aquele tiro tardio deverá ser registrado como perdido.
+
+                                                                         7
+
+--- PAGE 8 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+4.8.6- Após a linha de tiro estar livre e os alvos terem sido removidos, qualquer disparo tardio deverá ser documentado
+no alvo do atleta.
+
+NOTA: A decisão do Árbitro se um disparo é tardio não é diferente do julgamento que os demais juízes de outros
+esportes devem fazer em situações difíceis. Os Árbitros deverão decidir o que é justo para os demais competidores em
+vista da situação verificada no estande.
+
+4.9- Tiros não Disparados
+Qualquer tiro não disparado deverá ser registrado como zero (0). Atletas que não dispararam os cinco tiros na sua
+primeira série de tiro rápido, mas que carregaram e dispararam mais de cinco tiros na sua segunda série de tiro rápido
+deverão ser desqualificados por violarem as regras no quesito honestidade e espírito esportivo.
+
+4.10- Tiros Cruzados
+ 4.10.1- Tiros cruzados deverão ser registrados como zero (0) e não deverão ser atirados novamente.
+Se o competidor sofrer um tiro cruzado, tanto na série lenta quanto na série de tiro rápido, que não pode ser identificado
+do restante dos seus disparos, serão computados os disparos efetuados pelo competidor que tenham o maior valor.
+
+4.10.2- Quando dois ou mais alvos são montados no suporte de alvo, é possível que o próprio atirador cometa um tiro
+cruzado em seu próprio alvo, porém atirando no alvo incorreto para aquele estágio ou série. Nesse caso, o tiro deverá
+ser apurado conforme as regras acima descritas.
+
+4.10.3- O atleta que realiza um tiro cruzado ou um tiro cruzado em seu próprio alvo não poderá carregar um tiro extra
+naquela série para substituir o tiro cruzado; qualquer competidor que fizer isso e atirar mais de 10 disparos em um
+estágio de tiro deverá ser desqualificado.
+
+ 5- Série de Tiro da prova de Rimfire Sporter
+ 5.1- Série de Tiro
+
+                                       Série de Tiro
+
+       Estági  Distânc  Tipo   de
+                                    Posição de Tiro    Número de Tiros      Limite de Tempo
+      o         ia         Tiro
+                                        Deitado ou Deitado
+       Ensaio   50m      Lento                                      Ilimitado            5 minutos                                          Apoiado
+
+         1     50m      Lento           Deitado               10              10 minutos
+
+                                                                   10, atirados em       Semi-auto 25 sec.
+         2     50m      Rápido          Deitado                                                        duas séries de 5       Manual 30 sec.
+                                        Sentado ou
+         3     50m      Lento                              10              10 minutos
+                                            Ajoelhado
+                                        Sentado ou          10, atirados em       Semi-auto 25 sec.
+         4     50m      Rápido                                            Ajoelhado        duas séries de 5       Manual 30 sec.
+
+         5     25m      Lento         De pé               10              10 minutos
+
+                                                                   10, atirados em       Semi-auto 25 sec.
+         6     25m      Rápido        De pé                                                        duas séries de 5       Manual 30 sec.
+
+5.2- Tiros de Ensaio
+A série de tiro começa com tiros de ensaio ilimitados, com posição livre de tiro, inclusive com apoio artificial, onde os
+atletas poderão ajustar as miras de seus rifles e se preparar para a prova. O árbitro ou outra pessoa poderá assistir ou
+ajudar um atleta no ajuste de miras durante os tiros de ensaio.
+
+                                                                         8
+
+--- PAGE 9 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+5.3- Procedimentos de Fogo Rápido
+5.3.1- Limite de Tempo
+Quando os estágios de tiro rápido são realizados, os competidores com rifles semiautomáticos atiram junto com os de
+rifles manualmente operados, porém terão limite de tempo diferente.
+
+Os atletas com rifles de repetição terão cinco (5) segundos de tempo adicionais para completar cada estágio de
+tiro rápido para compensar o tempo necessário para manualmente ciclar as armas a cada disparo, conforme a tabela no
+item da regra 1.5.1.
+
+Atletas com armas semiautomáticas e armas de repetição começarão a atirar utilizando uma partida escalonada: o
+Árbitro dará o comando COMEÇAR aos atletas com rifles manualmente operados primeiro e um segundo comando
+COMEÇAR para os atletas com rifles semiautomáticos, cinco (5) segundos depois.
+
+5.3.2- Assumindo Posição
+Atletas começam todos os estágios de fogo rápido da posição pronta de pé.
+
+Quando o Árbitro comandar COM AS AÇÕES ABERTAS OU FECHADAS EM CÂMARAS VAZIAS... CARREGUEM
+CINCO MUNIÇÕES, atletas poderão carregar com cinco munições o carregador de seus rifles, mas a ação do rifle
+deverá permanecer aberta ou o ferrolho fechado com a câmara vazia.
+
+Na posição de pé pronto, a atleta segura a carabina com ambas as mãos, com a soleira abaixo da linha do peito e com a
+carabina apontada na direção dos alvos. Após o Árbitro dar comando COMEÇAR, atletas poderão então assumir a
+posição de tiro, fechando ou ciclando suas armas, para então disparar cinco tiros dentro do tempo limite.
+
+Os dedos deverão permanecer fora do guarda mato e os canos deverão permanecer apontados para a linha de tiro
+enquanto os atletas estão preparando suas posições.
+
+5.3.3- Atletas que não conseguem ficar de pé.
+Atletas que possuam 60 anos de idade ou mais, e/ou que possuam limitações físicas ou médicas que sejam difíceis ou
+inseguras para ele ficar de pé e rapidamente assumir uma posição deitado, ajoelhado ou sentado, poderão começar um
+estágio de fogo rápido das posições de pronto sentado, ajoelhado ou deitado. Estes atletas deverão notificar o Árbitro
+dessa condição, antes do início da série de disparos. Atletas autorizados a começar a disparar um estágio de fogo rápido
+de uma dada posição deverão iniciar cada série de fogo rápido com a soleira fora do ombro e não deverão disparar o
+primeiro tiro em uma série de tiro rápido, ou seja, somente poderão iniciar seus disparos após um competidor que tenha
+começado de pé dar primeiro um disparo.
+
+6- Apuração e Resultados
+As regras a seguir estipulam a forma de apuração dos alvos e a classificação dos atletas.
+
+6.1- Apuração
+Após atirados os alvos são recolhidos e os apuradores oficiais deverão apurá-los. Os Diretores de Prova ou árbitro
+deverão indicar dois ou mais oficiais de apuração ou competidores como apuradores oficiais para apurar os alvos dos
+outros competidores. Competidores não devem apurar seus próprios alvos. Depois que os alvos forem apurados eles
+poderão ser postados num Boletim de Resultados Preliminares para que os competidores possam ver como os alvos
+foram apurados.
+
+6.2- Determinando valores dos disparos
+Cada tiro é dado o valor maior do anel que ele tenha acertado ou tocado a linha.
+
+6.3- Apurando Tiros Duvidosos
+Um tiro que o valor é duvidoso deverá ser apurado com o uso de calibradores com um flange de diâmetro de .224
+polegadas. O calibrador é inserido no buraco do disparo devendo ser observado um cuidado para não ampliar o furo do
+tiro no alvo pelo calibrador. O apurador deverá verificar o calibrador por um ângulo para que possa determinar onde o
+ângulo interno do calibrador toca ou rompe uma linha dos anéis do alvo. Uma lupa poderá ser utilizada como um auxílio
+para verificar se o calibrador toca ou quebra uma linha. Disparos que são calibrados deverão ser identificados com um
+“P” e um mais (+) caso seja considerado o valor maior ou um menos (-) caso seja considerado o valor menor.
+
+                                                                         9
+
+--- PAGE 10 ---
+Confederação Brasileira de Tiro Esportivo
+                                                                Carabina CMP Sporter
+                                                                               REGULAMENTO
+                                                                                                Atualizado em 09/01/2025
+6.4- Apurando alvos com disparos em excesso ou insuficientes
+Um atleta receberá pontos somente pelo número de tiros que ele/ela tenha disparado em seu próprio alvo. Se devido a
+tiros cruzados, o alvo de um competidor tem mais impactos do que aquele competidor realmente tenha disparado,
+deverão ser considerados para a pontuação do atirador os valores mais altos dos impactos, no número de tiros dados
+pelo competidor, excluindo, portanto, os tiros a mais disparados de forma cruzada por outro competidor em seu alvo.
+
+No caso de mais de um alvo estar no suporte do alvo de um único atirador, um tiro identificado como um tiro cruzado
+interno (tiros a mais em um alvo do competidor, realizado pelo próprio) não deverá ser transferido para outro alvo, do
+mesmo atirador, que tenha impactos insuficientes.
+
+6.5- Apurando grupos de dois ou mais tiros
+Quando dois ou mais tiros formam um grupo que de tal forma que tiros individuais não são visíveis (dois ou mais tiros em
+um “furo”), um calibrador poderá ser usado para determinar o valor de cada tiro, porém se aconselha que se use um
+modelo de apuração ou sobreposição (stencil transparente) para determinar os valores dos impactos.
+
+Se um competidor disparou todos os tidos de sua série e não existe evidência de que ele tenha disparado um tiro em
+outro alvo ou fora do alvo, deverá ser garantido a ele o benefício da dúvida em casos possíveis de que um de seus
+disparos tenha passado pelo furo existente de um ou mais disparos seus anteriores.
+
+NOTA: Quando um tiro duplica outro furo existe quase sempre a evidência do tiro duplo devido a forma levemente
+alargada do furo. Árbitros e apuradores deverão procurar com cuidado essas evidências utilizando um apurador de
+sobrepor e uma lupa. A lente de apuradores conhecida como “The Eagle Eye” é um auxílio na apuração recomendado
+para detecção de tiros duplos, pois combina a capacidade de ampliação óptica com um apurador de sobreposição no
+calibre .22 LR.
+
+6.6- Protestos de Pontuação
+Um competidor poderá solicitar que um Árbitro ou Diretor de Prova verifique novamente a apuração de seu alvo, exceto
+se aquele alvo foi checado por dois ou mais árbitros ou apuradores oficiais utilizando calibradores, quando então ele não
+poderá ser apurado novamente. Decisões da Juria da entidade organizadora do evento, em relação ao resultado
+protestado, são soberanas.
+
+6.7- Listas de resultados
+Depois que os alvos são apurados, uma lista de resultado preliminar poderá ser publicada para que os competidores
+vejam seus resultados. Após a competição ter sido encerrada, uma lista com os resultados deverá ser preparada listando
+todos os atletas, ranqueados pela classe e resultados. A lista final de resultados deverá estar disponível para todos os
+atletas de forma eletrônica ou impressa.
+
+6.8- Desempate
+Em todas as provas, desde que não expressamente disposto em forma contrária pelo Organizador do Campeonato Brasileiro, o
+empate será decidido da seguinte forma e ordem:
+a) Pelo maior número de X na prova.
+b) Persistindo o empate, o critério vencedor será o de matrícula mais antiga.
+
+7- Diversos
+Os casos omissos ou dúvidas suscitadas, nas provas, serão resolvidos pelo Árbitro da Prova, que deverá informar a
+questão e a solução dada à Diretoria Técnica de Rifle Internacional da CBTE, responsável pela modalidade, para análise
+e parecer nas situações semelhantes que porventura venham a ocorrer no futuro.
+
+7.1- Persistindo a dúvida, terá prevalência as regras no formato original e que podem ser encontradas em (a partir da
+regra 8.0): https://thecmp.org/wp-content/uploads/CMPGamesRules.pdf
+
+Nota: Um guia ilustrado está disponível (em inglês) em: https://thecmp.org/wp-content/uploads/Rimfire.pdf
+
+                                                                         10
+
+--- PAGE 11 ---
+Confederação Brasileira de Tiro Esportivo
+                                                              Carabina CMP Sporter
+                                                                             REGULAMENTO
+                                                                                              Atualizado em 09/01/2025
+
+                  Tabela de Comandos de Série de Tiro-Carabina CMP Fogo Circular Sporter
+
+              Comando                                      Instruções / Ações alternativas
+
+                                                  Ordem de execução da prova:
+                                                          Ensaio, posição livre, 5 minutos, 50 metros;
+                                                        Deitado, tiro lento, 10 tiros, 10 minutos, 50 metros;
+                                                    Deitado, tiro rápido, 2 séries de 5 tiros em 25+5 segundos
+                                                           (carabinas manuais e semiauto), 50 metros;
+       SÉRIE INICIAL E DE ENSAIO             Sentado ou de joelhos, tiro lento, 10 tiros, 10 minutos; 50
+                                                metros; sentado ou de joelhos, tiro rápido, 2 séries de 5 tiros em
+                                          25+5 segundos (carabinas manuais e semiauto); 50 metros;
+                                         De pé, tiro lento, 10 tiros, 10 minutos a 25 metros;
+                                       De pé, tiro rápido, 2 séries de 5 tiros em 25+5 segundos
+                                                          (carabinas manuais e semiauto) a 25 metros.
+
+                                                         Instrua os competidores a verificar se seus alvos estão
+          Atenção senhores atletas:                    numerados e/ou com seus nomes inscritos.
+Turma (número), movam suas armas           Se os competidores foram a linha de alvos, seus rifles deverão
+                                                   estar desmuniciados, sem carregadores e com as ações abertas
+
+                  Depois que os equipamentos dos competidores estiverem na linha de tiro:
+
+                                                Durante o período de preparação, as ações poderão ser
+Seu tempo de preparação de 3 minutos começa                                             fechadas e disparadas em seco. As carabinas não poderão ser
+                    agora.
+                                                   alimentadas ou carregadas (carregador fora da arma).
+
+                                    Depois de decorridos 3 minutos:
+
+  Seu tempo de preparação está encerrado.
+                                      Dê aos competidores tempo suficiente para carregar, sem
+ Vocês terão 5 minutos de ensaio com disparos
+                                                  apressá-los. Fique alerta para carregadores tubulares ou quem
+             ilimitados e posição livre.
+                                                      precise de mais tempo para municiar os carregadores.
+   Com as ações abertas ou fechadas com
+                              O Árbitro e/ou Diretor de Prova deve verificar a condição de         câmaras vazias... carregar.
+                                                            segurança da linha de tiro.
+          A linha está livre?
+
+          A linha está livre.
+                                                                     Inicie o cronômetro para contar até 5 minutos.
+         Série de ensaio... COMEÇAR!
+
+          Depois de decorridos 5 minutos ou se todos os competidores estiverem acabados de atirar:
+
+              CESSAR!
+                                                  Todos os atletas deverão parar de atirar.
+          Série de ensaio encerrada.
+Descarreguem seus rifles, retirem o carregador,   Todos os atletas deverão retirar o cartucho da câmara, retirar o
+  mantenham a ação aberta e deixem suas         carregador e manter suas ações abertas, colocando suas
+             carabinas no chão.                                     carabinas no chão.
+          A linha está livre?
+          A linha está livre.
+ O alvo de ensaio será trocado para o alvo de          Se houver troca de alvo, esse será o momento.
+                    prova.                  Se houver mais de um alvo no mesmo suporte, o Árbitro deverá
+                  Ou,                            indicar qual será o próximo alvo a ser usado (o de baixo, o da
+O próximo alvo na parte inferior será o de baixo                                  direita etc.).
+           (ou do lado direito etc.).
+
+                                                                       11
+
+--- PAGE 12 ---
+Confederação Brasileira de Tiro Esportivo
+                                                              Carabina CMP Sporter
+                                                                             REGULAMENTO
+                                                                                             Atualizado em 09/01/2025
+                                     SÉRIES DE:
+                                   1 & 2: Deitado lento e rápido
+                             3 & 4: Sentado ou Ajoelhado lento e rápido
+                                   4 & 5: De Pé lento e rápido
+                                                         Instrua os competidores a verificar se seus alvos estão         Atenção senhores atletas:
+                                                  numerados e/ou com seus nomes inscritos.
+   Turma (número), movam suas armas e
+                                      Se os competidores foram a linha de alvos, seus rifles deverão
+equipamento para a linha de tiro e tomem suas
+                                                       estar desmuniciados, sem carregadores e com as ações
+                  posições.
+                                                                              abertas.
+Seu tempo de preparação de 1 minuto começa       Durante o período de preparação, as ações poderão ser
+  agora para a série de (deitado, sentado ou     fechadas e disparadas em seco. As carabinas não poderão ser
+      ajoelhado, de pé) de TIRO LENTO.             alimentadas ou carregadas (carregador fora da arma).
+
+                                     Depois de decorrido 1 minuto.
+
+     Tempo de preparação encerrado.
+O estágio será de 10 disparos no tempo de 10
+   minutos, na posição (deitado, sentado ou
+              ajoelhado, de pé).                 Dê tempo suficiente aos competidores para carregar.
+ Com as ações abertas ou fechadas em uma
+    câmara vazia, carreguem 5 cartuchos.
+          A linha está livre?
+
+          A linha está livre.             O atirador poderá iniciar os disparos no início da palavra
+        Atenção atletas... COMEÇAR!                         COMEÇAR!
+
+          Depois de decorridos 10 minutos ou se todos os competidores estiverem acabados de atirar:
+
+              CESSAR!
+                              O atirador não mais poderá efetuar qualquer disparo quando
+         Série de (posição) encerrada.
+                                                       terminada a pronúncia da palavra CESSAR.
+Descarreguem seus rifles, retirem o carregador,
+                                         Todos os atletas deverão retirar o cartucho da câmara, retirar o
+  mantenham a ação aberta e deixem suas
+                                                  carregador e manter suas ações abertas, colocando suas
+             carabinas no chão.
+                                                                    carabinas no chão.
+          A linha está livre?
+          A linha está livre.
+ Seu tempo de preparação de 1 minuto para a
+                                                       Iniciado período de preparação de 1 minuto após o comando.
+  série de (deitado, sentado RÁPIDO) começa
+                    agora!
+
+                                     Depois de decorrido 1 minuto.
+
+     Tempo de preparação encerrado.          Informe claramente que embora a posição de tiro seja (deitado,
+  Esta será sua primeira série de tiro rápido na     sentada ou de joelhos, ou de pé), a posição inicial das séries
+posição (deitado, sentado ou ajoelhado, de pé).     rápidas sempre será de pé, com a carabina nas duas mãos,
+       A posição inicial será de pé.           apontada de forma segura para o alvo, com a câmara vazia, até
+ Com as ações abertas ou fechadas em uma       que o competidor esteja na posição final de tiro (deitado,
+    câmara vazia, carreguem 5 cartuchos.                     sentado ou ajoelhado ou de pé).
+              Atenção atletas:
+ O primeiro comando de FOGO será dado para
+os atletas com carabinas de ferrolho e manuais,
+                                           Pode ser uma boa ideia perguntar aos atletas se eles
+ que terão 30 segundos para disparar 5 tiros. O
+                                         compreenderam que ocorrerão 2 comandos de FOGO, sendo o
+segundo comando de FOGO será dado para os
+                                                      primeiro para as carabinas manuais e o segundo para as
+ competidores que estiverem usando carabinas
+                                                                carabinas semiautomáticas. semiautomáticas, que terão 25 segundos para
+               efetuar os 5 tiros.
+         A linha está pronta?
+
+                                                                       12
+
+--- PAGE 13 ---
+Confederação Brasileira de Tiro Esportivo
+                                                              Carabina CMP Sporter
+                                                                             REGULAMENTO
+                                                                                              Atualizado em 09/01/2025
+
+          A linha está pronta.            O competidor poderá disparar a partir do início da palavra
+     Para as carabinas manuais... FOGO!                          FOGO.
+
+                                   Depois de decorridos 5 segundos:
+
+     Para as carabinas semiauto... FOGO!       O competidor poderá disparar a partir do início da palavra
+                                                       FOGO.
+
+                          Depois de decorridos 30 segundos (25 + 5 segundos):
+
+              CESSAR!
+   Primeira série de 5 tiros rápidos na posição
+              (posição) encerrada.           O atirador não mais poderá efetuar qualquer disparo quando
+ Seu tempo de preparação de 1 minuto para a             terminada a pronúncia da palavra CESSAR.
+  próxima série de 5 tiros rápidos na posição
+          _____ começa agora!
+
+                                     Depois de decorrido 1 minuto.
+
+     Tempo de preparação encerrado.          Informe claramente que embora a posição de tiro seja (deitado,
+ Esta será sua segunda série de tiro rápido na     sentada ou de joelhos, ou de pé), a posição inicial das séries
+            posição __________.                 rápidas sempre será de pé, com a carabina nas duas mãos,
+       A posição inicial será de pé.           apontada de forma segura para o alvo, com a câmara vazia, até
+ Com as ações abertas ou fechadas em uma       que o competidor esteja na posição final de tiro (deitado,
+    câmara vazia, carreguem 5 cartuchos.                     sentado ou ajoelhado ou de pé).
+              Atenção atletas:
+O primeiro comando de FOGO será dado para
+os atletas com carabinas de ferrolho e manuais,
+                                           Pode ser uma boa ideia perguntar aos atletas se eles que terão 30 segundos para disparar 5 tiros.
+                                         compreenderam que ocorrerão 2 comandos de FOGO, sendo oO segundo comando de FOGO será dado para
+                                                      primeiro para as carabinas manuais e o segundo para as
+    os competidores que estiverem usando
+                                                                carabinas semiautomáticas.
+   carabinas semiautomáticas, que terão 25
+      segundos para efetuar os 5 tiros.
+         A linha está pronta?
+
+          A linha está pronta.            O competidor poderá disparar a partir do início da palavra
+     Para as carabinas manuais... FOGO!                          FOGO.
+
+                           Depois de decorridos 30 segundos (25+5 segundos):
+
+              CESSAR!
+   Primeira série de 5 tiros rápidos na posição
+              (posição) encerrada.
+ Seu tempo de preparação de 1 minuto para a
+  próxima série de 10 tiros lentos na posição
+    _____ começa agora! (dependendo da
+  colocação dos alvos, se vários deles em um
+                              O atirador não mais poderá efetuar qualquer disparo quando
+   único suporte, a próxima série poderá ser
+                                                       terminada a pronúncia da palavra CESSAR.
+     iniciada, com tempo de preparação etc.
+  Caso o alvo tenha que ser trocado ou sua
+ distância alterada para 25 metros para a prova
+ de pé, deverá ser dado o comando de tornar a
+ arma segura e deixá-la no chão, aberta, sem
+  carregador e sem munição na câmara, para
+           que seja feita a troca)
+
+                                                                       13
+
+--- PAGE 14 ---
+Confederação Brasileira de Tiro Esportivo
+                                                             Carabina CMP Sporter
+                                                                             REGULAMENTO
+                                                                                             Atualizado em 09/01/2025
+
+Deve-se reiniciar a ordem dos comandos para
+           as séries seguintes.
+
+        Ao final da prova e após o comando de CESSAR da última série e tornar as armas seguras:
+
+          A linha está livre.
+Retirem todo seu equipamento da linha de tiro.
+
+                                                                       14

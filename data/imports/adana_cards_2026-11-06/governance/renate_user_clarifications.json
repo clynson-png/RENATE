@@ -1,0 +1,13 @@
+{
+  "schema": "RENATE_CARD_USER_CLARIFICATIONS_V1",
+  "clarifications": [
+    {
+      "decisionId": "RENATE-USER-CLARIFICATION-R6-OPEN-GENDER-SCOPE-2026-11-06",
+      "eventId": "wsps.event.r6",
+      "term": "Open",
+      "meaning": "Homens e mulheres podem participar. Neste card, Open descreve a elegibilidade por gênero e não significa Mixed Team/equipe mista.",
+      "authority": "USER_CLARIFICATION",
+      "recordedAt": "2026-11-06"
+    }
+  ]
+}

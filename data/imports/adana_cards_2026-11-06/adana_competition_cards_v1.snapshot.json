@@ -1,0 +1,3201 @@
+{
+  "schema": "ADANA_COMPETITION_CARDS_V1",
+  "asset_root": "library/regras/CARDS_PROVAS",
+  "asset_policy": "Presentation-only Library images. Cards supplement the answer and cited evidence; they are never evidence, answer text, or a reason to alter retrieval, Qwen input, validation, or citations. WSPS visuals must show only athletes with visible disability adaptations appropriate to the event (for example, wheelchair or sport-specific seated support); never show a non-adapted person standing, even when the official event name contains “Standing”.",
+  "equipment_cards": [
+    {
+      "id": "WSPS_R3_AIR_RIFLE_EQUIPMENT_V1",
+      "authorities": [
+        "WSPS"
+      ],
+      "event_ids": [
+        "wsps.event.r3"
+      ],
+      "image": "WSPS_R3_Air_Rifle_Equipment.svg",
+      "asset_sha256": "63a2aa509dba74d0e168dba56994cc8bc931a0cf077d72e0a64026892422d049",
+      "caption": "R3 10 m Air Rifle Prone Open SH1 · dimensões do rifle segundo as regras ISSF incorporadas pela WSPS. Card visual complementar; consulte as passagens citadas.",
+      "role": "visual_supplement_only",
+      "source_refs": [
+        {
+          "source_key": "issf",
+          "authority": "ISSF",
+          "pages": [
+            321,
+            327,
+            328,
+            343
+          ],
+          "rules": [
+            "7.4.1.6",
+            "7.4.4.1",
+            "7.4.4.2",
+            "7.4.6",
+            "7.7.5"
+          ],
+          "incorporated_by": [
+            "WSPS 1.1.3",
+            "WSPS 3.3.1",
+            "WSPS 3.4.2"
+          ],
+          "search_terms": [
+            "Rifle de ar • 10 m",
+            "RIFLE 4,5 mm (.177)",
+            "mira aberta",
+            "distância entre miras",
+            "medidas",
+            "dimensões",
+            "caixa de medição",
+            "gabarito",
+            "7.4.1.6",
+            "7.4.4.1",
+            "7.4.4.2",
+            "7.4.6",
+            "7.7.5",
+            "1.1.3",
+            "3.3.1",
+            "3.4.2"
+          ],
+          "source_id": "ADANA-SRC-2A79B10E08375DE1",
+          "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+          "source_path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf",
+          "source": "ISSF Rule Book 2026, Edition 2025, Third Print 10/2026; effective 19 October 2026",
+          "edition": "ISSF Rule Book 2026, Edition 2025, Third Print 10/2026; effective 19 October 2026"
+        },
+        {
+          "source_key": "rulebook",
+          "authority": "WSPS",
+          "pages": [
+            9,
+            27,
+            28
+          ],
+          "rules": [
+            "1.1.3",
+            "3.3.1",
+            "3.4.2"
+          ],
+          "incorporated_by": [],
+          "source_id": "ADANA-SRC-892D95743F291E6F",
+          "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+          "source_path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf",
+          "source": "WSPS Technical Rules and Regulations v1, effective 2026-01-01",
+          "edition": "WSPS Technical Rules and Regulations v1, effective 2026-01-01"
+        }
+      ],
+      "rule_references": [
+        "7.4.1.6",
+        "7.4.4.1",
+        "7.4.4.2",
+        "7.4.6",
+        "7.7.5",
+        "1.1.3",
+        "3.3.1",
+        "3.4.2"
+      ],
+      "rule_disclosure_binding": "Use only rule disclosures built from the hash-verified citations selected for the answer; show Portuguese approved OCR and linked English original when available."
+    },
+    {
+      "id": "WSPS_R3_PRONE_EQUIPMENT_V1",
+      "authorities": [
+        "WSPS"
+      ],
+      "event_ids": [
+        "wsps.event.r3"
+      ],
+      "image": "WSPS_R3_Prone_Equipment.svg",
+      "asset_sha256": "bb2282e35111016cdd2a561787350222f7a11ddc5a741df73e6dd2843d0dc812",
+      "linked_illustration": {
+        "image": "WSPS_R3_Prone_Position.png",
+        "asset_sha256": "702ce19ee8de3da73e40eddf361a91a0c7b3a42d5cdb7efa2789c06110b7ee87",
+        "role": "realistic_position_illustration"
+      },
+      "caption": "R3 10 m Air Rifle Prone Open SH1: cadeira e mesa obrigatórias; bandoleira permitida, mas não obrigatória. Visual complementar; consulte WSPS 3.8.1 e 4.2.2.4–4.2.2.5 e ISSF incorporada por WSPS 1.1.3.",
+      "role": "visual_supplement_only",
+      "source_refs": [
+        {
+          "source_key": "rulebook",
+          "authority": "WSPS",
+          "source_id": "ADANA-SRC-892D95743F291E6F",
+          "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+          "source_path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf",
+          "pages": [
+            9,
+            34,
+            35,
+            42
+          ],
+          "rules": [
+            "1.1.3",
+            "3.8.1.1–3.8.1.6",
+            "4.2.2.4–4.2.2.5"
+          ]
+        },
+        {
+          "source_key": "issf",
+          "authority": "ISSF",
+          "source_id": "ADANA-SRC-2A79B10E08375DE1",
+          "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+          "source_path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf",
+          "edition": "ISSF Rule Book 2026, Third Print 10/2026; effective 19 October 2026",
+          "pages": [
+            339,
+            340
+          ],
+          "rules": [
+            "7.5.8.2",
+            "7.6.1.2"
+          ],
+          "incorporated_by": [
+            "WSPS 1.1.3"
+          ]
+        }
+      ],
+      "rule_references": [
+        "WSPS 1.1.3",
+        "WSPS 3.8.1.1–3.8.1.6",
+        "WSPS 4.2.2.4–4.2.2.5",
+        "ISSF 7.5.8.2",
+        "ISSF 7.6.1.2"
+      ]
+    },
+    {
+      "id": "SHOTGUN_TRAP_SKEET_DIMENSIONS_V1",
+      "authorities": [
+        "CBTE",
+        "ISSF"
+      ],
+      "event_ids": [
+        "cbte.shotgun.automatic_trap",
+        "cbte.shotgun.issf",
+        "cbte.shotgun.trap_light",
+        "cbte.shotgun.trap_nacional",
+        "issf.event.13",
+        "issf.event.14",
+        "cbte.shotgun.trap_nacional_25_2024",
+        "cbte.shotgun.trap_nacional_50_2024"
+      ],
+      "image": "ADANA_Shotgun_Trap_Skeet_Dimensoes.svg",
+      "asset_sha256": "733c94ef0cbf853ad8ca27e610189f950b2c36a4d3984c5828b25fc66fe8f715",
+      "caption": "Dimensões esquemáticas e exemplos de fabricante para Trap/Skeet. Medidas de produto não são limites regulamentares; consulte as regras citadas na resposta.",
+      "role": "visual_supplement_only"
+    }
+  ],
+  "request_cues": [
+    "especificacao",
+    "especificacoes",
+    "caracteristica",
+    "caracteristicas",
+    "composicao",
+    "formato da prova",
+    "estrutura da prova",
+    "numero de disparos",
+    "numero de tiros",
+    "quantos disparos",
+    "quantos tiros",
+    "shots",
+    "arma",
+    "tipo de arma",
+    "armamento",
+    "alvo",
+    "distancia",
+    "tempo",
+    "duracao",
+    "pontuacao",
+    "serie",
+    "series",
+    "calibre",
+    "municao",
+    "posicao",
+    "posicoes",
+    "ensaio",
+    "categoria",
+    "divisao",
+    "dimensao",
+    "dimensoes",
+    "tamanho",
+    "altura",
+    "largura",
+    "comprimento",
+    "espessura",
+    "peso",
+    "massa"
+  ],
+  "events": [
+    {
+      "event_id": "issf.event.01",
+      "authority": "ISSF",
+      "event": "10m Air Rifle",
+      "image": "ISSF_10m_Air_Rifle_Operation.svg",
+      "asset_sha256": "fafd2dd1729c6da8f00bfa38d05f68f070f60c1cc1d934df31ffece4d7864262",
+      "caption": "10m Air Rifle: posição em pé, qualificação decimal, carabina e recorte do alvo oficial ISSF. Card visual complementar, não é evidência normativa."
+    },
+    {
+      "event_id": "issf.event.01",
+      "variant_id": "final",
+      "authority": "ISSF",
+      "event": "10m Air Rifle — Final",
+      "image": "ISSF_10m_Air_Rifle_Final.svg",
+      "asset_sha256": "32f12d6bec459fcc3f35986b13fa36a58983b6d232aedf1d05817d2a8bf246f0",
+      "caption": "Final ISSF 10m Air Rifle: etapas, tempos, eliminações e pontuação. Card visual complementar, não é evidência normativa."
+    },
+    {
+      "event_id": "issf.event.02",
+      "authority": "ISSF",
+      "event": "50m Rifle 3 Positions",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_03_22-1.png",
+      "asset_sha256": "718c1eb15b96fb86d09b8029cc85a04ec73dddf7463eca434e9e534bffdb7d1e"
+    },
+    {
+      "event_id": "issf.event.03",
+      "authority": "ISSF",
+      "event": "50m Rifle Prone",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_03_26-2.png",
+      "asset_sha256": "b9e51ccf9a85c207e84196820824743fd7c2f3c0410b0765b7aeac8d6ab267e4"
+    },
+    {
+      "event_id": "issf.event.04",
+      "authority": "ISSF",
+      "event": "300m Rifle 3 Positions",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_03_26-2.png",
+      "asset_sha256": "b9e51ccf9a85c207e84196820824743fd7c2f3c0410b0765b7aeac8d6ab267e4"
+    },
+    {
+      "event_id": "issf.event.05",
+      "authority": "ISSF",
+      "event": "300m Rifle Prone",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_03_26-2.png",
+      "asset_sha256": "b9e51ccf9a85c207e84196820824743fd7c2f3c0410b0765b7aeac8d6ab267e4"
+    },
+    {
+      "event_id": "issf.event.06",
+      "authority": "ISSF",
+      "event": "300m Standard Rifle",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_03_29-3.png",
+      "asset_sha256": "93cdf1ae33c0c205799f74b5e64159fddccc08de6af3e820c4e26d416fee24da"
+    },
+    {
+      "event_id": "issf.event.07",
+      "authority": "ISSF",
+      "event": "10m Air Pistol",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 05_09_36.png",
+      "asset_sha256": "fdb7fb96dd3f4f5ee34cc8c72a67c4343d89799e51d021cfc4b3175e05e97e52"
+    },
+    {
+      "event_id": "issf.event.08",
+      "authority": "ISSF",
+      "event": "25m Pistol",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 05_19_46.png",
+      "asset_sha256": "1089bcd7878b540861f3282f8a8a6185086522006488c58208215dd350be6b9a"
+    },
+    {
+      "event_id": "issf.event.09",
+      "authority": "ISSF",
+      "event": "25m Rapid-Fire Pistol",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 05_45_25.png",
+      "asset_sha256": "dcfdb9712110800497bd4a0422db9bedbdb029299488edc425e4ac6c189886ee"
+    },
+    {
+      "event_id": "issf.event.10",
+      "authority": "ISSF",
+      "event": "25m Centre Fire Pistol",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_03_29-3.png",
+      "asset_sha256": "93cdf1ae33c0c205799f74b5e64159fddccc08de6af3e820c4e26d416fee24da"
+    },
+    {
+      "event_id": "issf.event.11",
+      "authority": "ISSF",
+      "event": "25m Standard Pistol",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 05_37_19.png",
+      "asset_sha256": "0295014a7fe065f84da6af912f8828de93e560a0207f80549855551426a1e9ee"
+    },
+    {
+      "event_id": "issf.event.12",
+      "authority": "ISSF",
+      "event": "50m Pistol",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 05_34_02.png",
+      "asset_sha256": "b082c76af8887f1a1518d6f91f14a40dedb9e9b4072104460c0ad2ba99858363"
+    },
+    {
+      "event_id": "issf.event.13",
+      "authority": "ISSF",
+      "event": "Trap",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_16_02-1.png",
+      "asset_sha256": "7a25b1429c67d0691dff62c18845a4b0f03aeb8ef12fcbf63a86facaf633024b"
+    },
+    {
+      "event_id": "issf.event.14",
+      "authority": "ISSF",
+      "event": "Skeet",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_16_05-2.png",
+      "asset_sha256": "2e176f4659e4173de8fe1bb2545e4eecbb314329aa6764f4859dec7ddc887bca"
+    },
+    {
+      "event_id": "issf.event.15",
+      "authority": "ISSF",
+      "event": "10m Moving Target",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_11_27.png",
+      "asset_sha256": "06ccb677ccd238c47d03c2e8e9481746e04e86b1cd0f08e51a9ec173f16e3f6e"
+    },
+    {
+      "event_id": "issf.event.16",
+      "authority": "ISSF",
+      "event": "10m Moving Target Mixed",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_11_27.png",
+      "asset_sha256": "06ccb677ccd238c47d03c2e8e9481746e04e86b1cd0f08e51a9ec173f16e3f6e"
+    },
+    {
+      "event_id": "issf.event.17",
+      "authority": "ISSF",
+      "event": "50m Moving Target",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_11_27.png",
+      "asset_sha256": "06ccb677ccd238c47d03c2e8e9481746e04e86b1cd0f08e51a9ec173f16e3f6e"
+    },
+    {
+      "event_id": "issf.event.18",
+      "authority": "ISSF",
+      "event": "50m Moving Target Mixed",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_11_27.png",
+      "asset_sha256": "06ccb677ccd238c47d03c2e8e9481746e04e86b1cd0f08e51a9ec173f16e3f6e"
+    },
+    {
+      "event_id": "wsps.event.r1",
+      "authority": "WSPS",
+      "event": "R1 10m Air Rifle Standing — Qualificação",
+      "image": "WSPS_R1_10m_Air_Rifle_Qualification.svg",
+      "asset_sha256": "0fa90c962aa92847d0c05c57c564f73518d737bcb887f2fd1c9be11862fbc905",
+      "caption": "WSPS R1 • homens SH1 • 60 tiros • tempos oficiais por alvo; ilustração realista de para-atleta em cadeira de rodas."
+    },
+    {
+      "event_id": "wsps.event.r2",
+      "authority": "WSPS",
+      "event": "R2 10m Air Rifle Standing — Qualificação",
+      "image": "WSPS_R2_10m_Air_Rifle_Qualification.svg",
+      "asset_sha256": "fe6afa839da67ba42e16b5ac3311064305eec66dcb2d2734ec7eb7f19fcdf007",
+      "caption": "WSPS R2 • mulheres SH1 • 60 tiros • tempos oficiais WSPS; fotografia ilustrativa gerada de atleta adaptada em cadeira de rodas. Card visual, não evidência normativa."
+    },
+    {
+      "event_id": "wsps.event.r3",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Prone",
+      "image": "WSPS_R3_Prone_Equipment.svg",
+      "asset_sha256": "bb2282e35111016cdd2a561787350222f7a11ddc5a741df73e6dd2843d0dc812",
+      "caption": "R3 · prova individual de rifle de ar 10 m na posição prone adaptada. A imagem mostra atleta em cadeira de rodas, cotovelos na mesa e rifle sem apoio externo. Card visual complementar; consulte a resposta e as regras citadas.",
+      "phase_cards": {
+        "qualification": {
+          "image": "ADANA_WSPS_EVENT_R3_QUALIFICATION_PHASE_CARD.svg",
+          "asset_sha256": "b66103b75b2e5914ad7f22c92742ecc66f2bb175df5015220bbaa0d359f6adc6",
+          "caption": "wsps.event.r3 · qualification · card visual complementar; consulte a resposta e as regras citadas.",
+          "rule_references": [
+            "WSPS §4.2.2.4",
+            "WSPS §4.2.2.1",
+            "WSPS §4.2.2.5(a)",
+            "WSPS §4.2.2.5(b)"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87"
+            }
+          ],
+          "role": "visual_supplement_only",
+          "generated_from_target_identity_and_bindings": true,
+          "source_ref_is_answer_evidence": false
+        },
+        "final": {
+          "image": "ADANA_WSPS_EVENT_R3_FINAL_PHASE_CARD.svg",
+          "asset_sha256": "ab41f6c37c387976fd32f450dd5369d5eead0358b95253a3e1d002b07dd2e5b4",
+          "caption": "wsps.event.r3 · final · card visual complementar; consulte a resposta e as regras citadas.",
+          "rule_references": [
+            "WSPS §4.2.2.4",
+            "WSPS §4.2.2.1",
+            "WSPS §4.2.2.5(a)",
+            "WSPS §4.2.2.5(b)"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87"
+            }
+          ],
+          "role": "visual_supplement_only",
+          "generated_from_target_identity_and_bindings": true,
+          "source_ref_is_answer_evidence": false
+        }
+      }
+    },
+    {
+      "event_id": "wsps.event.r4",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Standing R4",
+      "image": "WSPS_R4_10m_Air_Rifle_Seated_Fork.svg",
+      "asset_sha256": "8b4d6f56e15edef00953c4a3a16c3019edea98dbeb6649a55db23cf40601da99",
+      "caption": "R4 · Open SH2. Cadeira de rodas com roda abaixo da linha do quadril; cotovelo direito livre, sem apoio lateral; calça de moletom; garfo metálico sem acolchoamento, conforme referência. Card visual complementar; consulte as citações para regras.",
+      "phase_cards": {
+        "qualification": {
+          "image": "WSPS_R4_10m_Air_Rifle_Seated_Fork.svg",
+          "asset_sha256": "8b4d6f56e15edef00953c4a3a16c3019edea98dbeb6649a55db23cf40601da99",
+          "caption": "R4 · Open SH2 · qualificação. Card visual complementar; consulte as citações para regras."
+        },
+        "final": {
+          "image": "WSPS_R4_10m_Air_Rifle_Final.svg",
+          "asset_sha256": "008ba35dbc57cf8d3653494688b766de0a04beea8c94bf0319c3161296d63efd",
+          "caption": "R4 · Open SH2 · final. O card resume a sequência da final e não reutiliza o card de qualificação; consulte as citações para regras.",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS Finals Commands 2026 · R4",
+            "WSPS 4.1.9.1–4.1.9.2"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "wsps.event.r5",
+      "authority": "WSPS",
+      "event": "10m Air Rifle Prone R5",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 08_33_47-7.png",
+      "asset_sha256": "fc556522e7fd1e9073c651f60489b2681f18ce1580262d4af025a902f9dc26e0",
+      "phase_cards": {
+        "qualification": {
+          "image": "WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+          "asset_sha256": "4d771c16a3120025d5c9a332dccfbcfdd108935e7a99169c2fb967a2bcee3900",
+          "asset_status": "APPROVED_HUMAN",
+          "caption": "R5 · carabina de ar 10 m · Open SH2 · Qualificação. Prova paralímpica oficial WSPS. Visual ilustrativo fotorrealista; consulte a resposta e as regras citadas."
+        },
+        "final": {
+          "image": "WSPS_R5_10m_Air_Rifle_SH2_Phase_2026.png",
+          "asset_sha256": "4d771c16a3120025d5c9a332dccfbcfdd108935e7a99169c2fb967a2bcee3900",
+          "asset_status": "APPROVED_HUMAN",
+          "caption": "R5 · carabina de ar 10 m · Open SH2 · Final. Prova paralímpica oficial WSPS. Visual ilustrativo fotorrealista; consulte a resposta e as regras citadas."
+        }
+      }
+    },
+    {
+      "event_id": "wsps.event.r6",
+      "authority": "WSPS",
+      "event": "50m Rifle Prone R6 · Open SH1",
+      "image": "WSPS_R6_50m_Rifle_Prone_Qualification.svg",
+      "asset_sha256": "f1c84f1777fb09597227cd9377677c3c2633135b3944d75ae5271422bcfdf7c6",
+      "command_card": {
+        "image": "WSPS_R6_Commands_2026.svg",
+        "asset_sha256": "ac1c9b362d6b1369ae70849e1ce95674d1a54e65f70a545c7ee61f96721263ba",
+        "role": "visual_supplement_only",
+        "rule_references": [
+          "WSPS 4.1.3",
+          "WSPS 4.1.9.1–4.1.9.6",
+          "ISSF 6.11.1.1–6.11.1.3",
+          "ISSF 6.11.9.3",
+          "WSPS Finals Commands 2026, R6, rows 15–82"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "pages": [
+              39,
+              40,
+              41
+            ]
+          },
+          {
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "pages": [
+              244,
+              245,
+              251
+            ],
+            "incorporated_by": [
+              "WSPS 1.1.3"
+            ]
+          },
+          {
+            "source_id": "ADANA-SRC-B23E69FF4DBB9AB7",
+            "source_sha256": "b23e69ff4dbb9ab7d0c5e33a5fdf89854a3e46553c11ec679eb14e89324af23b",
+            "locator": "R6 worksheet rows 15–82"
+          }
+        ]
+      },
+      "phase_cards": {
+        "qualification": {
+          "image": "WSPS_R6_50m_Rifle_Prone_Qualification.svg",
+          "asset_sha256": "f1c84f1777fb09597227cd9377677c3c2633135b3944d75ae5271422bcfdf7c6",
+          "rule_references": [
+            "WSPS 4.1.3",
+            "WSPS 4.2.2.3–4.2.2.5",
+            "WSPS 1.1.3",
+            "ISSF 6.3.3.2",
+            "ISSF 6.3.4.2",
+            "ISSF 7.7.5",
+            "ISSF 6.11.9.3",
+            "ISSF 6.15.1"
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 39,
+              "items": [
+                "4.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 42,
+              "items": [
+                "4.2.2.3",
+                "4.2.2.4",
+                "4.2.2.5"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 194,
+              "items": [
+                "6.3.3.2"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 196,
+              "items": [
+                "6.3.4.2"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 251,
+              "items": [
+                "6.11.9.3"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 262,
+              "items": [
+                "6.15.1"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            }
+          ],
+          "source_refs": [
+            {
+              "source": {
+                "source_id": "ADANA-SRC-892D95743F291E6F",
+                "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+                "edition": "WSPS Technical Rules and Regulations v1, effective 2026-01-01"
+              },
+              "pages": [
+                39,
+                42
+              ],
+              "rules": [
+                "4.1.3",
+                "4.2.2.3",
+                "4.2.2.5"
+              ]
+            },
+            {
+              "source": {
+                "source_id": "ADANA-SRC-2A79B10E08375DE1",
+                "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+                "edition": "ISSF Rule Book 2026, Third Print 10/2026, effective 19 October 2026; subsidiary via WSPS 1.1.3"
+              },
+              "pages": [
+                196,
+                251,
+                343
+              ],
+              "rules": [
+                "6.3.4.2",
+                "7.7.5",
+                "6.11.9.3"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            }
+          ]
+        },
+        "final": {
+          "image": "WSPS_R6_50m_Rifle_Prone_Final.svg",
+          "asset_sha256": "67320b6faf51bd7d745c9f2ca8a6857698a4d555a4dcd60f1c73f39c646fd258",
+          "rule_references": [
+            "WSPS 4.1.9.1–4.1.9.7",
+            "WSPS 4.2.2.3–4.2.2.5",
+            "WSPS 1.1.3",
+            "ISSF 6.3.3.3",
+            "WSPS Finals Commands 2026, R6"
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 40,
+              "items": [
+                "4.1.9.1",
+                "4.1.9.2",
+                "4.1.9.3",
+                "4.1.9.4",
+                "4.1.9.5",
+                "4.1.9.6",
+                "4.1.9.7"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 42,
+              "items": [
+                "4.2.2.3",
+                "4.2.2.4",
+                "4.2.2.5"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 195,
+              "items": [
+                "6.3.3.3"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-B23E69FF4DBB9AB7",
+              "source_sha256": "b23e69ff4dbb9ab7d0c5e33a5fdf89854a3e46553c11ec679eb14e89324af23b",
+              "locator": "R6 worksheet rows 15–86",
+              "items": [
+                "final sequence",
+                "eliminations",
+                "tie-breaking"
+              ]
+            }
+          ],
+          "source_refs": [
+            {
+              "source": {
+                "source_id": "ADANA-SRC-892D95743F291E6F",
+                "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+                "edition": "WSPS Technical Rules and Regulations v1, effective 2026-01-01"
+              },
+              "pages": [
+                40,
+                42
+              ],
+              "rules": [
+                "4.1.9.1",
+                "4.1.9.7",
+                "4.2.2.3",
+                "4.2.2.5"
+              ]
+            },
+            {
+              "source": {
+                "source_id": "ADANA-SRC-B23E69FF4DBB9AB7",
+                "source_sha256": "b23e69ff4dbb9ab7d0c5e33a5fdf89854a3e46553c11ec679eb14e89324af23b",
+                "original_workbook_sha256": "260c623acb97f24a45938f6d371cce6ac2459d2c288059ba00ce8f0335515f04",
+                "edition": "WSPS Finals Commands 2026, worksheet R6"
+              },
+              "locator": "R6 worksheet rows 15–86",
+              "rules": [
+                "final sequence",
+                "eliminations",
+                "tie-breaking"
+              ]
+            }
+          ]
+        },
+        "both": [
+          "qualification",
+          "final"
+        ]
+      }
+    },
+    {
+      "event_id": "wsps.event.r7",
+      "authority": "WSPS",
+      "event": "50m Rifle 3 Positions R7 · Masculino · SH1",
+      "image": "WSPS_R7_50m_Rifle_3Positions_Qualification.svg",
+      "asset_sha256": "de100fdaf6ae5a101d1671834d5ec15b2f01bd9704ed5eb84ed5de694dbb8bfc",
+      "phase_cards": {
+        "qualification": {
+          "image": "WSPS_R7_50m_Rifle_3Positions_Qualification.svg",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS 4.1.3",
+            "WSPS 4.1.6–4.1.6.1",
+            "ISSF 6.11.9.2",
+            "ISSF 6.3.4.2",
+            "ISSF 6.15.1"
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 39,
+              "items": [
+                "4.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 40,
+              "items": [
+                "4.1.6",
+                "4.1.6.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 251,
+              "items": [
+                "6.11.9.2"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 196,
+              "items": [
+                "6.3.4.2"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 262,
+              "items": [
+                "6.15.1"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            }
+          ],
+          "source_refs": [
+            {
+              "source": {
+                "source_id": "ADANA-SRC-892D95743F291E6F",
+                "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+                "edition": "WSPS Technical Rules and Regulations v1, effective 2026-01-01"
+              },
+              "pages": [
+                11,
+                39,
+                40
+              ],
+              "rules": [
+                "2.1.1",
+                "4.1.3",
+                "4.1.6",
+                "4.1.6.1"
+              ]
+            },
+            {
+              "source": {
+                "source_id": "ADANA-SRC-2A79B10E08375DE1",
+                "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+                "edition": "ISSF Rule Book 2026, effective 2026-07-01; subsidiary via WSPS 1.1.3"
+              },
+              "pages": [
+                196,
+                251,
+                262
+              ],
+              "rules": [
+                "6.3.4.2",
+                "6.11.9.2",
+                "6.15.1"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            }
+          ],
+          "asset_sha256": "de100fdaf6ae5a101d1671834d5ec15b2f01bd9704ed5eb84ed5de694dbb8bfc",
+          "role": "visual_supplement_only",
+          "illustration_note": "Generated realistic illustration of SH1 seated-adapted standing position on high stool; both feet on floor. Visual only, not normative evidence."
+        },
+        "final": {
+          "image": "WSPS_R7_50m_Rifle_3Positions_Final.svg",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS 4.1.6–4.1.6.1",
+            "WSPS 4.1.9.1",
+            "ISSF 6.17.1.1",
+            "ISSF 6.17.3",
+            "WSPS Finals Commands 2026 R7"
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 40,
+              "items": [
+                "4.1.6",
+                "4.1.6.1",
+                "4.1.9.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 273,
+              "items": [
+                "6.17.1.1",
+                "6.17.3"
+              ],
+              "incorporated_by": [
+                "WSPS 4.1.9.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-929D0F7DE5893AB2",
+              "source_sha256": "929d0f7de5893ab2af995f8509a39c79b611886379d91b0a3ddf03335e55bd4f",
+              "worksheet": "R7 2026",
+              "rows": [
+                15,
+                124
+              ],
+              "items": [
+                "final sequence",
+                "CRO commands",
+                "announcer statements",
+                "shoot-off",
+                "tie-breaks"
+              ],
+              "source_path": "library/regras/WSPS/arbitragem/comandos_2026/R7_2026.md"
+            }
+          ],
+          "source_refs": [
+            {
+              "source": {
+                "source_id": "ADANA-SRC-892D95743F291E6F",
+                "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+                "edition": "WSPS Technical Rules and Regulations v1, effective 2026-01-01"
+              },
+              "pages": [
+                11,
+                40,
+                41
+              ],
+              "rules": [
+                "2.1.1",
+                "4.1.6",
+                "4.1.6.1",
+                "4.1.9.1"
+              ]
+            },
+            {
+              "source": {
+                "source_id": "ADANA-SRC-2A79B10E08375DE1",
+                "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+                "edition": "ISSF Rule Book 2026, effective 2026-07-01; subsidiary via WSPS 4.1.9.1"
+              },
+              "pages": [
+                273,
+                274,
+                275
+              ],
+              "rules": [
+                "6.17.1.1",
+                "6.17.3"
+              ],
+              "incorporated_by": [
+                "WSPS 4.1.9.1"
+              ]
+            },
+            {
+              "source": {
+                "source_id": "ADANA-SRC-929D0F7DE5893AB2",
+                "source_sha256": "929d0f7de5893ab2af995f8509a39c79b611886379d91b0a3ddf03335e55bd4f",
+                "edition": "WSPS Finals Commands 2026"
+              },
+              "locator": "R7 2026 worksheet rows 15–124",
+              "rules": [
+                "Final commands and announcements"
+              ]
+            }
+          ],
+          "asset_sha256": "864bd111f3dfe1d4712307c306d5e47f352dd638ff7172c6ca6b1b2f047ed89e",
+          "role": "visual_supplement_only",
+          "illustration_note": "Generated realistic illustration of SH1 seated-adapted standing position on high stool; both feet on floor. Visual only, not normative evidence."
+        }
+      },
+      "position_comparison_card": {
+        "image": "WSPS_R7_50m_Rifle_3Positions_Position_Comparison.svg",
+        "asset_sha256": "68616f162202ad652ebe31b1dd510093063c31c1ae24c55631fe7a475338ebaf",
+        "caption": "R7/R8 · Masculino · comparação visual das três posições; as regras WSPS citadas são normativas.",
+        "rule_references": [
+          "WSPS 4.2.1.2",
+          "WSPS 4.2.2.3–4.2.2.5",
+          "WSPS 4.2.3.1–4.2.3.4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "source_title": "WSPS Rulebook 2026 vFinal",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          }
+        ],
+        "rule_passages": [
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "4.2.1.2",
+            "pdf_pages": [
+              41
+            ],
+            "locator": "4.2.1.2",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "4.2.2.3–4.2.2.5",
+            "pdf_pages": [
+              42
+            ],
+            "locator": "4.2.2.3–4.2.2.5",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "4.2.3.1–4.2.3.4",
+            "pdf_pages": [
+              43
+            ],
+            "locator": "4.2.3.1–4.2.3.4",
+            "catalog_is_evidence": false
+          }
+        ]
+      },
+      "apparel_card": {
+        "image": "WSPS_R7_50m_Rifle_3Positions_Apparel.svg",
+        "asset_sha256": "1c5923ec52ca98007783fe21bc6ab8ffda6a88a237f2fcb4a6775f0eca0e4d8f",
+        "caption": "R7/R8 · Masculino · casacos, calças de tiro, exceção de prótese e calçados.",
+        "rule_references": [
+          "WSPS 1.1.3; 3.1.1-3.1.2",
+          "WSPS 3.2.1.1-3.2.1.7",
+          "WSPS 3.2.2.1-3.2.2.3",
+          "WSPS 3.2.3.1-3.2.3.2",
+          "ISSF 7.5.4.1 (PDF p. 333; incorporated under WSPS 1.1.3)",
+          "ISSF 7.5.4.2 (PDF p. 334; incorporated under WSPS 1.1.3)"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "source_title": "WSPS Rulebook 2026 vFinal",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          },
+          {
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "source_title": "ISSF Rule Book 2026, Third Print 10/2026, effective 19 October 2026",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          }
+        ],
+        "rule_passages": [
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "3.1.1–3.1.2",
+            "pdf_pages": [
+              25
+            ],
+            "locator": "3.1.1–3.1.2",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "3.2.1.1–3.2.1.7",
+            "pdf_pages": [
+              25,
+              26
+            ],
+            "locator": "3.2.1.1–3.2.1.7",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "3.2.2.1–3.2.2.3",
+            "pdf_pages": [
+              26,
+              27
+            ],
+            "locator": "3.2.2.1–3.2.2.3",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "3.2.3.1–3.2.3.2",
+            "pdf_pages": [
+              27
+            ],
+            "locator": "3.2.3.1–3.2.3.2",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "1.1.3",
+            "pdf_pages": [
+              9
+            ],
+            "locator": "1.1.3",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "ISSF",
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "rule": "7.5.4.1",
+            "pdf_pages": [
+              333
+            ],
+            "locator": "7.5.4.1",
+            "incorporated_by": [
+              "WSPS 1.1.3",
+              "WSPS 3.1.1"
+            ],
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "ISSF",
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "rule": "7.5.4.2",
+            "pdf_pages": [
+              334
+            ],
+            "locator": "7.5.4.2",
+            "incorporated_by": [
+              "WSPS 1.1.3",
+              "WSPS 3.1.1"
+            ],
+            "catalog_is_evidence": false
+          }
+        ]
+      },
+      "firearm_equipment_card": {
+        "image": "WSPS_R7_50m_Rifle_Equipment.svg",
+        "asset_sha256": "767c0fc2b53273d9b121cd69bf4b767056485be26dcdd41f3fbd0faa1df120c1",
+        "caption": "R7 · Masculino · SH1 · Rifle 50 m .22 LR; card visual complementar, confira as regras citadas.",
+        "rule_references": [
+          "WSPS 1.1.3",
+          "ISSF 7.4.5–7.4.5.2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "source_title": "WSPS Rulebook 2026 vFinal",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          },
+          {
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "source_title": "ISSF Rule Book 2026 Third Print 10/2026",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          }
+        ],
+        "rule_passages": [
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "1.1.3",
+            "pdf_pages": [
+              9
+            ],
+            "locator": "p. 9",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "ISSF",
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "rule": "7.4.5–7.4.5.2",
+            "pdf_pages": [
+              328,
+              329,
+              330
+            ],
+            "locator": "pp. 328–330",
+            "catalog_is_evidence": false
+          }
+        ]
+      },
+      "target_card": {
+        "image": "WSPS_R7_50m_Rifle_Target.svg",
+        "asset_sha256": "3ca324a8c49d69f661ebd37494eb01e3c5b25d86774f8d2706f8276035e686c2",
+        "caption": "R7 · Masculino · SH1 · alvo de rifle 50 m; valores da regra ISSF incorporada pela WSPS.",
+        "rule_references": [
+          "WSPS 1.1.3",
+          "ISSF 6.3.4.2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "source_title": "WSPS Rulebook 2026 vFinal",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          },
+          {
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "source_title": "ISSF Rule Book 2026 Third Print 10/2026",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          }
+        ],
+        "rule_passages": [
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "1.1.3",
+            "pdf_pages": [
+              9
+            ],
+            "locator": "p. 9",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "ISSF",
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "rule": "6.3.4.2",
+            "pdf_pages": [
+              196
+            ],
+            "locator": "p. 196",
+            "catalog_is_evidence": false
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "wsps.event.r8",
+      "authority": "WSPS",
+      "event": "50m Rifle 3 Positions R8 · Feminino · SH1",
+      "image": "WSPS_R8_50m_Rifle_3Positions_Qualification.svg",
+      "asset_sha256": "e64e506bd45a3a5580f4f14f67984b373919fcc124f61cf9d17966b3f68fc1aa",
+      "phase_cards": {
+        "qualification": {
+          "image": "WSPS_R8_50m_Rifle_3Positions_Qualification.svg",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS 4.1.3",
+            "WSPS 4.1.6–4.1.6.1",
+            "ISSF 6.11.9.2",
+            "ISSF 6.3.4.2",
+            "ISSF 6.15.1"
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 39,
+              "items": [
+                "4.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 40,
+              "items": [
+                "4.1.6",
+                "4.1.6.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 251,
+              "items": [
+                "6.11.9.2"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 196,
+              "items": [
+                "6.3.4.2"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 262,
+              "items": [
+                "6.15.1"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            }
+          ],
+          "source_refs": [
+            {
+              "source": {
+                "source_id": "ADANA-SRC-892D95743F291E6F",
+                "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+                "edition": "WSPS Technical Rules and Regulations v1, effective 2026-01-01"
+              },
+              "pages": [
+                11,
+                39,
+                40
+              ],
+              "rules": [
+                "2.1.1",
+                "4.1.3",
+                "4.1.6",
+                "4.1.6.1"
+              ]
+            },
+            {
+              "source": {
+                "source_id": "ADANA-SRC-2A79B10E08375DE1",
+                "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+                "edition": "ISSF Rule Book 2026, effective 2026-07-01; subsidiary via WSPS 1.1.3"
+              },
+              "pages": [
+                196,
+                251,
+                262
+              ],
+              "rules": [
+                "6.3.4.2",
+                "6.11.9.2",
+                "6.15.1"
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            }
+          ],
+          "asset_sha256": "e64e506bd45a3a5580f4f14f67984b373919fcc124f61cf9d17966b3f68fc1aa",
+          "role": "visual_supplement_only",
+          "illustration_note": "Generated realistic illustration of SH1 seated-adapted standing position on high stool; both feet on floor. Visual only, not normative evidence."
+        },
+        "final": {
+          "image": "WSPS_R8_50m_Rifle_3Positions_Final.svg",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS 4.1.6–4.1.6.1",
+            "WSPS 4.1.9.1",
+            "ISSF 6.17.1.1",
+            "ISSF 6.17.3",
+            "WSPS Finals Commands 2026 R8"
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 40,
+              "items": [
+                "4.1.6",
+                "4.1.6.1",
+                "4.1.9.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "page": 273,
+              "items": [
+                "6.17.1.1",
+                "6.17.3"
+              ],
+              "incorporated_by": [
+                "WSPS 4.1.9.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-BFD69B4F879EC508",
+              "source_sha256": "bfd69b4f879ec50826d4b4b9199b3768ffa6cac8bbcea9ba4dc832a17606753c",
+              "worksheet": "R8 2026",
+              "rows": [
+                15,
+                124
+              ],
+              "items": [
+                "final sequence",
+                "CRO commands",
+                "announcer statements",
+                "shoot-off",
+                "tie-breaks"
+              ],
+              "source_path": "library/regras/WSPS/arbitragem/comandos_2026/R8_2026.md"
+            }
+          ],
+          "source_refs": [
+            {
+              "source": {
+                "source_id": "ADANA-SRC-892D95743F291E6F",
+                "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+                "edition": "WSPS Technical Rules and Regulations v1, effective 2026-01-01"
+              },
+              "pages": [
+                11,
+                40,
+                41
+              ],
+              "rules": [
+                "2.1.1",
+                "4.1.6",
+                "4.1.6.1",
+                "4.1.9.1"
+              ]
+            },
+            {
+              "source": {
+                "source_id": "ADANA-SRC-2A79B10E08375DE1",
+                "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+                "edition": "ISSF Rule Book 2026, effective 2026-07-01; subsidiary via WSPS 4.1.9.1"
+              },
+              "pages": [
+                273,
+                274,
+                275
+              ],
+              "rules": [
+                "6.17.1.1",
+                "6.17.3"
+              ],
+              "incorporated_by": [
+                "WSPS 4.1.9.1"
+              ]
+            },
+            {
+              "source": {
+                "source_id": "ADANA-SRC-BFD69B4F879EC508",
+                "source_sha256": "bfd69b4f879ec50826d4b4b9199b3768ffa6cac8bbcea9ba4dc832a17606753c",
+                "edition": "WSPS Finals Commands 2026"
+              },
+              "locator": "R8 2026 worksheet rows 15–124",
+              "rules": [
+                "Final commands and announcements"
+              ]
+            }
+          ],
+          "asset_sha256": "41f3e6d5e589bd1674476425719ce0c386b10f3f86b4d8f8d1671db526232361",
+          "role": "visual_supplement_only",
+          "illustration_note": "Generated realistic illustration of SH1 seated-adapted standing position on high stool; both feet on floor. Visual only, not normative evidence."
+        }
+      },
+      "position_comparison_card": {
+        "image": "WSPS_R8_50m_Rifle_3Positions_Position_Comparison.svg",
+        "asset_sha256": "4b9f055c6fff90a93a697d035d72b1516b945bb03f68f7463f9b071582e6311e",
+        "caption": "R7/R8 · Feminino · comparação visual das três posições; as regras WSPS citadas são normativas.",
+        "rule_references": [
+          "WSPS 4.2.1.2",
+          "WSPS 4.2.2.3–4.2.2.5",
+          "WSPS 4.2.3.1–4.2.3.4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "source_title": "WSPS Rulebook 2026 vFinal",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          }
+        ],
+        "rule_passages": [
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "4.2.1.2",
+            "pdf_pages": [
+              41
+            ],
+            "locator": "4.2.1.2",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "4.2.2.3–4.2.2.5",
+            "pdf_pages": [
+              42
+            ],
+            "locator": "4.2.2.3–4.2.2.5",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "4.2.3.1–4.2.3.4",
+            "pdf_pages": [
+              43
+            ],
+            "locator": "4.2.3.1–4.2.3.4",
+            "catalog_is_evidence": false
+          }
+        ]
+      },
+      "apparel_card": {
+        "image": "WSPS_R8_50m_Rifle_3Positions_Apparel.svg",
+        "asset_sha256": "72e97aeb1535dd99820030d8701408b9387f5836b416ae84305a4c335617f8d1",
+        "caption": "R7/R8 · Feminino · casacos, calças de tiro, exceção de prótese e calçados.",
+        "rule_references": [
+          "WSPS 1.1.3; 3.1.1-3.1.2",
+          "WSPS 3.2.1.1-3.2.1.7",
+          "WSPS 3.2.2.1-3.2.2.3",
+          "WSPS 3.2.3.1-3.2.3.2",
+          "ISSF 7.5.4.1 (PDF p. 333; incorporated under WSPS 1.1.3)",
+          "ISSF 7.5.4.2 (PDF p. 334; incorporated under WSPS 1.1.3)"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "source_title": "WSPS Rulebook 2026 vFinal",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          },
+          {
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "source_title": "ISSF Rule Book 2026, Third Print 10/2026, effective 19 October 2026",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          }
+        ],
+        "rule_passages": [
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "3.1.1–3.1.2",
+            "pdf_pages": [
+              25
+            ],
+            "locator": "3.1.1–3.1.2",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "3.2.1.1–3.2.1.7",
+            "pdf_pages": [
+              25,
+              26
+            ],
+            "locator": "3.2.1.1–3.2.1.7",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "3.2.2.1–3.2.2.3",
+            "pdf_pages": [
+              26,
+              27
+            ],
+            "locator": "3.2.2.1–3.2.2.3",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "3.2.3.1–3.2.3.2",
+            "pdf_pages": [
+              27
+            ],
+            "locator": "3.2.3.1–3.2.3.2",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "1.1.3",
+            "pdf_pages": [
+              9
+            ],
+            "locator": "1.1.3",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "ISSF",
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "rule": "7.5.4.1",
+            "pdf_pages": [
+              333
+            ],
+            "locator": "7.5.4.1",
+            "incorporated_by": [
+              "WSPS 1.1.3",
+              "WSPS 3.1.1"
+            ],
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "ISSF",
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "rule": "7.5.4.2",
+            "pdf_pages": [
+              334
+            ],
+            "locator": "7.5.4.2",
+            "incorporated_by": [
+              "WSPS 1.1.3",
+              "WSPS 3.1.1"
+            ],
+            "catalog_is_evidence": false
+          }
+        ]
+      },
+      "firearm_equipment_card": {
+        "image": "WSPS_R8_50m_Rifle_Equipment.svg",
+        "asset_sha256": "1985c4107b4b717ca2f8453606a16bd0cf3496f8359ba19d59a14c92be6d32c6",
+        "caption": "R8 · Feminino · SH1 · Rifle 50 m .22 LR; card visual complementar, confira as regras citadas.",
+        "rule_references": [
+          "WSPS 1.1.3",
+          "ISSF 7.4.5–7.4.5.2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "source_title": "WSPS Rulebook 2026 vFinal",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          },
+          {
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "source_title": "ISSF Rule Book 2026 Third Print 10/2026",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          }
+        ],
+        "rule_passages": [
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "1.1.3",
+            "pdf_pages": [
+              9
+            ],
+            "locator": "p. 9",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "ISSF",
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "rule": "7.4.5–7.4.5.2",
+            "pdf_pages": [
+              328,
+              329,
+              330
+            ],
+            "locator": "pp. 328–330",
+            "catalog_is_evidence": false
+          }
+        ]
+      },
+      "target_card": {
+        "image": "WSPS_R8_50m_Rifle_Target.svg",
+        "asset_sha256": "381fd371d8d1fb94f2a972dc8d66f6929ba66aa91e2c6761373c6466a25f39aa",
+        "caption": "R8 · Feminino · SH1 · alvo de rifle 50 m; valores da regra ISSF incorporada pela WSPS.",
+        "rule_references": [
+          "WSPS 1.1.3",
+          "ISSF 6.3.4.2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "source_title": "WSPS Rulebook 2026 vFinal",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          },
+          {
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "source_title": "ISSF Rule Book 2026 Third Print 10/2026",
+            "citation_status": "ORIGINAL_PRESENT_HASH_VERIFIED"
+          }
+        ],
+        "rule_passages": [
+          {
+            "authority": "WSPS",
+            "source_id": "ADANA-SRC-892D95743F291E6F",
+            "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+            "rule": "1.1.3",
+            "pdf_pages": [
+              9
+            ],
+            "locator": "p. 9",
+            "catalog_is_evidence": false
+          },
+          {
+            "authority": "ISSF",
+            "source_id": "ADANA-SRC-2A79B10E08375DE1",
+            "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+            "rule": "6.3.4.2",
+            "pdf_pages": [
+              196
+            ],
+            "locator": "p. 196",
+            "catalog_is_evidence": false
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "wsps.event.r9",
+      "authority": "WSPS",
+      "event": "50m Rifle Prone R9",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 08_33_44-6.png",
+      "asset_sha256": "1849fa79c2d4c8dd3f2453b2c1cab12ce16064055163c1ea13304c8a0851928e",
+      "asset_components": [
+        {
+          "file": "WSPS_R9_Prone_SH2_Illustration.png",
+          "sha256": "b670e0ced6f92513d7b7527ab79c9bcabc053a44f8be6199bce3179432b614cb",
+          "attribution": "AI-generated visual illustration based on the user-provided reference; illustrative only, not evidence"
+        }
+      ],
+      "phase_cards": {
+        "qualification": {
+          "image": "WSPS_R9_50m_Rifle_Prone_Qualification.svg",
+          "asset_sha256": "95998e08d23093c0d241a4397e4b2faccf2d1dfd86d02a425cad1bc48df606b4",
+          "caption": "R9 · qualificação · card visual. WSPS 4.1.3 define 60 tiros e os tempos; consulte as passagens citadas.",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS 4.1.3"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            }
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 39,
+              "items": [
+                "4.1.3"
+              ]
+            }
+          ]
+        },
+        "final": {
+          "image": "WSPS_R9_50m_Rifle_Prone_Final.svg",
+          "asset_sha256": "cb7a9c559e292cd7115f7cadaedfc27fe26e51a31430e133787fc7203225e829",
+          "caption": "R9 · final · card visual baseado na worksheet operacional R9 2026. O título da worksheet diverge da identidade R9 Open SH2; confirme sua aplicabilidade e consulte as fontes citadas.",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS Final Commands 2026 · worksheet R9"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            },
+            {
+              "source_id": "ADANA-SRC-A4D14F0E02053270",
+              "source_sha256": "a4d14f0e02053270f4c60be6dd65fe50853f3e03747be7eb6bb667756c899821",
+              "authority": "WSPS operational worksheet",
+              "path": "library/regras/WSPS/arbitragem/comandos_2026/R9_2026.md"
+            }
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-A4D14F0E02053270",
+              "source_sha256": "a4d14f0e02053270f4c60be6dd65fe50853f3e03747be7eb6bb667756c899821",
+              "worksheet": "R9 2026",
+              "rows": [
+                25,
+                32,
+                34,
+                36,
+                40,
+                42,
+                44,
+                50,
+                52,
+                54,
+                60,
+                78
+              ],
+              "source_role": "operational_commands_not_numbered_rule"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "wsps.event.r10",
+      "authority": "WSPS",
+      "event": "Mixed Team 10m Air Rifle Prone R10",
+      "image": "WSPS_R10_10m_Air_Rifle_Mixed_Qualification.svg",
+      "asset_sha256": "c26ac1a3865948bf0171c08c6055dd13604e547184ec029cfb8575b0516c9087",
+      "phase_cards": {
+        "qualification": {
+          "image": "WSPS_R10_10m_Air_Rifle_Mixed_Qualification.svg",
+          "asset_sha256": "c26ac1a3865948bf0171c08c6055dd13604e547184ec029cfb8575b0516c9087",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS 4.1.3",
+            "WSPS 4.2.2.4–4.2.2.5"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            }
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 39,
+              "items": [
+                "4.1.3"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 42,
+              "items": [
+                "4.2.2.4",
+                "4.2.2.5"
+              ]
+            }
+          ]
+        },
+        "final": {
+          "image": "WSPS_R10_10m_Air_Rifle_Mixed_Final.svg",
+          "asset_sha256": "26c01c825419df23fc93b72ff56014fddebd7dc92f0ae90c8745cd1ca7b18dcd",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS 4.1.9.1",
+            "WSPS 4.2.2.4–4.2.2.5",
+            "WSPS MTR R10 2026 worksheet"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            },
+            {
+              "source_id": "ADANA-SRC-E632DE728FA5A00F",
+              "source_sha256": "e632de728fa5a00ff218f7ad05096db5da8dd5ea9d4213b2708a9632fb62e33c",
+              "authority": "WSPS operational worksheet",
+              "path": "library/regras/WSPS/arbitragem/comandos_2026/MTR_R10_2026.md"
+            }
+          ],
+          "rule_passages": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 11,
+              "items": [
+                "2.1.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 40,
+              "items": [
+                "4.1.9.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "page": 42,
+              "items": [
+                "4.2.2.4",
+                "4.2.2.5"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-E632DE728FA5A00F",
+              "source_sha256": "e632de728fa5a00ff218f7ad05096db5da8dd5ea9d4213b2708a9632fb62e33c",
+              "worksheet": "MTR R10 2026",
+              "rows": [
+                19,
+                25,
+                27,
+                28,
+                29,
+                34,
+                36,
+                37,
+                38,
+                42,
+                44,
+                45,
+                46,
+                52,
+                54,
+                55,
+                56,
+                57,
+                72,
+                73,
+                78,
+                79,
+                100,
+                101,
+                104,
+                106
+              ],
+              "source_role": "operational_commands_not_numbered_rule"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "wsps.event.r11",
+      "authority": "WSPS",
+      "event": "Mixed Team 10m Air Rifle Prone SH2",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 08_44_57-1.png",
+      "asset_sha256": "42140b056813747818a265079bfbdbd1915a457634b21e63981f341af2813239",
+      "phase_cards": {
+        "qualification": {
+          "image": "ADANA_WSPS_EVENT_R11_QUALIFICATION_PHASE_CARD.svg",
+          "asset_sha256": "5066f804ea107dfefb4de6e6f21ac7cd14a2d5e3702208eaa4465950661fc9f2",
+          "asset_status": "APPROVED_HUMAN",
+          "caption": "WSPS R11 · Qualificação · Equipe mista SH2, carabina de ar 10 m; resumo visual complementar.",
+          "rule_references": [
+            "WSPS §§2.1.1, 4.1.3, 3.7–3.9, 4.2.2.4, 4.2.2.6",
+            "ISSF §§6.18.2.5–.7, 6.3.3.1, 7.7.5 (subsidiary)"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87"
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf"
+            }
+          ],
+          "role": "visual_supplement_only",
+          "generated_from_target_identity_and_bindings": true,
+          "source_ref_is_answer_evidence": false
+        },
+        "final": {
+          "image": "ADANA_WSPS_EVENT_R11_FINAL_PHASE_CARD.svg",
+          "asset_sha256": "29f1f8742eda18748e5b379c2a2a3c6ab572b6a1dc64cb811c08ab46db9f2ca3",
+          "asset_status": "APPROVED_HUMAN",
+          "caption": "WSPS R11 · Final · formato mixed team SH2; resumo visual complementar.",
+          "rule_references": [
+            "WSPS §§1.1.3, 4.1.9.1, 8.2.2",
+            "ISSF §§6.18.2.7, 6.18.3.6",
+            "WSPS MTR R11 2026 rows 34–79 (operational format only)"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87"
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf"
+            },
+            {
+              "source_id": "ADANA-SRC-D1826CBA6AD94742",
+              "source_sha256": "d1826cba6ad947421a4b446e4eaf1b1a8578f30d6994364dd0a1905788905816",
+              "authority": "WSPS",
+              "path": "library/regras/WSPS/arbitragem/comandos_2026/MTR_R11_2026.md",
+              "role": "operational timeline; not a numbered rule"
+            }
+          ],
+          "role": "visual_supplement_only",
+          "generated_from_target_identity_and_bindings": true,
+          "source_ref_is_answer_evidence": false
+        }
+      }
+    },
+    {
+      "event_id": "wsps.event.p1",
+      "authority": "WSPS",
+      "event": "Pistola de ar 10 m — masculina SH1",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_36_07-1.png",
+      "asset_sha256": "71a7a21c99c4f17635eef0797fc949ead6b5f86e13b4e6b0620f54d735c2e5c8",
+      "phase_cards": {
+        "qualification": {
+          "image": "ADANA_WSPS_EVENT_P1_QUALIFICATION_PHASE_CARD_V2.svg",
+          "asset_sha256": "fb029681b12e1fa0d55e9a91a2a9842ad56d3a6fb5e0f97ec42c5f53c28c7e93",
+          "caption": "WSPS P1 · qualificação · Pistola de ar 10 m — masculina SH1. Fatos resumidos com referências; imagem ilustrativa gerada por IA a partir da referência de Changwon fornecida pelo usuário, não fotografia oficial.",
+          "rule_references": [
+            "WSPS 2.1.1, p. 11",
+            "WSPS 5.1.3, p. 46"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            }
+          ],
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE",
+          "background_image": "ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+          "background_image_sha256": "4249d13ce11855dad8b2673dc7a7e7e01aa219d29b3a05f01b7df802f0be3edf",
+          "source_ref_is_answer_evidence": false
+        },
+        "final": {
+          "image": "ADANA_WSPS_EVENT_P1_FINAL_PHASE_CARD_V2.svg",
+          "asset_sha256": "b933353205295fa887ef9977d7913ce55695a4f13805d0af0ea64382058fc40f",
+          "caption": "WSPS P1 · final · Pistola de ar 10 m — masculina SH1. Fatos resumidos com referências; imagem ilustrativa gerada por IA a partir da referência de Changwon fornecida pelo usuário, não fotografia oficial.",
+          "rule_references": [
+            "WSPS 2.1.1, p. 11",
+            "WSPS 5.1.8.1–5.1.8.2, p. 47",
+            "ISSF 6.17.1.1 e 6.17.1.5, p. 265",
+            "ISSF 6.17.2, p. 271–272"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            },
+            {
+              "source_id": "ADANA-SRC-3A7909C4D514E2B8",
+              "source_sha256": "3a7909c4d514e2b836a6386870ef64a98cfa44af8a4b84b9feb846a7e790df61",
+              "authority": "ISSF",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Second-Print-07-2026-Effective-1-July-2026.pdf"
+            }
+          ],
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE",
+          "background_image": "ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+          "background_image_sha256": "4249d13ce11855dad8b2673dc7a7e7e01aa219d29b3a05f01b7df802f0be3edf",
+          "source_ref_is_answer_evidence": false
+        }
+      },
+      "caption": "Pistola de ar 10 m — masculina SH1 · cards de qualificação e final com regras resumidas por fase e imagens ilustrativas; complemento visual, não evidência normativa."
+    },
+    {
+      "event_id": "wsps.event.p2",
+      "authority": "WSPS",
+      "event": "10m Air Pistol",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_36_07-1.png",
+      "asset_sha256": "71a7a21c99c4f17635eef0797fc949ead6b5f86e13b4e6b0620f54d735c2e5c8",
+      "phase_cards": {
+        "qualification": {
+          "image": "ADANA_WSPS_EVENT_P2_QUALIFICATION_PHASE_CARD_V2.svg",
+          "asset_sha256": "c79f492b865d0fb2b349a69aca91e8eeb2994eafbbc114ba4ebd6f3f58094cf8",
+          "caption": "WSPS P2 · qualificação · Pistola de ar 10 m — feminina SH1. Fatos resumidos com referências; imagem ilustrativa gerada por IA a partir da referência de Changwon fornecida pelo usuário, não fotografia oficial.",
+          "rule_references": [
+            "WSPS 2.1.1, p. 11",
+            "WSPS 5.1.3, p. 46"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            }
+          ],
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE",
+          "background_image": "ADANA_WSPS_P2_AIR_PISTOL_ILLUSTRATION.png",
+          "background_image_sha256": "e6cd9f9b9d0100dd81a53efd49ce973c0053fe15a70afad9c449755516c9cf44",
+          "source_ref_is_answer_evidence": false
+        },
+        "final": {
+          "image": "ADANA_WSPS_EVENT_P2_FINAL_PHASE_CARD_V2.svg",
+          "asset_sha256": "f4081e787329ea81bed5700d8e63b0dc86f9776eb11141c1704be68731f53dcb",
+          "caption": "WSPS P2 · final · Pistola de ar 10 m — feminina SH1. Fatos resumidos com referências; imagem ilustrativa gerada por IA a partir da referência de Changwon fornecida pelo usuário, não fotografia oficial.",
+          "rule_references": [
+            "WSPS 2.1.1, p. 11",
+            "WSPS 5.1.8.1–5.1.8.2, p. 47",
+            "ISSF 6.17.1.1 e 6.17.1.5, p. 265",
+            "ISSF 6.17.2, p. 271–272"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            },
+            {
+              "source_id": "ADANA-SRC-3A7909C4D514E2B8",
+              "source_sha256": "3a7909c4d514e2b836a6386870ef64a98cfa44af8a4b84b9feb846a7e790df61",
+              "authority": "ISSF",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Second-Print-07-2026-Effective-1-July-2026.pdf"
+            }
+          ],
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE",
+          "background_image": "ADANA_WSPS_P2_AIR_PISTOL_ILLUSTRATION.png",
+          "background_image_sha256": "e6cd9f9b9d0100dd81a53efd49ce973c0053fe15a70afad9c449755516c9cf44",
+          "source_ref_is_answer_evidence": false
+        }
+      },
+      "caption": "Pistola de ar 10 m — feminina SH1 · cards de qualificação e final com regras resumidas por fase e imagens ilustrativas; complemento visual, não evidência normativa."
+    },
+    {
+      "event_id": "wsps.event.p3",
+      "authority": "WSPS",
+      "event": "25m Pistol",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_41_24-1.png",
+      "asset_sha256": "00ddfe8e7b9bd954db799b43a15d3cacc860ef00c7fdae83c1a77d7af81c85be",
+      "caption": "WSPS P3 · 25m Pistol · Open SH1; cards visuais independentes de qualificação e final, complemento e não evidência normativa.",
+      "phase_cards": {
+        "qualification": {
+          "image": "ADANA_WSPS_EVENT_P3_QUALIFICATION_PHASE_CARD_V1.svg",
+          "asset_sha256": "66364c58d94bb2a4b637063774209b4959ffd59d1fbb3be620676a54313373fa",
+          "caption": "WSPS P3 — 25m Pistol Open SH1 — Qualificação. 60 disparos · 12 séries de 5 · 25 m. Referências: WSPS 2.1.1, p. 11 · WSPS 5.1.3, p. 46 · ISSF 8.7.6.4, pp. 364–365. Ilustração gerada por IA, não fotografia oficial.",
+          "rule_references": [
+            "WSPS 2.1.1, p. 11",
+            "WSPS 5.1.3, p. 46",
+            "ISSF 8.7.6.4, pp. 364–365"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf",
+              "locators": [
+                "§2.1.1, p. 11",
+                "§5.1.3, p. 46"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf",
+              "locators": [
+                "§8.7.6.4, pp. 364–365"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-260C623ACB97F24A",
+              "source_sha256": "260c623acb97f24a45938f6d371cce6ac2459d2c288059ba00ce8f0335515f04",
+              "authority": "WSPS",
+              "path": "library/regras/arbitragem/comandos_2026/originais/WSPS_Final_Commands_Edition_March_2026.xlsx",
+              "locators": [
+                "Worksheet P3 2026"
+              ]
+            }
+          ],
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_CROPPED_FROM_P3_SPECIFIC_USER_ASSET; NOT_OFFICIAL_PHOTOGRAPH",
+          "background_image": "Imagem do ChatGPT 29 de set. de 2026, 06_41_24-1.png",
+          "background_image_sha256": "00ddfe8e7b9bd954db799b43a15d3cacc860ef00c7fdae83c1a77d7af81c85be",
+          "source_ref_is_answer_evidence": false
+        },
+        "final": {
+          "image": "ADANA_WSPS_EVENT_P3_FINAL_PHASE_CARD_V1.svg",
+          "asset_sha256": "4b26f382b099a75960cdbea64d18d94d433541e786e75997cd7d3c4df033ba2c",
+          "caption": "WSPS P3 — 25m Pistol Open SH1 — Final. 8 finalistas · 10 séries de 5 · eliminações após a 4ª série; scoring hit/miss, 10.2 ou superior = hit (sujeito à aplicabilidade WSPS). Referências: WSPS 5.1.8.1, p. 47 · P3 Commands 2026, worksheet P3. Ilustração gerada por IA, não fotografia oficial.",
+          "rule_references": [
+            "WSPS 2.1.1, p. 11",
+            "WSPS 5.1.8.1, p. 47",
+            "ISSF 6.17.5, p. 283",
+            "P3 Commands 2026, worksheet P3"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf",
+              "locators": [
+                "§2.1.1, p. 11",
+                "§5.1.8.1, p. 47"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf",
+              "locators": [
+                "ISSF §6.17.5(c), p. 283; applicability under WSPS §§1.1.3/5.1.8.1"
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-260C623ACB97F24A",
+              "source_sha256": "260c623acb97f24a45938f6d371cce6ac2459d2c288059ba00ce8f0335515f04",
+              "authority": "WSPS",
+              "path": "library/regras/arbitragem/comandos_2026/originais/WSPS_Final_Commands_Edition_March_2026.xlsx",
+              "locators": [
+                "Worksheet P3 2026"
+              ]
+            }
+          ],
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_CROPPED_FROM_P3_SPECIFIC_USER_ASSET; NOT_OFFICIAL_PHOTOGRAPH",
+          "background_image": "Imagem do ChatGPT 29 de set. de 2026, 06_41_24-1.png",
+          "background_image_sha256": "00ddfe8e7b9bd954db799b43a15d3cacc860ef00c7fdae83c1a77d7af81c85be",
+          "source_ref_is_answer_evidence": false
+        }
+      }
+    },
+    {
+      "event_id": "wsps.event.p4",
+      "authority": "WSPS",
+      "event": "50m Pistol",
+      "image": "ADANA_WSPS_P4_PARALYMPIC_RANGE_ILLUSTRATION.png",
+      "asset_sha256": "0c4ab6b6bb5de5a3849c6389e52267dee9c8a48c206fc69fc8fc8a5aec3abde2",
+      "legacy_visual_asset_preserved": {
+        "image": "Imagem do ChatGPT 29 de set. de 2026, 06_36_10-2.png",
+        "asset_sha256": "091c7d2dd313d6128affe9dbfd614e83d048e4014bdb8e2e862f96a2e7b21def"
+      },
+      "caption": "WSPS P4 · 50m Pistol · Open SH1; imagem ilustrativa de tiro esportivo paralímpico fornecida pelo usuário, editada para enquadramento.",
+      "phase_cards": {
+        "qualification": {
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_EDITED_ILLUSTRATION_FROM_USER_PROVIDED_PARALYMPIC_SHOOTING_PHOTO; NOT_OFFICIAL_PHOTOGRAPH",
+          "background_image": "ADANA_WSPS_P4_PARALYMPIC_RANGE_ILLUSTRATION.png",
+          "background_image_sha256": "0c4ab6b6bb5de5a3849c6389e52267dee9c8a48c206fc69fc8fc8a5aec3abde2",
+          "source_ref_is_answer_evidence": false,
+          "image": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+          "asset_sha256": "4dc84b1efd5aba356c9bc99eebd0fa27a9b163e6c353cd76a23c229dc0c2d5a8",
+          "caption": "WSPS P4 — categoria Open, classe SH1; 50m Pistol, calibre 5,6 mm (.22) rimfire Long Rifle. Qualificação: 60 tiros; 1h30 com alvos eletrônicos ou 1h45 com porta-alvos/poço operado. Teto teórico derivado: 600 pontos (60 × 10), pontuação inteira/full ring.",
+          "rule_references": [
+            "WSPS §2.1.1 p.11",
+            "WSPS §5.1.3 p.46",
+            "WSPS §1.1.3 p.9",
+            "ISSF §8.4.3.4(a) p.358",
+            "ISSF §§6.3.3.2 p.194 e 6.3.4.5 p.199 (escala; teto 600 derivado)"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF (incorporada pela WSPS para calibre e escala de pontuação)",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf"
+            }
+          ]
+        },
+        "final": {
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_EDITED_ILLUSTRATION_FROM_USER_PROVIDED_PARALYMPIC_SHOOTING_PHOTO; NOT_OFFICIAL_PHOTOGRAPH",
+          "background_image": "ADANA_WSPS_P4_PARALYMPIC_RANGE_ILLUSTRATION.png",
+          "background_image_sha256": "0c4ab6b6bb5de5a3849c6389e52267dee9c8a48c206fc69fc8fc8a5aec3abde2",
+          "source_ref_is_answer_evidence": false,
+          "image": "ADANA_WSPS_EVENT_P4_FINAL_PHASE_CARD_V1.svg",
+          "asset_sha256": "f8b3afe68e656614d6eff32ccf3e392ba08914b6935f4bdbad00f6e70850b3aa",
+          "caption": "WSPS P4 — categoria Open, classe SH1; 50m Pistol, calibre 5,6 mm (.22) rimfire Long Rifle. Final: oito finalistas; duas séries de cinco e tiros únicos até 24; eliminações após 12, 14, 16, 18, 20, 22 e 24; tiros adicionais em caso de empate.",
+          "rule_references": [
+            "WSPS §5.1.8.1 p.47",
+            "WSPS §1.1.3 p.9; ISSF §8.4.3.4(a) p.358 (calibre incorporado)",
+            "P4 Final Commands 2026 rows 18,24,33–73,94"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf"
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF (incorporada pela WSPS para calibre)",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf"
+            },
+            {
+              "source_id": "ADANA-SRC-FF46397CD52EEAC7",
+              "source_sha256": "ff46397cd52eeac7e6db4bb059871c8123d9f510d378383a8f6716c442453062",
+              "authority": "WSPS",
+              "path": "library/regras/WSPS/arbitragem/comandos_2026/P4_2026.md"
+            },
+            {
+              "source_id": "ADANA-SRC-260C623ACB97F24A",
+              "source_sha256": "260c623acb97f24a45938f6d371cce6ac2459d2c288059ba00ce8f0335515f04",
+              "authority": "WSPS",
+              "path": "library/regras/arbitragem/comandos_2026/originais/WSPS_Final_Commands_Edition_March_2026.xlsx"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "wsps.event.p5",
+      "authority": "WSPS",
+      "event": "10m Air Pistol Standard",
+      "image": "WSPS_P5_Qualification.svg",
+      "asset_sha256": "9d80a2d0271b0b24ce02cccac7267a2adae9557a0f7469d3ce5140b11451b811",
+      "phase_cards": {
+        "qualification": {
+          "calculation": {
+            "mode": "RAG_CALCULATION",
+            "operands": [
+              {
+                "value": 40,
+                "source_id": "ADANA-SRC-3B1650384F55C206",
+                "source_sha256": "3b1650384f55c206cde8617f073ca6c6871433958b8f702ca678b873b04ee369",
+                "locator": "Appendix 6 §2.6 p.30"
+              },
+              {
+                "value": 10,
+                "source_id": "ADANA-SRC-2A79B10E08375DE1",
+                "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+                "locator": "§6.3.3.1–2 p.194; WSPS §1.1.3 p.9"
+              }
+            ],
+            "formula": "40 × 10",
+            "result": 400,
+            "scope": "maximum qualification before deductions or penalties",
+            "visual_not_normative_evidence": true
+          },
+          "image": "WSPS_P5_Qualification.svg",
+          "asset_sha256": "9d80a2d0271b0b24ce02cccac7267a2adae9557a0f7469d3ce5140b11451b811",
+          "caption": "P5 WSPS 10m: Open SH1, 40 disparos em 8 séries de 5, 10 s/série; ensaio 5 disparos e preparo 3 min; pistola 4,5 mm, carregador para 5 chumbinhos; máximo de qualificação calculado 40×10=400 antes de deduções/penalidades; não tem final. Usa a mesma ilustração do card P1; imagem não normativa.",
+          "rule_references": [
+            "WSPS 2.1.1",
+            "WSPS Appendix 6 §§1.1–1.2, 2.4, 2.6–2.7, §3",
+            "WSPS 1.1.3",
+            "ISSF 6.3.3.1–6.3.3.2"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "rules": [
+                "2.1.1"
+              ],
+              "pages": [
+                11
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-3B1650384F55C206",
+              "source_sha256": "3b1650384f55c206cde8617f073ca6c6871433958b8f702ca678b873b04ee369",
+              "authority": "WSPS",
+              "rules": [
+                "Appendix 6 §§1.1–1.2",
+                "2.4",
+                "2.6–2.7",
+                "3"
+              ],
+              "pages": [
+                30,
+                34
+              ]
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF",
+              "rules": [
+                "6.3.3.1–6.3.3.2"
+              ],
+              "pages": [
+                194
+              ],
+              "incorporated_by": [
+                "WSPS 1.1.3"
+              ]
+            }
+          ],
+          "role": "visual_supplement_only",
+          "source_ref_is_answer_evidence": false,
+          "background_image": "ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+          "background_image_sha256": "4249d13ce11855dad8b2673dc7a7e7e01aa219d29b3a05f01b7df802f0be3edf",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE_SHARED_WITH_WSPS_P1"
+        },
+        "final": {
+          "human_decision_id": "WSPS_P5_FINAL_STATUS_NO_FINAL_HUMAN_CONFIRMED_V1",
+          "answer_without_library_search": true,
+          "image": "WSPS_P5_No_Final.svg",
+          "asset_sha256": "6141a1eb73083b0dad384998a8d019f87e8d7bafdfd08666c398d4706a871944",
+          "caption": "Não tem final. Decisão humana explícita vinculada somente a wsps.event.p5; responder de imediato, sem pesquisa. Não é citação normativa WSPS.",
+          "rule_references": [],
+          "source_refs": [
+            {
+              "source_id": "ADANA-DECISION-1AAD701E2279F216",
+              "source_sha256": "1aad701e2279f216d7fa5b83a38f3131edbd4350f779ae4f08a56a4e8c39325d",
+              "authority": "USER_DECISION",
+              "rule": "human-confirmed route fact",
+              "normative": false
+            }
+          ],
+          "role": "visual_supplement_only",
+          "source_ref_is_answer_evidence": false,
+          "route_status_card_role": "human_confirmed_route_status_card",
+          "normative": false
+        }
+      },
+      "caption": "WSPS P5 10m Air Pistol Standard; card de qualificação com os fatos operacionais, máximo calculado e indicação “Não tem final”; usa a mesma ilustração do card WSPS P1, apenas como complemento visual.",
+      "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE_SHARED_WITH_WSPS_P1",
+      "background_image": "ADANA_WSPS_P1_AIR_PISTOL_ILLUSTRATION.png",
+      "background_image_sha256": "4249d13ce11855dad8b2673dc7a7e7e01aa219d29b3a05f01b7df802f0be3edf"
+    },
+    {
+      "event_id": "wsps.event.p6",
+      "authority": "WSPS",
+      "event": "Equipe mista de pistola de ar 10 m — SH1",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 05_49_36.png",
+      "asset_sha256": "b3e35b58cacaff7dbd52ee70bae26ec3f33ea54fceea81980874512f87fea5dc",
+      "phase_cards": {
+        "qualification": {
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE",
+          "background_image": "ADANA_WSPS_P6_MIXED_AIR_PISTOL_ILLUSTRATION.png",
+          "background_image_sha256": "3b7b8019b3ee4c407f8b25c7f9220cf895005c030a5a10d5330ce85027e56822",
+          "source_ref_is_answer_evidence": false,
+          "draft_review_state": "APPROVED_BY_HUMAN",
+          "route_id": "wsps.event.p6",
+          "image": "ADANA_WSPS_EVENT_P6_QUALIFICATION_PHASE_CARD_V2.svg",
+          "asset_sha256": "3512925e336af0392489317004cb1a1bf1c282febb70f46eb386399517fa2593",
+          "caption": "Card P6 — qualificação: fatos e slots preenchidos com Library/HÓRUS e localizadores visíveis; composição RAG explicita o máximo teórico.",
+          "rule_references": [
+            "WSPS 2.1.1 p.11",
+            "WSPS 5.1.3 p.46",
+            "ISSF 6.18.1.2, 6.18.2.2–.7 pp.285–287",
+            "ISSF 6.3.1.1, 6.3.3.1–.2 pp.193–194",
+            "ISSF 6.3.4.6 p.195",
+            "ISSF 8.4.3.5 p.358"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf",
+              "edition": "2026-01-01"
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf",
+              "edition": "Third Print 10/2026; effective 19 October 2026"
+            }
+          ],
+          "slot_values": {
+            "event_identity": {
+              "value": "P6 · Mixed Team 10m Air Pistol · WSPS non-Paralympic event",
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "locator": "§2.1.1 p.11; P6 row and non-Paralympic marker",
+              "authority": "WSPS",
+              "phase": "qualification",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_EVENT_IDENTITY_V1"
+            },
+            "gender_class": {
+              "value": "Mixed · SH1",
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "locator": "§2.1.1 p.11; P6 row / Gender and Class",
+              "authority": "WSPS",
+              "phase": "qualification",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_EVENT_IDENTITY_V1"
+            },
+            "discipline_distance": {
+              "value": "Air Pistol · 10 m",
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "locator": "§2.1.1 p.11; P6 row / Discipline",
+              "authority": "WSPS",
+              "phase": "qualification",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_EVENT_IDENTITY_V1"
+            },
+            "caliber_and_energy": {
+              "value": "4.5 mm (.177); compressed air, CO2 or pneumatic",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§8.4.3.5 p.358; applies under WSPS §1.1.3 p.9",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_TECHNICAL_SPECIFICATIONS_V1"
+            },
+            "team_eligibility": {
+              "value": "Two athletes from the same nation: one male and one female; SH1",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.1.2 p.285; WSPS §2.1.1 p.11",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_ELIGIBILITY_SCOPE_V1"
+            },
+            "shot_count": {
+              "value": "30 competition shots per athlete; 60 per team; each athlete fires independently.",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.2.5(a) p.287; WSPS §5.1.3 p.46 confirms 2 × 30",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_QUALIFICATION_EVENT_FACTS_V1"
+            },
+            "time_and_target_mode": {
+              "value": "40 minutes for electronic targets; target-carrier/pit-operated: N/A",
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "locator": "§5.1.3 p.46; P6 row / Time columns",
+              "authority": "WSPS",
+              "phase": "qualification",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_QUALIFICATION_EVENT_FACTS_V1"
+            },
+            "target_type": {
+              "value": "10m Air Pistol target; ISSF permits electronic scoring targets or paper for pistol events",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.3.1.1 p.193; §6.3.4.6 p.195",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT"
+            },
+            "team_positions": {
+              "value": "Team members shoot next to each other; female athlete on the left",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.2.2(c) p.286",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT"
+            },
+            "call_and_setup": {
+              "value": "Call to line 25 minutes before start; 10 minutes for equipment setup",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.2.3(a)-(b) p.286",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT"
+            },
+            "preparation_sighting": {
+              "value": "15 minutes preparation/sighting; unlimited sighting shots",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.2.4 p.286",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT"
+            },
+            "scoring_format": {
+              "value": "Full-ring scoring; team result is the sum of both athletes",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.2.6 p.287; §6.18.1.6 p.285",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_QUALIFICATION_SCORING_V1"
+            },
+            "maximum_score_rag": {
+              "value": "Per athlete: 30 × 10 = 300; team: 2 × 30 × 10 = 600 points, before penalties/deductions.",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "Derived RAG calculation from §6.18.2.5(a) p.287, §6.18.2.6 p.287, and full-ring maximum 10 under §6.3.3.1 p.194",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "RAG_CALCULATION",
+              "horus_fact_id": "WSPS_P6_QUALIFICATION_SCORING_V1"
+            },
+            "ranking_and_tie_break": {
+              "value": "Team total determines ranking; qualification ties use §6.15.5 team procedure",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.2.7(a)-(b) p.287; §6.15.5 p.263",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT"
+            },
+            "final_qualification": {
+              "value": "Top four teams advance to the Final",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.2.7(c) p.287",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT"
+            },
+            "coaching": {
+              "value": "Non-verbal coaching allowed during qualification",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.1.7(a) p.285",
+              "authority": "ISSF",
+              "phase": "qualification",
+              "value_mode": "FACT"
+            },
+            "series_format": {
+              "value": "P6 rules specify shot count and time limit but no series subdivision.",
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "locator": "WSPS §5.1.3 p.46; ISSF §6.18.2.5(a) p.287",
+              "authority": "WSPS + ISSF",
+              "phase": "qualification",
+              "value_mode": "SOURCE_BOUND_SCOPE",
+              "horus_fact_id": "WSPS_P6_QUALIFICATION_EVENT_FACTS_V1"
+            }
+          },
+          "slot_inventory": [
+            "event_identity",
+            "gender_class",
+            "discipline_distance",
+            "caliber_and_energy",
+            "team_eligibility",
+            "shot_count",
+            "time_and_target_mode",
+            "target_type",
+            "team_positions",
+            "call_and_setup",
+            "preparation_sighting",
+            "scoring_format",
+            "maximum_score_rag",
+            "ranking_and_tie_break",
+            "final_qualification",
+            "coaching",
+            "series_format"
+          ]
+        },
+        "final": {
+          "role": "visual_supplement_only",
+          "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE",
+          "background_image": "ADANA_WSPS_P6_MIXED_AIR_PISTOL_ILLUSTRATION.png",
+          "background_image_sha256": "3b7b8019b3ee4c407f8b25c7f9220cf895005c030a5a10d5330ce85027e56822",
+          "source_ref_is_answer_evidence": false,
+          "draft_review_state": "APPROVED_BY_HUMAN",
+          "route_id": "wsps.event.p6",
+          "image": "ADANA_WSPS_EVENT_P6_FINAL_PHASE_CARD_V2.svg",
+          "asset_sha256": "0089f7d8602763ce11c6811e362b3d4cc64dca6ab16379b2496922905b202729",
+          "caption": "Card P6 — final: fatos e slots preenchidos com regras WSPS e ISSF vigentes incorporadas; comandos de planilha contraditórios não substituem regras normativas.",
+          "rule_references": [
+            "WSPS 1.1.3 p.9",
+            "WSPS 2.1.1 p.11",
+            "WSPS 5.1.8.1–.3 p.47",
+            "ISSF 6.18.1.2–.7 pp.285–286",
+            "ISSF 6.18.2.7 p.287",
+            "ISSF 6.18.3–.9 pp.288–289",
+            "ISSF 6.3.3.1/.3 pp.194–195",
+            "ISSF 8.4.3.5 p.358"
+          ],
+          "source_refs": [
+            {
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "authority": "WSPS",
+              "path": "library/_PDF_originais/WSPS Rulebook 2026_vFinal.pdf",
+              "edition": "2026-01-01"
+            },
+            {
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "authority": "ISSF",
+              "path": "library/_PDF_originais/ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf",
+              "edition": "Third Print 10/2026; effective 19 October 2026"
+            }
+          ],
+          "slot_values": {
+            "event_identity": {
+              "value": "P6 · Mixed Team 10m Air Pistol · WSPS non-Paralympic event",
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "locator": "§2.1.1 p.11; P6 row and non-Paralympic marker",
+              "authority": "WSPS",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_EVENT_IDENTITY_V1"
+            },
+            "gender_class": {
+              "value": "Mixed · SH1",
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "locator": "§2.1.1 p.11; P6 row / Gender and Class",
+              "authority": "WSPS",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_EVENT_IDENTITY_V1"
+            },
+            "discipline_distance": {
+              "value": "Air Pistol · 10 m",
+              "source_id": "ADANA-SRC-892D95743F291E6F",
+              "source_sha256": "892d95743f291e6f3226461d321dde73e3eec2cbc157b5d818e56b0e46a81f87",
+              "locator": "§2.1.1 p.11; P6 row / Discipline",
+              "authority": "WSPS",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_EVENT_IDENTITY_V1"
+            },
+            "caliber_and_energy": {
+              "value": "4.5 mm (.177); compressed air, CO2 or pneumatic",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§8.4.3.5 p.358; applies under WSPS §1.1.3 p.9",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_TECHNICAL_SPECIFICATIONS_V1"
+            },
+            "team_eligibility": {
+              "value": "Two athletes from the same nation: one male and one female; SH1",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.1.2 p.285; WSPS §2.1.1 p.11",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_ELIGIBILITY_SCOPE_V1"
+            },
+            "finalists": {
+              "value": "Four teams · eight athletes",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.2.7(c) p.287; §6.18.3.4(b) p.288",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT"
+            },
+            "series_and_shots": {
+              "value": "Three 5-shot series per athlete (250 seconds each), then nine single shots per athlete (50 seconds each); 24 shots per athlete, 48 per team",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.3 p.288; §6.18.3.6 and §6.18.4 p.289",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_context_fact_ids": [
+                "WSPS_P6_FINAL_SOURCE_APPLICABILITY_V1"
+              ]
+            },
+            "elimination_sequence": {
+              "value": "After 18 shots per athlete: 4th; after 21: bronze; after 24: gold/silver decided",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.3 p.288; §6.18.3.6 p.289",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT"
+            },
+            "scoring_format": {
+              "value": "Decimal scoring (10.0–10.9); cumulative combined team score",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.3.6 p.289; §§6.3.3.1 and 6.3.3.3 pp.194–195",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_fact_id": "WSPS_P6_SCORING_AUTHORITY_V1"
+            },
+            "maximum_score_rag": {
+              "value": "Per athlete: 24 × 10.9 = 261.6; team: 2 × 24 × 10.9 = 523.2 points, before penalties/deductions.",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "Derived RAG calculation from §6.18.3 p.288, §6.18.3.6 p.289, and decimal scale §6.3.3.1 p.194",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "RAG_CALCULATION"
+            },
+            "final_tie_break": {
+              "value": "If tied, each member of tied teams fires additional shots on command until resolved",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.3.6 p.289",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_context_fact_ids": [
+                "WSPS_P6_FINAL_SOURCE_APPLICABILITY_V1"
+              ]
+            },
+            "preparation_sighting": {
+              "value": "Five minutes preparation/sighting; for pistol, CRO starts it after 10 seconds",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.3.9 p.289",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT"
+            },
+            "report_and_setup": {
+              "value": "Report at least 30 minutes before start; equipment may be set at least 15 minutes before; teams assembled about 8 minutes before start",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.3.4(b),(e),(f) p.288",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT"
+            },
+            "commands_and_roles": {
+              "value": "CRO issues commands; Announcer introduces teams/comments on ranking; each team has one coach and one 30-second timeout; Jury Member in Charge controls timeout",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.1.7(b)-(c) pp.285–286; §§6.18.3.8–.9 pp.289",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT",
+              "horus_context_fact_ids": [
+                "WSPS_P6_FINAL_SOURCE_APPLICABILITY_V1"
+              ]
+            },
+            "team_ranking": {
+              "value": "Combined cumulative team score determines final ranking",
+              "source_id": "ADANA-SRC-2A79B10E08375DE1",
+              "source_sha256": "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078",
+              "locator": "§6.18.1.6 p.285; §6.18.3.6 p.289",
+              "authority": "ISSF",
+              "phase": "final",
+              "value_mode": "FACT"
+            }
+          },
+          "source_reconciliation": "Final scoring/procedure uses active ISSF Third Print provisions incorporated by WSPS §§1.1.3 and 5.1.8.1; conflicted March 2026 command worksheet is retained as candidate only and does not override the active rule text.",
+          "slot_inventory": [
+            "event_identity",
+            "gender_class",
+            "discipline_distance",
+            "caliber_and_energy",
+            "team_eligibility",
+            "finalists",
+            "series_and_shots",
+            "elimination_sequence",
+            "scoring_format",
+            "maximum_score_rag",
+            "final_tie_break",
+            "preparation_sighting",
+            "report_and_setup",
+            "commands_and_roles",
+            "team_ranking"
+          ]
+        }
+      },
+      "caption": "WSPS P6 Mixed Team 10m Air Pistol · cards qualification/final populated with source-bound facts, HÓRUS bindings and RAG maximum formulas; visual supplement only.",
+      "image_provenance": "AI_GENERATED_ILLUSTRATION_FROM_USER_PROVIDED_CHANGWON_REFERENCE",
+      "background_image": "ADANA_WSPS_P6_MIXED_AIR_PISTOL_ILLUSTRATION.png",
+      "background_image_sha256": "3b7b8019b3ee4c407f8b25c7f9220cf895005c030a5a10d5330ce85027e56822"
+    },
+    {
+      "event_id": "wsps.event.pt1",
+      "authority": "WSPS",
+      "event": "Trap Seated PT1",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 08_50_09.png",
+      "asset_sha256": "5e2d47d41f3efce4a773f2bebb09aa8a9e595eeeb9ea4833d328a613250fa6fb"
+    },
+    {
+      "event_id": "wsps.event.pt2",
+      "authority": "WSPS",
+      "event": "Trap Standing PT2",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 08_50_09.png",
+      "asset_sha256": "5e2d47d41f3efce4a773f2bebb09aa8a9e595eeeb9ea4833d328a613250fa6fb"
+    },
+    {
+      "event_id": "wsps.event.pt3",
+      "authority": "WSPS",
+      "event": "Trap Standing PT3",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 08_50_09.png",
+      "asset_sha256": "5e2d47d41f3efce4a773f2bebb09aa8a9e595eeeb9ea4833d328a613250fa6fb"
+    },
+    {
+      "event_id": "wsps.event.vis",
+      "authority": "WSPS",
+      "event": "10m Air Rifle VI Standing VIS",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 08_56_45.png",
+      "asset_sha256": "1e2a72a79a7ea403aba7e0576089d9b9383d65681e018cf38fc408e42975a1d5"
+    },
+    {
+      "event_id": "wsps.event.vip",
+      "authority": "WSPS",
+      "event": "10m Air Rifle VI Prone VIP",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 08_56_45.png",
+      "asset_sha256": "1e2a72a79a7ea403aba7e0576089d9b9383d65681e018cf38fc408e42975a1d5"
+    },
+    {
+      "event_id": "cbte.cma.10m",
+      "authority": "CBTE",
+      "event": "Carabina Mira Aberta 10 m",
+      "image": "a_detailed_infographic_poster_with_a_clean_bold_d.png",
+      "asset_sha256": "5dfb460b75a1499be2e9b34c88994b5a979473d8cc27c7b30e048571aa17da23"
+    },
+    {
+      "event_id": "cbte.cma.25m",
+      "authority": "CBTE",
+      "event": "Carabina Mira Aberta 25 m",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 10_57_11-4.png",
+      "asset_sha256": "11ad75bfee0200018bf24704e3de6e4ca4a9e49cf2c41b108649b6d142e4b544"
+    },
+    {
+      "event_id": "cbte.cma.50m",
+      "authority": "CBTE",
+      "event": "Carabina Mira Aberta 50 m",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 10_57_05-2.png",
+      "asset_sha256": "d158ce4844148b2806699c00a972aeccf5dc91e9cc6646622b7b2abb64cb342c"
+    },
+    {
+      "event_id": "cbte.duelo.25m",
+      "authority": "CBTE",
+      "event": "Duelo 20 segundos a 25 m",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 11_12_39-6.png",
+      "asset_sha256": "8bc137fb3b152dec017883db010825334c73bbce62ab21949c1cbca2033a3540"
+    },
+    {
+      "event_id": "cbte.duelo.10m",
+      "authority": "CBTE",
+      "event": "Duelo 20 segundos a 10 m",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png",
+      "asset_sha256": "b608c1360b0b11a83f740dd9ddb00ab34d744ea647873ccfdf298ba5e647eb4d"
+    },
+    {
+      "event_id": "cbte.cmp.rimfire_sporter",
+      "authority": "CBTE",
+      "event": "Carabina CMP Fogo Circular Sporter",
+      "image": "DISCIPLINE_CARD_CMP_SPORTER_OVERVIEW.svg",
+      "asset_sha256": "acac443f2f1c44d8577e9d138743b0e6566ec23e7d66c77c2bb8cc0ecd5b1bd1",
+      "card_scope": "CMP_SPORTER_ALL_THREE_DIVISIONS"
+    },
+    {
+      "event_id": "cbte.fclass.centerfire",
+      "authority": "CBTE",
+      "event": "Carabina F-Class",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 10_19_18.png",
+      "asset_sha256": "38d84d11fcdc66d238fcdc0f0587f57cf12e69b06809581fda3f1882bf349177"
+    },
+    {
+      "event_id": "cbte.fclass.rimfire",
+      "authority": "CBTE",
+      "event": "Carabina F-Class Rimfire",
+      "image": "CBTE_F-Class_Rimfire_2026-01.svg",
+      "asset_sha256": "9b7f9fb53494e05de661c6b771a8c53faa5059bbece1671943ce62ed8ef3d7b9"
+    },
+    {
+      "event_id": "cbte.field_target",
+      "authority": "CBTE",
+      "event": "Carabina Field Target",
+      "image": "CBTE_Carabina_Field_Target_2025.svg",
+      "asset_sha256": "cf2566258ac2eb0e0c847925bf3b45220125b088b22d6dda2cd60d9c17e550fc",
+      "card_scope": "FIELD_TARGET_TARGET_DISTANCE_FORMAT_SCORE_AND_DISCIPLINES"
+    },
+    {
+      "event_id": "cbte.wrabf.rifle_international",
+      "authority": "CBTE",
+      "event": "Carabina WRABF",
+      "image": "WRABF_International_Target_and_Bench_Card.svg",
+      "asset_sha256": "556d0bc21c18cc59ab760a748e44f83a3594aee35d79387996ff2e189c95f2f2",
+      "asset_components": [
+        {
+          "file": "WRABF_Official_50m_Target_2024.jpg",
+          "sha256": "46880623dea428ee95be773128aaa19e74837fef9c631d6f9911d5e3a809e3cc",
+          "attribution": "WRABF official 50m target sheet, 26 June 2024; WRABF target page"
+        },
+        {
+          "file": "WRABF_benchrest_equipment_illustration.png",
+          "sha256": "85c600cd81437f4bb996e116f7fe8b9133aad9444eda368dc6c0dfbd7e32f7d2",
+          "attribution": "AI-generated equipment illustration; illustrative only"
+        }
+      ],
+      "card_scope": "WRABF_OFFICIAL_TARGET_SCORING_CLASS_LIMITS_BENCH_EQUIPMENT_AND_COMMANDS",
+      "authorities": [
+        "CBTE",
+        "WRABF"
+      ]
+    },
+    {
+      "event_id": "cbte.issf.carabina",
+      "authority": "CBTE",
+      "event": "Provas ISSF de Carabina no programa CBTE",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 06_03_22-1.png",
+      "asset_sha256": "718c1eb15b96fb86d09b8029cc85a04ec73dddf7463eca434e9e534bffdb7d1e"
+    },
+    {
+      "event_id": "cbte.issf.pistola",
+      "authority": "CBTE",
+      "event": "Provas ISSF de Pistola no programa CBTE",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 05_54_24-4.png",
+      "asset_sha256": "1cba15e619f2160aa3c260e30f97b126b54efdad7080cce3cd030074ca5cbdb5"
+    },
+    {
+      "event_id": "cbte.wsps.program",
+      "authority": "CBTE",
+      "event": "Provas paralímpicas WSPS no programa CBTE",
+      "image": "Imagem do ChatGPT 29 de set. de 2026, 09_00_43-2.png",
+      "asset_sha256": "b450b1872b8aee2b2b579cd79d0a29a0f3012bdf0a62ec6c69e0bc878ef2ef7a"
+    },
+    {
+      "event_id": "cbte.shotgun.issf",
+      "authority": "CBTE",
+      "event": "Fossa Olímpica CBTE — Trap Olímpico",
+      "image": "CBTE_Fossa_Olimpica_Trap_2026.svg",
+      "asset_sha256": "ea28fdc79dd937f08d15af89d4c33cc4ab4fe1a44faead10c15f3dfa3e45756f"
+    },
+    {
+      "event_id": "cbte.national_light",
+      "authority": "CBTE",
+      "event": "Provas Nacionais Light",
+      "image": "CBTE_Provas_Nacionais_Light.svg",
+      "asset_sha256": "d78fb2b01136dec68b23cbf1f0ab5b100bdbc334d91bebce8aa0c3374a0b1293"
+    },
+    {
+      "event_id": "cbte.nra",
+      "authority": "CBTE",
+      "event": "Carabina NRA / Rifle Esporte",
+      "image": "CBTE_Carabina_NRA_Rifle_Esporte_2025.svg",
+      "asset_sha256": "8a5e6f51bcb3519006b87902dfc226ab7e4696449e51ad573533ed006306fef2",
+      "card_scope": "NRA_100M_TARGET_DIVISIONS_SHOTS_AND_MAXIMUM_SCORE"
+    },
+    {
+      "event_id": "cbte.shotgun.automatic_trap",
+      "authority": "CBTE",
+      "event": "Fossa Automática CBTE",
+      "image": "CBTE_Fossa_Automatica_layout_2020.png",
+      "asset_sha256": "84e0d71e1ed7ba136905277cf35932dbcb2fcc3f1afb53a56ec28a3e98f35d5c",
+      "source_id": "ADANA-SRC-C320971D06D9EC3E",
+      "source_sha256": "c320971d06d9ec3ebb04c5489e440d3b9ffb6fd990dc9f7d9da49d70315be9e0",
+      "source_page": 6,
+      "role": "PRESENTATION_ONLY; layout image; not evidence"
+    },
+    {
+      "event_id": "cbte.shotgun.trap_light",
+      "variant_id": "skeet_light",
+      "authority": "CBTE",
+      "event": "Skeet Light CBTE",
+      "image": "CBTE_Skeet_Light_2026.svg",
+      "asset_sha256": "9d55c318ea321aeb807ae3aed03a2cb65a21b99eb7877d2fb42fc3f297d13175",
+      "role": "VISUAL_LAYOUT_AND_SHOOTER_ROTATION; presentation only, not normative evidence"
+    },
+    {
+      "event_id": "cbte.shotgun.trap_light",
+      "authority": "CBTE",
+      "event": "Tiro ao Prato Olímpico Light — Fossa Olímpica Light e Skeet Light",
+      "image": "CBTE_Tiro_ao_Prato_Olimpico_Light.svg",
+      "asset_sha256": "472fb5bbee7496da2a83088dce707a2581532eaa2ccf32011d5c680fc6b7f110"
+    },
+    {
+      "event_id": "cbte.shotgun.trap_nacional",
+      "authority": "CBTE",
+      "event": "Trap Nacional 2026",
+      "image": "CBTE_Trap_Nacional_2026.svg",
+      "asset_sha256": "e608541479a483375d815f6eb5cbef8318331249bbc540f03816e4cb66306984",
+      "source_id": "ADANA-SRC-277F6EDC18262298",
+      "source_sha256": "277f6edc18262298d906b18de1e277e9f83f3e7fbb460c1391edfd53e02a4e0f",
+      "source_pages": [
+        2,
+        3,
+        4,
+        13
+      ],
+      "role": "PRESENTATION_ONLY; CBTE facts plus explicitly labeled ATA item 3.1 gap-fill; never normative evidence",
+      "supplemental_source_id": "ADANA-SRC-E9D7DC1442865DD0",
+      "supplemental_source_sha256": "e9d7dc1442865dd003e13102eb28f119539c8a8e91c429495fbed6efdc36e2a1",
+      "supplemental_source_pages": [
+        56
+      ]
+    },
+    {
+      "event_id": "cbte.shotgun.trap_nacional_25_2024",
+      "authority": "CBTE",
+      "event": "Trap Nacional 25 CBTE 2024",
+      "image": "CBTE_Trap_Nacional_25_2024.svg",
+      "asset_sha256": "555c327c014ca5dceabc71903e83e952e24c962909a4490097f0f85c7484c400",
+      "role": "visual_supplement_only",
+      "caption": "Card visual complementar para Trap 25 CBTE 2024; os fatos normativos estão nas passagens CBTE e ISSF citadas."
+    },
+    {
+      "event_id": "cbte.shotgun.trap_nacional_50_2024",
+      "authority": "CBTE",
+      "event": "Trap Nacional 50 CBTE 2024",
+      "image": "CBTE_Trap_Nacional_50_2024.svg",
+      "asset_sha256": "1c4a3e2f9ac50a710ad7f88cc9e8c392ac509ef67c55de838abb1b998a5943fc",
+      "role": "visual_supplement_only",
+      "caption": "Card visual complementar do Trap 50 CBTE 2024; prova de 50 pratos em duas séries de 25. Rodízio ISSF ilustrativo, sem incorporação automática pelo PDF CBTE."
+    },
+    {
+      "event_id": "wsps.event.r1",
+      "variant_id": "final",
+      "authority": "WSPS",
+      "event": "R1 10m Air Rifle Standing — Final",
+      "image": "WSPS_R1_10m_Air_Rifle_Final.svg",
+      "asset_sha256": "fe7ff4360ec0c42e58029371d7e0ac8b76392b4d95a6f2fd7e5b71eb9cb84c68",
+      "caption": "Final WSPS R1 • formato e tempos da final; ilustração realista de para-atleta em cadeira de rodas. Card não é evidência normativa."
+    },
+    {
+      "event_id": "wsps.event.r1",
+      "variant_id": "support",
+      "authority": "WSPS",
+      "event": "R1 10m Air Rifle Standing — apoios e assentos",
+      "image": "WSPS_R1_Shooting_Supports.svg",
+      "asset_sha256": "cde41f07a71cc389840651e3ef11f4856b0e87425756ee5e08aa451b10c5e1b9",
+      "role": "visual_supplement_only",
+      "caption": "R1 • atleta adaptado em cadeira de rodas; regras de banco alto e cadeira de rodas permanecem em blocos textuais separados."
+    },
+    {
+      "event_id": "wsps.event.r2",
+      "authority": "WSPS",
+      "event": "R2 10m Air Rifle Standing — Final",
+      "image": "WSPS_R2_10m_Air_Rifle_Final.svg",
+      "asset_sha256": "3d8c581d213596fbfb5eb869d641ce69db3f4dd964f5b2b156e3b98914fe01cf",
+      "caption": "Final WSPS R2 feminina • formato e tempos da final; fotografia ilustrativa gerada de atleta adaptada em cadeira de rodas. Card visual, não evidência normativa.",
+      "variant_id": "final"
+    },
+    {
+      "event_id": "wsps.event.r2",
+      "authority": "WSPS",
+      "event": "R2 10m Air Rifle Standing — apoios e assentos",
+      "image": "WSPS_R2_Shooting_Supports.svg",
+      "asset_sha256": "5b319be5ff68cb02a364910aa516f9d883ee2f22f7e94e84263e9a2625856a36",
+      "caption": "R2 feminino • fotografia ilustrativa gerada de atleta adaptada em cadeira de rodas; regras de assento e encosto aparecem no texto normativo.",
+      "variant_id": "support"
+    }
+  ]
+}

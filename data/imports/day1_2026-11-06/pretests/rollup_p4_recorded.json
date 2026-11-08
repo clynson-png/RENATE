@@ -1,0 +1,135 @@
+{
+  "schema": "ADANA_ROUTE_TEMPLATE_V2_FOCUSED_EVIDENCE_ROLLUP_V1",
+  "route_name": "50m Pistol",
+  "counts": {
+    "PASS": 12,
+    "FAIL": 0,
+    "ERROR": 0
+  },
+  "focused_case_count": 12,
+  "cases": [
+    {
+      "case_id": "p4_clarify_unbound_caliber",
+      "status": "PASS",
+      "answer_status": "CLARIFICATION_REQUIRED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [],
+      "evidence_artifact": "audit/route_governance_v1/route44_p4_unbound_caliber_clarification_pass_20261105.json"
+    },
+    {
+      "case_id": "p4_compound_overview_score_and_eligibility",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "PHASE_CARDS",
+      "accepted_delivery_modes": [
+        "PHASE_CARDS"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/route44_p4_compound_card_pass_retry1_20261105.json"
+    },
+    {
+      "case_id": "p4_event_eligibility_category_and_requirements",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    },
+    {
+      "case_id": "p4_event_overview_cards_and_generic_relations",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "PHASE_CARDS",
+      "accepted_delivery_modes": [
+        "PHASE_CARDS"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    },
+    {
+      "case_id": "p4_final_operation_and_card",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "PHASE_CARDS",
+      "accepted_delivery_modes": [
+        "PHASE_CARDS"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    },
+    {
+      "case_id": "p4_final_phase_card_acceptance",
+      "status": "PASS",
+      "answer_status": "MODEL_INCOMPLETE",
+      "delivery_mode": "PHASE_CARDS",
+      "accepted_delivery_modes": [
+        "PHASE_CARDS",
+        "VERIFIED_RULE_SELECTION_HANDOFF"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    },
+    {
+      "case_id": "p4_final_tiebreak_boundary",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "PHASE_CARDS",
+      "accepted_delivery_modes": [
+        "PHASE_CARDS"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/route44_p4_final_tiebreak_card_pass_20261105.json"
+    },
+    {
+      "case_id": "p4_original_contract_question_qualification_count",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    },
+    {
+      "case_id": "p4_precedence_wsps_over_issf",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    },
+    {
+      "case_id": "p4_qualification_rag_score_calculation",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    },
+    {
+      "case_id": "p4_qualification_time_and_shots",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    },
+    {
+      "case_id": "p4_reject_neighbor_p1_identity",
+      "status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json"
+    }
+  ],
+  "created_at_utc": "2026-11-05T10:53:19Z",
+  "status": "PASS_FROM_RECORDED_FOCUSED_EVIDENCE",
+  "route_id": "wsps.event.p4",
+  "consolidation_method": "Preserve prior per-case PASS artifacts; replace the three case outcomes with their corrected focal PASS artifacts. No gate, replay, or test executed for this rollup."
+}

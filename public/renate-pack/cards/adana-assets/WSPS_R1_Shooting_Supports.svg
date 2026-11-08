@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1250" viewBox="0 0 1200 1250" role="img" aria-labelledby="title desc">
+<title id="title">WSPS R1 — atleta adaptado em cadeira de rodas</title>
+<desc id="desc">Card da prova WSPS R1 10m Air Rifle SH1. Mostra para-atleta sentado em cadeira de rodas. As informações normativas sobre banco alto e cadeira de rodas aparecem separadamente em texto.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06131b"/><stop offset="1" stop-color="#0c202a"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#102b37"/><stop offset="1" stop-color="#0b1b25"/></linearGradient>
+ <linearGradient id="lime" x1="0" x2="1"><stop stop-color="#caff48"/><stop offset="1" stop-color="#7de34d"/></linearGradient>
+ <style>
+ text{font-family:Arial,sans-serif}.eyebrow{fill:#47dbea;font-size:17px;font-weight:700;letter-spacing:3px}.title{fill:#caff48;font-size:42px;font-weight:800}.subtitle{fill:#d6e5e9;font-size:20px}.panel{fill:url(#panel);stroke:#21404a;stroke-width:2}.h{fill:#47dbea;font-size:22px;font-weight:700;letter-spacing:1px}.t{fill:#e5eff2;font-size:18px}.small{fill:#aec6ce;font-size:15px}.measure{fill:#caff48;font-size:20px;font-weight:700}.line{stroke:#e5eff2;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#47dbea;stroke-width:4;stroke-linecap:round;fill:none}.warn{fill:#ffc96a;font-size:16px;font-weight:700}
+ </style>
+</defs>
+<rect width="1200" height="1250" rx="28" fill="url(#bg)"/>
+<rect x="22" y="22" width="1156" height="1206" rx="25" fill="none" stroke="#18c6d4" stroke-width="3"/>
+<text x="58" y="76" class="eyebrow">WSPS • R1 • 10 m AIR RIFLE STANDING • SH1</text>
+<text x="58" y="132" class="title">SUPORTES ADAPTADOS • WSPS</text>
+<text x="58" y="167" class="subtitle">Atleta adaptado sentado em cadeira de rodas; as condições variam por classificação e licença WSPS.</text>
+
+<image x="178" y="274" width="844" height="525" preserveAspectRatio="xMidYMid meet" href="WSPS_R1_Adaptive_Wheelchair_Shooter.png" xlink:href="WSPS_R1_Adaptive_Wheelchair_Shooter.png"/>
+<text x="110" y="778" class="small">Ilustração de para-atleta em cadeira de rodas; ajustes e posições dependem da classificação e da licença WSPS.</text>
+
+<rect x="48" y="860" width="530" height="338" rx="22" class="panel"/>
+<text x="76" y="904" class="h">BANCO ALTO • HIGH STOOL</text>
+<text x="76" y="947" class="measure">Altura do assento</text>
+<text x="76" y="976" class="t">Mínimo: metade da coxa.</text>
+<text x="76" y="1004" class="t">Máximo: medida interna da perna − 7 cm.</text>
+<text x="76" y="1047" class="measure">Base e apoio</text>
+<text x="76" y="1076" class="t">Base ≤60 × 60 cm; 3 ou 4 pernas independentes.</text>
+<text x="76" y="1104" class="t">Sem base conectada ou travessas entre as pernas.</text>
+<text x="76" y="1147" class="warn">Os pés não podem tocar a base do banco.</text>
+<text x="76" y="1175" class="small">Medida individual registrada na licença WSPS e verificada em inspeção.</text>
+
+<rect x="622" y="860" width="530" height="338" rx="22" class="panel"/>
+<text x="650" y="904" class="h">CADEIRA DE RODAS • REGRA NO TEXTO</text>
+<text x="650" y="947" class="t">A cadeira de rodas continua admitida conforme</text>
+<text x="650" y="975" class="t">classificação funcional e licença WSPS.</text>
+<text x="650" y="1018" class="t">A imagem mostra atleta em cadeira de rodas adaptada.</text>
+<text x="650" y="1046" class="t">Rodas até a altura do quadril; quadril sem contato</text>
+<text x="650" y="1074" class="t">com as rodas; eixo lateral dentro de ±5°.</text>
+<text x="650" y="1112" class="small">Encosto, apoios e estabilidade são verificados na posição</text>
+<text x="650" y="1138" class="small">de tiro conforme regra, classificação e licença WSPS.</text>
+<text x="650" y="1175" class="small">WSPS 3.7.1–3.7.13 (pp. 30–34), 4.2.3 (p. 43).</text>
+</svg>

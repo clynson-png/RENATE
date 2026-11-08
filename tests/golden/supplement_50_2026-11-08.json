@@ -1,0 +1,1199 @@
+{
+  "schema_version": "renate.atlas-regression-reference.v1",
+  "purpose": "test_only_reference_manifest_ids_and_hashes_no_runtime_content",
+  "created_on": "2026-11-08",
+  "evaluation_note": "Mechanical retrieval/presentation regression only. Does not constitute new human approval of imported answers or source locator semantics.",
+  "source_hashes": {
+    "original_snapshot_sha256": "c383b6209768606ea0d5b6abf6b20d278abbe43a6fde12bc10184c862bdc7512",
+    "original_golden_sha256": "cd476a564552ae256c4542467d6019bd80eaf2775042a0c480019ccbc57c948d",
+    "supplement50_sha256": "783f9f80b9eb6391e9f0d473ca9493145446c6d0c976d88c7d4451b52424d409",
+    "tie_break_supplement94_sha256": "2442c171c028cb8c71c27e0b81b0a8bded665beca52e8253e37383904cb79842",
+    "runtime_pack_sha256": "99f49a00d45b5cf23f3bbe714b0c0c57070a0ab2eb56d87b8335a55ebd9d1002"
+  },
+  "protected_data_check": "PASS_IDS_AND_ORDER_MATCH_SOURCE_CONCATENATION",
+  "suite": "supplement_50",
+  "case_count": 50,
+  "source_snapshot_sha256": "c383b6209768606ea0d5b6abf6b20d278abbe43a6fde12bc10184c862bdc7512",
+  "cases": [
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:001:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:001:A01",
+      "question_sha256": "1223a01b8a2f338ec6a69edd7050530793a93a67350df14c60fcbc067811e8a1",
+      "expected_answer_sha256": "45299026be015ac9cce4a4e91f1d876885163e5571ae80f79170fa046b18ab12",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "4.1",
+        "4.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:002:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:002:A01",
+      "question_sha256": "d481fb083b73bff46c105afcdd3bcf28a72cfa26fa0f23c35a7dd8a588352d00",
+      "expected_answer_sha256": "23d3e514af0d47c278566db740ce399b0075bf50a9d5d09c5c0d069216894453",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "4.9",
+        "4.10",
+        "5.1",
+        "6.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:003:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:003:A01",
+      "question_sha256": "163a15270e2a933d3ccce1e5a1f945a4f3c0475ba17c04b81baf43cbdab9869b",
+      "expected_answer_sha256": "c940dbb860efb35db3ab5b2ac310853381a1c9c1fe097119b3c0c84dc3afcdce",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "2.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:004:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:004:A01",
+      "question_sha256": "d626dd45182213f26383658f48e6ddfd0932b11c76ed7e7685f5c732c129697b",
+      "expected_answer_sha256": "c82eab41e32bb238cfb32ebe47a86facdb5d5ed4e88a8c8cd8898c5c8ee4f0cc",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "3.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:005:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:005:A01",
+      "question_sha256": "1ef6e8e43e2dd33cc54bda4435c880ac6d9c18aab6ca1746a230996eba366a19",
+      "expected_answer_sha256": "cbfa3a9a951c2f4f3dfcb0b310e644cf55d29c71b1cbdae159d6b817232f0f41",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "1.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:006:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:006:A01",
+      "question_sha256": "26d9f2aeb72ed50754d64f48dbabac4f8eea54d0c3952f954e66a29867800130",
+      "expected_answer_sha256": "59c35e46e755709ffc2e1ec2ae4d4d73677b06f8a281d2e22a16b20c850f3e22",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "2.7",
+        "4.5.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:007:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:007:A01",
+      "question_sha256": "281c5113fc17203c0599a208a6a3fa34f4a1eaec85cfa50a79920066499a8137",
+      "expected_answer_sha256": "85479fa5b2f068c4834f49e355cea8f805790209055454d90198cbd2c0f60a88",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "4.5.2",
+        "5.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:008:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:008:A01",
+      "question_sha256": "25a95e38b1265394e872a7b7497e8a9170579ecf00fb494a24b54c3ee1192264",
+      "expected_answer_sha256": "82235617a4ecd55f4879fa26f5674519770bc8ac166b6f888ef0cc99a878daef",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:009:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:009:A01",
+      "question_sha256": "56aa593f40c3a4b23b952462b49b8ec087bb6dd7c6190928498f74ab54adc88b",
+      "expected_answer_sha256": "04fd1c305705415d20ec7500bf93dc54ecb41bbd0a4e1972ac6243a42c3d3f7b",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "4.7"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CMP-RIMFIRE:010:A01",
+      "atlas_id": "RENATE:CMP-RIMFIRE:010:A01",
+      "question_sha256": "9a4eccb2ce4c0464c7c5e3d54c7f5e18d9cd07e73c832c37aaedd153cb99782d",
+      "expected_answer_sha256": "5240ee2b816803d0ff7cb86971ca66c905cb57044d920068fc1c3b0a8e3e8558",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.cmp.rimfire_sporter"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ],
+      "expected_rule_locators": [
+        "4.7",
+        "4.8"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-0DB5E360F55EA1DD"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:001:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:001:A01",
+      "question_sha256": "e98471e863f764dd737b2db99cc01047566e9286d7ce5727d8d6f20dc41c4c24",
+      "expected_answer_sha256": "278cfd5dc2af4d08b2a6bd45789753f60a4e34cd847d0993fc947c8cba959605",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "4.2.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:002:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:002:A01",
+      "question_sha256": "8f313cfa834450021c70dd7d7c31bbf25c594371637fd0e4729e5ffa54455243",
+      "expected_answer_sha256": "02c7a26fe9314a6775681b621bddd6dfd86ed4795b89526d48cc660d026e7bb3",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "4.1.5"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:003:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:003:A01",
+      "question_sha256": "f523607dc126cc52585a0a4bbcd9d1b351898a56cd5586ac9aeae95444198a19",
+      "expected_answer_sha256": "e86497b7b6be6ea589789e9c4228eb23f6121ec1edc3a4729d4c3696b483c774",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "4.2.3",
+        "4.2.5"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:004:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:004:A01",
+      "question_sha256": "5ab990d1930cb375fee67ab779f5a3d42801855a9b09a6ac47299580d01d77df",
+      "expected_answer_sha256": "1023cff4441313939f75463cf2d8ccf952a9f143f1849148a8cf23b747e9bdad",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "4.2.8"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:005:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:005:A01",
+      "question_sha256": "ee37ec38e1b7ef8c98a336dfd0658d047d6c7db13a04e8bcef2bf75f181e5559",
+      "expected_answer_sha256": "d4baac87b8070feb880d4bbe65e87d386a1eb09fd50e409484db463a867d0516",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "4.2.1",
+        "4.2.6"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:006:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:006:A01",
+      "question_sha256": "6daebbc66a39ade318fab0062cbbf21a4b304096650ecf34ade38aa515302409",
+      "expected_answer_sha256": "8b455f328ab9533cf60351844425695915d280f5fc6c2cb900ab62f861a06106",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:007:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:007:A01",
+      "question_sha256": "53e8f94cb86cc64856ac644ca0dea2d957b5f69ef08e2ae289fcd391ccdad151",
+      "expected_answer_sha256": "0175c3a18441aa9bb29173b77d09a6e3b74a66b274499ae9f129ea9c0e049b69",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "4.3.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:008:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:008:A01",
+      "question_sha256": "f2077bc592c89f2cc7ecba54b713f9b5c6bf492369a04538eace597e9a4aef83",
+      "expected_answer_sha256": "905b90c55449c06798008848f5f9bc2272a3e7adadc918a07c75327e022ddf26",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:009:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:009:A01",
+      "question_sha256": "e8f98556c15a97d77256b6c1c7ed34230e2c68cb8276ebf0bb49093d0a652fc0",
+      "expected_answer_sha256": "55acaea758a2f518f63e1cc5d6c19e7a7d60fb3331d5bf12231c0c5c5b43fa4f",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "4.2.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:AUTO-TRAP:010:A01",
+      "atlas_id": "RENATE:AUTO-TRAP:010:A01",
+      "question_sha256": "ca4fcf91e04272e88c5e69642e6e27fb592c6faa14d7b23f725827acbcdf28ec",
+      "expected_answer_sha256": "e0c4c215ac6877c2f9a896487ffe598ee17162137c660d64042eeba1b286fad1",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.automatic_trap"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ],
+      "expected_rule_locators": [
+        "4.1.5",
+        "4.2.5"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-230B81C6286AE94E"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:001:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:001:A01",
+      "question_sha256": "b1b202025ed5dc9c384fa6f566a77b2e9924f050d2157aab631ca0102e4cf71d",
+      "expected_answer_sha256": "d7cd447ebc8090998fe6d472ad7096674d919844dcb244a88c784f20b2250c37",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.6.1.3"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:002:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:002:A01",
+      "question_sha256": "f640431efaf3d62b1dd3a1b6e9aba08b6efe1fd8e1b1022d656ad48aac5ef46c",
+      "expected_answer_sha256": "2c530b61962a3ca3f65b7ee2a4bf89dc10f4116aa964641cd3326acb0c68b7eb",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.6.1.3",
+        "9.9.1",
+        "9.9.2.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:003:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:003:A01",
+      "question_sha256": "8ef747ff6b6d7e7ecd686ebb74bd8d6f8330219794584455a40712aee368dd18",
+      "expected_answer_sha256": "1e022e959697061ea8e92ccc2999a563c66f95c5735346d28492ea39f55160b3",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.17.2",
+        "9.17.4.1",
+        "9.17.4.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:004:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:004:A01",
+      "question_sha256": "5c71718dd1c47548bdace7b51a46032a8f646a09e9815a44b2ac76f6f3e5086c",
+      "expected_answer_sha256": "f015b2c50a0e43c2e2a18f2fa5b9454a27f4e9a93e65f74dad08585faf7f6fa4",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.6.1.3",
+        "9.7",
+        "9.17.2.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:005:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:005:A01",
+      "question_sha256": "1355ec88dce4bb6b8a018b70054868e16cfc6265ee69dd29c545c43d4af737ce",
+      "expected_answer_sha256": "5b3989e7d0788dab3a154b394fecc88b13371573aca01563b7ef84b05c8622df",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.8.1.1(d)",
+        "9.9.2.2",
+        "9.9.2.4"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:006:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:006:A01",
+      "question_sha256": "189a75a781a7b101b17e0ecc14913da3e0bc8ec898928b0079fa1bf7daca7e80",
+      "expected_answer_sha256": "a5101228a518ee8d0895a9f3c98dea5bbec339dbcc0ca562982f58184c567467",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.4.2.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:007:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:007:A01",
+      "question_sha256": "ede57b0bb6688b9ec9a8d919a39de5564e24961c9dca6bc7127da5393cdacf34",
+      "expected_answer_sha256": "b95b9addb82d4250205a5e45145790c42d120c1b54d924c7df9396066b0b47b3",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.4.1.3",
+        "9.4.2.8",
+        "9.9.4"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:008:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:008:A01",
+      "question_sha256": "86d1ba4a8eb676854921849d1cc890653215282310b57b1dc4220769447b70b3",
+      "expected_answer_sha256": "7ed25f0ee33ca6c8e6d19dc74d73b4ce8deab528cd35e0969f94c3130e623506",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.8.1",
+        "9.8.3",
+        "9.9.2.1",
+        "9.9.2.5"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:009:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:009:A01",
+      "question_sha256": "f1fcb515100ee634f4d58537926640ad086fd46ecf93273169735822b8329d8d",
+      "expected_answer_sha256": "ed1ec0c848851e445a7cef7113bba718921ccc5ebefa80ac187dda19ed7cca42",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.14",
+        "9.17.4.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:CBTE-ISSF-TRAP:010:A01",
+      "atlas_id": "RENATE:CBTE-ISSF-TRAP:010:A01",
+      "question_sha256": "fe525c54653712a65250a74217928eda9ebd95cc46b3d8d501ec04d2343211d5",
+      "expected_answer_sha256": "3d411580ecff55677585552f602e321b7bdd08d32a91c3d0b23668810e8850fc",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.issf"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.4.2.4",
+        "9.11.1.1",
+        "9.11.4"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:001:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:001:A01",
+      "question_sha256": "56d8a09d356628ba2bd1f7d537c7515c4e5a56af246d4004ec4a9197c2babedf",
+      "expected_answer_sha256": "5f9fe820ee858163bbe8b316e871f689ee3838f3ebe478fa32b694f3341aa08d",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.1.3",
+        "2.7.3"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:002:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:002:A01",
+      "question_sha256": "28ecbca8a8f4722023cc54d5aa52b6178116101582e733b9a203772e388fb727",
+      "expected_answer_sha256": "3d0982ad9b3ff11bb242b5811021962de1be137013ea02652c7cbe8257990ff6",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.6.4"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:003:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:003:A01",
+      "question_sha256": "e1fbd75cdd6b2a5f68fdaf57d244d50f51905189dd89c67578d6e5ec97c4147f",
+      "expected_answer_sha256": "f68a9f000cebd460635ce169bffac7e7de016e35c6569d86ece872783855b9e3",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.1.3",
+        "2.2.2.7"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:004:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:004:A01",
+      "question_sha256": "d4694ba2359539d26fa87fd7bafaa022dbb3f2d88ec144b46f871075303c805b",
+      "expected_answer_sha256": "3c766c2fbf14dab489ca0b5b0d6930919bdf3d188f50aced4d254828d87ceea3",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.1.3",
+        "2.7.4.6",
+        "2.7.5.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:005:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:005:A01",
+      "question_sha256": "de72484414a6f9f94b1212b139601ab837873250bdb01e60625e2363c691b5aa",
+      "expected_answer_sha256": "50371878537e05dcbe84d9b04deab66cd32867f7e45c942e05abb0329ecb6f42",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.5.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:006:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:006:A01",
+      "question_sha256": "4effec4f89a8de8010dfe77fd11e6c4f1342dbeaa6ba421e921c2a058d3e10f7",
+      "expected_answer_sha256": "13d3b7e3a57cd6a882a6ad7fd12f2f42815a07ec1c0aa14588fa5ba07d96babd",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.7.2.7"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:007:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:007:A01",
+      "question_sha256": "fcf7e1a41871d4a74cc8e6b6b15dd42a2a9a95c3076a37d700867b7b4ab80738",
+      "expected_answer_sha256": "c0bd128ecaac119119e04f8801772012806378ad3bf0ade94244838d98086e5d",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.7.3.1",
+        "2.7.3.4"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:008:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:008:A01",
+      "question_sha256": "6807fdd02decf6a7e30b5ee221cc466d3daa3388d4571b569b75ff273de57826",
+      "expected_answer_sha256": "d29ce033ed27a0bb156ba2182ece22cfb9be7791fc6707efc4617ab9de690528",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.7.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:009:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:009:A01",
+      "question_sha256": "1c00a5dd9f2120a2f427aa96d56ef22ab0017cba2ded002af3c0a57c00e38bed",
+      "expected_answer_sha256": "91baf47be7493ef3970f4edf771d349edb96f68824620fd9325cf74bc1cd262d",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [
+        "2.7.5.2.6"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:TRAP-NACIONAL:010:A01",
+      "atlas_id": "RENATE:TRAP-NACIONAL:010:A01",
+      "question_sha256": "d7dd30046953991ec96b8ab6282d51ca2ee8f7e8f65bee40be36904ff0484ff2",
+      "expected_answer_sha256": "8b5404c79c480fed7430088fa609fe60c2396c8f727246b3d2f9d4c1ecd9fbe6",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "cbte.shotgun.trap_nacional"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ],
+      "expected_rule_locators": [],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-277F6EDC18262298"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:001:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:001:A01",
+      "question_sha256": "1c3b1561ad6bc670694c0657b73e7c769ba43794fa7dc3209673bf4ccd77ed3b",
+      "expected_answer_sha256": "c60fb073693306dc704e2942f38579cd62098409cce8d8ec7a5147e1f1df75fb",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.6.1.3",
+        "9.9.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:002:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:002:A01",
+      "question_sha256": "3c3cb91c7ac034be190263d4f15730ca3d433fa29c3b4f55336115b2dd1b5566",
+      "expected_answer_sha256": "57e3cb9c843162c80d13f42601bb3b28f90a5435f49a2205291a08afdb8d0d21",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.17.2",
+        "9.17.4.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:003:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:003:A01",
+      "question_sha256": "fcad9c13fe41178bc3d6dfba322f2fcc3ed15219a478149891719029e746aa54",
+      "expected_answer_sha256": "677e4a5bd6ee43b3adeaa3a7e7b6b320bfbe1d4c1655e0e4b28068cbbb3974a3",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.6.1.3",
+        "9.7"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:004:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:004:A01",
+      "question_sha256": "db821711737304c259b44f8752741a160a1e69411cb372d14ed670848db5308e",
+      "expected_answer_sha256": "484fc5656323826c0517d4a6bd2c0eab265d2a49c0fb1611e55de4c2119ce878",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.9.2.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:005:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:005:A01",
+      "question_sha256": "8317e55fc9c1795c7a0cae87dcc52de03600d7ea3fe54613ad1ff97a4cce67b2",
+      "expected_answer_sha256": "7fc84950f5d0722480642fe3f60d8550290a35c9e4ae83411b68d00512189a54",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.4.2.1"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:006:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:006:A01",
+      "question_sha256": "29e1bb2094397e9f61823223f35130073111d9d807966e1713038ab237e83973",
+      "expected_answer_sha256": "98e29a146862b5babc3d4514962d4e02ee96188d0b4fdbf2290d28a57f4d7268",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.4.1.3",
+        "9.9.4"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:007:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:007:A01",
+      "question_sha256": "9d1948a4c60c3cc9e9cc33a25608b8fc318392aa5522dc92a71ed758a8c3bda5",
+      "expected_answer_sha256": "60eb7f68f455483a544b1789f5cace2cc71bd2b2374f74a5ee84bb068221836a",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:008:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:008:A01",
+      "question_sha256": "95a8b6d2620f0aeee633108e4001200d681d64d0e703d09c692a7252f70e3103",
+      "expected_answer_sha256": "c7be1360ca6b3f86aa7f8db4f343e4a9f84190252f8af5d1fc9d044298aec013",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.9.1.1",
+        "9.9.2.1",
+        "9.9.2.5"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:009:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:009:A01",
+      "question_sha256": "21f9ebcaf1cf3fe348deac555e73492ee0f03d459d4f260564477ee5a0ca6958",
+      "expected_answer_sha256": "a9f80491673803bceff270f5596a538ce84cd6889f8decfe887048026b4cd647",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.14",
+        "9.17.4.2"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    },
+    {
+      "case_id": "RENATE-QA-SUPPLEMENT_50:RENATE:ISSF-SKEET:010:A01",
+      "atlas_id": "RENATE:ISSF-SKEET:010:A01",
+      "question_sha256": "cb5ef35b3a010aea5232266177ae1c07ebc2fe236bde03f43b432f42eb91521b",
+      "expected_answer_sha256": "187b8b698ce620c98679a5b757e2c4483bd55c10136c37e74c41cea5e0fc23be",
+      "expected_resolution": "MATCH_ATLAS_RECORD",
+      "duplicate_group": null,
+      "candidate_atlas_ids": [],
+      "expected_route_ids": [
+        "issf.event.14"
+      ],
+      "expected_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ],
+      "expected_rule_locators": [
+        "9.4.2.4",
+        "9.11.1.1",
+        "9.11.4"
+      ],
+      "source_group": "SUPPLEMENT_50",
+      "source_status": "USER_DIRECTED_IMPORT_2026-11-07",
+      "expected_document_source_ids": [
+        "ADANA-SRC-2A79B10E08375DE1"
+      ]
+    }
+  ]
+}

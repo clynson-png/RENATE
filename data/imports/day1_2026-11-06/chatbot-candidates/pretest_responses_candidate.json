@@ -1,0 +1,480 @@
+{
+  "collected_on": "2026-11-06",
+  "entries": [
+    {
+      "route_id": "wsps.event.p4",
+      "case_id": "p4_clarify_unbound_caliber",
+      "case_kind": "NEGATIVE",
+      "question": "Qual o calibre da pistola?",
+      "answer": "Qual prova ou modalidade e entidade esportiva você quer consultar? O calibre pode variar conforme a regra aplicável.",
+      "recorded_case_status": "PASS",
+      "answer_status": "CLARIFICATION_REQUIRED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [],
+      "source_ids_cited": [],
+      "citation_locators": [],
+      "cards_observed": null,
+      "evidence_artifact": "audit/route_governance_v1/route44_p4_unbound_caliber_clarification_pass_20261105.json",
+      "evidence_sha256": "FD073BD543AFD1D9DC0C9E4056BDED3EBEAB99C2A45DC76E819A367B4B6B9ED8",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p4",
+      "case_id": "p4_event_eligibility_category_and_requirements",
+      "case_kind": "POSITIVE",
+      "question": "Quem pode participar da prova WSPS P4 e quais são os requisitos de elegibilidade?",
+      "answer": "Para participar da prova WSPS P4 (50m Pistol), os requisitos de elegibilidade são: \n- Evento: 50m Pistol\n- Gênero: Aberto\n- Classe esportiva: SH1",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "source_ids_cited": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "citation_locators": [
+        "PDF p. 11",
+        "WSPS §2.1.1, linha P4 / tabela Event, Discipline, Gender, Class"
+      ],
+      "cards_observed": {
+        "id": "WSPS_EVENT_P4_QUALIFICATION_V1",
+        "event_id": "wsps.event.p4",
+        "phase": "qualification",
+        "filename": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+        "sha256": "cbd137e3d65dd66b0b2ff5adcb12486d3ddfba8603ffb8f19568e73c7392f117",
+        "role": "visual_supplement_only"
+      },
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+      "evidence_sha256": "1F17D6A49385867C8D86D1FB47AB35A64FFC2623F265306035651C8151D54266",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p4",
+      "case_id": "p4_event_overview_cards_and_generic_relations",
+      "case_kind": "POSITIVE",
+      "question": "Como é a prova WSPS P4 (50m Pistol)?",
+      "answer": "A prova WSPS P4 (50m Pistol) é uma prova aberta para homens e mulheres, com 60 disparos de 50 metros, tempo limite de 1h30 para alvos eletrônicos e 1h45 para carregadores ou poços operados. Os detalhes estão descritos no WSPS Rulebook 2026_vFinal, páginas 9 e 46.",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "PHASE_CARDS",
+      "accepted_delivery_modes": [
+        "PHASE_CARDS"
+      ],
+      "source_ids_cited": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "citation_locators": [
+        "PDF p. 46",
+        "PDF p. 9",
+        "WSPS §5.1.3, linha P4 / Shots",
+        "WSPS §5.1.3, linha P4 / Time columns"
+      ],
+      "cards_observed": [
+        {
+          "id": "WSPS_EVENT_P4_FINAL_V1",
+          "event_id": "wsps.event.p4",
+          "phase": "final",
+          "filename": "ADANA_WSPS_EVENT_P4_FINAL_PHASE_CARD_V1.svg",
+          "sha256": "d8738a47c4dadcd782ff9712a2dd6dac748d343d66db1beb81a51e0ca4d40609",
+          "role": "visual_supplement_only"
+        },
+        {
+          "id": "WSPS_EVENT_P4_QUALIFICATION_V1",
+          "event_id": "wsps.event.p4",
+          "phase": "qualification",
+          "filename": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+          "sha256": "cbd137e3d65dd66b0b2ff5adcb12486d3ddfba8603ffb8f19568e73c7392f117",
+          "role": "visual_supplement_only"
+        }
+      ],
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+      "evidence_sha256": "1F17D6A49385867C8D86D1FB47AB35A64FFC2623F265306035651C8151D54266",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p4",
+      "case_id": "p4_original_contract_question_qualification_count",
+      "case_kind": "POSITIVE",
+      "question": "Qual é o total de disparos da qualificação da prova WSPS P4 (50m Pistol)?",
+      "answer": "60",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "source_ids_cited": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "citation_locators": [
+        "PDF p. 46",
+        "WSPS §5.1.3, linha P4 / Shots",
+        "WSPS §5.1.3, linha P4 / Time columns"
+      ],
+      "cards_observed": {
+        "id": "WSPS_EVENT_P4_QUALIFICATION_V1",
+        "event_id": "wsps.event.p4",
+        "phase": "qualification",
+        "filename": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+        "sha256": "cbd137e3d65dd66b0b2ff5adcb12486d3ddfba8603ffb8f19568e73c7392f117",
+        "role": "visual_supplement_only"
+      },
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+      "evidence_sha256": "1F17D6A49385867C8D86D1FB47AB35A64FFC2623F265306035651C8151D54266",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p4",
+      "case_id": "p4_precedence_wsps_over_issf",
+      "case_kind": "PRECEDENCE",
+      "question": "Se houver conflito entre regra ISSF e regra específica WSPS aplicável à P4, qual prevalece?",
+      "answer": "A regra WSPS específica prevalece sobre a ISSF subsidiária, conforme WSPS §1.1.3.",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "source_ids_cited": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "citation_locators": [
+        "PDF p. 352",
+        "WSPS §2.17.1",
+        "WSPS §§1.1.3 e 2.17.1"
+      ],
+      "cards_observed": {
+        "id": "WSPS_EVENT_P4_QUALIFICATION_V1",
+        "event_id": "wsps.event.p4",
+        "phase": "qualification",
+        "filename": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+        "sha256": "cbd137e3d65dd66b0b2ff5adcb12486d3ddfba8603ffb8f19568e73c7392f117",
+        "role": "visual_supplement_only"
+      },
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+      "evidence_sha256": "1F17D6A49385867C8D86D1FB47AB35A64FFC2623F265306035651C8151D54266",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p4",
+      "case_id": "p4_qualification_rag_score_calculation",
+      "case_kind": "POSITIVE",
+      "question": "Calcule a pontuação máxima da qualificação P4 e mostre os operandos e a regra de pontuação.",
+      "answer": "A pontuação máxima da qualificação P4 é 600 pontos (60 disparos × 10 pontos por disparo).",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "source_ids_cited": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "citation_locators": [
+        "ISSF §6.3.3.2; WSPS §§1.1.3 e 2.17.1",
+        "ISSF §§6.3.3.2 e 6.3.4.5; WSPS §2.17.1",
+        "PDF p. 46",
+        "WSPS §5.1.3 e ISSF §6.3.3.2 sob WSPS §2.17.1",
+        "WSPS §5.1.3, linha P4 / Shots",
+        "WSPS §5.1.3, linha P4 / Time columns"
+      ],
+      "cards_observed": {
+        "id": "WSPS_EVENT_P4_QUALIFICATION_V1",
+        "event_id": "wsps.event.p4",
+        "phase": "qualification",
+        "filename": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+        "sha256": "cbd137e3d65dd66b0b2ff5adcb12486d3ddfba8603ffb8f19568e73c7392f117",
+        "role": "visual_supplement_only"
+      },
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+      "evidence_sha256": "1F17D6A49385867C8D86D1FB47AB35A64FFC2623F265306035651C8151D54266",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p4",
+      "case_id": "p4_qualification_time_and_shots",
+      "case_kind": "POSITIVE",
+      "question": "Quantos disparos e quais tempos de prova constam da tabela WSPS para a qualificação P4?",
+      "answer": "A tabela WSPS para a qualificação P4 consta 60 disparos. Os tempos de prova são: 1:30 para alvos eletrônicos e 1:45 para transportadores-alvo e competições com pit-operated.",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "accepted_delivery_modes": [
+        "QWEN_ANSWER"
+      ],
+      "source_ids_cited": [
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "citation_locators": [
+        "OCR traduzido página 46, linhas 1-1",
+        "WSPS §5.1.3, linha P4 / Shots",
+        "WSPS §5.1.3, linha P4 / Time columns"
+      ],
+      "cards_observed": {
+        "id": "WSPS_EVENT_P4_QUALIFICATION_V1",
+        "event_id": "wsps.event.p4",
+        "phase": "qualification",
+        "filename": "ADANA_WSPS_EVENT_P4_QUALIFICATION_PHASE_CARD_V1.svg",
+        "sha256": "cbd137e3d65dd66b0b2ff5adcb12486d3ddfba8603ffb8f19568e73c7392f117",
+        "role": "visual_supplement_only"
+      },
+      "evidence_artifact": "audit/route_governance_v1/wsps_event_p4_focused_results_v1.json",
+      "evidence_sha256": "1F17D6A49385867C8D86D1FB47AB35A64FFC2623F265306035651C8151D54266",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p5",
+      "case_id": "p5_final_no_final_direct_horus_card",
+      "case_kind": "POSITIVE",
+      "question": "Como é a final da prova WSPS P5?",
+      "answer": "A prova WSPS P5 não tem final.",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "PHASE_CARDS + QWEN_ANSWER",
+      "source_ids_cited": [
+        "ADANA-SRC-3B1650384F55C206",
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "citation_locators": [
+        "PDF p. 9",
+        "WSPS Regulations §1.2.2.2, PDF p. 13; finais exigidas para todos os eventos exceto P5"
+      ],
+      "cards_observed": {
+        "id": "WSPS_EVENT_P5_FINAL_V1",
+        "event_id": "wsps.event.p5",
+        "phase": "final",
+        "filename": "WSPS_P5_No_Final.svg",
+        "sha256": "6141a1eb73083b0dad384998a8d019f87e8d7bafdfd08666c398d4706a871944",
+        "role": "visual_supplement_only"
+      },
+      "evidence_artifact": "audit/route_governance_v1/route45_p5_gate02_no_final_card_criteria_pass_20261105.json",
+      "evidence_sha256": "7D3651A5CD4305603D1E72C3B88F5959262B18354C6EA4C80C3144732982B5FA",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "rollup_route_state": "UNVERIFIED",
+      "human_adjudication": null,
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p5",
+      "case_id": "p5_eligibility_category",
+      "case_kind": "POSITIVE",
+      "question": "Quem pode participar da WSPS P5?",
+      "answer": "P5 é um evento de pistola de ar de 10m para homens e mulheres, com a classe SH1, e é marcado como evento não paralímpico na tabela WSPS.",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "PHASE_CARDS + QWEN_ANSWER",
+      "source_ids_cited": [
+        "ADANA-SRC-3B1650384F55C206",
+        "ADANA-SRC-892D95743F291E6F"
+      ],
+      "citation_locators": [
+        "Appendix 1, p. 2; consultar também as regras aplicáveis de licença/classificação",
+        "PDF p. 11",
+        "PDF p. 46",
+        "WSPS §2.1.1, P5 row",
+        "WSPS §2.1.1, marca * e nota de evento não paralímpico",
+        "WSPS §2.1.1, row P5",
+        "WSPS §2.1.1, row P5 / Class",
+        "WSPS §2.1.1, row P5 / Discipline",
+        "WSPS §2.1.1, row P5 / Event",
+        "WSPS §2.1.1, row P5 / Gender"
+      ],
+      "cards_observed": {
+        "id": "WSPS_EVENT_P5_QUALIFICATION_V1",
+        "event_id": "wsps.event.p5",
+        "phase": "qualification",
+        "filename": "WSPS_P5_Qualification.svg",
+        "sha256": "9d80a2d0271b0b24ce02cccac7267a2adae9557a0f7469d3ce5140b11451b811",
+        "role": "visual_supplement_only"
+      },
+      "evidence_artifact": "audit/route_governance_v1/route45_p5_gate04_eligibility_retry_20261105.json",
+      "evidence_sha256": "A2D7AB5D19A83EFF2D34B0AF949004EB07C3133EC7816EDCE2A59FB51A9A94E3",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "rollup_route_state": "UNVERIFIED",
+      "human_adjudication": null,
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p5",
+      "case_id": "p5_original_magazine_capacity_query",
+      "case_kind": "POSITIVE",
+      "question": "Na prova WSPS P5 de pistola de ar standard 10 m, quantos chumbinhos o carregador deve comportar?",
+      "answer": "O carregador deve comportar cinco (5) chumbinhos.",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "PHASE_CARDS + QWEN_ANSWER",
+      "source_ids_cited": [
+        "ADANA-SRC-2A79B10E08375DE1",
+        "ADANA-SRC-3B1650384F55C206"
+      ],
+      "citation_locators": [
+        "PDF p. 30",
+        "PDF p. 352",
+        "WSPS Appendix 6 §1.1, p. 30",
+        "WSPS Appendix 6 §1.2, p. 30; §3, p. 34",
+        "WSPS Appendix 6 §3, Grips, p. 34",
+        "WSPS Appendix 6 §3, Other specifications, p. 34",
+        "WSPS Appendix 6 §3, p. 34"
+      ],
+      "cards_observed": [
+        {
+          "id": "WSPS_EVENT_P5_FINAL_V1",
+          "event_id": "wsps.event.p5",
+          "phase": "final",
+          "filename": "WSPS_P5_No_Final.svg",
+          "sha256": "6141a1eb73083b0dad384998a8d019f87e8d7bafdfd08666c398d4706a871944",
+          "role": "visual_supplement_only"
+        },
+        {
+          "id": "WSPS_EVENT_P5_QUALIFICATION_V1",
+          "event_id": "wsps.event.p5",
+          "phase": "qualification",
+          "filename": "WSPS_P5_Qualification.svg",
+          "sha256": "9d80a2d0271b0b24ce02cccac7267a2adae9557a0f7469d3ce5140b11451b811",
+          "role": "visual_supplement_only"
+        }
+      ],
+      "evidence_artifact": "audit/route_governance_v1/route45_p5_v2_case05_magazine_retry_20261105.json",
+      "evidence_sha256": "F74D5D5F60E1F9992A2D8941EF8936F8BB0C2D149F67B268E334AE7A4772135F",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "rollup_route_state": "UNVERIFIED",
+      "human_adjudication": null,
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p5",
+      "case_id": "p5_negative_issf25m_facts",
+      "case_kind": "NEGATIVE",
+      "question": "Aplique à P5 as regras da ISSF Standard Pistol 25m.",
+      "answer": "Para aplicar as regras da ISSF Standard Pistol 25m à P5, é necessário verificar a disciplina e as condições específicas do evento. A P5 é uma prova de 10m Air Pistol Standard, não 25m Pistol, conforme a disciplina definida no evento WSPS P5. Portanto, não há regras da ISSF Standard Pistol 25m aplicáveis à P5, já que a P5 segue as regras da 10m Air Pistol Standard.",
+      "recorded_case_status": "PASS",
+      "answer_status": "HUMAN_ADJUDICATED_ANSWER",
+      "delivery_mode": "QWEN_ANSWER_SEMANTIC_EQUIVALENCE; human adjudication",
+      "source_ids_cited": "ADANA-SRC-892D95743F291E6F",
+      "citation_locators": null,
+      "cards_observed": null,
+      "evidence_artifact": "audit/route_governance_v1/route45_p5_v2_case06_issf25m_semantic_adjudication_20261105.json",
+      "evidence_sha256": "EB9957E911396FD8B227C41401874348DEF3CB8B69AA787006A7F3256EE3EB72",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "rollup_route_state": "UNVERIFIED",
+      "human_adjudication": "PASS",
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p5",
+      "case_id": "p5_route_identity_precedence",
+      "case_kind": "PRECEDENCE",
+      "question": "Na prova WSPS P5 10m Air Pistol Standard, qual é o calibre admitido?",
+      "answer": "4.5 mm (.177)",
+      "recorded_case_status": "PASS",
+      "answer_status": "ANSWERED",
+      "delivery_mode": "QWEN_ANSWER",
+      "source_ids_cited": "ADANA-SRC-3B1650384F55C206",
+      "citation_locators": [
+        "OCR traduzido página 30, linhas 1-1",
+        "PDF p. 30",
+        "PDF p. 34",
+        "WSPS Appendix 6 §1.1, p. 30",
+        "WSPS Appendix 6 §1.2, p. 30; §3, p. 34",
+        "WSPS Appendix 6 §3, Grips, p. 34",
+        "WSPS Appendix 6 §3, Other specifications, p. 34",
+        "WSPS Appendix 6 §3, p. 34"
+      ],
+      "cards_observed": [
+        {
+          "id": "WSPS_EVENT_P5_FINAL_V1",
+          "event_id": "wsps.event.p5",
+          "phase": "final",
+          "filename": "WSPS_P5_No_Final.svg",
+          "sha256": "6141a1eb73083b0dad384998a8d019f87e8d7bafdfd08666c398d4706a871944",
+          "role": "visual_supplement_only"
+        },
+        {
+          "id": "WSPS_EVENT_P5_QUALIFICATION_V1",
+          "event_id": "wsps.event.p5",
+          "phase": "qualification",
+          "filename": "WSPS_P5_Qualification.svg",
+          "sha256": "9d80a2d0271b0b24ce02cccac7267a2adae9557a0f7469d3ce5140b11451b811",
+          "role": "visual_supplement_only"
+        }
+      ],
+      "evidence_artifact": "audit/route_governance_v1/route45_p5_v2_q8_identity_precedence_20261105.json",
+      "evidence_sha256": "FB22D2CB280D42A5C0FA585C4CF5ECA70320F9D951CF8AF3C14A262FB52B2D9E",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "rollup_route_state": "UNVERIFIED",
+      "human_adjudication": null,
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    },
+    {
+      "route_id": "wsps.event.p5",
+      "case_id": "p5_clarify_unbound_caliber",
+      "case_kind": "NEGATIVE",
+      "question": "Qual o calibre da pistola?",
+      "answer": "Qual prova ou modalidade e entidade esportiva você quer consultar? O calibre pode variar conforme a regra aplicável.",
+      "recorded_case_status": "PASS",
+      "answer_status": "CLARIFICATION_REQUIRED",
+      "delivery_mode": "CLARIFICATION_REQUIRED",
+      "source_ids_cited": null,
+      "citation_locators": [],
+      "cards_observed": null,
+      "evidence_artifact": "audit/route_governance_v1/route45_p5_v2_q12_generic_caliber_clarification_20261105.json",
+      "evidence_sha256": "333B50D22FC7EFD53B60294F53DFBA69965ED1BCC9A70F132D47FFE58CEC2CE4",
+      "route_registry_approval": "LOCKED",
+      "route_registry_approved_by": "user",
+      "rollup_route_state": "UNVERIFIED",
+      "human_adjudication": null,
+      "candidate_for_chatbot_bank": true,
+      "candidate_reason": "Candidate for human semantic/source review; not approved for runtime.",
+      "full_diagnostic_or_source_passages_copied": false
+    }
+  ],
+  "count": 13,
+  "schema": "RENATE_PRETEST_RESPONSE_CANDIDATES_V1",
+  "state": "CANDIDATE_ONLY_NOT_RUNTIME_APPROVED"
+}

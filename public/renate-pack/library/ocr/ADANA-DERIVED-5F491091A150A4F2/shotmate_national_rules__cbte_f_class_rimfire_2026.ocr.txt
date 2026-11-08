@@ -1,0 +1,306 @@
+DOCUMENT TITLE: Carabina F-Class Rimfire
+
+SOURCE PDF: docs/Library/Regulamentos_2026/Regulamento-Carabina-F-Class-Rimfire-05012026.pdf
+
+DOCUMENT EDITION: Atualizado em 05/01/2026
+
+SOURCE YEAR: 2026
+
+RULE AUTHORITY: CBTE / NRA
+
+
+
+--- PAGE 1 ---
+REGULAMENTO
+       DE
+    CARABINA
+  F-CLASS Rimfire
+
+                      Atualizado em 05/01/2026
+
+t
+[IMAGE/DIAGRAM PAGE: embedded text is partial; visual contents require image reading.]
+
+--- PAGE 2 ---
+Confederação Brasileira de Tiro Esportivo
+                    Regulamento de Carabina F-Class Rimfire
+                                                        Atualizado em 05/01/2026
+
+I- Finalidade
+   Regulamentar a prova de F-Class Rimfire no âmbito da Confederação Brasileira de Tiro Esportivo.
+
+II- Descrição da Prova
+ a) Distância
+   100 (cem) metros.
+
+ b) Alvo
+   1. Alvo oficial CBTE Fabricante: LCL, COD: 09H
+   2. Alvo oficial de F-Class Rimfire compostos por círculos concêntricos azuis com anéis de escore brancos
+   nos valores de 5, 6, 7, 8, 9, 10 e X.
+   3. Os alvos terão suas medidas proporcionais nas distâncias que serão utilizados, mantendo a relação
+   de tamanho, de acordo com a regra oficial internacional da NRA.
+   4. Para fins de melhor visualização dos impactos, em especial quando não houver trincheiras no estande
+   para sua marcação, o círculo concêntrico será padronizado na cor azul.
+   5.  Alvo possui a medida total de 700 x 700 mm contendo 06 (seis) alvos circulares de prova à direita
+  com linhas de 1,2 mm com as demais medidas abaixo informadas e 02 dois alvos de ensaio à esquerda
+   sendo 01(um) no formato CROSSHAIR.
+   6. Os alvos de prova F-Class Rimfire de 100 metros possui as seguintes medidas:
+       Anéis de pontuação   Diâmetr
+               (preto)         o (mm)
+             X             13
+
+              10             26
+
+              9             54
+
+              8             82
+              7             109
+
+              6             165
+
+              5             220
+
+ c) Posição
+   1. Deitado (Prone).
+   2. Corpo estendido no chão, vedada a utilização de estruturas elevadas, cabeça na direção do alvo.
+   3. O carregador não pode encostar no solo de forma a propiciar apoio artificial.
+   4. O Rifle deverá ser disparado a partir do ombro do atirador.
+
+ d) Competição
+   1. Tempo de preparação: 05 minutos, cumprindo as regras de segurança no deslocamento e manuseio das
+   armas.
+   2. Tempo de prova: 25 minutos, com número de disparos ilimitados nos (02) alvos de ensaio a esquerda.
+   3. Alvos de prova: total de 30 impactos que pontuam nos 06 alvos a direita, sendo 05 impactos em cada alvo:
+       a) Todos os disparos deverão ser feitos alimentando-se ao armar um a um, mesmo que a arma possua
+      carregador para mais de uma munição.
+      b) Expressamente vedada a reentrada na disciplina F-Class Rimfire.
+
+      Obs.: Poderão ser utilizadas armas semiautomáticas, porém será obrigatória a alimentação de um a um
+     no carregador ou diretamente na câmara.
+
+                                                                            2
+
+--- PAGE 3 ---
+Confederação Brasileira de Tiro Esportivo
+                   Regulamento de Carabina F-Class Rimfire
+                                                       Atualizado em 05/01/2026
+
+e) Comandos:
+
+  • "Atenção senhores atiradores, ocupem seus postos!”
+  • Ocupados os postos…
+  • "Seu tempo de 05 minutos de preparação começará a partir de AGORA!"
+  • Após 5 minutos…
+  • “Tempo de preparação ENCERRADO!”
+  • “Atiradores prontos”
+  • "Seu tempo de 25 minutos para ensaio livre e 30 disparos de prova começará AGORA!"
+  • “CESSAR”!
+  • “Prova encerrada armas abertas em segurança, retirem seus carregadores e utilizem Safety Flag, bandeira
+ de segurança ou indicador de câmara vazia!
+  • Aguardar comando para guardar o equipamento!
+
+  Obs.: *Armas em segurança significa: abertas e descarregadas, com safety flag ou em seus invólucros.
+ *Não é permitido o municiamento durante o tempo de preparação.
+ *O Árbitro da prova não precisará avisar voluntariamente aos competidores da passagem do tempo. Os
+  atletas poderão perguntar aos Árbitros de prova sobre o tempo restante. A pergunta e a resposta deverão
+  ser feitas em um tom que não perturbe outros competidores.
+ *O Árbitro de Prova poderá dar outros comandos não previstos nesta regra.
+  * Cessar Fogo: Todos os competidores deverão parar de atirar imediatamente ao ouvir o comando
+  “CESSAR”. Todos os rifles devem ser descarregados, os carregadores destacáveis removidos e as ações
+  abertas ao ouvir se este comando. Tal comando pode ser dado por qualquer pessoa no estande que detecte
+  situação de insegurança.
+
+f) Falhas de munição;
+ Não Serão consideradas como zero, o atleta poderá substituir por outra e deixa-la a mostra para comprovação.
+
+g) Falhas da arma;
+  Serão consideradas como zero, caso o atleta não consiga sanar a pane em seu posto de tiro em segurança.
+
+h) Apuração;
+  1. Os alvos poderão ser apurados na linha de tiro ou, a critério do delegado no local da prova.
+  2. Os impactos serão computados baseados no diâmetro do projétil disparado naquele alvo, computando-
+  se o anel de maior valor em contato com a borda do furo deixado pelo projétil.
+  3. O escore deverá computar a quantidade de pontos e o número de X (centros) em decimais, por exemplo:
+  280 pontos e 12X = 280,12.
+  4. Nos casos de difícil determinação, será dado o maior valor em benefício do atirador.
+  5. Impactos fora dos anéis de escores serão computados como zero. O mesmo ocorrendo caso o
+  atirador efetue menos disparos do que o requerido, ou se disparar em alvo errado.
+
+i) Penalização para tiros dados há mais;
+  1. Em caso de um tiro cruzado, tal fato deverá ser imediatamente comunicado ao árbitro. O tiro cruzado
+ não será contado no alvo que foi atingido acidentalmente. O autor do disparo cruzado, quando identificado,
+
+                                                                           3
+
+--- PAGE 4 ---
+Confederação Brasileira de Tiro Esportivo
+                    Regulamento de Carabina F-Class Rimfire
+                                                        Atualizado em 05/01/2026
+
+   será penalizado em menos 10 (dez) pontos na contagem final. Ao autor do tiro cruzado é vedada, a
+   repetição do disparo.
+   2. Se o disparo cruzado impactar um alvo em que um tiro legítimo já tenha sido efetuado pelo atleta e na
+   impossibilidade de identificar o autor do disparo, será considerado o impacto de maior valor não
+   causando prejuízo ao atleta.
+   3. Disparos em excesso, nesse caso será penalizado com menos 10 (dez) pontos por disparo a mais
+   realizado, considerando-se os excedentes aos 30 disparos regulamentares.
+
+III- Divisões
+ a) Divisão Open
+ ●  Rifle de fogo circular que utilize calibre igual a 4,5 ou 5,5 milímetros Ex: (17-HMR, 22-LR, 22-MAG).
+    Qualquer sistema de mira ótica e visada é permitido, porém será incluído no peso total do rifle.
+ ● O peso total do rifle inclui todos os equipamentos aderidos ao rifle, como bandoleira, miras, Bipé, etc., e
+    não poderá exceder 9,0 quilogramas (aprox. 19,84 libras). Um equipamento aderido inclui qualquer
+    objeto externo que não o competidor ou sua roupa, que recue total ou parcialmente com o rifle, em que
+    é preso, seguro ou juntado de qualquer forma para cada disparo, ou que seja levantado com o rifle, mesmo
+    que parcialmente, quando este é suspenso de seus apoios.
+ ●  Qualquer gatilho manualmente operado que atenda aos requisitos de segurança é permitido.
+ ● A largura do forend (fuste) do rifle não deverá exceder 76 mm aprox. 3 polegadas.
+ ● O rifle deve ser disparado na posição deitado, a partir do ombro do atirador podendo ser utilizados os
+    apoios dianteiro e traseiro definidos no item “b)”.
+
+ b) Apoios na Open
+   1. O rifle poderá ser apoiado na dianteira do final do forend/fuste até a frente do guarda mato por
+   qualquer meio, desde que este não seja um meio mecânico que ativamente retorne a arma ao ponto
+   específico de visada do disparo anterior. Se for utilizado o Bipé, este deve ser preso de qualquer forma ao
+    rifle e este apoio deverá ser incluído no peso total do rifle. Como apoio na parte traseira é permitido o uso
+   de saco de areia, no formato de orelha de coelho ou saco de areia ou mão usando luvas que não sejam
+    rígidas.
+   2. Não poderão ser utilizados mais do que dois apoios e estes não poderão ser ligados um ao outro de
+  nenhuma forma.
+   3. A utilização de qualquer forma de mesa ou estruturas elevadas que fiquem entre o atleta e o solo é
+   proibida. Placas planas separadas que não excedam o tamanho dos apoios por duas polegadas 5
+   centímetros são permitidos de serem colocadas abaixo dos apoios dianteiro e traseiro. Não é permitido o
+   uso de qualquer dispositivo de nivelamento nessas placas que devem ser planas nas superfícies superior
+   e inferior.
+   4. Nenhuma parte da coronha ou da empunhadura do rifle pode repousar diretamente no chão, placa ou
+   superfície rígida. Qualquer apoio traseiro empregado não pode ser preso ou rigidamente conectado ao
+    rifle de qualquer maneira. Quaisquer apoios traseiros mecanicamente ajustáveis não são permitidos.
+   5. Uma alternativa lícita de apoio frontal/central é o uso de uma jaqueta, toalha, coberta enrolada, ou em
+   cima de um saco de areia ou qualquer outro material.
+   6. Qualquer número de objetos pode ser colocado abaixo dos apoios para compensar variações de altura
+  no posto de tiro ou para reduzir o desnível entre o atleta e o alvo.
+   7. O apoio dianteiro poderá ter até 3 três pés cravados e pressionados sobre o chão, desde que esses pinos
+   de cravação ou espetos não entrem no solo mais do que 2 polegadas ou 5 centímetros e que essa cravação
+   não danifique de forma significativa o posto de tiro.
+
+                                                                            4
+
+--- PAGE 5 ---
+Confederação Brasileira de Tiro Esportivo
+                   Regulamento de Carabina F-Class Rimfire
+                                                       Atualizado em 05/01/2026
+
+  8. Os apoios podem ser reajustados após cada disparo de forma a compensar sua movimentação ou ajuste.
+ Uma bandoleira poderá ser utilizada em junção com o(s) apoio(s), mas o seu peso será incluído no peso
+  total da arma.
+
+c) Divisão F-T/R
+•  Rifle de fogo circular restrito aos calibres 22-LR sem qualquer modificação nas suas dimensões originais,
+   sendo expressamente vedada a utilização de armas com refinador de harmônico, Tuner ou cano BULL com
+   medida superior 16 mm/0.629921’’ na boca do cano.
+•  Para a obtenção da medida da boca do cano que eventualmente possua uma sessão de rosca ou
+   rebaixamento destinado a instalação de acessórios em sua extremidade frontal, a medição será realizada
+   tendo como referência o diâmetro imediatamente anterior ao início do rebaixamento ou fio de rosca.
+•  Qualquer gatilho manualmente operado que atenda aos requisitos de segurança é permitido.
+•  Qualquer sistema de mira ótica e visada é permitido, porém será incluído no peso total do rifle.
+• O rifle deve ser disparado na posição deitado a partir do ombro do atirador.
+• O peso total do rifle inclui todos os equipamentos aderidos ao rifle, como Bipé, bandoleira, miras,
+   carregador etc. E não deverá exceder 4,400 quilogramas (aprox. 9,7 libras). Um equipamento aderido
+    inclui qualquer objeto externo que não o competidor ou sua roupa, que recue total ou parcialmente com
+  o rifle em que é preso, seguro ou juntado de qualquer forma para cada disparo, ou que seja, mesmo que
+   parcialmente, levantado com o rifle quando este é suspendido de seus apoios.
+
+d) Apoios na F-T/R
+     1. O rifle deve ser disparado utilizando-se como apoio dianteiro de um Bipé, rigidamente conectado no
+     fuste dianteiro do rifle e/ou na bandoleira. Qualquer Bipé, atendendo a definição de Bipé, pode ser
+      utilizado, mas seu peso será incluído no peso total do rifle.
+     2. Um Bipé e/ou bandoleira são os únicos apoios frontais permitidos. O Bipé e/ou bandoleira não
+    poderá ser ou ter um meio mecânico que ativamente retorne a arma ao ponto específico de visada do
+     disparo anterior, podendo ser usado como apoio na parte traseira um saco de areia no formato de
+     orelha de coelho ou saco de areia ou mão usando luvas que não sejam rígidas.
+     3. O Bipé e/ou bandoleira e o apoio traseiro não podem estar interligados de qualquer forma.
+     4. A utilização de qualquer forma de mesa ou estruturas elevadas que fiquem entre o atleta e o solo é
+     proibida. Placas ou chapas separadas que não excedam a dimensão individual dos apoios por duas
+     polegadas ou cinco centímetros são permitidas de serem colocadas abaixo desses apoios. No caso de
+     Bipés, a placa ou chapa não pode exceder a largura do Bipé por 2 polegadas ou 5 centímetros ou ser
+    maior do que 12 polegadas ou 30,5 centímetros de comprimento de frente para trás. Nenhuma
+    regulagem de parafuso ou de protrusão existente nas placas ou chapas é permitida. Essa chapa ou
+     placa deve ser completamente lisa na superfície superior e inferior.
+     5. Um Bipé é um dispositivo que tem não mais do que duas pernas tocando a posição de tiro. O Bipé
+    deve ser rigidamente conectado ao fuste do rifle. O Bipé pode ser rígido ou ter as pernas articuláveis,
+   bem como podem também ser articulados de forma a compensar eventual desnivelamento do posto
+    de tiro.
+     6. Nenhuma parte do rifle poder tocar o solo ou superfície rígida. Nenhum suporte traseiro deve ser
+     conectado, fixado ou seguro no rifle de quaisquer maneiras. Qualquer suporte traseiro ajustável
+    mecanicamente não é permitido.
+     7. “Rail Guns” (armas sobre trilhos rígidos) e/ou equipamentos mecânicos que ativamente retornem a
+    arma ao ponto específico de visada do disparo anterior, não são permitidos.
+
+                                                                           5
+
+--- PAGE 6 ---
+Confederação Brasileira de Tiro Esportivo
+                    Regulamento de Carabina F-Class Rimfire
+                                                        Atualizado em 05/01/2026
+
+IV- Outros equipamentos
+ 1. Vestimentas
+  ● É permitido o uso de luvas maleáveis, próprias de tiro esportivo;
+  ● Ombreiras, bandoleiras almofadadas e cotoveleiras podem ser utilizadas desde que não sejam
+   constituídos de forma a prestar apoio adicional ao rifle;
+  ● Casacos, calças e outras vestimentas de tiro esportivo (ex: ISSF) poderão ser utilizadas;
+  ● Coberta, pano ou material sintético para separar o contato com o chão pode ser utilizado desde que não
+   possibilitem ou prestem apoio adicional;
+  ● Será permitido o uso de calçados comuns, casuais, de trabalho ou botas do tipo de caça, permanecendo
+   vedado o uso de roupas no estilo jeans e camuflados, bem como sandálias (dedos e/ou calcanhares à
+   mostra) e/ou o não uso de calçados.
+
+   2. Óculos de Proteção e protetor auricular
+   É de responsabilidade e dever de cada atleta e demais pessoas na linha de tiro a utilização de EPI.
+
+   3. Bandeiras de vento
+   É permitido e recomenda-se a instalação a variadas distâncias entre a linha de tiro e os alvos, pela
+   organização da prova ou, mesmo pelo atleta desde que previamente aprovado pelo Árbitro da Prova, e
+   observando a segurança no estande. As bandeiras de vento podem ser as tradicionais de NRA Highpower
+   (forma triangular, com 18 polegadas de largura na base e 12 polegadas na ponta, com 48 polegadas de
+   comprimento, divididas ao meio pelas cores vermelho e amarelo), ou fitas nas cores vermelho, laranja ou
+   amarelo, de preferência com 1 metro de comprimento e pelo menos 2,5cm de largura.
+
+   4. Aparelhos eletrônicos
+  Não poderão ser utilizados nos postos de tiro, dispositivos como rádios, celulares, anemômetros ou
+   qualquer outro equipamento que produza som ou meio de comunicação com atleta.
+
+   5. Luneta de observação
+   É permitido somente pelo atleta em prova utilizar uma luneta de observação para verificar os impactos
+  em seu alvo e/ou condições atmosféricas do estande.
+
+   6. Dispositivos laser
+  Não é permitido o seu uso pelo atleta ou espectador, estando ou não acoplado à arma.
+
+   7. Munição
+   Qualquer tipo de munição pode ser utilizado, desde que não represente perigo para os competidores,
+   pessoal da organização, ou equipamentos e estruturas do estande. Munição traçante ou incendiária são
+   proibidas. Qualquer munição que repetidamente “estoure” as espoletas ou rache ou separe os estojos
+   será considerada como defeituosa ou insegura e deverá ser removida da linha de tiro.
+
+   8. Compensadores ou quebra-chamas
+  O uso de compensadores ou quebra-chamas é proibido em ambas as divisões.
+
+                                                                            6
+
+--- PAGE 7 ---
+Confederação Brasileira de Tiro Esportivo
+                    Regulamento de Carabina F-Class Rimfire
+                                                        Atualizado em 05/01/2026
+
+V- Classes
+  • Serão disputadas em classes de acordo com regulamento geral.
+
+VI- Casos Omissos, Divergência ou Dúvida neste regulamento
+ Os casos omissos e eventuais divergências caso ocorram, serão resolvidos pela Comissão Técnica.
+
+ Em qualquer caso, sempre terá prevalência as regras no formato original e que podem ser
+ encontradas em: http://www.nrahq.org/compete/RuleBooks/HPR/hpr-index.pdf
+
+                                                                            7

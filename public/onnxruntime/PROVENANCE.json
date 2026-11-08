@@ -1,0 +1,33 @@
+{
+  "package": "onnxruntime-web",
+  "version": "1.22.0-dev.20250409-89f8206ba4",
+  "transformer_package": "@huggingface/transformers",
+  "transformer_version": "3.8.1",
+  "files": [
+    {
+      "path": "LICENSE-ONNXRUNTIME-MIT.txt",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "path": "LICENSE-TRANSFORMERS-APACHE-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 407,
+      "sha256": "4cd90b5455f92b960dc38d5d8d3d9fbe141061ead0ac76c08b4a5090922e959e"
+    },
+    {
+      "path": "ort-wasm-simd-threaded.jsep.mjs",
+      "bytes": 44484,
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9"
+    },
+    {
+      "path": "ort-wasm-simd-threaded.jsep.wasm",
+      "bytes": 21596019,
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1840" viewBox="0 0 1500 1840">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#061b29"/><stop offset="1" stop-color="#0a1118"/></linearGradient></defs>
+<rect width="1500" height="1840" rx="34" fill="url(#bg)"/><rect x="22" y="22" width="1456" height="1796" rx="28" fill="none" stroke="#00cfe5" stroke-width="5"/>
+<text x="70" y="94" fill="#4bd8e7" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="5">WSPS R7 · 50 M RIFLE 3 POSITIONS · MASCULINO · SH1</text>
+<text x="70" y="158" fill="#c6f443" font-family="Arial,sans-serif" font-size="52" font-weight="800">DIFERENÇAS ENTRE AS POSIÇÕES</text>
+<text x="70" y="207" fill="#d0dce2" font-family="Arial,sans-serif" font-size="25">Imagem realista complementar · as regras e os localizadores abaixo são a referência normativa</text>
+<image href="WSPS_R7_50m_3Positions_Comparison.png" x="70" y="245" width="1360" height="765" preserveAspectRatio="xMidYMid meet"/>
+<rect x="70" y="1030" width="1360" height="220" rx="22" fill="#102b38" stroke="#20c5d9" stroke-width="2"/>
+<text x="105" y="1088" fill="#4bd8e7" font-family="Arial,sans-serif" font-size="31" font-weight="700">AJOELHADO · UM PONTO DE APOIO</text>
+<text x="105" y="1136" fill="#e9f2f5" font-family="Arial,sans-serif" font-size="24">Na opção com cadeira/mesa, somente um cotovelo apoia; corpo sem apoio na estrutura; antebraço ≥ 30°.</text>
+<text x="105" y="1182" fill="#b6cbd4" font-family="Arial,sans-serif" font-size="22">O ponto do cotovelo pode repousar no bloco de 10 cm; sem apoio em braço da cadeira ou armação.</text>
+<rect x="70" y="1270" width="1360" height="220" rx="22" fill="#102b38" stroke="#20c5d9" stroke-width="2"/>
+<text x="105" y="1328" fill="#4bd8e7" font-family="Arial,sans-serif" font-size="31" font-weight="700">DEITADO · DOIS COTOVELOS</text>
+<text x="105" y="1376" fill="#e9f2f5" font-family="Arial,sans-serif" font-size="24">R7/R8 permitem a posição ISSF no chão ou cadeira + mesa. Na adaptação SH1, ambos os cotovelos apoiam.</text>
+<text x="105" y="1422" fill="#b6cbd4" font-family="Arial,sans-serif" font-size="22">Braços superiores sem tocar a mesa; antebraços ≥ 30°; não se apoia simultaneamente em encosto e mesa.</text>
+<rect x="70" y="1510" width="1360" height="220" rx="22" fill="#102b38" stroke="#20c5d9" stroke-width="2"/>
+<text x="105" y="1568" fill="#4bd8e7" font-family="Arial,sans-serif" font-size="31" font-weight="700">EM PÉ ADAPTADO · ARMA SEM APOIO EXTERNO</text>
+<text x="105" y="1616" fill="#e9f2f5" font-family="Arial,sans-serif" font-size="24">No banco alto ou em pé livre, SH1 segura o rifle apenas com os braços; sem contato com cadeira/mesa.</text>
+<text x="105" y="1662" fill="#b6cbd4" font-family="Arial,sans-serif" font-size="22">No banco alto, deve conseguir erguer os pés sem perder equilíbrio nem mover o tronco.</text>
+<text x="70" y="1780" fill="#9eb6c0" font-family="Arial,sans-serif" font-size="20">WSPS 4.2.1.2 · 4.2.2.3–4.2.2.5 · 4.2.3.1–4.2.3.4. Interpretação biomecânica resumida, sem percentuais de carga não previstos na regra.</text>
+</svg>

@@ -1,0 +1,102 @@
+{
+  "state": "PASS",
+  "browser": "158.0.8127.18",
+  "origin": "http://127.0.0.1:5174",
+  "onlineExternalHosts": [],
+  "offlineExternalRequests": [],
+  "modelPackage": {
+    "artifact": "onnx-community/whisper-tiny",
+    "exportRevision": "ff4177021cc41f7db950912b73ea4fdf7d01d8e7",
+    "baseModel": "openai/whisper-tiny",
+    "baseRevision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+    "directory": "public/models/whisper-tiny",
+    "provenanceManifest": "public/models/whisper-tiny/PROVENANCE.json",
+    "licenseNotice": "MIT and Apache-2.0 source notices included; see public/models/whisper-tiny/NOTICE.md"
+  },
+  "localWasmRuntime": "public/onnxruntime/; onnxruntime-web@1.22.0-dev.20250409-89f8206ba4",
+  "candidateAssessment": {
+    "whisperTiny": "PASS_OFFLINE_ASR_INFERENCE; HUMAN_APPROVED; synthetic PT-BR sample only",
+    "kokoroJs": "PASS_OFFLINE_TTS_INFERENCE_IN_ENGLISH; FAIL_PT_BR_VOICE_UNAVAILABLE"
+  },
+  "onlineInference": {
+    "state": "ONLINE_PRELOAD_PASS",
+    "origin": "http://127.0.0.1:5174",
+    "serviceWorkerControlled": true,
+    "tts": {
+      "model": "Kokoro 82M ONNX q8",
+      "loadMs": 905,
+      "inferenceMs": 10553,
+      "samples": 128400,
+      "sampleRate": 24000,
+      "voice": "af_heart (English)",
+      "ptBrVoice": {
+        "status": "UNSUPPORTED_BY_KOKORO_JS",
+        "reason": "Voice \"pf_dora\" not found. Should be one of: af_heart, af_alloy, af_aoede, af_bella, af_jessica, af_kore, af_nicole, af_nova, af_river, af_sarah, af_sky, am_adam, am_echo, am_eric, am_fenrir, am_liam, am_michael, am_onyx, am_puck, am_santa, bf_emma, bf_isabella, bm_george, bm_lewis, bf_alice, bf_lily, bm_daniel, bm_fable."
+      }
+    },
+    "asr": {
+      "model": "Whisper Tiny multilingual ONNX q8",
+      "modelSource": "/models/whisper-tiny (RENATE local package)",
+      "integration": "src/localSpeech.js · transcribeLocalAudio",
+      "remoteModelAccessDisabled": true,
+      "totalMs": 3208,
+      "text": "A competição de tiro começa às 9 horas. O Atlético permanece na linha de tiro até o comando do árbitro.",
+      "expectedTermsFound": [
+        {
+          "term": "competição",
+          "found": true
+        },
+        {
+          "term": "nove / 9",
+          "found": true
+        },
+        {
+          "term": "árbitro",
+          "found": true
+        }
+      ]
+    },
+    "heapDeltaBytes": 0
+  },
+  "offlineInference": {
+    "state": "OFFLINE_INFERENCE_PASS",
+    "origin": "http://127.0.0.1:5174",
+    "serviceWorkerControlled": true,
+    "tts": {
+      "model": "Kokoro 82M ONNX q8",
+      "loadMs": 984,
+      "inferenceMs": 11606,
+      "samples": 128400,
+      "sampleRate": 24000,
+      "voice": "af_heart (English)",
+      "ptBrVoice": {
+        "status": "UNSUPPORTED_BY_KOKORO_JS",
+        "reason": "Voice \"pf_dora\" not found. Should be one of: af_heart, af_alloy, af_aoede, af_bella, af_jessica, af_kore, af_nicole, af_nova, af_river, af_sarah, af_sky, am_adam, am_echo, am_eric, am_fenrir, am_liam, am_michael, am_onyx, am_puck, am_santa, bf_emma, bf_isabella, bm_george, bm_lewis, bf_alice, bf_lily, bm_daniel, bm_fable."
+      }
+    },
+    "asr": {
+      "model": "Whisper Tiny multilingual ONNX q8",
+      "modelSource": "/models/whisper-tiny (RENATE local package)",
+      "integration": "src/localSpeech.js · transcribeLocalAudio",
+      "remoteModelAccessDisabled": true,
+      "totalMs": 3010,
+      "text": "A competição de tiro começa às 9 horas. O Atlético permanece na linha de tiro até o comando do árbitro.",
+      "expectedTermsFound": [
+        {
+          "term": "competição",
+          "found": true
+        },
+        {
+          "term": "nove / 9",
+          "found": true
+        },
+        {
+          "term": "árbitro",
+          "found": true
+        }
+      ]
+    },
+    "heapDeltaBytes": 0
+  },
+  "limitation": "Whisper files are loaded from the RENATE local package with remote model access disabled. Kokoro Portuguese voice API behavior is evaluated as found in kokoro-js; this is not human listening approval or testing on a phone."
+}

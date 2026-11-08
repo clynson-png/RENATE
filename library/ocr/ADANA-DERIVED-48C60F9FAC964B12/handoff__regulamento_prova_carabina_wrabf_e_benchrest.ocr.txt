@@ -1,0 +1,610 @@
+DOCUMENT TITLE: Carabina WRABF (Benchrest)
+
+SOURCE PDF: docs/Library/Regulamentos_2026/Regulamento-Carabina-WRABF-30012020.pdf
+
+DOCUMENT EDITION: Atualizado em 30/01/2020
+
+SOURCE YEAR: 2020
+
+RULE AUTHORITY: CBTE
+
+
+
+--- PAGE 1 ---
+CARABINA WRABF
+(BENCHREST)
+
+Atualizado em 30.01.2020
+[IMAGE/DIAGRAM PAGE: embedded text is partial; visual contents require image reading.]
+
+--- PAGE 2 ---
+Confederação Brasileira de Tiro Esportivo
+
+                  Carabina WRABF (Benchrest)
+                                      Atualizado em 30.01.2020
+
+I   Finalidade
+   Regulamentar a disciplina de Benchrest no âmbito da CBTE - Confederação Brasileira de Tiro Esportivo e de suas Filiadas.
+
+II  Divisões
+   CARABINA WRABF FOGO CIRCULAR
+
+   SPORTER (50 metros)
+   Carabina de fogo circular “de fábrica” com até 3,860kg (8.5 libras) incluindo sistema de pontaria, calibre .22LR, sem
+   modificações e coronha convexa em todas as superfícies inferiores. Trabalho no gatilho, bedding e/ou re-coroação da boca
+   do cano, são permitidos. O trabalho do gatilho deve ser limitado ao polimento das superfícies e ao ajuste normal do
+   conjunto. A instalação de colunas de fixação da ação e/ou bedding do cano com massa epoxi/fibra de vidro é aceitável, e a
+   parte de frente da coronha pode ser aberta para deixar o cano “flutuar”.
+
+  ■  Alvo: LCL 08B (1 cartão por prova)
+
+  CUSTOM (50 metros)
+   Carabina de fogo circular com até 4,760kg (10.5 libras) incluindo sistema de pontaria, calibre .22LR, e coronha com
+    superfícies inferiores planas ou convexas com até 3 polegadas (7,62cm).
+
+  ■  Alvo: LCL 08B (1 cartão por prova)
+
+   UNLIMITED (50 metros)
+   Carabina de fogo circular, sem limite de peso e modificações, calibre .22LR (desde que de uso legal sob a legislação em
+    vigor).
+
+  ■  Alvo: LCL 08B (1 cartão por prova)
+
+   CARABINA WRABF AR COMPRIMIDO
+
+   SPRINGER (25 metros)
+   Carabina de ar comprimido, com pistão propelido por ação de mola, sejam elas em aço ou pneumáticas, sem limite de peso
+   e modificações, nos calibres 4,5mm, 5,0mm ou 5,5mm.
+
+  ■  Alvo: LCL 08A (1 cartão por prova)
+
+   UNLIMITED (25 metros)
+   Carabina de ar comprimido, de qualquer tipo de ação, sem limite de peso e modificações, nos calibres 4,5mm, 5,0mm ou
+   5,5mm.
+
+  ■  Alvo: LCL 08A (1 cartão por prova)
+
+   LIGHT VARMINT (25 metros)
+   Carabina de ar comprimido, com até 4,762kg (10,5 libras) incluindo sistema de pontaria e acessórios fixados, nos calibres
+    calibre 4,5mm, 5,0mm ou 5,5mm. Coronhas originais de fábrica ou modificadas que se enquadrem no “Esclarecimento de
+   Coronhas” podem ser utilizadas (veja Apêndice F). A ação pode ser por mola ou pneumática; reguladores de ar, pesos de
+   cano, afinadores de harmônicos ou estabilizadores de projétil são permitidos e serão incluídos no peso total do rifle.
+   Reguladores de ar podem ser utilizados desde que sejam integrais ao rifle de ar. O cilindro de ar pode ser trocado desde
+   que de mesma marca como opcional/reserva para o modelo do rifle. Lunetas de quaisquer magnificações podem ser
+
+    2
+
+--- PAGE 3 ---
+Confederação Brasileira de Tiro Esportivo
+
+                  Carabina WRABF (Benchrest)
+                                      Atualizado em 30.01.2020
+
+    utilizadas. O cano/ação podem conter bedding e gatilhos modificados ou substituídos são permitidos. Cilindros separados
+   não são permitidos; o cilindro necessita ser parte integral do rifle e é incluso no peso total. Potência máxima restrita a
+   16,27 Joules ou 12 libras/pé.
+
+  ■  Alvo: LCL 08A (3 cartões por prova)
+
+  HEAVY VARMINT (25 metros)
+   Carabina de ar comprimido, com até 6,803kg (15,0 libras) incluindo sistema de pontaria e acessórios fixados, nos calibres
+    calibre 4,5mm, 5,0mm ou 5,5mm. Coronhas originais de fábrica ou modificadas que se enquadrem no “Esclarecimento de
+   Coronhas” podem ser utilizadas (veja Apêndice F). A ação pode ser por mola ou pneumática; reguladores de ar, pesos de
+   cano, afinadores de harmônicos ou estabilizadores de projétil são permitidos e serão incluídos no peso total do rifle.
+   Reguladores de ar podem ser utilizados desde que sejam integrais ao rifle de ar. Lunetas de quaisquer magnificações
+  podem ser utilizadas. O cano/ação podem conter bedding e gatilhos modificados ou substituídos são permitidos. Cilindros
+   separados não são permitidos; o cilindro necessita ser parte integral do rifle e é incluso no peso total. Potência máxima
+    restrita a 27,12 Joules ou 20 libras/pé.
+
+  ■  Alvo: LCL 08A (3 cartões por prova)
+
+  EXTREME BR (50 metros)
+   Carabina de ar comprimido sem limite de peso, nos calibres 4,5mm, 5,0mm ou 5,5 mm. Coronhas originais de fábrica ou
+   modificadas que se enquadrem no “Esclarecimento de Coronhas” podem ser utilizadas  (veja Apêndice F regra
+   internacional WRABF). A ação pode ser por mola ou pneumática; reguladores de ar, pesos de cano, afinadores de
+   harmônicos ou estabilizadores de projétil são permitidos e serão incluídos no peso total do rifle. Reguladores de ar podem
+   ser utilizados desde que sejam integrais ao rifle de ar. Lunetas de quaisquer magnificações podem ser utilizadas. O
+   cano/ação pode conter “bedding” e gatilhos modificados ou substituídos são permitidos. Cilindros separados não são
+   permitidos (conexão com cilindro scuba não é permitida) - o cilindro necessita ser parte integral do rifle. Somente cilindros
+    originais de fábrica serão aceitos. Não há limite de potência. Será permitida eletrônica nos rifles (Exemplo: Daystate Red
+   Wolf/Daystate Pulsar). Só será permitido o uso de projéteis do tipo “pellets”, não será permitido o uso de “slugs”, mesmo
+   que os mesmos sejam fabricados em indústria. O alvo a ser utilizado é o alvo de 50 metros usado nas provas de Rimfire e a
+   distância será de 50 metros. O uso de bipés é permitido. Nenhum rifle poderá estar preso ao front rest ou a mesa, nem ao
+   rear bag. Nenhum tipo de restrição de movimento será permitido ao rifle. Não são permitidas “Railguns”.
+
+  ■  Alvo: LCL 08B (1 cartão por prova)
+
+III Descrição da Prova
+
+   A) DISTÂNCIA
+     Os cartões de prova devem estar posicionados a partir da linha de tiro nas distâncias correspondentes à divisão do
+      competidor, sendo:
+
+     ■  Ar Comprimido: 25 metros
+     ■  Fogo Circular: 50 metros
+     ■  Ar Comprimido Extreme Benchrest: 50 metros
+
+   B) PROVA
+      25 disparos para a prova, mais os disparos de ensaio, em vinte minutos.
+
+    3
+
+--- PAGE 4 ---
+Confederação Brasileira de Tiro Esportivo
+
+                Carabina WRABF (Benchrest)
+                                   Atualizado em 30.01.2020
+
+C) CARTÃO DE ALVOS
+   Os cartões de alvos utilizados em todas as competições serão os oficiais de Fogo Circular e Ar Comprimido como
+   fornecido pelo fabricante nacional LCL. Atenção ao alvo de 50 metros que será usado na prova de Extreme Benchrest.
+
+   Estes cartões consistem em vinte e cinco (25) moscas e alvos de ensaio, com pontuação maior para alvos que tocarem
+   a linha. Qualquer número de tiros pode ser disparado nos alvos de ensaio à esquerda e à direita das moscas a qualquer
+   momento durante o tempo total de prova. Todos os tiros que entrarem no diagrama das moscas serão contados. Se o
+   primeiro tiro impactar na área de registro, o competidor deve notificar imediatamente o Árbitro (Range Officer), antes
+   de disparar um outro tiro. O árbitro irá inspecionar o alvo e fazer a anotação de que o tiro não será contado. Isso só
+   será permitido em uma ocasião, durante uma prova – Erro do primeiro tiro (First Shot Error). Caso mais de um tiro
+   aparecer em um mesmo alvo, apenas a menor pontuação será contada. No final da competição, onde os impactos
+   sobre o alvo de pontuação são mais de 25, uma penalidade de 1 ponto será atribuída para cada tiro em excesso em
+   comparação com o número permitido de tiros.
+
+   Esses cartões são protegidos por Copyright para o uso da WRABF e ERABSF, o que inclui todas as associações membro.
+   Nas outras situações, os alvos só poderão ser utilizados com o consentimento de todas as federações.
+
+   Existem cartões diferentes para as provas de 25 e 50 metros. A prova feita em um cartão não compatível com as regras
+   será considerada nula.
+
+  O diagrama do alvo de AR COMPRIMIDO está especificado abaixo, com 25 moscas cabendo em uma folha de
+   formato A3 (42 x 29,7cm).
+
+   Nos alvos de ar comprimido o anel do seis é azul para ajudar na visada, todos os outros anéis são vazados com as
+   bordas constituídas por linhas azuis. O anel central do 10 possui 2 mm de diâmetro; ele deve ser obliterado para ser
+   considerado um 10X.
+
+        Diâmetro          Milímetros          Polegadas
+
+         Anel 10              2.000             0.07874
+
+         Anel 9              8.000             0.31495
+
+         Anel 8             14.000            0.55118
+
+         Anel 7             22.000            0.86614
+
+         Anel 6             30.000            1.18110
+
+         Anel 5             39.000            1.53542
+
+  O diagrama do alvo de FOGO CIRCULAR está especificado abaixo, com 25 moscas cabendo em uma folha A3.
+
+   Nos alvos de fogo circular os anéis do cinco e do seis são azuis para ajudar na visada, todos os outros anéis são vazados
+  com as bordas constituídas por linhas azuis. O anel central (X) possui 0.792 mm de diâmetro; ele deve ser tocado para
+   ser considerado um 10X.
+
+  4
+
+--- PAGE 5 ---
+Confederação Brasileira de Tiro Esportivo
+
+                Carabina WRABF (Benchrest)
+                                   Atualizado em 30.01.2020
+
+        Diâmetro          Milímetros          Polegadas
+
+        Anel 10X             0.792              0.0312
+
+         Anel 10              6.350              0.2500
+
+         Anel 9             12.700             0.5000
+
+         Anel 8             19.050             0.7500
+
+         Anel 7             25.400             1.0000
+
+         Anel 6             31.750             1.2500
+
+         Anel 5             38.100             1.5000
+
+  O cartão de alvos deve ser claramente marcado com a Identificação do Competidor, Divisão, Posto de Tiro e Número
+   do Revezamento, quando aplicável.
+
+   Os cartões da WRABF deverão estar impressos em papel de no mínimo 160 g/m² e colocados somente na posição
+   horizontal/paisagem.
+
+D) APOIOS (RESTS)
+  O apoio frontal (front rest) deverá suportar apenas a parte frontal do rifle. O apoio traseiro (rear rest) deverá suportar
+   apenas a parte traseira do rifle. Nenhum dos apoios pode ser fixado na bancada, no rifle ou conectados entre si. Isto é,
+   ambas as partes devem ser móveis independentes de cada uma e é proibido o uso de “rail gun” (rifle ou apoio com
+    dispositivo mecânico de retorno preciso ao alvo).
+
+  ■  Apoio Frontal (Front Rest): Geralmente o apoio frontal (front rest) não possui restrições em termos de peso
+       (massa), material e modelo/design. O apoio frontal deve obrigatoriamente incorporar um saco flexível contendo
+       areia. A parte frontal do rifle NÃO deve estar em contato com outras partes do apoio frontal além do saco de areia
+       (exceto o pino limitador na frente do apoio). A parte inferior frontal da coronha deve obrigatoriamente estar 100%
+    em contato com o topo do saco de areia. O apoio pode conter ajustes verticais e horizontais, com quaisquer tipos
+     de mecanismos utilizados para obter tais movimentos.
+
+  ■  Apoio Traseiro (Rear Rest): É um saco ou vários sacos contendo areia. O apoio traseiro pode incorporar um
+      espaçador vertical (calço), contanto que não contenha nenhum tipo de ajuste mecânico vertical ou horizontal. O
+      espaçador vertical não pode conter quaisquer ressaltos que possam ser inseridos ou encaixados no tampo da mesa
+     ou no saco de areia. Os apoios traseiros não podem ser fixados ou encaixados de quaisquer forma.
+
+  ■  Saco de Areia (Sand Bag): Sacos de areia devem obrigatoriamente ser fabricados em couro e/ou tecido,
+      preenchidos com areia, flexíveis e este material pode possuir espessura máxima de 3 milímetros (0,12 polegadas),
+    em toda sua superfície; a base pode ser mais espessa para obter estabilidade. A espessura pode ser testada nas
+       costuras e junções do saco. Couro sólido, plástico ou madeira cobertos em couro e outros materiais não são
+       permitidos. Superfícies antiderrapante podem ser utilizadas nos sacos. Talco ou compostos antiderrapantes e fitas
+       adesivas podem ser utilizados.
+
+  ■  Restrição de Movimento do Rifle: Quando o rifle for levantado verticalmente, os apoios frontais e traseiros
+
+  5
+
+--- PAGE 6 ---
+Confederação Brasileira de Tiro Esportivo
+
+                Carabina WRABF (Benchrest)
+                                   Atualizado em 30.01.2020
+
+      obrigatoriamente não podem levantar-se com o rifle. Se o apoio frontal e/ou traseiro se levantam com o rifle, o
+      apoio frontal e/ou traseiro deverá ser considerado no peso total do rifle. O rifle pode ser deslizado para frente ou
+      para trás para determinar se está preso nos apoios. Os apoios frontais e traseiros não podem ser utilizados para
+       prevenir o recuo do rifle. Em geral, nenhum equipamento do competidor pode estar fixado à bancada. Caso o rifle
+       esteja com movimento restrito, o competidor será desqualificado.
+
+  ■  Guias: Quaisquer dispositivos, adicionais, contornos ou dimensões em um rifle, desenvolvidos para coagir com
+      qualquer equipamento para guiar de volta à sua posição de tiro, sem necessidade de mirar o rifle oticamente para
+      cada tiro, serão considerados ilegais.
+
+E) BANDEIRAS DE VENTO:
+   Os competidores podem utilizar bandeiras de vento presentes no local ou trazer suas próprias. As bandeiras não
+   devem ser mais altas do que o nível do topo da bancada até a base do cartão e devem estar dentro da área que
+   compreende o seu posto de tiro. Será possível que as bandeiras de vento tenham que ser removidas ou abaixadas após
+   conclusão de cada revezamento/prova, dependendo da condição do estande onde o campeonato está ocorrendo –
+   nesse caso, será necessário mais tempo para esse tipo de procedimento durante o dia de prova. O revezamento de
+   mesas deverá ser considerado para facilitar esse processo. Se a bandeira está na linha de visada de um atirador, o
+   Árbitro de Prova vai colocar a bandeira no chão. Isto deve ser feito antes do início da prova. Para esclarecimento, a
+   movimentação de bandeiras está sob controle do Árbitro de Prova e não vai interferir na forma ordeira de condução
+   das provas. O uso de equipamentos eletrônicos de qualquer forma é estritamente proibido em todas as classes de rifle
+   e isso inclui bandeiras de vento eletrônicas.
+
+F) FALHA DO RIFLE DURANTE A PROVA:
+  Uma troca de rifle durante a prova é permitida, desde que exista uma falha comprovada com o rifle, especialmente
+   quando está relacionada à segurança e é considerada perigosa. Nesse caso o competidor solicitará ao Árbitro de Prova
+   para verificar o rifle e possivelmente substituí-lo por um novo. O Árbitro de Prova poderá autorizar a substituição do
+    rifle por outro da mesma Classe, e depois enviar o rifle com problema para inspeção por parte dos Oficiais de
+   Checagem de Equipamentos e Rifles. (O Árbitro de Prova decidirá se a prova poderá continuar ou se será necessário
+   ser interrompida, dependendo de quão sério o defeito é, e se a troca de rifle poderá infligir os atiradores que estão
+   continuando a prova. Nenhum tempo extra será permitido para os competidores quando uma situação dessas correr e
+    eles não serão autorizados a atirar novamente a prova. Se os Oficiais de Inspeção detectarem o problema, então,
+   depois da prova, o atirador vai permanecer com o resultado alcançado com o novo rifle. Se a falha foi fabricada
+   propositalmente pelo (ou responsabilidade do competidor devido a negligência) competidor para auferir vantagem,
+  um “DQ” automático para aquela prova será aplicado.
+
+G) BANCADA:
+   A bancada deverá ser uma mesa construída com rigidez, onde o competidor possa se sentar. Bancadas devem ser
+   construídas para permitir seu uso por competidores destros ou canhotos.
+
+  O competidor poderá levar seu próprio banco ajustável para a linha de tiro.
+
+   Durante uma prova os competidores ou oficiais do time não podem ocupar qualquer bancada se não as que lhe forem
+   designadas pelo árbitro. Haverá uma linha demarcada para os competidores que não estão em prova e espectadores.
+
+  O rifle deve ser posicionado para que a ponta do cano se estenda em direção à linha de tiro na frente da bancada e
+
+  6
+
+--- PAGE 7 ---
+Confederação Brasileira de Tiro Esportivo
+
+                Carabina WRABF (Benchrest)
+                                   Atualizado em 30.01.2020
+
+   toda a parte da ação do rifle esteja atrás da linha de tiro.
+
+   A borda dianteira da bancada deverá ser coincidente com a marcação da linha de tiro.
+
+H) COMANDOS EM PROVAS:
+   Para garantir que o campeonato seja conduzido de forma clara e segura, os comandos a seguir serão utilizados:
+
+  ■  Seu tempo de 5 minutos de preparação começará a partir de agora".
+      Competidores serão chamados às mesas com 5 minutos de antecedência para preparar seu equipamento, com os
+        rifles abertos e em segurança, carregadores removidos e/ou ferrolhos abertos, dependendo do tipo de ação do rifle.
+
+  ■  Competidores prontos? (Are Shooters ready?)
+      Competidores podem pedir aos delegados de prova tempo adicional para preparação do equipamento (não mais
+     que três minutos), caso estejam com algum problema no equipamento. Este tempo adicional será concedido apenas
+     uma vez durante uma prova.
+
+  ■  Coloque o ferrolho e removam a bandeira de segurança!  (Insert bolt  in your rifle/Remove Breech Flag!)
+     Somente após este comando, os competidores estarão autorizados a remover os dispositivos de segurança dos
+        rifles/instalar o ferrolho.
+
+  ■  Você tem 20 minutos para completar a prova. Começar! (You have 20 minutes to complete this match. Commence
+        fire!)
+     Começar a atirar será um apito inicial.
+
+     Nenhum competidor poderá sair de sua mesa e deverá continuar sentado até o final da prova. Nenhum competidor
+      poderá entrar na linha de tiro após o início da prova, perdendo-a se estiver atrasado.
+
+      Qualquer disparo antes do apito inicial, resultará em desqualificação do competidor daquela prova.
+
+    O tempo restante será anunciado da seguinte forma:
+
+    Dez minutos (Ten minutes)
+    Cinco minutos (Five minutes)
+    Trinta segundos (Thirty seconds)
+
+  ■  Cessar fogo será um apito final.
+
+    Remover ferrolhos dos rifles, inserir bandeira de segurança (Breech Flag) e desocupar as bancadas. Qualquer tiro
+         disparado após o apito final resultará na desqualificação do atleta.
+
+    Após a inspeção e autorização do árbitro, todo o equipamento deverá ser removido da bancada e então
+         guardadas ou colocadas nas estantes apropriadas.
+
+       Interpretações:
+     ᴒ Nenhuma munição deverá ser inserida no rifle até que o comando para iniciar prova for ordenado.
+
+  7
+
+--- PAGE 8 ---
+Confederação Brasileira de Tiro Esportivo
+
+                Carabina WRABF (Benchrest)
+                                   Atualizado em 30.01.2020
+
+     ᴒ A contagem de tempo se inicia ao início da palavra Começar (Commence Fire).
+
+     ᴒ A contagem de tempo acaba ao término do apito final.
+
+     ᴒ  Quaisquer  disparos antes do comando Começar (Commence  Fire) ou após o  apito  final,  resultará na
+          desqualificação do competidor na referida prova, não afetando o restante da competição no dia.
+
+I) COMANDOS DE EMERGÊNCIA:
+  Em caso de emergência, o árbitro irá comandar “Cessar Fogo”. Este comando deverá ser obedecido imediatamente e
+   nenhum disparo poderá ser efetuado posteriormente. Antes de recomeçar a prova, o árbitro permitirá cinco (5)
+   minutos adicionais e avisar os competidores, contudo esta permissão não pode exceder o tempo original da prova.
+
+   Se uma prova for paralisada, três ações deverão acontecer:
+
+  ■  Todos os  rifles deverão ser postas em segurança, remover o ferrolho / carregadores / inserir a bandeira de
+      segurança etc e checagem dos rifles.
+
+  ■ A prova será cancelada ou reiniciada.
+
+   Caso reiniciada, ninguém deverá abandonar suas mesas, exceto o competidor que estiver com problemas. Cinco
+   minutos adicionais serão acrescidos ao tempo restante para preparação de equipamentos.
+
+   Caso for cancelada, a prova será reagendada após intervalo mínimo de trinta minutos. Qualquer disparo após o apito
+    final resultará em desqualificação.
+
+   Nota - comandos de voz são preferidos, em vez de apito para comandos de emergência. Contudo o árbitro deve apitar
+   caso paralisação da prova seja necessário – fogo cruzado ou falhas mecânicas com um competidor, (ou animais e
+   pessoas invadindo a área de tiro, etc). Isto permite que todos os rifles sejam colocados em condição de segurança sem
+    extrair a munição da câmara. Este comando será dado apenas em casos de emergências que não permitam esvaziar os
+    rifles utilizando disparos.
+
+J)  TIRO CRUZADO:
+   É de responsabilidade do competidor que comete um tiro cruzado imediatamente alertar o Árbitro de Prova e então
+   disparar a quantidade dos tiros restantes (considerando os já efetuados no cartão errado) em seu próprio cartão. Se o
+   autor do tiro cruzado não notificar o Árbitro, será considerado como tendo inadvertidamente causado um tiro cruzado.
+   Pode não ser desqualificado mas será penalizado de acordo com (Penalidade de Tiro Cruzado).
+
+  ■  Transferência de Tiro Cruzado: Um tiro cruzado será transferido para o cartão correto e incluído no resultado da
+      prova, porém o atleta deverá ser penalizado conforme “Penalidade de Tiro Cruzado”.
+
+  ■  Penalidade de Tiro Cruzado: O cartão de alvos do competidor que causou um tiro cruzado será penalizado em 5
+       (cinco) pontos para cada tiro cruzado. Se o tiro cruzado não puder ser identificado (2 tiros no mesmo alvo) a parte
+      inocente será beneficiada com o valor maior;
+
+  8
+
+--- PAGE 9 ---
+Confederação Brasileira de Tiro Esportivo
+
+                Carabina WRABF (Benchrest)
+                                   Atualizado em 30.01.2020
+
+  ■  Parte Inocente: O competidor que teve um tiro cruzado identificado em seu cartão é obrigado a informar o ocorrido
+      imediatamente ao Árbitro da Prova;
+
+  ■  Falha em Notificar: Qualquer competidor que tenha realizado um tiro cruzado ou aqueles que o cartão de alvo
+      demonstra mais do que os tiros necessários, inclusive com a inclusão de tiros cruzados de outro cartão de alvo e não
+     tenham notificado o Árbitro de Prova do ocorrido, serão consideradas condutas antidesportivas e sofrerão como
+       penalidade, por tentar esconder o fato, a desqualificação do evento;
+
+  ■  Indicação para atirar outra vez (re-shoot): A parte inocente pode indicar que irá disparar no mesmo alvo após o
+       Árbitro de Prova ter verificado o tiro cruzado, ou poderá eleger um alvo de ensaio próximo para registrar o disparo.
+    O Árbitro de prova deve ser avisado da decisão para registrar isso.
+
+L) APURAÇÃO:
+   A marcação de pontos Melhor Borda será utilizada para aferição dos alvos. (Se o furo toca a borda do próximo anel mais
+    alto, o ponto mais alto será computado). Nos alvos de fogo circular, o furo tocando o anel central (X) será marcado
+   como pontuação X. Nos alvos de ar comprimido, é necessário obliterar o anel X para ser marcado como X). A pontuação,
+   na forma de pontos subtraídos do total, deverá ser escrita na campo adequado. Um disparo no quadrado do alvo que
+   não toca o anel mais largo será computado como quatro (4) pontos. Todos os tiros que estiverem próximos serão
+   plugados pelo técnico de aferição. Rasgados e distorções no alvo não serão contados. Pontuação perfeita do cartão: 250
+   e 25X’s.
+
+  ■  Nas provas de Fogo Circular (Sporter/Custom/Unlimited) e Ar Comprimido (Springer/Unlimited/Extreme BR) será
+     computado apenas 1 alvo, com pontuação máxima possível ao competidor de 250 pontos e 25X (250,25).
+
+  ■  Nas provas de Ar Comprimido (Light Varmint/Heavy Varmint) serão computados o agregado, composto de 3 alvos,
+     com pontuação máxima de 750 pontos e 75X (750,75).
+
+  9
+
+--- PAGE 10 ---
+Confederação Brasileira de Tiro Esportivo
+
+                Carabina WRABF (Benchrest)
+                                   Atualizado em 30.01.2020
+
+M) PLUGUES AFERIDORES:
+   Todos os tiros que não possam ser aferidos visualmente serão checados utilizando um plugue aferidor certificado em
+    calibre .22 para Fogo Circular ou Rifle de Ar. Os alvos plugados deverão ser marcados com a letra “P” para indicação. O
+   alvo poderá ser plugado apenas uma vez (veja C5). O plugue aferidor será o mesmo para Fogo Circular e Ar Comprimido,
+    calibre .22.
+
+   A medida a ser utilizada nos plugues aferidores para todos os calibres utilizados nas provas de Benchrest no âmbito da
+   CBTE será de .224” com tolerância de +/- 0.0005”, ou seja, de .2235” a .2245”.
+
+N) DESEMPATE:
+   Todos os cartões serão aferidos para Primeiro Erro (FM - First Miss). As caixas de alvos serão checadas começando no
+   primeiro alvo (1). A primeira caixa de alvo que não contiver a pontuação 10, será marcada como FM. Se os alvos 1 a 25
+   forem todos pontuação 10 (250 total), é necessário voltar ao primeiro alvo e checar os X’s . O primeiro alvo a não conter
+  um X, será marcado como FM.
+
+   Se um empate existe (250 pontos e 25X), inicie no alvo 1 e o primeiro X que não estiver obliterado completamente será
+   marcado como FM. Todos os FM deverão ser marcados na área de dados do alvo e não na caixa do alvo.
+
+O) BANCADAS NÃO UTILIZADAS:
+  Nenhum competidor ou oficial do time poderá ocupar qualquer mesa em qualquer prova em que pessoalmente não
+   estejam participando no momento.
+
+P) DESQUALIFICAÇÃO OU PROVA INCOMPLETA:
+   Quando um competidor for desqualificado por uma razão específica, este DQ prevalecerá para todo o dia que estiverem
+   competindo em uma classe específica no campeonato. Se forem membros de um time, o time será desqualificado por
+   padrão. O competidor desqualificado será notificado oficialmente para assegurar contra quaisquer problemas futuros
+   no campeonato.
+   É válido notar que uma desqualificação total do campeonato pode ser efetuada como último recurso, mas o Comitê de
+   Organização se reserva ao direito de alertar os competidores sobre esta ação caso os problemas persistam durante o
+   evento.
+
+Q) PROCEDIMENTO DE CHECAGEM DE POTÊNCIA DE RIFLE DE AR COMPRIMIDO (LIGHT VARMINT E HEAVY VARMINT):
+   A potência dos rifles de ar comprimido deverá ser checada antes do início da prova. A Munição JSB Exact de todos os
+    calibres (4.52, 5.0 ou 5.5 mm) para a Classe Light Varmint e a versão pesada do JSB (Exact Heavy) para Classe HV deve
+   ser utilizado. Uma sequência de 5 (cinco) disparos deverá ser aferida pelo cronógrafo (média da velocidade dos cinco
+    tiros). A pressão mínima do cilindro do rifle do competidor deverá ser de 190 BAR antes do teste ser realizado. Se o
+    cilindro da arma não puder ser carregado a 190 BAR por questões de projeto, deverá, analogamente, ser abastecido a
+   pelo menos 95% da capacidade máxima nominal do cilindro para que a potência seja aferida.
+
+R) INSPEÇÃO ALEATÓRIA:
+   A critério do Diretor do Campeonato, atiradores poderão ser solicitados para que submetam seus rifles a uma nova
+   inspeção a qualquer momento durante o Campeonato. O Diretor não é obrigado a avisar com antecedência essas
+   inspeções. Se o oficial de inspeção verificar que qualquer elemento do equipamento, já anteriormente submetido ao
+   controle preliminar, está alterado ou foi substituído, o competidor será imediatamente desqualificado da prova toda, ou
+
+  10
+
+--- PAGE 11 ---
+Confederação Brasileira de Tiro Esportivo
+
+                  Carabina WRABF (Benchrest)
+                                      Atualizado em 30.01.2020
+
+    em casos específicos, de todo o Campeonato.
+
+    S) EQUIPAMENTOS ELETRÔNICOS:
+      São permitidos apenas durante as provas o uso de cronômetro/timer e de gatilhos eletrônicos. Qualquer outro
+       dispositivo eletrônico, inclusive celulares sendo usados na função de timer, são proibidos com o competidor, na
+      bancada e na linha de tiro e quando impossíveis de ser desinstalados, deverão estar desligados. Os cronômetros/timers
+     quando usados, não devem emitir som. A exceção a esta regra está restrita aos rifles utilizados na prova de EXTREME
+      BR, os quais poderão fazer uso de eletrônica.
+
+   T) POSTANDO RESULTADOS:
+     Nos campeonatos presenciais, sempre que apuração eletrônica for utilizada, todos os alvos disparados devem ser
+      publicados em área comum (Muro das Lamentações) e exibidos para todos os competidores. Nenhum competidor deve
+      sequer tocar os alvos na área de exibição até que o agregado daquele dia tenha sido concluído e o tempo de protesto
+      para esse agregado tenha expirado, pois isso nega quaisquer direitos de protesto e culminará com a desclassificação do
+       atleta que tocou os alvos. Se o atleta tiver dúvida em relação ao resultado da apuração dos alvos, o Comitê de Protesto
+       fará a revisão dos mesmos mediante a apresentação de um formulário de protesto, pagamento de taxa, impetrado pelo
+      próprio atleta ou capitão da equipe. No entanto, deve-se notar que a aferição dos alvos não pode ser realizada após o
+      término do tempo de protesto. Os alvos que tiverem sido plugados e marcados com a letra P não poderão ser plugados
+      novamente. Poderão ser utilizados outros meios para determinar o resultado justo e correto, como Eagle Eye, revisão
+       eletrônica, etc.
+
+IV EQUIPAMENTOS PARA LOCAL DE PROVA
+   Além dos equipamentos de segurança e infraestrutura adequada ao tiro esportivo, todos os locais de prova deverão estar
+   munidos de:
+
+   ■    Plugue Aferidor “Scoring Plug” calibre .224;
+   ■    Mesas ou de bancadas apropriadas à disciplina;
+   ■    Instrumento para medição de coronha (régua, trena, paquímetro);
+   ■    Balança digital com capacidade mínima de 10Kg e resolução de 0,01g;
+   ■    Cronógrafo para aferição de energia nas disciplinas Light Varmint e Heavy Varmint.
+
+V FORMATO DA PROVA FINAL DO CAMPEONATO BRASILEIRO
+  O campeonato respeitará o formato internacional, dividido em “relays” em datas e horas específicos. O critério para que o
+   atirador seja alocado em determinada turma de tiro será sua classificação no ranking na data que antecede a realização da
+   prova. O princípio deste formato de campeonato é que todos os atletas participem em igualdade de condições, tantos
+   quanto possível disparando juntos na mesma data e hora, a fim de aumentar a competitividade e esportividade das provas.
+  A quantidade de atletas atirando juntos será determinada a critério do organizador. Será responsabilidade do atleta o
+   comparecimento conforme determinação do cronograma da competição, bem como sua inscrição de forma antecipada e
+   respeitando todas as exigências elencadas pela organização. O não comparecimento na data e horários marcados será
+   regido pelo item H (“Nenhum competidor poderá entrar na linha de tiro após o início da prova, perdendo-a se estiver
+   atrasado”). Não será permitida a mudança de horário e/ou “relay” pelos competidores diferente do estabelecido pelo
+   cronograma. O compartilhamento de equipamento por dois ou mais (limite máximo de três) competidores poderá será
+   implementado nos “relays” quando possível, a critério da organização. Casos omissos e de força maior, que impactem a
+   organização do evento serão decididos pelo Árbitro/Range Officer, ouvida a Diretoria de Rifle Internacional.
+
+    11
+
+--- PAGE 12 ---
+Confederação Brasileira de Tiro Esportivo
+
+                  Carabina WRABF (Benchrest)
+                                      Atualizado em 30.01.2020
+
+VI ESPORTIVIDADE
+   Todos os competidores e espectadores deverão tratar seus pares como se os mesmos estivessem na iminência de baterem
+  um recorde mundial. Portanto, são consideradas manifestações de falta de esportividade e/ou segurança e poderão ser
+   penalizadas com advertência, retirada do recinto e/ou desqualificação da prova as seguintes condutas:
+
+   a)   Telefones celulares tocando na linha de tiro;
+   b)   Levantar-se na linha de tiro antes da prova ter sido encerrada;
+    c)   Limpeza de rifles durante a prova (exceto com uso de pellets);
+   d)   Grandes ajustes nos rifles durante a prova (não são considerados grandes ajustes conectar um cilindro ou ajustar um
+        tuner ou similar, sem se levantar do banco e sem incomodar os outros atletas);
+   e)   Qualquer espécie de “coaching” (conversas dos espectadores com os atletas em linha de tiro);
+     f)   Qualquer tipo de manifestação dos espectadores ou atletas que não estejam em prova que provoquem perturbação à
+         linha de tiro e o árbitro julgue necessária a desqualificação para manutenção da segurança, lisura do campeonato ou
+        cessar um problema;
+    g)    Participar da prova sob influência, ou fazer uso de qualquer droga ou substância tóxica (álcool inclusive), sem receita
+        médica;
+   h)   Esta lista não é exaustiva, qualquer manifestação, ação ou comportamento que perturbe os competidores ou coloque
+        a segurança dos presentes em risco, bem como seja desrespeitosa com os organizadores ou atletas/espectadores
+        presentes deverá ser coibida e o autor desqualificado a critério do árbitro/Range Officer.
+
+VII DESQUALIFICAÇÃO (DQ)
+   Nos casos em que um competidor foi desqualificado por um motivo específico, esse DQ durará o dia em que estiver
+   atirando uma classe específica do campeonato. A pessoa que recebe o DQ receberá um aviso oficial para garantir que
+   outros problemas não ocorram durante o campeonato.
+
+   Note-se que um DQ completo do campeonato será usado como último recurso, mas o comitê organizador se reserva o
+    direito de avisar os competidores sobre essa ação se os problemas persistirem durante o evento.
+
+VIII DISPOSIÇÕES FINAIS
+   Quaisquer tópicos ou regras que não tenham ficado explícitas neste documento têm como referência e baliza as regras
+   gerais e internacionais da WRABF publicadas no sítio da própria WRABF. Detalhes de equipamentos e procedimentos serão
+   esclarecidos e referenciados, tendo como regra mãe as regras internacionais da WRABF que deram origem a estas e servem
+   de  guia para  consultas. Os apêndices devem  ser considerados da  regra  oficial  publicada no  sítio da WRABF
+   (www.wrabf.com).
+
+   Esta regra, principalmente o que tange os itens V e VI, está de pleno acordo com os campeonatos mundiais patrocinados
+   pela WRABF, foram aqui esclarecidas e ratificadas para que não haja dúvida em relação ao entendimento em possíveis
+   apelações. O atleta que se inscreve nas provas de WRABF deve observar as regras e condutas corretas, em caso de dúvida,
+   peçam esclarecimento ao árbitro/Range Officer antes de prosseguir para linha de tiro ou realizar a conduta duvidosa.
+   É dever de todo  atleta conhecer as regras da competição que  pratica, não sendo  aceita como  justificativa o
+   desconhecimento da regra transgredida.
+
+   As provas de rifle internacional só permitem um cartão por etapa, não são previstas repetições. Apenas as divisões de Ar
+   Comprimido Light Varmint e Heavy Varmint são decididas pela soma do agregado, ou seja, somatória de 3 cartões. As
+   demais serão executadas em cartão único em apenas uma oportunidade;
+
+    12
+
+--- PAGE 13 ---
+Confederação Brasileira de Tiro Esportivo
+
+                Carabina WRABF (Benchrest)
+                                   Atualizado em 30.01.2020
+
+É necessário que se tenha bastante organização por parte dos locais de provas, para identificar com precisão qual divisão
+está sendo disputada. A confusão entre os alvos de prova poderá invalidar o resultado obtido em caso de erro de alvos.
+
+Os cronogramas dos locais de provas on-line deverão ser respeitado.
+
+  13

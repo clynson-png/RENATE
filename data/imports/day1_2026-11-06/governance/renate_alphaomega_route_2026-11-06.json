@@ -1,0 +1,16 @@
+{
+  "schema": "RENATE_SUPPLEMENTAL_ROUTE_V1",
+  "route_id": "renate.alphaomega",
+  "route_name": "ALPHAOMEGA",
+  "authority": "RENATE",
+  "route_kind": "SUPPLEMENTAL_QUESTION_ASSOCIATION_ROUTE",
+  "source": "ADANA20_ATLAS",
+  "source_route_inventory": "ADANA20_ROUTE_REGISTRY_62_UNCHANGED",
+  "human_review_status": "ALL_INCLUDED_ATLAS_QA_HUMAN_REVIEWED_AND_APPROVED",
+  "approval_basis": "USER_CONFIRMATION_2026-11-06",
+  "membership_rule": "Atlas Q&A without route qualification in ADANA20 are associated by question and grouped in ALPHAOMEGA.",
+  "member_count": 43,
+  "content_review_pending": false,
+  "route_identity_status": "USER_AUTHORIZED_RENATE_SUPPLEMENTAL_IDENTITY",
+  "governance_note": "RENATE-only grouping; does not create, rename, merge, or alter an ADANA20 route."
+}
