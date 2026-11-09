@@ -1,0 +1,389 @@
+{
+  "state": "PASS",
+  "browser": "158.0.8127.18",
+  "appOrigin": "http://127.0.0.1:4173",
+  "initialMessageCount": 8,
+  "historyRestoredAfterReload": true,
+  "offlineSearchAnswered": true,
+  "persistedConversationCount": 4,
+  "persistedMessageCount": 2,
+  "responsiveChecks": [
+    {
+      "width": 320,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "mobileMenuVisible": true,
+      "sidebarVisible": false,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "mobileMenuVisible": true,
+      "sidebarVisible": false,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "mobileMenuVisible": false,
+      "sidebarVisible": true,
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "body": 1280,
+      "mobileMenuVisible": false,
+      "sidebarVisible": true,
+      "passed": true
+    }
+  ],
+  "mobileMenuOpened": true,
+  "mobileMenuClosed": true,
+  "externalRequests": [],
+  "offlineViaServiceWorker": true,
+  "pinSetupAndUnlock": true,
+  "rulePassageVisible": true,
+  "cardVisible": true,
+  "figureCropVisible": true,
+  "p5CardVisible": true,
+  "p5FigureCropVisible": true,
+  "cardUiChecks": [
+    {
+      "cardId": "wsps.event.p4:qualification",
+      "eventId": "wsps.event.p4",
+      "phase": "qualification",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 9,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p4:final",
+      "eventId": "wsps.event.p4",
+      "phase": "final",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 8,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p5:qualification",
+      "eventId": "wsps.event.p5",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 8,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p5:final",
+      "eventId": "wsps.event.p5",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 6,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p6:qualification",
+      "eventId": "wsps.event.p6",
+      "phase": "qualification",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 0,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p6:final",
+      "eventId": "wsps.event.p6",
+      "phase": "final",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 0,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r3:qualification",
+      "eventId": "wsps.event.r3",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 7,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r3:final",
+      "eventId": "wsps.event.r3",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 7,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r4:qualification",
+      "eventId": "wsps.event.r4",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 11,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r4:final",
+      "eventId": "wsps.event.r4",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 10,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r5:qualification",
+      "eventId": "wsps.event.r5",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 5,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r5:final",
+      "eventId": "wsps.event.r5",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 7,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r6:qualification",
+      "eventId": "wsps.event.r6",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 9,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r6:final",
+      "eventId": "wsps.event.r6",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 14,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r7:qualification",
+      "eventId": "wsps.event.r7",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 9,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r7:final",
+      "eventId": "wsps.event.r7",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 10,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r8:qualification",
+      "eventId": "wsps.event.r8",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 9,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r8:final",
+      "eventId": "wsps.event.r8",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 10,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r9:qualification",
+      "eventId": "wsps.event.r9",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 10,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r9:final",
+      "eventId": "wsps.event.r9",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 16,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r10:qualification",
+      "eventId": "wsps.event.r10",
+      "phase": "qualification",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 8,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r10:final",
+      "eventId": "wsps.event.r10",
+      "phase": "final",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 9,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r11:qualification",
+      "eventId": "wsps.event.r11",
+      "phase": "qualification",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 10,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.r11:final",
+      "eventId": "wsps.event.r11",
+      "phase": "final",
+      "questionSource": "GOLDEN_SET",
+      "orderedBlocksMatch": true,
+      "renderedSections": 10,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p1:qualification",
+      "eventId": "wsps.event.p1",
+      "phase": "qualification",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 6,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p1:final",
+      "eventId": "wsps.event.p1",
+      "phase": "final",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 8,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p2:qualification",
+      "eventId": "wsps.event.p2",
+      "phase": "qualification",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 6,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p2:final",
+      "eventId": "wsps.event.p2",
+      "phase": "final",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 8,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p3:qualification",
+      "eventId": "wsps.event.p3",
+      "phase": "qualification",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 3,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    },
+    {
+      "cardId": "wsps.event.p3:final",
+      "eventId": "wsps.event.p3",
+      "phase": "final",
+      "questionSource": "EXACT_ROUTE_PROBE",
+      "orderedBlocksMatch": true,
+      "renderedSections": 3,
+      "localVisualLoaded": true,
+      "localPhotoPresent": true
+    }
+  ],
+  "firstAmbiguityHasRule": true,
+  "secondAmbiguityHasRule": true,
+  "finalAmbiguityHasRule": true,
+  "ambiguityAskedAtMostTwice": true,
+  "noMatchSuggestionsAndRule": true,
+  "criteria": {
+    "messageAutosave": true,
+    "reloadRestore": true,
+    "responsiveLayout": true,
+    "mobileNavigation": true,
+    "localSearchOffline": true,
+    "pinSetupAndUnlock": true,
+    "standaloneLibraryAccessible": true,
+    "libraryFilterWorks": true,
+    "libraryDocumentCount": 27,
+    "rulePassageVisible": true,
+    "cardVisible": true,
+    "figureCropVisible": true,
+    "fullRegulationAccessibleWithoutQuestion": true,
+    "p5CardVisible": true,
+    "p5FigureCropVisible": true,
+    "firstAmbiguityHasRule": true,
+    "secondAmbiguityHasRule": true,
+    "finalAmbiguityHasRule": true,
+    "ambiguityAskedAtMostTwice": true,
+    "noMatchSuggestionsAndRule": true,
+    "noExternalRequests": true
+  },
+  "finalContentAcceptance": "FAIL"
+}

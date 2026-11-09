@@ -64,27 +64,37 @@ try {
   const presentationReport = searchReport.endToEndPresentation;
   const routeInventory = JSON.parse(fs.readFileSync(path.join(root, 'data/imports/day1_2026-11-06/governance/route_audit_62_2026-11-06.json'), 'utf8'));
   const cardManifest = JSON.parse(fs.readFileSync(path.join(root, 'public/renate-pack/cards.json'), 'utf8'));
+  const allCards = [
+    ...(cardManifest.cards ?? []).map((card) => ({ ...card, catalogGroup: 'standardized' })),
+    ...(cardManifest.eventEvidenceCards ?? []).map((card) => ({ ...card, catalogGroup: 'eventEvidence' })),
+    ...(cardManifest.equipmentCards ?? []).map((card) => ({ ...card, catalogGroup: 'equipment' })),
+  ];
   const packManifest = JSON.parse(fs.readFileSync(path.join(root, 'public/renate-pack/manifest.json'), 'utf8'));
   const packFiles = new Map(packManifest.files.map((file) => [file.path, file]));
-  const cardAudit = cardManifest.cards.map((card) => {
-    const cases = (presentationReport.caseResults ?? []).filter((item) => (item.applicableCardRoutes ?? []).includes(card.eventId));
-    const photo = packFiles.get(card.photoPath);
+  const cardAudit = allCards.map((card) => {
+    const cardRoutes = [card.eventId, ...(card.eventIds ?? []), ...(card.applicableRouteIds ?? []), ...(card.routeIds ?? [])].filter(Boolean);
+    const cases = (presentationReport.caseResults ?? []).filter((item) => cardRoutes.some((routeId) => (item.applicableCardRoutes ?? []).includes(routeId)));
+    const assetPath = card.photoPath ?? card.imagePath;
+    const assetHash = card.photoSha256 ?? card.imageSha256;
+    const image = assetPath ? packFiles.get(assetPath) : null;
     const cropAudit = (card.figureCrops ?? []).map((figure) => {
       const asset = packFiles.get(figure.assetPath);
       return { figureId: figure.figure_id, page: figure.page, locator: figure.locator, assetPath: figure.assetPath, assetHashMatches: Boolean(asset && asset.sha256 === figure.assetSha256), sourcePDFHashPresent: Boolean(figure.pdf_sha256), visuallyReviewed: figure.human_visual_review?.startsWith('VISUALLY_CHECKED_') === true };
     });
     return {
       cardId: card.cardId,
+      catalogGroup: card.catalogGroup,
       eventId: card.eventId,
+      eventIds: cardRoutes,
       phase: card.phase,
       role: card.role,
-      photoPath: card.photoPath,
-      photoHashMatches: Boolean(photo && photo.sha256 === card.photoSha256),
-      localSourceRefs: (card.sourceRefs ?? []).filter((source) => source.localEvidence === true).length,
+      assetPath,
+      photoHashMatches: !assetPath || Boolean(image && image.sha256 === assetHash),
+      localSourceRefs: (card.sourceRefs ?? card.sourceReferences ?? []).filter((source) => source.localEvidence === true || source.pdf_path || source.pdfPath).length,
       casesInRoute: cases.length,
       casesPresentingCard: cases.filter((item) => item.presentedCardIds.includes(card.cardId)).length,
       figureCrops: cropAudit,
-      state: (!card.photoPath || Boolean(photo && photo.sha256 === card.photoSha256))
+      state: (!assetPath || Boolean(image && image.sha256 === assetHash))
         && card.layout === 'RENATE_UNIFIED_CARD_V1'
         && (card.displaySections?.length > 0 || card.displayRows?.length > 0)
         && cropAudit.every((crop) => crop.assetHashMatches && crop.sourcePDFHashPresent && crop.visuallyReviewed)
@@ -94,7 +104,7 @@ try {
   presentationReport.cardAudit = cardAudit;
   const routeCoverage = routeInventory.map((route) => {
     const cases = (presentationReport.caseResults ?? []).filter((item) => (item.expectedRouteIds ?? []).includes(route.route_id));
-    const configuredCards = cardManifest.cards.filter((card) => card.eventId === route.route_id);
+    const configuredCards = allCards.filter((card) => [card.eventId, ...(card.eventIds ?? []), ...(card.applicableRouteIds ?? []), ...(card.routeIds ?? [])].includes(route.route_id));
     return {
       routeId: route.route_id,
       routeName: route.route_name,
@@ -121,18 +131,18 @@ try {
     routesPassingEveryCase: routeCoverage.filter((route) => route.routeAcceptance === 'PASS').length,
     routesWithConfiguredCards: routeCoverage.filter((route) => route.cardStatus === 'CONFIGURED').length,
     routesWithoutConfiguredCards: routeCoverage.filter((route) => route.cardStatus === 'NO_CARD_CONFIGURED').length,
-    cardRecords: cardManifest.cards.length,
+    cardRecords: allCards.length,
   };
   const routeCsvCell = (value) => `"${String(value ?? '').replaceAll('"', '""')}"`;
   const routeCsv = [
     ['route_id', 'route_name', 'authority', 'atlas_qa_count', 'golden_cases', 'answer_hash_pass', 'source_set_pass', 'expected_locator_pass', 'local_rule_provenance_pass', 'card_status', 'card_ids', 'route_acceptance'].join(','),
     ...routeCoverage.map((route) => [route.routeId, route.routeName, route.authority, route.atlasQACount, route.goldenCases, route.answerHashPass, route.sourceSetPass, route.expectedLocatorPass, route.localRuleProvenancePass, route.cardStatus, route.configuredCards.map((card) => card.cardId).join(';'), route.routeAcceptance].map(routeCsvCell).join(',')),
   ].join('\n');
-  fs.writeFileSync(path.join(root, 'docs/beta-offline/ROUTE_CARD_COVERAGE_2026-11-06.csv'), `${routeCsv}\n`);
-  fs.writeFileSync(path.join(root, 'docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-06.json'), `${JSON.stringify(presentationReport, null, 2)}\n`);
+  fs.writeFileSync(path.join(root, 'docs/beta-offline/ROUTE_CARD_COVERAGE_2026-11-08.csv'), `${routeCsv}\n`);
+  fs.writeFileSync(path.join(root, 'docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-08.json'), `${JSON.stringify(presentationReport, null, 2)}\n`);
   const searchSummary = structuredClone(searchReport);
   delete searchSummary.endToEndPresentation.caseResults;
-  fs.writeFileSync(path.join(root, 'docs/beta-offline/SEARCH_BROWSER_960_2026-11-06.json'), `${JSON.stringify(searchSummary, null, 2)}\n`);
+  fs.writeFileSync(path.join(root, 'docs/beta-offline/SEARCH_BROWSER_960_2026-11-08.json'), `${JSON.stringify(searchSummary, null, 2)}\n`);
 
   await context.close();
   await stopServer(devServer);
@@ -179,7 +189,7 @@ try {
       const response = await fetch(link.href);
       return response.ok && response.headers.get('content-type')?.includes('pdf') && (await response.arrayBuffer()).byteLength > 100;
     });
-  await page.getByRole('button', { name: 'Consultar passagens da regra' }).click();
+  await page.locator('.assistant-message').last().locator('details.more-passages summary').click();
   await page.locator('.rule-passage').first().waitFor({ timeout: 30_000 });
   const rulePassageVisible = await page.locator('.rule-passage').count() > 0;
   const cardVisible = await page.locator('.local-card').count() > 0;
@@ -194,7 +204,7 @@ try {
   await input.fill(p5Row.question);
   await input.press('Enter');
   await page.waitForFunction((answer) => [...document.querySelectorAll('.assistant-message p')].some((node) => node.textContent === answer), p5Row.answer, { timeout: 30_000 });
-  await page.getByRole('button', { name: 'Consultar passagens da regra' }).last().click();
+  await page.locator('.assistant-message').last().locator('details.more-passages summary').click();
   const p5Figure = page.locator('.assistant-message').last().locator('.rule-figure-crops img').first();
   await p5Figure.waitFor({ timeout: 30_000 });
   await p5Figure.scrollIntoViewIfNeeded();
@@ -208,9 +218,12 @@ try {
   for (const card of configuredCardManifest.cards) {
     const cardCase = presentationReport.caseResults.find((item) => item.presentedCardIds.includes(card.cardId));
     const cardRow = qaRows.find((row) => row.atlas_id === cardCase?.atlasId);
-    if (!cardRow) throw new Error(`Não há pergunta de teste associada ao card ${card.cardId}.`);
+    const routeCode = card.eventId.match(/^wsps\.event\.([pr]\d+)$/)?.[1]?.toUpperCase();
+    const cardProbeQuestion = [card.authority, routeCode, card.event, card.phase === 'final' ? 'final' : 'qualificação']
+      .filter(Boolean).join(' ');
+    const question = cardRow?.question ?? cardProbeQuestion;
     const priorAssistantCount = await page.locator('.assistant-message').count();
-    await input.fill(cardRow.question);
+    await input.fill(question);
     await input.press('Enter');
     await page.waitForFunction(({ cardId, priorCount }) => {
       const messages = [...document.querySelectorAll('.assistant-message')];
@@ -242,7 +255,7 @@ try {
       ? rowsMatch
       : JSON.stringify(rendered.sections) === JSON.stringify(expectedSectionItems);
     if (!orderedBlocksMatch || !rendered.visualLoaded) throw new Error(`Card ${card.cardId} não renderizou todas as seções na ordem prevista ou seu visual local/cabeçalho.`);
-    cardUiChecks.push({ cardId: card.cardId, eventId: card.eventId, phase: card.phase, orderedBlocksMatch, renderedSections: rendered.sections.length, localVisualLoaded: rendered.visualLoaded, localPhotoPresent: Boolean(card.photoPath) });
+    cardUiChecks.push({ cardId: card.cardId, eventId: card.eventId, phase: card.phase, questionSource: cardRow ? 'GOLDEN_SET' : 'EXACT_ROUTE_PROBE', orderedBlocksMatch, renderedSections: rendered.sections.length, localVisualLoaded: rendered.visualLoaded, localPhotoPresent: Boolean(card.photoPath) });
   }
   if (!ambiguousRow) throw new Error('Não foi encontrada pergunta ambígua do golden set para validar os dois esclarecimentos.');
   await page.getByRole('button', { name: 'Nova conversa' }).click();
@@ -267,9 +280,9 @@ try {
   await input.fill('zafronte moxila?');
   await input.press('Enter');
   const noMatchMessage = page.locator('.assistant-message').last();
-  await noMatchMessage.getByText('Não encontrei uma resposta Q&A correspondente. Seguem as passagens locais mais próximas da sua pergunta.').waitFor({ timeout: 30_000 });
+  await noMatchMessage.getByText('Você deseja saber mais sobre que tema? Seguem perguntas já respondidas no RENATE e as passagens locais relacionadas.').waitFor({ timeout: 30_000 });
   await noMatchMessage.locator('.rule-passage').first().waitFor({ timeout: 30_000 });
-  const noMatchRuleFallback = true;
+  const noMatchSuggestionsAndRule = true;
   const initialCount = await page.locator('.saved-message').count();
   await page.reload();
   await page.getByRole('heading', { name: 'Desbloqueie o RENATE' }).waitFor({ timeout: 30_000 });
@@ -350,13 +363,13 @@ try {
     secondAmbiguityHasRule,
     finalAmbiguityHasRule,
     ambiguityAskedAtMostTwice,
-    noMatchRuleFallback,
-    criteria: { messageAutosave: true, reloadRestore: true, responsiveLayout: responsiveChecks.every((check) => check.passed), mobileNavigation: mobileMenuOpened && mobileMenuClosed, localSearchOffline: true, pinSetupAndUnlock: true, standaloneLibraryAccessible, libraryFilterWorks, libraryDocumentCount, rulePassageVisible, cardVisible, figureCropVisible, fullRegulationAccessibleWithoutQuestion, p5CardVisible, p5FigureCropVisible, firstAmbiguityHasRule, secondAmbiguityHasRule, finalAmbiguityHasRule, ambiguityAskedAtMostTwice, noMatchRuleFallback, noExternalRequests: externalRequests.length === 0 },
+    noMatchSuggestionsAndRule,
+    criteria: { messageAutosave: true, reloadRestore: true, responsiveLayout: responsiveChecks.every((check) => check.passed), mobileNavigation: mobileMenuOpened && mobileMenuClosed, localSearchOffline: true, pinSetupAndUnlock: true, standaloneLibraryAccessible, libraryFilterWorks, libraryDocumentCount, rulePassageVisible, cardVisible, figureCropVisible, fullRegulationAccessibleWithoutQuestion, p5CardVisible, p5FigureCropVisible, firstAmbiguityHasRule, secondAmbiguityHasRule, finalAmbiguityHasRule, ambiguityAskedAtMostTwice, noMatchSuggestionsAndRule, noExternalRequests: externalRequests.length === 0 },
     finalContentAcceptance: searchReport.endToEndPresentation.state,
   };
   if (externalRequests.length) throw new Error(`Unexpected external requests: ${externalRequests.join(', ')}`);
   if (stored.length < 2 || !stored.some((conversation) => conversation.messages.length >= 2)) throw new Error('The local conversation did not preserve the expected turn history.');
-  fs.writeFileSync(path.join(root, 'docs/beta-offline/BROWSER_RUNTIME_ACCEPTANCE_2026-11-06.json'), `${JSON.stringify(browserReport, null, 2)}\n`);
+  fs.writeFileSync(path.join(root, 'docs/beta-offline/BROWSER_RUNTIME_ACCEPTANCE_2026-11-08.json'), `${JSON.stringify(browserReport, null, 2)}\n`);
   await appContext.close();
   console.log(JSON.stringify({
     search: { state: searchReport.state, passed: searchReport.passed, failed: searchReport.failed },

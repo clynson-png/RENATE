@@ -3,6 +3,7 @@ import { Index } from 'flexsearch';
 const normalize = (value) => String(value ?? '')
   .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
   .toLocaleLowerCase('pt-BR').replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
+const normalizeEventAlias = (value) => normalize(value).replace(/\s+(m|mm)\b/g, '$1');
 const STOP_WORDS = new Set('a as o os um uma uns umas de da do das dos em no na nos nas por para com qual quais que como quanto quantos quantas e ou ao aos à às'.split(' '));
 const terms = (value) => [...new Set(normalize(value).split(' ').filter((term) => term.length > 1 && !STOP_WORDS.has(term)))];
 const SEARCH_EXPANSIONS = new Map([
@@ -223,7 +224,7 @@ function answerFromQna(query, selectedId) {
 
 const GENERIC_EVENT_TERMS = new Set('prova provas evento eventos tiro tiros regra regras regulamento competição competicao campeonato cbte issf'.split(' '));
 function resolveNamedEventRoutes(query) {
-  const normalizedQuery = ` ${normalize(query)} `;
+  const normalizedQuery = ` ${normalizeEventAlias(query)} `;
   const queryTerms = terms(query).filter((term) => !GENERIC_EVENT_TERMS.has(term));
   if (!queryTerms.length) return [];
   const events = new Map();
@@ -237,6 +238,13 @@ function resolveNamedEventRoutes(query) {
     }
   }
   const authorityHints = new Set(['issf', 'wsps', 'cbte'].filter((authority) => new RegExp(`\\b${authority}\\b`).test(normalize(query))));
+  if (authorityHints.has('cbte') && /\bduelo\b/.test(normalizedQuery)) {
+    if (/\b25\s*m\b/.test(normalizedQuery)) return ['cbte.duelo.25m'];
+    if (/\b10\s*m\b/.test(normalizedQuery)) return ['cbte.duelo.10m'];
+  }
+  if (authorityHints.has('issf') && /\btrap\b/.test(normalizedQuery) && /\bskeet\b/.test(normalizedQuery)) {
+    return ['issf.event.13', 'issf.event.14'];
+  }
   if (!authorityHints.has('wsps') && !authorityHints.has('cbte')) {
     const preferredIssfMatches = Object.entries(ISSF_EVENT_ALIASES).flatMap(([eventId, aliases]) => aliases
       .filter((alias) => normalize(alias).length < 5 || eventId === 'issf.event.09' || eventId === 'issf.event.11')
@@ -262,7 +270,7 @@ function resolveNamedEventRoutes(query) {
       ...event.aliases,
       ...(ISSF_EVENT_ALIASES[event.eventId] ?? []),
       ...(CBTE_EVENT_ALIASES[event.eventId] ?? []),
-    ].map(normalize).filter((name) => name.length >= 5);
+    ].map(normalizeEventAlias).filter((name) => name.length >= 5);
     const matchedAliases = aliases.filter((alias) => normalizedQuery.includes(` ${alias} `));
     const authority = event.eventId.startsWith('issf.') ? 'issf' : event.eventId.startsWith('wsps.') ? 'wsps' : 'cbte';
     if (authorityHints.size && !authorityHints.has(authority)) return [];
@@ -557,7 +565,8 @@ const EQUIPMENT_MEASUREMENT_TERMS = /\b(dimens(?:ao|oes)|caixa|medidas?|largura|
 const EQUIPMENT_REQUEST_TERMS = /\b(equipamentos?|armamento|armas?|firearm|firearms|weapon|weapons|equipment|gear|suportes?|apoios?|support|supports|rests?|benchrest|bench\s+rest|grip|punho|bandoleiras?|sling|casaco|casacos|jaqueta|jaquetas|jacket|jackets|roupas?|vestuario|acessorios?|bandagem|taping|fitas?|sapatos?|cal[cç]ados?|shoes?|footwear|luvas?|gloves?|cal[cç]as?|trousers|pants)\b/;
 const EQUIPMENT_CARD_EVENT_ALIASES = {
   'cbte.wrabf.rifle_international': ['wrabf', 'benchrest', 'bench rest', 'rimfire international sporter', 'international sporter rifle'],
-  'cbte.duelo.10m': ['duelo', 'duelo 20 segundos 10 m', 'duelo 20 segundos 10m', 'duel', '20 second duel', '20 seconds duel', '20 second duel 10 m', '20 second duel 10m', '10 m 20 second duel', '10m 20 second duel'],
+  'cbte.duelo.10m': ['duelo 20 segundos 10 m', 'duelo 20 segundos 10m', 'duelo 20s 10m', 'duel 10m', '20 second duel', '20 seconds duel', '20 second duel 10 m', '20 second duel 10m', '10 m 20 second duel', '10m 20 second duel'],
+  'cbte.duelo.25m': ['duelo 20 segundos 25 m', 'duelo 20 segundos 25m', 'duelo 20s 25m', 'duel 25m', '20 second duel 25 m', '20 second duel 25m', '25 m 20 second duel', '25m 20 second duel'],
   'cbte.shotgun.trap_nacional': ['trap nacional', 'national trap', 'cbte national trap', 'cbte trap', 'trap cbte'],
   'cbte.shotgun.automatic_trap': ['fossa automatica cbte', 'cbte automatic trap', 'cbte fossa', 'fossa cbte'],
   'cbte.shotgun.trap_light': ['skeet light cbte', 'cbte skeet light', 'cbte skeet', 'skeet cbte'],
@@ -599,7 +608,7 @@ function equipmentCardTypes(card) {
 }
 function requestedEquipmentTopics(normalizedQuery) {
   const topics = new Set();
-  if (/\b(sapatos?|cal[cç]ados?|botas?|shoes?|footwear)\b/.test(normalizedQuery)) topics.add('footwear');
+  if (/\b(sapatos?|cal[cç]ados?|t[eê]nis|botas?|shoes?|footwear)\b/.test(normalizedQuery)) topics.add('footwear');
   if (/\b(cal[cç]as?|trousers|pants)\b/.test(normalizedQuery)) topics.add('trousers');
   if (/\b(casacos?|jaquetas?|jacket|jackets)\b/.test(normalizedQuery)) topics.add('jacket');
   if (/\b(luvas?|gloves?)\b/.test(normalizedQuery)) topics.add('glove');
@@ -621,7 +630,7 @@ function equipmentCardTopics(card) {
 }
 function requestedEquipmentTypes(normalizedQuery) {
   const types = new Set();
-  if (/\b(carabina|carabinas|carbine|rifle|rifles|fuzil|fuzis|casacos?|jaquetas?|jacket|jackets|sapatos?|cal[cç]ados?|shoe|shoes|footwear|cal[cç]as?|trousers|pants|bandoleiras?|sling|luvas?|gloves?)\b/.test(normalizedQuery)) types.add('rifle');
+  if (/\b(carabina|carabinas|carbine|rifle|rifles|fuzil|fuzis|casacos?|jaquetas?|jacket|jackets|sapatos?|cal[cç]ados?|t[eê]nis|shoe|shoes|footwear|cal[cç]as?|trousers|pants|bandoleiras?|sling|luvas?|gloves?)\b/.test(normalizedQuery)) types.add('rifle');
   if (/\b(pistola|pistolas|pistol|pistols|grip|punho|revolver|revolvers|duelo)\b/.test(normalizedQuery)) types.add('pistol');
   if (/\b(espingarda|shotgun|pump|trap|skeet|fossa)\b/.test(normalizedQuery)) types.add('shotgun');
   return types;
@@ -672,10 +681,18 @@ function equipmentCardsForQuery(query, presentationRoutes) {
 
 function queryRequestsFinalPhase(normalizedQuery) {
   if (!/\bfinal\b/.test(normalizedQuery)) return false;
+  // A question about advancing from qualification or earning a finals slot
+  // concerns qualification, even though it contains the word "final".
+  if (/\b(?:resultado|pontuacao|classificacao)\b.{0,45}\b(?:levad[oa]|somad[oa]|transferid[oa]|carregad[oa])\b.{0,20}\bfinal\b|\b(?:vaga|vagas|classificacao)\b.{0,30}\bfinal\b|\bshoot off\b.{0,45}\bfinal\b/.test(normalizedQuery)) return false;
   // Do not treat temporal wording or a question about whether an event has a
   // final as a request for the final-phase card.
   if (/\b(?:ao|no|ate o) final\b|\b(?:existe|ha|tem|possui|tera) final\b|\bfinal da (?:prova|competicao|evento|serie)\b/.test(normalizedQuery)) return false;
   return true;
+}
+
+function queryReferencesQualificationFinalProgression(normalizedQuery) {
+  return /\b(?:qualificacao|resultado|pontuacao|classificacao|shoot off|empate|empates)\b.{0,65}\b(?:levad[oa]|somad[oa]|transferid[oa]|carregad[oa]|vaga|vagas|classificacao|final)\b/.test(normalizedQuery)
+    && /\bfinal\b/.test(normalizedQuery);
 }
 
 function cardsFor(record, query) {
@@ -695,7 +712,7 @@ function cardsFor(record, query) {
   // is the card context. Lexical event aliases can resolve to a neighboring or
   // broader card route even though the selected Q&A has an unambiguous route.
   // Keep the Q&A answer intact and use its registered route only for cards.
-  if (record?.atlasId && recordRouteIds.length === 1) {
+  if (record?.atlasId && recordRouteIds.length === 1 && (!resolvedRoutes.length || resolvedRoutes.includes(recordRouteIds[0]))) {
     resolvedRoutes = [...recordRouteIds];
   } else if (recordRouteIds.length === 1 && (!resolvedRoutes.length || resolvedRoutes.includes(recordRouteIds[0]))) {
     resolvedRoutes = [...recordRouteIds];
@@ -743,7 +760,9 @@ function cardsFor(record, query) {
   if (!selectedCardRoutes.size && singleIssfRecordRoute.length) selectedCardRoutes.add(singleIssfRecordRoute[0]);
   let eligible = cards.filter((card) => selectedCardRoutes.has(card.eventId));
   const finalPhaseRequested = queryRequestsFinalPhase(normalized);
+  const qualificationFinalProgression = queryReferencesQualificationFinalProgression(normalized);
   if (finalPhaseRequested) eligible = eligible.filter((card) => card.phase === 'final');
+  else if (qualificationFinalProgression) eligible = eligible.filter((card) => card.phase === 'qualification');
   else if (/\bqualificacao\b/.test(normalized)) eligible = eligible.filter((card) => card.phase === 'qualification');
   else if (equipmentIntent && cardPresentationRoutes.length === 1) eligible = eligible.filter((card) => card.phase === 'qualification');
   const namedEventRoutes = resolvedRoutes;
@@ -755,6 +774,8 @@ function cardsFor(record, query) {
   });
   const phaseFiltered = finalPhaseRequested
     ? phaseCards.filter((card) => card.phase === 'final')
+    : qualificationFinalProgression
+      ? phaseCards.filter((card) => card.phase === 'qualification')
     : /\bqualificacao\b/.test(normalized)
       ? phaseCards.filter((card) => card.phase === 'qualification')
       : equipmentIntent && cardPresentationRoutes.length === 1
@@ -782,6 +803,11 @@ function cardsFor(record, query) {
     : modalityTerms.some((term) => phaseFiltered.some((card) => terms(card.event).includes(term)))
       ? phaseFiltered.filter((card) => modalityTerms.some((term) => terms(`${card.event} ${(card.eventAliases ?? []).join(' ')}`).includes(term)))
       : phaseFiltered;
+  if (selectedCardRoutes.size > 1
+      && selectedCardRoutes.has('issf.event.13')
+      && selectedCardRoutes.has('issf.event.14')) {
+    namedModalityCards = phaseFiltered.filter((card) => ['issf.event.13', 'issf.event.14'].includes(card.eventId));
+  }
   const singleIssfRoute = selectedCardRoutes.size === 1 ? [...selectedCardRoutes][0] : null;
   if (singleIssfRoute?.startsWith('issf.event.')) {
     const specificRouteCards = phaseFiltered.filter((card) => card.eventId === singleIssfRoute);
@@ -850,6 +876,11 @@ function figureCropsFor(routeIds = [], sourceIds = [], query = '') {
       if (apparelTopics.has('jacket')) matches.add('jacket');
       if (apparelTopics.has('trousers')) matches.add('trousers');
     }
+    if (/issf-shoe-sole-flexibility-device/.test(figureId)
+        && /\b(sapato|sapatos|cal[cç]ado|cal[cç]ados|t[eê]nis|shoe|shoes)\b/.test(queryText)
+        && /\b(dimens[aã]o|espessura|rigidez|for[cç]a|teste|test|aprova[rd]?[oa]?)\b/.test(queryText)) {
+      matches.add('footwear');
+    }
     return [...apparelTopics].some((topic) => matches.has(topic));
   };
   return figures.filter((figure) => {
@@ -861,8 +892,11 @@ function figureCropsFor(routeIds = [], sourceIds = [], query = '') {
     const excludedKeywords = figure.exclude_when_keywords ?? [];
     if (excludedKeywords.some((keyword) => queryText.includes(normalize(keyword)))) return false;
     const keywords = figure.show_when_keywords ?? [];
+    const shoeFlexibilityTest = /issf-shoe-sole-flexibility-device/.test(figure.figure_id)
+      && /\b(sapato|sapatos|cal[cç]ado|cal[cç]ados|t[eê]nis|shoe|shoes)\b/.test(queryText)
+      && /\b(dimens[aã]o|espessura|rigidez|for[cç]a|teste|test|aprova[rd]?[oa]?)\b/.test(queryText);
     return apparelFigureMatches(figure.figure_id)
-      && (keywords.length === 0 || keywords.some((keyword) => queryText.includes(normalize(keyword))));
+      && (shoeFlexibilityTest || keywords.length === 0 || keywords.some((keyword) => queryText.includes(normalize(keyword))));
   });
 }
 
@@ -1046,7 +1080,8 @@ self.onmessage = async (event) => {
         const presentedAnswer = result.record?.answer ?? result.entry?.answer ?? null;
         const presentedSources = result.record?.sourceIds ?? result.candidates?.flatMap((candidate) => candidate.sourceIds) ?? result.entry?.source_ids_cited ?? row.source_ids ?? [];
         const presentedReferences = result.record?.sourceReferences ?? result.candidates?.flatMap((candidate) => candidate.sourceReferences) ?? row.source_references ?? [];
-        const expectedCardRoutes = (testCase.expected_route_ids ?? []).filter((route) => cards.some((card) => card.eventId === route));
+        const allConfiguredCards = [...cards, ...eventEvidenceCards, ...equipmentCards];
+        const expectedCardRoutes = (testCase.expected_route_ids ?? []).filter((route) => allConfiguredCards.some((card) => [card.eventId, ...(card.eventIds ?? []), ...(card.applicableRouteIds ?? []), ...(card.routeIds ?? [])].includes(route)));
         return {
           caseId: testCase.case_id,
           atlasId: testCase.atlas_id,
@@ -1059,7 +1094,7 @@ self.onmessage = async (event) => {
           sourceReferences: presentedReferences,
           rulePassages: presentation.rulePassages.map(({ title, edition, locator, locatorAliases, text, pdfPath, pdfSha256, ocrPath, ocrSha256, sourceId, documentSourceId, relevance }) => ({ title, edition, locator, locatorAliases, text, pdfPath, pdfSha256, ocrPath, ocrSha256, sourceId, documentSourceId, relevance })),
           figureCrops: presentation.figureCrops ?? [],
-          cards: presentation.cards.map((card) => ({ cardId: card.cardId, eventId: card.eventId, phase: card.phase, photoPath: card.photoPath, photoSha256: card.photoSha256, sourceRefs: card.sourceRefs, figureCrops: (card.figureCrops ?? []).map((figure) => ({ figure_id: figure.figure_id, assetPath: figure.assetPath, assetSha256: figure.assetSha256, document_source_id: figure.document_source_id, page: figure.page, locator: figure.locator })) })),
+          cards: presentation.cards.map((card) => ({ cardId: card.cardId, eventId: card.eventId, eventIds: card.eventIds, applicableRouteIds: card.applicableRouteIds, routeIds: card.routeIds, phase: card.phase, photoPath: card.photoPath, photoSha256: card.photoSha256, imagePath: card.imagePath, imageSha256: card.imageSha256, sourceRefs: card.sourceRefs, figureCrops: (card.figureCrops ?? []).map((figure) => ({ figure_id: figure.figure_id, assetPath: figure.assetPath, assetSha256: figure.assetSha256, document_source_id: figure.document_source_id, page: figure.page, locator: figure.locator })) })),
           expectedCardRoutes,
           origin: presentation.origin,
         };

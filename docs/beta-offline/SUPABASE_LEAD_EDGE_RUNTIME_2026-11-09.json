@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-11-09",
+  "projectRef": "lqcckwnewvvifhjxdbxo",
+  "schemaColumns": ["full_name", "email", "phone"],
+  "rlsEnabled": true,
+  "remoteMigration": {
+    "id": "20261109210000_leads_insert_via_function_only",
+    "dryRun": "PASS; only expected migration listed",
+    "applied": "PASS",
+    "remoteGrants": {
+      "anonInsert": false,
+      "anonSelect": false,
+      "anonUpdate": false,
+      "anonDelete": false,
+      "authenticatedInsert": false,
+      "publicPolicies": []
+    },
+    "columnsConfirmed": ["full_name", "email", "phone"]
+  },
+  "localTests": {
+    "edgeFunctionUnitTests": "6/6_PASS",
+    "covers": [
+      "origin allowlist",
+      "CORS preflight",
+      "invalid Turnstile token prevents insert",
+      "server-side Siteverify and exact three-field insert",
+      "duplicate email response without reading lead",
+      "fail closed when secrets missing"
+    ],
+    "browserForm": "PASS",
+    "browserFormInputs": 3,
+    "consentCheckbox": false,
+    "syntheticTurnstileTokenIntercepted": true,
+    "payloadToFunction": ["email", "full_name", "phone", "turnstile_token"],
+    "leadWriteOccurred": false
+  },
+  "productionEnvironmentBuild": {
+    "result": "PASS",
+    "command": "npx vercel env run -e production -- npm run build --ignore-scripts",
+    "serviceWorkerCache": "9964c0d2eb912e3b",
+    "precacheAssets": 306,
+    "precacheBytes": 363294605,
+    "turnstileSiteKeyPresent": false,
+    "leadFormEnabledInThisBuild": false
+  },
+  "directRestRuntime": {
+    "anonymousInsert": { "httpStatus": 401, "result": "DENIED_AS_EXPECTED" },
+    "syntheticLeadCreated": false
+  },
+  "remoteDeployment": {
+    "functionDeployed": false,
+    "deploymentAttempt": "Supabase CLI required hosted mutation confirmation; no change made",
+    "turnstileWidgetCreated": false,
+    "turnstileSecretConfigured": false,
+    "allowedOriginsConfigured": false,
+    "vercelTurnstileSiteKeyConfigured": false
+  },
+  "retention": {
+    "decision": "UNTIL_DELETION_REQUEST",
+    "automatedAgePurge": false,
+    "publicPrivacyContact": "PENDING_OWNER_INPUT"
+  },
+  "limits": {
+    "perIpRateLimit": false,
+    "turnstilePurpose": "server-validated anti-automation check; not a volumetric or per-IP rate limit"
+  },
+  "release": "BLOCKED_PENDING_FUNCTION_DEPLOYMENT_AND_SECRETS_SITEKEY_PUBLIC_PRIVACY_CONTACT_AND_HOSTED_PWA_ACCEPTANCE"
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "RENATE_CARD_HUMAN_APPROVAL_SUPPLEMENT_V1",
+  "recordedAt": "2026-11-08T19:55:21.645Z",
+  "userDecision": "Correção de escopo após esclarecimento da usuária: os cards pré-aprovados são os de sapato/equipamento; não aprovar os seis cards de qualificação listados abaixo.",
+  "scope": "Registro de correção: os seis cards de qualificação foram incluídos por interpretação equivocada e ficam sem aprovação. Os cards de sapato/equipamento já possuem hashes aprovados no registro principal e permanecem no pacote.",
+  "hashMethod": "SHA-256 of UTF-8 JSON.stringify(card), matching the review gallery content hash.",
+  "cardCount": 0,
+  "decision": "NO_DECISION",
+  "supersededIncorrectDecisions": [
+    {
+      "cardId": "cbte.shotgun.trap_nacional_50_2024:qualification",
+      "catalogGroup": "eventEvidence",
+      "decision": "APPROVE",
+      "contentSha256": "b502b45fc77b47e96f151a43b35f1031fee9d6aaeb533301c6cea2c6fc801ae0",
+      "decisionSource": "USER_EXPLICIT_PREAPPROVAL_2026-11-08",
+      "approvedAt": "2026-11-08T19:55:21.645Z",
+      "reason": "Inclusão anterior por interpretação equivocada; revogada após esclarecimento da usuária."
+    },
+    {
+      "cardId": "cbte.shotgun.trap_nacional_25_2024:qualification",
+      "catalogGroup": "eventEvidence",
+      "decision": "APPROVE",
+      "contentSha256": "29a9d248c65731733a8e576601a8cd63fa7b95487ffa5c22a2a7629f3232fe45",
+      "decisionSource": "USER_EXPLICIT_PREAPPROVAL_2026-11-08",
+      "approvedAt": "2026-11-08T19:55:21.645Z",
+      "reason": "Inclusão anterior por interpretação equivocada; revogada após esclarecimento da usuária."
+    },
+    {
+      "cardId": "cbte.shotgun.trap_light:qualification",
+      "catalogGroup": "eventEvidence",
+      "decision": "APPROVE",
+      "contentSha256": "5b6fabd699cacbe0f17f7d84ce4bbc9bf5f5fb05d2bd6a01759a37a6d47b945c",
+      "decisionSource": "USER_EXPLICIT_PREAPPROVAL_2026-11-08",
+      "approvedAt": "2026-11-08T19:55:21.645Z",
+      "reason": "Inclusão anterior por interpretação equivocada; revogada após esclarecimento da usuária."
+    },
+    {
+      "cardId": "cbte.wsps.program:qualification",
+      "catalogGroup": "eventEvidence",
+      "decision": "APPROVE",
+      "contentSha256": "b99e2e5e7238e5f9a89b54ff8d44f3ad88d8a2cf34472624d2c7bc9c89db02a9",
+      "decisionSource": "USER_EXPLICIT_PREAPPROVAL_2026-11-08",
+      "approvedAt": "2026-11-08T19:55:21.645Z",
+      "reason": "Inclusão anterior por interpretação equivocada; revogada após esclarecimento da usuária."
+    },
+    {
+      "cardId": "cbte.issf.pistola:qualification",
+      "catalogGroup": "eventEvidence",
+      "decision": "APPROVE",
+      "contentSha256": "16d7c76b78a38602b349d7d19eab97e33a51dbffcdd3ee979647f62f81303f05",
+      "decisionSource": "USER_EXPLICIT_PREAPPROVAL_2026-11-08",
+      "approvedAt": "2026-11-08T19:55:21.645Z",
+      "reason": "Inclusão anterior por interpretação equivocada; revogada após esclarecimento da usuária."
+    },
+    {
+      "cardId": "cbte.issf.carabina:qualification",
+      "catalogGroup": "eventEvidence",
+      "decision": "APPROVE",
+      "contentSha256": "77e9126a5392411b2be466abd7c20002d93c7bca272f9f57f0dfffd0754d7ff2",
+      "decisionSource": "USER_EXPLICIT_PREAPPROVAL_2026-11-08",
+      "approvedAt": "2026-11-08T19:55:21.645Z",
+      "reason": "Inclusão anterior por interpretação equivocada; revogada após esclarecimento da usuária."
+    }
+  ]
+}

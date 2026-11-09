@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import { clearLocalHistory, deleteLocalConversation, getLocalConversation, hasLocalPin, listLocalConversations, requestPersistentLocalStorage, saveLocalConversation, setLocalPin, verifyLocalPin } from './localHistory.js';
+import { clearLocalHistory, deleteLocalConversation, getLocalConversation, hasLeadRegistration, hasLocalPin, listLocalConversations, requestPersistentLocalStorage, saveLocalConversation, setLeadRegistrationComplete, setLocalPin, verifyLocalPin } from './localHistory.js';
 import { createAtlasSearchClient } from './atlasSearchClient.js';
 import { transcribeLocalAudio } from './localSpeech.js';
 import { clarificationDecision } from './clarificationPolicy.js';
+import { getTurnstileSiteKey, isLeadRegistrationConfigured, submitLead } from './leadRegistration.js';
 
-const installStateText = { INSTALLING: 'Instalando recursos locais', VERIFYING: 'Verificando o pacote', READY_OFFLINE: 'Pronto para uso offline', PACK_INCOMPLETE: 'Conteúdo local ainda não conectado', PACK_INCOMPATIBLE: 'Pacote incompatível', OFFLINE_NOT_PREPARED: 'Preparação offline pendente' };
+const installStateText = { INSTALLING: 'Baixando pacote para uso offline', VERIFYING: 'Verificando o pacote local', READY_OFFLINE: 'Pronto para uso offline', PACK_INCOMPLETE: 'Conteúdo local ainda não conectado', PACK_INCOMPATIBLE: 'Pacote incompatível', OFFLINE_NOT_PREPARED: 'Preparação offline pendente' };
 
 function PinGate({ setup, onUnlock }) {
   const [pin, setPin] = useState('');
@@ -24,6 +25,74 @@ function PinGate({ setup, onUnlock }) {
     finally { setBusy(false); }
   }
   return <main className="pin-gate"><div className="pin-card"><div className="eyebrow"><span /> ACESSO LOCAL</div><h1>{setup ? 'Crie seu PIN' : 'Desbloqueie o RENATE'}</h1><p>{setup ? 'O PIN é guardado somente neste dispositivo. Ele não é enviado à internet e não pode ser recuperado se for esquecido.' : 'Digite seu PIN para abrir os dados locais do RENATE.'}</p><form onSubmit={submit}><label>PIN local<input autoComplete="off" inputMode="numeric" pattern="[0-9]*" type="password" minLength="6" maxLength="12" value={pin} onChange={(event) => setPin(event.target.value.replace(/\D/g, ''))} /></label>{setup && <label>Confirme o PIN<input autoComplete="off" inputMode="numeric" pattern="[0-9]*" type="password" minLength="6" maxLength="12" value={confirmation} onChange={(event) => setConfirmation(event.target.value.replace(/\D/g, ''))} /></label>}{error && <p role="alert" className="pin-error">{error}</p>}<button className="send-button pin-submit" disabled={busy}>{busy ? 'Verificando…' : setup ? 'Criar PIN neste dispositivo' : 'Desbloquear'}</button></form></div></main>;
+}
+
+function LeadRegistrationGate({ onComplete }) {
+  const [fullName, setFullName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [error, setError] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState('');
+  const [turnstileStatus, setTurnstileStatus] = useState('');
+  const turnstileContainer = useRef(null);
+  const turnstileWidget = useRef(null);
+  const turnstileSiteKey = getTurnstileSiteKey();
+  useEffect(() => {
+    if (!turnstileSiteKey || !turnstileContainer.current) return undefined;
+    let cancelled = false;
+    loadTurnstileApi().then((api) => {
+      if (cancelled || !turnstileContainer.current) return;
+      turnstileWidget.current = api.render(turnstileContainer.current, {
+        sitekey: turnstileSiteKey,
+        action: 'renate_lead',
+        callback: (token) => { setTurnstileToken(token); setTurnstileStatus('Verificação concluída.'); },
+        'expired-callback': () => { setTurnstileToken(''); setTurnstileStatus('A verificação expirou. Faça-a novamente.'); },
+        'error-callback': () => { setTurnstileToken(''); setTurnstileStatus('Não foi possível validar a verificação. Tente novamente.'); },
+      });
+    }).catch(() => setTurnstileStatus('A verificação antispam não carregou. Confira sua conexão.'));
+    return () => {
+      cancelled = true;
+      if (turnstileWidget.current && window.turnstile) window.turnstile.remove(turnstileWidget.current);
+      turnstileWidget.current = null;
+    };
+  }, [turnstileSiteKey]);
+  async function submit(event) {
+    event.preventDefault(); setError(''); setBusy(true);
+    try {
+      const result = await submitLead({ fullName, email, phone }, turnstileToken);
+      if (!result.ok) return setError(result.message);
+      await setLeadRegistrationComplete();
+      onComplete(result.alreadyRegistered ? result.message : 'Cadastro concluído.');
+    } catch { setError('O cadastro foi enviado, mas não foi possível registrar a conclusão neste dispositivo. Tente novamente; o sistema não armazena esses dados localmente.'); }
+    finally {
+      setBusy(false);
+      if (turnstileWidget.current && window.turnstile) window.turnstile.reset(turnstileWidget.current);
+      setTurnstileToken('');
+    }
+  }
+  return <main className="pin-gate"><section className="pin-card lead-card"><div className="eyebrow"><span /> PRIMEIRO ACESSO</div><h1>Ative o RENATE</h1><p>Para iniciar, informe seu nome, e-mail e telefone. Esses dados serão usados para registrar o primeiro acesso e permitir contato de suporte. Perguntas, respostas, histórico e PIN permanecem neste dispositivo.</p>{!isLeadRegistrationConfigured() && <p className="pin-error" role="alert">O cadastro inicial ainda não está configurado para conexão segura. Tente novamente mais tarde.</p>}<details className="lead-privacy-notice"><summary>Aviso de privacidade</summary><p>Nome, e-mail e telefone são usados para registrar o primeiro acesso e permitir contato de suporte. O aplicativo não envia perguntas, respostas, PIN ou histórico.</p><p>A lista de contatos fica acessível somente ao administrador autenticado no painel Supabase. Os dados serão mantidos até pedido de exclusão; o canal de privacidade para esse pedido será informado na página oficial antes da publicação.</p><p>O formulário usa a verificação antispam Cloudflare Turnstile. O token é validado no envio e não é salvo na lista de leads.</p></details><form onSubmit={submit}><label>Nome completo<input autoComplete="name" maxLength="160" value={fullName} onChange={(event) => setFullName(event.target.value)} required /></label><label>E-mail<input autoComplete="email" type="email" maxLength="254" value={email} onChange={(event) => setEmail(event.target.value)} required /></label><label>Telefone com DDD<input autoComplete="tel" type="tel" maxLength="32" value={phone} onChange={(event) => setPhone(event.target.value)} required /></label><div className="lead-turnstile" ref={turnstileContainer} aria-label="Verificação antispam" />{turnstileStatus && <p className="lead-captcha-status" role="status">{turnstileStatus}</p>}{error && <p role="alert" className="pin-error">{error}</p>}<button className="send-button pin-submit" disabled={busy || !isLeadRegistrationConfigured() || !turnstileToken}>{busy ? 'Enviando cadastro…' : 'Continuar para instalar'}</button></form></section></main>;
+}
+
+let turnstileScriptPromise;
+function loadTurnstileApi() {
+  if (window.turnstile) return Promise.resolve(window.turnstile);
+  if (!turnstileScriptPromise) turnstileScriptPromise = new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+    script.async = true;
+    script.defer = true;
+    script.dataset.renateTurnstile = 'true';
+    script.onload = () => window.turnstile ? resolve(window.turnstile) : reject(new Error('Turnstile did not initialize.'));
+    script.onerror = (error) => { turnstileScriptPromise = null; reject(error); };
+    document.head.append(script);
+  });
+  return turnstileScriptPromise;
+}
+
+function InstallGate({ prompt, onInstall, onContinue, status }) {
+  const installed = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  return <main className="pin-gate"><section className="pin-card lead-card install-card"><div className="eyebrow"><span /> INSTALAÇÃO</div><h1>Instale o RENATE</h1><p>O RENATE foi preparado para funcionar como aplicativo e consultar regras offline depois que os dados locais forem preparados. No Android, instale pelo menu do Chrome ou pelo botão abaixo.</p>{status && <p role="status" className="lead-status">{status}</p>}{prompt && <button className="send-button pin-submit" type="button" onClick={onInstall}>Instalar RENATE</button>}{!prompt && !installed && <div className="install-help"><strong>No Chrome para Android</strong><ol><li>Abra o menu ⋮.</li><li>Toque em “Instalar app” ou “Adicionar à tela inicial”.</li><li>Volte ao RENATE instalado para continuar.</li></ol></div>}<button className="outline-button install-continue" type="button" onClick={onContinue}>{installed ? 'Continuar para criar PIN' : 'Já instalei / continuar'}</button></section></main>;
 }
 
 function RulePassages({ passages, figureCrops = [] }) {
@@ -164,15 +233,22 @@ function MessageDetails({ message, sendQuestion }) {
     .filter((figure) => !figure.show_when_keywords?.length || figure.show_when_keywords.some((keyword) => figureContext.includes(keyword.toLocaleLowerCase('pt-BR').normalize('NFD').replace(/[\u0300-\u036f]/g, ''))))
     .map((figure) => [figure.figure_id, figure])).values()];
   const showFiguresWithCard = message.cards?.some((card) => card.cardId?.startsWith('issf.pistol.specifications.')) && figureCrops.length > 0;
-  const hasMorePassages = Boolean(message.rulePassages?.length || figureCrops.length || message.atlasId || message.origin);
+  const inlinePassages = message.showRulesInitially
+    ? (message.showAllRulesInitially ? (message.rulePassages ?? []) : (message.rulePassages ?? []).slice(0, 1))
+    : [];
+  const remainingPassages = message.showRulesInitially && !message.showAllRulesInitially
+    ? (message.rulePassages ?? []).slice(1)
+    : message.showRulesInitially ? [] : (message.rulePassages ?? []);
+  const hasMorePassages = Boolean(remainingPassages.length || figureCrops.length || message.atlasId || message.origin);
   return <>
     {message.cards?.length > 0 && <Cards cards={message.cards}/>}
     {message.text && <section className="qa-answer"><h3>Resposta do Q&A</h3><p className="assistant-answer-text">{message.text}</p></section>}
     {message.questionOptions?.length > 0 && <div className="clarification-options"><h3>Perguntas do Q&A pertinentes</h3><p>{message.clarificationNumber ? `${message.clarificationNumber}/2 · ` : ''}{message.clarificationReason === 'SAME_QUESTION_DIFFERENT_EVIDENCE' ? 'A mesma pergunta tem respostas registradas em fontes diferentes. Escolha a fonte que quer consultar:' : 'Escolha a pergunta registrada que corresponde ao assunto:'}</p>{message.questionOptions.map((option) => <button key={`${option.atlasId}-${option.text}`} type="button" onClick={() => sendQuestion(option.text, option.atlasId)}><span>{option.text}</span>{option.sourceLabels?.length > 0 && <small>{option.sourceLabels.join(' · ')}</small>}{option.sourceLabels?.length === 0 && option.routeIds?.length > 0 && <small>{option.routeIds.join(' · ')}</small>}</button>)}</div>}
     <LocalRuleDocuments message={message}/>
+    {inlinePassages.length > 0 && <RulePassages passages={inlinePassages} figureCrops={showFiguresWithCard ? [] : figureCrops}/>}
     {hasMorePassages && <details className="more-passages"><summary>Deseja ver mais passagens sobre o assunto?</summary><div className="more-passages-content">
       {showFiguresWithCard && <RuleFigureCrops figureCrops={figureCrops}/>}
-      {message.rulePassages?.length > 0 && <RulePassages passages={message.rulePassages} figureCrops={showFiguresWithCard ? [] : figureCrops}/>}
+      {remainingPassages.length > 0 && <RulePassages passages={remainingPassages} figureCrops={showFiguresWithCard ? [] : figureCrops}/>}
       {message.atlasId && <small className="answer-provenance">ATLAS · {message.atlasId}{message.routeIds?.length ? ` · ${message.routeIds[0]}` : ''}</small>}
       {message.origin && <small className="answer-provenance">Fonte local: {message.origin === 'PRETEST_PASS' ? 'preteste registrado como PASS' : message.origin === 'LOCAL_LIBRARY' ? 'biblioteca RENATE' : 'banco ATLAS'}</small>}
     </div></details>}
@@ -184,6 +260,7 @@ export default function App() {
   const [unlocked, setUnlocked] = useState(false);
   const [installPrompt, setInstallPrompt] = useState(null);
   const [installState, setInstallState] = useState('OFFLINE_NOT_PREPARED');
+  const [offlinePrepDetail, setOfflinePrepDetail] = useState('');
   const [refreshAvailable, setRefreshAvailable] = useState(false);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [activeView, setActiveView] = useState('conversation');
@@ -205,18 +282,35 @@ export default function App() {
   const hoverTargetRef = useRef(null);
   const speechSourceRef = useRef(null);
 
-  useEffect(() => { hasLocalPin().then((exists) => setPinState(exists ? 'unlock' : 'setup')).catch(() => setPinState('error')); }, []);
+  useEffect(() => { Promise.all([hasLocalPin(), hasLeadRegistration()]).then(([hasPin, hasRegistration]) => setPinState(hasPin ? 'unlock' : hasRegistration ? 'install' : 'lead')).catch(() => setPinState('error')); }, []);
   useEffect(() => {
     const promptHandler = (event) => { event.preventDefault(); setInstallPrompt(event); };
-    const readyHandler = () => setInstallState('PACK_INCOMPLETE');
+    const readyHandler = (event) => {
+      setInstallState('READY_OFFLINE');
+      const { completed, total } = event.detail ?? {};
+      setOfflinePrepDetail(total ? `${completed ?? total}/${total} arquivos conferidos e disponíveis neste aparelho.` : 'Pacote local conferido e disponível neste aparelho.');
+    };
+    const progressHandler = (event) => {
+      const { completed = 0, total = 0 } = event.detail ?? {};
+      setInstallState('INSTALLING');
+      setOfflinePrepDetail(total ? `Download offline: ${completed}/${total} arquivos.` : 'Iniciando o download do pacote offline…');
+    };
+    const failedHandler = (event) => {
+      setInstallState('OFFLINE_NOT_PREPARED');
+      setOfflinePrepDetail(event.detail?.message || 'O pacote offline não foi concluído. Verifique a conexão e o espaço disponível e recarregue para tentar novamente.');
+    };
     const updateHandler = () => setRefreshAvailable(true);
-    window.addEventListener('beforeinstallprompt', promptHandler); window.addEventListener('renate:pwa-offline-ready', readyHandler); window.addEventListener('renate:pwa-update-ready', updateHandler);
+    window.addEventListener('beforeinstallprompt', promptHandler); window.addEventListener('renate:pwa-offline-ready', readyHandler); window.addEventListener('renate:pwa-offline-progress', progressHandler); window.addEventListener('renate:pwa-offline-failed', failedHandler); window.addEventListener('renate:pwa-update-ready', updateHandler);
     if (window.matchMedia('(display-mode: standalone)').matches) setInstallState('PACK_INCOMPLETE');
-    return () => { window.removeEventListener('beforeinstallprompt', promptHandler); window.removeEventListener('renate:pwa-offline-ready', readyHandler); window.removeEventListener('renate:pwa-update-ready', updateHandler); };
+    if (window.renateOfflineReady) readyHandler({ detail: window.renateOfflineReady });
+    else if (window.renateOfflineProgress) progressHandler({ detail: window.renateOfflineProgress });
+    else if (window.renateOfflineFailure) failedHandler({ detail: window.renateOfflineFailure });
+    else if (import.meta.env.PROD && navigator.serviceWorker?.controller) navigator.serviceWorker.controller.postMessage({ type: 'CHECK_PRECACHE' });
+    return () => { window.removeEventListener('beforeinstallprompt', promptHandler); window.removeEventListener('renate:pwa-offline-ready', readyHandler); window.removeEventListener('renate:pwa-offline-progress', progressHandler); window.removeEventListener('renate:pwa-offline-failed', failedHandler); window.removeEventListener('renate:pwa-update-ready', updateHandler); };
   }, []);
   useEffect(() => {
     const client = createAtlasSearchClient(); searchClientRef.current = client;
-    client.initialize().then(() => { setAtlasReady(true); setInstallState('READY_OFFLINE'); }).catch(() => setHistoryStatus('Não foi possível preparar o pacote local.'));
+    client.initialize().then(() => { setAtlasReady(true); setInstallState((current) => current === 'READY_OFFLINE' ? current : 'VERIFYING'); }).catch(() => setHistoryStatus('Não foi possível preparar o pacote local.'));
     return () => client.close();
   }, []);
   useEffect(() => {
@@ -282,6 +376,7 @@ export default function App() {
           figureCrops: result.figureCrops,
           origin: result.origin,
           showRulesInitially: true,
+          showAllRulesInitially: found.status === 'RULE_FALLBACK',
           createdAt: Date.now(),
         };
         if (canAskAgain) {
@@ -419,11 +514,14 @@ export default function App() {
   }
 
   async function installApp() { if (!installPrompt) return; await installPrompt.prompt(); await installPrompt.userChoice; setInstallPrompt(null); }
+  async function completeInstallStep() { setPinState('setup'); }
   async function applyUpdate() { if (window.confirm('Deseja aplicar a atualização disponível?') && window.renateUpdateSW) await window.renateUpdateSW(true); }
-  function submitPin() { setPinState('unlock'); setUnlocked(true); }
+  function submitPin() { setPinState('unlock'); setHistoryStatus(''); setUnlocked(true); }
 
   if (pinState === 'checking') return <main className="pin-gate"><p role="status">Preparando o acesso local…</p></main>;
   if (pinState === 'error') return <main className="pin-gate"><p role="alert">O armazenamento local está indisponível neste navegador.</p></main>;
+  if (pinState === 'lead') return <LeadRegistrationGate onComplete={(message) => { setHistoryStatus(message); setPinState('install'); }} />;
+  if (pinState === 'install') return <InstallGate prompt={installPrompt} onInstall={installApp} onContinue={completeInstallStep} status={historyStatus || offlinePrepDetail} />;
   if (!unlocked) return <PinGate setup={pinState === 'setup'} onUnlock={submitPin}/>;
 
   return <div className="app-shell">
@@ -436,7 +534,7 @@ export default function App() {
       <div className="sidebar-section-title history-heading">HISTÓRICO LOCAL</div>
       <nav className="conversation-list" aria-label="Conversas salvas neste dispositivo">{conversations.map((item) => <div className={`conversation-item ${item.id === activeConversation?.id ? 'selected' : ''}`} key={item.id}><button className="conversation-open" onClick={() => openLocalConversation(item.id)} type="button" title={item.title}><span className="conversation-title">{item.title}</span><span className="conversation-date">{new Intl.DateTimeFormat('pt-BR', { dateStyle: 'short', timeStyle: 'short' }).format(item.updatedAt)}</span></button><button className="delete-chat" onClick={() => removeLocalConversation(item.id)} type="button" aria-label={`Apagar ${item.title}`}>×</button></div>)}{!conversations.length && <p className="history-empty">As conversas ficam salvas neste dispositivo.</p>}</nav>
       <div className="sidebar-section-title">NAVEGAÇÃO</div><nav className="side-nav" aria-label="Navegação principal"><button className={`side-nav-item ${activeView === 'conversation' ? 'selected' : ''}`} type="button" onClick={() => { setActiveView('conversation'); setMobileNavOpen(false); }}><span>◉</span> Conversa</button><button className={`side-nav-item ${activeView === 'library' ? 'selected' : ''}`} type="button" onClick={() => { setActiveView('library'); setMobileNavOpen(false); }}><span>▤</span> Biblioteca de regras</button><button className="side-nav-item" type="button" onClick={() => { setActiveView('conversation'); setMobileNavOpen(false); document.querySelector('.local-card')?.scrollIntoView({ behavior: 'smooth' }); }}><span>▧</span> Cards da conversa</button></nav>
-      <div className="sidebar-footer"><span className={`status-dot ${atlasReady ? 'ready' : ''}`} /><span>{installStateText[installState]}</span><small>Uso local · Dia 3</small></div>
+      <div className="sidebar-footer"><span className={`status-dot ${installState === 'READY_OFFLINE' ? 'ready' : ''}`} /><span>{installStateText[installState]}</span><small>{offlinePrepDetail || (atlasReady ? 'Busca local · pacote em verificação.' : 'Preparando busca local…')}</small></div>
     </aside>
     <main className="main-panel">
       <header className="topbar"><button className="mobile-menu" aria-label="Abrir menu" onClick={() => setMobileNavOpen(true)}>☰</button><div className="mobile-brand"><img className="renate-logo" src="/brand/renate-logo.png" alt="RENATE — Regras Nacionais de Tiro Esportivo" /></div><div className="topbar-actions">{installPrompt && <button className="outline-button" onClick={installApp}>Instalar app</button>}{refreshAvailable && <button className="outline-button" onClick={applyUpdate}>Atualização disponível</button>}<button className={`icon-button audio-accessibility ${audioAccessibilityEnabled ? 'audio-active' : ''}`} type="button" onClick={toggleAudioAccessibility} aria-label={audioAccessibilityEnabled ? 'Desativar acessibilidade visual por áudio' : 'Ativar acessibilidade visual por áudio'} aria-pressed={audioAccessibilityEnabled} title="Leitura com voz pt-BR local">{audioAccessibilityEnabled ? '🔊' : '🔈'}</button><button className="outline-button" onClick={() => { clearHoverRead(true); speechSourceRef.current = null; window.speechSynthesis?.cancel(); setUnlocked(false); }}>Bloquear</button><span className="beta-pill">BETA</span></div></header>

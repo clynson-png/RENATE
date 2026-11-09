@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-11-09T21:41:57.518Z",
+  "staticClientAudit": "PASS_NO_LEAD_DATA_OR_ADMIN_SECRET_IN_CLIENT_PACKAGE",
+  "packagedLeadPaths": [],
+  "forbiddenClientReferences": [],
+  "hasSupabaseClientDependency": false,
+  "envFilesPresent": [
+    ".env.local"
+  ],
+  "envFilesAreIgnored": true,
+  "clientLeadFlow": "EDGE_FUNCTION_TURNSTILE_REQUIRED; THREE_CONTACT_FIELDS_ONLY; PRODUCTION_SITE_KEY_PENDING",
+  "supabaseRlsReadDenial": "PASS; ANON_SELECT_DENIED",
+  "supabaseRlsWriteDenial": "PASS; ANON_DIRECT_WRITES_DENIED",
+  "leadFormRuntime": "PASS_LOCAL; SYNTHETIC_TURNSTILE_TOKEN; NO_LEAD_WRITTEN",
+  "abuseMitigation": "LOCAL_IMPLEMENTATION_AND_TESTS_PASS; REMOTE_FUNCTION_DEPLOYMENT_AND_SECRETS_PENDING; NO_PER_IP_RATE_LIMIT",
+  "retentionAndDeletionPolicy": "APPROVED_UNTIL_DELETION_REQUEST; PUBLIC_PRIVACY_CONTACT_PENDING",
+  "acceptance": "BLOCKED_UNTIL_FUNCTION_DEPLOYMENT_SECRETS_SITEKEY_PRIVACY_CONTACT_AND_HOSTED_ACCEPTANCE"
+}

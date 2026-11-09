@@ -1,8 +1,8 @@
 node_modules/
 .cache/
 dist/
-.env
-.env.*
+.env*
 !.env.example
 .edge-history-test-profile/
 .edge-history-test-profile2/
+.vercel/

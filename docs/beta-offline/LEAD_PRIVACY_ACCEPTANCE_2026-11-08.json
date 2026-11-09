@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-11-09T20:48:10.274Z",
+  "staticClientAudit": "PASS_NO_LEAD_DATA_OR_ADMIN_SECRET_IN_CLIENT_PACKAGE",
+  "packagedLeadPaths": [],
+  "forbiddenClientReferences": [],
+  "hasSupabaseClientDependency": false,
+  "envFilesPresent": [
+    ".env.local"
+  ],
+  "envFilesAreIgnored": true,
+  "clientLeadFlow": "IMPLEMENTED_LOCALLY; THREE_CONTACT_FIELDS_ONLY; VERCEL_PRODUCTION_CONFIGURED",
+  "supabaseRlsReadDenial": "CATALOG_CONFIRMED_READ_ONLY; DATA_API_RUNTIME_PENDING",
+  "abuseMitigation": "PENDING; public insert endpoint requires documented rate/spam controls before launch",
+  "acceptance": "BLOCKED_FOR_HOSTED_RELEASE_UNTIL_DATA_API_RUNTIME_AND_ABUSE_MITIGATION_REVIEW"
+}

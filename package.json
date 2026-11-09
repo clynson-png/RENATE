@@ -21,6 +21,8 @@
     "test:policy": "node --test tests/clarification-policy.test.mjs",
     "test:locators": "node --test tests/rule-chunks.test.mjs",
     "test:lead-privacy": "node scripts/audit_lead_privacy.mjs",
+    "test:lead-function": "node --test tests/lead-registration-function.test.mjs",
+    "test:lead-direct-rest-denied": "node scripts/test_lead_direct_rest_denied.mjs",
     "assets:figure-crops": "python scripts/render_rule_page_crops.py"
   },
   "private": true,
@@ -36,6 +38,7 @@
     "fake-indexeddb": "^6.2.7",
     "kokoro-js": "^1.2.1",
     "playwright": "^1.65.0",
+    "supabase": "^3.0.0",
     "vite": "^7.3.7"
   },
   "overrides": {

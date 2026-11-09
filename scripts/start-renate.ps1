@@ -6,6 +6,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+Import-Module PKI -ErrorAction Stop
 $ProjectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $RuntimeDir = Join-Path $ProjectRoot '.cache\device-asr-preview'
 $StatePath = Join-Path $RuntimeDir 'server-state.json'
@@ -99,6 +100,15 @@ $Cert = $null
 $CertificateThumbprint = $null
 if ((Test-Path -LiteralPath $PfxPath) -and (Test-Path -LiteralPath $PublicCertPath) -and (Test-Path -LiteralPath $PasswordPath) -and (Test-Path -LiteralPath $ThumbprintPath)) {
   $CertificateThumbprint = (Get-Content -LiteralPath $ThumbprintPath -Raw).Trim()
+  try {
+    $ExistingCertificate = [System.Security.Cryptography.X509Certificates.X509Certificate2]::new([System.IO.File]::ReadAllBytes($PublicCertPath))
+    $SubjectAlternativeName = $ExistingCertificate.Extensions | Where-Object { $_.Oid.Value -eq '2.5.29.17' } | Select-Object -First 1
+    if (-not $SubjectAlternativeName -or $SubjectAlternativeName.Format($false) -notmatch [regex]::Escape($LanAddress)) {
+      $CertificateThumbprint = $null
+    }
+  } catch {
+    $CertificateThumbprint = $null
+  }
 }
 if (-not $CertificateThumbprint) {
   $RandomBytes = New-Object byte[] 24
@@ -113,8 +123,8 @@ if (-not $CertificateThumbprint) {
   $BasicConstraints = '2.5.29.19={critical}{text}ca=TRUE&pathlength=0'
   $ServerAuth = '2.5.29.37={text}1.3.6.1.5.5.7.3.1'
   $Cert = New-SelfSignedCertificate -Subject 'CN=RENATE Local Device Test' -Type Custom -KeyAlgorithm RSA -KeyLength 2048 -HashAlgorithm SHA256 -KeyExportPolicy Exportable -KeyUsage DigitalSignature,KeyEncipherment,CertSign -TextExtension @($BasicConstraints, $San, $ServerAuth) -NotAfter (Get-Date).AddDays(30) -CertStoreLocation Cert:\CurrentUser\My
-  Export-PfxCertificate -Cert $Cert -FilePath $PfxPath -Password $PasswordSecure | Out-Null
-  Export-Certificate -Cert $Cert -FilePath $PublicCertPath -Type CERT | Out-Null
+  Export-PfxCertificate -Cert $Cert -FilePath $PfxPath -Password $PasswordSecure -Force | Out-Null
+  Export-Certificate -Cert $Cert -FilePath $PublicCertPath -Type CERT -Force | Out-Null
   [System.IO.File]::WriteAllText($PasswordPath, $Password, [System.Text.UTF8Encoding]::new($false))
   [System.IO.File]::WriteAllText($ThumbprintPath, $Cert.Thumbprint, [System.Text.UTF8Encoding]::new($false))
   $CertificateThumbprint = $Cert.Thumbprint

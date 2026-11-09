@@ -7,6 +7,7 @@ const suites = [
   { name: 'ORIGINAL_960', url: '/tests/../data/imports/day1_2026-11-06/pretests/atlas_golden_set_manifest_2026-11-06.json' },
   { name: 'SUPPLEMENT_50', url: '/tests/golden/supplement_50_2026-11-08.json' },
   { name: 'TIE_BREAK_SUPPLEMENT_94', url: '/tests/golden/tie_break_supplement_94_2026-11-08.json' },
+  { name: 'LATER_QA_2', url: '/tests/golden/later_qa_2_2026-11-08.json' },
 ];
 
 try {
@@ -29,7 +30,17 @@ try {
   const files = new Map((packageManifest.files ?? []).map((file) => [file.path, file]));
   const rowById = new Map(rows.map((row) => [row.atlas_id, row]));
   const allCases = loaded.flatMap(({ manifest }) => manifest.cases);
-  if (allCases.length !== 1104 || new Set(allCases.map((item) => item.atlas_id)).size !== 1104) throw new Error('Golden Sets não cobrem exatamente 1.104 IDs únicos.');
+  if (allCases.length !== 1106 || new Set(allCases.map((item) => item.atlas_id)).size !== 1106) throw new Error('Golden Sets não cobrem exatamente 1.106 IDs únicos.');
+  const laterQaManifest = loaded.find(({ name }) => name === 'LATER_QA_2')?.manifest;
+  const laterQaSourceResponse = await fetch('/data/imports/rifle_apparel_qa_2026-11-08.jsonl');
+  const laterQaSourceText = await laterQaSourceResponse.text();
+  if (!laterQaSourceResponse.ok || await sha256(laterQaSourceText.trimEnd()) !== laterQaManifest?.source_sha256) throw new Error('O suplemento rastreável das duas Q&A posteriores mudou em relação ao seu hash aprovado.');
+  const [cardApprovalResponse, cardApprovalSupplementResponse] = await Promise.all([
+    fetch('/docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json'),
+    fetch('/docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json'),
+  ]);
+  if (!cardApprovalResponse.ok || !cardApprovalSupplementResponse.ok) throw new Error('O registro de aprovação humana dos cards não foi carregado.');
+  const [cardApproval, cardApprovalSupplement] = await Promise.all([cardApprovalResponse.json(), cardApprovalSupplementResponse.json()]);
 
   const client = createAtlasSearchClient();
   const ready = await client.initialize();
@@ -38,6 +49,15 @@ try {
     ...(catalog.eventEvidenceCards ?? []).flatMap((card) => [card.eventId, ...(card.eventIds ?? []), ...(card.applicableRouteIds ?? [])]),
     ...(catalog.equipmentCards ?? []).flatMap((card) => card.eventIds ?? []),
   ].filter(Boolean));
+  const normalizeText = (value) => String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR').replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
+  const allConfiguredCards = [...(catalog.cards ?? []), ...(catalog.eventEvidenceCards ?? []), ...(catalog.equipmentCards ?? [])];
+  const cardApprovalKeys = new Set([...(cardApproval.decisions ?? []), ...(cardApprovalSupplement.decisions ?? [])].filter((decision) => decision.decision === 'APPROVE')
+    .map((decision) => `${decision.catalogGroup}\u0000${decision.cardId}\u0000${decision.contentSha256}`));
+  const packagedCardsAreApproved = await Promise.all(allConfiguredCards.map(async (card) => {
+    const group = (catalog.cards ?? []).includes(card) ? 'standardized' : (catalog.eventEvidenceCards ?? []).includes(card) ? 'eventEvidence' : 'equipment';
+    return cardApprovalKeys.has(`${group}\u0000${card.cardId}\u0000${await sha256(JSON.stringify(card))}`);
+  }));
+  if (packagedCardsAreApproved.some((approved) => !approved)) throw new Error('O pacote contém card sem aprovação humana para o hash de conteúdo vigente.');
   const results = [];
   for (let offset = 0; offset < allCases.length; offset += 32) {
     const batch = allCases.slice(offset, offset + 32);
@@ -52,7 +72,13 @@ try {
       const selectedIds = actual.record?.atlasId ? [actual.record.atlasId] : (actual.candidates ?? []).map((item) => item.atlasId);
       const optionIds = (actual.questionOptions ?? []).map((item) => item.atlasId).filter(Boolean);
       const expectedRoutes = expected.expected_route_ids ?? row?.route_ids ?? [];
-      const cardRouteApplicable = expectedRoutes.some((route) => configuredRoutes.has(route));
+      const normalizedQuestion = normalizeText(row?.question);
+      const explicitlyNamedCardRoutes = new Set(allConfiguredCards.filter((card) => {
+        const aliases = [card.event, card.eventName, card.title, card.caption, ...(card.eventAliases ?? []), ...(card.aliases ?? [])]
+          .map(normalizeText).filter((alias) => alias.length >= 4);
+        return aliases.some((alias) => normalizedQuestion.includes(` ${alias} `) || normalizedQuestion.startsWith(`${alias} `) || normalizedQuestion.endsWith(` ${alias}`));
+      }).flatMap((card) => [card.eventId, ...(card.eventIds ?? []), ...(card.applicableRouteIds ?? []), ...(card.routeIds ?? [])]).filter(Boolean));
+      const cardRouteApplicable = expectedRoutes.some((route) => configuredRoutes.has(route) && explicitlyNamedCardRoutes.has(route));
       const cardIds = (response?.cards ?? []).map((card) => card.cardId);
       const citedRows = [...new Set([...selectedIds, ...optionIds])].map((id) => rowById.get(id)).filter(Boolean);
       const sourceReferences = [
@@ -189,6 +215,7 @@ try {
     runtime: 'Actual local worker search for each original question; selectedAtlasId is never forced.',
     corpusCount: ready.count,
     cardCatalogCounts: { standardized: catalog.cards?.length ?? 0, eventEvidence: catalog.eventEvidenceCards?.length ?? 0, equipment: catalog.equipmentCards?.length ?? 0 },
+    packagedCardsAreApproved: packagedCardsAreApproved.every(Boolean),
     combined,
     caseResults: results,
   };

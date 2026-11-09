@@ -9,7 +9,11 @@
 
 ## Estado e regra de fechamento
 
-Os dias 1 a 4 foram executados parcialmente ou integralmente conforme as evidências listadas abaixo. A regressão runtime separada do snapshot de 960, suplemento de 50 e suplemento posterior (94) foi repetida em 2026-11-08, antes e depois da reconciliação focal. O runtime final consultou todas as perguntas pelo caminho real, sem fixar o ID esperado, e passou 1.104/1.104. Os IDs de rota e a sequência/perguntas permaneceram intactos; a exceção específica da usuária cobriu aliases de seleção, fontes e nove respostas.
+**Correção de escopo, 2026-11-08:** os seis cards pré-aprovados referidos pela usuária são os de sapato/equipamento; os 13 cards dessa categoria já estavam aprovados por hash e permanecem incluídos. Seis cards de qualificação/programa foram incluídos por engano no suplemento e agora ficam excluídos por falta de aprovação correspondente. Pacote atual: 131 cards aprovados; histórico da correção em `CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json`.
+
+**Aceite humano offline Android, 2026-11-08:** a usuária informou `offline aprovado` após instalar a PWA e verificar consulta offline no Android. O aceite está registrado em `OFFLINE_HUMAN_ACCEPTANCE_2026-11-08.md`; o gate local escopado para continuar as configurações online anteriormente autorizadas está atendido. iPhone, quota e validação de atualização hospedada permanecem pendentes.
+
+**Atualização de fechamento escopado, 2026-11-08:** o runtime foi ampliado para 1.106 Q&A e passou 1.106/1.106: 960 do snapshot, 50 do suplemento, 94 do desempate e duas entradas posteriores. A suíte browser ampla ainda reporta problemas de associação/apresentação de cards, registrados para a próxima versão na SPEC v3.0; o aceite local é escopado e não implica revisão humana offline nem habilita serviços online.
 
 O trabalho de hoje é fechar a validação offline e preparar uma versão local de produção para revisão da usuária. **Antes de qualquer criação, instalação ou conexão de instância/serviço que dependa de atividade externa ou login** — incluindo Supabase, Vercel/HTTPS ou cadastro de leads — a usuária deve poder abrir e revisar a versão local, sem rede, incluindo design, layout e funcionalidades. A revisão e o aceite são um gate; não são presumidos pelo build ou por testes automatizados.
 
@@ -27,8 +31,9 @@ Depois do aceite offline, registrar em seção separada qualquer etapa externa q
 - ASR humano Android: **PASS por decisão explícita da usuária** nesta retomada. Esse aceite não se estende ao iPhone, quota/instalação móvel ou TTS PT-BR, que continua bloqueado.
 - Reteste focado de 2026-11-08: cards de falha das quatro provas ISSF de pistola e cards de equipamento CBTE passaram nos casos registrados; os controles de acessibilidade por áudio passaram em Chromium com voz PT-BR simulada, inclusive leitura apenas dos cards e hover/foco após 3 segundos. O teste não comprova áudio real, TTS offline nem funcionamento em aparelho. Evidência: `docs/beta-offline/FAILURE_EQUIPMENT_AUDIO_ACCESSIBILITY_RETEST_2026-11-08.md`.
 - Apresentação compacta: teste de browser em Chromium 158 no viewport 390 × 844 passou para `CBTE:CBTE-ARB-020:A01`: ordem card → Q&A → link de regra local → disclosure; passagens recolhidas inicialmente, 18 figuras ao abrir, sem overflow e sem requisições externas. Evidência: `COMPACT_PRESENTATION_2026-11-08.json`. Isso valida o comportamento automatizado desse caso, não equivale ao aceite visual humano offline.
-- Cards: a usuária aprovou os 138 cards existentes; registro por hash em `CARD_HUMAN_APPROVAL_ALL_2026-11-08.json`. A conclusão dos 17 casos adicionou quatro cards com `NO_DECISION`; a auditoria atual tem 142 registros, 138 aprovados e 4 pendentes. A aprovação anterior não foi estendida aos novos cards.
+- Cards (estado corrigido): 131 cards ativos têm aprovação pelo hash corrente; os 13 cards de equipamento incluem os de sapato ISSF e vestuário WSPS. Seis cards de qualificação/programa continuam sem aprovação e foram retirados do pacote. O registro suplementar mantém o histórico da correção.
 - Supabase/Vercel não foram configurados.
+- A suíte browser atual preserva 960/960 em respostas, fontes, localizadores e proveniência PDF/OCR, mas registra 50 casos com questões de seleção/apresentação de cards. As consultas genéricas de rota, associações Rimfire/F-Class e demais IDs estão anotados para a próxima versão; não foram corrigidos neste fechamento escopado.
 
 ## Dia 1 — Recepção, inventário RENATE e pacote de dados — CHECK
 
@@ -61,7 +66,7 @@ Depois do aceite offline, registrar em seção separada qualquer etapa externa q
 - CHECK — Implementar conversa, esclarecimentos, histórico local, PIN e navegação da Biblioteca de regras.
 - CHECK — Renderizar cards e figuras locais aplicáveis; preservar conteúdo, ordem e proveniência.
 - CHECK — Confirmar persistência local e funcionamento offline no Chromium para o escopo testado.
-- CHECK — A usuária aprovou explicitamente os 138 registros de cards atuais. Aprovações vinculadas a ID/grupo/índice/SHA-256 em `CARD_HUMAN_APPROVAL_ALL_2026-11-08.json`; auditoria: 138/138 APPROVE, 0 pendências. Uma nova versão de conteúdo exige nova decisão.
+- CHECK — Aprovação vigente verificada por ID/grupo/SHA-256: 131/131 cards ativos; equipamentos e vestuário permanecem incluídos. Seis cards de qualificação/programa sem decisão foram excluídos.
 - CHECK PARCIAL — ASR Android aceito como PASS pela usuária; iPhone permanece pendente. TTS PT-BR continua bloqueado.
 
 ## Dia 4 — PWA e operação offline local — CHECK COM PENDÊNCIAS
@@ -71,7 +76,7 @@ Depois do aceite offline, registrar em seção separada qualquer etapa externa q
 - CHECK — Implementar precache e Service Worker local; registrar inventário e tamanho do precache por build.
 - CHECK — Validar no Chromium o app shell, navegação, busca, respostas, cards, histórico/PIN e zero chamadas externas no cenário testado.
 - CHECK — Gerar build local após o complemento ATLAS de 50 Q&A.
-- CHECK DE ENTREGA HTTPS — A prévia atual está acessível na rede local em `https://192.168.1.12:4173/`. App, manifesto, catálogo de cards e Service Worker retornaram HTTP 200; hashes do pacote e dos 138 cards aprovados conferem; viewport de 390 px sem overflow e zero requisições externas. Evidência: `MOBILE_PREVIEW_2026-11-08.json`. Permanecem pendentes instalação PWA e reabertura offline em Android/iPhone; fala humana Android segue PASS e iPhone pendente.
+- CHECK DE ENTREGA HTTPS (histórico do catálogo anterior) — A prévia LAN documentou HTTP 200 e hashes de 138 cards em `MOBILE_PREVIEW_2026-11-08.json`; essa evidência não cobre o pacote atual corrigido de 131 cards. Permanecem pendentes instalação PWA e reabertura offline em Android/iPhone; fala humana Android segue PASS e iPhone pendente.
 - PENDENTE — A validação de atualização assinada e de recuperação de falha precisa constar de evidência própria antes de ser considerada aceita.
 - ADIADO ATÉ ACEITE OFFLINE — Qualquer configuração ou teste de Supabase, Vercel/HTTPS, leads ou login externo.
 - CHECK — Repositório Git local inicializado em `RENATE/`, branch `main`, sem remoto e sem commit inicial. GitHub, Vercel e Supabase permanecem fora desta etapa.
@@ -83,7 +88,7 @@ Depois do aceite offline, registrar em seção separada qualquer etapa externa q
 1. **CHECK — ASR Android.** A usuária considerou PASS o lote humano apresentado. Registrar como decisão humana para Android; não declarar iPhone ou TTS aprovados.
 2. **CHECK — Reteste focado de falhas, equipamento e interface de acessibilidade por áudio.** Os quatro cards ISSF de falha, os cards CBTE de equipamento e os controles UI de leitura por ícone/hover/foco passaram nos casos do relatório. A interface foi exercitada com voz `pt-BR` simulada; saída audível e TTS offline em Android/iPhone não foram aprovados. No viewport móvel Chromium 390 × 844, os quatro cards de falha corretos vieram primeiro (4/4); isso não substitui aparelho físico.
 3. **CHECK AUTOMATIZADO PARCIAL — Apresentação compacta.** A ordem cards → resposta/perguntas Q&A pertinentes → links normativos → disclosure recolhido passou no caso CBTE especificado em `COMPACT_PRESENTATION_2026-11-08.json`, no viewport 390 × 844 e sem chamadas externas. Revisão visual humana offline continua pendente.
-4. **CHECK — Aprovação humana dos cards por ID/hash.** Decisão explícita da usuária em 08/11: todos os cards aprovados. O registro `CARD_HUMAN_APPROVAL_ALL_2026-11-08.json` contém 138 aprovações com hash corrente; a auditoria `CARD_REVIEW_STATUS_2026-11-08.csv` confirma 138/138. O export antigo foi preservado e não foi reescrito.
+4. **CHECK — Aprovação humana dos cards por ID/hash.** O pacote ativo contém 131 cards com hashes aprovados no registro principal. Os cards de sapato/equipamento estão incluídos; seis qualificações/programas sem hash aprovado ficaram fora. O registro `CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json` preserva o histórico da correção.
    - Preview local: `https://192.168.1.12:4173/` (mesma rede Wi-Fi; cards aparecem ao perguntar pela prova/equipamento correspondente).
    - Galeria de revisão por ID/hash: `https://192.168.1.12:4173/cards-review.html`. Aprovações/ajustes ficam no navegador; usar **Exportar decisões** para entregar o arquivo JSON, sem envio externo.
    - Catálogo JSON completo: `https://192.168.1.12:4173/renate-pack/cards.json`.
@@ -97,23 +102,23 @@ Depois do aceite offline, registrar em seção separada qualquer etapa externa q
 
 **Critério de saída do Dia 5:** a versão local abre e pode ser revisada sem login e sem atividade externa; os 50 Q&A têm resultados individuais; os problemas encontrados estão corrigidos ou listados como pendentes; o aceite da usuária está registrado separadamente. Se faltar aparelho ou fala humana, registrar pendência sem declarar teste móvel concluído.
 
-## Etapa posterior, fora do fechamento offline — bloqueada até aceite e autorização
+## Etapa online — autorizada após aceite offline, em preparação
 
-Esta etapa não deve começar antes do aceite da versão offline e de autorização para a atividade externa correspondente:
+O aceite Android foi registrado e a usuária já autorizou esta etapa. Preparação local iniciada; publicação continua condicionada à autenticação, aos gates de privacidade e aos testes de acesso:
 
-- Configurar Supabase somente para inserção inicial de lead, com política RLS insert-only e sem leitura pelo cliente.
-- Hospedar no Vercel/HTTPS e validar instalação/atualização da PWA a partir da origem hospedada.
+- Preparar Supabase somente para inserção inicial de lead com três campos. Migration `20261109210000_leads_insert_via_function_only.sql` aplicada; consulta read-only confirmou as três colunas, RLS e privilégios anon de INSERT/SELECT/UPDATE/DELETE negados; POST REST direto retornou 401. Edge Function + Turnstile passou 6/6 unit tests e teste browser sintético sem gravar lead. O deploy da função foi bloqueado pelo gate de confirmação do CLI. Retenção até pedido de exclusão aprovada; canal público de privacidade e sitekey/secret ainda pendentes.
+- Hospedar no Vercel/HTTPS e validar instalação/atualização da PWA a partir da origem hospedada. Projeto vinculado, Node 24.x e build de produção local passou; deployment pendente.
 - Configurar ou testar qualquer fluxo que exija conta, credencial, login ou atividade de terceiro.
 - Registrar cada serviço, dado público de configuração, segredo, política de acesso, evidência e eventual aprovação de implantação.
 
 ## Critérios de conclusão do trabalho atual
 
 - [x] As 50 entradas novas têm Golden Set rastreável e avaliação individual em runtime aprovada (50/50).
-- [x] Regressão runtime aprovada do pacote combinado de 1.104 Q&A: 960/960, 50/50 e 94/94; Q&A pertinente, cards aplicáveis e vínculos de passagens — 1.104/1.104. Relatórios `QA_RECONCILIATION_RUNTIME_2026-11-08.json` e `QA_RECONCILIATION_COMPLETION_2026-11-08.md`. O relatório anterior permanece preservado como baseline histórico.
-- [ ] A usuária revisou a versão local em modo offline e o aceite ou as correções estão registrados.
-- [x] `dist/` e `public/renate-pack/` refletem o build atualizado de 08/11/2026. Build: 1.104 Q&A, 27 PDFs, 46 OCRs, 15.174 passagens, 142 cards (138 aprovados, 4 pendentes); SHA-256 do pacote `c560f7f5ac4cbd48996039690a1b7db2e5ff4554444037f28a3cb636caa60d62`; SHA-256 de `cards.json` `cf6bf7bc0b3aac14efa5dc0c58ce3c6ca824608fb7c781ca812bb5b7073bdd18`.
+- [x] Regressão runtime aprovada de 1.106 Q&A: 960/960, 50/50, 94/94 e duas posteriores (2/2); Q&A pertinente, cards ativos aprovados, links/fontes, proveniência e vínculos de passagens — 1.106/1.106. Relatório `QA_RECONCILIATION_RUNTIME_2026-11-08.json`; as duas entradas têm manifesto próprio em `tests/golden/later_qa_2_2026-11-08.json`.
+- [x] A usuária aprovou instalação e consulta offline do pacote escopado no Android; aceite registrado em `OFFLINE_HUMAN_ACCEPTANCE_2026-11-08.md`. Revisão iPhone/quota/atualização hospedada continua pendente.
+- [x] `dist/` e `public/renate-pack/` refletem o build escopado corrigido de 08/11/2026. Build: 1.106 Q&A, 27 PDFs, 46 OCRs, 15.174 passagens, 131 cards aprovados; SHA-256 do pacote `5627f767a3ba3f24fadc2c01173ae5768e558aebb58afb0cff797ae5cddfbd55`; SHA-256 de `cards.json` `d1e560c39fd169e52c57b235db5ebce5b71b079ef8a1aaed1fb497ec868103ef`.
 - [x] Android ASR está registrado como PASS por decisão da usuária; iPhone, quota e instalação móvel seguem explicitamente marcados como pendentes.
-- [ ] Revisão humana dos quatro cards criados para fechar os casos ausentes. Os 138 cards aprovados anteriormente continuam válidos; os novos estão pendentes em `CARD_REVIEW_STATUS_2026-11-08.csv` e `CARD_REVIEW_STATUS_2026-11-08.json`.
+- [x] O pacote contém 131 cards com hash aprovado atual, incluindo os 13 cards de equipamento; a auditoria `CARD_REVIEW_STATUS_2026-11-08.json` registra 131/131 aprovados e zero pendências ativas. Seis cards de qualificação/programa sem aprovação foram excluídos; o histórico da correção está em `CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json`. Os quatro finais CBTE solicitados estão suprimidos; lacunas de chamada foram adiadas e documentadas na SPEC v3.0.
 - [x] TTS PT-BR permanece identificado como bloqueado até passar demonstração offline com proveniência/licença; o texto continua disponível.
-- [x] Nenhuma instância ou serviço externo foi criado, instalado ou conectado durante este fechamento local.
+- [x] Nenhuma instância Supabase remota foi criada/aplicada e nenhuma versão foi publicada. CLI Supabase instalada localmente; projeto Vercel foi criado e vinculado à conta autorizada, sem deployment.
 - [x] Todo o trabalho desta missão permaneceu dentro de `RENATE/`; ADANA20 não foi alterado.

@@ -3,42 +3,17 @@
   "source": "all three card arrays in public/renate-pack/cards.json compared with docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json",
   "catalogGroups": {
     "standardized": 30,
-    "eventEvidence": 100,
-    "equipment": 12
+    "eventEvidence": 88,
+    "equipment": 13
   },
   "hashMethod": "SHA-256 of UTF-8 JSON.stringify(card), matching the review gallery content hash",
-  "totalCards": 142,
+  "totalCards": 131,
   "counts": {
-    "APPROVE": 138,
+    "APPROVE": 131,
     "CHANGES": 0,
     "STALE_DECISION": 0,
-    "NO_DECISION": 4
+    "NO_DECISION": 0
   },
   "currentChanges": [],
-  "pendingCurrent": [
-    {
-      "cardId": "WSPS_PROGRAM_OF_EVENTS_V1",
-      "contentSha256": "52500e72d5894667d55312b48d0e76b68834483b60ea86fa4b71481a7839fd02",
-      "status": "NO_DECISION",
-      "priorDecision": ""
-    },
-    {
-      "cardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
-      "contentSha256": "c6cd896ac339547464a99b09915725d88508c0acda89d11a35c6f53f58c6af23",
-      "status": "NO_DECISION",
-      "priorDecision": ""
-    },
-    {
-      "cardId": "ISSF_MOVING_TARGET_SLING_RULE_V1",
-      "contentSha256": "f5d9c70a677e94ae9ea0a8b137dcfd46709b4d72eb6821edfddabbdb37050669",
-      "status": "NO_DECISION",
-      "priorDecision": ""
-    },
-    {
-      "cardId": "WSPS_PARATRAP_ADAPTIVE_SUPPORT_V1",
-      "contentSha256": "a2902d1da2875f50cec32663c15461599488b31d6bb5b637994b7de50bd465ea",
-      "status": "NO_DECISION",
-      "priorDecision": ""
-    }
-  ]
+  "pendingCurrent": []
 }

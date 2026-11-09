@@ -905,6 +905,15 @@ const cbteRouteSignatures = new Map([...cbteRouteNames].map(([routeId, names]) =
 const finalPositive = (row) => /final|semifinal/i.test(row.question ?? '')
   && /final|semifinal/i.test(row.answer ?? '')
   && !/\b(não há|não existe|não possui|não prevê|não institui|sem final|final não é|não é realizada final)\b/i.test(row.answer ?? '');
+// User review: these CBTE routes must not publish final-phase cards. The
+// Carabina ISSF card has no approved final content; the three shotgun routes
+// do not have finals. Keep the underlying Q&A snapshot intact.
+const cbteFinalSuppressedRoutes = new Set([
+  'cbte.issf.carabina',
+  'cbte.shotgun.trap_light',
+  'cbte.shotgun.trap_nacional_25_2024',
+  'cbte.shotgun.trap_nacional_50_2024',
+]);
 const qualificationPriority = (row) => {
   const question = row.question ?? '';
   return (/(como (é|se desenvolve)|formato|quantos? (disparos|tiros|pratos)|qualificação|classificat[oó]ria)/i.test(question) ? 5 : 0)
@@ -916,6 +925,7 @@ for (const [routeId, eventNames] of cbteRouteNames) {
   const events = cbteEvents.filter((event) => event.event_id === routeId);
   const routeTokens = cbteRouteSignatures.get(routeId) ?? [];
   const routeRows = safeAtlas.filter((row) => (row.route_ids ?? []).includes(routeId)
+    && row.authority === 'CBTE'
     && row.renate_approved_as_evidence === true
     && row.answer
     && (row.source_references ?? []).length > 0
@@ -924,7 +934,7 @@ for (const [routeId, eventNames] of cbteRouteNames) {
       || routeTokens.some((term) => normalizedTokens(row.question).includes(term))));
   const qualificationRows = routeRows.filter((row) => !/final|semifinal/i.test(row.question ?? ''))
     .sort((a, b) => qualificationPriority(b) - qualificationPriority(a) || a.atlas_id.localeCompare(b.atlas_id)).slice(0, 3);
-  const finalRows = routeRows.filter(finalPositive)
+  const finalRows = (cbteFinalSuppressedRoutes.has(routeId) ? [] : routeRows.filter(finalPositive))
     .sort((a, b) => a.atlas_id.localeCompare(b.atlas_id)).slice(0, 3);
   const phases = [
     { phase: 'qualification', rows: qualificationRows },
@@ -1999,10 +2009,37 @@ if (errors.length) {
       ? (card.eventId.startsWith('cbte.duelo.') ? 'ILUSTRACAO_FOTORREALISTA_LOCAL_RECORTADA_DE_CARD_DUELO_20S_10M; REUSO EM 25M APROVADO PELO USUARIO' : 'ILUSTRACAO_FOTORREALISTA_LOCAL; ARQUIVO ORIGINAL PRESERVADO')
       : 'FOTOGRAFIA LOCAL RENATE IMG; ARQUIVO ORIGINAL PRESERVADO';
   }
+  // Only ship cards whose current card content hash has an explicit human approval.
+  // Generated/edited cards without a matching decision remain available in source for a later review,
+  // but cannot appear in the approved offline release.
+  const cardApprovalPaths = [
+    path.join(root, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json'),
+    path.join(root, 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json'),
+  ];
+  const cardApprovalSets = cardApprovalPaths.map((approvalPath) => JSON.parse(fs.readFileSync(approvalPath, 'utf8')));
+  const approvedCardKeys = new Set(cardApprovalSets.flatMap((approval) => approval.decisions ?? [])
+    .filter((decision) => decision.decision === 'APPROVE')
+    .map((decision) => `${decision.catalogGroup}\u0000${decision.cardId}\u0000${decision.contentSha256}`));
+  const cardGroups = [
+    ['standardized', runtimeCardRecords],
+    ['eventEvidence', eventEvidenceCards],
+    ['equipment', equipmentCards],
+  ];
+  const excludedUnapprovedCards = [];
+  for (const [group, cards] of cardGroups) {
+    for (let index = cards.length - 1; index >= 0; index -= 1) {
+      const card = cards[index];
+      const contentSha256 = crypto.createHash('sha256').update(JSON.stringify(card), 'utf8').digest('hex');
+      const key = `${group}\u0000${card.cardId}\u0000${contentSha256}`;
+      if (approvedCardKeys.has(key)) continue;
+      excludedUnapprovedCards.push({ cardId: card.cardId, catalogGroup: group, contentSha256, reason: 'NO_CURRENT_HASH_MATCHING_HUMAN_APPROVAL' });
+      cards.splice(index, 1);
+    }
+  }
   writeJson('cards.json', { schema: 'RENATE_STANDARDIZED_CARDS_V3', layout: 'RENATE_UNIFIED_CARD_V1', skinReference: 'RENATE_R6_APPROVED_VISUAL_MODEL', cards: runtimeCardRecords, eventEvidenceCards, equipmentCards });
   writeJson('imported-cards-catalog.json', { schema: 'RENATE_IMPORTED_ADANA_CARDS_CATALOG_V1', sourceSnapshot: adanaCardSnapshotPath, sourceSnapshotSha256: sha256(localPath(adanaCardSnapshotPath)), assetPolicy: adanaCardSnapshot.asset_policy, cards: importedCardCatalog, assets: importedCardAssets });
   writeJson('figures.json', { schema: 'RENATE_RULE_PAGE_CROPS_V1', figures: packedFigureCrops });
-  const inputPaths = [atlasPath, supplementPath, tieBreakingSupplementPath, rifleApparelQaPath, alphaomegaAssociationPath, bindingPath, pretestPath, cardPath, 'library/manifest.csv', 'data/imports/user_provided_card_images_2026-11-06/IMAGE_PROVENANCE.json', ...supplementAssetPaths, 'data/imports/renate_generated_cards_2026-11-07/wrabf-front-rest-appendix-g.png', ...targetSprintPhotoFiles.map(({ file }) => `IMG/${file}`), 'img/WSPS_P3.png', 'img/WSPS_P5.png', 'img/Duelo_20_10m_photo_reused.png', 'img/wrabf_issf.png', 'library/img/CARDS_PROVAS/Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png', ...Object.values(eventPhotoSources).map(([sourcePath]) => sourcePath)];
+  const inputPaths = [atlasPath, supplementPath, tieBreakingSupplementPath, rifleApparelQaPath, alphaomegaAssociationPath, bindingPath, pretestPath, cardPath, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json', 'library/manifest.csv', 'data/imports/user_provided_card_images_2026-11-06/IMAGE_PROVENANCE.json', ...supplementAssetPaths, 'data/imports/renate_generated_cards_2026-11-07/wrabf-front-rest-appendix-g.png', ...targetSprintPhotoFiles.map(({ file }) => `IMG/${file}`), 'img/WSPS_P3.png', 'img/WSPS_P5.png', 'img/Duelo_20_10m_photo_reused.png', 'img/wrabf_issf.png', 'library/img/CARDS_PROVAS/Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png', ...Object.values(eventPhotoSources).map(([sourcePath]) => sourcePath)];
   const sourceHashes = Object.fromEntries(inputPaths.map((file) => [file, sha256(path.join(root, file))]));
   const manifest = {
     schema: 'RENATE_VERSIONED_LOCAL_PACKAGE_V1',
@@ -2018,6 +2055,10 @@ if (errors.length) {
       ocrFiles: packedDocs.reduce((sum, doc) => sum + doc.ocrs.length, 0),
       ruleChunks: ruleChunks.length,
       standardizedCards: runtimeCardRecords.length + eventEvidenceCards.length + equipmentCards.length,
+      humanApprovedCardsOnly: true,
+      humanApprovedCardCount: runtimeCardRecords.length + eventEvidenceCards.length + equipmentCards.length,
+      excludedUnapprovedCardCount: excludedUnapprovedCards.length,
+      excludedUnapprovedCards,
       runtimeEquipmentCards: equipmentCards.length,
       alphaomegaAssociatedQuestions: alphaomegaQuestionIds.size,
       normativeEvidenceCards: eventEvidenceCards.length,
@@ -2037,12 +2078,21 @@ if (errors.length) {
       archivedLegacyCards: cardRecords.length + importedOriginalCardArchives.length,
       figureCrops: packedFigureCrops.length,
     },
-    bytes: { pdfs: packedDocs.reduce((sum, doc) => sum + doc.pdf.bytes, 0), ocrs: packedDocs.flatMap((doc) => doc.ocrs).reduce((sum, ocr) => sum + ocr.bytes, 0), cardPhotos: [...new Set(runtimeCardRecords.flatMap((card) => [card.photoPath, ...(card.photoGallery ?? []).map((photo) => photo.path)].filter(Boolean)))].reduce((sum, assetPath) => sum + fs.statSync(path.join(outputRoot, assetPath.slice(2))).size, 0), importedCardAssets: importedCardAssets.reduce((sum, asset) => sum + asset.bytes, 0), figureCrops: packedFigureCrops.reduce((sum, crop) => sum + crop.assetBytes, 0) },
+    bytes: { pdfs: packedDocs.reduce((sum, doc) => sum + doc.pdf.bytes, 0), ocrs: packedDocs.flatMap((doc) => doc.ocrs).reduce((sum, ocr) => sum + ocr.bytes, 0), cardPhotos: [...new Set([...runtimeCardRecords, ...eventEvidenceCards, ...equipmentCards].flatMap((card) => [card.photoPath, card.imagePath, ...(card.photoGallery ?? []).map((photo) => photo.path)].filter(Boolean)))].reduce((sum, assetPath) => sum + fs.statSync(path.join(outputRoot, assetPath.slice(2))).size, 0), importedCardAssets: importedCardAssets.reduce((sum, asset) => sum + asset.bytes, 0), figureCrops: packedFigureCrops.reduce((sum, crop) => sum + crop.assetBytes, 0) },
     sourceHashes: { ...sourceHashes, [adanaCardSnapshotPath]: sha256(localPath(adanaCardSnapshotPath)), [adanaCardAuditPath]: sha256(localPath(adanaCardAuditPath)), [approvalPath]: p6ApprovalPack.sha256, [r6PhotoSourcePath]: r6PhotoPack.sha256, [r6PhotoMetadataPath]: sha256(localPath(r6PhotoMetadataPath)), 'img/R4_wsps.png': r4QualificationPhoto.sha256, 'img/R4_2_wsps.png': r4FinalPhoto.sha256, 'img/R7_kneeling_wsps.png': r7KneelingPhoto.sha256, 'img/R7_prone_wsps.png': r7PronePhoto.sha256, 'img/R7_standing_wsps.png': r7StandingPhoto.sha256, 'img/R8_standing_wsps.png': r8StandingQualificationPhoto.sha256, 'img/R8_standing_wsps_2.png': r8StandingFinalPhoto.sha256 },
     files: [
       ...packedDocs.flatMap((doc) => [doc.pdf, ...doc.ocrs]),
       ...cardRecords.flatMap((card) => [{ path: card.localLegacyArchive, sha256: card.legacyAssetSha256 }, ...(card.photoPath ? [{ path: card.photoPath, sha256: card.photoSha256 }] : [])]),
       ...runtimeCardRecords.flatMap((card) => [...new Map([...(card.photoPath ? [{ path: card.photoPath, sha256: card.photoSha256 }] : []), ...(card.photoGallery ?? [])].map((asset) => [asset.path, asset])).values()].map((asset) => ({ path: asset.path, sha256: asset.sha256 ?? sha256(path.join(outputRoot, asset.path.slice(2))), bytes: fs.statSync(path.join(outputRoot, asset.path.slice(2))).size }))),
+      ...[...eventEvidenceCards, ...equipmentCards].flatMap((card) => [
+        ...(card.imagePath ? [{ path: card.imagePath, sha256: card.imageSha256 }] : []),
+        ...(card.photoPath ? [{ path: card.photoPath, sha256: card.photoSha256 }] : []),
+        ...(card.photoGallery ?? []).map((photo) => ({ path: photo.path, sha256: photo.sha256 })),
+      ]).filter((asset, index, assets) => assets.findIndex((item) => item.path === asset.path) === index)
+        .map((asset) => {
+          const absolutePath = path.join(outputRoot, asset.path.replace(/^\.\//, '').replaceAll('/', path.sep));
+          return { path: asset.path, sha256: asset.sha256 ?? sha256(absolutePath), bytes: fs.statSync(absolutePath).size };
+        }),
       ...importedCardAssets,
       ...importedOriginalCardArchives,
       p6ApprovalPack,

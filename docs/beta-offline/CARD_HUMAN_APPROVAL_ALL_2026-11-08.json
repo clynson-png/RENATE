@@ -1,11 +1,11 @@
 {
   "schema": "RENATE_CARD_HUMAN_APPROVAL_V1",
-  "recordedAt": "2026-11-08T14:39:34.575Z",
+  "recordedAt": "2026-11-08T19:10:27.004Z",
   "userDecision": "todos os cards aprovados",
   "scope": "All card records present in the current local package, each bound to its current content SHA-256.",
   "hashMethod": "SHA-256 of UTF-8 JSON.stringify(card), matching the human review gallery content hash.",
-  "cardCount": 138,
-  "uniqueCardIdCount": 134,
+  "cardCount": 143,
+  "uniqueCardIdCount": 139,
   "duplicateCardIdCount": 4,
   "decision": "APPROVE",
   "decisions": [
@@ -1526,6 +1526,134 @@
       "approvedAt": "2026-11-08T14:39:34.575Z",
       "supersedesDecision": "APPROVE",
       "supersedesContentSha256": "667f15004067125a423f6e6947312064330d151b39c653b8fc82f9e2783aa24b"
+    },
+    {
+      "cardId": "WSPS_PROGRAM_OF_EVENTS_V1",
+      "catalogGroup": "eventEvidence",
+      "catalogIndex": 99,
+      "decision": "APPROVE",
+      "contentSha256": "52500e72d5894667d55312b48d0e76b68834483b60ea86fa4b71481a7839fd02",
+      "decisionSource": "USER_AUTHORIZED_TEST_PASS_2026-11-08",
+      "testReport": "docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-08.json",
+      "testCase": {
+        "cardId": "WSPS_PROGRAM_OF_EVENTS_V1",
+        "query": "Qual é o programa de eventos e provas da WSPS?",
+        "selectedCard": true,
+        "layoutPass": true,
+        "sectionContentPass": true,
+        "localAssetHashPass": true,
+        "sourceBindingsPass": true,
+        "state": "PASS"
+      },
+      "approvedAt": "2026-11-08T19:10:27.003Z",
+      "supersedesDecision": "NO_PRIOR_DECISION",
+      "supersedesContentSha256": null
+    },
+    {
+      "cardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+      "catalogGroup": "equipment",
+      "catalogIndex": 9,
+      "decision": "APPROVE",
+      "contentSha256": "d871fe40596e6b7e11c9a808a4d97d4a460e193e4483ad14b28153e4f0cdcce8",
+      "decisionSource": "USER_AUTHORIZED_TEST_PASS_2026-11-08",
+      "testReport": "docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-08.json",
+      "testCase": {
+        "cardId": "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "query": "Qual a dimensão/ espessura/ rigidez/ força / teste/ que o calçado/ sapato/ tênis de tiro tem que passar/ suportar/ para ser aprovado/ok?",
+        "selectedCard": true,
+        "layoutPass": true,
+        "sectionContentPass": true,
+        "localAssetHashPass": true,
+        "sourceBindingsPass": true,
+        "state": "PASS"
+      },
+      "approvedAt": "2026-11-08T19:10:27.003Z",
+      "supersedesDecision": "NO_PRIOR_DECISION",
+      "supersedesContentSha256": null
+    },
+    {
+      "cardId": "WSPS_RIFLE_APPAREL_AND_SLING_V1",
+      "catalogGroup": "equipment",
+      "catalogIndex": 10,
+      "decision": "APPROVE",
+      "contentSha256": "7a57c8474cd85323608f710a88f670dec8c3341167060bc402d09023b45e629d",
+      "decisionSource": "USER_AUTHORIZED_TEST_PASS_2026-11-08",
+      "testReport": "docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-08.json",
+      "testCase": {
+        "cardId": "WSPS_RIFLE_APPAREL_AND_SLING_V1",
+        "query": "WSPS R3: quais medidas do sapato de tiro, calça, casaco, luva e bandoleira?",
+        "selectedCard": true,
+        "layoutPass": true,
+        "sectionContentPass": true,
+        "localAssetHashPass": true,
+        "sourceBindingsPass": true,
+        "state": "PASS"
+      },
+      "approvedAt": "2026-11-08T19:10:27.003Z",
+      "supersedesDecision": "NO_PRIOR_DECISION",
+      "supersedesContentSha256": null
+    },
+    {
+      "cardId": "ISSF_MOVING_TARGET_SLING_RULE_V1",
+      "catalogGroup": "equipment",
+      "catalogIndex": 11,
+      "decision": "APPROVE",
+      "contentSha256": "f5d9c70a677e94ae9ea0a8b137dcfd46709b4d72eb6821edfddabbdb37050669",
+      "decisionSource": "USER_AUTHORIZED_TEST_PASS_2026-11-08",
+      "testReport": "docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-08.json",
+      "testCase": {
+        "cardId": "ISSF_MOVING_TARGET_SLING_RULE_V1",
+        "query": "ISSF Moving Target: quando a bandoleira pode ser usada na prova de alvo móvel?",
+        "selectedCard": true,
+        "layoutPass": true,
+        "sectionContentPass": true,
+        "localAssetHashPass": true,
+        "sourceBindingsPass": true,
+        "state": "PASS"
+      },
+      "approvedAt": "2026-11-08T19:10:27.003Z",
+      "supersedesDecision": "NO_PRIOR_DECISION",
+      "supersedesContentSha256": null
+    },
+    {
+      "cardId": "WSPS_PARATRAP_ADAPTIVE_SUPPORT_V1",
+      "catalogGroup": "equipment",
+      "catalogIndex": 12,
+      "decision": "APPROVE",
+      "contentSha256": "a2902d1da2875f50cec32663c15461599488b31d6bb5b637994b7de50bd465ea",
+      "decisionSource": "USER_AUTHORIZED_TEST_PASS_2026-11-08",
+      "testReport": "docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-08.json",
+      "testCase": {
+        "cardId": "WSPS_PARATRAP_ADAPTIVE_SUPPORT_V1",
+        "query": "WSPS Para Trap: quais são as regras do suporte adaptativo por classe?",
+        "selectedCard": true,
+        "layoutPass": true,
+        "sectionContentPass": true,
+        "localAssetHashPass": true,
+        "sourceBindingsPass": true,
+        "state": "PASS"
+      },
+      "approvedAt": "2026-11-08T19:10:27.004Z",
+      "supersedesDecision": "NO_PRIOR_DECISION",
+      "supersedesContentSha256": null
+    }
+  ],
+  "testDrivenApprovals": [
+    {
+      "testReport": "docs/beta-offline/CONTENT_PRESENTATION_960_2026-11-08.json",
+      "passedCardIds": [
+        "WSPS_PROGRAM_OF_EVENTS_V1",
+        "ISSF_RIFLE_EQUIPMENT_AND_CLOTHING_V1",
+        "WSPS_RIFLE_APPAREL_AND_SLING_V1",
+        "ISSF_MOVING_TARGET_SLING_RULE_V1",
+        "WSPS_PARATRAP_ADAPTIVE_SUPPORT_V1"
+      ],
+      "failedCardIds": [
+        "cbte.issf.carabina:final",
+        "cbte.shotgun.trap_light:final",
+        "cbte.shotgun.trap_nacional_25_2024:final",
+        "cbte.shotgun.trap_nacional_50_2024:final"
+      ]
     }
   ]
 }

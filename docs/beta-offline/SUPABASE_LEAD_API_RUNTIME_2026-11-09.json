@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-11-09",
+  "projectRef": "lqcckwnewvvifhjxdbxo",
+  "schemaColumns": ["full_name", "email", "phone"],
+  "rlsEnabled": true,
+  "anonInsertColumns": ["full_name", "email", "phone"],
+  "anonDeniedOperations": ["SELECT", "UPDATE", "DELETE"],
+  "policy": "renate_leads_insert_validated",
+  "apiRuntime": {
+    "syntheticLead": true,
+    "insert": { "status": 201, "result": "PASS" },
+    "select": { "status": 401, "result": "DENIED_AS_EXPECTED" },
+    "update": { "status": 401, "result": "DENIED_AS_EXPECTED" },
+    "delete": { "status": 401, "result": "DENIED_AS_EXPECTED" },
+    "cleanup": "ADMIN_DELETE_COMMAND_COMPLETED",
+    "remainingLeadRowsAfterCleanup": 0
+  },
+  "formRuntime": {
+    "threeInputs": true,
+    "consentCheckboxAbsent": true,
+    "payloadKeys": ["email", "full_name", "phone"],
+    "registrationAdvancedToInstallStep": true,
+    "supabaseRequestIntercepted": true,
+    "extraLeadWritten": false
+  },
+  "build": {
+    "command": "npx vercel env run -e production -- npm run build --ignore-scripts",
+    "result": "PASS",
+    "prebuildPackRegenerationSkipped": true
+  },
+  "releaseGates": {
+    "retentionAndDeletionPolicy": "PENDING_OWNER_DECISION",
+    "publicInsertAbuseMitigation": "PENDING_REVIEW",
+    "vercelDeployment": "NOT_DEPLOYED"
+  }
+}
