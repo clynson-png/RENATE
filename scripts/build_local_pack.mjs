@@ -1214,7 +1214,7 @@ if (!targetSprintPdf) {
     errors.push(`Card normativo Target Sprint: SHA-256 divergente em ${localPdfRelativePath}.`);
   }
   const targetSprintPhotos = targetSprintPhotoFiles.map(({ file, label }) => {
-    const copied = copyHashed(`IMG/${file}`, `cards/target-sprint/${file}`, null, `Foto Target Sprint (${label})`);
+    const copied = copyHashed(`img/${file}`, `cards/target-sprint/${file}`, null, `Foto Target Sprint (${label})`);
     return { path: copied.path, sha256: copied.sha256, alt: `ISSF Target Sprint — ${label.toLocaleLowerCase('pt-BR')}`, label, provenance: 'Foto local fornecida pelo usuário; galeria oficial ISSF World Tour Target Sprint Munich 2026: https://www.issf-sports.org/competitions/3566' };
   });
   const targetSprintSourceReference = {
@@ -2039,7 +2039,7 @@ if (errors.length) {
   writeJson('cards.json', { schema: 'RENATE_STANDARDIZED_CARDS_V3', layout: 'RENATE_UNIFIED_CARD_V1', skinReference: 'RENATE_R6_APPROVED_VISUAL_MODEL', cards: runtimeCardRecords, eventEvidenceCards, equipmentCards });
   writeJson('imported-cards-catalog.json', { schema: 'RENATE_IMPORTED_ADANA_CARDS_CATALOG_V1', sourceSnapshot: adanaCardSnapshotPath, sourceSnapshotSha256: sha256(localPath(adanaCardSnapshotPath)), assetPolicy: adanaCardSnapshot.asset_policy, cards: importedCardCatalog, assets: importedCardAssets });
   writeJson('figures.json', { schema: 'RENATE_RULE_PAGE_CROPS_V1', figures: packedFigureCrops });
-  const inputPaths = [atlasPath, supplementPath, tieBreakingSupplementPath, rifleApparelQaPath, alphaomegaAssociationPath, bindingPath, pretestPath, cardPath, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json', 'library/manifest.csv', 'data/imports/user_provided_card_images_2026-11-06/IMAGE_PROVENANCE.json', ...supplementAssetPaths, 'data/imports/renate_generated_cards_2026-11-07/wrabf-front-rest-appendix-g.png', ...targetSprintPhotoFiles.map(({ file }) => `IMG/${file}`), 'img/WSPS_P3.png', 'img/WSPS_P5.png', 'img/Duelo_20_10m_photo_reused.png', 'img/wrabf_issf.png', 'library/img/CARDS_PROVAS/Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png', ...Object.values(eventPhotoSources).map(([sourcePath]) => sourcePath)];
+  const inputPaths = [atlasPath, supplementPath, tieBreakingSupplementPath, rifleApparelQaPath, alphaomegaAssociationPath, bindingPath, pretestPath, cardPath, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json', 'library/manifest.csv', 'data/imports/user_provided_card_images_2026-11-06/IMAGE_PROVENANCE.json', ...supplementAssetPaths, 'data/imports/renate_generated_cards_2026-11-07/wrabf-front-rest-appendix-g.png', ...targetSprintPhotoFiles.map(({ file }) => `img/${file}`), 'img/WSPS_P3.png', 'img/WSPS_P5.png', 'img/Duelo_20_10m_photo_reused.png', 'img/wrabf_issf.png', 'library/img/CARDS_PROVAS/Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png', ...Object.values(eventPhotoSources).map(([sourcePath]) => sourcePath)];
   const sourceHashes = Object.fromEntries(inputPaths.map((file) => [file, sha256(path.join(root, file))]));
   const manifest = {
     schema: 'RENATE_VERSIONED_LOCAL_PACKAGE_V1',
