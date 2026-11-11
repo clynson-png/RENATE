@@ -1,0 +1,17 @@
+{
+  "schema": "RENATE_CARD_HUMAN_APPROVAL_SUPPLEMENT_V1",
+  "createdAt": "2026-11-11T00:00:00.000Z",
+  "scope": "New WSPS general equipment card requested directly by the user on 2026-11-11; approval is bound to the exact generated content hash.",
+  "decisions": [
+    {
+      "cardId": "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1",
+      "catalogGroup": "equipment",
+      "catalogIndex": 13,
+      "decision": "APPROVE",
+      "contentSha256": "6d129c60cdc0ea168fa6ed64afc4be64247e02b45fe5c3f7da674624e62d555c",
+      "decisionSource": "USER_EXPLICIT_REQUEST_TO_CREATE_AND_CALL_CARD_2026-11-11",
+      "approvedAt": "2026-11-11T00:00:00.000Z",
+      "scopeNote": "Approval is limited to this exact hash and the user's requested WSPS equipment coverage, measurements, explanations, source references, page crops, and generic keyword callability."
+    }
+  ]
+}

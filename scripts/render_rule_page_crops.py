@@ -18,6 +18,10 @@ ISSF_MOVING_TARGET_EVENTS = ["issf.event.13", "issf.event.14"]
 ISSF_SHOTGUN_EVENTS = [f"issf.event.{number:02d}" for number in range(15, 20)]
 CBTE_SHOTGUN_EVENTS = ["cbte.shotgun.automatic_trap", "cbte.shotgun.trap_nacional", "cbte.shotgun.trap_nacional_25_2024", "cbte.shotgun.trap_nacional_50_2024", "cbte.shotgun.trap_light"]
 CBTE_DUELO_EVENTS = ["cbte.duelo.10m", "cbte.duelo.25m"]
+WSPS_EVENTS = ([f"wsps.event.r{number}" for number in range(1, 12)]
+               + [f"wsps.event.p{number}" for number in range(1, 7)]
+               + [f"wsps.event.pt{number}" for number in range(1, 4)]
+               + ["wsps.event.vis", "wsps.event.vip"])
 
 SPECS = [
     {
@@ -167,6 +171,83 @@ SPECS = [
 # Additional illustrations found in the current, already-local RENATE PDFs.
 # These are mapped to the question topics that they actually illustrate.
 SPECS.extend([
+    {
+        "figure_id": "wsps-start-bib-backrest-score-p16",
+        "event_ids": WSPS_EVENTS,
+        "show_when_keywords": ["bib", "bib number", "start number", "numero de peito", "posição do bib", "backrest score a", "backrest score b", "backrest score c"],
+        "document_source_id": "ADANA-SRC-892D95743F291E6F",
+        "pdf_path": "library/documents/ADANA-SRC-892D95743F291E6F/WSPS Rulebook 2026_vFinal.pdf",
+        "page": 16, "printed_page": 16, "locator": "2.11.6.1–2.11.6.2",
+        "title": "WSPS Rulebook 2026 vFinal", "edition": "Vigente desde 01/01/2026",
+        "crop_rect_points": [0, 0, 594, 841],
+        "description": "Página oficial sobre visibilidade e posição do bib de acordo com o score A, B ou C do encosto.",
+    },
+    {
+        "figure_id": "wsps-shooting-chair-high-stool-p29-30",
+        "event_ids": WSPS_EVENTS,
+        "show_when_keywords": ["cadeira de tiro", "shooting chair", "cadeira", "chair", "banco baixo", "low stool", "banco alto", "high stool", "shooting stool", "cadeiras de rodas", "wheelchair", "dimensão do banco", "altura do banco"],
+        "document_source_id": "ADANA-SRC-892D95743F291E6F",
+        "pdf_path": "library/documents/ADANA-SRC-892D95743F291E6F/WSPS Rulebook 2026_vFinal.pdf",
+        "page": 30, "printed_page": 30, "locator": "3.7.1–3.7.4",
+        "title": "WSPS Rulebook 2026 vFinal", "edition": "Vigente desde 01/01/2026",
+        "crop_rect_points": [0, 0, 594, 841],
+        "description": "Página oficial com medidas do banco alto e limites gerais para cadeira de tiro.",
+    },
+    {
+        "figure_id": "wsps-wheelchair-chair-table-rules-p31",
+        "event_ids": WSPS_EVENTS,
+        "show_when_keywords": ["cadeira de rodas", "cadeiras de rodas", "wheelchair", "encosto", "backrest", "mesa de tiro", "shooting table", "apoio de braço", "sideboards"],
+        "document_source_id": "ADANA-SRC-892D95743F291E6F",
+        "pdf_path": "library/documents/ADANA-SRC-892D95743F291E6F/WSPS Rulebook 2026_vFinal.pdf",
+        "page": 31, "printed_page": 31, "locator": "3.7.5–3.7.9",
+        "title": "WSPS Rulebook 2026 vFinal", "edition": "Vigente desde 01/01/2026",
+        "crop_rect_points": [0, 0, 594, 841],
+        "description": "Tabela de apoios por posição e limites de cadeira de rodas, rodas, braços e encosto.",
+    },
+    {
+        "figure_id": "wsps-chair-backrest-dimensions-p32-33",
+        "event_ids": WSPS_EVENTS,
+        "show_when_keywords": ["encosto", "backrest", "folga do encosto", "backrest slack", "score a", "score b", "score c", "letras a b c", "60% do dorso"],
+        "document_source_id": "ADANA-SRC-892D95743F291E6F",
+        "pdf_path": "library/documents/ADANA-SRC-892D95743F291E6F/WSPS Rulebook 2026_vFinal.pdf",
+        "page": 33, "printed_page": 33, "locator": "3.7.10–3.7.13.4",
+        "title": "WSPS Rulebook 2026 vFinal", "edition": "Vigente desde 01/01/2026",
+        "crop_rect_points": [0, 0, 594, 841],
+        "description": "Página oficial com profundidade máxima do encosto e scores A/B/C de altura livre visível.",
+    },
+    {
+        "figure_id": "wsps-chair-seat-and-flexible-backrest-p32",
+        "event_ids": WSPS_EVENTS,
+        "show_when_keywords": ["encosto", "backrest", "folga do encosto", "backrest slack", "8 cm", "assento", "seat angle", "almofada"],
+        "document_source_id": "ADANA-SRC-892D95743F291E6F",
+        "pdf_path": "library/documents/ADANA-SRC-892D95743F291E6F/WSPS Rulebook 2026_vFinal.pdf",
+        "page": 32, "printed_page": 32, "locator": "3.7.10–3.7.12.1(a)",
+        "title": "WSPS Rulebook 2026 vFinal", "edition": "Vigente desde 01/01/2026",
+        "crop_rect_points": [0, 0, 594, 841],
+        "description": "Página oficial com limite do encosto flexível, ângulos do assento e regras de almofadas.",
+    },
+    {
+        "figure_id": "wsps-shooting-table-and-kneeling-block-p34-35",
+        "event_ids": WSPS_EVENTS,
+        "show_when_keywords": ["mesa de tiro", "shooting table", "disco de tiro", "kneeling disc", "kneeling block", "10cm block", "bloco de 10 cm", "joelho", "kneeling", "almofada da mesa"],
+        "document_source_id": "ADANA-SRC-892D95743F291E6F",
+        "pdf_path": "library/documents/ADANA-SRC-892D95743F291E6F/WSPS Rulebook 2026_vFinal.pdf",
+        "page": 35, "printed_page": 35, "locator": "3.8.1.1–3.8.1.8",
+        "title": "WSPS Rulebook 2026 vFinal", "edition": "Vigente desde 01/01/2026",
+        "crop_rect_points": [0, 0, 594, 841],
+        "description": "Página oficial com dimensões da mesa e do apoio de cotovelo de 10 cm na posição ajoelhada.",
+    },
+    {
+        "figure_id": "wsps-pistol-table-dimensions-p36",
+        "event_ids": [f"wsps.event.p{number}" for number in range(1, 7)],
+        "show_when_keywords": ["mesa de pistola", "pistol table", "mesa adicional de pistola", "30x30", "30 x 30"],
+        "document_source_id": "ADANA-SRC-892D95743F291E6F",
+        "pdf_path": "library/documents/ADANA-SRC-892D95743F291E6F/WSPS Rulebook 2026_vFinal.pdf",
+        "page": 36, "printed_page": 36, "locator": "3.8.2.1–3.8.2.2",
+        "title": "WSPS Rulebook 2026 vFinal", "edition": "Vigente desde 01/01/2026",
+        "crop_rect_points": [0, 0, 594, 841],
+        "description": "Página oficial com condições de autorização e dimensões máximas de mesa adicional para pistola.",
+    },
     {
         "figure_id": "cbte-cma-25m-three-target-layout-p2", "event_ids": ["cbte.cma.25m"],
         "show_when_keywords": ["alvo", "centro do alvo", "centros do alvo", "target"],

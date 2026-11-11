@@ -1,0 +1,315 @@
+{
+  "schema": "RENATE_WSPS_GENERAL_EQUIPMENT_RUNTIME_V1",
+  "generatedAt": "2026-11-11T20:41:26.706Z",
+  "state": "PASS",
+  "scope": "Focused runtime only for WSPS general equipment keywords and explicit ISSF/CBTE isolation; no Q&A or route identities changed.",
+  "expectedCardId": "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1",
+  "cardInPack": true,
+  "cardSha256": "6d129c60cdc0ea168fa6ed64afc4be64247e02b45fe5c3f7da674624e62d555c",
+  "cardHashApproved": true,
+  "cardFigureAssetsInPack": true,
+  "probeCount": 15,
+  "passed": 15,
+  "failed": 0,
+  "externalRequestCount": 0,
+  "externalRequests": [],
+  "results": [
+    {
+      "query": "Quais são as especificações permitidas para cadeiras de rodas WSPS?",
+      "figures": [
+        "wsps-wheelchair-chair-table-rules-p31"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-shooting-chair-high-stool-p29-30",
+        "wsps-wheelchair-chair-table-rules-p31"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Quais regras se aplicam à cadeira de tiro WSPS?",
+      "figures": [
+        "wsps-shooting-chair-high-stool-p29-30"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-shooting-chair-high-stool-p29-30"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Qual é a altura máxima do cano em relação ao piso para usar banco baixo WSPS?",
+      "figures": [
+        "wsps-shooting-chair-high-stool-p29-30"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-shooting-chair-high-stool-p29-30"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Quais são as dimensões permitidas para o banco alto WSPS?",
+      "figures": [
+        "wsps-shooting-chair-high-stool-p29-30"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-shooting-chair-high-stool-p29-30"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Quais dimensões são permitidas para a mesa de tiro WSPS?",
+      "figures": [
+        "wsps-shooting-table-and-kneeling-block-p34-35"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-wheelchair-chair-table-rules-p31",
+        "wsps-shooting-table-and-kneeling-block-p34-35"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Qual bloco de 10 cm é permitido como apoio para o joelho no WSPS?",
+      "figures": [
+        "wsps-shooting-table-and-kneeling-block-p34-35"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-shooting-table-and-kneeling-block-p34-35"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Onde deve ficar o bib number no equipamento WSPS?",
+      "figures": [
+        "wsps-start-bib-backrest-score-p16"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-start-bib-backrest-score-p16"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Quais são as dimensões permitidas para o encosto da cadeira de tiro WSPS?",
+      "figures": [
+        "wsps-chair-backrest-dimensions-p32-33"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-shooting-chair-high-stool-p29-30",
+        "wsps-wheelchair-chair-table-rules-p31",
+        "wsps-chair-backrest-dimensions-p32-33",
+        "wsps-chair-seat-and-flexible-backrest-p32"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Quais são as regras do fork ou garfo de suporte do rifle WSPS?",
+      "figures": [
+        "wsps-appendix5-sh2-rifle-yoke-configuration-p28"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-appendix5-sh2-support-spring-overview-p24",
+        "wsps-appendix5-spring-flexibility-p26",
+        "wsps-appendix5-spring-test-bar-p27",
+        "wsps-appendix5-sh2-rifle-yoke-configuration-p28"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "Qual rigidez a mola do suporte SH2 WSPS deve ter?",
+      "figures": [
+        "wsps-appendix5-spring-flexibility-p26"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-appendix5-sh2-support-spring-overview-p24",
+        "wsps-appendix5-spring-flexibility-p26",
+        "wsps-appendix5-spring-test-bar-p27"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "O que significam as letras A, B e C na classificação do encosto WSPS?",
+      "figures": [
+        "wsps-chair-backrest-dimensions-p32-33"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-wheelchair-chair-table-rules-p31",
+        "wsps-chair-backrest-dimensions-p32-33",
+        "wsps-chair-seat-and-flexible-backrest-p32"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "O que significam as subclasses a e b da mola de suporte SH2 WSPS?",
+      "figures": [
+        "wsps-appendix5-spring-flexibility-p26"
+      ],
+      "genericOnly": true,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-appendix5-sh2-support-spring-overview-p24",
+        "wsps-appendix5-spring-flexibility-p26",
+        "wsps-appendix5-spring-test-bar-p27"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "WSPS R7 kneeling block 10cm",
+      "figures": [
+        "wsps-shooting-table-and-kneeling-block-p34-35"
+      ],
+      "alsoExpected": [
+        "wsps.event.r7:qualification"
+      ],
+      "order": [
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1",
+        "wsps.event.r7:qualification"
+      ],
+      "genericOnly": false,
+      "cardPresented": true,
+      "figureIds": [
+        "wsps-shooting-table-and-kneeling-block-p34-35"
+      ],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [
+        "WSPS_RIFLE_KNEELING_TABLE_SUPPORT_V1",
+        "WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1",
+        "WSPS_RIFLE_APPAREL_AND_SLING_V1",
+        "wsps.event.r7:qualification"
+      ],
+      "correctlyExcluded": null
+    },
+    {
+      "query": "ISSF cadeira de rodas e fork dimensões",
+      "exclude": true,
+      "genericOnly": false,
+      "cardPresented": false,
+      "figureIds": [],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [],
+      "correctlyExcluded": true
+    },
+    {
+      "query": "CBTE cadeira de rodas e fork dimensões",
+      "exclude": true,
+      "genericOnly": false,
+      "cardPresented": false,
+      "figureIds": [],
+      "expectedFiguresPresent": true,
+      "expectedAdditionalCardsPresent": true,
+      "expectedOrderPreserved": true,
+      "onlyGenericCardPresented": true,
+      "responseCardIds": [],
+      "correctlyExcluded": true
+    }
+  ]
+}

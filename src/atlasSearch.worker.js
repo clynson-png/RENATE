@@ -228,7 +228,8 @@ function resolveNamedEventRoutes(query) {
   const queryTerms = terms(query).filter((term) => !GENERIC_EVENT_TERMS.has(term));
   if (!queryTerms.length) return [];
   const events = new Map();
-  for (const card of [...eventEvidenceCards.filter((item) => item.category !== 'event_program'), ...cards, ...equipmentCards]) {
+  for (const card of [...eventEvidenceCards.filter((item) => item.category !== 'event_program'), ...cards, ...equipmentCards]
+    .filter((item) => item.cardId !== 'WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1')) {
     const eventIds = [...new Set([card.eventId, ...(card.eventIds ?? []), ...(card.applicableRouteIds ?? [])].filter(Boolean))];
     for (const eventId of eventIds) {
       const current = events.get(eventId) ?? { eventId, names: new Set(), aliases: new Set() };
@@ -563,6 +564,7 @@ function matchPretest(query) {
 
 const EQUIPMENT_MEASUREMENT_TERMS = /\b(dimens(?:ao|oes)|caixa|medidas?|largura|comprimento|espessura|altura|dimensions?|box|measurements?|width|length|thickness|height)\b/;
 const EQUIPMENT_REQUEST_TERMS = /\b(equipamentos?|armamento|armas?|firearm|firearms|weapon|weapons|equipment|gear|suportes?|apoios?|support|supports|rests?|benchrest|bench\s+rest|grip|punho|bandoleiras?|sling|casaco|casacos|jaqueta|jaquetas|jacket|jackets|roupas?|vestuario|acessorios?|bandagem|taping|fitas?|sapatos?|cal[cç]ados?|shoes?|footwear|luvas?|gloves?|cal[cç]as?|trousers|pants)\b/;
+const WSPS_GENERAL_EQUIPMENT_TERMS = /\b(cadeiras?\s+de\s+rodas?|wheelchairs?|cadeiras?\s+de\s+tiro|shooting\s+chairs?|bancos?\s+baixos?|low\s+stools?|bancos?\s+altos?|high\s+stools?|shooting\s+stools?|mesas?\s+de\s+tiro|shooting\s+tables?|discos?\s+de\s+tiro|disco\s+de\s+joelhos?|kneeling\s+(?:disc|block)|10\s?cm\s+block|bloco\s+de\s+10\s*cm|posicao\s+do\s+bib(?:\s+number)?|bib(?:\s+number)?\s+(?:position|posicao)|bib\s+number|start\s+number|encostos?|backrests?|garfos?|forks?|yokes?|molas?|springs?|rigidez\s+(?:da\s+)?mola|spring\s+(?:stiffness|flexibility)|flexibilidade\s+(?:da\s+)?mola|spring\s+flexibility|score\s+[abc]|subclass\s+[ab]|(?:meaning|significado)\b.{0,24}\bletras?\s+a\s*(?:and|e)?\s*b\s*(?:and|e)?\s*c)\b/;
 const EQUIPMENT_CARD_EVENT_ALIASES = {
   'cbte.wrabf.rifle_international': ['wrabf', 'benchrest', 'bench rest', 'rimfire international sporter', 'international sporter rifle'],
   'cbte.duelo.10m': ['duelo 20 segundos 10 m', 'duelo 20 segundos 10m', 'duelo 20s 10m', 'duel 10m', '20 second duel', '20 seconds duel', '20 second duel 10 m', '20 second duel 10m', '10 m 20 second duel', '10m 20 second duel'],
@@ -637,7 +639,8 @@ function requestedEquipmentTypes(normalizedQuery) {
 }
 function equipmentCardsForQuery(query, presentationRoutes) {
   const normalizedQuery = normalize(query);
-  const asksEquipment = EQUIPMENT_MEASUREMENT_TERMS.test(normalizedQuery) || EQUIPMENT_REQUEST_TERMS.test(normalizedQuery);
+  const asksEquipment = EQUIPMENT_MEASUREMENT_TERMS.test(normalizedQuery) || EQUIPMENT_REQUEST_TERMS.test(normalizedQuery)
+    || WSPS_GENERAL_EQUIPMENT_TERMS.test(normalizedQuery);
   if (!asksEquipment) return [];
   const equipmentCardsAll = [...new Map([
     ...equipmentCards,
@@ -648,8 +651,16 @@ function equipmentCardsForQuery(query, presentationRoutes) {
   const requestedTopics = requestedEquipmentTopics(normalizedQuery);
   const authorityHints = new Set(['issf', 'wsps', 'cbte'].filter((authority) => new RegExp(`\\b${authority}\\b`).test(normalizedQuery)));
   const hasExplicitProofContext = routeSet.size > 0;
-  if (!requestedTypes.size && !hasExplicitProofContext) return [];
+  const wspsGeneralEquipmentCardId = 'WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1';
+  const wspsKeywordIntent = WSPS_GENERAL_EQUIPMENT_TERMS.test(normalizedQuery)
+    || (authorityHints.has('wsps') && EQUIPMENT_REQUEST_TERMS.test(normalizedQuery));
+  const wspsRouteContext = authorityHints.has('wsps') || [...routeSet].some((routeId) => routeId.startsWith('wsps.event.'));
+  const explicitOtherAuthority = authorityHints.has('issf') || authorityHints.has('cbte')
+    || [...routeSet].some((routeId) => !routeId.startsWith('wsps.event.'));
+  const wspsGeneralEquipmentIntent = wspsKeywordIntent && (wspsRouteContext || !explicitOtherAuthority);
+  if (!requestedTypes.size && !hasExplicitProofContext && !wspsGeneralEquipmentIntent) return [];
   const selectedCards = equipmentCardsAll.filter((card) => {
+    if (card.cardId === wspsGeneralEquipmentCardId) return wspsGeneralEquipmentIntent;
     const applicableRoutes = [card.eventId, ...(card.eventIds ?? []), ...(card.applicableRouteIds ?? [])].filter(Boolean);
     if (hasExplicitProofContext && !applicableRoutes.some((routeId) => routeSet.has(routeId))) return false;
     if (!hasExplicitProofContext && authorityHints.size) {
@@ -666,6 +677,12 @@ function equipmentCardsForQuery(query, presentationRoutes) {
     return [...requestedTypes].some((type) => cardTypes.has(type))
       && [...requestedTopics].every((topic) => cardTopics.has(topic));
   });
+  // Generic WSPS equipment questions (chairs, tables, backrests, springs,
+  // bib position, etc.) belong to the dedicated overview card. Do not fan
+  // them out to every equipment card merely because no event route was named.
+  if (wspsGeneralEquipmentIntent && !hasExplicitProofContext) {
+    return selectedCards.filter((card) => card.cardId === wspsGeneralEquipmentCardId);
+  }
   const trapNationalCard = equipmentCardsAll.find((card) => card.cardId === 'CBTE_TRAP_NACIONAL_EQUIPMENT_AMMUNITION_V1');
   const relatedCbteFossaEquipment = trapNationalCard
     && routeSet.has('cbte.shotgun.automatic_trap')
@@ -707,7 +724,8 @@ function cardsFor(record, query) {
         && !(routeId === 'issf.event.08' && /\b(standard|rapid|tiro rapido|fogo central|centre fire|center fire|centerfire|rfp|rfpm)\b/.test(normalized)))
       .map(([routeId]) => routeId)
     : [];
-  let resolvedRoutes = resolveNamedEventRoutes(query);
+  const lexicalQueryRoutes = resolveNamedEventRoutes(query);
+  let resolvedRoutes = [...lexicalQueryRoutes];
   // When an exact Atlas record has already been selected, its single event route
   // is the card context. Lexical event aliases can resolve to a neighboring or
   // broader card route even though the selected Q&A has an unambiguous route.
@@ -721,19 +739,33 @@ function cardsFor(record, query) {
     const issfScopedRoutes = resolveNamedEventRoutes(`${query} ISSF`).filter((routeId) => routeId.startsWith('issf.event.'));
     if (issfScopedRoutes.length) resolvedRoutes = issfScopedRoutes;
   }
-  const recordRoutes = resolvedRoutes.length ? resolvedRoutes : record?.routeIds ?? [];
-  const equipmentIntent = EQUIPMENT_MEASUREMENT_TERMS.test(normalized) || EQUIPMENT_REQUEST_TERMS.test(normalized);
-  const explicitAuthorityConflict = /\b(issf|wsps)\b/.test(normalized);
-  const presentationAliasRoutes = explicitAuthorityConflict ? [] : cardPresentationRouteHints(query);
+  const wspsGeneralEquipmentKeyword = WSPS_GENERAL_EQUIPMENT_TERMS.test(normalized);
   const explicitWspsCodeRoutes = /\bwsps\b/.test(normalized)
     ? cardPresentationRouteHints(query).filter((routeId) => routeId.startsWith('wsps.event.'))
     : [];
-  const routeContextForCards = resolvedRoutes.length
+  const explicitOtherAuthorityContext = /\b(?:issf|cbte)\b/.test(normalized)
+    || lexicalQueryRoutes.some((routeId) => !routeId.startsWith('wsps.event.'));
+  const wspsGeneralEquipmentOnly = wspsGeneralEquipmentKeyword
+    && !explicitOtherAuthorityContext
+    && explicitWspsCodeRoutes.length === 0;
+  const recordRoutes = wspsGeneralEquipmentOnly ? [] : resolvedRoutes.length ? resolvedRoutes : record?.routeIds ?? [];
+  const wspsGeneralEquipmentContext = /\bwsps\b/.test(normalized)
+    || lexicalQueryRoutes.some((routeId) => routeId.startsWith('wsps.event.'))
+    || recordRoutes.some((routeId) => routeId.startsWith('wsps.event.'));
+  const wspsGeneralEquipmentIntent = wspsGeneralEquipmentKeyword
+    && !explicitOtherAuthorityContext
+    && (wspsGeneralEquipmentContext || !resolvedRoutes.length);
+  const equipmentIntent = EQUIPMENT_MEASUREMENT_TERMS.test(normalized)
+    || EQUIPMENT_REQUEST_TERMS.test(normalized)
+    || wspsGeneralEquipmentIntent;
+  const explicitAuthorityConflict = /\b(issf|wsps)\b/.test(normalized);
+  const presentationAliasRoutes = explicitAuthorityConflict ? [] : cardPresentationRouteHints(query);
+  const routeContextForCards = !wspsGeneralEquipmentOnly && resolvedRoutes.length
     ? resolvedRoutes
     : equipmentIntent
       ? (explicitAuthorityConflict ? cardPresentationRouteHints(query) : presentationAliasRoutes)
       : recordRouteIds.filter((routeId) => routeId !== 'renate.alphaomega');
-  const cardPresentationRoutes = [...new Set([
+  const cardPresentationRoutes = wspsGeneralEquipmentOnly ? [] : [...new Set([
     ...(explicitWspsCodeRoutes.length ? explicitWspsCodeRoutes : routeContextForCards),
     ...(!routeContextForCards.length && !explicitWspsCodeRoutes.length ? presentationAliasRoutes : []),
   ])];
@@ -742,7 +774,7 @@ function cardsFor(record, query) {
   const asksEquipment = /\b(arma|armas|espingarda|rifle|carabina|pistola|revolver|calibre|municao|cartucho|equipamento|mira|luneta|bipe|apoio|gatilho|colete|oculos|dimensoes|peso)\b/.test(normalized);
   const asksEquipmentDetail = /\b(arma|armas|espingarda|calibre|municao|cartucho|equipamento|mira|luneta|bipe|apoio|gatilho|colete|oculos|dimensoes|medidas|medida|peso|caixa|gabarito)\b/.test(normalized);
   const routes = new Set(cards.map((card) => card.eventId));
-  const namedRoutes = new Set([...routes].filter((route) => {
+  const namedRoutes = new Set(wspsGeneralEquipmentOnly ? [] : [...routes].filter((route) => {
     const match = route.match(/^wsps\.event\.([pr])(\d+)$/);
     if (!match) return false;
     const [, letter, number] = match;
@@ -756,8 +788,11 @@ function cardsFor(record, query) {
   // The event resolver is authoritative when it identifies one route. The
   // older token-only WSPS shortcuts can otherwise select a broad or different
   // card (for example, Mixed Team Rifle R11 matching the P6 pistol card).
-  const selectedCardRoutes = new Set(resolvedRoutes.length ? resolvedRoutes : namedRoutes);
-  if (!selectedCardRoutes.size && singleIssfRecordRoute.length) selectedCardRoutes.add(singleIssfRecordRoute[0]);
+  const resolvedRoutesForCards = wspsGeneralEquipmentOnly ? [] : resolvedRoutes;
+  const selectedCardRoutes = new Set(explicitWspsCodeRoutes.length
+    ? explicitWspsCodeRoutes
+    : resolvedRoutesForCards.length ? resolvedRoutesForCards : namedRoutes);
+  if (!wspsGeneralEquipmentOnly && !selectedCardRoutes.size && singleIssfRecordRoute.length) selectedCardRoutes.add(singleIssfRecordRoute[0]);
   let eligible = cards.filter((card) => selectedCardRoutes.has(card.eventId));
   const finalPhaseRequested = queryRequestsFinalPhase(normalized);
   const qualificationFinalProgression = queryReferencesQualificationFinalProgression(normalized);
@@ -833,8 +868,9 @@ function cardsFor(record, query) {
     namedModalityCards = [...new Map([...specificRouteCards, ...relevantEquipmentCards]
       .map((card) => [card.cardId, card])).values()];
     namedModalityCards.sort((a, b) => Number(b.eventId === singleCbteRoute) - Number(a.eventId === singleCbteRoute));
-  } else if (namedModalityCards.some((card) => card.cardId?.startsWith('issf.pistol.specifications.'))) eligible = [];
-  const prioritizedEquipmentCards = equipmentCardsForQuery(query, cardPresentationRoutes);
+  } else if (!explicitWspsCodeRoutes.length
+      && namedModalityCards.some((card) => card.cardId?.startsWith('issf.pistol.specifications.'))) eligible = [];
+  const prioritizedEquipmentCards = equipmentCardsForQuery(query, wspsGeneralEquipmentOnly ? [] : cardPresentationRoutes);
   const presentationProofCards = equipmentIntent && cardPresentationRoutes.length === 1
     ? cardPresentationRoutes.flatMap((routeId) => phaseFiltered.filter((card) => card.eventId === routeId
       && card.phase === (queryRequestsFinalPhase(normalized) ? 'final' : 'qualification')))
@@ -855,7 +891,18 @@ function cardsFor(record, query) {
     if (card.category !== 'equipment') return card;
     const applicableRoutes = [card.eventId, ...(card.eventIds ?? []), ...(card.applicableRouteIds ?? [])].filter(Boolean);
     const sourceIds = (card.sourceReferences ?? []).map((reference) => reference.document_source_id ?? reference.source_id).filter(Boolean);
-    const cardFigures = figureCropsFor(applicableRoutes, sourceIds, query);
+    let cardFigures = figureCropsFor(applicableRoutes, sourceIds, query);
+    if (card.cardId === 'WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1') {
+      const relevantFigureIds = new Set([
+        'wsps-start-bib-backrest-score-p16', 'wsps-shooting-chair-high-stool-p29-30',
+        'wsps-wheelchair-chair-table-rules-p31', 'wsps-chair-backrest-dimensions-p32-33', 'wsps-chair-seat-and-flexible-backrest-p32',
+        'wsps-shooting-table-and-kneeling-block-p34-35', 'wsps-pistol-table-dimensions-p36',
+        'wsps-appendix5-sh2-support-spring-overview-p24', 'wsps-appendix5-spring-flexibility-p26',
+        'wsps-appendix5-spring-test-bar-p27', 'wsps-appendix5-sh2-upper-support-dimensions-p25',
+        'wsps-appendix5-sh2-rifle-yoke-configuration-p28',
+      ]);
+      cardFigures = cardFigures.filter((figure) => relevantFigureIds.has(figure.figure_id));
+    }
     return cardFigures.length ? { ...card, figureCrops: cardFigures } : card;
   });
 }

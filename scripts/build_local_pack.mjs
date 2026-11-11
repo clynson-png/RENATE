@@ -1814,6 +1814,63 @@ if (errors.length) {
     alphaomegaPriority: true, sourceReviewState: 'SOURCE_BOUND_LOCAL_RULES_SCOPE_DISCLOSURE',
     applicableRouteIds: ['wsps.event.r7', 'wsps.event.r8'],
   });
+  const wspsGeneralEquipmentRulebook = sourceReferenceForLocalDocument('ADANA-SRC-892D95743F291E6F', [
+    '2.11.6.1–2.11.6.2, p. 16', '3.7.1–3.7.13.5, pp. 29–34',
+    '3.8.1.1–3.8.1.8, pp. 34–35', '3.8.2.1–3.8.2.2, p. 36', '3.9.1–3.9.13.3, pp. 36–38',
+  ]);
+  const wspsGeneralEquipmentAppendix = sourceReferenceForLocalDocument('ADANA-SRC-3B1650384F55C206', [
+    'Appendix 5 §§1–5, pp. 24–28',
+  ]);
+  const wspsAllEquipmentRoutes = [
+    ...Array.from({ length: 11 }, (_, index) => `wsps.event.r${index + 1}`),
+    ...Array.from({ length: 6 }, (_, index) => `wsps.event.p${index + 1}`),
+    ...Array.from({ length: 3 }, (_, index) => `wsps.event.pt${index + 1}`),
+    'wsps.event.vis', 'wsps.event.vip',
+  ];
+  equipmentCards.push({
+    cardId: 'WSPS_GENERAL_EQUIPMENT_CHAIRS_TABLE_BACKREST_SH2_V1',
+    eventId: 'wsps.event.r1', eventIds: wspsAllEquipmentRoutes,
+    applicableRouteIds: wspsAllEquipmentRoutes,
+    authority: 'WSPS', event: 'WSPS · cadeira, mesa, encosto e suporte SH2',
+    title: 'WSPS — cadeiras, mesas, encosto e suporte de tiro',
+    phase: 'equipment', category: 'equipment', role: 'normative_evidence',
+    imagePath: null, imageSha256: null, imageKind: 'local_equipment_card',
+    imageAlt: 'Card textual WSPS com dimensões normativas e recortes das páginas oficiais quando disponíveis.',
+    displaySections: [
+      { heading: 'Cadeira de tiro, cadeira de rodas e bancos', items: [
+        '“Cadeira de tiro” é qualquer objeto no qual o atleta se senta para atirar: inclui cadeira de rodas, cadeira, assento, banco e banco alto. O banco alto permite atirar em posição de pé com os pés no piso e o corpo apoiado no assento. (WSPS 3.7.1–3.7.1.1)',
+        'Banco baixo: o regulamento não cria uma categoria dimensional separada chamada “banco baixo”; aplicam-se as regras gerais de cadeira de tiro. Para tiro sentado em cadeira de tiro, exceto banco alto, a linha central do cano não pode ultrapassar 150 cm acima do piso. É uma altura medida do piso até a linha central do cano, não uma distância entre arma e banco. (WSPS 3.7.2)',
+        'Banco alto: altura do assento igual ou superior à altura do meio da coxa do atleta e máxima igual ao comprimento interno da perna menos 7 cm; a classificação mede e registra a altura na licença WSPS. Base máxima de 60 × 60 cm, com 3 ou 4 pernas independentes, sem ligação entre elas. Assento circular ou retangular; assento de bicicleta só é permitido para amputação na articulação do quadril. Os pés não podem tocar a base e devem ficar à frente da parte dianteira do assento. (WSPS 3.7.1.1(a)–(f))',
+        'Cadeira de rodas: a altura das rodas não pode exceder a altura do quadril do atleta sentado, e o quadril não pode tocar as rodas. Não se pode modificar ou acrescentar material para estabilizar pelve/coluna; não se pode apoiar nos postes laterais ou rodas para ganhar estabilidade. Os braços da cadeira não usados para fixar mesa/prancha devem ser removidos conforme a posição. (WSPS 3.7.5–3.7.9.2)',
+        'Para cadeira de tiro que não seja cadeira de rodas, o ângulo do assento pode variar até ±5° em qualquer direção. Na cadeira de rodas, o eixo lateral deve permanecer horizontal, com tolerância de ±5°. Almofada/cushion: deve caber na área do assento; em cadeira, máximo 50 × 50 cm. Célula de ar programável é proibida e não pode haver almofada entre encosto e corpo. (WSPS 3.7.10–3.7.11.3)',
+      ] },
+      { heading: 'Encosto, classificação A/B/C e bib number', items: [
+        'Encosto flexível: folga/alongamento máximo de 8 cm. Encosto rígido: plano ou curvo, mas a profundidade máxima da curva é 3 cm, inclusive com estofamento compressível comprimido. A medição é feita com o atleta sentado na cadeira e na posição de tiro. (WSPS 3.7.12.1–3.7.12.2)',
+        'Score A, B e C são categorias de “Visible Free Height” do encosto, não classes de dimensão do banco. A: pode haver apoio alto para descanso entre tiros, mas deve haver claramente ausência de contato ao disparar. B: pelo menos 60% do comprimento total das costas fica acima do encosto; mede-se a partir da vértebra C7 e o mínimo é registrado na classificação e licença WSPS. C: a medida também parte da C7 e é registrada; nenhuma parte do encosto pode ultrapassar a altura livre mínima anotada na licença. (WSPS 3.7.13.1–3.7.13.4)',
+        'Posição do bib: score A, bib nas costas do atleta; score B ou C, bib na parte de trás da cadeira, sem cobrir a fita que marca a altura livre visível. (WSPS 2.11.6.1–2.11.6.2; 3.7.13.5(c))',
+      ] },
+      { heading: 'Mesa de tiro, apoio de joelho e mesa de pistola', items: [
+        'Rifle: todos os componentes da mesa devem caber em diâmetro máximo de 90 cm e dentro dos limites do posto de tiro. A forma é livre; uma borda pequena só pode impedir que objetos caiam, sem apoiar/estabilizar o atleta. A mesa pode prender-se à cadeira ou ficar independente. Deve ficar horizontal ou no ângulo do piso, tolerância ±5°. Apoio corporal só é permitido na posição deitado. (WSPS 3.8.1.1–3.8.1.5)',
+        'Revestimento da mesa/prancha: material compressível até 2 cm de espessura, uniforme para os dois cotovelos; não pode haver cavidade. (WSPS 3.8.1.6)',
+        'Apoio de cotovelo ajoelhado (“disco”/bloco de 10 cm): superfície máxima de 10 cm de diâmetro. Pode ser uma pequena mesa com essa superfície ou uma placa removível montada sobre a mesa maior, com 10 cm de diâmetro e espessura mínima de 20 mm. (WSPS 3.8.1.7(a)–(b))',
+        'Pistola: mesa adicional só pode ser autorizada quando a bancada fixa impedir aproximação/apoio ou comprometer a posição/operação segura; deve ser apresentada ao Controle de Equipamento e aprovada caso a caso pela Jury. Se permitida, máximo 30 × 30 cm e altura máxima 100 cm; não pode dar apoio extra ao atleta durante o tiro. (WSPS 3.8.2.1–3.8.2.2)',
+      ] },
+      { heading: 'Garfo/fork (yoke) e mola do suporte SH2', items: [
+        'Todos os atletas SH2 devem usar suporte de rifle aprovado. A classificação avalia a força muscular do braço que sustenta a coronha e atribui subclasse minúscula “a” ou “b”; essa letra define qual mola usar e fica registrada na licença WSPS. (WSPS 3.9.1–3.9.4)',
+        'Subclasse a = mola fraca, peça plástica branca, flexibilidade mínima de 35 mm. Subclasse b = mola forte, peça plástica preta, flexibilidade mínima de 25 mm. O teste usa barra de 720 g com tolerância +0/−2 g; barra de 250 g (+2/−0 g) é usada para zerar. As molas são verificadas no Controle de Equipamento. “Rigidez” em perguntas comuns corresponde aqui ao teste regulamentar de flexibilidade/deslocamento mínimo, não a uma força em N/mm. (WSPS 3.9.2–3.9.4; 3.9.13.1–3.9.13.2; Appendix 5 §3.2)',
+        'O rifle não pode tocar simultaneamente os dois lados do garfo. O garfo deve ser pelo menos 1 cm mais largo que a coronha do rifle. O peso total da parte superior do suporte é no máximo 200 g; o conjunto do garfo deve ficar dentro da faixa de 10 cm, ±5 cm do ponto de equilíbrio marcado. A mola e o pino ficam verticais; se a parte inferior for encurtada, restam pelo menos 20 mm para o teste. (WSPS 3.9.5–3.9.12.3)',
+      ] },
+      { heading: 'Vocabulário e escopo', items: [
+        'A/B/C maiúsculos identificam o score do encosto e a altura livre visível; a/b minúsculos identificam a subclasse SH2 e a mola. Não são códigos intercambiáveis. “Disco de joelho” é tratado pela regra como superfície de apoio de cotovelo de 10 cm/10cm block, não como alvo de papel.',
+        'Resumo para consulta geral de equipamento WSPS. A permissão de mesa/apoio depende da posição, classe e configuração do atleta; a classificação, a licença WSPS, o Controle de Equipamento e a Jury determinam os casos individuais.',
+      ] },
+    ],
+    sourceReferences: [wspsGeneralEquipmentRulebook, wspsGeneralEquipmentAppendix].filter(Boolean),
+    evidenceType: 'LOCAL_WSPS_RULEBOOK_AND_APPENDIX_WITH_SHA256_AND_LOCATORS',
+    sourceQnaIds: [],
+    sourceReviewDisclosure: 'Resumo textual das regras WSPS 2026 vFinal, vigente desde 01/01/2026. Inclui medidas mesmo quando a regra não apresenta fotografia; recortes das páginas oficiais acompanham os tópicos com figura/página disponível.',
+    alphaomegaPriority: true, sourceReviewState: 'SOURCE_BOUND_LOCAL_RULES',
+  });
   const issfRifleEquipmentReference = sourceReferenceForLocalDocument('ADANA-SRC-2A79B10E08375DE1', [
     '6.5.3', '6.7', '7.4', '7.5.2.3', '7.5.3.1–7.5.3.6', '7.5.4.1–7.5.4.10',
     '7.5.5.1–7.5.5.6', '7.5.6.1–7.5.6.2', '7.5.8.2', '7.6.1.3(i)',
@@ -2015,23 +2072,54 @@ if (errors.length) {
   const cardApprovalPaths = [
     path.join(root, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json'),
     path.join(root, 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json'),
+    path.join(root, 'docs/beta-offline/CARD_HUMAN_APPROVAL_WSPS_GENERAL_EQUIPMENT_2026-11-11.json'),
   ];
+  // The checked-in catalog is also the canonical snapshot for previously
+  // approved card bytes. Some generated phase-card fields vary by build host;
+  // when that happens, restore the exact prior object only if its own content
+  // hash still matches an explicit human approval.
+  const priorCatalogPath = path.join(outputRoot, 'cards.json');
+  const priorCatalog = fs.existsSync(priorCatalogPath)
+    ? JSON.parse(fs.readFileSync(priorCatalogPath, 'utf8'))
+    : null;
   const cardApprovalSets = cardApprovalPaths.map((approvalPath) => JSON.parse(fs.readFileSync(approvalPath, 'utf8')));
   const approvedCardKeys = new Set(cardApprovalSets.flatMap((approval) => approval.decisions ?? [])
     .filter((decision) => decision.decision === 'APPROVE')
     .map((decision) => `${decision.catalogGroup}\u0000${decision.cardId}\u0000${decision.contentSha256}`));
+  const priorApprovedCardsByKey = new Map([
+    ['standardized', priorCatalog?.cards ?? []],
+    ['eventEvidence', priorCatalog?.eventEvidenceCards ?? []],
+    ['equipment', priorCatalog?.equipmentCards ?? []],
+  ].flatMap(([group, previousCards]) => previousCards.map((card) => {
+    const contentSha256 = crypto.createHash('sha256').update(JSON.stringify(card), 'utf8').digest('hex');
+    const key = `${group}\u0000${card.cardId}\u0000${contentSha256}`;
+    return approvedCardKeys.has(key) ? [`${group}\u0000${card.cardId}`, { card, contentSha256 }] : null;
+  }).filter(Boolean)));
   const cardGroups = [
     ['standardized', runtimeCardRecords],
     ['eventEvidence', eventEvidenceCards],
     ['equipment', equipmentCards],
   ];
   const excludedUnapprovedCards = [];
+  const restoredApprovedCards = [];
   for (const [group, cards] of cardGroups) {
     for (let index = cards.length - 1; index >= 0; index -= 1) {
       const card = cards[index];
       const contentSha256 = crypto.createHash('sha256').update(JSON.stringify(card), 'utf8').digest('hex');
       const key = `${group}\u0000${card.cardId}\u0000${contentSha256}`;
       if (approvedCardKeys.has(key)) continue;
+      const priorApproved = priorApprovedCardsByKey.get(`${group}\u0000${card.cardId}`);
+      if (priorApproved) {
+        cards[index] = structuredClone(priorApproved.card);
+        restoredApprovedCards.push({
+          cardId: card.cardId,
+          catalogGroup: group,
+          generatedContentSha256: contentSha256,
+          restoredApprovedContentSha256: priorApproved.contentSha256,
+          reason: 'RESTORED_EXACT_PRIOR_CONTENT_WITH_CURRENT_HUMAN_APPROVAL_HASH',
+        });
+        continue;
+      }
       excludedUnapprovedCards.push({ cardId: card.cardId, catalogGroup: group, contentSha256, reason: 'NO_CURRENT_HASH_MATCHING_HUMAN_APPROVAL' });
       cards.splice(index, 1);
     }
@@ -2039,7 +2127,7 @@ if (errors.length) {
   writeJson('cards.json', { schema: 'RENATE_STANDARDIZED_CARDS_V3', layout: 'RENATE_UNIFIED_CARD_V1', skinReference: 'RENATE_R6_APPROVED_VISUAL_MODEL', cards: runtimeCardRecords, eventEvidenceCards, equipmentCards });
   writeJson('imported-cards-catalog.json', { schema: 'RENATE_IMPORTED_ADANA_CARDS_CATALOG_V1', sourceSnapshot: adanaCardSnapshotPath, sourceSnapshotSha256: sha256(localPath(adanaCardSnapshotPath)), assetPolicy: adanaCardSnapshot.asset_policy, cards: importedCardCatalog, assets: importedCardAssets });
   writeJson('figures.json', { schema: 'RENATE_RULE_PAGE_CROPS_V1', figures: packedFigureCrops });
-  const inputPaths = [atlasPath, supplementPath, tieBreakingSupplementPath, rifleApparelQaPath, alphaomegaAssociationPath, bindingPath, pretestPath, cardPath, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json', 'library/manifest.csv', 'data/imports/user_provided_card_images_2026-11-06/IMAGE_PROVENANCE.json', ...supplementAssetPaths, 'data/imports/renate_generated_cards_2026-11-07/wrabf-front-rest-appendix-g.png', ...targetSprintPhotoFiles.map(({ file }) => `img/${file}`), 'img/WSPS_P3.png', 'img/WSPS_P5.png', 'img/Duelo_20_10m_photo_reused.png', 'img/wrabf_issf.png', 'library/img/CARDS_PROVAS/Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png', ...Object.values(eventPhotoSources).map(([sourcePath]) => sourcePath)];
+  const inputPaths = [atlasPath, supplementPath, tieBreakingSupplementPath, rifleApparelQaPath, alphaomegaAssociationPath, bindingPath, pretestPath, cardPath, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_WSPS_GENERAL_EQUIPMENT_2026-11-11.json', cropManifestPath, ...cropManifest.entries.map((crop) => crop.asset_source_path), 'library/manifest.csv', 'data/imports/user_provided_card_images_2026-11-06/IMAGE_PROVENANCE.json', ...supplementAssetPaths, 'data/imports/renate_generated_cards_2026-11-07/wrabf-front-rest-appendix-g.png', ...targetSprintPhotoFiles.map(({ file }) => `img/${file}`), 'img/WSPS_P3.png', 'img/WSPS_P5.png', 'img/Duelo_20_10m_photo_reused.png', 'img/wrabf_issf.png', 'library/img/CARDS_PROVAS/Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png', ...Object.values(eventPhotoSources).map(([sourcePath]) => sourcePath)];
   const sourceHashes = Object.fromEntries(inputPaths.map((file) => [file, sha256(path.join(root, file))]));
   const manifest = {
     schema: 'RENATE_VERSIONED_LOCAL_PACKAGE_V1',
@@ -2057,6 +2145,8 @@ if (errors.length) {
       standardizedCards: runtimeCardRecords.length + eventEvidenceCards.length + equipmentCards.length,
       humanApprovedCardsOnly: true,
       humanApprovedCardCount: runtimeCardRecords.length + eventEvidenceCards.length + equipmentCards.length,
+      restoredApprovedCardCount: restoredApprovedCards.length,
+      restoredApprovedCards,
       excludedUnapprovedCardCount: excludedUnapprovedCards.length,
       excludedUnapprovedCards,
       runtimeEquipmentCards: equipmentCards.length,
