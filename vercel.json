@@ -1,0 +1,3 @@
+{
+  "buildCommand": "node scripts/guard-login-boundary.mjs && npm run build"
+}

@@ -1,0 +1,94 @@
+{
+  "state": "FAIL",
+  "generatedAt": "2026-11-10T09:51:28.916Z",
+  "scope": "Runtime focado: consulta por nome de prova e chamada de card existente no worker local; não altera route_ids nem Q&A.",
+  "readyCount": 1106,
+  "probeCount": 7,
+  "passed": 6,
+  "failed": 1,
+  "externalRequests": [],
+  "results": [
+    {
+      "query": "WSPS P6 mixed team pistola de ar",
+      "expectedCardId": "wsps.event.p6:qualification",
+      "status": "TOPIC_SUGGESTIONS_REQUIRED",
+      "selectedAtlasId": null,
+      "cardIds": [
+        "issf.pistol.specifications.10m"
+      ],
+      "expectedCardPresented": false
+    },
+    {
+      "query": "WSPS P6 mixed team final",
+      "expectedCardId": "wsps.event.p6:final",
+      "status": "TOPIC_SUGGESTIONS_REQUIRED",
+      "selectedAtlasId": null,
+      "cardIds": [
+        "wsps.event.p6:final"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "query": "WSPS R1 10m air rifle",
+      "expectedCardId": "wsps.event.r1:qualification",
+      "status": "TOPIC_SUGGESTIONS_REQUIRED",
+      "selectedAtlasId": null,
+      "cardIds": [
+        "wsps.event.r1:qualification",
+        "wsps.event.r1:final",
+        "WSPS_PROGRAM_OF_EVENTS_V1"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "query": "ISSF pistola de tiro rapido 25 m",
+      "expectedCardId": "issf.event.09:qualification",
+      "status": "TOPIC_SUGGESTIONS_REQUIRED",
+      "selectedAtlasId": null,
+      "cardIds": [
+        "issf.event.09:qualification",
+        "issf.event.09:final"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "query": "CBTE WRABF Benchrest",
+      "expectedCardId": "cbte.wrabf.rifle_international:qualification",
+      "status": "TOPIC_SUGGESTIONS_REQUIRED",
+      "selectedAtlasId": null,
+      "cardIds": [
+        "CBTE_WRABF_EQUIPMENT_RESTS_V1",
+        "cbte.wrabf.rifle_international:qualification",
+        "cbte.wrabf.rifle_international:wrabf-rimfire-international-sporter-50:qualification",
+        "cbte.wrabf.rifle_international:wrabf-rimfire-light-rifle-50:qualification",
+        "cbte.wrabf.rifle_international:wrabf-rimfire-heavy-rifle-50:qualification",
+        "cbte.wrabf.rifle_international:wrabf-air-light-rifle-25:qualification",
+        "cbte.wrabf.rifle_international:wrabf-air-heavy-rifle-25:qualification",
+        "cbte.wrabf.rifle_international:wrabf-air-unlimited-rifle-50:qualification",
+        "cbte.wrabf.rifle_international:wrabf-air-springer-rifle-25:qualification"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "query": "Trap Nacional CBTE",
+      "expectedCardId": "cbte.shotgun.trap_nacional:qualification",
+      "status": "TOPIC_SUGGESTIONS_REQUIRED",
+      "selectedAtlasId": null,
+      "cardIds": [
+        "cbte.shotgun.trap_nacional:qualification",
+        "cbte.shotgun.trap_nacional:final"
+      ],
+      "expectedCardPresented": true
+    },
+    {
+      "query": "CBTE Duelo 20s 10m",
+      "expectedCardId": "cbte.duelo.10m:qualification",
+      "status": "TOPIC_SUGGESTIONS_REQUIRED",
+      "selectedAtlasId": null,
+      "cardIds": [
+        "cbte.duelo.10m:qualification"
+      ],
+      "expectedCardPresented": true
+    }
+  ]
+}

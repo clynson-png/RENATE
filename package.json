@@ -4,7 +4,7 @@
   "description": "Shell PWA offline do RENATE",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 4173 --strictPort",
-    "build": "vite build && node scripts/generate_sw.mjs",
+    "build": "node scripts/guard-login-boundary.mjs && vite build && node scripts/generate_sw.mjs",
     "preview": "vite preview --host 0.0.0.0 --port 4173 --strictPort",
     "start:local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-renate.ps1",
     "stop:local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-renate.ps1 -Stop",
@@ -12,6 +12,7 @@
     "test:history": "node --test tests/history-store.test.mjs",
     "pretest:browser": "npm run build",
     "test:browser": "node scripts/run_browser_acceptance.mjs",
+    "test:proof-cards": "node scripts/verify_proof_cards_runtime.mjs",
     "test:cards-import": "node scripts/audit_adana_card_import.mjs",
     "test:audio-browser": "node scripts/run_audio_browser_test.mjs",
     "test:model-provenance": "node scripts/verify_model_provenance.mjs",
@@ -29,6 +30,7 @@
   "type": "module",
   "dependencies": {
     "@huggingface/transformers": "^3.8.1",
+    "@opencvjs/web": "^4.13.0-release.1",
     "flexsearch": "^0.8.212",
     "minisearch": "^7.2.0",
     "react": "^19.3.1",

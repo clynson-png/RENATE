@@ -95,6 +95,7 @@ const bindingPath = 'data/imports/day1_2026-11-06/atlas/atlas_source_bindings_20
 const supplementPath = 'data/imports/atlas_supplement_2026-11-07/atlas_qa_renate_supplement_2026-11-07.jsonl';
 const tieBreakingSupplementPath = 'data/imports/tie_breaking_qa_supplement_2026-11-07.jsonl';
 const rifleApparelQaPath = 'data/imports/rifle_apparel_qa_2026-11-08.jsonl';
+const targetRulesQaPath = 'data/imports/target_rules_qa_supplement_2026-11-12.jsonl';
 const qaReconciliationPath = 'data/imports/qa_reconciliation_2026-11-08.json';
 const alphaomegaAssociationPath = 'data/imports/day1_2026-11-06/atlas/alphaomega_question_association_2026-11-06.jsonl';
 const pretestPath = 'data/imports/day1_2026-11-06/chatbot-candidates/pretest_responses_candidate.json';
@@ -105,9 +106,10 @@ const importedAtlas = readJsonl(atlasPath);
 const atlasSupplement = readJsonl(supplementPath);
 const tieBreakingSupplement = readJsonl(tieBreakingSupplementPath);
 const rifleApparelQa = readJsonl(rifleApparelQaPath);
+const targetRulesQa = readJsonl(targetRulesQaPath);
 const alphaomegaAssociations = readJsonl(alphaomegaAssociationPath);
 const alphaomegaQuestionIds = new Set(alphaomegaAssociations.map((row) => row.atlas_id));
-const atlas = [...importedAtlas, ...atlasSupplement, ...tieBreakingSupplement, ...rifleApparelQa];
+const atlas = [...importedAtlas, ...atlasSupplement, ...tieBreakingSupplement, ...rifleApparelQa, ...targetRulesQa];
 const qaReconciliation = readJson(qaReconciliationPath);
 const reconciliationIds = new Set(Object.keys(qaReconciliation.answer_updates));
 for (const row of atlas) {
@@ -228,6 +230,19 @@ for (const row of rifleApparelQa) {
     });
   }
 }
+for (const row of targetRulesQa) {
+  for (const reference of row.source_references ?? []) {
+    bindings.push({
+      atlas_id: row.atlas_id,
+      source_id: reference.source_id,
+      document_source_id: reference.document_source_id,
+      edition: reference.edition,
+      locators: reference.locators ?? [],
+      authority: reference.authority ?? row.authority,
+      status: reference.verification_status ?? 'RENATE_LOCAL_RULEBOOK_HASH_VERIFIED; USER_DIRECTED_QA_IMPORT_2026-11-12',
+    });
+  }
+}
 const pretest = readJson(pretestPath);
 const cardAllowlist = readJson(cardPath);
 const adanaCardSnapshot = readJson(adanaCardSnapshotPath);
@@ -248,6 +263,7 @@ for (const binding of bindings) {
 
 if (importedAtlas.length !== 960) errors.push(`Snapshot de origem ATLAS contém ${importedAtlas.length} linhas; esperado 960.`);
 if (atlasSupplement.length !== 50) errors.push(`Complemento ATLAS RENATE contém ${atlasSupplement.length} linhas; esperado 50.`);
+if (targetRulesQa.length !== 6) errors.push(`Complemento Q&A de regras solicitado em 2026-11-12 contém ${targetRulesQa.length} linhas; esperado 6.`);
 if (tieBreakingSupplement.length < 80) errors.push(`Complemento de empate/desempate contém ${tieBreakingSupplement.length} linhas; esperado ao menos 80 provas.`);
 if (new Set(atlas.map((row) => row.atlas_id)).size !== atlas.length) errors.push('Snapshot ATLAS contém atlas_id duplicado.');
 for (const row of atlas) {
@@ -2127,7 +2143,7 @@ if (errors.length) {
   writeJson('cards.json', { schema: 'RENATE_STANDARDIZED_CARDS_V3', layout: 'RENATE_UNIFIED_CARD_V1', skinReference: 'RENATE_R6_APPROVED_VISUAL_MODEL', cards: runtimeCardRecords, eventEvidenceCards, equipmentCards });
   writeJson('imported-cards-catalog.json', { schema: 'RENATE_IMPORTED_ADANA_CARDS_CATALOG_V1', sourceSnapshot: adanaCardSnapshotPath, sourceSnapshotSha256: sha256(localPath(adanaCardSnapshotPath)), assetPolicy: adanaCardSnapshot.asset_policy, cards: importedCardCatalog, assets: importedCardAssets });
   writeJson('figures.json', { schema: 'RENATE_RULE_PAGE_CROPS_V1', figures: packedFigureCrops });
-  const inputPaths = [atlasPath, supplementPath, tieBreakingSupplementPath, rifleApparelQaPath, alphaomegaAssociationPath, bindingPath, pretestPath, cardPath, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_WSPS_GENERAL_EQUIPMENT_2026-11-11.json', cropManifestPath, ...cropManifest.entries.map((crop) => crop.asset_source_path), 'library/manifest.csv', 'data/imports/user_provided_card_images_2026-11-06/IMAGE_PROVENANCE.json', ...supplementAssetPaths, 'data/imports/renate_generated_cards_2026-11-07/wrabf-front-rest-appendix-g.png', ...targetSprintPhotoFiles.map(({ file }) => `img/${file}`), 'img/WSPS_P3.png', 'img/WSPS_P5.png', 'img/Duelo_20_10m_photo_reused.png', 'img/wrabf_issf.png', 'library/img/CARDS_PROVAS/Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png', ...Object.values(eventPhotoSources).map(([sourcePath]) => sourcePath)];
+  const inputPaths = [atlasPath, supplementPath, tieBreakingSupplementPath, rifleApparelQaPath, targetRulesQaPath, alphaomegaAssociationPath, bindingPath, pretestPath, cardPath, 'docs/beta-offline/CARD_HUMAN_APPROVAL_ALL_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_SUPPLEMENT_6_2026-11-08.json', 'docs/beta-offline/CARD_HUMAN_APPROVAL_WSPS_GENERAL_EQUIPMENT_2026-11-11.json', cropManifestPath, ...cropManifest.entries.map((crop) => crop.asset_source_path), 'library/manifest.csv', 'data/imports/user_provided_card_images_2026-11-06/IMAGE_PROVENANCE.json', ...supplementAssetPaths, 'data/imports/renate_generated_cards_2026-11-07/wrabf-front-rest-appendix-g.png', ...targetSprintPhotoFiles.map(({ file }) => `img/${file}`), 'img/WSPS_P3.png', 'img/WSPS_P5.png', 'img/Duelo_20_10m_photo_reused.png', 'img/wrabf_issf.png', 'library/img/CARDS_PROVAS/Imagem do ChatGPT 29 de set. de 2026, 11_12_14-1.png', ...Object.values(eventPhotoSources).map(([sourcePath]) => sourcePath)];
   const sourceHashes = Object.fromEntries(inputPaths.map((file) => [file, sha256(path.join(root, file))]));
   const manifest = {
     schema: 'RENATE_VERSIONED_LOCAL_PACKAGE_V1',

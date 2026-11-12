@@ -4,6 +4,8 @@ import { createAtlasSearchClient } from './atlasSearchClient.js';
 import { transcribeLocalAudio } from './localSpeech.js';
 import { clarificationDecision } from './clarificationPolicy.js';
 import { getTurnstileSiteKey, isLeadRegistrationConfigured, submitLead } from './leadRegistration.js';
+import TargetReaderView from './target-reader/TargetReaderView.jsx';
+import { canSkipLocalAuth } from './localDevelopmentAuth.js';
 
 const installStateText = { INSTALLING: 'Baixando pacote para uso offline', VERIFYING: 'Verificando o pacote local', READY_OFFLINE: 'Pronto para uso offline', PACK_INCOMPLETE: 'Conteúdo local ainda não conectado', PACK_INCOMPATIBLE: 'Pacote incompatível', OFFLINE_NOT_PREPARED: 'Preparação offline pendente' };
 
@@ -256,8 +258,12 @@ function MessageDetails({ message, sendQuestion }) {
 }
 
 export default function App() {
-  const [pinState, setPinState] = useState('checking');
-  const [unlocked, setUnlocked] = useState(false);
+  const localDevelopmentNoLogin = canSkipLocalAuth({
+    developmentBuild: import.meta.env.DEV,
+    hostname: window.location.hostname,
+  });
+  const [pinState, setPinState] = useState(localDevelopmentNoLogin ? 'ready' : 'checking');
+  const [unlocked, setUnlocked] = useState(localDevelopmentNoLogin);
   const [installPrompt, setInstallPrompt] = useState(null);
   const [installState, setInstallState] = useState('OFFLINE_NOT_PREPARED');
   const [offlinePrepDetail, setOfflinePrepDetail] = useState('');
@@ -282,7 +288,10 @@ export default function App() {
   const hoverTargetRef = useRef(null);
   const speechSourceRef = useRef(null);
 
-  useEffect(() => { Promise.all([hasLocalPin(), hasLeadRegistration()]).then(([hasPin, hasRegistration]) => setPinState(hasPin ? 'unlock' : hasRegistration ? 'install' : 'lead')).catch(() => setPinState('error')); }, []);
+  useEffect(() => {
+    if (localDevelopmentNoLogin) return;
+    Promise.all([hasLocalPin(), hasLeadRegistration()]).then(([hasPin, hasRegistration]) => setPinState(hasPin ? 'unlock' : hasRegistration ? 'install' : 'lead')).catch(() => setPinState('error'));
+  }, [localDevelopmentNoLogin]);
   useEffect(() => {
     const promptHandler = (event) => { event.preventDefault(); setInstallPrompt(event); };
     const readyHandler = (event) => {
@@ -518,11 +527,11 @@ export default function App() {
   async function applyUpdate() { if (window.confirm('Deseja aplicar a atualização disponível?') && window.renateUpdateSW) await window.renateUpdateSW(true); }
   function submitPin() { setPinState('unlock'); setHistoryStatus(''); setUnlocked(true); }
 
-  if (pinState === 'checking') return <main className="pin-gate"><p role="status">Preparando o acesso local…</p></main>;
-  if (pinState === 'error') return <main className="pin-gate"><p role="alert">O armazenamento local está indisponível neste navegador.</p></main>;
-  if (pinState === 'lead') return <LeadRegistrationGate onComplete={(message) => { setHistoryStatus(message); setPinState('install'); }} />;
-  if (pinState === 'install') return <InstallGate prompt={installPrompt} onInstall={installApp} onContinue={completeInstallStep} status={historyStatus || offlinePrepDetail} />;
-  if (!unlocked) return <PinGate setup={pinState === 'setup'} onUnlock={submitPin}/>;
+  if (!localDevelopmentNoLogin && pinState === 'checking') return <main className="pin-gate"><p role="status">Preparando o acesso local…</p></main>;
+  if (!localDevelopmentNoLogin && pinState === 'error') return <main className="pin-gate"><p role="alert">O armazenamento local está indisponível neste navegador.</p></main>;
+  if (!localDevelopmentNoLogin && pinState === 'lead') return <LeadRegistrationGate onComplete={(message) => { setHistoryStatus(message); setPinState('install'); }} />;
+  if (!localDevelopmentNoLogin && pinState === 'install') return <InstallGate prompt={installPrompt} onInstall={installApp} onContinue={completeInstallStep} status={historyStatus || offlinePrepDetail} />;
+  if (!localDevelopmentNoLogin && !unlocked) return <PinGate setup={pinState === 'setup'} onUnlock={submitPin}/>;
 
   return <div className="app-shell">
     {mobileNavOpen && <button className="sidebar-scrim" aria-label="Fechar menu" onClick={() => setMobileNavOpen(false)} />}
@@ -533,12 +542,12 @@ export default function App() {
       {historyStatus && <p className="history-status" role="status">{historyStatus}</p>}
       <div className="sidebar-section-title history-heading">HISTÓRICO LOCAL</div>
       <nav className="conversation-list" aria-label="Conversas salvas neste dispositivo">{conversations.map((item) => <div className={`conversation-item ${item.id === activeConversation?.id ? 'selected' : ''}`} key={item.id}><button className="conversation-open" onClick={() => openLocalConversation(item.id)} type="button" title={item.title}><span className="conversation-title">{item.title}</span><span className="conversation-date">{new Intl.DateTimeFormat('pt-BR', { dateStyle: 'short', timeStyle: 'short' }).format(item.updatedAt)}</span></button><button className="delete-chat" onClick={() => removeLocalConversation(item.id)} type="button" aria-label={`Apagar ${item.title}`}>×</button></div>)}{!conversations.length && <p className="history-empty">As conversas ficam salvas neste dispositivo.</p>}</nav>
-      <div className="sidebar-section-title">NAVEGAÇÃO</div><nav className="side-nav" aria-label="Navegação principal"><button className={`side-nav-item ${activeView === 'conversation' ? 'selected' : ''}`} type="button" onClick={() => { setActiveView('conversation'); setMobileNavOpen(false); }}><span>◉</span> Conversa</button><button className={`side-nav-item ${activeView === 'library' ? 'selected' : ''}`} type="button" onClick={() => { setActiveView('library'); setMobileNavOpen(false); }}><span>▤</span> Biblioteca de regras</button><button className="side-nav-item" type="button" onClick={() => { setActiveView('conversation'); setMobileNavOpen(false); document.querySelector('.local-card')?.scrollIntoView({ behavior: 'smooth' }); }}><span>▧</span> Cards da conversa</button></nav>
+      <div className="sidebar-section-title">NAVEGAÇÃO</div><nav className="side-nav" aria-label="Navegação principal"><button className={`side-nav-item ${activeView === 'conversation' ? 'selected' : ''}`} type="button" onClick={() => { setActiveView('conversation'); setMobileNavOpen(false); }}><span>◉</span> Conversa</button><button className={`side-nav-item ${activeView === 'library' ? 'selected' : ''}`} type="button" onClick={() => { setActiveView('library'); setMobileNavOpen(false); }}><span>▤</span> Biblioteca de regras</button><button className={`side-nav-item ${activeView === 'target-reader' ? 'selected' : ''}`} type="button" onClick={() => { setActiveView('target-reader'); setMobileNavOpen(false); }}><span>◎</span> Ler alvos</button><button className="side-nav-item" type="button" onClick={() => { setActiveView('conversation'); setMobileNavOpen(false); document.querySelector('.local-card')?.scrollIntoView({ behavior: 'smooth' }); }}><span>▧</span> Cards da conversa</button></nav>
       <div className="sidebar-footer"><span className={`status-dot ${installState === 'READY_OFFLINE' ? 'ready' : ''}`} /><span>{installStateText[installState]}</span><small>{offlinePrepDetail || (atlasReady ? 'Busca local · pacote em verificação.' : 'Preparando busca local…')}</small></div>
     </aside>
     <main className="main-panel">
-      <header className="topbar"><button className="mobile-menu" aria-label="Abrir menu" onClick={() => setMobileNavOpen(true)}>☰</button><div className="mobile-brand"><img className="renate-logo" src="/brand/renate-logo.png" alt="RENATE — Regras Nacionais de Tiro Esportivo" /></div><div className="topbar-actions">{installPrompt && <button className="outline-button" onClick={installApp}>Instalar app</button>}{refreshAvailable && <button className="outline-button" onClick={applyUpdate}>Atualização disponível</button>}<button className={`icon-button audio-accessibility ${audioAccessibilityEnabled ? 'audio-active' : ''}`} type="button" onClick={toggleAudioAccessibility} aria-label={audioAccessibilityEnabled ? 'Desativar acessibilidade visual por áudio' : 'Ativar acessibilidade visual por áudio'} aria-pressed={audioAccessibilityEnabled} title="Leitura com voz pt-BR local">{audioAccessibilityEnabled ? '🔊' : '🔈'}</button><button className="outline-button" onClick={() => { clearHoverRead(true); speechSourceRef.current = null; window.speechSynthesis?.cancel(); setUnlocked(false); }}>Bloquear</button><span className="beta-pill">BETA</span></div></header>
-      {activeView === 'library' ? <LocalLibraryView/> : <><section className={`conversation-view ${activeConversation ? 'has-history' : ''}`} aria-labelledby="welcome-title" onPointerOver={handleAudioPointerOver} onPointerOut={handleAudioPointerOut} onFocusCapture={handleAudioFocus} onBlurCapture={handleAudioBlur}>
+      <header className="topbar"><button className="mobile-menu" aria-label="Abrir menu" onClick={() => setMobileNavOpen(true)}>☰</button><div className="mobile-brand"><img className="renate-logo" src="/brand/renate-logo.png" alt="RENATE — Regras Nacionais de Tiro Esportivo" /></div><div className="topbar-actions">{installPrompt && <button className="outline-button" onClick={installApp}>Instalar app</button>}{refreshAvailable && <button className="outline-button" onClick={applyUpdate}>Atualização disponível</button>}<button className={`icon-button audio-accessibility ${audioAccessibilityEnabled ? 'audio-active' : ''}`} type="button" onClick={toggleAudioAccessibility} aria-label={audioAccessibilityEnabled ? 'Desativar acessibilidade visual por áudio' : 'Ativar acessibilidade visual por áudio'} aria-pressed={audioAccessibilityEnabled} title="Leitura com voz pt-BR local">{audioAccessibilityEnabled ? '🔊' : '🔈'}</button>{!localDevelopmentNoLogin && <button className="outline-button" onClick={() => { clearHoverRead(true); speechSourceRef.current = null; window.speechSynthesis?.cancel(); setUnlocked(false); }}>Bloquear</button>}<span className="beta-pill">BETA</span></div></header>
+      {activeView === 'library' ? <LocalLibraryView/> : activeView === 'target-reader' ? <TargetReaderView/> : <><section className={`conversation-view ${activeConversation ? 'has-history' : ''}`} aria-labelledby="welcome-title" onPointerOver={handleAudioPointerOver} onPointerOut={handleAudioPointerOut} onFocusCapture={handleAudioFocus} onBlurCapture={handleAudioBlur}>
         {activeConversation ? <div className="saved-conversation" aria-live="polite"><h2>{activeConversation.title}</h2>{activeConversation.messages.map((message, index) => <article className={`saved-message ${message.role === 'user' ? 'user-message' : 'assistant-message'}`} key={`${activeConversation.id}-${index}`}><strong>{message.role === 'user' ? 'Você' : 'RENATE'}</strong>{message.role === 'user' ? <p>{message.text}</p> : <MessageDetails message={message} sendQuestion={sendQuestion}/>}</article>)}</div> : <div className="welcome-card"><div className="eyebrow"><span /> ASSISTENTE ESPORTIVO OFFLINE</div><h1 id="welcome-title">Como posso ajudar?</h1><p>Faça uma pergunta sobre regras, equipamentos ou provas. Perguntas, respostas e histórico ficam salvos somente neste dispositivo.</p><div className="pack-notice" role="status"><span className="notice-icon">i</span><span><strong>{atlasReady ? 'Pacote local preparado.' : 'Preparando pacote local.'}</strong> {atlasReady ? 'Busca no ATLAS, pretestes, regras e cards locais.' : 'O campo será liberado após validar os dados.'}</span></div><div className="suggestion-grid" aria-label="Exemplos de perguntas"><span>Regras da prova</span><span>Equipamentos</span><span>Cards e fontes</span></div></div>}
       </section>
       <footer className="composer-wrap"><form className="composer" onSubmit={(event) => { event.preventDefault(); sendQuestion(draft); }}><textarea aria-label="Pergunta" placeholder={atlasReady ? 'Escreva sua pergunta…' : 'Preparando conteúdo local…'} value={draft} onChange={(event) => setDraft(event.target.value)} disabled={!atlasReady} rows="1" onKeyDown={(event) => { if (event.key === 'Enter' && !event.shiftKey) { event.preventDefault(); event.currentTarget.form.requestSubmit(); } }}/><div className="composer-controls"><span className="composer-hint">{speechStatus || (atlasReady ? 'Busca local · PIN · histórico no dispositivo.' : 'Preparando busca local.')}</span><div className="composer-buttons"><button className={`icon-button ${recording ? 'recording' : ''}`} type="button" onClick={toggleRecording} disabled={!atlasReady} aria-label={recording ? 'Parar gravação' : 'Perguntar por áudio'} title="Transcrição Whisper Tiny offline">{recording ? '■' : '♩'}</button><button className="send-button" type="submit" disabled={!atlasReady || !draft.trim()} aria-label="Enviar pergunta">↑</button></div></div></form>{audioStatus && <p className="audio-status" role="status">{audioStatus}</p>}<p className="disclaimer">RENATE BETA · A leitura por áudio usa apenas voz pt-BR local disponível no aparelho; a resposta textual permanece visível.</p></footer></>}
